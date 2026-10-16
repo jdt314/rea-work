@@ -1,0 +1,4907 @@
+ #0x13
+101775eb8:	mov	w3, #0x6
+101775ebc:	mov	w4, #0x0
+101775ec0:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775ec4:	brk	#0x1
+101775ec8:	stp	x29, x30, [sp, #-0x10]!
+101775ecc:	mov	x29, sp
+101775ed0:	adrp	x0, 581 ; 0x1019ba000
+101775ed4:	add	x0, x0, #0xaa0 ; literal pool for: "RevenueCat.Offerings"
+101775ed8:	adrp	x2, 585 ; 0x1019be000
+101775edc:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775ee0:	mov	w1, #0x14
+101775ee4:	mov	w3, #0x6
+101775ee8:	mov	w4, #0x0
+101775eec:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775ef0:	brk	#0x1
+101775ef4:	stp	x29, x30, [sp, #-0x10]!
+101775ef8:	mov	x29, sp
+101775efc:	adrp	x0, 581 ; 0x1019ba000
+101775f00:	add	x0, x0, #0xf50 ; literal pool for: "RevenueCat.TargetingContext"
+101775f04:	adrp	x2, 585 ; 0x1019be000
+101775f08:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775f0c:	mov	w1, #0x1b
+101775f10:	mov	w3, #0x6
+101775f14:	mov	w4, #0x0
+101775f18:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775f1c:	brk	#0x1
+101775f20:	stp	x29, x30, [sp, #-0x10]!
+101775f24:	mov	x29, sp
+101775f28:	adrp	x0, 581 ; 0x1019ba000
+101775f2c:	add	x0, x0, #0xf70 ; literal pool for: "RevenueCat.PresentedOfferingContext"
+101775f30:	adrp	x2, 585 ; 0x1019be000
+101775f34:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775f38:	mov	w1, #0x23
+101775f3c:	mov	w3, #0x6
+101775f40:	mov	w4, #0x0
+101775f44:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775f48:	brk	#0x1
+101775f4c:	stp	x29, x30, [sp, #-0x10]!
+101775f50:	mov	x29, sp
+101775f54:	adrp	x0, 581 ; 0x1019ba000
+101775f58:	add	x0, x0, #0xfa0 ; literal pool for: "RevenueCat.Package"
+101775f5c:	adrp	x2, 585 ; 0x1019be000
+101775f60:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775f64:	mov	w1, #0x12
+101775f68:	mov	w3, #0x6
+101775f6c:	mov	w4, #0x0
+101775f70:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775f74:	brk	#0x1
+101775f78:	stp	x29, x30, [sp, #-0x10]!
+101775f7c:	mov	x29, sp
+101775f80:	adrp	x0, 582 ; 0x1019bb000
+101775f84:	add	x0, x0, #0x190 ; literal pool for: "RevenueCat.Attribution"
+101775f88:	adrp	x2, 585 ; 0x1019be000
+101775f8c:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775f90:	mov	w1, #0x16
+101775f94:	mov	w3, #0x6
+101775f98:	mov	w4, #0x0
+101775f9c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775fa0:	brk	#0x1
+101775fa4:	stp	x29, x30, [sp, #-0x10]!
+101775fa8:	mov	x29, sp
+101775fac:	adrp	x0, 582 ; 0x1019bb000
+101775fb0:	add	x0, x0, #0x500 ; literal pool for: "RevenueCat.PurchaseParams"
+101775fb4:	adrp	x2, 585 ; 0x1019be000
+101775fb8:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775fbc:	mov	w1, #0x19
+101775fc0:	mov	w3, #0x6
+101775fc4:	mov	w4, #0x0
+101775fc8:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775fcc:	brk	#0x1
+101775fd0:	stp	x29, x30, [sp, #-0x10]!
+101775fd4:	mov	x29, sp
+101775fd8:	adrp	x0, 582 ; 0x1019bb000
+101775fdc:	add	x0, x0, #0x550 ; literal pool for: "RevenueCat.Purchases"
+101775fe0:	adrp	x2, 585 ; 0x1019be000
+101775fe4:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101775fe8:	mov	w1, #0x14
+101775fec:	mov	w3, #0x6
+101775ff0:	mov	w4, #0x0
+101775ff4:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101775ff8:	brk	#0x1
+101775ffc:	stp	x29, x30, [sp, #-0x10]!
+101776000:	mov	x29, sp
+101776004:	adrp	x0, 583 ; 0x1019bd000
+101776008:	add	x0, x0, #0xd30 ; literal pool for: "RevenueCat.BillingPlanType"
+10177600c:	adrp	x2, 584 ; 0x1019be000
+101776010:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776014:	mov	w1, #0x1a
+101776018:	mov	w3, #0x6
+10177601c:	mov	w4, #0x0
+101776020:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776024:	brk	#0x1
+101776028:	stp	x29, x30, [sp, #-0x10]!
+10177602c:	mov	x29, sp
+101776030:	adrp	x0, 583 ; 0x1019bd000
+101776034:	add	x0, x0, #0xd70 ; literal pool for: "RevenueCat.PromotionalOffer"
+101776038:	adrp	x2, 584 ; 0x1019be000
+10177603c:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776040:	mov	w1, #0x1b
+101776044:	mov	w3, #0x6
+101776048:	mov	w4, #0x0
+10177604c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776050:	brk	#0x1
+101776054:	stp	x29, x30, [sp, #-0x10]!
+101776058:	mov	x29, sp
+10177605c:	adrp	x0, 583 ; 0x1019bd000
+101776060:	add	x0, x0, #0xd90 ; literal pool for: "RevenueCat.SignedData"
+101776064:	adrp	x2, 584 ; 0x1019be000
+101776068:	add	x2, x2, #0x210 ; literal pool for: "init()"
+10177606c:	mov	w1, #0x15
+101776070:	mov	w3, #0x6
+101776074:	mov	w4, #0x0
+101776078:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177607c:	brk	#0x1
+101776080:	stp	x29, x30, [sp, #-0x10]!
+101776084:	mov	x29, sp
+101776088:	adrp	x0, 583 ; 0x1019bd000
+10177608c:	add	x0, x0, #0xdf0 ; literal pool for: "RevenueCat.RevocationReason"
+101776090:	adrp	x2, 584 ; 0x1019be000
+101776094:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776098:	mov	w1, #0x1b
+10177609c:	mov	w3, #0x6
+1017760a0:	mov	w4, #0x0
+1017760a4:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017760a8:	brk	#0x1
+1017760ac:	stp	x29, x30, [sp, #-0x10]!
+1017760b0:	mov	x29, sp
+1017760b4:	adrp	x0, 584 ; 0x1019be000
+1017760b8:	add	x0, x0, #0xf0 ; literal pool for: "RevenueCat.StoreProduct"
+1017760bc:	adrp	x2, 584 ; 0x1019be000
+1017760c0:	add	x2, x2, #0x210 ; literal pool for: "init()"
+1017760c4:	mov	w1, #0x17
+1017760c8:	mov	w3, #0x6
+1017760cc:	mov	w4, #0x0
+1017760d0:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017760d4:	brk	#0x1
+1017760d8:	stp	x29, x30, [sp, #-0x10]!
+1017760dc:	mov	x29, sp
+1017760e0:	adrp	x0, 584 ; 0x1019be000
+1017760e4:	add	x0, x0, #0x1f0 ; literal pool for: "RevenueCat.StoreProductDiscount"
+1017760e8:	adrp	x2, 584 ; 0x1019be000
+1017760ec:	add	x2, x2, #0x210 ; literal pool for: "init()"
+1017760f0:	mov	w1, #0x1f
+1017760f4:	mov	w3, #0x6
+1017760f8:	mov	w4, #0x0
+1017760fc:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776100:	brk	#0x1
+101776104:	stp	x29, x30, [sp, #-0x10]!
+101776108:	mov	x29, sp
+10177610c:	adrp	x0, 584 ; 0x1019be000
+101776110:	add	x0, x0, #0x250 ; literal pool for: "RevenueCat.StoreTransaction"
+101776114:	adrp	x2, 584 ; 0x1019be000
+101776118:	add	x2, x2, #0x210 ; literal pool for: "init()"
+10177611c:	mov	w1, #0x1b
+101776120:	mov	w3, #0x6
+101776124:	mov	w4, #0x0
+101776128:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177612c:	brk	#0x1
+101776130:	stp	x29, x30, [sp, #-0x10]!
+101776134:	mov	x29, sp
+101776138:	adrp	x0, 584 ; 0x1019be000
+10177613c:	add	x0, x0, #0x270 ; literal pool for: "RevenueCat.Storefront"
+101776140:	adrp	x2, 584 ; 0x1019be000
+101776144:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776148:	mov	w1, #0x15
+10177614c:	mov	w3, #0x6
+101776150:	mov	w4, #0x0
+101776154:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776158:	brk	#0x1
+10177615c:	stp	x29, x30, [sp, #-0x10]!
+101776160:	mov	x29, sp
+101776164:	adrp	x0, 584 ; 0x1019be000
+101776168:	add	x0, x0, #0x2b0 ; literal pool for: "RevenueCat.SubscriptionPeriod"
+10177616c:	adrp	x2, 584 ; 0x1019be000
+101776170:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776174:	mov	w1, #0x1d
+101776178:	mov	w3, #0x6
+10177617c:	mov	w4, #0x0
+101776180:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776184:	brk	#0x1
+101776188:	stp	x29, x30, [sp, #-0x10]!
+10177618c:	mov	x29, sp
+101776190:	adrp	x0, 584 ; 0x1019be000
+101776194:	add	x0, x0, #0x360 ; literal pool for: "RevenueCat.WinBackOffer"
+101776198:	adrp	x2, 584 ; 0x1019be000
+10177619c:	add	x2, x2, #0x210 ; literal pool for: "init()"
+1017761a0:	mov	w1, #0x17
+1017761a4:	mov	w3, #0x6
+1017761a8:	mov	w4, #0x0
+1017761ac:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017761b0:	brk	#0x1
+1017761b4:	stp	x29, x30, [sp, #-0x10]!
+1017761b8:	mov	x29, sp
+1017761bc:	adrp	x0, 584 ; 0x1019be000
+1017761c0:	add	x0, x0, #0xb30 ; literal pool for: "RevenueCat.PurchasesDiagnostics"
+1017761c4:	adrp	x2, 584 ; 0x1019be000
+1017761c8:	add	x2, x2, #0x210 ; literal pool for: "init()"
+1017761cc:	mov	w1, #0x1f
+1017761d0:	mov	w3, #0x6
+1017761d4:	mov	w4, #0x0
+1017761d8:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017761dc:	brk	#0x1
+1017761e0:	stp	x29, x30, [sp, #-0x10]!
+1017761e4:	mov	x29, sp
+1017761e8:	adrp	x0, 584 ; 0x1019be000
+1017761ec:	add	x0, x0, #0xc70 ; literal pool for: "RevenueCat.VirtualCurrencies"
+1017761f0:	adrp	x2, 584 ; 0x1019be000
+1017761f4:	add	x2, x2, #0x210 ; literal pool for: "init()"
+1017761f8:	mov	w1, #0x1c
+1017761fc:	mov	w3, #0x6
+101776200:	mov	w4, #0x0
+101776204:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776208:	brk	#0x1
+10177620c:	stp	x29, x30, [sp, #-0x10]!
+101776210:	mov	x29, sp
+101776214:	adrp	x0, 584 ; 0x1019be000
+101776218:	add	x0, x0, #0xc90 ; literal pool for: "RevenueCat.VirtualCurrency"
+10177621c:	adrp	x2, 584 ; 0x1019be000
+101776220:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776224:	mov	w1, #0x1a
+101776228:	mov	w3, #0x6
+10177622c:	mov	w4, #0x0
+101776230:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776234:	brk	#0x1
+101776238:	stp	x29, x30, [sp, #-0x10]!
+10177623c:	mov	x29, sp
+101776240:	adrp	x0, 584 ; 0x1019be000
+101776244:	add	x0, x0, #0xde0 ; literal pool for: "RevenueCat.WebPurchaseRedemption"
+101776248:	adrp	x2, 584 ; 0x1019be000
+10177624c:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101776250:	mov	w1, #0x20
+101776254:	mov	w3, #0x6
+101776258:	mov	w4, #0x0
+10177625c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776260:	brk	#0x1
+101776264:	stp	x29, x30, [sp, #-0x10]!
+101776268:	mov	x29, sp
+10177626c:	adrp	x0, 585 ; 0x1019bf000
+101776270:	add	x0, x0, #0x873 ; literal pool for: "yaml_parser_initialize"
+101776274:	mov	x2, x30
+101776278:	bl	0x1012a9f50
+10177627c:	mov	x30, x2
+101776280:	mov	w2, #0x9d
+101776284:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776288:	stp	x29, x30, [sp, #-0x10]!
+10177628c:	mov	x29, sp
+101776290:	adrp	x0, 585 ; 0x1019bf000
+101776294:	add	x0, x0, #0x897 ; literal pool for: "yaml_parser_delete"
+101776298:	mov	x2, x30
+10177629c:	bl	0x1012a9f50
+1017762a0:	mov	x30, x2
+1017762a4:	mov	w2, #0xc8
+1017762a8:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017762ac:	stp	x29, x30, [sp, #-0x10]!
+1017762b0:	mov	x29, sp
+1017762b4:	adrp	x0, 585 ; 0x1019bf000
+1017762b8:	add	x0, x0, #0xa26 ; literal pool for: "yaml_token_delete"
+1017762bc:	adrp	x1, 585 ; 0x1019bf000
+1017762c0:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+1017762c4:	adrp	x3, 585 ; 0x1019bf000
+1017762c8:	add	x3, x3, #0xa38 ; literal pool for: "token"
+1017762cc:	mov	w2, #0x234
+1017762d0:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017762d4:	stp	x29, x30, [sp, #-0x10]!
+1017762d8:	mov	x29, sp
+1017762dc:	adrp	x0, 585 ; 0x1019bf000
+1017762e0:	add	x0, x0, #0x8aa ; literal pool for: "yaml_parser_set_input_string"
+1017762e4:	adrp	x1, 585 ; 0x1019bf000
+1017762e8:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+1017762ec:	adrp	x3, 585 ; 0x1019bf000
+1017762f0:	add	x3, x3, #0x8c7 ; literal pool for: "!parser->read_handler"
+1017762f4:	mov	w2, #0x10f
+1017762f8:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017762fc:	stp	x29, x30, [sp, #-0x10]!
+101776300:	mov	x29, sp
+101776304:	adrp	x0, 585 ; 0x1019bf000
+101776308:	add	x0, x0, #0x8aa ; literal pool for: "yaml_parser_set_input_string"
+10177630c:	adrp	x1, 585 ; 0x1019bf000
+101776310:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+101776314:	adrp	x3, 585 ; 0x1019bf000
+101776318:	add	x3, x3, #0x8dd ; literal pool for: "input"
+10177631c:	mov	w2, #0x110
+101776320:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776324:	stp	x29, x30, [sp, #-0x10]!
+101776328:	mov	x29, sp
+10177632c:	adrp	x0, 585 ; 0x1019bf000
+101776330:	add	x0, x0, #0x8aa ; literal pool for: "yaml_parser_set_input_string"
+101776334:	mov	x2, x30
+101776338:	bl	0x1012a9f50
+10177633c:	mov	x30, x2
+101776340:	mov	w2, #0x10e
+101776344:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776348:	stp	x29, x30, [sp, #-0x10]!
+10177634c:	mov	x29, sp
+101776350:	adrp	x0, 585 ; 0x1019bf000
+101776354:	add	x0, x0, #0x8f0 ; literal pool for: "yaml_parser_set_encoding"
+101776358:	adrp	x1, 585 ; 0x1019bf000
+10177635c:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+101776360:	adrp	x3, 585 ; 0x1019bf000
+101776364:	add	x3, x3, #0x909 ; literal pool for: "!parser->encoding"
+101776368:	mov	w2, #0x143
+10177636c:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776370:	stp	x29, x30, [sp, #-0x10]!
+101776374:	mov	x29, sp
+101776378:	adrp	x0, 585 ; 0x1019bf000
+10177637c:	add	x0, x0, #0x8f0 ; literal pool for: "yaml_parser_set_encoding"
+101776380:	mov	x2, x30
+101776384:	bl	0x1012a9f50
+101776388:	mov	x30, x2
+10177638c:	mov	w2, #0x142
+101776390:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776394:	stp	x29, x30, [sp, #-0x10]!
+101776398:	mov	x29, sp
+10177639c:	adrp	x0, 585 ; 0x1019bf000
+1017763a0:	add	x0, x0, #0x91b ; literal pool for: "yaml_emitter_initialize"
+1017763a4:	mov	x2, x30
+1017763a8:	bl	0x1012a9f28
+1017763ac:	mov	x30, x2
+1017763b0:	mov	w2, #0x14f
+1017763b4:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017763b8:	stp	x29, x30, [sp, #-0x10]!
+1017763bc:	mov	x29, sp
+1017763c0:	adrp	x0, 585 ; 0x1019bf000
+1017763c4:	add	x0, x0, #0x93b ; literal pool for: "yaml_emitter_delete"
+1017763c8:	mov	x2, x30
+1017763cc:	bl	0x1012a9f28
+1017763d0:	mov	x30, x2
+1017763d4:	mov	w2, #0x174
+1017763d8:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017763dc:	stp	x29, x30, [sp, #-0x10]!
+1017763e0:	mov	x29, sp
+1017763e4:	adrp	x0, 585 ; 0x1019bf000
+1017763e8:	add	x0, x0, #0xc1a ; literal pool for: "yaml_event_delete"
+1017763ec:	mov	x2, x30
+1017763f0:	bl	0x1012a9f3c
+1017763f4:	mov	x30, x2
+1017763f8:	mov	w2, #0x3ca
+1017763fc:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776400:	stp	x29, x30, [sp, #-0x10]!
+101776404:	mov	x29, sp
+101776408:	adrp	x0, 585 ; 0x1019bf000
+10177640c:	add	x0, x0, #0x967 ; literal pool for: "yaml_emitter_set_output"
+101776410:	adrp	x1, 585 ; 0x1019bf000
+101776414:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+101776418:	adrp	x3, 585 ; 0x1019bf000
+10177641c:	add	x3, x3, #0x94f ; literal pool for: "!emitter->write_handler"
+101776420:	mov	w2, #0x1dd
+101776424:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776428:	stp	x29, x30, [sp, #-0x10]!
+10177642c:	mov	x29, sp
+101776430:	adrp	x0, 585 ; 0x1019bf000
+101776434:	add	x0, x0, #0x967 ; literal pool for: "yaml_emitter_set_output"
+101776438:	adrp	x1, 585 ; 0x1019bf000
+10177643c:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+101776440:	adrp	x3, 585 ; 0x1019bf000
+101776444:	add	x3, x3, #0x8e8 ; literal pool for: "handler"
+101776448:	mov	w2, #0x1de
+10177644c:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776450:	stp	x29, x30, [sp, #-0x10]!
+101776454:	mov	x29, sp
+101776458:	adrp	x0, 585 ; 0x1019bf000
+10177645c:	add	x0, x0, #0x967 ; literal pool for: "yaml_emitter_set_output"
+101776460:	mov	x2, x30
+101776464:	bl	0x1012a9f28
+101776468:	mov	x30, x2
+10177646c:	mov	w2, #0x1dc
+101776470:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776474:	stp	x29, x30, [sp, #-0x10]!
+101776478:	mov	x29, sp
+10177647c:	adrp	x0, 585 ; 0x1019bf000
+101776480:	add	x0, x0, #0x97f ; literal pool for: "yaml_emitter_set_encoding"
+101776484:	adrp	x1, 585 ; 0x1019bf000
+101776488:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+10177648c:	adrp	x3, 585 ; 0x1019bf000
+101776490:	add	x3, x3, #0x999 ; literal pool for: "!emitter->encoding"
+101776494:	mov	w2, #0x1ec
+101776498:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177649c:	stp	x29, x30, [sp, #-0x10]!
+1017764a0:	mov	x29, sp
+1017764a4:	adrp	x0, 585 ; 0x1019bf000
+1017764a8:	add	x0, x0, #0x97f ; literal pool for: "yaml_emitter_set_encoding"
+1017764ac:	mov	x2, x30
+1017764b0:	bl	0x1012a9f28
+1017764b4:	mov	x30, x2
+1017764b8:	mov	w2, #0x1eb
+1017764bc:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017764c0:	stp	x29, x30, [sp, #-0x10]!
+1017764c4:	mov	x29, sp
+1017764c8:	adrp	x0, 585 ; 0x1019bf000
+1017764cc:	add	x0, x0, #0x9ac ; literal pool for: "yaml_emitter_set_canonical"
+1017764d0:	mov	x2, x30
+1017764d4:	bl	0x1012a9f28
+1017764d8:	mov	x30, x2
+1017764dc:	mov	w2, #0x1f8
+1017764e0:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017764e4:	stp	x29, x30, [sp, #-0x10]!
+1017764e8:	mov	x29, sp
+1017764ec:	adrp	x0, 585 ; 0x1019bf000
+1017764f0:	add	x0, x0, #0x9c7 ; literal pool for: "yaml_emitter_set_indent"
+1017764f4:	mov	x2, x30
+1017764f8:	bl	0x1012a9f28
+1017764fc:	mov	x30, x2
+101776500:	mov	w2, #0x204
+101776504:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776508:	stp	x29, x30, [sp, #-0x10]!
+10177650c:	mov	x29, sp
+101776510:	adrp	x0, 585 ; 0x1019bf000
+101776514:	add	x0, x0, #0x9df ; literal pool for: "yaml_emitter_set_width"
+101776518:	mov	x2, x30
+10177651c:	bl	0x1012a9f28
+101776520:	mov	x30, x2
+101776524:	mov	w2, #0x210
+101776528:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177652c:	stp	x29, x30, [sp, #-0x10]!
+101776530:	mov	x29, sp
+101776534:	adrp	x0, 585 ; 0x1019bf000
+101776538:	add	x0, x0, #0x9f6 ; literal pool for: "yaml_emitter_set_unicode"
+10177653c:	mov	x2, x30
+101776540:	bl	0x1012a9f28
+101776544:	mov	x30, x2
+101776548:	mov	w2, #0x21c
+10177654c:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776550:	stp	x29, x30, [sp, #-0x10]!
+101776554:	mov	x29, sp
+101776558:	adrp	x0, 585 ; 0x1019bf000
+10177655c:	add	x0, x0, #0xa0f ; literal pool for: "yaml_emitter_set_break"
+101776560:	mov	x2, x30
+101776564:	bl	0x1012a9f28
+101776568:	mov	x30, x2
+10177656c:	mov	w2, #0x228
+101776570:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776574:	stp	x29, x30, [sp, #-0x10]!
+101776578:	mov	x29, sp
+10177657c:	adrp	x0, 585 ; 0x1019bf000
+101776580:	add	x0, x0, #0xa3e ; literal pool for: "yaml_stream_start_event_initialize"
+101776584:	mov	x2, x30
+101776588:	bl	0x1012a9f3c
+10177658c:	mov	x30, x2
+101776590:	mov	w2, #0x28c
+101776594:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776598:	stp	x29, x30, [sp, #-0x10]!
+10177659c:	mov	x29, sp
+1017765a0:	adrp	x0, 585 ; 0x1019bf000
+1017765a4:	add	x0, x0, #0xa61 ; literal pool for: "yaml_stream_end_event_initialize"
+1017765a8:	mov	x2, x30
+1017765ac:	bl	0x1012a9f3c
+1017765b0:	mov	x30, x2
+1017765b4:	mov	w2, #0x29c
+1017765b8:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017765bc:	stp	x29, x30, [sp, #-0x10]!
+1017765c0:	mov	x29, sp
+1017765c4:	adrp	x0, 585 ; 0x1019bf000
+1017765c8:	add	x0, x0, #0xa82 ; literal pool for: "yaml_document_start_event_initialize"
+1017765cc:	adrp	x1, 585 ; 0x1019bf000
+1017765d0:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+1017765d4:	adrp	x3, 585 ; 0x1019bf000
+1017765d8:	add	x3, x3, #0xb1a ; literal pool for: "tag_directive->prefix"
+1017765dc:	mov	w2, #0x2cd
+1017765e0:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017765e4:	stp	x29, x30, [sp, #-0x10]!
+1017765e8:	mov	x29, sp
+1017765ec:	adrp	x0, 585 ; 0x1019bf000
+1017765f0:	add	x0, x0, #0xa82 ; literal pool for: "yaml_document_start_event_initialize"
+1017765f4:	adrp	x1, 585 ; 0x1019bf000
+1017765f8:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+1017765fc:	adrp	x3, 585 ; 0x1019bf000
+101776600:	add	x3, x3, #0xb04 ; literal pool for: "tag_directive->handle"
+101776604:	mov	w2, #0x2cc
+101776608:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177660c:	stp	x29, x30, [sp, #-0x10]!
+101776610:	mov	x29, sp
+101776614:	adrp	x0, 585 ; 0x1019bf000
+101776618:	add	x0, x0, #0xa82 ; literal pool for: "yaml_document_start_event_initialize"
+10177661c:	adrp	x1, 585 ; 0x1019bf000
+101776620:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+101776624:	adrp	x3, 585 ; 0x1019bf000
+101776628:	add	x3, x3, #0xaa7 ; literal pool for: "(tag_directives_start && tag_directives_end) || (tag_directives_start == tag_directives_end)"
+10177662c:	mov	w2, #0x2bc
+101776630:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776634:	stp	x29, x30, [sp, #-0x10]!
+101776638:	mov	x29, sp
+10177663c:	adrp	x0, 585 ; 0x1019bf000
+101776640:	add	x0, x0, #0xa82 ; literal pool for: "yaml_document_start_event_initialize"
+101776644:	mov	x2, x30
+101776648:	bl	0x1012a9f3c
+10177664c:	mov	x30, x2
+101776650:	mov	w2, #0x2ba
+101776654:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776658:	stp	x29, x30, [sp, #-0x10]!
+10177665c:	mov	x29, sp
+101776660:	adrp	x0, 585 ; 0x1019bf000
+101776664:	add	x0, x0, #0xb30 ; literal pool for: "yaml_document_end_event_initialize"
+101776668:	mov	x2, x30
+10177666c:	bl	0x1012a9f3c
+101776670:	mov	x30, x2
+101776674:	mov	w2, #0x2fb
+101776678:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177667c:	stp	x29, x30, [sp, #-0x10]!
+101776680:	mov	x29, sp
+101776684:	adrp	x0, 585 ; 0x1019bf000
+101776688:	add	x0, x0, #0xb53 ; literal pool for: "yaml_alias_event_initialize"
+10177668c:	adrp	x1, 585 ; 0x1019bf000
+101776690:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+101776694:	adrp	x3, 529 ; 0x101987000
+101776698:	add	x3, x3, #0xda5 ; literal pool for: "anchor"
+10177669c:	mov	w2, #0x30d
+1017766a0:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017766a4:	stp	x29, x30, [sp, #-0x10]!
+1017766a8:	mov	x29, sp
+1017766ac:	adrp	x0, 585 ; 0x1019bf000
+1017766b0:	add	x0, x0, #0xb53 ; literal pool for: "yaml_alias_event_initialize"
+1017766b4:	mov	x2, x30
+1017766b8:	bl	0x1012a9f3c
+1017766bc:	mov	x30, x2
+1017766c0:	mov	w2, #0x30c
+1017766c4:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017766c8:	stp	x29, x30, [sp, #-0x10]!
+1017766cc:	mov	x29, sp
+1017766d0:	adrp	x0, 585 ; 0x1019bf000
+1017766d4:	add	x0, x0, #0xb6f ; literal pool for: "yaml_scalar_event_initialize"
+1017766d8:	adrp	x1, 585 ; 0x1019bf000
+1017766dc:	add	x1, x1, #0x88a ; literal pool for: "api.c"
+1017766e0:	adrp	x3, 430 ; 0x101924000
+1017766e4:	add	x3, x3, #0x8e0 ; literal pool for: "value"
+1017766e8:	mov	w2, #0x32b
+1017766ec:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017766f0:	stp	x29, x30, [sp, #-0x10]!
+1017766f4:	mov	x29, sp
+1017766f8:	adrp	x0, 585 ; 0x1019bf000
+1017766fc:	add	x0, x0, #0xb6f ; literal pool for: "yaml_scalar_event_initialize"
+101776700:	mov	x2, x30
+101776704:	bl	0x1012a9f3c
+101776708:	mov	x30, x2
+10177670c:	mov	w2, #0x32a
+101776710:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776714:	stp	x29, x30, [sp, #-0x10]!
+101776718:	mov	x29, sp
+10177671c:	adrp	x0, 585 ; 0x1019bf000
+101776720:	add	x0, x0, #0xb8c ; literal pool for: "yaml_sequence_start_event_initialize"
+101776724:	mov	x2, x30
+101776728:	bl	0x1012a9f3c
+10177672c:	mov	x30, x2
+101776730:	mov	w2, #0x360
+101776734:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776738:	stp	x29, x30, [sp, #-0x10]!
+10177673c:	mov	x29, sp
+101776740:	adrp	x0, 585 ; 0x1019bf000
+101776744:	add	x0, x0, #0xbb1 ; literal pool for: "yaml_sequence_end_event_initialize"
+101776748:	mov	x2, x30
+10177674c:	bl	0x1012a9f3c
+101776750:	mov	x30, x2
+101776754:	mov	w2, #0x383
+101776758:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177675c:	stp	x29, x30, [sp, #-0x10]!
+101776760:	mov	x29, sp
+101776764:	adrp	x0, 585 ; 0x1019bf000
+101776768:	add	x0, x0, #0xbd4 ; literal pool for: "yaml_mapping_start_event_initialize"
+10177676c:	mov	x2, x30
+101776770:	bl	0x1012a9f3c
+101776774:	mov	x30, x2
+101776778:	mov	w2, #0x397
+10177677c:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776780:	stp	x29, x30, [sp, #-0x10]!
+101776784:	mov	x29, sp
+101776788:	adrp	x0, 585 ; 0x1019bf000
+10177678c:	add	x0, x0, #0xbf8 ; literal pool for: "yaml_mapping_end_event_initialize"
+101776790:	mov	x2, x30
+101776794:	bl	0x1012a9f3c
+101776798:	mov	x30, x2
+10177679c:	mov	w2, #0x3ba
+1017767a0:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017767a4:	stp	x29, x30, [sp, #-0x10]!
+1017767a8:	mov	x29, sp
+1017767ac:	adrp	x0, 585 ; 0x1019bf000
+1017767b0:	add	x0, x0, #0xf09 ; literal pool for: "yaml_parser_parse"
+1017767b4:	adrp	x1, 585 ; 0x1019bf000
+1017767b8:	add	x1, x1, #0xf1b ; literal pool for: "parser.c"
+1017767bc:	adrp	x3, 560 ; 0x1019a6000
+1017767c0:	add	x3, x3, #0x5b6 ; literal pool for: "event"
+1017767c4:	mov	w2, #0xb9
+1017767c8:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017767cc:	stp	x29, x30, [sp, #-0x10]!
+1017767d0:	mov	x29, sp
+1017767d4:	adrp	x0, 585 ; 0x1019bf000
+1017767d8:	add	x0, x0, #0xf09 ; literal pool for: "yaml_parser_parse"
+1017767dc:	adrp	x1, 585 ; 0x1019bf000
+1017767e0:	add	x1, x1, #0xf1b ; literal pool for: "parser.c"
+1017767e4:	adrp	x3, 585 ; 0x1019bf000
+1017767e8:	add	x3, x3, #0x890 ; literal pool for: "parser"
+1017767ec:	mov	w2, #0xb8
+1017767f0:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+1017767f4:	stp	x29, x30, [sp, #-0x10]!
+1017767f8:	mov	x29, sp
+1017767fc:	adrp	x0, 586 ; 0x1019c0000
+101776800:	add	x0, x0, #0x1a3 ; literal pool for: "yaml_parser_update_buffer"
+101776804:	adrp	x1, 586 ; 0x1019c0000
+101776808:	add	x1, x1, #0x1bd ; literal pool for: "reader.c"
+10177680c:	adrp	x3, 586 ; 0x1019c0000
+101776810:	add	x3, x3, #0x1c6 ; literal pool for: "parser->read_handler"
+101776814:	mov	w2, #0x92
+101776818:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177681c:	stp	x29, x30, [sp, #-0x10]!
+101776820:	mov	x29, sp
+101776824:	adrp	x0, 586 ; 0x1019c0000
+101776828:	add	x0, x0, #0x994 ; literal pool for: "yaml_emitter_flush"
+10177682c:	adrp	x1, 586 ; 0x1019c0000
+101776830:	add	x1, x1, #0x9a7 ; literal pool for: "writer.c"
+101776834:	adrp	x3, 586 ; 0x1019c0000
+101776838:	add	x3, x3, #0x9c7 ; literal pool for: "emitter->encoding"
+10177683c:	mov	w2, #0x26
+101776840:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776844:	stp	x29, x30, [sp, #-0x10]!
+101776848:	mov	x29, sp
+10177684c:	adrp	x0, 586 ; 0x1019c0000
+101776850:	add	x0, x0, #0x994 ; literal pool for: "yaml_emitter_flush"
+101776854:	adrp	x1, 586 ; 0x1019c0000
+101776858:	add	x1, x1, #0x9a7 ; literal pool for: "writer.c"
+10177685c:	adrp	x3, 586 ; 0x1019c0000
+101776860:	add	x3, x3, #0x9b0 ; literal pool for: "emitter->write_handler"
+101776864:	mov	w2, #0x25
+101776868:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+10177686c:	stp	x29, x30, [sp, #-0x10]!
+101776870:	mov	x29, sp
+101776874:	adrp	x0, 586 ; 0x1019c0000
+101776878:	add	x0, x0, #0x994 ; literal pool for: "yaml_emitter_flush"
+10177687c:	adrp	x1, 586 ; 0x1019c0000
+101776880:	add	x1, x1, #0x9a7 ; literal pool for: "writer.c"
+101776884:	adrp	x3, 585 ; 0x1019bf000
+101776888:	add	x3, x3, #0x933 ; literal pool for: "emitter"
+10177688c:	mov	w2, #0x24
+101776890:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101776894:	sub	sp, sp, #0x40
+101776898:	stp	x22, x21, [sp, #0x10]
+10177689c:	stp	x20, x19, [sp, #0x20]
+1017768a0:	stp	x29, x30, [sp, #0x30]
+1017768a4:	add	x29, sp, #0x30
+1017768a8:	mov	x19, x1
+1017768ac:	mov	x20, x0
+1017768b0:	adrp	x8, 1977 ; 0x101f2f000
+1017768b4:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+1017768b8:	bl	0x10178d880
+1017768bc:	mov	x29, x29
+1017768c0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017768c4:	mov	x21, x0
+1017768c8:	adrp	x8, 1802 ; 0x101e80000
+1017768cc:	add	x8, x8, #0xa8
+1017768d0:	str	x8, [sp]
+1017768d4:	adrp	x4, 1802 ; 0x101e80000
+1017768d8:	add	x4, x4, #0x68
+1017768dc:	adrp	x6, 1802 ; 0x101e80000
+1017768e0:	add	x6, x6, #0x88
+1017768e4:	mov	x2, x20
+1017768e8:	mov	x3, x19
+1017768ec:	mov	w5, #0x4c
+1017768f0:	bl	0x101793400
+1017768f4:	mov	x0, x21
+1017768f8:	ldp	x29, x30, [sp, #0x30]
+1017768fc:	ldp	x20, x19, [sp, #0x20]
+101776900:	ldp	x22, x21, [sp, #0x10]
+101776904:	add	sp, sp, #0x40
+101776908:	b	0x101784a60 ; symbol stub for: _objc_release
+10177690c:	stp	x29, x30, [sp, #-0x10]!
+101776910:	mov	x29, sp
+101776914:	adrp	x0, 586 ; 0x1019c0000
+101776918:	add	x0, x0, #0xe40 ; literal pool for: "HorizonCalendar.CalendarView"
+10177691c:	adrp	x2, 556 ; 0x1019a2000
+101776920:	add	x2, x2, #0xac0 ; literal pool for: "init(frame:)"
+101776924:	mov	w1, #0x1c
+101776928:	mov	w3, #0xc
+10177692c:	mov	w4, #0x0
+101776930:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776934:	brk	#0x1
+101776938:	stp	x29, x30, [sp, #-0x10]!
+10177693c:	mov	x29, sp
+101776940:	adrp	x0, 586 ; 0x1019c0000
+101776944:	add	x0, x0, #0xfa0 ; literal pool for: "HorizonCalendar.DayOfWeekView"
+101776948:	adrp	x2, 556 ; 0x1019a2000
+10177694c:	add	x2, x2, #0xac0 ; literal pool for: "init(frame:)"
+101776950:	mov	w1, #0x1d
+101776954:	mov	w3, #0xc
+101776958:	mov	w4, #0x0
+10177695c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101776960:	brk	#0x1
+101776964:	stp	x29, x30, [sp, #-0x10]!
+101776968:	mov	x29, sp
+10177696c:	adrp	x0, 586 ; 0x1019c0000
+101776970:	add	x0, x0, #0xff0 ; literal pool for: "HorizonCalendar.DayView"
+101776974:	adrp	x2, 556 ; 0x1019a2000
+101776978:	add	x2, x2, #0xac0 ; literal pool for: "init(frame:)"
+10177697c:	mov	w1, #0x17
+101776980:	mov	w3, #0xc
+101776984:	mov	w4, #0x0
+101776988:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177698c:	brk	#0x1
+101776990:	stp	x29, x30, [sp, #-0x10]!
+101776994:	mov	x29, sp
+101776998:	adrp	x0, 587 ; 0x1019c1000
+10177699c:	add	x0, x0, #0x30 ; literal pool for: "HorizonCalendar.MonthGridBackgroundView"
+1017769a0:	adrp	x2, 556 ; 0x1019a2000
+1017769a4:	add	x2, x2, #0xac0 ; literal pool for: "init(frame:)"
+1017769a8:	mov	w1, #0x27
+1017769ac:	mov	w3, #0xc
+1017769b0:	mov	w4, #0x0
+1017769b4:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017769b8:	brk	#0x1
+1017769bc:	stp	x29, x30, [sp, #-0x10]!
+1017769c0:	mov	x29, sp
+1017769c4:	adrp	x0, 587 ; 0x1019c1000
+1017769c8:	add	x0, x0, #0x90 ; literal pool for: "HorizonCalendar.MonthHeaderView"
+1017769cc:	adrp	x2, 556 ; 0x1019a2000
+1017769d0:	add	x2, x2, #0xac0 ; literal pool for: "init(frame:)"
+1017769d4:	mov	w1, #0x1f
+1017769d8:	mov	w3, #0xc
+1017769dc:	mov	w4, #0x0
+1017769e0:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017769e4:	brk	#0x1
+1017769e8:	stp	x22, x21, [sp, #-0x30]!
+1017769ec:	stp	x20, x19, [sp, #0x10]
+1017769f0:	stp	x29, x30, [sp, #0x20]
+1017769f4:	add	x29, sp, #0x20
+1017769f8:	mov	x19, x1
+1017769fc:	mov	x20, x0
+101776a00:	adrp	x8, 1977 ; 0x101f2f000
+101776a04:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+101776a08:	bl	0x10178d880
+101776a0c:	mov	x29, x29
+101776a10:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776a14:	mov	x21, x0
+101776a18:	adrp	x4, 1802 ; 0x101e80000
+101776a1c:	add	x4, x4, #0x4a8
+101776a20:	adrp	x6, 1802 ; 0x101e80000
+101776a24:	add	x6, x6, #0x4c8
+101776a28:	mov	x2, x20
+101776a2c:	mov	x3, x19
+101776a30:	mov	w5, #0x71
+101776a34:	bl	0x101793400
+101776a38:	mov	x0, x21
+101776a3c:	ldp	x29, x30, [sp, #0x20]
+101776a40:	ldp	x20, x19, [sp, #0x10]
+101776a44:	ldp	x22, x21, [sp], #0x30
+101776a48:	b	0x101784a60 ; symbol stub for: _objc_release
+101776a4c:	stp	x24, x23, [sp, #-0x40]!
+101776a50:	stp	x22, x21, [sp, #0x10]
+101776a54:	stp	x20, x19, [sp, #0x20]
+101776a58:	stp	x29, x30, [sp, #0x30]
+101776a5c:	add	x29, sp, #0x30
+101776a60:	bl	0x10130cca0
+101776a64:	bl	0x10178d880
+101776a68:	mov	x29, x29
+101776a6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776a70:	bl	0x10130cd28
+101776a74:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776a78:	mov	x29, x29
+101776a7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776a80:	bl	0x10130ccf4
+101776a84:	bl	0x1017ad440
+101776a88:	mov	x29, x29
+101776a8c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776a90:	bl	0x10130cc84
+101776a94:	mov	w5, #0xda
+101776a98:	bl	0x10130cd20
+101776a9c:	bl	0x10130cd18
+101776aa0:	bl	0x10130cd10
+101776aa4:	mov	x0, x21
+101776aa8:	ldp	x29, x30, [sp, #0x30]
+101776aac:	b	0x10130cce4
+101776ab0:	stp	x22, x21, [sp, #-0x30]!
+101776ab4:	stp	x20, x19, [sp, #0x10]
+101776ab8:	stp	x29, x30, [sp, #0x20]
+101776abc:	add	x29, sp, #0x20
+101776ac0:	bl	0x10130cca0
+101776ac4:	bl	0x10178d880
+101776ac8:	mov	x29, x29
+101776acc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776ad0:	bl	0x10130ccb4
+101776ad4:	mov	w5, #0xda
+101776ad8:	bl	0x101793400
+101776adc:	mov	x0, x21
+101776ae0:	ldp	x29, x30, [sp, #0x20]
+101776ae4:	b	0x10130cd04
+101776ae8:	stp	x24, x23, [sp, #-0x40]!
+101776aec:	stp	x22, x21, [sp, #0x10]
+101776af0:	stp	x20, x19, [sp, #0x20]
+101776af4:	stp	x29, x30, [sp, #0x30]
+101776af8:	add	x29, sp, #0x30
+101776afc:	bl	0x10130cca0
+101776b00:	bl	0x10178d880
+101776b04:	mov	x29, x29
+101776b08:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776b0c:	bl	0x10130cd28
+101776b10:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776b14:	mov	x29, x29
+101776b18:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776b1c:	bl	0x10130ccf4
+101776b20:	bl	0x1017ad440
+101776b24:	mov	x29, x29
+101776b28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776b2c:	bl	0x10130cc84
+101776b30:	mov	w5, #0xfe
+101776b34:	bl	0x10130cd20
+101776b38:	bl	0x10130cd18
+101776b3c:	bl	0x10130cd10
+101776b40:	bl	0x10130cd34
+101776b44:	ldp	x29, x30, [sp, #0x30]
+101776b48:	b	0x10130ccd4
+101776b4c:	stp	x24, x23, [sp, #-0x40]!
+101776b50:	stp	x22, x21, [sp, #0x10]
+101776b54:	stp	x20, x19, [sp, #0x20]
+101776b58:	stp	x29, x30, [sp, #0x30]
+101776b5c:	add	x29, sp, #0x30
+101776b60:	bl	0x10130cca0
+101776b64:	bl	0x10178d880
+101776b68:	mov	x29, x29
+101776b6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776b70:	bl	0x10130cd28
+101776b74:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776b78:	mov	x29, x29
+101776b7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776b80:	bl	0x10130ccf4
+101776b84:	bl	0x1017ad440
+101776b88:	mov	x29, x29
+101776b8c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776b90:	bl	0x10130cc84
+101776b94:	mov	w5, #0x110
+101776b98:	bl	0x10130cd20
+101776b9c:	bl	0x10130cd18
+101776ba0:	bl	0x10130cd10
+101776ba4:	mov	x0, x21
+101776ba8:	ldp	x29, x30, [sp, #0x30]
+101776bac:	b	0x10130cce4
+101776bb0:	stp	x22, x21, [sp, #-0x30]!
+101776bb4:	stp	x20, x19, [sp, #0x10]
+101776bb8:	stp	x29, x30, [sp, #0x20]
+101776bbc:	add	x29, sp, #0x20
+101776bc0:	bl	0x10130cca0
+101776bc4:	bl	0x10178d880
+101776bc8:	mov	x29, x29
+101776bcc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776bd0:	bl	0x10130ccb4
+101776bd4:	mov	w5, #0x110
+101776bd8:	bl	0x101793400
+101776bdc:	mov	x0, x21
+101776be0:	ldp	x29, x30, [sp, #0x20]
+101776be4:	b	0x10130cd04
+101776be8:	stp	x24, x23, [sp, #-0x40]!
+101776bec:	stp	x22, x21, [sp, #0x10]
+101776bf0:	stp	x20, x19, [sp, #0x20]
+101776bf4:	stp	x29, x30, [sp, #0x30]
+101776bf8:	add	x29, sp, #0x30
+101776bfc:	bl	0x10130cca0
+101776c00:	bl	0x10178d880
+101776c04:	mov	x29, x29
+101776c08:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776c0c:	bl	0x10130cd28
+101776c10:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776c14:	mov	x29, x29
+101776c18:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776c1c:	bl	0x10130ccf4
+101776c20:	bl	0x1017ad440
+101776c24:	mov	x29, x29
+101776c28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776c2c:	bl	0x10130cc84
+101776c30:	mov	w5, #0x153
+101776c34:	bl	0x10130cd20
+101776c38:	bl	0x10130cd18
+101776c3c:	bl	0x10130cd10
+101776c40:	bl	0x10130cd34
+101776c44:	ldp	x29, x30, [sp, #0x30]
+101776c48:	b	0x10130ccd4
+101776c4c:	stp	x24, x23, [sp, #-0x40]!
+101776c50:	stp	x22, x21, [sp, #0x10]
+101776c54:	stp	x20, x19, [sp, #0x20]
+101776c58:	stp	x29, x30, [sp, #0x30]
+101776c5c:	add	x29, sp, #0x30
+101776c60:	bl	0x10130cca0
+101776c64:	bl	0x10178d880
+101776c68:	mov	x29, x29
+101776c6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776c70:	bl	0x10130cd28
+101776c74:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776c78:	mov	x29, x29
+101776c7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776c80:	bl	0x10130ccf4
+101776c84:	bl	0x1017ad440
+101776c88:	mov	x29, x29
+101776c8c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776c90:	bl	0x10130cc84
+101776c94:	mov	w5, #0x165
+101776c98:	bl	0x10130cd20
+101776c9c:	bl	0x10130cd18
+101776ca0:	bl	0x10130cd10
+101776ca4:	mov	x0, x21
+101776ca8:	ldp	x29, x30, [sp, #0x30]
+101776cac:	b	0x10130cce4
+101776cb0:	stp	x22, x21, [sp, #-0x30]!
+101776cb4:	stp	x20, x19, [sp, #0x10]
+101776cb8:	stp	x29, x30, [sp, #0x20]
+101776cbc:	add	x29, sp, #0x20
+101776cc0:	bl	0x10130cca0
+101776cc4:	bl	0x10178d880
+101776cc8:	mov	x29, x29
+101776ccc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776cd0:	bl	0x10130ccb4
+101776cd4:	mov	w5, #0x165
+101776cd8:	bl	0x101793400
+101776cdc:	mov	x0, x21
+101776ce0:	ldp	x29, x30, [sp, #0x20]
+101776ce4:	b	0x10130cd04
+101776ce8:	stp	x24, x23, [sp, #-0x40]!
+101776cec:	stp	x22, x21, [sp, #0x10]
+101776cf0:	stp	x20, x19, [sp, #0x20]
+101776cf4:	stp	x29, x30, [sp, #0x30]
+101776cf8:	add	x29, sp, #0x30
+101776cfc:	bl	0x10130cca0
+101776d00:	bl	0x10178d880
+101776d04:	mov	x29, x29
+101776d08:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776d0c:	bl	0x10130cd28
+101776d10:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776d14:	mov	x29, x29
+101776d18:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776d1c:	bl	0x10130ccf4
+101776d20:	bl	0x1017ad440
+101776d24:	mov	x29, x29
+101776d28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776d2c:	bl	0x10130cc84
+101776d30:	mov	w5, #0x1af
+101776d34:	bl	0x10130cd20
+101776d38:	bl	0x10130cd18
+101776d3c:	bl	0x10130cd10
+101776d40:	bl	0x10130cd34
+101776d44:	ldp	x29, x30, [sp, #0x30]
+101776d48:	b	0x10130ccd4
+101776d4c:	stp	x24, x23, [sp, #-0x40]!
+101776d50:	stp	x22, x21, [sp, #0x10]
+101776d54:	stp	x20, x19, [sp, #0x20]
+101776d58:	stp	x29, x30, [sp, #0x30]
+101776d5c:	add	x29, sp, #0x30
+101776d60:	bl	0x10130cca0
+101776d64:	bl	0x10178d880
+101776d68:	mov	x29, x29
+101776d6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776d70:	bl	0x10130cd28
+101776d74:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776d78:	mov	x29, x29
+101776d7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776d80:	bl	0x10130ccf4
+101776d84:	bl	0x1017ad440
+101776d88:	mov	x29, x29
+101776d8c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776d90:	bl	0x10130cc84
+101776d94:	mov	w5, #0x1c1
+101776d98:	bl	0x10130cd20
+101776d9c:	bl	0x10130cd18
+101776da0:	bl	0x10130cd10
+101776da4:	mov	x0, x21
+101776da8:	ldp	x29, x30, [sp, #0x30]
+101776dac:	b	0x10130cce4
+101776db0:	stp	x22, x21, [sp, #-0x30]!
+101776db4:	stp	x20, x19, [sp, #0x10]
+101776db8:	stp	x29, x30, [sp, #0x20]
+101776dbc:	add	x29, sp, #0x20
+101776dc0:	bl	0x10130cca0
+101776dc4:	bl	0x10178d880
+101776dc8:	mov	x29, x29
+101776dcc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776dd0:	bl	0x10130ccb4
+101776dd4:	mov	w5, #0x1c1
+101776dd8:	bl	0x101793400
+101776ddc:	mov	x0, x21
+101776de0:	ldp	x29, x30, [sp, #0x20]
+101776de4:	b	0x10130cd04
+101776de8:	stp	x24, x23, [sp, #-0x40]!
+101776dec:	stp	x22, x21, [sp, #0x10]
+101776df0:	stp	x20, x19, [sp, #0x20]
+101776df4:	stp	x29, x30, [sp, #0x30]
+101776df8:	add	x29, sp, #0x30
+101776dfc:	bl	0x10130cca0
+101776e00:	bl	0x10178d880
+101776e04:	mov	x29, x29
+101776e08:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776e0c:	bl	0x10130cd28
+101776e10:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776e14:	mov	x29, x29
+101776e18:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776e1c:	bl	0x10130ccf4
+101776e20:	bl	0x1017ad440
+101776e24:	mov	x29, x29
+101776e28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776e2c:	bl	0x10130cc84
+101776e30:	mov	w5, #0x204
+101776e34:	bl	0x10130cd20
+101776e38:	bl	0x10130cd18
+101776e3c:	bl	0x10130cd10
+101776e40:	bl	0x10130cd34
+101776e44:	ldp	x29, x30, [sp, #0x30]
+101776e48:	b	0x10130ccd4
+101776e4c:	stp	x24, x23, [sp, #-0x40]!
+101776e50:	stp	x22, x21, [sp, #0x10]
+101776e54:	stp	x20, x19, [sp, #0x20]
+101776e58:	stp	x29, x30, [sp, #0x30]
+101776e5c:	add	x29, sp, #0x30
+101776e60:	bl	0x10130cca0
+101776e64:	bl	0x10178d880
+101776e68:	mov	x29, x29
+101776e6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776e70:	bl	0x10130cd28
+101776e74:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776e78:	mov	x29, x29
+101776e7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776e80:	bl	0x10130ccf4
+101776e84:	bl	0x1017ad440
+101776e88:	mov	x29, x29
+101776e8c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776e90:	bl	0x10130cc84
+101776e94:	mov	w5, #0x217
+101776e98:	bl	0x10130cd20
+101776e9c:	bl	0x10130cd18
+101776ea0:	bl	0x10130cd10
+101776ea4:	mov	x0, x21
+101776ea8:	ldp	x29, x30, [sp, #0x30]
+101776eac:	b	0x10130cce4
+101776eb0:	stp	x22, x21, [sp, #-0x30]!
+101776eb4:	stp	x20, x19, [sp, #0x10]
+101776eb8:	stp	x29, x30, [sp, #0x20]
+101776ebc:	add	x29, sp, #0x20
+101776ec0:	bl	0x10130cca0
+101776ec4:	bl	0x10178d880
+101776ec8:	mov	x29, x29
+101776ecc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776ed0:	bl	0x10130ccb4
+101776ed4:	mov	w5, #0x217
+101776ed8:	bl	0x101793400
+101776edc:	mov	x0, x21
+101776ee0:	ldp	x29, x30, [sp, #0x20]
+101776ee4:	b	0x10130cd04
+101776ee8:	stp	x24, x23, [sp, #-0x40]!
+101776eec:	stp	x22, x21, [sp, #0x10]
+101776ef0:	stp	x20, x19, [sp, #0x20]
+101776ef4:	stp	x29, x30, [sp, #0x30]
+101776ef8:	add	x29, sp, #0x30
+101776efc:	bl	0x10130cca0
+101776f00:	bl	0x10178d880
+101776f04:	mov	x29, x29
+101776f08:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776f0c:	bl	0x10130cd28
+101776f10:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776f14:	mov	x29, x29
+101776f18:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776f1c:	bl	0x10130ccf4
+101776f20:	bl	0x1017ad440
+101776f24:	mov	x29, x29
+101776f28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776f2c:	bl	0x10130cc84
+101776f30:	mov	w5, #0x22f
+101776f34:	bl	0x10130cd20
+101776f38:	bl	0x10130cd18
+101776f3c:	bl	0x10130cd10
+101776f40:	bl	0x10130cd34
+101776f44:	ldp	x29, x30, [sp, #0x30]
+101776f48:	b	0x10130ccd4
+101776f4c:	stp	x22, x21, [sp, #-0x30]!
+101776f50:	stp	x20, x19, [sp, #0x10]
+101776f54:	stp	x29, x30, [sp, #0x20]
+101776f58:	add	x29, sp, #0x20
+101776f5c:	bl	0x10130cca0
+101776f60:	bl	0x10178d880
+101776f64:	mov	x29, x29
+101776f68:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776f6c:	bl	0x101312070
+101776f70:	adrp	x6, 1802 ; 0x101e80000
+101776f74:	add	x6, x6, #0x5e8
+101776f78:	mov	x2, x20
+101776f7c:	mov	x3, x19
+101776f80:	mov	w5, #0x12b
+101776f84:	bl	0x101793400
+101776f88:	mov	x0, x21
+101776f8c:	ldp	x29, x30, [sp, #0x20]
+101776f90:	b	0x10130cd04
+101776f94:	adrp	x0, 2368 ; 0x1020b6000
+101776f98:	add	x0, x0, #0xcc0
+101776f9c:	adrp	x1, 1756 ; 0x101e52000
+101776fa0:	add	x1, x1, #0xd30
+101776fa4:	b	0x101784400 ; symbol stub for: _dispatch_once
+101776fa8:	stp	x24, x23, [sp, #-0x40]!
+101776fac:	stp	x22, x21, [sp, #0x10]
+101776fb0:	stp	x20, x19, [sp, #0x20]
+101776fb4:	stp	x29, x30, [sp, #0x30]
+101776fb8:	add	x29, sp, #0x30
+101776fbc:	bl	0x10130cca0
+101776fc0:	bl	0x10178d880
+101776fc4:	mov	x29, x29
+101776fc8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776fcc:	bl	0x10130cd28
+101776fd0:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101776fd4:	mov	x29, x29
+101776fd8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776fdc:	bl	0x101312020
+101776fe0:	bl	0x1017ad440
+101776fe4:	mov	x29, x29
+101776fe8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101776fec:	bl	0x101312004
+101776ff0:	mov	w5, #0x299
+101776ff4:	bl	0x10130cd20
+101776ff8:	bl	0x10130cd18
+101776ffc:	bl	0x10130cd10
+101777000:	mov	x0, x21
+101777004:	ldp	x29, x30, [sp, #0x30]
+101777008:	b	0x10130cce4
+10177700c:	stp	x24, x23, [sp, #-0x40]!
+101777010:	stp	x22, x21, [sp, #0x10]
+101777014:	stp	x20, x19, [sp, #0x20]
+101777018:	stp	x29, x30, [sp, #0x30]
+10177701c:	add	x29, sp, #0x30
+101777020:	bl	0x10130cca0
+101777024:	bl	0x10178d880
+101777028:	mov	x29, x29
+10177702c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777030:	bl	0x10130cd28
+101777034:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777038:	mov	x29, x29
+10177703c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777040:	bl	0x10130ccf4
+101777044:	bl	0x1017ad440
+101777048:	mov	x29, x29
+10177704c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777050:	bl	0x101312004
+101777054:	mov	w5, #0x2f9
+101777058:	bl	0x10130cd20
+10177705c:	bl	0x10130cd18
+101777060:	bl	0x10130cd10
+101777064:	bl	0x10130cd34
+101777068:	ldp	x29, x30, [sp, #0x30]
+10177706c:	b	0x10130ccd4
+101777070:	stp	x22, x21, [sp, #-0x30]!
+101777074:	stp	x20, x19, [sp, #0x10]
+101777078:	stp	x29, x30, [sp, #0x20]
+10177707c:	add	x29, sp, #0x20
+101777080:	bl	0x10130cca0
+101777084:	bl	0x10178d880
+101777088:	mov	x29, x29
+10177708c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777090:	bl	0x101312050
+101777094:	mov	w5, #0x2f9
+101777098:	bl	0x101793400
+10177709c:	bl	0x10130cd34
+1017770a0:	ldp	x29, x30, [sp, #0x20]
+1017770a4:	b	0x101312090
+1017770a8:	stp	x24, x23, [sp, #-0x40]!
+1017770ac:	stp	x22, x21, [sp, #0x10]
+1017770b0:	stp	x20, x19, [sp, #0x20]
+1017770b4:	stp	x29, x30, [sp, #0x30]
+1017770b8:	add	x29, sp, #0x30
+1017770bc:	bl	0x10130cca0
+1017770c0:	bl	0x10178d880
+1017770c4:	mov	x29, x29
+1017770c8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017770cc:	bl	0x10130cd28
+1017770d0:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017770d4:	mov	x29, x29
+1017770d8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017770dc:	bl	0x10130ccf4
+1017770e0:	bl	0x1017ad440
+1017770e4:	mov	x29, x29
+1017770e8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017770ec:	bl	0x101312004
+1017770f0:	mov	w5, #0x32e
+1017770f4:	bl	0x10130cd20
+1017770f8:	bl	0x10130cd18
+1017770fc:	bl	0x10130cd10
+101777100:	bl	0x10130cd34
+101777104:	ldp	x29, x30, [sp, #0x30]
+101777108:	b	0x10130ccd4
+10177710c:	stp	x22, x21, [sp, #-0x30]!
+101777110:	stp	x20, x19, [sp, #0x10]
+101777114:	stp	x29, x30, [sp, #0x20]
+101777118:	add	x29, sp, #0x20
+10177711c:	bl	0x10130cca0
+101777120:	bl	0x10178d880
+101777124:	mov	x29, x29
+101777128:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177712c:	bl	0x101312050
+101777130:	mov	w5, #0x32e
+101777134:	bl	0x101793400
+101777138:	bl	0x10130cd34
+10177713c:	ldp	x29, x30, [sp, #0x20]
+101777140:	b	0x101312090
+101777144:	stp	x24, x23, [sp, #-0x40]!
+101777148:	stp	x22, x21, [sp, #0x10]
+10177714c:	stp	x20, x19, [sp, #0x20]
+101777150:	stp	x29, x30, [sp, #0x30]
+101777154:	add	x29, sp, #0x30
+101777158:	bl	0x10130cca0
+10177715c:	bl	0x10178d880
+101777160:	mov	x29, x29
+101777164:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777168:	bl	0x10130cd28
+10177716c:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777170:	mov	x29, x29
+101777174:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777178:	bl	0x101312020
+10177717c:	bl	0x1017ad440
+101777180:	mov	x29, x29
+101777184:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777188:	bl	0x101312004
+10177718c:	mov	w5, #0x33a
+101777190:	bl	0x10130cd20
+101777194:	bl	0x10130cd18
+101777198:	bl	0x10130cd10
+10177719c:	mov	x0, x21
+1017771a0:	ldp	x29, x30, [sp, #0x30]
+1017771a4:	b	0x10130cce4
+1017771a8:	stp	x24, x23, [sp, #-0x40]!
+1017771ac:	stp	x22, x21, [sp, #0x10]
+1017771b0:	stp	x20, x19, [sp, #0x20]
+1017771b4:	stp	x29, x30, [sp, #0x30]
+1017771b8:	add	x29, sp, #0x30
+1017771bc:	bl	0x10130cca0
+1017771c0:	bl	0x10178d880
+1017771c4:	mov	x29, x29
+1017771c8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017771cc:	bl	0x10130cd28
+1017771d0:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017771d4:	mov	x29, x29
+1017771d8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017771dc:	bl	0x10130ccf4
+1017771e0:	bl	0x1017ad440
+1017771e4:	mov	x29, x29
+1017771e8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017771ec:	bl	0x101312004
+1017771f0:	mov	w5, #0x37e
+1017771f4:	bl	0x10130cd20
+1017771f8:	bl	0x10130cd18
+1017771fc:	bl	0x10130cd10
+101777200:	bl	0x10130cd34
+101777204:	ldp	x29, x30, [sp, #0x30]
+101777208:	b	0x10130ccd4
+10177720c:	stp	x24, x23, [sp, #-0x40]!
+101777210:	stp	x22, x21, [sp, #0x10]
+101777214:	stp	x20, x19, [sp, #0x20]
+101777218:	stp	x29, x30, [sp, #0x30]
+10177721c:	add	x29, sp, #0x30
+101777220:	bl	0x10130cca0
+101777224:	bl	0x10178d880
+101777228:	mov	x29, x29
+10177722c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777230:	bl	0x10130cd28
+101777234:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777238:	mov	x29, x29
+10177723c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777240:	bl	0x101312020
+101777244:	bl	0x1017ad440
+101777248:	mov	x29, x29
+10177724c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777250:	bl	0x101312004
+101777254:	mov	w5, #0x386
+101777258:	bl	0x10130cd20
+10177725c:	bl	0x10130cd18
+101777260:	bl	0x10130cd10
+101777264:	mov	x0, x21
+101777268:	ldp	x29, x30, [sp, #0x30]
+10177726c:	b	0x10130cce4
+101777270:	stp	x24, x23, [sp, #-0x40]!
+101777274:	stp	x22, x21, [sp, #0x10]
+101777278:	stp	x20, x19, [sp, #0x20]
+10177727c:	stp	x29, x30, [sp, #0x30]
+101777280:	add	x29, sp, #0x30
+101777284:	bl	0x10130cca0
+101777288:	bl	0x10178d880
+10177728c:	mov	x29, x29
+101777290:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777294:	bl	0x10130cd28
+101777298:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+10177729c:	mov	x29, x29
+1017772a0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017772a4:	bl	0x101312020
+1017772a8:	bl	0x1017ad440
+1017772ac:	mov	x29, x29
+1017772b0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017772b4:	bl	0x101312004
+1017772b8:	mov	w5, #0x3c7
+1017772bc:	bl	0x10130cd20
+1017772c0:	bl	0x10130cd18
+1017772c4:	bl	0x10130cd10
+1017772c8:	mov	x0, x21
+1017772cc:	ldp	x29, x30, [sp, #0x30]
+1017772d0:	b	0x10130cce4
+1017772d4:	stp	x24, x23, [sp, #-0x40]!
+1017772d8:	stp	x22, x21, [sp, #0x10]
+1017772dc:	stp	x20, x19, [sp, #0x20]
+1017772e0:	stp	x29, x30, [sp, #0x30]
+1017772e4:	add	x29, sp, #0x30
+1017772e8:	bl	0x10130cca0
+1017772ec:	bl	0x10178d880
+1017772f0:	mov	x29, x29
+1017772f4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017772f8:	bl	0x10130cd28
+1017772fc:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777300:	mov	x29, x29
+101777304:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777308:	bl	0x101312020
+10177730c:	bl	0x1017ad440
+101777310:	mov	x29, x29
+101777314:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777318:	bl	0x101312004
+10177731c:	mov	w5, #0x3d2
+101777320:	bl	0x10130cd20
+101777324:	bl	0x10130cd18
+101777328:	bl	0x10130cd10
+10177732c:	mov	x0, x21
+101777330:	ldp	x29, x30, [sp, #0x30]
+101777334:	b	0x10130cce4
+101777338:	stp	x24, x23, [sp, #-0x40]!
+10177733c:	stp	x22, x21, [sp, #0x10]
+101777340:	stp	x20, x19, [sp, #0x20]
+101777344:	stp	x29, x30, [sp, #0x30]
+101777348:	add	x29, sp, #0x30
+10177734c:	bl	0x10130cca0
+101777350:	bl	0x10178d880
+101777354:	mov	x29, x29
+101777358:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177735c:	bl	0x10130cd28
+101777360:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777364:	mov	x29, x29
+101777368:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177736c:	bl	0x101312020
+101777370:	bl	0x1017ad440
+101777374:	mov	x29, x29
+101777378:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177737c:	bl	0x101312004
+101777380:	mov	w5, #0x3f4
+101777384:	bl	0x10130cd20
+101777388:	bl	0x10130cd18
+10177738c:	bl	0x10130cd10
+101777390:	mov	x0, x21
+101777394:	ldp	x29, x30, [sp, #0x30]
+101777398:	b	0x10130cce4
+10177739c:	stp	x24, x23, [sp, #-0x40]!
+1017773a0:	stp	x22, x21, [sp, #0x10]
+1017773a4:	stp	x20, x19, [sp, #0x20]
+1017773a8:	stp	x29, x30, [sp, #0x30]
+1017773ac:	add	x29, sp, #0x30
+1017773b0:	bl	0x10130cca0
+1017773b4:	bl	0x10178d880
+1017773b8:	mov	x29, x29
+1017773bc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017773c0:	bl	0x10130cd28
+1017773c4:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017773c8:	mov	x29, x29
+1017773cc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017773d0:	bl	0x10130ccf4
+1017773d4:	bl	0x1017ad440
+1017773d8:	mov	x29, x29
+1017773dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017773e0:	bl	0x101312004
+1017773e4:	mov	w5, #0x423
+1017773e8:	bl	0x10130cd20
+1017773ec:	bl	0x10130cd18
+1017773f0:	bl	0x10130cd10
+1017773f4:	mov	x0, x21
+1017773f8:	ldp	x29, x30, [sp, #0x30]
+1017773fc:	b	0x10130cce4
+101777400:	stp	x22, x21, [sp, #-0x30]!
+101777404:	stp	x20, x19, [sp, #0x10]
+101777408:	stp	x29, x30, [sp, #0x20]
+10177740c:	add	x29, sp, #0x20
+101777410:	bl	0x10130cca0
+101777414:	bl	0x10178d880
+101777418:	mov	x29, x29
+10177741c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777420:	bl	0x101312050
+101777424:	mov	w5, #0x423
+101777428:	bl	0x101793400
+10177742c:	mov	x0, x21
+101777430:	ldp	x29, x30, [sp, #0x20]
+101777434:	b	0x10130cd04
+101777438:	stp	x24, x23, [sp, #-0x40]!
+10177743c:	stp	x22, x21, [sp, #0x10]
+101777440:	stp	x20, x19, [sp, #0x20]
+101777444:	stp	x29, x30, [sp, #0x30]
+101777448:	add	x29, sp, #0x30
+10177744c:	bl	0x10130cca0
+101777450:	bl	0x10178d880
+101777454:	mov	x29, x29
+101777458:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177745c:	bl	0x10130cd28
+101777460:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777464:	mov	x29, x29
+101777468:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177746c:	bl	0x101312020
+101777470:	bl	0x1017ad440
+101777474:	mov	x29, x29
+101777478:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177747c:	bl	0x101312004
+101777480:	mov	w5, #0x432
+101777484:	bl	0x10130cd20
+101777488:	bl	0x10130cd18
+10177748c:	bl	0x10130cd10
+101777490:	mov	x0, x21
+101777494:	ldp	x29, x30, [sp, #0x30]
+101777498:	b	0x10130cce4
+10177749c:	stp	x22, x21, [sp, #-0x30]!
+1017774a0:	stp	x20, x19, [sp, #0x10]
+1017774a4:	stp	x29, x30, [sp, #0x20]
+1017774a8:	add	x29, sp, #0x20
+1017774ac:	bl	0x10130cca0
+1017774b0:	bl	0x10178d880
+1017774b4:	mov	x29, x29
+1017774b8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017774bc:	bl	0x101312070
+1017774c0:	adrp	x6, 1801 ; 0x101e80000
+1017774c4:	add	x6, x6, #0x828
+1017774c8:	mov	x2, x20
+1017774cc:	mov	x3, x19
+1017774d0:	mov	w5, #0x451
+1017774d4:	bl	0x101793400
+1017774d8:	mov	x0, x21
+1017774dc:	ldp	x29, x30, [sp, #0x20]
+1017774e0:	b	0x10130cd04
+1017774e4:	sub	sp, sp, #0x40
+1017774e8:	stp	x22, x21, [sp, #0x10]
+1017774ec:	stp	x20, x19, [sp, #0x20]
+1017774f0:	stp	x29, x30, [sp, #0x30]
+1017774f4:	add	x29, sp, #0x30
+1017774f8:	bl	0x10130cca0
+1017774fc:	bl	0x10178d880
+101777500:	mov	x29, x29
+101777504:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777508:	mov	x21, x0
+10177750c:	adrp	x8, 1801 ; 0x101e80000
+101777510:	add	x8, x8, #0x868
+101777514:	bl	0x101312030
+101777518:	mov	w5, #0x465
+10177751c:	bl	0x101793400
+101777520:	mov	x0, x21
+101777524:	ldp	x29, x30, [sp, #0x30]
+101777528:	b	0x101312080
+10177752c:	stp	x24, x23, [sp, #-0x40]!
+101777530:	stp	x22, x21, [sp, #0x10]
+101777534:	stp	x20, x19, [sp, #0x20]
+101777538:	stp	x29, x30, [sp, #0x30]
+10177753c:	add	x29, sp, #0x30
+101777540:	bl	0x10130cca0
+101777544:	bl	0x10178d880
+101777548:	mov	x29, x29
+10177754c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777550:	bl	0x10130cd28
+101777554:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777558:	mov	x29, x29
+10177755c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777560:	bl	0x101312020
+101777564:	bl	0x1017ad440
+101777568:	mov	x29, x29
+10177756c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777570:	bl	0x101312004
+101777574:	mov	w5, #0x466
+101777578:	bl	0x10130cd20
+10177757c:	bl	0x10130cd18
+101777580:	bl	0x10130cd10
+101777584:	mov	x0, x21
+101777588:	ldp	x29, x30, [sp, #0x30]
+10177758c:	b	0x10130cce4
+101777590:	stp	x24, x23, [sp, #-0x40]!
+101777594:	stp	x22, x21, [sp, #0x10]
+101777598:	stp	x20, x19, [sp, #0x20]
+10177759c:	stp	x29, x30, [sp, #0x30]
+1017775a0:	add	x29, sp, #0x30
+1017775a4:	bl	0x10130cca0
+1017775a8:	bl	0x10178d880
+1017775ac:	mov	x29, x29
+1017775b0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017775b4:	bl	0x10130cd28
+1017775b8:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017775bc:	mov	x29, x29
+1017775c0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017775c4:	bl	0x101312020
+1017775c8:	bl	0x1017ad440
+1017775cc:	mov	x29, x29
+1017775d0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017775d4:	bl	0x101312004
+1017775d8:	mov	w5, #0x491
+1017775dc:	bl	0x10130cd20
+1017775e0:	bl	0x10130cd18
+1017775e4:	bl	0x10130cd10
+1017775e8:	mov	x0, x21
+1017775ec:	ldp	x29, x30, [sp, #0x30]
+1017775f0:	b	0x10130cce4
+1017775f4:	stp	x22, x21, [sp, #-0x30]!
+1017775f8:	stp	x20, x19, [sp, #0x10]
+1017775fc:	stp	x29, x30, [sp, #0x20]
+101777600:	add	x29, sp, #0x20
+101777604:	bl	0x10130cca0
+101777608:	bl	0x10178d880
+10177760c:	mov	x29, x29
+101777610:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777614:	bl	0x101312070
+101777618:	adrp	x6, 1801 ; 0x101e80000
+10177761c:	add	x6, x6, #0x888
+101777620:	mov	x2, x20
+101777624:	mov	x3, x19
+101777628:	mov	w5, #0x492
+10177762c:	bl	0x101793400
+101777630:	mov	x0, x21
+101777634:	ldp	x29, x30, [sp, #0x20]
+101777638:	b	0x10130cd04
+10177763c:	stp	x24, x23, [sp, #-0x40]!
+101777640:	stp	x22, x21, [sp, #0x10]
+101777644:	stp	x20, x19, [sp, #0x20]
+101777648:	stp	x29, x30, [sp, #0x30]
+10177764c:	add	x29, sp, #0x30
+101777650:	bl	0x10130cca0
+101777654:	bl	0x10178d880
+101777658:	mov	x29, x29
+10177765c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777660:	bl	0x10130cd28
+101777664:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777668:	mov	x29, x29
+10177766c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777670:	bl	0x101312020
+101777674:	bl	0x1017ad440
+101777678:	mov	x29, x29
+10177767c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777680:	bl	0x101312004
+101777684:	mov	w5, #0x4b1
+101777688:	bl	0x10130cd20
+10177768c:	bl	0x10130cd18
+101777690:	bl	0x10130cd10
+101777694:	mov	x0, x21
+101777698:	ldp	x29, x30, [sp, #0x30]
+10177769c:	b	0x10130cce4
+1017776a0:	stp	x24, x23, [sp, #-0x40]!
+1017776a4:	stp	x22, x21, [sp, #0x10]
+1017776a8:	stp	x20, x19, [sp, #0x20]
+1017776ac:	stp	x29, x30, [sp, #0x30]
+1017776b0:	add	x29, sp, #0x30
+1017776b4:	bl	0x10130cca0
+1017776b8:	bl	0x10178d880
+1017776bc:	mov	x29, x29
+1017776c0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017776c4:	bl	0x10130cd28
+1017776c8:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017776cc:	mov	x29, x29
+1017776d0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017776d4:	bl	0x10130ccf4
+1017776d8:	bl	0x1017ad440
+1017776dc:	mov	x29, x29
+1017776e0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017776e4:	bl	0x101312004
+1017776e8:	mov	w5, #0x4f9
+1017776ec:	bl	0x10130cd20
+1017776f0:	bl	0x10130cd18
+1017776f4:	bl	0x10130cd10
+1017776f8:	bl	0x10130cd34
+1017776fc:	ldp	x29, x30, [sp, #0x30]
+101777700:	b	0x10130ccd4
+101777704:	stp	x24, x23, [sp, #-0x40]!
+101777708:	stp	x22, x21, [sp, #0x10]
+10177770c:	stp	x20, x19, [sp, #0x20]
+101777710:	stp	x29, x30, [sp, #0x30]
+101777714:	add	x29, sp, #0x30
+101777718:	bl	0x10130cca0
+10177771c:	bl	0x10178d880
+101777720:	mov	x29, x29
+101777724:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777728:	bl	0x10130cd28
+10177772c:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777730:	mov	x29, x29
+101777734:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777738:	bl	0x101312020
+10177773c:	bl	0x1017ad440
+101777740:	mov	x29, x29
+101777744:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777748:	bl	0x101312004
+10177774c:	mov	w5, #0x501
+101777750:	bl	0x10130cd20
+101777754:	bl	0x10130cd18
+101777758:	bl	0x10130cd10
+10177775c:	mov	x0, x21
+101777760:	ldp	x29, x30, [sp, #0x30]
+101777764:	b	0x10130cce4
+101777768:	stp	x24, x23, [sp, #-0x40]!
+10177776c:	stp	x22, x21, [sp, #0x10]
+101777770:	stp	x20, x19, [sp, #0x20]
+101777774:	stp	x29, x30, [sp, #0x30]
+101777778:	add	x29, sp, #0x30
+10177777c:	bl	0x10130cca0
+101777780:	bl	0x10178d880
+101777784:	mov	x29, x29
+101777788:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177778c:	bl	0x10130cd28
+101777790:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777794:	mov	x29, x29
+101777798:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177779c:	bl	0x10130ccf4
+1017777a0:	bl	0x1017ad440
+1017777a4:	mov	x29, x29
+1017777a8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017777ac:	bl	0x101312004
+1017777b0:	mov	w5, #0x52c
+1017777b4:	bl	0x10130cd20
+1017777b8:	bl	0x10130cd18
+1017777bc:	bl	0x10130cd10
+1017777c0:	bl	0x10130cd34
+1017777c4:	ldp	x29, x30, [sp, #0x30]
+1017777c8:	b	0x10130ccd4
+1017777cc:	stp	x24, x23, [sp, #-0x40]!
+1017777d0:	stp	x22, x21, [sp, #0x10]
+1017777d4:	stp	x20, x19, [sp, #0x20]
+1017777d8:	stp	x29, x30, [sp, #0x30]
+1017777dc:	add	x29, sp, #0x30
+1017777e0:	bl	0x10130cca0
+1017777e4:	bl	0x10178d880
+1017777e8:	mov	x29, x29
+1017777ec:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017777f0:	bl	0x10130cd28
+1017777f4:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017777f8:	mov	x29, x29
+1017777fc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777800:	bl	0x101312020
+101777804:	bl	0x1017ad440
+101777808:	mov	x29, x29
+10177780c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777810:	bl	0x101312004
+101777814:	mov	w5, #0x550
+101777818:	bl	0x10130cd20
+10177781c:	bl	0x10130cd18
+101777820:	bl	0x10130cd10
+101777824:	mov	x0, x21
+101777828:	ldp	x29, x30, [sp, #0x30]
+10177782c:	b	0x10130cce4
+101777830:	stp	x24, x23, [sp, #-0x40]!
+101777834:	stp	x22, x21, [sp, #0x10]
+101777838:	stp	x20, x19, [sp, #0x20]
+10177783c:	stp	x29, x30, [sp, #0x30]
+101777840:	add	x29, sp, #0x30
+101777844:	bl	0x10130cca0
+101777848:	bl	0x10178d880
+10177784c:	mov	x29, x29
+101777850:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777854:	bl	0x10130cd28
+101777858:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+10177785c:	mov	x29, x29
+101777860:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777864:	bl	0x101312020
+101777868:	bl	0x1017ad440
+10177786c:	mov	x29, x29
+101777870:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777874:	bl	0x101312004
+101777878:	mov	w5, #0x5a3
+10177787c:	bl	0x10130cd20
+101777880:	bl	0x10130cd18
+101777884:	bl	0x10130cd10
+101777888:	mov	x0, x21
+10177788c:	ldp	x29, x30, [sp, #0x30]
+101777890:	b	0x10130cce4
+101777894:	sub	sp, sp, #0x40
+101777898:	stp	x22, x21, [sp, #0x10]
+10177789c:	stp	x20, x19, [sp, #0x20]
+1017778a0:	stp	x29, x30, [sp, #0x30]
+1017778a4:	add	x29, sp, #0x30
+1017778a8:	bl	0x10130cca0
+1017778ac:	bl	0x10178d880
+1017778b0:	mov	x29, x29
+1017778b4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017778b8:	mov	x21, x0
+1017778bc:	adrp	x8, 1801 ; 0x101e80000
+1017778c0:	add	x8, x8, #0x988
+1017778c4:	bl	0x101312030
+1017778c8:	mov	w5, #0x5ed
+1017778cc:	bl	0x101793400
+1017778d0:	mov	x0, x21
+1017778d4:	ldp	x29, x30, [sp, #0x30]
+1017778d8:	b	0x101312080
+1017778dc:	sub	sp, sp, #0x40
+1017778e0:	stp	x22, x21, [sp, #0x10]
+1017778e4:	stp	x20, x19, [sp, #0x20]
+1017778e8:	stp	x29, x30, [sp, #0x30]
+1017778ec:	add	x29, sp, #0x30
+1017778f0:	bl	0x10130cca0
+1017778f4:	bl	0x10178d880
+1017778f8:	mov	x29, x29
+1017778fc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777900:	mov	x21, x0
+101777904:	adrp	x8, 1801 ; 0x101e80000
+101777908:	add	x8, x8, #0x9a8
+10177790c:	bl	0x101312030
+101777910:	mov	w5, #0x5f7
+101777914:	bl	0x101793400
+101777918:	mov	x0, x21
+10177791c:	ldp	x29, x30, [sp, #0x30]
+101777920:	b	0x101312080
+101777924:	adrp	x0, 2367 ; 0x1020b6000
+101777928:	add	x0, x0, #0xcf0
+10177792c:	adrp	x1, 1755 ; 0x101e52000
+101777930:	add	x1, x1, #0xde0
+101777934:	b	0x101784400 ; symbol stub for: _dispatch_once
+101777938:	stp	x22, x21, [sp, #-0x30]!
+10177793c:	stp	x20, x19, [sp, #0x10]
+101777940:	stp	x29, x30, [sp, #0x20]
+101777944:	add	x29, sp, #0x20
+101777948:	bl	0x10130cca0
+10177794c:	bl	0x10178d880
+101777950:	mov	x29, x29
+101777954:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777958:	bl	0x101315334
+10177795c:	adrp	x6, 1801 ; 0x101e80000
+101777960:	add	x6, x6, #0xbc8
+101777964:	bl	0x101315364
+101777968:	mov	w5, #0x1ca
+10177796c:	bl	0x101793400
+101777970:	mov	x0, x21
+101777974:	ldp	x29, x30, [sp, #0x20]
+101777978:	b	0x10130cd04
+10177797c:	stp	x22, x21, [sp, #-0x30]!
+101777980:	stp	x20, x19, [sp, #0x10]
+101777984:	stp	x29, x30, [sp, #0x20]
+101777988:	add	x29, sp, #0x20
+10177798c:	bl	0x10130cca0
+101777990:	bl	0x10178d880
+101777994:	mov	x29, x29
+101777998:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177799c:	bl	0x101315314
+1017779a0:	mov	w5, #0x276
+1017779a4:	bl	0x101793400
+1017779a8:	mov	x0, x21
+1017779ac:	bl	0x101784a60 ; symbol stub for: _objc_release
+1017779b0:	ldp	x29, x30, [sp, #0x20]
+1017779b4:	ldp	x20, x19, [sp, #0x10]
+1017779b8:	ldp	x22, x21, [sp], #0x30
+1017779bc:	ret
+1017779c0:	stp	x22, x21, [sp, #-0x30]!
+1017779c4:	stp	x20, x19, [sp, #0x10]
+1017779c8:	stp	x29, x30, [sp, #0x20]
+1017779cc:	add	x29, sp, #0x20
+1017779d0:	bl	0x10130cca0
+1017779d4:	bl	0x10178d880
+1017779d8:	mov	x29, x29
+1017779dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017779e0:	bl	0x101315314
+1017779e4:	mov	w5, #0x29b
+1017779e8:	bl	0x101793400
+1017779ec:	mov	x0, x21
+1017779f0:	ldp	x29, x30, [sp, #0x20]
+1017779f4:	b	0x10130cd04
+1017779f8:	stp	x22, x21, [sp, #-0x30]!
+1017779fc:	stp	x20, x19, [sp, #0x10]
+101777a00:	stp	x29, x30, [sp, #0x20]
+101777a04:	add	x29, sp, #0x20
+101777a08:	bl	0x10130cca0
+101777a0c:	bl	0x10178d880
+101777a10:	mov	x29, x29
+101777a14:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777a18:	bl	0x101315314
+101777a1c:	mov	w5, #0x2b7
+101777a20:	bl	0x101793400
+101777a24:	mov	x0, x21
+101777a28:	ldp	x29, x30, [sp, #0x20]
+101777a2c:	b	0x10130cd04
+101777a30:	stp	x22, x21, [sp, #-0x30]!
+101777a34:	stp	x20, x19, [sp, #0x10]
+101777a38:	stp	x29, x30, [sp, #0x20]
+101777a3c:	add	x29, sp, #0x20
+101777a40:	bl	0x10130cca0
+101777a44:	bl	0x10178d880
+101777a48:	mov	x29, x29
+101777a4c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777a50:	bl	0x101315314
+101777a54:	mov	w5, #0x2c7
+101777a58:	bl	0x101793400
+101777a5c:	mov	x0, x21
+101777a60:	ldp	x29, x30, [sp, #0x20]
+101777a64:	b	0x10130cd04
+101777a68:	stp	x22, x21, [sp, #-0x30]!
+101777a6c:	stp	x20, x19, [sp, #0x10]
+101777a70:	stp	x29, x30, [sp, #0x20]
+101777a74:	add	x29, sp, #0x20
+101777a78:	bl	0x10130cca0
+101777a7c:	bl	0x10178d880
+101777a80:	mov	x29, x29
+101777a84:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777a88:	bl	0x101315314
+101777a8c:	mov	w5, #0x2d4
+101777a90:	bl	0x101793400
+101777a94:	mov	x0, x21
+101777a98:	ldp	x29, x30, [sp, #0x20]
+101777a9c:	b	0x10130cd04
+101777aa0:	stp	x22, x21, [sp, #-0x30]!
+101777aa4:	stp	x20, x19, [sp, #0x10]
+101777aa8:	stp	x29, x30, [sp, #0x20]
+101777aac:	add	x29, sp, #0x20
+101777ab0:	bl	0x10130cca0
+101777ab4:	bl	0x10178d880
+101777ab8:	mov	x29, x29
+101777abc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777ac0:	bl	0x101315314
+101777ac4:	mov	w5, #0x2e3
+101777ac8:	bl	0x101793400
+101777acc:	mov	x0, x21
+101777ad0:	ldp	x29, x30, [sp, #0x20]
+101777ad4:	b	0x10130cd04
+101777ad8:	stp	x22, x21, [sp, #-0x30]!
+101777adc:	stp	x20, x19, [sp, #0x10]
+101777ae0:	stp	x29, x30, [sp, #0x20]
+101777ae4:	add	x29, sp, #0x20
+101777ae8:	bl	0x10130cca0
+101777aec:	bl	0x10178d880
+101777af0:	mov	x29, x29
+101777af4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777af8:	bl	0x101315314
+101777afc:	mov	w5, #0x323
+101777b00:	bl	0x101793400
+101777b04:	mov	x0, x21
+101777b08:	ldp	x29, x30, [sp, #0x20]
+101777b0c:	b	0x10130cd04
+101777b10:	sub	sp, sp, #0x40
+101777b14:	stp	x22, x21, [sp, #0x10]
+101777b18:	stp	x20, x19, [sp, #0x20]
+101777b1c:	stp	x29, x30, [sp, #0x30]
+101777b20:	add	x29, sp, #0x30
+101777b24:	bl	0x10130cca0
+101777b28:	bl	0x10178d880
+101777b2c:	mov	x29, x29
+101777b30:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777b34:	mov	x21, x0
+101777b38:	adrp	x8, 1801 ; 0x101e80000
+101777b3c:	add	x8, x8, #0xc08
+101777b40:	bl	0x101315344
+101777b44:	mov	w5, #0x3ac
+101777b48:	bl	0x101793400
+101777b4c:	mov	x0, x21
+101777b50:	ldp	x29, x30, [sp, #0x30]
+101777b54:	b	0x101312080
+101777b58:	sub	sp, sp, #0x40
+101777b5c:	stp	x22, x21, [sp, #0x10]
+101777b60:	stp	x20, x19, [sp, #0x20]
+101777b64:	stp	x29, x30, [sp, #0x30]
+101777b68:	add	x29, sp, #0x30
+101777b6c:	bl	0x10130cca0
+101777b70:	bl	0x10178d880
+101777b74:	mov	x29, x29
+101777b78:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777b7c:	mov	x21, x0
+101777b80:	adrp	x8, 1801 ; 0x101e80000
+101777b84:	add	x8, x8, #0xc28
+101777b88:	bl	0x101315344
+101777b8c:	mov	w5, #0x3ad
+101777b90:	bl	0x101793400
+101777b94:	mov	x0, x21
+101777b98:	ldp	x29, x30, [sp, #0x30]
+101777b9c:	b	0x101312080
+101777ba0:	sub	sp, sp, #0x40
+101777ba4:	stp	x22, x21, [sp, #0x10]
+101777ba8:	stp	x20, x19, [sp, #0x20]
+101777bac:	stp	x29, x30, [sp, #0x30]
+101777bb0:	add	x29, sp, #0x30
+101777bb4:	bl	0x10130cca0
+101777bb8:	bl	0x10178d880
+101777bbc:	mov	x29, x29
+101777bc0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777bc4:	mov	x21, x0
+101777bc8:	adrp	x8, 1801 ; 0x101e80000
+101777bcc:	add	x8, x8, #0xc48
+101777bd0:	bl	0x101315344
+101777bd4:	mov	w5, #0x3ae
+101777bd8:	bl	0x101793400
+101777bdc:	mov	x0, x21
+101777be0:	ldp	x29, x30, [sp, #0x30]
+101777be4:	b	0x101312080
+101777be8:	stp	x24, x23, [sp, #-0x40]!
+101777bec:	stp	x22, x21, [sp, #0x10]
+101777bf0:	stp	x20, x19, [sp, #0x20]
+101777bf4:	stp	x29, x30, [sp, #0x30]
+101777bf8:	add	x29, sp, #0x30
+101777bfc:	bl	0x10130cca0
+101777c00:	bl	0x10178d880
+101777c04:	mov	x29, x29
+101777c08:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777c0c:	mov	x21, x0
+101777c10:	mov	x0, x20
+101777c14:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777c18:	mov	x29, x29
+101777c1c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777c20:	mov	x22, x0
+101777c24:	adrp	x2, 1801 ; 0x101e80000
+101777c28:	add	x2, x2, #0x508
+101777c2c:	bl	0x1017ad440
+101777c30:	mov	x29, x29
+101777c34:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777c38:	mov	x23, x0
+101777c3c:	adrp	x4, 1801 ; 0x101e80000
+101777c40:	add	x4, x4, #0xba8
+101777c44:	mov	x0, x21
+101777c48:	bl	0x101315364
+101777c4c:	mov	w5, #0x4d3
+101777c50:	mov	x6, x23
+101777c54:	bl	0x101793400
+101777c58:	mov	x0, x23
+101777c5c:	bl	0x101784a60 ; symbol stub for: _objc_release
+101777c60:	mov	x0, x22
+101777c64:	bl	0x101784a60 ; symbol stub for: _objc_release
+101777c68:	mov	x0, x21
+101777c6c:	ldp	x29, x30, [sp, #0x30]
+101777c70:	b	0x10130cce4
+101777c74:	stp	x22, x21, [sp, #-0x30]!
+101777c78:	stp	x20, x19, [sp, #0x10]
+101777c7c:	stp	x29, x30, [sp, #0x20]
+101777c80:	add	x29, sp, #0x20
+101777c84:	bl	0x10130cca0
+101777c88:	bl	0x10178d880
+101777c8c:	mov	x29, x29
+101777c90:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777c94:	bl	0x101315334
+101777c98:	adrp	x6, 1801 ; 0x101e80000
+101777c9c:	add	x6, x6, #0x528
+101777ca0:	bl	0x101315364
+101777ca4:	mov	w5, #0x4d3
+101777ca8:	bl	0x101793400
+101777cac:	mov	x0, x21
+101777cb0:	ldp	x29, x30, [sp, #0x20]
+101777cb4:	b	0x10130cd04
+101777cb8:	stp	x24, x23, [sp, #-0x40]!
+101777cbc:	stp	x22, x21, [sp, #0x10]
+101777cc0:	stp	x20, x19, [sp, #0x20]
+101777cc4:	stp	x29, x30, [sp, #0x30]
+101777cc8:	add	x29, sp, #0x30
+101777ccc:	bl	0x10130cca0
+101777cd0:	bl	0x10178d880
+101777cd4:	mov	x29, x29
+101777cd8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777cdc:	mov	x21, x0
+101777ce0:	mov	x0, x20
+101777ce4:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777ce8:	mov	x29, x29
+101777cec:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777cf0:	mov	x22, x0
+101777cf4:	adrp	x2, 1801 ; 0x101e80000
+101777cf8:	add	x2, x2, #0x508
+101777cfc:	bl	0x1017ad440
+101777d00:	mov	x29, x29
+101777d04:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777d08:	mov	x23, x0
+101777d0c:	adrp	x4, 1801 ; 0x101e80000
+101777d10:	add	x4, x4, #0xba8
+101777d14:	mov	x0, x21
+101777d18:	bl	0x101315364
+101777d1c:	mov	w5, #0x4e2
+101777d20:	mov	x6, x23
+101777d24:	bl	0x101793400
+101777d28:	mov	x0, x23
+101777d2c:	bl	0x101784a60 ; symbol stub for: _objc_release
+101777d30:	mov	x0, x22
+101777d34:	bl	0x101784a60 ; symbol stub for: _objc_release
+101777d38:	mov	x0, x21
+101777d3c:	ldp	x29, x30, [sp, #0x30]
+101777d40:	b	0x10130cce4
+101777d44:	stp	x22, x21, [sp, #-0x30]!
+101777d48:	stp	x20, x19, [sp, #0x10]
+101777d4c:	stp	x29, x30, [sp, #0x20]
+101777d50:	add	x29, sp, #0x20
+101777d54:	bl	0x10130cca0
+101777d58:	bl	0x10178d880
+101777d5c:	mov	x29, x29
+101777d60:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777d64:	bl	0x101315334
+101777d68:	adrp	x6, 1801 ; 0x101e80000
+101777d6c:	add	x6, x6, #0x528
+101777d70:	bl	0x101315364
+101777d74:	mov	w5, #0x4e2
+101777d78:	bl	0x101793400
+101777d7c:	mov	x0, x21
+101777d80:	ldp	x29, x30, [sp, #0x20]
+101777d84:	b	0x10130cd04
+101777d88:	stp	x22, x21, [sp, #-0x30]!
+101777d8c:	stp	x20, x19, [sp, #0x10]
+101777d90:	stp	x29, x30, [sp, #0x20]
+101777d94:	add	x29, sp, #0x20
+101777d98:	bl	0x10130cca0
+101777d9c:	bl	0x10178d880
+101777da0:	mov	x29, x29
+101777da4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777da8:	mov	x21, x0
+101777dac:	adrp	x4, 1801 ; 0x101e80000
+101777db0:	add	x4, x4, #0xd48
+101777db4:	adrp	x6, 1801 ; 0x101e80000
+101777db8:	add	x6, x6, #0xd68
+101777dbc:	mov	x2, x20
+101777dc0:	mov	x3, x19
+101777dc4:	mov	w5, #0x5b
+101777dc8:	bl	0x101793400
+101777dcc:	mov	x0, x21
+101777dd0:	ldp	x29, x30, [sp, #0x20]
+101777dd4:	ldp	x20, x19, [sp, #0x10]
+101777dd8:	ldp	x22, x21, [sp], #0x30
+101777ddc:	b	0x101784a60 ; symbol stub for: _objc_release
+101777de0:	sub	sp, sp, #0x40
+101777de4:	stp	x22, x21, [sp, #0x10]
+101777de8:	stp	x20, x19, [sp, #0x20]
+101777dec:	stp	x29, x30, [sp, #0x30]
+101777df0:	add	x29, sp, #0x30
+101777df4:	bl	0x10130cca0
+101777df8:	bl	0x10178d880
+101777dfc:	mov	x29, x29
+101777e00:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777e04:	mov	x21, x0
+101777e08:	adrp	x8, 1801 ; 0x101e80000
+101777e0c:	add	x8, x8, #0xd88
+101777e10:	str	x8, [sp]
+101777e14:	adrp	x4, 1801 ; 0x101e80000
+101777e18:	add	x4, x4, #0xd48
+101777e1c:	adrp	x6, 1801 ; 0x101e80000
+101777e20:	add	x6, x6, #0x88
+101777e24:	mov	x2, x20
+101777e28:	mov	x3, x19
+101777e2c:	mov	w5, #0x5c
+101777e30:	bl	0x101793400
+101777e34:	mov	x0, x21
+101777e38:	ldp	x29, x30, [sp, #0x30]
+101777e3c:	ldp	x20, x19, [sp, #0x20]
+101777e40:	ldp	x22, x21, [sp, #0x10]
+101777e44:	add	sp, sp, #0x40
+101777e48:	b	0x101784a60 ; symbol stub for: _objc_release
+101777e4c:	stp	x22, x21, [sp, #-0x30]!
+101777e50:	stp	x20, x19, [sp, #0x10]
+101777e54:	stp	x29, x30, [sp, #0x20]
+101777e58:	add	x29, sp, #0x20
+101777e5c:	bl	0x10130cca0
+101777e60:	bl	0x10178d880
+101777e64:	mov	x29, x29
+101777e68:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777e6c:	bl	0x10131836c
+101777e70:	mov	w5, #0xfe
+101777e74:	bl	0x101793400
+101777e78:	mov	x0, x21
+101777e7c:	ldp	x29, x30, [sp, #0x20]
+101777e80:	b	0x10130cd04
+101777e84:	stp	x22, x21, [sp, #-0x30]!
+101777e88:	stp	x20, x19, [sp, #0x10]
+101777e8c:	stp	x29, x30, [sp, #0x20]
+101777e90:	add	x29, sp, #0x20
+101777e94:	bl	0x10130cca0
+101777e98:	bl	0x10178d880
+101777e9c:	mov	x29, x29
+101777ea0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777ea4:	bl	0x10131836c
+101777ea8:	mov	w5, #0xff
+101777eac:	bl	0x101793400
+101777eb0:	mov	x0, x21
+101777eb4:	ldp	x29, x30, [sp, #0x20]
+101777eb8:	b	0x10130cd04
+101777ebc:	stp	x22, x21, [sp, #-0x30]!
+101777ec0:	stp	x20, x19, [sp, #0x10]
+101777ec4:	stp	x29, x30, [sp, #0x20]
+101777ec8:	add	x29, sp, #0x20
+101777ecc:	bl	0x10130cca0
+101777ed0:	bl	0x10178d880
+101777ed4:	mov	x29, x29
+101777ed8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777edc:	bl	0x10131836c
+101777ee0:	mov	w5, #0x2a4
+101777ee4:	bl	0x101793400
+101777ee8:	mov	x0, x21
+101777eec:	ldp	x29, x30, [sp, #0x20]
+101777ef0:	b	0x10130cd04
+101777ef4:	stp	x22, x21, [sp, #-0x30]!
+101777ef8:	stp	x20, x19, [sp, #0x10]
+101777efc:	stp	x29, x30, [sp, #0x20]
+101777f00:	add	x29, sp, #0x20
+101777f04:	bl	0x10130cca0
+101777f08:	bl	0x10178d880
+101777f0c:	mov	x29, x29
+101777f10:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777f14:	bl	0x10131836c
+101777f18:	mov	w5, #0x2a5
+101777f1c:	bl	0x101793400
+101777f20:	mov	x0, x21
+101777f24:	ldp	x29, x30, [sp, #0x20]
+101777f28:	b	0x10130cd04
+101777f2c:	stp	x24, x23, [sp, #-0x40]!
+101777f30:	stp	x22, x21, [sp, #0x10]
+101777f34:	stp	x20, x19, [sp, #0x20]
+101777f38:	stp	x29, x30, [sp, #0x30]
+101777f3c:	add	x29, sp, #0x30
+101777f40:	bl	0x10130cca0
+101777f44:	bl	0x10178d880
+101777f48:	mov	x29, x29
+101777f4c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777f50:	bl	0x10130cd28
+101777f54:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101777f58:	mov	x29, x29
+101777f5c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777f60:	bl	0x10130ccf4
+101777f64:	bl	0x1017ad440
+101777f68:	mov	x29, x29
+101777f6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777f70:	bl	0x101318350
+101777f74:	mov	w5, #0x389
+101777f78:	bl	0x10130cd20
+101777f7c:	bl	0x10130cd18
+101777f80:	bl	0x10130cd10
+101777f84:	mov	x0, x21
+101777f88:	ldp	x29, x30, [sp, #0x30]
+101777f8c:	ldp	x20, x19, [sp, #0x20]
+101777f90:	ldp	x22, x21, [sp, #0x10]
+101777f94:	ldp	x24, x23, [sp], #0x40
+101777f98:	b	0x101784a60 ; symbol stub for: _objc_release
+101777f9c:	stp	x22, x21, [sp, #-0x30]!
+101777fa0:	stp	x20, x19, [sp, #0x10]
+101777fa4:	stp	x29, x30, [sp, #0x20]
+101777fa8:	add	x29, sp, #0x20
+101777fac:	bl	0x10130cca0
+101777fb0:	bl	0x10178d880
+101777fb4:	mov	x29, x29
+101777fb8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101777fbc:	bl	0x10131838c
+101777fc0:	adrp	x6, 1801 ; 0x101e80000
+101777fc4:	add	x6, x6, #0x528
+101777fc8:	bl	0x101315364
+101777fcc:	mov	w5, #0x389
+101777fd0:	bl	0x101793400
+101777fd4:	mov	x0, x21
+101777fd8:	ldp	x29, x30, [sp, #0x20]
+101777fdc:	b	0x10130cd04
+101777fe0:	stp	x24, x23, [sp, #-0x40]!
+101777fe4:	stp	x22, x21, [sp, #0x10]
+101777fe8:	stp	x20, x19, [sp, #0x20]
+101777fec:	stp	x29, x30, [sp, #0x30]
+101777ff0:	add	x29, sp, #0x30
+101777ff4:	bl	0x10130cca0
+101777ff8:	bl	0x10178d880
+101777ffc:	mov	x29, x29
+101778000:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778004:	bl	0x10130cd28
+101778008:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+10177800c:	mov	x29, x29
+101778010:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778014:	bl	0x10130ccf4
+101778018:	bl	0x1017ad440
+10177801c:	mov	x29, x29
+101778020:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778024:	bl	0x101318350
+101778028:	mov	w5, #0x3a9
+10177802c:	bl	0x10130cd20
+101778030:	bl	0x10130cd18
+101778034:	bl	0x10130cd10
+101778038:	bl	0x10130cd34
+10177803c:	ldp	x29, x30, [sp, #0x30]
+101778040:	b	0x10130ccd4
+101778044:	stp	x22, x21, [sp, #-0x30]!
+101778048:	stp	x20, x19, [sp, #0x10]
+10177804c:	stp	x29, x30, [sp, #0x20]
+101778050:	add	x29, sp, #0x20
+101778054:	bl	0x10130cca0
+101778058:	bl	0x10178d880
+10177805c:	mov	x29, x29
+101778060:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778064:	bl	0x10131838c
+101778068:	adrp	x6, 1800 ; 0x101e80000
+10177806c:	add	x6, x6, #0x528
+101778070:	bl	0x101315364
+101778074:	mov	w5, #0x3a9
+101778078:	bl	0x101793400
+10177807c:	bl	0x10130cd34
+101778080:	ldp	x29, x30, [sp, #0x20]
+101778084:	ldp	x20, x19, [sp, #0x10]
+101778088:	ldp	x22, x21, [sp], #0x30
+10177808c:	ret
+101778090:	stp	x24, x23, [sp, #-0x40]!
+101778094:	stp	x22, x21, [sp, #0x10]
+101778098:	stp	x20, x19, [sp, #0x20]
+10177809c:	stp	x29, x30, [sp, #0x30]
+1017780a0:	add	x29, sp, #0x30
+1017780a4:	bl	0x10130cca0
+1017780a8:	bl	0x10178d880
+1017780ac:	mov	x29, x29
+1017780b0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017780b4:	bl	0x10130cd28
+1017780b8:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017780bc:	mov	x29, x29
+1017780c0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017780c4:	bl	0x10130ccf4
+1017780c8:	bl	0x1017ad440
+1017780cc:	mov	x29, x29
+1017780d0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017780d4:	bl	0x101318350
+1017780d8:	mov	w5, #0x3d6
+1017780dc:	bl	0x10130cd20
+1017780e0:	bl	0x10130cd18
+1017780e4:	bl	0x10130cd10
+1017780e8:	bl	0x10130cd34
+1017780ec:	ldp	x29, x30, [sp, #0x30]
+1017780f0:	b	0x10130ccd4
+1017780f4:	stp	x22, x21, [sp, #-0x30]!
+1017780f8:	stp	x20, x19, [sp, #0x10]
+1017780fc:	stp	x29, x30, [sp, #0x20]
+101778100:	add	x29, sp, #0x20
+101778104:	bl	0x10130cca0
+101778108:	bl	0x10178d880
+10177810c:	mov	x29, x29
+101778110:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778114:	bl	0x10131838c
+101778118:	adrp	x6, 1801 ; 0x101e81000
+10177811c:	add	x6, x6, #0x288
+101778120:	bl	0x101315364
+101778124:	mov	w5, #0x3de
+101778128:	bl	0x101793400
+10177812c:	mov	x0, x21
+101778130:	ldp	x29, x30, [sp, #0x20]
+101778134:	b	0x10130cd04
+101778138:	stp	x24, x23, [sp, #-0x40]!
+10177813c:	stp	x22, x21, [sp, #0x10]
+101778140:	stp	x20, x19, [sp, #0x20]
+101778144:	stp	x29, x30, [sp, #0x30]
+101778148:	add	x29, sp, #0x30
+10177814c:	bl	0x10130cca0
+101778150:	bl	0x10178d880
+101778154:	mov	x29, x29
+101778158:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177815c:	bl	0x10130cd28
+101778160:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101778164:	mov	x29, x29
+101778168:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177816c:	bl	0x10130ccf4
+101778170:	bl	0x1017ad440
+101778174:	mov	x29, x29
+101778178:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177817c:	bl	0x101318350
+101778180:	mov	w5, #0x3f3
+101778184:	bl	0x10130cd20
+101778188:	bl	0x10130cd18
+10177818c:	bl	0x10130cd10
+101778190:	bl	0x10130cd34
+101778194:	ldp	x29, x30, [sp, #0x30]
+101778198:	b	0x10130ccd4
+10177819c:	stp	x24, x23, [sp, #-0x40]!
+1017781a0:	stp	x22, x21, [sp, #0x10]
+1017781a4:	stp	x20, x19, [sp, #0x20]
+1017781a8:	stp	x29, x30, [sp, #0x30]
+1017781ac:	add	x29, sp, #0x30
+1017781b0:	bl	0x10130cca0
+1017781b4:	bl	0x10178d880
+1017781b8:	mov	x29, x29
+1017781bc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017781c0:	bl	0x10130cd28
+1017781c4:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017781c8:	mov	x29, x29
+1017781cc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017781d0:	bl	0x10130ccf4
+1017781d4:	bl	0x1017ad440
+1017781d8:	mov	x29, x29
+1017781dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017781e0:	bl	0x101318350
+1017781e4:	mov	w5, #0x417
+1017781e8:	bl	0x10130cd20
+1017781ec:	bl	0x10130cd18
+1017781f0:	bl	0x10130cd10
+1017781f4:	bl	0x10130cd34
+1017781f8:	ldp	x29, x30, [sp, #0x30]
+1017781fc:	b	0x10130ccd4
+101778200:	stp	x22, x21, [sp, #-0x30]!
+101778204:	stp	x20, x19, [sp, #0x10]
+101778208:	stp	x29, x30, [sp, #0x20]
+10177820c:	add	x29, sp, #0x20
+101778210:	bl	0x10130cca0
+101778214:	bl	0x10178d880
+101778218:	mov	x29, x29
+10177821c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778220:	bl	0x10131838c
+101778224:	adrp	x6, 1801 ; 0x101e81000
+101778228:	add	x6, x6, #0x288
+10177822c:	bl	0x101315364
+101778230:	mov	w5, #0x41f
+101778234:	bl	0x101793400
+101778238:	mov	x0, x21
+10177823c:	ldp	x29, x30, [sp, #0x20]
+101778240:	b	0x10130cd04
+101778244:	stp	x24, x23, [sp, #-0x40]!
+101778248:	stp	x22, x21, [sp, #0x10]
+10177824c:	stp	x20, x19, [sp, #0x20]
+101778250:	stp	x29, x30, [sp, #0x30]
+101778254:	add	x29, sp, #0x30
+101778258:	bl	0x10130cca0
+10177825c:	bl	0x10178d880
+101778260:	mov	x29, x29
+101778264:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778268:	bl	0x10130cd28
+10177826c:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101778270:	mov	x29, x29
+101778274:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778278:	bl	0x10130ccf4
+10177827c:	bl	0x1017ad440
+101778280:	mov	x29, x29
+101778284:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778288:	bl	0x101318350
+10177828c:	mov	w5, #0x42d
+101778290:	bl	0x10130cd20
+101778294:	bl	0x10130cd18
+101778298:	bl	0x10130cd10
+10177829c:	bl	0x10130cd34
+1017782a0:	ldp	x29, x30, [sp, #0x30]
+1017782a4:	b	0x10130ccd4
+1017782a8:	stp	x24, x23, [sp, #-0x40]!
+1017782ac:	stp	x22, x21, [sp, #0x10]
+1017782b0:	stp	x20, x19, [sp, #0x20]
+1017782b4:	stp	x29, x30, [sp, #0x30]
+1017782b8:	add	x29, sp, #0x30
+1017782bc:	bl	0x10130cca0
+1017782c0:	bl	0x10178d880
+1017782c4:	mov	x29, x29
+1017782c8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017782cc:	bl	0x10130cd28
+1017782d0:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+1017782d4:	mov	x29, x29
+1017782d8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017782dc:	bl	0x10130ccf4
+1017782e0:	bl	0x1017ad440
+1017782e4:	mov	x29, x29
+1017782e8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017782ec:	bl	0x101318350
+1017782f0:	mov	w5, #0x441
+1017782f4:	bl	0x10130cd20
+1017782f8:	bl	0x10130cd18
+1017782fc:	bl	0x10130cd10
+101778300:	bl	0x10130cd34
+101778304:	ldp	x29, x30, [sp, #0x30]
+101778308:	b	0x10130ccd4
+10177830c:	stp	x24, x23, [sp, #-0x40]!
+101778310:	stp	x22, x21, [sp, #0x10]
+101778314:	stp	x20, x19, [sp, #0x20]
+101778318:	stp	x29, x30, [sp, #0x30]
+10177831c:	add	x29, sp, #0x30
+101778320:	bl	0x10130cca0
+101778324:	bl	0x10178d880
+101778328:	mov	x29, x29
+10177832c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778330:	bl	0x10130cd28
+101778334:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+101778338:	mov	x29, x29
+10177833c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778340:	bl	0x10130ccf4
+101778344:	bl	0x1017ad440
+101778348:	mov	x29, x29
+10177834c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778350:	bl	0x101318350
+101778354:	mov	w5, #0x455
+101778358:	bl	0x10130cd20
+10177835c:	bl	0x10130cd18
+101778360:	bl	0x10130cd10
+101778364:	bl	0x10130cd34
+101778368:	ldp	x29, x30, [sp, #0x30]
+10177836c:	b	0x10130ccd4
+101778370:	stp	x24, x23, [sp, #-0x40]!
+101778374:	stp	x22, x21, [sp, #0x10]
+101778378:	stp	x20, x19, [sp, #0x20]
+10177837c:	stp	x29, x30, [sp, #0x30]
+101778380:	add	x29, sp, #0x30
+101778384:	bl	0x10130cca0
+101778388:	bl	0x10178d880
+10177838c:	mov	x29, x29
+101778390:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778394:	bl	0x10130cd28
+101778398:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+10177839c:	mov	x29, x29
+1017783a0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017783a4:	bl	0x10130ccf4
+1017783a8:	bl	0x1017ad440
+1017783ac:	mov	x29, x29
+1017783b0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017783b4:	bl	0x101318350
+1017783b8:	mov	w5, #0x46a
+1017783bc:	bl	0x10130cd20
+1017783c0:	bl	0x10130cd18
+1017783c4:	bl	0x10130cd10
+1017783c8:	bl	0x10130cd34
+1017783cc:	ldp	x29, x30, [sp, #0x30]
+1017783d0:	b	0x10130ccd4
+1017783d4:	adrp	x0, 2366 ; 0x1020b6000
+1017783d8:	add	x0, x0, #0xd58
+1017783dc:	adrp	x1, 1754 ; 0x101e52000
+1017783e0:	add	x1, x1, #0xf50
+1017783e4:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017783e8:	stp	x22, x21, [sp, #-0x30]!
+1017783ec:	stp	x20, x19, [sp, #0x10]
+1017783f0:	stp	x29, x30, [sp, #0x20]
+1017783f4:	add	x29, sp, #0x20
+1017783f8:	bl	0x10130cca0
+1017783fc:	bl	0x10178d880
+101778400:	mov	x29, x29
+101778404:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778408:	mov	x21, x0
+10177840c:	ldr	x2, [x20, #0x28]
+101778410:	ldr	x3, [x19]
+101778414:	adrp	x4, 1801 ; 0x101e81000
+101778418:	add	x4, x4, #0x508
+10177841c:	adrp	x6, 1801 ; 0x101e81000
+101778420:	add	x6, x6, #0x528
+101778424:	mov	w5, #0x7e
+101778428:	bl	0x101793400
+10177842c:	mov	x0, x21
+101778430:	ldp	x29, x30, [sp, #0x20]
+101778434:	ldp	x20, x19, [sp, #0x10]
+101778438:	ldp	x22, x21, [sp], #0x30
+10177843c:	b	0x101784a60 ; symbol stub for: _objc_release
+101778440:	stp	x22, x21, [sp, #-0x30]!
+101778444:	stp	x20, x19, [sp, #0x10]
+101778448:	stp	x29, x30, [sp, #0x20]
+10177844c:	add	x29, sp, #0x20
+101778450:	bl	0x10130cca0
+101778454:	bl	0x10178d880
+101778458:	mov	x29, x29
+10177845c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778460:	mov	x21, x0
+101778464:	adrp	x4, 1801 ; 0x101e81000
+101778468:	add	x4, x4, #0x508
+10177846c:	adrp	x6, 1801 ; 0x101e81000
+101778470:	add	x6, x6, #0x548
+101778474:	mov	x2, x20
+101778478:	mov	x3, x19
+10177847c:	mov	w5, #0x99
+101778480:	bl	0x101793400
+101778484:	mov	x0, x21
+101778488:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177848c:	ldp	x29, x30, [sp, #0x20]
+101778490:	ldp	x20, x19, [sp, #0x10]
+101778494:	ldp	x22, x21, [sp], #0x30
+101778498:	ret
+10177849c:	adrp	x0, 2366 ; 0x1020b6000
+1017784a0:	add	x0, x0, #0xd68
+1017784a4:	adrp	x1, 1754 ; 0x101e52000
+1017784a8:	add	x1, x1, #0xf70
+1017784ac:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017784b0:	stp	x29, x30, [sp, #-0x10]!
+1017784b4:	mov	x29, sp
+1017784b8:	adrp	x0, 598 ; 0x1019ce000
+1017784bc:	add	x0, x0, #0x3b0 ; literal pool for: "UIKitNavigation.NavigationStackController"
+1017784c0:	adrp	x2, 598 ; 0x1019ce000
+1017784c4:	add	x2, x2, #0x3e0 ; literal pool for: "init(navigationBarClass:toolbarClass:)"
+1017784c8:	mov	w1, #0x29
+1017784cc:	mov	w3, #0x26
+1017784d0:	mov	w4, #0x0
+1017784d4:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1017784d8:	brk	#0x1
+1017784dc:	stp	x29, x30, [sp, #-0x10]!
+1017784e0:	mov	x29, sp
+1017784e4:	adrp	x0, 598 ; 0x1019ce000
+1017784e8:	add	x0, x0, #0x3b0 ; literal pool for: "UIKitNavigation.NavigationStackController"
+1017784ec:	adrp	x2, 598 ; 0x1019ce000
+1017784f0:	add	x2, x2, #0x410 ; literal pool for: "init(rootViewController:)"
+1017784f4:	mov	w1, #0x29
+1017784f8:	mov	w3, #0x19
+1017784fc:	mov	w4, #0x0
+101778500:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101778504:	brk	#0x1
+101778508:	stp	x29, x30, [sp, #-0x10]!
+10177850c:	mov	x29, sp
+101778510:	adrp	x0, 598 ; 0x1019ce000
+101778514:	add	x0, x0, #0x3b0 ; literal pool for: "UIKitNavigation.NavigationStackController"
+101778518:	adrp	x2, 466 ; 0x10194a000
+10177851c:	add	x2, x2, #0xad0 ; literal pool for: "init(nibName:bundle:)"
+101778520:	mov	w1, #0x29
+101778524:	mov	w3, #0x15
+101778528:	mov	w4, #0x0
+10177852c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101778530:	brk	#0x1
+101778534:	sub	sp, sp, #0x20
+101778538:	stp	x29, x30, [sp, #0x10]
+10177853c:	add	x29, sp, #0x10
+101778540:	mov	w8, #0x1e1
+101778544:	adrp	x9, 602 ; 0x1019d2000
+101778548:	add	x9, x9, #0x7eb ; literal pool for: "FIRCLSMachExceptionRecord"
+10177854c:	stp	x9, x8, [sp]
+101778550:	adrp	x1, 602 ; 0x1019d2000
+101778554:	add	x1, x1, #0x792 ; literal pool for: "WARN  [%s:%d] Error: aborting mach exception handler because crash has already occurred\n"
+101778558:	mov	w0, #0x3
+10177855c:	bl	0x10154ce04
+101778560:	mov	w0, #0x1
+101778564:	bl	0x10178452c ; symbol stub for: _exit
+101778568:	sub	sp, sp, #0x20
+10177856c:	stp	x29, x30, [sp, #0x10]
+101778570:	add	x29, sp, #0x10
+101778574:	mov	w8, #0xfc
+101778578:	adrp	x9, 602 ; 0x1019d2000
+10177857c:	add	x9, x9, #0xe55 ; literal pool for: "FIRCLSSignalRecordSignal"
+101778580:	stp	x9, x8, [sp]
+101778584:	adrp	x1, 602 ; 0x1019d2000
+101778588:	add	x1, x1, #0xe05 ; literal pool for: "WARN  [%s:%d] Error: aborting signal handler because crash has already occurred"
+10177858c:	mov	w0, #0x3
+101778590:	bl	0x10154ce04
+101778594:	mov	w0, #0x1
+101778598:	bl	0x10178452c ; symbol stub for: _exit
+10177859c:	adrp	x0, 2391 ; 0x1020cf000
+1017785a0:	add	x0, x0, #0x4b8
+1017785a4:	adrp	x1, 1783 ; 0x101e6f000
+1017785a8:	add	x1, x1, #0x9a0
+1017785ac:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017785b0:	sub	sp, sp, #0x40
+1017785b4:	stp	x22, x21, [sp, #0x10]
+1017785b8:	stp	x20, x19, [sp, #0x20]
+1017785bc:	stp	x29, x30, [sp, #0x30]
+1017785c0:	add	x29, sp, #0x30
+1017785c4:	mov	x19, x1
+1017785c8:	mov	x20, x0
+1017785cc:	adrp	x8, 1975 ; 0x101f2f000
+1017785d0:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+1017785d4:	bl	0x10178d880
+1017785d8:	mov	x29, x29
+1017785dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017785e0:	mov	x21, x0
+1017785e4:	adrp	x8, 1803 ; 0x101e83000
+1017785e8:	add	x8, x8, #0xa68
+1017785ec:	str	x8, [sp]
+1017785f0:	adrp	x4, 1803 ; 0x101e83000
+1017785f4:	add	x4, x4, #0xa48
+1017785f8:	adrp	x6, 1800 ; 0x101e80000
+1017785fc:	add	x6, x6, #0x88
+101778600:	mov	x2, x20
+101778604:	mov	x3, x19
+101778608:	mov	w5, #0x47
+10177860c:	bl	0x101793400
+101778610:	mov	x0, x21
+101778614:	ldp	x29, x30, [sp, #0x30]
+101778618:	ldp	x20, x19, [sp, #0x20]
+10177861c:	ldp	x22, x21, [sp, #0x10]
+101778620:	add	sp, sp, #0x40
+101778624:	b	0x101784a60 ; symbol stub for: _objc_release
+101778628:	sub	sp, sp, #0x40
+10177862c:	stp	x22, x21, [sp, #0x10]
+101778630:	stp	x20, x19, [sp, #0x20]
+101778634:	stp	x29, x30, [sp, #0x30]
+101778638:	add	x29, sp, #0x30
+10177863c:	bl	0x10130cca0
+101778640:	bl	0x10178d880
+101778644:	mov	x29, x29
+101778648:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177864c:	mov	x21, x0
+101778650:	adrp	x8, 1803 ; 0x101e83000
+101778654:	add	x8, x8, #0xc08
+101778658:	bl	0x1015569e8
+10177865c:	mov	w5, #0x3d
+101778660:	bl	0x101793400
+101778664:	mov	x0, x21
+101778668:	ldp	x29, x30, [sp, #0x30]
+10177866c:	b	0x101312080
+101778670:	sub	sp, sp, #0x40
+101778674:	stp	x22, x21, [sp, #0x10]
+101778678:	stp	x20, x19, [sp, #0x20]
+10177867c:	stp	x29, x30, [sp, #0x30]
+101778680:	add	x29, sp, #0x30
+101778684:	bl	0x10130cca0
+101778688:	bl	0x10178d880
+10177868c:	mov	x29, x29
+101778690:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778694:	mov	x21, x0
+101778698:	adrp	x8, 1803 ; 0x101e83000
+10177869c:	add	x8, x8, #0xc28
+1017786a0:	bl	0x1015569e8
+1017786a4:	mov	w5, #0x3e
+1017786a8:	bl	0x101793400
+1017786ac:	mov	x0, x21
+1017786b0:	ldp	x29, x30, [sp, #0x30]
+1017786b4:	b	0x101312080
+1017786b8:	sub	sp, sp, #0x40
+1017786bc:	stp	x22, x21, [sp, #0x10]
+1017786c0:	stp	x20, x19, [sp, #0x20]
+1017786c4:	stp	x29, x30, [sp, #0x30]
+1017786c8:	add	x29, sp, #0x30
+1017786cc:	bl	0x10130cca0
+1017786d0:	bl	0x10178d880
+1017786d4:	mov	x29, x29
+1017786d8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017786dc:	mov	x21, x0
+1017786e0:	adrp	x8, 1803 ; 0x101e83000
+1017786e4:	add	x8, x8, #0xc48
+1017786e8:	bl	0x1015569e8
+1017786ec:	mov	w5, #0x3f
+1017786f0:	bl	0x101793400
+1017786f4:	mov	x0, x21
+1017786f8:	ldp	x29, x30, [sp, #0x30]
+1017786fc:	b	0x101312080
+101778700:	sub	sp, sp, #0x40
+101778704:	stp	x22, x21, [sp, #0x10]
+101778708:	stp	x20, x19, [sp, #0x20]
+10177870c:	stp	x29, x30, [sp, #0x30]
+101778710:	add	x29, sp, #0x30
+101778714:	bl	0x10130cca0
+101778718:	bl	0x10178d880
+10177871c:	mov	x29, x29
+101778720:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778724:	mov	x21, x0
+101778728:	adrp	x8, 1803 ; 0x101e83000
+10177872c:	add	x8, x8, #0xc68
+101778730:	bl	0x1015569e8
+101778734:	mov	w5, #0x40
+101778738:	bl	0x101793400
+10177873c:	mov	x0, x21
+101778740:	ldp	x29, x30, [sp, #0x30]
+101778744:	b	0x101312080
+101778748:	sub	sp, sp, #0x40
+10177874c:	stp	x22, x21, [sp, #0x10]
+101778750:	stp	x20, x19, [sp, #0x20]
+101778754:	stp	x29, x30, [sp, #0x30]
+101778758:	add	x29, sp, #0x30
+10177875c:	mov	x19, x1
+101778760:	mov	x20, x0
+101778764:	adrp	x8, 1975 ; 0x101f2f000
+101778768:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+10177876c:	bl	0x10178d880
+101778770:	mov	x29, x29
+101778774:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778778:	mov	x21, x0
+10177877c:	adrp	x8, 1803 ; 0x101e83000
+101778780:	add	x8, x8, #0xa68
+101778784:	str	x8, [sp]
+101778788:	adrp	x4, 1803 ; 0x101e83000
+10177878c:	add	x4, x4, #0xda8
+101778790:	adrp	x6, 1800 ; 0x101e80000
+101778794:	add	x6, x6, #0x88
+101778798:	mov	x2, x20
+10177879c:	mov	x3, x19
+1017787a0:	mov	w5, #0x21
+1017787a4:	bl	0x101793400
+1017787a8:	mov	x0, x21
+1017787ac:	ldp	x29, x30, [sp, #0x30]
+1017787b0:	ldp	x20, x19, [sp, #0x20]
+1017787b4:	ldp	x22, x21, [sp, #0x10]
+1017787b8:	add	sp, sp, #0x40
+1017787bc:	b	0x101784a60 ; symbol stub for: _objc_release
+1017787c0:	sub	sp, sp, #0x40
+1017787c4:	stp	x22, x21, [sp, #0x10]
+1017787c8:	stp	x20, x19, [sp, #0x20]
+1017787cc:	stp	x29, x30, [sp, #0x30]
+1017787d0:	add	x29, sp, #0x30
+1017787d4:	mov	x19, x2
+1017787d8:	mov	x20, x1
+1017787dc:	mov	x21, x0
+1017787e0:	adrp	x8, 1975 ; 0x101f2f000
+1017787e4:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+1017787e8:	bl	0x10178d880
+1017787ec:	mov	x29, x29
+1017787f0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017787f4:	mov	x22, x0
+1017787f8:	ldr	w8, [x21]
+1017787fc:	str	x8, [sp]
+101778800:	adrp	x4, 1804 ; 0x101e84000
+101778804:	add	x4, x4, #0x268
+101778808:	adrp	x6, 1804 ; 0x101e84000
+10177880c:	add	x6, x6, #0x288
+101778810:	mov	x2, x20
+101778814:	mov	x3, x19
+101778818:	mov	w5, #0xc5
+10177881c:	bl	0x101793400
+101778820:	mov	x0, x22
+101778824:	bl	0x101784a60 ; symbol stub for: _objc_release
+101778828:	ldp	x29, x30, [sp, #0x30]
+10177882c:	ldp	x20, x19, [sp, #0x20]
+101778830:	ldp	x22, x21, [sp, #0x10]
+101778834:	add	sp, sp, #0x40
+101778838:	ret
+10177883c:	stp	x29, x30, [sp, #-0x10]!
+101778840:	mov	x29, sp
+101778844:	adrp	x0, 606 ; 0x1019d6000
+101778848:	add	x0, x0, #0x7a0 ; literal pool for: "FirebaseCoreInternal._ObjC_HeartbeatController"
+10177884c:	adrp	x2, 582 ; 0x1019be000
+101778850:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101778854:	mov	w1, #0x2e
+101778858:	mov	w3, #0x6
+10177885c:	mov	w4, #0x0
+101778860:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101778864:	brk	#0x1
+101778868:	stp	x29, x30, [sp, #-0x10]!
+10177886c:	mov	x29, sp
+101778870:	adrp	x0, 606 ; 0x1019d6000
+101778874:	add	x0, x0, #0x7d0 ; literal pool for: "FirebaseCoreInternal._ObjC_HeartbeatsPayload"
+101778878:	adrp	x2, 582 ; 0x1019be000
+10177887c:	add	x2, x2, #0x210 ; literal pool for: "init()"
+101778880:	mov	w1, #0x2c
+101778884:	mov	w3, #0x6
+101778888:	mov	w4, #0x0
+10177888c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+101778890:	brk	#0x1
+101778894:	adrp	x0, 2392 ; 0x1020d0000
+101778898:	add	x0, x0, #0xdc0
+10177889c:	adrp	x1, 1784 ; 0x101e70000
+1017788a0:	add	x1, x1, #0xff8
+1017788a4:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017788a8:	adrp	x0, 2392 ; 0x1020d0000
+1017788ac:	add	x0, x0, #0xdd8
+1017788b0:	adrp	x1, 1785 ; 0x101e71000
+1017788b4:	add	x1, x1, #0x18
+1017788b8:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017788bc:	adrp	x0, 2392 ; 0x1020d0000
+1017788c0:	add	x0, x0, #0xde8
+1017788c4:	adrp	x1, 1785 ; 0x101e71000
+1017788c8:	add	x1, x1, #0x38
+1017788cc:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017788d0:	adrp	x0, 2392 ; 0x1020d0000
+1017788d4:	add	x0, x0, #0xe00
+1017788d8:	adrp	x1, 1785 ; 0x101e71000
+1017788dc:	add	x1, x1, #0x58
+1017788e0:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017788e4:	adrp	x0, 2392 ; 0x1020d0000
+1017788e8:	add	x0, x0, #0xe10
+1017788ec:	adrp	x1, 1785 ; 0x101e71000
+1017788f0:	add	x1, x1, #0x78
+1017788f4:	b	0x101784400 ; symbol stub for: _dispatch_once
+1017788f8:	b	0x10156f2dc
+1017788fc:	adrp	x0, 2392 ; 0x1020d0000
+101778900:	add	x0, x0, #0xe48
+101778904:	adrp	x1, 1785 ; 0x101e71000
+101778908:	add	x1, x1, #0x1c0
+10177890c:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778910:	adrp	x0, 2392 ; 0x1020d0000
+101778914:	add	x0, x0, #0xe58
+101778918:	adrp	x1, 1785 ; 0x101e71000
+10177891c:	add	x1, x1, #0x1f0
+101778920:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778924:	adrp	x0, 2392 ; 0x1020d0000
+101778928:	add	x0, x0, #0xe78
+10177892c:	adrp	x1, 1785 ; 0x101e71000
+101778930:	add	x1, x1, #0x230
+101778934:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778938:	adrp	x0, 2392 ; 0x1020d0000
+10177893c:	add	x0, x0, #0xe90
+101778940:	adrp	x1, 1785 ; 0x101e71000
+101778944:	add	x1, x1, #0x250
+101778948:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177894c:	adrp	x0, 2392 ; 0x1020d0000
+101778950:	add	x0, x0, #0xe98
+101778954:	adrp	x1, 1785 ; 0x101e71000
+101778958:	add	x1, x1, #0x270
+10177895c:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778960:	adrp	x0, 2392 ; 0x1020d0000
+101778964:	add	x0, x0, #0xeb0
+101778968:	adrp	x1, 1785 ; 0x101e71000
+10177896c:	add	x1, x1, #0x290
+101778970:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778974:	sub	sp, sp, #0x40
+101778978:	stp	x22, x21, [sp, #0x10]
+10177897c:	stp	x20, x19, [sp, #0x20]
+101778980:	stp	x29, x30, [sp, #0x30]
+101778984:	add	x29, sp, #0x30
+101778988:	mov	x19, x2
+10177898c:	mov	x20, x1
+101778990:	mov	x21, x0
+101778994:	adrp	x8, 1975 ; 0x101f2f000
+101778998:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+10177899c:	bl	0x10178d880
+1017789a0:	mov	x29, x29
+1017789a4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017789a8:	mov	x22, x0
+1017789ac:	str	x19, [sp]
+1017789b0:	adrp	x4, 1805 ; 0x101e85000
+1017789b4:	add	x4, x4, #0x8
+1017789b8:	adrp	x6, 1804 ; 0x101e84000
+1017789bc:	add	x6, x6, #0x528
+1017789c0:	mov	x2, x21
+1017789c4:	mov	x3, x20
+1017789c8:	mov	w5, #0x2b
+1017789cc:	bl	0x101793400
+1017789d0:	mov	x0, x22
+1017789d4:	ldp	x29, x30, [sp, #0x30]
+1017789d8:	ldp	x20, x19, [sp, #0x20]
+1017789dc:	ldp	x22, x21, [sp, #0x10]
+1017789e0:	add	sp, sp, #0x40
+1017789e4:	b	0x101784a60 ; symbol stub for: _objc_release
+1017789e8:	b	0x101573c90
+1017789ec:	adrp	x0, 2392 ; 0x1020d0000
+1017789f0:	add	x0, x0, #0xee8
+1017789f4:	adrp	x1, 1785 ; 0x101e71000
+1017789f8:	add	x1, x1, #0x390
+1017789fc:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778a00:	adrp	x0, 2392 ; 0x1020d0000
+101778a04:	add	x0, x0, #0xef0
+101778a08:	adrp	x1, 1785 ; 0x101e71000
+101778a0c:	add	x1, x1, #0x3b0
+101778a10:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778a14:	sub	sp, sp, #0x40
+101778a18:	stp	x22, x21, [sp, #0x10]
+101778a1c:	stp	x20, x19, [sp, #0x20]
+101778a20:	stp	x29, x30, [sp, #0x30]
+101778a24:	add	x29, sp, #0x30
+101778a28:	bl	0x10130cca0
+101778a2c:	bl	0x10178d880
+101778a30:	mov	x29, x29
+101778a34:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778a38:	mov	x21, x0
+101778a3c:	adrp	x8, 1805 ; 0x101e85000
+101778a40:	add	x8, x8, #0x6c8
+101778a44:	bl	0x101576188
+101778a48:	mov	w5, #0x1d
+101778a4c:	bl	0x101793400
+101778a50:	mov	x0, x21
+101778a54:	ldp	x29, x30, [sp, #0x30]
+101778a58:	b	0x101312080
+101778a5c:	sub	sp, sp, #0x40
+101778a60:	stp	x22, x21, [sp, #0x10]
+101778a64:	stp	x20, x19, [sp, #0x20]
+101778a68:	stp	x29, x30, [sp, #0x30]
+101778a6c:	add	x29, sp, #0x30
+101778a70:	bl	0x10130cca0
+101778a74:	bl	0x10178d880
+101778a78:	mov	x29, x29
+101778a7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778a80:	mov	x21, x0
+101778a84:	adrp	x8, 1805 ; 0x101e85000
+101778a88:	add	x8, x8, #0x6e8
+101778a8c:	bl	0x101576188
+101778a90:	mov	w5, #0x1e
+101778a94:	bl	0x101793400
+101778a98:	mov	x0, x21
+101778a9c:	ldp	x29, x30, [sp, #0x30]
+101778aa0:	b	0x101312080
+101778aa4:	sub	sp, sp, #0x40
+101778aa8:	stp	x22, x21, [sp, #0x10]
+101778aac:	stp	x20, x19, [sp, #0x20]
+101778ab0:	stp	x29, x30, [sp, #0x30]
+101778ab4:	add	x29, sp, #0x30
+101778ab8:	bl	0x10130cca0
+101778abc:	bl	0x10178d880
+101778ac0:	mov	x29, x29
+101778ac4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778ac8:	mov	x21, x0
+101778acc:	adrp	x8, 1805 ; 0x101e85000
+101778ad0:	add	x8, x8, #0x6c8
+101778ad4:	bl	0x10157647c
+101778ad8:	mov	w5, #0x1c
+101778adc:	bl	0x101793400
+101778ae0:	mov	x0, x21
+101778ae4:	ldp	x29, x30, [sp, #0x30]
+101778ae8:	b	0x101312080
+101778aec:	sub	sp, sp, #0x40
+101778af0:	stp	x22, x21, [sp, #0x10]
+101778af4:	stp	x20, x19, [sp, #0x20]
+101778af8:	stp	x29, x30, [sp, #0x30]
+101778afc:	add	x29, sp, #0x30
+101778b00:	bl	0x10130cca0
+101778b04:	bl	0x10178d880
+101778b08:	mov	x29, x29
+101778b0c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778b10:	mov	x21, x0
+101778b14:	adrp	x8, 1805 ; 0x101e85000
+101778b18:	add	x8, x8, #0x728
+101778b1c:	bl	0x10157647c
+101778b20:	mov	w5, #0x1d
+101778b24:	bl	0x101793400
+101778b28:	mov	x0, x21
+101778b2c:	ldp	x29, x30, [sp, #0x30]
+101778b30:	b	0x101312080
+101778b34:	sub	sp, sp, #0x40
+101778b38:	stp	x22, x21, [sp, #0x10]
+101778b3c:	stp	x20, x19, [sp, #0x20]
+101778b40:	stp	x29, x30, [sp, #0x30]
+101778b44:	add	x29, sp, #0x30
+101778b48:	bl	0x10130cca0
+101778b4c:	bl	0x10178d880
+101778b50:	mov	x29, x29
+101778b54:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778b58:	mov	x21, x0
+101778b5c:	adrp	x8, 1805 ; 0x101e85000
+101778b60:	add	x8, x8, #0x6c8
+101778b64:	bl	0x101576e64
+101778b68:	mov	w5, #0x2d
+101778b6c:	bl	0x101793400
+101778b70:	mov	x0, x21
+101778b74:	ldp	x29, x30, [sp, #0x30]
+101778b78:	b	0x101312080
+101778b7c:	sub	sp, sp, #0x40
+101778b80:	stp	x22, x21, [sp, #0x10]
+101778b84:	stp	x20, x19, [sp, #0x20]
+101778b88:	stp	x29, x30, [sp, #0x30]
+101778b8c:	add	x29, sp, #0x30
+101778b90:	bl	0x10130cca0
+101778b94:	bl	0x10178d880
+101778b98:	mov	x29, x29
+101778b9c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778ba0:	mov	x21, x0
+101778ba4:	adrp	x8, 1805 ; 0x101e85000
+101778ba8:	add	x8, x8, #0x768
+101778bac:	bl	0x101576e64
+101778bb0:	mov	w5, #0x2e
+101778bb4:	bl	0x101793400
+101778bb8:	mov	x0, x21
+101778bbc:	ldp	x29, x30, [sp, #0x30]
+101778bc0:	b	0x101312080
+101778bc4:	stp	x29, x30, [sp, #-0x10]!
+101778bc8:	mov	x29, sp
+101778bcc:	adrp	x0, 607 ; 0x1019d7000
+101778bd0:	add	x0, x0, #0xdb3 ; literal pool for: "FBLPromiseCombineValuesAndErrors"
+101778bd4:	adrp	x1, 607 ; 0x1019d7000
+101778bd8:	add	x1, x1, #0xd96 ; literal pool for: "FBLPromise+Any.m"
+101778bdc:	adrp	x3, 607 ; 0x1019d7000
+101778be0:	add	x3, x3, #0xdd4 ; literal pool for: "!promise.isPending"
+101778be4:	mov	w2, #0x21
+101778be8:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101778bec:	sub	sp, sp, #0x40
+101778bf0:	stp	x22, x21, [sp, #0x10]
+101778bf4:	stp	x20, x19, [sp, #0x20]
+101778bf8:	stp	x29, x30, [sp, #0x30]
+101778bfc:	add	x29, sp, #0x30
+101778c00:	bl	0x10130cca0
+101778c04:	bl	0x10178d880
+101778c08:	mov	x29, x29
+101778c0c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778c10:	mov	x21, x0
+101778c14:	adrp	x8, 1805 ; 0x101e85000
+101778c18:	add	x8, x8, #0x6c8
+101778c1c:	bl	0x101577338
+101778c20:	mov	w5, #0x1c
+101778c24:	bl	0x101793400
+101778c28:	mov	x0, x21
+101778c2c:	ldp	x29, x30, [sp, #0x30]
+101778c30:	b	0x101312080
+101778c34:	sub	sp, sp, #0x40
+101778c38:	stp	x22, x21, [sp, #0x10]
+101778c3c:	stp	x20, x19, [sp, #0x20]
+101778c40:	stp	x29, x30, [sp, #0x30]
+101778c44:	add	x29, sp, #0x30
+101778c48:	bl	0x10130cca0
+101778c4c:	bl	0x10178d880
+101778c50:	mov	x29, x29
+101778c54:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778c58:	mov	x21, x0
+101778c5c:	adrp	x8, 1805 ; 0x101e85000
+101778c60:	add	x8, x8, #0x728
+101778c64:	bl	0x101577338
+101778c68:	mov	w5, #0x1d
+101778c6c:	bl	0x101793400
+101778c70:	mov	x0, x21
+101778c74:	ldp	x29, x30, [sp, #0x30]
+101778c78:	b	0x101312080
+101778c7c:	adrp	x0, 2392 ; 0x1020d0000
+101778c80:	add	x0, x0, #0xef8
+101778c84:	adrp	x1, 1785 ; 0x101e71000
+101778c88:	add	x1, x1, #0x6b0
+101778c8c:	b	0x101784400 ; symbol stub for: _dispatch_once
+101778c90:	stp	x29, x30, [sp, #-0x10]!
+101778c94:	mov	x29, sp
+101778c98:	adrp	x0, 607 ; 0x1019d7000
+101778c9c:	add	x0, x0, #0xe82 ; literal pool for: "FBLPromiseAwait"
+101778ca0:	adrp	x1, 607 ; 0x1019d7000
+101778ca4:	add	x1, x1, #0xe92 ; literal pool for: "FBLPromise+Await.m"
+101778ca8:	adrp	x3, 607 ; 0x1019d7000
+101778cac:	add	x3, x3, #0xea5 ; literal pool for: "promise"
+101778cb0:	mov	w2, #0x16
+101778cb4:	bl	0x101783f74 ; symbol stub for: ___assert_rtn
+101778cb8:	sub	sp, sp, #0x40
+101778cbc:	stp	x22, x21, [sp, #0x10]
+101778cc0:	stp	x20, x19, [sp, #0x20]
+101778cc4:	stp	x29, x30, [sp, #0x30]
+101778cc8:	add	x29, sp, #0x30
+101778ccc:	bl	0x10130cca0
+101778cd0:	bl	0x10178d880
+101778cd4:	mov	x29, x29
+101778cd8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778cdc:	mov	x21, x0
+101778ce0:	adrp	x8, 1805 ; 0x101e85000
+101778ce4:	add	x8, x8, #0x6c8
+101778ce8:	bl	0x1015778e8
+101778cec:	mov	w5, #0x1c
+101778cf0:	bl	0x101793400
+101778cf4:	mov	x0, x21
+101778cf8:	ldp	x29, x30, [sp, #0x30]
+101778cfc:	b	0x101312080
+101778d00:	sub	sp, sp, #0x40
+101778d04:	stp	x22, x21, [sp, #0x10]
+101778d08:	stp	x20, x19, [sp, #0x20]
+101778d0c:	stp	x29, x30, [sp, #0x30]
+101778d10:	add	x29, sp, #0x30
+101778d14:	bl	0x10130cca0
+101778d18:	bl	0x10178d880
+101778d1c:	mov	x29, x29
+101778d20:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778d24:	mov	x21, x0
+101778d28:	adrp	x8, 1805 ; 0x101e85000
+101778d2c:	add	x8, x8, #0x7c8
+101778d30:	bl	0x1015778e8
+101778d34:	mov	w5, #0x1d
+101778d38:	bl	0x101793400
+101778d3c:	mov	x0, x21
+101778d40:	ldp	x29, x30, [sp, #0x30]
+101778d44:	b	0x101312080
+101778d48:	sub	sp, sp, #0x40
+101778d4c:	stp	x22, x21, [sp, #0x10]
+101778d50:	stp	x20, x19, [sp, #0x20]
+101778d54:	stp	x29, x30, [sp, #0x30]
+101778d58:	add	x29, sp, #0x30
+101778d5c:	mov	x19, x1
+101778d60:	mov	x20, x0
+101778d64:	adrp	x8, 1975 ; 0x101f2f000
+101778d68:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+101778d6c:	bl	0x10178d880
+101778d70:	mov	x29, x29
+101778d74:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778d78:	mov	x21, x0
+101778d7c:	adrp	x8, 1805 ; 0x101e85000
+101778d80:	add	x8, x8, #0x6c8
+101778d84:	str	x8, [sp]
+101778d88:	adrp	x4, 1805 ; 0x101e85000
+101778d8c:	add	x4, x4, #0x7e8
+101778d90:	adrp	x6, 1800 ; 0x101e80000
+101778d94:	add	x6, x6, #0x88
+101778d98:	mov	x2, x20
+101778d9c:	mov	x3, x19
+101778da0:	mov	w5, #0x1c
+101778da4:	bl	0x101793400
+101778da8:	mov	x0, x21
+101778dac:	ldp	x29, x30, [sp, #0x30]
+101778db0:	ldp	x20, x19, [sp, #0x20]
+101778db4:	ldp	x22, x21, [sp, #0x10]
+101778db8:	add	sp, sp, #0x40
+101778dbc:	b	0x101784a60 ; symbol stub for: _objc_release
+101778dc0:	sub	sp, sp, #0x40
+101778dc4:	stp	x22, x21, [sp, #0x10]
+101778dc8:	stp	x20, x19, [sp, #0x20]
+101778dcc:	stp	x29, x30, [sp, #0x30]
+101778dd0:	add	x29, sp, #0x30
+101778dd4:	bl	0x10130cca0
+101778dd8:	bl	0x10178d880
+101778ddc:	mov	x29, x29
+101778de0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778de4:	mov	x21, x0
+101778de8:	adrp	x8, 1805 ; 0x101e85000
+101778dec:	add	x8, x8, #0x6c8
+101778df0:	bl	0x101577f70
+101778df4:	mov	w5, #0x1c
+101778df8:	bl	0x101793400
+101778dfc:	mov	x0, x21
+101778e00:	ldp	x29, x30, [sp, #0x30]
+101778e04:	b	0x101312080
+101778e08:	sub	sp, sp, #0x40
+101778e0c:	stp	x22, x21, [sp, #0x10]
+101778e10:	stp	x20, x19, [sp, #0x20]
+101778e14:	stp	x29, x30, [sp, #0x30]
+101778e18:	add	x29, sp, #0x30
+101778e1c:	bl	0x10130cca0
+101778e20:	bl	0x10178d880
+101778e24:	mov	x29, x29
+101778e28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778e2c:	mov	x21, x0
+101778e30:	adrp	x8, 1805 ; 0x101e85000
+101778e34:	add	x8, x8, #0x728
+101778e38:	bl	0x101577f70
+101778e3c:	mov	w5, #0x1d
+101778e40:	bl	0x101793400
+101778e44:	mov	x0, x21
+101778e48:	ldp	x29, x30, [sp, #0x30]
+101778e4c:	b	0x101312080
+101778e50:	sub	sp, sp, #0x40
+101778e54:	stp	x22, x21, [sp, #0x10]
+101778e58:	stp	x20, x19, [sp, #0x20]
+101778e5c:	stp	x29, x30, [sp, #0x30]
+101778e60:	add	x29, sp, #0x30
+101778e64:	bl	0x10130cca0
+101778e68:	bl	0x10178d880
+101778e6c:	mov	x29, x29
+101778e70:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778e74:	mov	x21, x0
+101778e78:	adrp	x8, 1805 ; 0x101e85000
+101778e7c:	add	x8, x8, #0x6c8
+101778e80:	str	x8, [sp]
+101778e84:	adrp	x4, 1805 ; 0x101e85000
+101778e88:	add	x4, x4, #0x828
+101778e8c:	adrp	x6, 1800 ; 0x101e80000
+101778e90:	add	x6, x6, #0x88
+101778e94:	mov	x2, x20
+101778e98:	mov	x3, x19
+101778e9c:	mov	w5, #0x1d
+101778ea0:	bl	0x101793400
+101778ea4:	mov	x0, x21
+101778ea8:	ldp	x29, x30, [sp, #0x30]
+101778eac:	ldp	x20, x19, [sp, #0x20]
+101778eb0:	ldp	x22, x21, [sp, #0x10]
+101778eb4:	add	sp, sp, #0x40
+101778eb8:	b	0x101784a60 ; symbol stub for: _objc_release
+101778ebc:	stp	x22, x21, [sp, #-0x30]!
+101778ec0:	stp	x20, x19, [sp, #0x10]
+101778ec4:	stp	x29, x30, [sp, #0x20]
+101778ec8:	add	x29, sp, #0x20
+101778ecc:	bl	0x10130cca0
+101778ed0:	bl	0x10178d880
+101778ed4:	mov	x29, x29
+101778ed8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778edc:	mov	x21, x0
+101778ee0:	adrp	x4, 1805 ; 0x101e85000
+101778ee4:	add	x4, x4, #0x828
+101778ee8:	adrp	x6, 1805 ; 0x101e85000
+101778eec:	add	x6, x6, #0x848
+101778ef0:	mov	x2, x20
+101778ef4:	mov	x3, x19
+101778ef8:	mov	w5, #0x1e
+101778efc:	bl	0x101793400
+101778f00:	mov	x0, x21
+101778f04:	ldp	x29, x30, [sp, #0x20]
+101778f08:	ldp	x20, x19, [sp, #0x10]
+101778f0c:	ldp	x22, x21, [sp], #0x30
+101778f10:	b	0x101784a60 ; symbol stub for: _objc_release
+101778f14:	sub	sp, sp, #0x40
+101778f18:	stp	x22, x21, [sp, #0x10]
+101778f1c:	stp	x20, x19, [sp, #0x20]
+101778f20:	stp	x29, x30, [sp, #0x30]
+101778f24:	add	x29, sp, #0x30
+101778f28:	bl	0x10130cca0
+101778f2c:	bl	0x10178d880
+101778f30:	mov	x29, x29
+101778f34:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778f38:	mov	x21, x0
+101778f3c:	adrp	x8, 1805 ; 0x101e85000
+101778f40:	add	x8, x8, #0x6c8
+101778f44:	bl	0x1015785fc
+101778f48:	mov	w5, #0x1c
+101778f4c:	bl	0x101793400
+101778f50:	mov	x0, x21
+101778f54:	ldp	x29, x30, [sp, #0x30]
+101778f58:	b	0x101312080
+101778f5c:	sub	sp, sp, #0x40
+101778f60:	stp	x22, x21, [sp, #0x10]
+101778f64:	stp	x20, x19, [sp, #0x20]
+101778f68:	stp	x29, x30, [sp, #0x30]
+101778f6c:	add	x29, sp, #0x30
+101778f70:	bl	0x10130cca0
+101778f74:	bl	0x10178d880
+101778f78:	mov	x29, x29
+101778f7c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778f80:	mov	x21, x0
+101778f84:	adrp	x8, 1805 ; 0x101e85000
+101778f88:	add	x8, x8, #0x888
+101778f8c:	bl	0x1015785fc
+101778f90:	mov	w5, #0x1d
+101778f94:	bl	0x101793400
+101778f98:	mov	x0, x21
+101778f9c:	ldp	x29, x30, [sp, #0x30]
+101778fa0:	b	0x101312080
+101778fa4:	sub	sp, sp, #0x40
+101778fa8:	stp	x22, x21, [sp, #0x10]
+101778fac:	stp	x20, x19, [sp, #0x20]
+101778fb0:	stp	x29, x30, [sp, #0x30]
+101778fb4:	add	x29, sp, #0x30
+101778fb8:	bl	0x10130cca0
+101778fbc:	bl	0x10178d880
+101778fc0:	mov	x29, x29
+101778fc4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101778fc8:	mov	x21, x0
+101778fcc:	adrp	x8, 1805 ; 0x101e85000
+101778fd0:	add	x8, x8, #0x6c8
+101778fd4:	bl	0x101578998
+101778fd8:	mov	w5, #0x1e
+101778fdc:	bl	0x101793400
+101778fe0:	mov	x0, x21
+101778fe4:	ldp	x29, x30, [sp, #0x30]
+101778fe8:	b	0x101312080
+101778fec:	sub	sp, sp, #0x40
+101778ff0:	stp	x22, x21, [sp, #0x10]
+101778ff4:	stp	x20, x19, [sp, #0x20]
+101778ff8:	stp	x29, x30, [sp, #0x30]
+101778ffc:	add	x29, sp, #0x30
+101779000:	bl	0x10130cca0
+101779004:	bl	0x10178d880
+101779008:	mov	x29, x29
+10177900c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779010:	mov	x21, x0
+101779014:	adrp	x8, 1804 ; 0x101e85000
+101779018:	add	x8, x8, #0x8c8
+10177901c:	bl	0x101578998
+101779020:	mov	w5, #0x1f
+101779024:	bl	0x101793400
+101779028:	mov	x0, x21
+10177902c:	ldp	x29, x30, [sp, #0x30]
+101779030:	b	0x101312080
+101779034:	sub	sp, sp, #0x40
+101779038:	stp	x22, x21, [sp, #0x10]
+10177903c:	stp	x20, x19, [sp, #0x20]
+101779040:	stp	x29, x30, [sp, #0x30]
+101779044:	add	x29, sp, #0x30
+101779048:	bl	0x10130cca0
+10177904c:	bl	0x10178d880
+101779050:	mov	x29, x29
+101779054:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779058:	mov	x21, x0
+10177905c:	adrp	x8, 1804 ; 0x101e85000
+101779060:	add	x8, x8, #0x8e8
+101779064:	bl	0x101578998
+101779068:	mov	w5, #0x20
+10177906c:	bl	0x101793400
+101779070:	mov	x0, x21
+101779074:	ldp	x29, x30, [sp, #0x30]
+101779078:	b	0x101312080
+10177907c:	sub	sp, sp, #0x40
+101779080:	stp	x22, x21, [sp, #0x10]
+101779084:	stp	x20, x19, [sp, #0x20]
+101779088:	stp	x29, x30, [sp, #0x30]
+10177908c:	add	x29, sp, #0x30
+101779090:	bl	0x10130cca0
+101779094:	bl	0x10178d880
+101779098:	mov	x29, x29
+10177909c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017790a0:	mov	x21, x0
+1017790a4:	adrp	x8, 1804 ; 0x101e85000
+1017790a8:	add	x8, x8, #0x6c8
+1017790ac:	bl	0x101579190
+1017790b0:	mov	w5, #0x58
+1017790b4:	bl	0x101793400
+1017790b8:	mov	x0, x21
+1017790bc:	ldp	x29, x30, [sp, #0x30]
+1017790c0:	b	0x101312080
+1017790c4:	sub	sp, sp, #0x40
+1017790c8:	stp	x22, x21, [sp, #0x10]
+1017790cc:	stp	x20, x19, [sp, #0x20]
+1017790d0:	stp	x29, x30, [sp, #0x30]
+1017790d4:	add	x29, sp, #0x30
+1017790d8:	bl	0x10130cca0
+1017790dc:	bl	0x10178d880
+1017790e0:	mov	x29, x29
+1017790e4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017790e8:	mov	x21, x0
+1017790ec:	adrp	x8, 1804 ; 0x101e85000
+1017790f0:	add	x8, x8, #0x728
+1017790f4:	bl	0x101579190
+1017790f8:	mov	w5, #0x59
+1017790fc:	bl	0x101793400
+101779100:	mov	x0, x21
+101779104:	ldp	x29, x30, [sp, #0x30]
+101779108:	b	0x101312080
+10177910c:	adrp	x0, 2391 ; 0x1020d0000
+101779110:	add	x0, x0, #0xf10
+101779114:	adrp	x1, 1784 ; 0x101e71000
+101779118:	add	x1, x1, #0xa40
+10177911c:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779120:	sub	sp, sp, #0x40
+101779124:	stp	x22, x21, [sp, #0x10]
+101779128:	stp	x20, x19, [sp, #0x20]
+10177912c:	stp	x29, x30, [sp, #0x30]
+101779130:	add	x29, sp, #0x30
+101779134:	bl	0x10130cca0
+101779138:	bl	0x10178d880
+10177913c:	mov	x29, x29
+101779140:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779144:	mov	x21, x0
+101779148:	adrp	x8, 1804 ; 0x101e85000
+10177914c:	add	x8, x8, #0x6c8
+101779150:	bl	0x1015793e4
+101779154:	mov	w5, #0x1c
+101779158:	bl	0x101793400
+10177915c:	mov	x0, x21
+101779160:	ldp	x29, x30, [sp, #0x30]
+101779164:	b	0x101312080
+101779168:	sub	sp, sp, #0x40
+10177916c:	stp	x22, x21, [sp, #0x10]
+101779170:	stp	x20, x19, [sp, #0x20]
+101779174:	stp	x29, x30, [sp, #0x30]
+101779178:	add	x29, sp, #0x30
+10177917c:	bl	0x10130cca0
+101779180:	bl	0x10178d880
+101779184:	mov	x29, x29
+101779188:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177918c:	mov	x21, x0
+101779190:	adrp	x8, 1804 ; 0x101e85000
+101779194:	add	x8, x8, #0x728
+101779198:	bl	0x1015793e4
+10177919c:	mov	w5, #0x1d
+1017791a0:	bl	0x101793400
+1017791a4:	mov	x0, x21
+1017791a8:	ldp	x29, x30, [sp, #0x30]
+1017791ac:	b	0x101312080
+1017791b0:	sub	sp, sp, #0x40
+1017791b4:	stp	x22, x21, [sp, #0x10]
+1017791b8:	stp	x20, x19, [sp, #0x20]
+1017791bc:	stp	x29, x30, [sp, #0x30]
+1017791c0:	add	x29, sp, #0x30
+1017791c4:	mov	x19, x1
+1017791c8:	mov	x20, x0
+1017791cc:	adrp	x8, 1974 ; 0x101f2f000
+1017791d0:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+1017791d4:	bl	0x10178d880
+1017791d8:	mov	x29, x29
+1017791dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017791e0:	mov	x21, x0
+1017791e4:	adrp	x8, 1804 ; 0x101e85000
+1017791e8:	add	x8, x8, #0x6c8
+1017791ec:	str	x8, [sp]
+1017791f0:	adrp	x4, 1804 ; 0x101e85000
+1017791f4:	add	x4, x4, #0x948
+1017791f8:	adrp	x6, 1799 ; 0x101e80000
+1017791fc:	add	x6, x6, #0x88
+101779200:	mov	x2, x20
+101779204:	mov	x3, x19
+101779208:	mov	w5, #0x1c
+10177920c:	bl	0x101793400
+101779210:	mov	x0, x21
+101779214:	ldp	x29, x30, [sp, #0x30]
+101779218:	ldp	x20, x19, [sp, #0x20]
+10177921c:	ldp	x22, x21, [sp, #0x10]
+101779220:	add	sp, sp, #0x40
+101779224:	b	0x101784a60 ; symbol stub for: _objc_release
+101779228:	sub	sp, sp, #0x40
+10177922c:	stp	x22, x21, [sp, #0x10]
+101779230:	stp	x20, x19, [sp, #0x20]
+101779234:	stp	x29, x30, [sp, #0x30]
+101779238:	add	x29, sp, #0x30
+10177923c:	bl	0x10130cca0
+101779240:	bl	0x10178d880
+101779244:	mov	x29, x29
+101779248:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177924c:	mov	x21, x0
+101779250:	adrp	x8, 1804 ; 0x101e85000
+101779254:	add	x8, x8, #0x6c8
+101779258:	bl	0x1015799ec
+10177925c:	mov	w5, #0x1c
+101779260:	bl	0x101793400
+101779264:	mov	x0, x21
+101779268:	ldp	x29, x30, [sp, #0x30]
+10177926c:	b	0x101312080
+101779270:	sub	sp, sp, #0x40
+101779274:	stp	x22, x21, [sp, #0x10]
+101779278:	stp	x20, x19, [sp, #0x20]
+10177927c:	stp	x29, x30, [sp, #0x30]
+101779280:	add	x29, sp, #0x30
+101779284:	bl	0x10130cca0
+101779288:	bl	0x10178d880
+10177928c:	mov	x29, x29
+101779290:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779294:	mov	x21, x0
+101779298:	adrp	x8, 1804 ; 0x101e85000
+10177929c:	add	x8, x8, #0x988
+1017792a0:	bl	0x1015799ec
+1017792a4:	mov	w5, #0x1d
+1017792a8:	bl	0x101793400
+1017792ac:	mov	x0, x21
+1017792b0:	ldp	x29, x30, [sp, #0x30]
+1017792b4:	b	0x101312080
+1017792b8:	sub	sp, sp, #0x40
+1017792bc:	stp	x22, x21, [sp, #0x10]
+1017792c0:	stp	x20, x19, [sp, #0x20]
+1017792c4:	stp	x29, x30, [sp, #0x30]
+1017792c8:	add	x29, sp, #0x30
+1017792cc:	bl	0x10130cca0
+1017792d0:	bl	0x10178d880
+1017792d4:	mov	x29, x29
+1017792d8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017792dc:	mov	x21, x0
+1017792e0:	adrp	x8, 1804 ; 0x101e85000
+1017792e4:	add	x8, x8, #0x6c8
+1017792e8:	bl	0x10157bf70
+1017792ec:	mov	w5, #0x1d
+1017792f0:	bl	0x101793400
+1017792f4:	mov	x0, x21
+1017792f8:	ldp	x29, x30, [sp, #0x30]
+1017792fc:	b	0x101312080
+101779300:	sub	sp, sp, #0x40
+101779304:	stp	x22, x21, [sp, #0x10]
+101779308:	stp	x20, x19, [sp, #0x20]
+10177930c:	stp	x29, x30, [sp, #0x30]
+101779310:	add	x29, sp, #0x30
+101779314:	bl	0x10130cca0
+101779318:	bl	0x10178d880
+10177931c:	mov	x29, x29
+101779320:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779324:	mov	x21, x0
+101779328:	adrp	x8, 1804 ; 0x101e85000
+10177932c:	add	x8, x8, #0x728
+101779330:	bl	0x10157bf70
+101779334:	mov	w5, #0x1e
+101779338:	bl	0x101793400
+10177933c:	mov	x0, x21
+101779340:	ldp	x29, x30, [sp, #0x30]
+101779344:	b	0x101312080
+101779348:	sub	sp, sp, #0x40
+10177934c:	stp	x22, x21, [sp, #0x10]
+101779350:	stp	x20, x19, [sp, #0x20]
+101779354:	stp	x29, x30, [sp, #0x30]
+101779358:	add	x29, sp, #0x30
+10177935c:	bl	0x10130cca0
+101779360:	bl	0x10178d880
+101779364:	mov	x29, x29
+101779368:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177936c:	mov	x21, x0
+101779370:	adrp	x8, 1804 ; 0x101e85000
+101779374:	add	x8, x8, #0x6c8
+101779378:	bl	0x10157bf70
+10177937c:	mov	w5, #0x2e
+101779380:	bl	0x101793400
+101779384:	mov	x0, x21
+101779388:	ldp	x29, x30, [sp, #0x30]
+10177938c:	b	0x101312080
+101779390:	sub	sp, sp, #0x40
+101779394:	stp	x22, x21, [sp, #0x10]
+101779398:	stp	x20, x19, [sp, #0x20]
+10177939c:	stp	x29, x30, [sp, #0x30]
+1017793a0:	add	x29, sp, #0x30
+1017793a4:	bl	0x10130cca0
+1017793a8:	bl	0x10178d880
+1017793ac:	mov	x29, x29
+1017793b0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017793b4:	mov	x21, x0
+1017793b8:	adrp	x8, 1804 ; 0x101e85000
+1017793bc:	add	x8, x8, #0x728
+1017793c0:	bl	0x10157bf70
+1017793c4:	mov	w5, #0x2f
+1017793c8:	bl	0x101793400
+1017793cc:	mov	x0, x21
+1017793d0:	ldp	x29, x30, [sp, #0x30]
+1017793d4:	b	0x101312080
+1017793d8:	sub	sp, sp, #0x40
+1017793dc:	stp	x22, x21, [sp, #0x10]
+1017793e0:	stp	x20, x19, [sp, #0x20]
+1017793e4:	stp	x29, x30, [sp, #0x30]
+1017793e8:	add	x29, sp, #0x30
+1017793ec:	bl	0x10130cca0
+1017793f0:	bl	0x10178d880
+1017793f4:	mov	x29, x29
+1017793f8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017793fc:	mov	x21, x0
+101779400:	adrp	x8, 1804 ; 0x101e85000
+101779404:	add	x8, x8, #0x6c8
+101779408:	bl	0x10157bf70
+10177940c:	mov	w5, #0x3f
+101779410:	bl	0x101793400
+101779414:	mov	x0, x21
+101779418:	ldp	x29, x30, [sp, #0x30]
+10177941c:	b	0x101312080
+101779420:	sub	sp, sp, #0x40
+101779424:	stp	x22, x21, [sp, #0x10]
+101779428:	stp	x20, x19, [sp, #0x20]
+10177942c:	stp	x29, x30, [sp, #0x30]
+101779430:	add	x29, sp, #0x30
+101779434:	bl	0x10130cca0
+101779438:	bl	0x10178d880
+10177943c:	mov	x29, x29
+101779440:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779444:	mov	x21, x0
+101779448:	adrp	x8, 1804 ; 0x101e85000
+10177944c:	add	x8, x8, #0x728
+101779450:	bl	0x10157bf70
+101779454:	mov	w5, #0x40
+101779458:	bl	0x101793400
+10177945c:	mov	x0, x21
+101779460:	ldp	x29, x30, [sp, #0x30]
+101779464:	b	0x101312080
+101779468:	sub	sp, sp, #0x40
+10177946c:	stp	x22, x21, [sp, #0x10]
+101779470:	stp	x20, x19, [sp, #0x20]
+101779474:	stp	x29, x30, [sp, #0x30]
+101779478:	add	x29, sp, #0x30
+10177947c:	bl	0x10130cca0
+101779480:	bl	0x10178d880
+101779484:	mov	x29, x29
+101779488:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177948c:	mov	x21, x0
+101779490:	adrp	x8, 1804 ; 0x101e85000
+101779494:	add	x8, x8, #0x6c8
+101779498:	bl	0x10157bf70
+10177949c:	mov	w5, #0x54
+1017794a0:	bl	0x101793400
+1017794a4:	mov	x0, x21
+1017794a8:	ldp	x29, x30, [sp, #0x30]
+1017794ac:	b	0x101312080
+1017794b0:	sub	sp, sp, #0x40
+1017794b4:	stp	x22, x21, [sp, #0x10]
+1017794b8:	stp	x20, x19, [sp, #0x20]
+1017794bc:	stp	x29, x30, [sp, #0x30]
+1017794c0:	add	x29, sp, #0x30
+1017794c4:	bl	0x10130cca0
+1017794c8:	bl	0x10178d880
+1017794cc:	mov	x29, x29
+1017794d0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017794d4:	mov	x21, x0
+1017794d8:	adrp	x8, 1804 ; 0x101e85000
+1017794dc:	add	x8, x8, #0x728
+1017794e0:	bl	0x10157bf70
+1017794e4:	mov	w5, #0x55
+1017794e8:	bl	0x101793400
+1017794ec:	mov	x0, x21
+1017794f0:	ldp	x29, x30, [sp, #0x30]
+1017794f4:	b	0x101312080
+1017794f8:	sub	sp, sp, #0x40
+1017794fc:	stp	x22, x21, [sp, #0x10]
+101779500:	stp	x20, x19, [sp, #0x20]
+101779504:	stp	x29, x30, [sp, #0x30]
+101779508:	add	x29, sp, #0x30
+10177950c:	bl	0x10130cca0
+101779510:	bl	0x10178d880
+101779514:	mov	x29, x29
+101779518:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177951c:	mov	x21, x0
+101779520:	adrp	x8, 1804 ; 0x101e85000
+101779524:	add	x8, x8, #0x6c8
+101779528:	bl	0x10157bf70
+10177952c:	mov	w5, #0x69
+101779530:	bl	0x101793400
+101779534:	mov	x0, x21
+101779538:	ldp	x29, x30, [sp, #0x30]
+10177953c:	b	0x101312080
+101779540:	sub	sp, sp, #0x40
+101779544:	stp	x22, x21, [sp, #0x10]
+101779548:	stp	x20, x19, [sp, #0x20]
+10177954c:	stp	x29, x30, [sp, #0x30]
+101779550:	add	x29, sp, #0x30
+101779554:	bl	0x10130cca0
+101779558:	bl	0x10178d880
+10177955c:	mov	x29, x29
+101779560:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779564:	mov	x21, x0
+101779568:	adrp	x8, 1804 ; 0x101e85000
+10177956c:	add	x8, x8, #0x728
+101779570:	bl	0x10157bf70
+101779574:	mov	w5, #0x6a
+101779578:	bl	0x101793400
+10177957c:	mov	x0, x21
+101779580:	ldp	x29, x30, [sp, #0x30]
+101779584:	b	0x101312080
+101779588:	sub	sp, sp, #0x40
+10177958c:	stp	x22, x21, [sp, #0x10]
+101779590:	stp	x20, x19, [sp, #0x20]
+101779594:	stp	x29, x30, [sp, #0x30]
+101779598:	add	x29, sp, #0x30
+10177959c:	bl	0x10130cca0
+1017795a0:	bl	0x10178d880
+1017795a4:	mov	x29, x29
+1017795a8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017795ac:	mov	x21, x0
+1017795b0:	adrp	x8, 1804 ; 0x101e85000
+1017795b4:	add	x8, x8, #0x6c8
+1017795b8:	bl	0x10157bf70
+1017795bc:	mov	w5, #0x7f
+1017795c0:	bl	0x101793400
+1017795c4:	mov	x0, x21
+1017795c8:	ldp	x29, x30, [sp, #0x30]
+1017795cc:	b	0x101312080
+1017795d0:	sub	sp, sp, #0x40
+1017795d4:	stp	x22, x21, [sp, #0x10]
+1017795d8:	stp	x20, x19, [sp, #0x20]
+1017795dc:	stp	x29, x30, [sp, #0x30]
+1017795e0:	add	x29, sp, #0x30
+1017795e4:	bl	0x10130cca0
+1017795e8:	bl	0x10178d880
+1017795ec:	mov	x29, x29
+1017795f0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017795f4:	mov	x21, x0
+1017795f8:	adrp	x8, 1804 ; 0x101e85000
+1017795fc:	add	x8, x8, #0x728
+101779600:	bl	0x10157bf70
+101779604:	mov	w5, #0x80
+101779608:	bl	0x101793400
+10177960c:	mov	x0, x21
+101779610:	ldp	x29, x30, [sp, #0x30]
+101779614:	b	0x101312080
+101779618:	sub	sp, sp, #0x40
+10177961c:	stp	x22, x21, [sp, #0x10]
+101779620:	stp	x20, x19, [sp, #0x20]
+101779624:	stp	x29, x30, [sp, #0x30]
+101779628:	add	x29, sp, #0x30
+10177962c:	bl	0x10130cca0
+101779630:	bl	0x10178d880
+101779634:	mov	x29, x29
+101779638:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177963c:	mov	x21, x0
+101779640:	adrp	x8, 1804 ; 0x101e85000
+101779644:	add	x8, x8, #0x6c8
+101779648:	bl	0x10157bf70
+10177964c:	mov	w5, #0x94
+101779650:	bl	0x101793400
+101779654:	mov	x0, x21
+101779658:	ldp	x29, x30, [sp, #0x30]
+10177965c:	b	0x101312080
+101779660:	sub	sp, sp, #0x40
+101779664:	stp	x22, x21, [sp, #0x10]
+101779668:	stp	x20, x19, [sp, #0x20]
+10177966c:	stp	x29, x30, [sp, #0x30]
+101779670:	add	x29, sp, #0x30
+101779674:	bl	0x10130cca0
+101779678:	bl	0x10178d880
+10177967c:	mov	x29, x29
+101779680:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779684:	mov	x21, x0
+101779688:	adrp	x8, 1804 ; 0x101e85000
+10177968c:	add	x8, x8, #0x728
+101779690:	bl	0x10157bf70
+101779694:	mov	w5, #0x95
+101779698:	bl	0x101793400
+10177969c:	mov	x0, x21
+1017796a0:	ldp	x29, x30, [sp, #0x30]
+1017796a4:	b	0x101312080
+1017796a8:	sub	sp, sp, #0x40
+1017796ac:	stp	x22, x21, [sp, #0x10]
+1017796b0:	stp	x20, x19, [sp, #0x20]
+1017796b4:	stp	x29, x30, [sp, #0x30]
+1017796b8:	add	x29, sp, #0x30
+1017796bc:	bl	0x10130cca0
+1017796c0:	bl	0x10178d880
+1017796c4:	mov	x29, x29
+1017796c8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017796cc:	mov	x21, x0
+1017796d0:	adrp	x8, 1804 ; 0x101e85000
+1017796d4:	add	x8, x8, #0x6c8
+1017796d8:	bl	0x10157bf70
+1017796dc:	mov	w5, #0xa6
+1017796e0:	bl	0x101793400
+1017796e4:	mov	x0, x21
+1017796e8:	ldp	x29, x30, [sp, #0x30]
+1017796ec:	b	0x101312080
+1017796f0:	sub	sp, sp, #0x40
+1017796f4:	stp	x22, x21, [sp, #0x10]
+1017796f8:	stp	x20, x19, [sp, #0x20]
+1017796fc:	stp	x29, x30, [sp, #0x30]
+101779700:	add	x29, sp, #0x30
+101779704:	bl	0x10130cca0
+101779708:	bl	0x10178d880
+10177970c:	mov	x29, x29
+101779710:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779714:	mov	x21, x0
+101779718:	adrp	x8, 1804 ; 0x101e85000
+10177971c:	add	x8, x8, #0x728
+101779720:	bl	0x10157bf70
+101779724:	mov	w5, #0xa7
+101779728:	bl	0x101793400
+10177972c:	mov	x0, x21
+101779730:	ldp	x29, x30, [sp, #0x30]
+101779734:	b	0x101312080
+101779738:	sub	sp, sp, #0x40
+10177973c:	stp	x22, x21, [sp, #0x10]
+101779740:	stp	x20, x19, [sp, #0x20]
+101779744:	stp	x29, x30, [sp, #0x30]
+101779748:	add	x29, sp, #0x30
+10177974c:	bl	0x10130cca0
+101779750:	bl	0x10178d880
+101779754:	mov	x29, x29
+101779758:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177975c:	mov	x21, x0
+101779760:	adrp	x8, 1804 ; 0x101e85000
+101779764:	add	x8, x8, #0x6c8
+101779768:	bl	0x10157bf70
+10177976c:	mov	w5, #0xbb
+101779770:	bl	0x101793400
+101779774:	mov	x0, x21
+101779778:	ldp	x29, x30, [sp, #0x30]
+10177977c:	b	0x101312080
+101779780:	sub	sp, sp, #0x40
+101779784:	stp	x22, x21, [sp, #0x10]
+101779788:	stp	x20, x19, [sp, #0x20]
+10177978c:	stp	x29, x30, [sp, #0x30]
+101779790:	add	x29, sp, #0x30
+101779794:	bl	0x10130cca0
+101779798:	bl	0x10178d880
+10177979c:	mov	x29, x29
+1017797a0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017797a4:	mov	x21, x0
+1017797a8:	adrp	x8, 1804 ; 0x101e85000
+1017797ac:	add	x8, x8, #0x728
+1017797b0:	bl	0x10157bf70
+1017797b4:	mov	w5, #0xbc
+1017797b8:	bl	0x101793400
+1017797bc:	mov	x0, x21
+1017797c0:	ldp	x29, x30, [sp, #0x30]
+1017797c4:	b	0x101312080
+1017797c8:	sub	sp, sp, #0x40
+1017797cc:	stp	x22, x21, [sp, #0x10]
+1017797d0:	stp	x20, x19, [sp, #0x20]
+1017797d4:	stp	x29, x30, [sp, #0x30]
+1017797d8:	add	x29, sp, #0x30
+1017797dc:	bl	0x10130cca0
+1017797e0:	bl	0x10178d880
+1017797e4:	mov	x29, x29
+1017797e8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017797ec:	mov	x21, x0
+1017797f0:	adrp	x8, 1804 ; 0x101e85000
+1017797f4:	add	x8, x8, #0x6c8
+1017797f8:	bl	0x10157bf70
+1017797fc:	mov	w5, #0xcd
+101779800:	bl	0x101793400
+101779804:	mov	x0, x21
+101779808:	ldp	x29, x30, [sp, #0x30]
+10177980c:	b	0x101312080
+101779810:	sub	sp, sp, #0x40
+101779814:	stp	x22, x21, [sp, #0x10]
+101779818:	stp	x20, x19, [sp, #0x20]
+10177981c:	stp	x29, x30, [sp, #0x30]
+101779820:	add	x29, sp, #0x30
+101779824:	bl	0x10130cca0
+101779828:	bl	0x10178d880
+10177982c:	mov	x29, x29
+101779830:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779834:	mov	x21, x0
+101779838:	adrp	x8, 1804 ; 0x101e85000
+10177983c:	add	x8, x8, #0x728
+101779840:	bl	0x10157bf70
+101779844:	mov	w5, #0xce
+101779848:	bl	0x101793400
+10177984c:	mov	x0, x21
+101779850:	ldp	x29, x30, [sp, #0x30]
+101779854:	b	0x101312080
+101779858:	sub	sp, sp, #0x40
+10177985c:	stp	x22, x21, [sp, #0x10]
+101779860:	stp	x20, x19, [sp, #0x20]
+101779864:	stp	x29, x30, [sp, #0x30]
+101779868:	add	x29, sp, #0x30
+10177986c:	bl	0x10130cca0
+101779870:	bl	0x10178d880
+101779874:	mov	x29, x29
+101779878:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177987c:	mov	x21, x0
+101779880:	adrp	x8, 1804 ; 0x101e85000
+101779884:	add	x8, x8, #0x6c8
+101779888:	bl	0x10157bf70
+10177988c:	mov	w5, #0xe2
+101779890:	bl	0x101793400
+101779894:	mov	x0, x21
+101779898:	ldp	x29, x30, [sp, #0x30]
+10177989c:	b	0x101312080
+1017798a0:	sub	sp, sp, #0x40
+1017798a4:	stp	x22, x21, [sp, #0x10]
+1017798a8:	stp	x20, x19, [sp, #0x20]
+1017798ac:	stp	x29, x30, [sp, #0x30]
+1017798b0:	add	x29, sp, #0x30
+1017798b4:	bl	0x10130cca0
+1017798b8:	bl	0x10178d880
+1017798bc:	mov	x29, x29
+1017798c0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017798c4:	mov	x21, x0
+1017798c8:	adrp	x8, 1804 ; 0x101e85000
+1017798cc:	add	x8, x8, #0x728
+1017798d0:	bl	0x10157bf70
+1017798d4:	mov	w5, #0xe3
+1017798d8:	bl	0x101793400
+1017798dc:	mov	x0, x21
+1017798e0:	ldp	x29, x30, [sp, #0x30]
+1017798e4:	b	0x101312080
+1017798e8:	sub	sp, sp, #0x40
+1017798ec:	stp	x22, x21, [sp, #0x10]
+1017798f0:	stp	x20, x19, [sp, #0x20]
+1017798f4:	stp	x29, x30, [sp, #0x30]
+1017798f8:	add	x29, sp, #0x30
+1017798fc:	bl	0x10130cca0
+101779900:	bl	0x10178d880
+101779904:	mov	x29, x29
+101779908:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177990c:	mov	x21, x0
+101779910:	adrp	x8, 1804 ; 0x101e85000
+101779914:	add	x8, x8, #0x6c8
+101779918:	bl	0x10157bf70
+10177991c:	mov	w5, #0xf4
+101779920:	bl	0x101793400
+101779924:	mov	x0, x21
+101779928:	ldp	x29, x30, [sp, #0x30]
+10177992c:	b	0x101312080
+101779930:	sub	sp, sp, #0x40
+101779934:	stp	x22, x21, [sp, #0x10]
+101779938:	stp	x20, x19, [sp, #0x20]
+10177993c:	stp	x29, x30, [sp, #0x30]
+101779940:	add	x29, sp, #0x30
+101779944:	bl	0x10130cca0
+101779948:	bl	0x10178d880
+10177994c:	mov	x29, x29
+101779950:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779954:	mov	x21, x0
+101779958:	adrp	x8, 1804 ; 0x101e85000
+10177995c:	add	x8, x8, #0x728
+101779960:	bl	0x10157bf70
+101779964:	mov	w5, #0xf5
+101779968:	bl	0x101793400
+10177996c:	mov	x0, x21
+101779970:	ldp	x29, x30, [sp, #0x30]
+101779974:	b	0x101312080
+101779978:	sub	sp, sp, #0x40
+10177997c:	stp	x22, x21, [sp, #0x10]
+101779980:	stp	x20, x19, [sp, #0x20]
+101779984:	stp	x29, x30, [sp, #0x30]
+101779988:	add	x29, sp, #0x30
+10177998c:	bl	0x10130cca0
+101779990:	bl	0x10178d880
+101779994:	mov	x29, x29
+101779998:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177999c:	mov	x21, x0
+1017799a0:	adrp	x8, 1804 ; 0x101e85000
+1017799a4:	add	x8, x8, #0x6c8
+1017799a8:	bl	0x10157d284
+1017799ac:	mov	w5, #0x41
+1017799b0:	bl	0x101793400
+1017799b4:	mov	x0, x21
+1017799b8:	ldp	x29, x30, [sp, #0x30]
+1017799bc:	b	0x101312080
+1017799c0:	stp	x22, x21, [sp, #-0x30]!
+1017799c4:	stp	x20, x19, [sp, #0x10]
+1017799c8:	stp	x29, x30, [sp, #0x20]
+1017799cc:	add	x29, sp, #0x20
+1017799d0:	bl	0x10130cca0
+1017799d4:	bl	0x10178d880
+1017799d8:	mov	x29, x29
+1017799dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1017799e0:	mov	x21, x0
+1017799e4:	adrp	x4, 1804 ; 0x101e85000
+1017799e8:	add	x4, x4, #0x9c8
+1017799ec:	adrp	x6, 1804 ; 0x101e85000
+1017799f0:	add	x6, x6, #0x9e8
+1017799f4:	mov	x2, x20
+1017799f8:	mov	x3, x19
+1017799fc:	mov	w5, #0x64
+101779a00:	bl	0x101793400
+101779a04:	mov	x0, x21
+101779a08:	ldp	x29, x30, [sp, #0x20]
+101779a0c:	ldp	x20, x19, [sp, #0x10]
+101779a10:	ldp	x22, x21, [sp], #0x30
+101779a14:	b	0x101784a60 ; symbol stub for: _objc_release
+101779a18:	sub	sp, sp, #0x40
+101779a1c:	stp	x22, x21, [sp, #0x10]
+101779a20:	stp	x20, x19, [sp, #0x20]
+101779a24:	stp	x29, x30, [sp, #0x30]
+101779a28:	add	x29, sp, #0x30
+101779a2c:	bl	0x10130cca0
+101779a30:	bl	0x10178d880
+101779a34:	mov	x29, x29
+101779a38:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779a3c:	mov	x21, x0
+101779a40:	adrp	x8, 1804 ; 0x101e85000
+101779a44:	add	x8, x8, #0xa68
+101779a48:	bl	0x10157d284
+101779a4c:	mov	w5, #0xc3
+101779a50:	bl	0x101793400
+101779a54:	mov	x0, x21
+101779a58:	ldp	x29, x30, [sp, #0x30]
+101779a5c:	b	0x101312080
+101779a60:	sub	sp, sp, #0x40
+101779a64:	stp	x22, x21, [sp, #0x10]
+101779a68:	stp	x20, x19, [sp, #0x20]
+101779a6c:	stp	x29, x30, [sp, #0x30]
+101779a70:	add	x29, sp, #0x30
+101779a74:	bl	0x10130cca0
+101779a78:	bl	0x10178d880
+101779a7c:	mov	x29, x29
+101779a80:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779a84:	mov	x21, x0
+101779a88:	adrp	x8, 1804 ; 0x101e85000
+101779a8c:	add	x8, x8, #0x6c8
+101779a90:	bl	0x10157d284
+101779a94:	mov	w5, #0xd2
+101779a98:	bl	0x101793400
+101779a9c:	mov	x0, x21
+101779aa0:	ldp	x29, x30, [sp, #0x30]
+101779aa4:	b	0x101312080
+101779aa8:	sub	sp, sp, #0x40
+101779aac:	stp	x22, x21, [sp, #0x10]
+101779ab0:	stp	x20, x19, [sp, #0x20]
+101779ab4:	stp	x29, x30, [sp, #0x30]
+101779ab8:	add	x29, sp, #0x30
+101779abc:	bl	0x10130cca0
+101779ac0:	bl	0x10178d880
+101779ac4:	mov	x29, x29
+101779ac8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779acc:	mov	x21, x0
+101779ad0:	adrp	x8, 1804 ; 0x101e85000
+101779ad4:	add	x8, x8, #0xa88
+101779ad8:	bl	0x10157d284
+101779adc:	mov	w5, #0xd3
+101779ae0:	bl	0x101793400
+101779ae4:	mov	x0, x21
+101779ae8:	ldp	x29, x30, [sp, #0x30]
+101779aec:	b	0x101312080
+101779af0:	sub	sp, sp, #0x40
+101779af4:	stp	x22, x21, [sp, #0x10]
+101779af8:	stp	x20, x19, [sp, #0x20]
+101779afc:	stp	x29, x30, [sp, #0x30]
+101779b00:	add	x29, sp, #0x30
+101779b04:	bl	0x10130cca0
+101779b08:	bl	0x10178d880
+101779b0c:	mov	x29, x29
+101779b10:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779b14:	mov	x21, x0
+101779b18:	adrp	x8, 1804 ; 0x101e85000
+101779b1c:	add	x8, x8, #0xaa8
+101779b20:	bl	0x10157d284
+101779b24:	mov	w5, #0xd4
+101779b28:	bl	0x101793400
+101779b2c:	mov	x0, x21
+101779b30:	ldp	x29, x30, [sp, #0x30]
+101779b34:	b	0x101312080
+101779b38:	sub	sp, sp, #0x40
+101779b3c:	stp	x22, x21, [sp, #0x10]
+101779b40:	stp	x20, x19, [sp, #0x20]
+101779b44:	stp	x29, x30, [sp, #0x30]
+101779b48:	add	x29, sp, #0x30
+101779b4c:	bl	0x10130cca0
+101779b50:	bl	0x10178d880
+101779b54:	mov	x29, x29
+101779b58:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779b5c:	mov	x21, x0
+101779b60:	adrp	x8, 1804 ; 0x101e85000
+101779b64:	add	x8, x8, #0x6c8
+101779b68:	bl	0x10157d284
+101779b6c:	mov	w5, #0xff
+101779b70:	bl	0x101793400
+101779b74:	mov	x0, x21
+101779b78:	ldp	x29, x30, [sp, #0x30]
+101779b7c:	b	0x101312080
+101779b80:	adrp	x0, 2391 ; 0x1020d0000
+101779b84:	add	x0, x0, #0xf28
+101779b88:	adrp	x1, 1785 ; 0x101e72000
+101779b8c:	add	x1, x1, #0x1e8
+101779b90:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779b94:	sub	sp, sp, #0x40
+101779b98:	stp	x22, x21, [sp, #0x10]
+101779b9c:	stp	x20, x19, [sp, #0x20]
+101779ba0:	stp	x29, x30, [sp, #0x30]
+101779ba4:	add	x29, sp, #0x30
+101779ba8:	mov	x19, x2
+101779bac:	mov	x20, x1
+101779bb0:	mov	x21, x0
+101779bb4:	adrp	x8, 1974 ; 0x101f2f000
+101779bb8:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+101779bbc:	bl	0x10178d880
+101779bc0:	mov	x29, x29
+101779bc4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779bc8:	mov	x22, x0
+101779bcc:	ldr	w8, [x21]
+101779bd0:	str	x8, [sp]
+101779bd4:	adrp	x4, 1805 ; 0x101e86000
+101779bd8:	add	x4, x4, #0xb48
+101779bdc:	adrp	x6, 1803 ; 0x101e84000
+101779be0:	add	x6, x6, #0x288
+101779be4:	mov	x2, x20
+101779be8:	mov	x3, x19
+101779bec:	mov	w5, #0x50
+101779bf0:	bl	0x101793400
+101779bf4:	mov	x0, x22
+101779bf8:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779bfc:	ldp	x29, x30, [sp, #0x30]
+101779c00:	ldp	x20, x19, [sp, #0x20]
+101779c04:	ldp	x22, x21, [sp, #0x10]
+101779c08:	add	sp, sp, #0x40
+101779c0c:	ret
+101779c10:	adrp	x0, 2392 ; 0x1020d1000
+101779c14:	add	x0, x0, #0x250
+101779c18:	adrp	x1, 1787 ; 0x101e74000
+101779c1c:	add	x1, x1, #0x88
+101779c20:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779c24:	adrp	x0, 2392 ; 0x1020d1000
+101779c28:	add	x0, x0, #0x260
+101779c2c:	adrp	x1, 1787 ; 0x101e74000
+101779c30:	add	x1, x1, #0xd8
+101779c34:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779c38:	stp	x22, x21, [sp, #-0x30]!
+101779c3c:	stp	x20, x19, [sp, #0x10]
+101779c40:	stp	x29, x30, [sp, #0x20]
+101779c44:	add	x29, sp, #0x20
+101779c48:	mov	x19, x1
+101779c4c:	mov	x20, x0
+101779c50:	adrp	x0, 1806 ; 0x101e87000
+101779c54:	add	x0, x0, #0x1a8
+101779c58:	bl	0x101783b84 ; symbol stub for: _NSSelectorFromString
+101779c5c:	cbz	x0, 0x101779ca8
+101779c60:	mov	x21, x0
+101779c64:	mov	x0, x20
+101779c68:	mov	x2, x21
+101779c6c:	bl	0x10179c580
+101779c70:	cbz	x0, 0x101779ca8
+101779c74:	mov	x8, x0
+101779c78:	mov	x0, x20
+101779c7c:	mov	x1, x21
+101779c80:	blr	x8
+101779c84:	mov	x29, x29
+101779c88:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779c8c:	cbz	x0, 0x101779ca8
+101779c90:	mov	x21, x0
+101779c94:	bl	0x101784b44 ; symbol stub for: _objc_retainBlock
+101779c98:	mov	x20, x0
+101779c9c:	mov	x0, x21
+101779ca0:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779ca4:	b	0x101779cac
+101779ca8:	mov	x20, #0x0
+101779cac:	str	x20, [x19]
+101779cb0:	ldp	x29, x30, [sp, #0x20]
+101779cb4:	ldp	x20, x19, [sp, #0x10]
+101779cb8:	ldp	x22, x21, [sp], #0x30
+101779cbc:	ret
+101779cc0:	adrp	x0, 2392 ; 0x1020d1000
+101779cc4:	add	x0, x0, #0x270
+101779cc8:	adrp	x1, 1787 ; 0x101e74000
+101779ccc:	add	x1, x1, #0x798
+101779cd0:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779cd4:	adrp	x0, 2392 ; 0x1020d1000
+101779cd8:	add	x0, x0, #0x280
+101779cdc:	adrp	x1, 1787 ; 0x101e74000
+101779ce0:	add	x1, x1, #0x7b8
+101779ce4:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779ce8:	adrp	x0, 2392 ; 0x1020d1000
+101779cec:	add	x0, x0, #0x290
+101779cf0:	adrp	x1, 1787 ; 0x101e74000
+101779cf4:	add	x1, x1, #0x7d8
+101779cf8:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779cfc:	adrp	x0, 2392 ; 0x1020d1000
+101779d00:	add	x0, x0, #0x2a0
+101779d04:	adrp	x1, 1787 ; 0x101e74000
+101779d08:	add	x1, x1, #0x7f8
+101779d0c:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779d10:	stp	x22, x21, [sp, #-0x30]!
+101779d14:	stp	x20, x19, [sp, #0x10]
+101779d18:	stp	x29, x30, [sp, #0x20]
+101779d1c:	add	x29, sp, #0x20
+101779d20:	bl	0x101597aec
+101779d24:	mov	x29, x29
+101779d28:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779d2c:	mov	x19, x0
+101779d30:	cbz	x0, 0x101779d44
+101779d34:	ldr	x8, [x19, #0x10]
+101779d38:	mov	x0, x19
+101779d3c:	blr	x8
+101779d40:	b	0x101779d88
+101779d44:	bl	0x1015993a0
+101779d48:	bl	0x1017ad7a0
+101779d4c:	mov	x29, x29
+101779d50:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779d54:	mov	x20, x0
+101779d58:	bl	0x10159938c
+101779d5c:	mov	x21, x0
+101779d60:	mov	x0, x20
+101779d64:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779d68:	adrp	x3, 1806 ; 0x101e87000
+101779d6c:	add	x3, x3, #0x308
+101779d70:	mov	w0, #0x0
+101779d74:	mov	x1, x21
+101779d78:	mov	w2, #0x26
+101779d7c:	bl	0x1015980ac
+101779d80:	mov	x0, x21
+101779d84:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779d88:	mov	x0, x19
+101779d8c:	ldp	x29, x30, [sp, #0x20]
+101779d90:	ldp	x20, x19, [sp, #0x10]
+101779d94:	ldp	x22, x21, [sp], #0x30
+101779d98:	b	0x101784a60 ; symbol stub for: _objc_release
+101779d9c:	stp	x22, x21, [sp, #-0x30]!
+101779da0:	stp	x20, x19, [sp, #0x10]
+101779da4:	stp	x29, x30, [sp, #0x20]
+101779da8:	add	x29, sp, #0x20
+101779dac:	mov	x19, x0
+101779db0:	bl	0x101597aec
+101779db4:	mov	x29, x29
+101779db8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779dbc:	mov	x20, x0
+101779dc0:	cbz	x0, 0x101779dd4
+101779dc4:	ldr	x8, [x20, #0x10]
+101779dc8:	mov	x0, x20
+101779dcc:	blr	x8
+101779dd0:	b	0x101779e18
+101779dd4:	bl	0x1015993a0
+101779dd8:	bl	0x1017ad7a0
+101779ddc:	mov	x29, x29
+101779de0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779de4:	mov	x21, x0
+101779de8:	bl	0x10159938c
+101779dec:	mov	x22, x0
+101779df0:	mov	x0, x21
+101779df4:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779df8:	adrp	x3, 1806 ; 0x101e87000
+101779dfc:	add	x3, x3, #0x328
+101779e00:	mov	w0, #0x0
+101779e04:	mov	x1, x22
+101779e08:	mov	w2, #0x27
+101779e0c:	bl	0x1015980ac
+101779e10:	mov	x0, x22
+101779e14:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779e18:	mov	x0, x20
+101779e1c:	bl	0x101784a60 ; symbol stub for: _objc_release
+101779e20:	mov	x0, x19
+101779e24:	ldp	x29, x30, [sp, #0x20]
+101779e28:	ldp	x20, x19, [sp, #0x10]
+101779e2c:	ldp	x22, x21, [sp], #0x30
+101779e30:	b	0x10179a6a0
+101779e34:	adrp	x0, 2392 ; 0x1020d1000
+101779e38:	add	x0, x0, #0x2b0
+101779e3c:	adrp	x1, 1787 ; 0x101e74000
+101779e40:	add	x1, x1, #0xa08
+101779e44:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779e48:	sub	sp, sp, #0x40
+101779e4c:	stp	x22, x21, [sp, #0x10]
+101779e50:	stp	x20, x19, [sp, #0x20]
+101779e54:	stp	x29, x30, [sp, #0x30]
+101779e58:	add	x29, sp, #0x30
+101779e5c:	mov	x20, x0
+101779e60:	bl	0x101597aec
+101779e64:	mov	x29, x29
+101779e68:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779e6c:	mov	x19, x0
+101779e70:	cbz	x0, 0x101779e7c
+101779e74:	bl	0x10159eac0
+101779e78:	b	0x101779ea4
+101779e7c:	bl	0x10159eacc
+101779e80:	bl	0x1017ad7a0
+101779e84:	mov	x29, x29
+101779e88:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779e8c:	bl	0x10159ea8c
+101779e90:	bl	0x10159eab4
+101779e94:	bl	0x10159eae0
+101779e98:	mov	w2, #0x280
+101779e9c:	bl	0x1015980ac
+101779ea0:	bl	0x10130cd10
+101779ea4:	bl	0x10159eaf8
+101779ea8:	ldp	x29, x30, [sp, #0x30]
+101779eac:	b	0x10159eaa4
+101779eb0:	sub	sp, sp, #0x40
+101779eb4:	stp	x22, x21, [sp, #0x10]
+101779eb8:	stp	x20, x19, [sp, #0x20]
+101779ebc:	stp	x29, x30, [sp, #0x30]
+101779ec0:	add	x29, sp, #0x30
+101779ec4:	mov	x20, x0
+101779ec8:	bl	0x101597aec
+101779ecc:	mov	x29, x29
+101779ed0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779ed4:	mov	x19, x0
+101779ed8:	cbz	x0, 0x101779ee4
+101779edc:	bl	0x10159eac0
+101779ee0:	b	0x101779f1c
+101779ee4:	bl	0x10159eacc
+101779ee8:	bl	0x1017ad7a0
+101779eec:	mov	x29, x29
+101779ef0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779ef4:	bl	0x10159ea8c
+101779ef8:	bl	0x10159eab4
+101779efc:	str	x20, [sp]
+101779f00:	adrp	x3, 1806 ; 0x101e87000
+101779f04:	add	x3, x3, #0x968
+101779f08:	mov	w0, #0x0
+101779f0c:	mov	x1, x22
+101779f10:	mov	w2, #0x290
+101779f14:	bl	0x1015980ac
+101779f18:	bl	0x10130cd10
+101779f1c:	bl	0x10159eaf8
+101779f20:	ldp	x29, x30, [sp, #0x30]
+101779f24:	b	0x10159eaa4
+101779f28:	sub	sp, sp, #0x40
+101779f2c:	stp	x22, x21, [sp, #0x10]
+101779f30:	stp	x20, x19, [sp, #0x20]
+101779f34:	stp	x29, x30, [sp, #0x30]
+101779f38:	add	x29, sp, #0x30
+101779f3c:	mov	x20, x0
+101779f40:	bl	0x101597aec
+101779f44:	mov	x29, x29
+101779f48:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779f4c:	mov	x19, x0
+101779f50:	cbz	x0, 0x101779f5c
+101779f54:	bl	0x10159eac0
+101779f58:	b	0x101779f84
+101779f5c:	bl	0x10159eacc
+101779f60:	bl	0x1017ad7a0
+101779f64:	mov	x29, x29
+101779f68:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779f6c:	bl	0x10159ea8c
+101779f70:	bl	0x10159eab4
+101779f74:	bl	0x10159eae0
+101779f78:	mov	w2, #0x2a1
+101779f7c:	bl	0x1015980ac
+101779f80:	bl	0x10130cd10
+101779f84:	bl	0x10159eaf8
+101779f88:	ldp	x29, x30, [sp, #0x30]
+101779f8c:	b	0x10159eaa4
+101779f90:	adrp	x0, 2392 ; 0x1020d1000
+101779f94:	add	x0, x0, #0x2f0
+101779f98:	adrp	x1, 1787 ; 0x101e74000
+101779f9c:	add	x1, x1, #0xe48
+101779fa0:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779fa4:	adrp	x0, 2392 ; 0x1020d1000
+101779fa8:	add	x0, x0, #0x310
+101779fac:	adrp	x1, 1788 ; 0x101e75000
+101779fb0:	add	x1, x1, #0x48
+101779fb4:	b	0x101784400 ; symbol stub for: _dispatch_once
+101779fb8:	stp	x22, x21, [sp, #-0x30]!
+101779fbc:	stp	x20, x19, [sp, #0x10]
+101779fc0:	stp	x29, x30, [sp, #0x20]
+101779fc4:	add	x29, sp, #0x20
+101779fc8:	bl	0x101597aec
+101779fcc:	mov	x29, x29
+101779fd0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779fd4:	mov	x19, x0
+101779fd8:	cbz	x0, 0x101779fe4
+101779fdc:	bl	0x10159eac0
+101779fe0:	b	0x10177a028
+101779fe4:	bl	0x1015a20a4
+101779fe8:	bl	0x1017ad7a0
+101779fec:	mov	x29, x29
+101779ff0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+101779ff4:	mov	x20, x0
+101779ff8:	bl	0x10159938c
+101779ffc:	mov	x21, x0
+10177a000:	mov	x0, x20
+10177a004:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a008:	adrp	x3, 1805 ; 0x101e87000
+10177a00c:	add	x3, x3, #0xd08
+10177a010:	mov	w0, #0x0
+10177a014:	mov	x1, x21
+10177a018:	mov	w2, #0x3d
+10177a01c:	bl	0x1015980ac
+10177a020:	mov	x0, x21
+10177a024:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a028:	mov	x0, x19
+10177a02c:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a030:	ldp	x29, x30, [sp, #0x20]
+10177a034:	ldp	x20, x19, [sp, #0x10]
+10177a038:	ldp	x22, x21, [sp], #0x30
+10177a03c:	ret
+10177a040:	adrp	x0, 2391 ; 0x1020d1000
+10177a044:	add	x0, x0, #0x318
+10177a048:	adrp	x1, 1787 ; 0x101e75000
+10177a04c:	add	x1, x1, #0x68
+10177a050:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a054:	stp	x24, x23, [sp, #-0x40]!
+10177a058:	stp	x22, x21, [sp, #0x10]
+10177a05c:	stp	x20, x19, [sp, #0x20]
+10177a060:	stp	x29, x30, [sp, #0x30]
+10177a064:	add	x29, sp, #0x30
+10177a068:	mov	x20, x1
+10177a06c:	mov	x21, x0
+10177a070:	bl	0x101597aec
+10177a074:	mov	x29, x29
+10177a078:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a07c:	mov	x19, x0
+10177a080:	cbz	x0, 0x10177a08c
+10177a084:	bl	0x10159eac0
+10177a088:	b	0x10177a10c
+10177a08c:	bl	0x1015a20a4
+10177a090:	bl	0x1017ad7a0
+10177a094:	mov	x29, x29
+10177a098:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a09c:	mov	x22, x0
+10177a0a0:	bl	0x10159938c
+10177a0a4:	mov	x23, x0
+10177a0a8:	mov	x0, x22
+10177a0ac:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a0b0:	adrp	x22, 1805 ; 0x101e87000
+10177a0b4:	add	x22, x22, #0xdc8
+10177a0b8:	mov	w0, #0x1
+10177a0bc:	mov	x1, x23
+10177a0c0:	mov	w2, #0x122
+10177a0c4:	mov	x3, x22
+10177a0c8:	bl	0x1015980ac
+10177a0cc:	adrp	x8, 1973 ; 0x101f2f000
+10177a0d0:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+10177a0d4:	bl	0x10178d880
+10177a0d8:	mov	x29, x29
+10177a0dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a0e0:	mov	x24, x0
+10177a0e4:	mov	x2, x21
+10177a0e8:	mov	x3, x20
+10177a0ec:	mov	x4, x23
+10177a0f0:	mov	w5, #0x122
+10177a0f4:	mov	x6, x22
+10177a0f8:	bl	0x101793400
+10177a0fc:	mov	x0, x23
+10177a100:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a104:	mov	x0, x24
+10177a108:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a10c:	mov	x0, x19
+10177a110:	ldp	x29, x30, [sp, #0x30]
+10177a114:	ldp	x20, x19, [sp, #0x20]
+10177a118:	ldp	x22, x21, [sp, #0x10]
+10177a11c:	ldp	x24, x23, [sp], #0x40
+10177a120:	b	0x101784a60 ; symbol stub for: _objc_release
+10177a124:	adrp	x0, 2391 ; 0x1020d1000
+10177a128:	add	x0, x0, #0x328
+10177a12c:	adrp	x1, 1787 ; 0x101e75000
+10177a130:	add	x1, x1, #0x88
+10177a134:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a138:	adrp	x0, 2391 ; 0x1020d1000
+10177a13c:	add	x0, x0, #0x338
+10177a140:	adrp	x1, 1787 ; 0x101e75000
+10177a144:	add	x1, x1, #0xa8
+10177a148:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a14c:	adrp	x0, 2391 ; 0x1020d1000
+10177a150:	add	x0, x0, #0x348
+10177a154:	adrp	x1, 1787 ; 0x101e75000
+10177a158:	add	x1, x1, #0xc8
+10177a15c:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a160:	stp	x22, x21, [sp, #-0x30]!
+10177a164:	stp	x20, x19, [sp, #0x10]
+10177a168:	stp	x29, x30, [sp, #0x20]
+10177a16c:	add	x29, sp, #0x20
+10177a170:	bl	0x101597aec
+10177a174:	mov	x29, x29
+10177a178:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a17c:	mov	x19, x0
+10177a180:	cbz	x0, 0x10177a194
+10177a184:	ldr	x8, [x19, #0x10]
+10177a188:	mov	x0, x19
+10177a18c:	blr	x8
+10177a190:	b	0x10177a1f4
+10177a194:	adrp	x8, 1973 ; 0x101f2f000
+10177a198:	ldr	x0, [x8, #0x548] ; Objc class ref: bad class ref
+10177a19c:	adrp	x2, 610 ; 0x1019dc000
+10177a1a0:	add	x2, x2, #0x1bf ; literal pool for: "/Users/jinhonn/Library/Developer/Xcode/DerivedData/SnapWords-abeeujagvhiicycemexuilfbhtgb/SourcePackages/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORTransformer.m"
+10177a1a4:	bl	0x1017ad7a0
+10177a1a8:	mov	x29, x29
+10177a1ac:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a1b0:	mov	x20, x0
+10177a1b4:	adrp	x8, 1805 ; 0x101e87000
+10177a1b8:	add	x8, x8, #0x2e8
+10177a1bc:	cmp	x0, #0x0
+10177a1c0:	csel	x0, x8, x0, eq
+10177a1c4:	bl	0x101784b14 ; symbol stub for: _objc_retain
+10177a1c8:	mov	x21, x0
+10177a1cc:	mov	x0, x20
+10177a1d0:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a1d4:	adrp	x3, 1805 ; 0x101e87000
+10177a1d8:	add	x3, x3, #0xfe8
+10177a1dc:	mov	w0, #0x0
+10177a1e0:	mov	x1, x21
+10177a1e4:	mov	w2, #0x3a
+10177a1e8:	bl	0x1015980ac
+10177a1ec:	mov	x0, x21
+10177a1f0:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a1f4:	mov	x0, x19
+10177a1f8:	ldp	x29, x30, [sp, #0x20]
+10177a1fc:	ldp	x20, x19, [sp, #0x10]
+10177a200:	ldp	x22, x21, [sp], #0x30
+10177a204:	b	0x101784a60 ; symbol stub for: _objc_release
+10177a208:	stp	x22, x21, [sp, #-0x30]!
+10177a20c:	stp	x20, x19, [sp, #0x10]
+10177a210:	stp	x29, x30, [sp, #0x20]
+10177a214:	add	x29, sp, #0x20
+10177a218:	bl	0x101597aec
+10177a21c:	mov	x29, x29
+10177a220:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a224:	mov	x19, x0
+10177a228:	cbz	x0, 0x10177a234
+10177a22c:	bl	0x10159eac0
+10177a230:	b	0x10177a264
+10177a234:	bl	0x1015a48c0
+10177a238:	bl	0x1017ad7a0
+10177a23c:	mov	x29, x29
+10177a240:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a244:	bl	0x1015a48a8
+10177a248:	bl	0x1015a48d4
+10177a24c:	adrp	x3, 1806 ; 0x101e88000
+10177a250:	add	x3, x3, #0x88
+10177a254:	bl	0x1015a48e0
+10177a258:	mov	w2, #0x20
+10177a25c:	bl	0x1015980ac
+10177a260:	bl	0x10130cd34
+10177a264:	mov	x0, x19
+10177a268:	ldp	x29, x30, [sp, #0x20]
+10177a26c:	b	0x10130cd04
+10177a270:	stp	x22, x21, [sp, #-0x30]!
+10177a274:	stp	x20, x19, [sp, #0x10]
+10177a278:	stp	x29, x30, [sp, #0x20]
+10177a27c:	add	x29, sp, #0x20
+10177a280:	bl	0x101597aec
+10177a284:	mov	x29, x29
+10177a288:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a28c:	mov	x19, x0
+10177a290:	cbz	x0, 0x10177a29c
+10177a294:	bl	0x10159eac0
+10177a298:	b	0x10177a2cc
+10177a29c:	bl	0x1015a48c0
+10177a2a0:	bl	0x1017ad7a0
+10177a2a4:	mov	x29, x29
+10177a2a8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a2ac:	bl	0x1015a48a8
+10177a2b0:	bl	0x1015a48d4
+10177a2b4:	adrp	x3, 1805 ; 0x101e87000
+10177a2b8:	add	x3, x3, #0x328
+10177a2bc:	bl	0x1015a48e0
+10177a2c0:	mov	w2, #0x21
+10177a2c4:	bl	0x1015980ac
+10177a2c8:	bl	0x10130cd34
+10177a2cc:	mov	x0, x19
+10177a2d0:	ldp	x29, x30, [sp, #0x20]
+10177a2d4:	b	0x10130cd04
+10177a2d8:	stp	x22, x21, [sp, #-0x30]!
+10177a2dc:	stp	x20, x19, [sp, #0x10]
+10177a2e0:	stp	x29, x30, [sp, #0x20]
+10177a2e4:	add	x29, sp, #0x20
+10177a2e8:	bl	0x101597aec
+10177a2ec:	mov	x29, x29
+10177a2f0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a2f4:	mov	x19, x0
+10177a2f8:	cbz	x0, 0x10177a304
+10177a2fc:	bl	0x10159eac0
+10177a300:	b	0x10177a334
+10177a304:	bl	0x1015a48c0
+10177a308:	bl	0x1017ad7a0
+10177a30c:	mov	x29, x29
+10177a310:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a314:	bl	0x1015a48a8
+10177a318:	bl	0x1015a48d4
+10177a31c:	adrp	x3, 1806 ; 0x101e88000
+10177a320:	add	x3, x3, #0xc8
+10177a324:	bl	0x1015a48e0
+10177a328:	mov	w2, #0x3a
+10177a32c:	bl	0x1015980ac
+10177a330:	bl	0x10130cd34
+10177a334:	mov	x0, x19
+10177a338:	ldp	x29, x30, [sp, #0x20]
+10177a33c:	b	0x10130cd04
+10177a340:	stp	x22, x21, [sp, #-0x30]!
+10177a344:	stp	x20, x19, [sp, #0x10]
+10177a348:	stp	x29, x30, [sp, #0x20]
+10177a34c:	add	x29, sp, #0x20
+10177a350:	bl	0x101597aec
+10177a354:	mov	x29, x29
+10177a358:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a35c:	mov	x19, x0
+10177a360:	cbz	x0, 0x10177a36c
+10177a364:	bl	0x10159eac0
+10177a368:	b	0x10177a39c
+10177a36c:	bl	0x1015a48c0
+10177a370:	bl	0x1017ad7a0
+10177a374:	mov	x29, x29
+10177a378:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a37c:	bl	0x1015a48a8
+10177a380:	bl	0x1015a48d4
+10177a384:	adrp	x3, 1806 ; 0x101e88000
+10177a388:	add	x3, x3, #0xe8
+10177a38c:	bl	0x1015a48e0
+10177a390:	mov	w2, #0x58
+10177a394:	bl	0x1015980ac
+10177a398:	bl	0x10130cd34
+10177a39c:	mov	x0, x19
+10177a3a0:	ldp	x29, x30, [sp, #0x20]
+10177a3a4:	b	0x10130cd04
+10177a3a8:	adrp	x0, 2391 ; 0x1020d1000
+10177a3ac:	add	x0, x0, #0x368
+10177a3b0:	adrp	x1, 1787 ; 0x101e75000
+10177a3b4:	add	x1, x1, #0x1a8
+10177a3b8:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a3bc:	sub	sp, sp, #0x40
+10177a3c0:	stp	x22, x21, [sp, #0x10]
+10177a3c4:	stp	x20, x19, [sp, #0x20]
+10177a3c8:	stp	x29, x30, [sp, #0x30]
+10177a3cc:	add	x29, sp, #0x30
+10177a3d0:	mov	x20, x0
+10177a3d4:	bl	0x101597aec
+10177a3d8:	mov	x29, x29
+10177a3dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a3e0:	mov	x19, x0
+10177a3e4:	cbz	x0, 0x10177a3f8
+10177a3e8:	ldr	x8, [x19, #0x10]
+10177a3ec:	mov	x0, x19
+10177a3f0:	blr	x8
+10177a3f4:	b	0x10177a45c
+10177a3f8:	adrp	x8, 1973 ; 0x101f2f000
+10177a3fc:	ldr	x0, [x8, #0x548] ; Objc class ref: bad class ref
+10177a400:	adrp	x2, 610 ; 0x1019dc000
+10177a404:	add	x2, x2, #0x508 ; literal pool for: "/Users/jinhonn/Library/Developer/Xcode/DerivedData/SnapWords-abeeujagvhiicycemexuilfbhtgb/SourcePackages/checkouts/GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/GDTCORUploadCoordinator.m"
+10177a408:	bl	0x1017ad7a0
+10177a40c:	mov	x29, x29
+10177a410:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a414:	mov	x21, x0
+10177a418:	adrp	x8, 1805 ; 0x101e87000
+10177a41c:	add	x8, x8, #0x2e8
+10177a420:	cmp	x0, #0x0
+10177a424:	csel	x0, x8, x0, eq
+10177a428:	bl	0x101784b14 ; symbol stub for: _objc_retain
+10177a42c:	mov	x22, x0
+10177a430:	mov	x0, x21
+10177a434:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a438:	str	x20, [sp]
+10177a43c:	adrp	x3, 1806 ; 0x101e88000
+10177a440:	add	x3, x3, #0x168
+10177a444:	mov	w0, #0x0
+10177a448:	mov	x1, x22
+10177a44c:	mov	w2, #0x86
+10177a450:	bl	0x1015980ac
+10177a454:	mov	x0, x22
+10177a458:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a45c:	mov	x0, x19
+10177a460:	ldp	x29, x30, [sp, #0x30]
+10177a464:	ldp	x20, x19, [sp, #0x20]
+10177a468:	ldp	x22, x21, [sp, #0x10]
+10177a46c:	add	sp, sp, #0x40
+10177a470:	b	0x101784a60 ; symbol stub for: _objc_release
+10177a474:	stp	x29, x30, [sp, #-0x10]!
+10177a478:	mov	x29, sp
+10177a47c:	adrp	x0, 610 ; 0x1019dc000
+10177a480:	add	x0, x0, #0xff0 ; literal pool for: "FirebaseSessions.SessionDetails"
+10177a484:	adrp	x2, 580 ; 0x1019be000
+10177a488:	add	x2, x2, #0x210 ; literal pool for: "init()"
+10177a48c:	mov	w1, #0x1f
+10177a490:	mov	w3, #0x6
+10177a494:	mov	w4, #0x0
+10177a498:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177a49c:	brk	#0x1
+10177a4a0:	stp	x29, x30, [sp, #-0x10]!
+10177a4a4:	mov	x29, sp
+10177a4a8:	adrp	x0, 611 ; 0x1019dd000
+10177a4ac:	add	x0, x0, #0x4e0 ; literal pool for: "FirebaseRemoteConfigInterop.RolloutAssignment"
+10177a4b0:	adrp	x2, 580 ; 0x1019be000
+10177a4b4:	add	x2, x2, #0x210 ; literal pool for: "init()"
+10177a4b8:	mov	w1, #0x2d
+10177a4bc:	mov	w3, #0x6
+10177a4c0:	mov	w4, #0x0
+10177a4c4:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177a4c8:	brk	#0x1
+10177a4cc:	stp	x29, x30, [sp, #-0x10]!
+10177a4d0:	mov	x29, sp
+10177a4d4:	adrp	x0, 611 ; 0x1019dd000
+10177a4d8:	add	x0, x0, #0x510 ; literal pool for: "FirebaseRemoteConfigInterop.RolloutsState"
+10177a4dc:	adrp	x2, 580 ; 0x1019be000
+10177a4e0:	add	x2, x2, #0x210 ; literal pool for: "init()"
+10177a4e4:	mov	w1, #0x29
+10177a4e8:	mov	w3, #0x6
+10177a4ec:	mov	w4, #0x0
+10177a4f0:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177a4f4:	brk	#0x1
+10177a4f8:	stp	x29, x30, [sp, #-0x10]!
+10177a4fc:	mov	x29, sp
+10177a500:	adrp	x0, 611 ; 0x1019dd000
+10177a504:	add	x0, x0, #0x570 ; literal pool for: "FirebaseCrashlyticsSwift.CrashlyticsRemoteConfigManager"
+10177a508:	adrp	x2, 580 ; 0x1019be000
+10177a50c:	add	x2, x2, #0x210 ; literal pool for: "init()"
+10177a510:	mov	w1, #0x37
+10177a514:	mov	w3, #0x6
+10177a518:	mov	w4, #0x0
+10177a51c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177a520:	brk	#0x1
+10177a524:	stp	x29, x30, [sp, #-0x10]!
+10177a528:	mov	x29, sp
+10177a52c:	adrp	x0, 611 ; 0x1019dd000
+10177a530:	add	x0, x0, #0x730 ; literal pool for: "CropViewController.CropViewController"
+10177a534:	adrp	x2, 464 ; 0x10194a000
+10177a538:	add	x2, x2, #0xad0 ; literal pool for: "init(nibName:bundle:)"
+10177a53c:	mov	w1, #0x25
+10177a540:	mov	w3, #0x15
+10177a544:	mov	w4, #0x0
+10177a548:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177a54c:	brk	#0x1
+10177a550:	stp	x29, x30, [sp, #-0x10]!
+10177a554:	mov	x29, sp
+10177a558:	mov	x0, x3
+10177a55c:	bl	0x101784b14 ; symbol stub for: _objc_retain
+10177a560:	adrp	x0, 611 ; 0x1019dd000
+10177a564:	add	x0, x0, #0x730 ; literal pool for: "CropViewController.CropViewController"
+10177a568:	adrp	x2, 464 ; 0x10194a000
+10177a56c:	add	x2, x2, #0xad0 ; literal pool for: "init(nibName:bundle:)"
+10177a570:	mov	w1, #0x25
+10177a574:	mov	w3, #0x15
+10177a578:	mov	w4, #0x0
+10177a57c:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+10177a580:	brk	#0x1
+10177a584:	adrp	x0, 2392 ; 0x1020d2000
+10177a588:	add	x0, x0, #0xc78
+10177a58c:	adrp	x1, 1788 ; 0x101e76000
+10177a590:	add	x1, x1, #0xb40
+10177a594:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a598:	stp	x22, x21, [sp, #-0x30]!
+10177a59c:	stp	x20, x19, [sp, #0x10]
+10177a5a0:	stp	x29, x30, [sp, #0x20]
+10177a5a4:	add	x29, sp, #0x20
+10177a5a8:	bl	0x10130cca0
+10177a5ac:	bl	0x10178d880
+10177a5b0:	mov	x29, x29
+10177a5b4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a5b8:	bl	0x1015bddf8
+10177a5bc:	adrp	x6, 1806 ; 0x101e88000
+10177a5c0:	add	x6, x6, #0x2a8
+10177a5c4:	bl	0x101315364
+10177a5c8:	mov	w5, #0xd6
+10177a5cc:	bl	0x101793400
+10177a5d0:	mov	x0, x21
+10177a5d4:	ldp	x29, x30, [sp, #0x20]
+10177a5d8:	b	0x10130cd04
+10177a5dc:	stp	x22, x21, [sp, #-0x30]!
+10177a5e0:	stp	x20, x19, [sp, #0x10]
+10177a5e4:	stp	x29, x30, [sp, #0x20]
+10177a5e8:	add	x29, sp, #0x20
+10177a5ec:	bl	0x10130cca0
+10177a5f0:	bl	0x10178d880
+10177a5f4:	mov	x29, x29
+10177a5f8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a5fc:	bl	0x1015bddf8
+10177a600:	adrp	x6, 1806 ; 0x101e88000
+10177a604:	add	x6, x6, #0x2c8
+10177a608:	bl	0x101315364
+10177a60c:	mov	w5, #0xd8
+10177a610:	bl	0x101793400
+10177a614:	mov	x0, x21
+10177a618:	ldp	x29, x30, [sp, #0x20]
+10177a61c:	b	0x10130cd04
+10177a620:	stp	x22, x21, [sp, #-0x30]!
+10177a624:	stp	x20, x19, [sp, #0x10]
+10177a628:	stp	x29, x30, [sp, #0x20]
+10177a62c:	add	x29, sp, #0x20
+10177a630:	bl	0x10130cca0
+10177a634:	bl	0x10178d880
+10177a638:	mov	x29, x29
+10177a63c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a640:	bl	0x1015bddf8
+10177a644:	adrp	x6, 1806 ; 0x101e88000
+10177a648:	add	x6, x6, #0x368
+10177a64c:	bl	0x101315364
+10177a650:	mov	w5, #0xf9
+10177a654:	bl	0x101793400
+10177a658:	mov	x0, x21
+10177a65c:	ldp	x29, x30, [sp, #0x20]
+10177a660:	b	0x10130cd04
+10177a664:	stp	x22, x21, [sp, #-0x30]!
+10177a668:	stp	x20, x19, [sp, #0x10]
+10177a66c:	stp	x29, x30, [sp, #0x20]
+10177a670:	add	x29, sp, #0x20
+10177a674:	bl	0x10130cca0
+10177a678:	bl	0x10178d880
+10177a67c:	mov	x29, x29
+10177a680:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a684:	bl	0x1015bddf8
+10177a688:	adrp	x6, 1806 ; 0x101e88000
+10177a68c:	add	x6, x6, #0x388
+10177a690:	bl	0x101315364
+10177a694:	mov	w5, #0xfb
+10177a698:	bl	0x101793400
+10177a69c:	mov	x0, x21
+10177a6a0:	ldp	x29, x30, [sp, #0x20]
+10177a6a4:	b	0x10130cd04
+10177a6a8:	adrp	x0, 2392 ; 0x1020d2000
+10177a6ac:	add	x0, x0, #0xc88
+10177a6b0:	adrp	x1, 1788 ; 0x101e76000
+10177a6b4:	add	x1, x1, #0xb60
+10177a6b8:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a6bc:	adrp	x0, 2392 ; 0x1020d2000
+10177a6c0:	add	x0, x0, #0xca8
+10177a6c4:	adrp	x1, 1788 ; 0x101e76000
+10177a6c8:	add	x1, x1, #0xbb0
+10177a6cc:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a6d0:	stp	x22, x21, [sp, #-0x30]!
+10177a6d4:	stp	x20, x19, [sp, #0x10]
+10177a6d8:	stp	x29, x30, [sp, #0x20]
+10177a6dc:	add	x29, sp, #0x20
+10177a6e0:	bl	0x10130cca0
+10177a6e4:	bl	0x10178d880
+10177a6e8:	mov	x29, x29
+10177a6ec:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a6f0:	bl	0x1015bee50
+10177a6f4:	adrp	x6, 1806 ; 0x101e88000
+10177a6f8:	add	x6, x6, #0x5e8
+10177a6fc:	bl	0x101315364
+10177a700:	mov	w5, #0x6a
+10177a704:	bl	0x101793400
+10177a708:	mov	x0, x21
+10177a70c:	ldp	x29, x30, [sp, #0x20]
+10177a710:	b	0x10130cd04
+10177a714:	stp	x22, x21, [sp, #-0x30]!
+10177a718:	stp	x20, x19, [sp, #0x10]
+10177a71c:	stp	x29, x30, [sp, #0x20]
+10177a720:	add	x29, sp, #0x20
+10177a724:	bl	0x10130cca0
+10177a728:	bl	0x10178d880
+10177a72c:	mov	x29, x29
+10177a730:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a734:	bl	0x1015bee50
+10177a738:	adrp	x6, 1806 ; 0x101e88000
+10177a73c:	add	x6, x6, #0x608
+10177a740:	bl	0x101315364
+10177a744:	mov	w5, #0x6c
+10177a748:	bl	0x101793400
+10177a74c:	mov	x0, x21
+10177a750:	ldp	x29, x30, [sp, #0x20]
+10177a754:	b	0x10130cd04
+10177a758:	stp	x22, x21, [sp, #-0x30]!
+10177a75c:	stp	x20, x19, [sp, #0x10]
+10177a760:	stp	x29, x30, [sp, #0x20]
+10177a764:	add	x29, sp, #0x20
+10177a768:	bl	0x10130cca0
+10177a76c:	bl	0x10178d880
+10177a770:	mov	x29, x29
+10177a774:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a778:	bl	0x1015bee50
+10177a77c:	adrp	x6, 1806 ; 0x101e88000
+10177a780:	add	x6, x6, #0x668
+10177a784:	bl	0x101315364
+10177a788:	mov	w5, #0x91
+10177a78c:	bl	0x101793400
+10177a790:	mov	x0, x21
+10177a794:	ldp	x29, x30, [sp, #0x20]
+10177a798:	b	0x10130cd04
+10177a79c:	stp	x22, x21, [sp, #-0x30]!
+10177a7a0:	stp	x20, x19, [sp, #0x10]
+10177a7a4:	stp	x29, x30, [sp, #0x20]
+10177a7a8:	add	x29, sp, #0x20
+10177a7ac:	bl	0x10130cca0
+10177a7b0:	bl	0x10178d880
+10177a7b4:	mov	x29, x29
+10177a7b8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a7bc:	bl	0x1015bee50
+10177a7c0:	adrp	x6, 1806 ; 0x101e88000
+10177a7c4:	add	x6, x6, #0x688
+10177a7c8:	bl	0x101315364
+10177a7cc:	mov	w5, #0x93
+10177a7d0:	bl	0x101793400
+10177a7d4:	mov	x0, x21
+10177a7d8:	ldp	x29, x30, [sp, #0x20]
+10177a7dc:	b	0x10130cd04
+10177a7e0:	adrp	x0, 2392 ; 0x1020d2000
+10177a7e4:	add	x0, x0, #0xcc0
+10177a7e8:	adrp	x1, 1788 ; 0x101e76000
+10177a7ec:	add	x1, x1, #0xd80
+10177a7f0:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a7f4:	adrp	x0, 2392 ; 0x1020d2000
+10177a7f8:	add	x0, x0, #0xcd8
+10177a7fc:	adrp	x1, 1788 ; 0x101e76000
+10177a800:	add	x1, x1, #0xfa8
+10177a804:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a808:	stp	x22, x21, [sp, #-0x30]!
+10177a80c:	stp	x20, x19, [sp, #0x10]
+10177a810:	stp	x29, x30, [sp, #0x20]
+10177a814:	add	x29, sp, #0x20
+10177a818:	mov	x19, x1
+10177a81c:	mov	x20, x0
+10177a820:	adrp	x8, 1973 ; 0x101f2f000
+10177a824:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+10177a828:	bl	0x10178d880
+10177a82c:	mov	x29, x29
+10177a830:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a834:	mov	x21, x0
+10177a838:	adrp	x4, 1806 ; 0x101e88000
+10177a83c:	add	x4, x4, #0xc88
+10177a840:	adrp	x6, 1806 ; 0x101e88000
+10177a844:	add	x6, x6, #0xca8
+10177a848:	mov	x2, x20
+10177a84c:	mov	x3, x19
+10177a850:	mov	w5, #0x12b
+10177a854:	bl	0x101793400
+10177a858:	mov	x0, x21
+10177a85c:	ldp	x29, x30, [sp, #0x20]
+10177a860:	ldp	x20, x19, [sp, #0x10]
+10177a864:	ldp	x22, x21, [sp], #0x30
+10177a868:	b	0x101784a60 ; symbol stub for: _objc_release
+10177a86c:	adrp	x0, 2392 ; 0x1020d2000
+10177a870:	add	x0, x0, #0xce8
+10177a874:	adrp	x1, 1789 ; 0x101e77000
+10177a878:	add	x1, x1, #0x90
+10177a87c:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a880:	adrp	x0, 2392 ; 0x1020d2000
+10177a884:	add	x0, x0, #0xcf8
+10177a888:	adrp	x1, 1789 ; 0x101e77000
+10177a88c:	add	x1, x1, #0xb0
+10177a890:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a894:	adrp	x0, 2392 ; 0x1020d2000
+10177a898:	add	x0, x0, #0xd08
+10177a89c:	adrp	x1, 1789 ; 0x101e77000
+10177a8a0:	add	x1, x1, #0xd0
+10177a8a4:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a8a8:	adrp	x0, 2392 ; 0x1020d2000
+10177a8ac:	add	x0, x0, #0xd18
+10177a8b0:	adrp	x1, 1789 ; 0x101e77000
+10177a8b4:	add	x1, x1, #0x140
+10177a8b8:	b	0x101784400 ; symbol stub for: _dispatch_once
+10177a8bc:	stp	x20, x19, [sp, #-0x20]!
+10177a8c0:	stp	x29, x30, [sp, #0x10]
+10177a8c4:	add	x29, sp, #0x10
+10177a8c8:	mov	x19, x0
+10177a8cc:	adrp	x8, 1973 ; 0x101f2f000
+10177a8d0:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+10177a8d4:	bl	0x10178d880
+10177a8d8:	mov	x29, x29
+10177a8dc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a8e0:	mov	x20, x0
+10177a8e4:	ldp	x2, x3, [x19, #0x30]
+10177a8e8:	bl	0x1015c43e0
+10177a8ec:	adrp	x6, 1806 ; 0x101e88000
+10177a8f0:	add	x6, x6, #0xf08
+10177a8f4:	mov	w5, #0x2a
+10177a8f8:	bl	0x101793400
+10177a8fc:	mov	x0, x20
+10177a900:	ldp	x29, x30, [sp, #0x10]
+10177a904:	ldp	x20, x19, [sp], #0x20
+10177a908:	b	0x101784a60 ; symbol stub for: _objc_release
+10177a90c:	stp	x22, x21, [sp, #-0x30]!
+10177a910:	stp	x20, x19, [sp, #0x10]
+10177a914:	stp	x29, x30, [sp, #0x20]
+10177a918:	add	x29, sp, #0x20
+10177a91c:	bl	0x1015c43c8
+10177a920:	bl	0x10178d880
+10177a924:	mov	x29, x29
+10177a928:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a92c:	mov	x22, x0
+10177a930:	ldp	x2, x3, [x21, #0x30]
+10177a934:	bl	0x1015c43e0
+10177a938:	adrp	x6, 1806 ; 0x101e88000
+10177a93c:	add	x6, x6, #0xf28
+10177a940:	mov	w5, #0x2b
+10177a944:	bl	0x101793400
+10177a948:	mov	x0, x22
+10177a94c:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a950:	ldr	x8, [x20]
+10177a954:	str	x8, [x19]
+10177a958:	ldp	x29, x30, [sp, #0x20]
+10177a95c:	ldp	x20, x19, [sp, #0x10]
+10177a960:	ldp	x22, x21, [sp], #0x30
+10177a964:	ret
+10177a968:	sub	sp, sp, #0x50
+10177a96c:	stp	x24, x23, [sp, #0x10]
+10177a970:	stp	x22, x21, [sp, #0x20]
+10177a974:	stp	x20, x19, [sp, #0x30]
+10177a978:	stp	x29, x30, [sp, #0x40]
+10177a97c:	add	x29, sp, #0x40
+10177a980:	bl	0x1015c43c8
+10177a984:	bl	0x10178d880
+10177a988:	mov	x29, x29
+10177a98c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a990:	mov	x22, x0
+10177a994:	ldp	x23, x21, [x21, #0x30]
+10177a998:	mov	x0, x20
+10177a99c:	bl	0x101783b9c ; symbol stub for: _NSStringFromClass
+10177a9a0:	mov	x29, x29
+10177a9a4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a9a8:	mov	x20, x0
+10177a9ac:	ldr	x0, [x19]
+10177a9b0:	bl	0x101783bb4 ; symbol stub for: _NSStringFromSelector
+10177a9b4:	mov	x29, x29
+10177a9b8:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177a9bc:	mov	x19, x0
+10177a9c0:	stp	x20, x0, [sp]
+10177a9c4:	bl	0x1015c43e0
+10177a9c8:	adrp	x6, 1806 ; 0x101e88000
+10177a9cc:	add	x6, x6, #0xf48
+10177a9d0:	mov	x0, x22
+10177a9d4:	mov	x2, x23
+10177a9d8:	mov	x3, x21
+10177a9dc:	mov	w5, #0x35
+10177a9e0:	bl	0x101793400
+10177a9e4:	mov	x0, x19
+10177a9e8:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a9ec:	mov	x0, x20
+10177a9f0:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177a9f4:	mov	x0, x22
+10177a9f8:	ldp	x29, x30, [sp, #0x40]
+10177a9fc:	ldp	x20, x19, [sp, #0x30]
+10177aa00:	ldp	x22, x21, [sp, #0x20]
+10177aa04:	ldp	x24, x23, [sp, #0x10]
+10177aa08:	add	sp, sp, #0x50
+10177aa0c:	b	0x101784a60 ; symbol stub for: _objc_release
+10177aa10:	stp	x22, x21, [sp, #-0x30]!
+10177aa14:	stp	x20, x19, [sp, #0x10]
+10177aa18:	stp	x29, x30, [sp, #0x20]
+10177aa1c:	add	x29, sp, #0x20
+10177aa20:	bl	0x1015c43c8
+10177aa24:	bl	0x10178d880
+10177aa28:	mov	x29, x29
+10177aa2c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177aa30:	mov	x22, x0
+10177aa34:	bl	0x1015c43e0
+10177aa38:	adrp	x6, 1806 ; 0x101e88000
+10177aa3c:	add	x6, x6, #0xf08
+10177aa40:	mov	x2, x21
+10177aa44:	mov	x3, x20
+10177aa48:	mov	w5, #0x6c
+10177aa4c:	bl	0x101793400
+10177aa50:	mov	x0, x22
+10177aa54:	bl	0x101784a60 ; symbol stub for: _objc_release
+10177aa58:	cmp	x19, #0x0
+10177aa5c:	cset	w0, eq
+10177aa60:	ldp	x29, x30, [sp, #0x20]
+10177aa64:	ldp	x20, x19, [sp, #0x10]
+10177aa68:	ldp	x22, x21, [sp], #0x30
+10177aa6c:	ret
+10177aa70:	stp	x22, x21, [sp, #-0x30]!
+10177aa74:	stp	x20, x19, [sp, #0x10]
+10177aa78:	stp	x29, x30, [sp, #0x20]
+10177aa7c:	add	x29, sp, #0x20
+10177aa80:	mov	x19, x1
+10177aa84:	mov	x20, x0
+10177aa88:	adrp	x8, 1973 ; 0x101f2f000
+10177aa8c:	ldr	x0, [x8, #0x868] ; Objc class ref: bad class ref
+10177aa90:	bl	0x10178d880
+10177aa94:	mov	x29, x29
+10177aa98:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10177aa9c:	mov	x21, x0
+10177aaa0:	bl	0x1015c43e0
+10177aaa4:	adrp	x6, 1806 ; 0x101e88000
+10177aaa8:	add	x6, x6, #0xf28
+10177aaac:	mov	x2, x20
+10177aab0:	mov	x3, x19
+10177aab4:	mov	w5, #0x6d
+10177aab8:	bl	0x101793400
+10177aabc:	mov	x0, x21
+10177aac0:	ldp	x29, x30, [sp, #0x20]
+10177aac4:	ldp	x20, x19, [sp, #0x10]
+10177aac8:	ldp	x22, x21, [sp], #0x30
+10177aacc:	b	0x101784a60 ; symbol stub for: _objc_release
+10177aad0:	sub	sp, sp, #0x30
+10177aad4:	stp	x29, x30, [sp, #0x20]
+10177aad8:	add	x29, sp, #0x20
+10177aadc:	adrp	x8, 1843 ; 0x101ead000
+10177aae0:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10177aae4:	ldr	x8, [x8]
+10177aae8:	stur	x8, [x29, #-0x8]
+10177aaec:	mov	w8, #0x202
+10177aaf0:	movk	w8, #0x842, lsl #16
+10177aaf4:	str	w8, [sp]
+10177aaf8:	stur	x0, [sp, #0x4]
+10177aafc:	mov	w8, #0x842
+10177ab00:	strh	w8, [sp, #0xc]
+10177ab04:	stur	x1, [sp, #0xe]
+10177ab08:	adrp	x0, -6010 ; 0x100000000
+10177ab0c:	add	x0, x0, #0x0
+10177ab10:	adrp	x3, 1574 ; 0x101da0000
+10177ab14:	add	x3, x3, #0x217 ; literal pool for: "[%{public}@] %{public}@"
+10177ab18:	mov	x4, sp
+10177ab1c:	mov	x1, x2
+10177ab20:	mov	w2, #0x10
+10177ab24:	mov	w5, #0x16
+10177ab28:	bl	0x1017840f4 ; symbol stub for: __os_log_error_impl
+10177ab2c:	ldur	x8, [x29, #-0x8]
+10177ab30:	adrp	x9, 1843 ; 0x101ead000
+10177ab34:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10177ab38:	ldr	x9, [x9]
+10177ab3c:	cmp	x9, x8
+10177ab40:	b.ne	0x10177ab50
+10177ab44:	ldp	x29, x30, [sp, #0x20]
+10177ab48:	add	sp, sp, #0x30
+10177ab4c:	ret
+10177ab50:	bl	0x101784064 ; symbol stub for: ___stack_chk_fail
+10177ab54:	stp	x29, x30, [sp, #-0x10]!
+10177ab58:	mov	x29, sp
+10177ab5c:	bl	0x101784148 ; symbol stub for: _abort
