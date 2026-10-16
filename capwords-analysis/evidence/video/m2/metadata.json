@@ -1,0 +1,44 @@
+{
+  "source": "m2.mp4",
+  "sha256": "454cfb915632ff3e691f0a16c38bc72c12dffaf8bfc31e54424a46530154816d",
+  "size": 5768149,
+  "tracks": [
+    {
+      "handler": "vide",
+      "codec": "avc1",
+      "timescale": 15360,
+      "media_duration": 25.633333333333333,
+      "sample_count": 769,
+      "duration_runs": [
+        [
+          769,
+          512
+        ]
+      ],
+      "average_samples_per_second": 30.0,
+      "first_pts": 0.06666666666666667,
+      "width": 886,
+      "height": 1920
+    },
+    {
+      "handler": "soun",
+      "codec": "mp4a",
+      "timescale": 48000,
+      "media_duration": 25.656166666666667,
+      "sample_count": 1203,
+      "duration_runs": [
+        [
+          1202,
+          1024
+        ],
+        [
+          1,
+          648
+        ]
+      ],
+      "average_samples_per_second": 46.889311861345874,
+      "first_pts": 0.0
+    }
+  ],
+  "extraction": "Windows MediaComposition.GetThumbnailAsync, NearestFrame; filenames denote requested seek times, not returned PTS"
+}
