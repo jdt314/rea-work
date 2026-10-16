@@ -1,0 +1,2 @@
+cap.ipa filter=lfs diff=lfs merge=lfs -text
+capwords-analysis/evidence/ipa/disassembly.txt filter=lfs diff=lfs merge=lfs -text

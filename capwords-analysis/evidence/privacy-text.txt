@@ -1,0 +1,214 @@
+Privacy Policy - CapWords
+Our Story
+Press
+Support
+Get the app
+Get the app
+Our Story
+Press
+Support
+Get the app
+Privacy Policy
+Last Updated: April 18, 2025
+CapWords (“we”, “our”, or “the App”) is a privacy-first language learning application designed for personal use without requiring any account registration. We do not operate any proprietary servers, nor do we store any personally identifiable information (PII). All data processing is conducted locally on your device or via system services provided by Apple Inc.
+This Privacy Policy outlines how we process your information in compliance with applicable data protection laws, including the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and relevant local privacy frameworks.
+What Information We Collect and Why
+Content you create or provide to us
+CapWords is built to minimize data collection. We do not collect or store any personal identifiers such as names, email addresses, phone numbers, precise location, or device identifiers (e.g., IDFA).
+During your use of the app, the following technical data may be temporarily processed to enable core features:
+a. Camera Access
+Purpose: To allow you to capture real-world objects for language recognition.
+Data Use: Images are used only once for immediate object recognition and are not saved to your device’s photo library or uploaded to any server.
+Storage: No local or remote retention.
+b. Image Recognition via Third-Party APIs
+Service Providers: OpenAI Vision API and Google Gemini Vision API
+Purpose: To identify objects in your captured image.
+Data Flow: Images are securely transmitted over TLS-encrypted connections to the selected provider for one-time processing; results are returned immediately to CapWords.
+Data Retention: CapWords does not store images. OpenAI and Google each retain request data for up to 30 days solely for abuse-monitoring and safety auditing, after which it is deleted. In neither case are your images used to train their models unless you have explicitly opted in through a separate agreement.
+Policy References:
+• OpenAI –
+https://platform.openai.com/docs/guides/your-data
+• Google Gemini –
+https://ai.google.dev/gemini-api/docs/usage-policies
+c. Text-to-Speech (TTS)
+Provider: Apple iOS AVSpeechSynthesizer (built-in system service)
+Purpose: To provide local audio playback of vocabulary
+Processing: All synthesis is handled entirely on-device, with no network transmission
+d. iCloud Storage via CloudKit
+Purpose: To optionally sync user progress (e.g., flashcard history, preferences) across Apple devices
+Data Control: Data is stored only in your personal iCloud account, governed by Apple’s privacy terms.
+Access: We do not have access to, nor do we control, any iCloud-stored data.
+CapWords (“we”, “our”, or “the App”) is a privacy-first language learning application designed for personal use without requiring any account registration. We do not operate any proprietary servers, nor do we store any personally identifiable information (PII). All data processing is conducted locally on your device or via system services provided by Apple Inc.
+This Privacy Policy outlines how we process your information in compliance with applicable data protection laws, including the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and relevant local privacy frameworks.
+What Information We Collect and Why
+Content you create or provide to us
+CapWords is built to minimize data collection. We do not collect or store any personal identifiers such as names, email addresses, phone numbers, precise location, or device identifiers (e.g., IDFA).
+During your use of the app, the following technical data may be temporarily processed to enable core features:
+a. Camera Access
+Purpose: To allow you to capture real-world objects for language recognition.
+Data Use: Images are used only once for immediate object recognition and are not saved to your device’s photo library or uploaded to any server.
+Storage: No local or remote retention.
+b. Image Recognition via Third-Party APIs
+Service Providers: OpenAI Vision API and Google Gemini Vision API
+Purpose: To identify objects in your captured image.
+Data Flow: Images are securely transmitted over TLS-encrypted connections to the selected provider for one-time processing; results are returned immediately to CapWords.
+Data Retention: CapWords does not store images. OpenAI and Google each retain request data for up to 30 days solely for abuse-monitoring and safety auditing, after which it is deleted. In neither case are your images used to train their models unless you have explicitly opted in through a separate agreement.
+Policy References:
+• OpenAI ：
+https://platform.openai.com/docs/guides/your-data
+• Google Gemini ：
+https://ai.google.dev/gemini-api/docs/usage-policies
+c. Text-to-Speech (TTS)
+Provider: Apple iOS AVSpeechSynthesizer (built-in system service)
+Purpose: To provide local audio playback of vocabulary
+Processing: All synthesis is handled entirely on-device, with no network transmission
+d. iCloud Storage via CloudKit
+Purpose: To optionally sync user progress (e.g., flashcard history, preferences) across Apple devices
+Data Control: Data is stored only in your personal iCloud account, governed by Apple’s privacy terms.
+Access: We do not have access to, nor do we control, any iCloud-stored data.
+CapWords (“we”, “our”, or “the App”) is a privacy-first language learning application designed for personal use without requiring any account registration. We do not operate any proprietary servers, nor do we store any personally identifiable information (PII). All data processing is conducted locally on your device or via system services provided by Apple Inc.
+This Privacy Policy outlines how we process your information in compliance with applicable data protection laws, including the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and relevant local privacy frameworks.
+What Information We Collect and Why
+Content you create or provide to us
+CapWords is built to minimize data collection. We do not collect or store any personal identifiers such as names, email addresses, phone numbers, precise location, or device identifiers (e.g., IDFA).
+During your use of the app, the following technical data may be temporarily processed to enable core features:
+a. Camera Access
+Purpose: To allow you to capture real-world objects for language recognition.
+Data Use: Images are used only once for immediate object recognition and are not saved to your device’s photo library or uploaded to any server.
+Storage: No local or remote retention.
+b. Image Recognition via Third-Party APIs
+Service Providers: OpenAI Vision API and Google Gemini Vision API
+Purpose: To identify objects in your captured image.
+Data Flow: Images are securely transmitted over TLS-encrypted connections to the selected provider for one-time processing; results are returned immediately to CapWords.
+Data Retention: CapWords does not store images. OpenAI and Google each retain request data for up to 30 days solely for abuse-monitoring and safety auditing, after which it is deleted. In neither case are your images used to train their models unless you have explicitly opted in through a separate agreement.
+Policy References:
+• OpenAI –
+https://platform.openai.com/docs/guides/your-data
+• Google Gemini –
+https://ai.google.dev/gemini-api/docs/usage-policies
+c. Text-to-Speech (TTS)
+Provider: Apple iOS AVSpeechSynthesizer (built-in system service)
+Purpose: To provide local audio playback of vocabulary
+Processing: All synthesis is handled entirely on-device, with no network transmission
+d. iCloud Storage via CloudKit
+Purpose: To optionally sync user progress (e.g., flashcard history, preferences) across Apple devices
+Data Control: Data is stored only in your personal iCloud account, governed by Apple’s privacy terms.
+Access: We do not have access to, nor do we control, any iCloud-stored data.
+What We Do Not Collect
+We do not collect or process:
+Your name, email address, phone number, or address
+Your Apple ID or account-related identifiers
+Your device’s unique ID (IDFA, IMEI, etc.)
+Your contact list, calendar, or SMS history
+Your behavioral usage logs (clicks, screen time, etc.)
+Your precise or coarse location data
+What We Do Not Collect
+We do not collect or process:
+Your name, email address, phone number, or address
+Your Apple ID or account-related identifiers
+Your device’s unique ID (IDFA, IMEI, etc.)
+Your contact list, calendar, or SMS history
+Your behavioral usage logs (clicks, screen time, etc.)
+Your precise or coarse location data
+Legal Basis for Processing
+For users located in the European Union or regions covered by the GDPR, our legal basis for processing is your explicit consent when granting system-level permissions (camera, speech output, etc.).
+For users in California (CCPA), we affirm:
+We do not “sell” or “share” your data with any third party
+You are entitled to request information, opt out of any future data sharing (though we don’t do any), and request deletion of any stored data (which we don’t retain)
+For users in China, we do not collect or process personal information subject to localization or cross-border transfer restrictions.
+Legal Basis for Processing
+For users located in the European Union or regions covered by the GDPR, our legal basis for processing is your explicit consent when granting system-level permissions (camera, speech output, etc.).
+For users in California (CCPA), we affirm:
+We do not “sell” or “share” your data with any third party
+You are entitled to request information, opt out of any future data sharing (though we don’t do any), and request deletion of any stored data (which we don’t retain)
+For users in China, we do not collect or process personal information subject to localization or cross-border transfer restrictions.
+Data Security
+Even though we do not store personal data, we implement industry-standard practices:
+End-to-end encrypted connections for third-party API requests
+No use of cookies, fingerprinting, or analytics SDKs
+All data flows either remain on-device or pass through Apple-vetted system channels (e.g., CloudKit, TTS)
+Data Security
+Even though we do not store personal data, we implement industry-standard practices:
+End-to-end encrypted connections for third-party API requests
+No use of cookies, fingerprinting, or analytics SDKs
+All data flows either remain on-device or pass through Apple-vetted system channels (e.g., CloudKit, TTS)
+Your Rights
+Depending on your location, you may have the following rights:
+Access: You may request confirmation of what data we process (though we retain none). Correction/Deletion: All data you create (e.g., learning history) is controlled via your device or iCloud settings.
+Consent Withdrawal: You may revoke camera, microphone, or cloud access anytime through your device system settings.
+Complaint: You may contact your regional data authority, or contact us directly for prompt resolution.
+We are committed to respecting your privacy rights globally.
+Your Rights
+Depending on your location, you may have the following rights:
+Access: You may request confirmation of what data we process (though we retain none). Correction/Deletion: All data you create (e.g., learning history) is controlled via your device or iCloud settings.
+Consent Withdrawal: You may revoke camera, microphone, or cloud access anytime through your device system settings.
+Complaint: You may contact your regional data authority, or contact us directly for prompt resolution.
+We are committed to respecting your privacy rights globally.
+Children’s Privacy
+CapWords is designed to be safe and appropriate for children aged 4 and above. We do not collect any personal data from users, including children. The app contains no login, no ads, no analytics, and no behavioral tracking.
+All features are self-contained, offline-first, and do not require internet access except for optional image recognition and iCloud syncing.
+If you are a parent or guardian and believe that your child has inadvertently shared any personal information while using CapWords, please contact us at
+support@capwords.app
+. We will investigate and delete any such data immediately, even if collected unintentionally.
+Children’s Privacy
+CapWords is designed to be safe and appropriate for children aged 4 and above. We do not collect any personal data from users, including children. The app contains no login, no ads, no analytics, and no behavioral tracking.
+All features are self-contained, offline-first, and do not require internet access except for optional image recognition and iCloud syncing.
+If you are a parent or guardian and believe that your child has inadvertently shared any personal information while using CapWords, please contact us at
+support@capwords.app
+. We will investigate and delete any such data immediately, even if collected unintentionally.
+Policy Updates
+We may revise this Privacy Policy to reflect changes in functionality, law, or regulatory guidance. We will notify you of significant updates via in-app notices. Continued use of the app after an update constitutes acceptance of the revised terms.
+Policy Updates
+We may revise this Privacy Policy to reflect changes in functionality, law, or regulatory guidance. We will notify you of significant updates via in-app notices. Continued use of the app after an update constitutes acceptance of the revised terms.
+Contact Us
+If you have any questions, concerns, or data-related requests, please contact:
+📧 Email:
+support@capwords.app
+We respond to all requests within 15 business days.
+Contact Us
+If you have any questions, concerns, or data-related requests, please contact:
+📧 Email:
+support@capwords.app
+We respond to all requests within 15 business days.
+CapWords
+Download App
+Our Story
+Support
+Contact Us
+Company
+Terms of Service
+Privacy Policy
+Press
+Social
+Twitter/X
+TikTok
+Instagram
+CapWords © 2025
+CapWords
+Download App
+Our Story
+Support
+Contact Us
+Company
+Terms of Service
+Privacy Policy
+Press
+Social
+Twitter/X
+TikTok
+Instagram
+CapWords © 2025
+CapWords
+Download App
+Our Story
+Support
+Contact Us
+Company
+Terms of Service
+Privacy Policy
+Press
+Social
+Twitter/X
+TikTok
+Instagram
+CapWords © 2025

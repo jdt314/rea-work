@@ -1,0 +1,498 @@
+CapWords - Learn a new language from familar things
+Our Story
+Press
+Support
+Get the app
+Our Story
+Press
+Support
+Get the app
+Get the app
+L
+e
+a
+r
+n
+a
+n
+e
+w
+l
+a
+n
+g
+u
+a
+g
+e
+f
+r
+o
+m
+f
+a
+m
+i
+l
+i
+a
+r
+t
+h
+i
+n
+g
+s
+L
+e
+a
+r
+n
+a
+n
+e
+w
+l
+a
+n
+g
+u
+a
+g
+e
+f
+r
+o
+m
+f
+a
+m
+i
+l
+i
+a
+r
+t
+h
+i
+n
+g
+s
+Learn languages through the world around you
+CapWords makes everyday objects your personal textbook.
+Learn languages through the world around you
+CapWords makes everyday objects your personal textbook.
+App Store Awards
+App of the Year
+Apple Design Awards
+2025 Winner
+Language
+Learning
+Anytime,
+Anywhere
+at
+home,
+on
+the
+street,
+or
+out
+exploring
+the
+world.
+Language
+Learning
+Anytime,
+Anywhere
+at
+home,
+on
+the
+street,
+or
+out
+exploring
+the
+world.
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Learn Together,
+Grow Together
+Everyday Moments
+at Home
+Travel &
+Cross-Cultural
+Discovery
+Urban Adventures & Everyday Word
+For Studying, Working,
+and Life on Campus
+Scenario
+Memory
+Card
+Scene
++
+Image
++
+Information
+=
+Better
+Memory
+Visual, game-like learning can boost word retention by 25%.
+🧠
+The Science Behind It
+Based on findings from a 2023 study published by the
+Based on findings from a 2023 study published by the
+Journal of Educational Psychology.
+Journal of Educational Psychology.
+Privacy
+first.
+CapWords
+operates
+without
+any
+servers.
+All your data is fully under your control.
+How we handled
+your data?
+CapWords does not store any user-captured photos. When a user takes a photo, the image is temporarily transmitted to a third-party AI model for one-time recognition. It is immediately discarded after processing — not saved locally on the device, and not uploaded to any CapWords server (as CapWords does not operate any servers).
+How does
+CapWords work?
+CapWords currently uses Apple’s native system-level capabilities, including:
+AVSpeechSynthesizer:
+for high-quality speech playback (with Neural Voice support)
+VisionKit and AVFoundation: for image capture and background removal
+CloudKit: for syncing users’ review progress and image-based content between iPhone and iPad
+Speech and SFSpeechRecognizer: for voice recognition functionality
+Learn
+smarter,
+every
+day.
+Capture
+words,
+review
+cards,
+and
+build
+your
+language—effortlessly.
+We
+❤️
+Our
+Users
+Real
+feedback
+from
+real
+learners.
+Scan this QR code with your phone
+to download CapWords.
+Learning vocabulary has never been easier!
+Learning vocabulary has never been easier!
+May 6 · by Free Spirit
+May 6 · by Free Spirit
+My child keeps asking me what the English names of various objects are. This app is incredibly handy!
+My child keeps asking me what the English names of various objects are. This app is incredibly handy!
+Learning vocabulary has never been easier!
+May 6 · by Free Spirit
+My child keeps asking me what the English names of various objects are. This app is incredibly handy!
+Honestly, it's really great!
+Honestly, it's really great!
+April 28 · by A Cat Cat Cat
+April 28 · by A Cat Cat Cat
+I had a similar idea in the past, but I didn't know how to create an app, so I let it go. I'm so happy to see someone else bring it to life! I downloaded it and immediately supported it! The interface is clean and beautiful, easy on the eyes. (Just a couple of suggestions: 1. The current voice for word pronunciation sounds a bit robotic; could you consider using a real voice or a more natural-sounding model? 2. It would be nice to have more icon styles for personalization, allowing users to choose. Thank you, developer!
+I had a similar idea in the past, but I didn't know how to create an app, so I let it go. I'm so happy to see someone else bring it to life! I downloaded it and immediately supported it! The interface is clean and beautiful, easy on the eyes. (Just a couple of suggestions: 1. The current voice for word pronunciation sounds a bit robotic; could you consider using a real voice or a more natural-sounding model? 2. It would be nice to have more icon styles for personalization, allowing users to choose. Thank you, developer!
+Honestly, it's really great!
+April 28 · by A Cat Cat Cat
+I had a similar idea in the past, but I didn't know how to create an app, so I let it go. I'm so happy to see someone else bring it to life! I downloaded it and immediately supported it! The interface is clean and beautiful, easy on the eyes. (Just a couple of suggestions: 1. The current voice for word pronunciation sounds a bit robotic; could you consider using a real voice or a more natural-sounding model? 2. It would be nice to have more icon styles for personalization, allowing users to choose. Thank you, developer!
+Everyday items in life.
+Everyday items in life.
+April 12 · by He Goose
+April 12 · by He Goose
+You can learn the meanings of the words for everyday items!
+You can learn the meanings of the words for everyday items!
+Everyday items in life.
+April 12 · by He Goose
+You can learn the meanings of the words for everyday items!
+Quick updates!
+Quick updates!
+April 2 · by Chris Chan
+April 2 · by Chris Chan
+After just three minutes of playing, I was thrilled to upgrade to the premium version! Walking outside feels so much more enjoyable now. Can't wait for the widgets and iWatch integration!
+After just three minutes of playing, I was thrilled to upgrade to the premium version! Walking outside feels so much more enjoyable now. Can't wait for the widgets and iWatch integration!
+Quick updates!
+April 2 · by Chris Chan
+After just three minutes of playing, I was thrilled to upgrade to the premium version! Walking outside feels so much more enjoyable now. Can't wait for the widgets and iWatch integration!
+What a delightful app!
+What a delightful app!
+April 12 · by Apple Store B
+April 12 · by Apple Store B
+You can learn the meanings of the words for everyday items!
+You can learn the meanings of the words for everyday items!
+What a delightful app!
+April 12 · by Apple Store B
+You can learn the meanings of the words for everyday items!
+Cute and simple!
+Cute and simple!
+April 9 · by Blue Porcelain
+April 9 · by Blue Porcelain
+The interface is refreshingly light and enjoyable to use! However, there are a few bugs in the example sentences. The Japanese words in Katakana are sometimes confused; one word is recognized, but the example sentences use a different one. ><
+The interface is refreshingly light and enjoyable to use! However, there are a few bugs in the example sentences. The Japanese words in Katakana are sometimes confused; one word is recognized, but the example sentences use a different one. ><
+Cute and simple!
+April 9 · by Blue Porcelain
+The interface is refreshingly light and enjoyable to use! However, there are a few bugs in the example sentences. The Japanese words in Katakana are sometimes confused; one word is recognized, but the example sentences use a different one. ><
+The voice memory cards are fantastic!
+The voice memory cards are fantastic!
+April 6 · by acellg
+April 6 · by acellg
+Speaking English is not as hard as I thought it would be.
+Speaking English is not as hard as I thought it would be.
+The voice memory cards are fantastic!
+April 6 · by acellg
+Speaking English is not as hard as I thought it would be.
+CapWords
+is
+built
+on
+a
+simple
+belief:
+creativity
+thrives
+on
+curiosity.
+We
+design
+playful
+tools
+that
+turn
+everyday
+moments
+into
+something
+personal,
+joyful,
+and
+worth
+remembering.
+Inspired
+by
+real
+life
+and
+real
+people,
+we
+chase
+sparks
+of
+language
+wherever
+they
+appear.
+CapWords
+is
+built
+on
+a
+simple
+belief:
+creativity
+thrives
+on
+curiosity.
+We
+design
+playful
+tools
+that
+turn
+everyday
+moments
+into
+something
+personal,
+joyful,
+and
+worth
+remembering.
+Inspired
+by
+real
+life
+and
+real
+people,
+we
+chase
+sparks
+of
+language
+wherever
+they
+appear.
+Questions?
+We’ve got answers
+Find answers to the most common questions about
+using our app on your mobile device.
+What is CapWords?
+CapWords is a language learning app that helps you learn new words by snapping photos of real-world objects and turning them into vocabulary stickers.
+How does CapWords work?
+Just take a photo of any object. CapWords recognizes it and gives you the word, pronunciation, and sticker in your target language.
+Do I need an account to use CapWords?
+No, CapWords works without registration. You can start learning right away.
+Is CapWords safe? How does it handle my photos?
+CapWords processes images locally on your device and does not upload or store your photos on any server.
+Can kids use CapWords?
+Yes! CapWords is simple, visual, and safe, perfect for learners of all ages.
+more
+CapWords
+Download App
+Our Story
+Support
+Contact Us
+Company
+Terms of Service
+Privacy Policy
+Press
+Social
+Twitter/X
+TikTok
+Instagram
+CapWords © 2025
+CapWords
+Download App
+Our Story
+Support
+Contact Us
+Company
+Terms of Service
+Privacy Policy
+Press
+Social
+Twitter/X
+TikTok
+Instagram
+CapWords © 2025
+CapWords
+Download App
+Our Story
+Support
+Contact Us
+Company
+Terms of Service
+Privacy Policy
+Press
+Social
+Twitter/X
+TikTok
+Instagram
+CapWords © 2025
