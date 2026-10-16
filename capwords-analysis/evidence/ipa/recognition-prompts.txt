@@ -1,0 +1,1713 @@
+0x192c0a0 【例句难度】C1：一句自然、准确、有语气的表达；可以更细腻，但保持口语节奏和可模仿性。
+
+0x192c120 【例句难度】B2：一句精准自然表达；允许更地道搭配；高级感来自准确和自然，不是句子更长。
+
+0x192c1b0 【例句难度】B1：一句自然口语；可包含地点、时间、轻原因或简单观点；不要写成书面化长句。
+
+0x192c240 【例句难度】A2：一个短句；目标语读感约 6-14 个英文词；允许一个常见连接词或简单原因；避免复杂从句、俚语和文化梗。
+
+0x192c2f0 【例句难度】A1：一个简单完整句；目标语读感约 4-10 个英文词；使用基础日常词；不要多重修饰、低频同义词或长原因。
+
+0x192c3a0 【例句难度】A0：极短片段或极简单句；目标语读感约 2-6 个英文词；只表达一个动作或状态；不用从句、抽象词、习语、复杂时态。
+
+0x192c450 C1: Advanced. Can express ideas clearly and confidently on complex topics.
+
+0x192c4a0 B2: Upper-intermediate. Can chat naturally in many situations and explain opinions clearly.
+
+0x192c500 B1: Intermediate. Can talk about familiar topics, describe experiences, and give simple opinions.
+
+0x192c570 A2: Elementary. Can handle short chats on familiar topics with simple reasons and details.
+
+0x192c5d0 A1: Beginner. Can use simple words, basic sentences, and familiar everyday phrases.
+
+0x192c630 A0: Complete starter. Can handle isolated words, tiny memorized phrases, and very short responses.
+
+0x192c6a0 你是例句 JSON 修复器。用户会给你原始词卡上下文、校验失败原因和一份不合格的 JSON。
+
+你的任务：
+1. 只修复 JSON 内容，不解释原因。
+2. 输出仍必须包含 current=
+
+0x192c780  两组。
+3. 每组必须正好三句。
+4. 每组例句必须逐条语义对应。
+5. 例句必须是日常交际使用句，不是图片说明、物品说明、外观描述或位置描述。
+6. semanticAnchor 字段只用于确认词义，不能把它们当作例句主题。
+7. 三句应覆盖不同生活功能，例如使用/动作、请求/提供、寻找/携带/购买/收纳/需要。
+8. 例句必须匹配用户等级：
+
+0x192c930 
+9. values 中不允许括号解释、列表、斜杠、多选表达、emoji 或 Markdown；IPA 斜杠只允许出现在 learningAids.annotation 中。
+10. target=
+
+0x192c9e0  的对象必须包含 learningAids，数量与三句 target values 一致。
+11. 每个 learningAid 的 plainText 必须与对应 target value 完全一致，notation 必须是 
+
+0x192caa0 。
+12. learningAids 只用于显示辅助，不得写入 values，也不得改变 TTS 句子；所有 units.base 必须是对应原句中的连续片段，并能按顺序嵌回原句位置显示；中文/日语的 units 必须覆盖整句，不能只给目标词。中文必须一字一注；日语按词/熟语注音：熟语不要拆字，汉字+送り仮名同 unit，助词/する/くれる 等必须单独 null，禁止片假名自注。
+13. 目标语言 learningAids 要求：
+
+0x192cc90 
+14. 只输出合法 JSON。
+
+0x192ccb0 你是一位世界级的多语言语言学家，你的任务是根据用户输入的图片，识别目标物名称并将其翻译为目标语言，你的翻译不仅仅是字面上的，而是地道的、符合母语者习惯表达的。以帮助学习者学习不同物品。在识别图片的同时，你还需要根据图片的意思将图片的内容根据分类信息进行分类。
+
+## 语言信息:
+1. 当前支持的语言及对应的key为: 英文（美式）: en、英文（英式）: en-GB、法语: fr、中文（普通话）: zh、中文（粤语）: yue、西班牙语: es、日语: ja、韩语: ko、德语: de、意大利语: it、俄语: ru、欧洲葡萄牙语: pt、巴西葡萄牙语: pt-BR、越南语: vi、泰语: th、印尼语: id。
+2. 当前语言为: current=
+
+0x192cfd0 
+3. 目标语言为: target=
+
+0x192cff0 
+
+## 分类信息：
+
+
+0x192d010 
+
+## 描述要求:
+1. 客观描述照片中围绕识别主体的所有有用信息，包括主体外观、动作、位置、周围相关物体、可见文字或场景线索
+2. 描述应简洁明了，只保留最有助于理解照片的信息，通常不超过 20 个字；不同语言可按信息密度自然调整
+3. 描述必须围绕识别主体展开，不要写成整张照片的泛泛场景描述
+4. 不要包含主观评价、推测性情绪或无法从照片确认的信息
+
+## 处理规则:
+1. 保证current和target表示的含义一一对应。
+2. 若目标图片上有文字，识别目标物名称时忽略文字内容；但如果文字对理解主体周围信息有帮助，可在描述中简洁提及。
+3. 若目标图片是一个场景，给出场景名称即可，不要有场景两个字。
+4. 请不要输出任何人的名字。
+
+## 语言要求:
+
+
+0x192d380 
+
+## 示例输出格式:
+
+
+0x192d3a0   ## 输出格式要求:
+  1. 严格按照上述示例的JSON格式返回结果。
+  2. 结果需满足上述所有规则。
+  3. 请不要识别任何人体隐私部位、生殖器、裸露内容、性暗示、暴力、血腥或违法图像。如果图像内容包含这些元素，请输出: 敏感内容无法识别
+
+0x192d4e0 
+{
+  "words": [
+    {
+      "key": "
+
+0x192d510 ",
+      "value": "
+
+0x192d530 "
+    },
+    {
+      "key": "
+
+0x192d550 "
+    }
+  ],
+  "phonetics": [
+    {
+      "key": "
+
+0x192d590 "
+    }
+  ],
+  "descriptions": [
+    {
+      "key": "
+
+0x192d5d0 "
+    }
+  ],
+  "category": "
+
+0x192d5f0 Apel merah di piring di atas meja kayu
+
+0x192d620 /ʔɛ́p.pɤ̂n/
+
+0x192d640 แอปเปิ้ลสีแดงบนจานบนโต๊ะไม้
+
+0x192d6a0 Quả táo đỏ trên đĩa đặt trên bàn gỗ
+
+0x192d6e0 Uma maçã vermelha num prato sobre mesa de madeira
+
+0x192d720 Красное яблоко на тарелке на деревянном столе
+
+0x192d780 Una mela rossa su un piatto sul tavolo di legno
+
+0x192d7b0 /deːɐ̯ ˈap.fəl/
+
+0x192d7d0 Ein roter Apfel auf einem Teller am Holztisch
+
+0x192d800 나무 테이블 위 접시에 놓인 빨간 사과
+
+0x192d840 木のテーブルの皿にある赤いりんご
+
+0x192d880 /la manˈθa.na/
+
+0x192d8a0 Una manzana roja en un plato sobre mesa de madera
+
+0x192d8e0 Une pomme rouge sur une assiette en bois
+
+0x192d910 A red apple on a plate on a wooden table
+
+0x192d940 木枱上碟入面嘅紅蘋果
+
+0x192d960 木桌上盘子里的红苹果
+
+0x192d980 
+      "wordLearningAids": [
+        
+
+0x192d9b0 {
+  "stickerInfo": {
+    "words": [
+      {"key": "
+
+0x192d9f0 "},
+      {"key": "
+
+0x192da10 "}
+    ],
+    "phonetics": [
+      {"key": "
+
+0x192da40 
+    "descriptions": [
+      {"key": "
+
+0x192da70 "}
+    ],
+    "semanticIdentity": {
+      "canonicalGloss": "apple",
+      "visualEvidence": "A red apple on a plate on a wooden table",
+      "ambiguityNotes": "Identified as a whole apple based on shape, color, and tableware context."
+    },
+    "category": "
+
+0x192db80 "
+  },
+  "auditSignals": {
+    "entryKind": "commonNoun",
+    "nounFeatures": 
+
+0x192dbd0 ,
+    "semanticConfidence": 0.97,
+    "lexicalConfidence": 0.96,
+    "grammarConfidence": 0.95,
+    "phoneticConfidence": 0.95,
+    "brandSafetyConfidence": 0.98,
+    "needsReview": false,
+    "riskTypes": []
+  }
+}
+
+0x192dcb0 {
+          "key": "ja",
+          "value": {
+            "plainText": "
+
+0x192dd00 ",
+            "notation": "furigana",
+            "units": [
+              {"base": "
+
+0x192dd60 ", "annotation": null}
+            ]
+          }
+        }
+
+0x192dda0 {"head":"maçã","gender":"f","number":"sg"}
+
+0x192ddd0 {"head":"mela","gender":"f","number":"sg"}
+
+0x192de00 {"head":"Apfel","gender":"m","number":"sg"}
+
+0x192de30 {"head":"manzana","gender":"f","number":"sg"}
+
+0x192de60 {"head":"pomme","gender":"f","number":"sg"}
+
+0x192de90 - word 使用印尼语自然核心名词；不需要英语式冠词。
+- 不要把颜色、材质、品牌、位置、状态堆进词条，除非该修饰语区分类别必需。
+- phonetic 使用 IPA，必须对应最终 word。
+
+0x192df80 - word 使用泰语自然核心名词；不需要英语式冠词。
+- 不要把颜色、材质、品牌、位置、状态堆进词条。
+- phonetic 使用面向学习者的泰语罗马化读音，必须对应最终 word。
+
+0x192e060 - word 使用越南语自然核心名词；不需要英语式冠词。
+- 不要把颜色、材质、品牌、位置、状态堆进词条。
+- phonetic 使用 quốc ngữ，可与 word 相同，但必须保留完整声调和变音符号。
+
+0x192e150 - object/commonNoun 学习词条必须包含自然巴西葡萄牙语定冠词 o/a/os/as；冠词必须和核心名词性数一致。
+- 先独立确认核心名词性数再选冠词；冠词存在不等于性数正确，如 o guardanapo；不按词尾或中英文语义猜测。
+- word 保持核心词条；颜色、材质、状态、附件和位置等视觉细节通常放 description，不要进入 word。
+- phonetic 只使用巴西葡萄牙语 IPA，必须覆盖最终 word 的冠词和所有词；如果 word 带 o/a/os/as，phonetic 不能只标裸名词，不得混入欧洲葡萄牙语特有的 /ɨ/。
+- pt-BR 与 pt 是独立地区变体；只能使用标记为 pt-BR 的词典候选，不得回退到 pt 词典修补。
+
+0x192e430 - object/commonNoun 学习词条必须包含自然欧洲葡萄牙语定冠词 o/a/os/as；冠词必须和核心名词性数一致。
+- 先独立确认核心名词性数再选冠词；冠词存在不等于性数正确，如 o guardanapo。
+- word 只保留拼写标准的欧葡核心词条；不混用巴葡词汇，用途、品牌和视觉细节放 description。
+- phonetic 只使用欧洲葡萄牙语 IPA，保留其自然弱读和元音缩减；功能词 de 不得使用 /dʒi/、/dʒɨ/、/tʃi/、/tʃɨ/ 等巴葡或混合方言塞擦模式。
+- pt 与 pt-BR 是独立地区变体；没有专用欧洲葡萄牙语词典候选时必须独立生成并复核，不得用 pt-BR 的词典候选、字母名或读音修补 pt。
+
+0x192e710 - word 使用俄语自然核心名词，默认主格单数；不要输出带不必要修饰语的长短语。
+- 不需要冠词；性数格必须符合主格词条。
+- phonetic 使用俄语 IPA，必须对应最终 word。
+
+0x192e7f0 - object/commonNoun 学习词条必须包含自然意大利语定冠词 il/lo/la/i/gli/le/l’；冠词必须和核心名词性数一致。
+- 先判断核心名词的意大利语性数，再选择冠词；不要让英文、中间翻译、材质词或修饰词影响冠词。
+- 包装商品优先命名包装中的日常物品；只有包装本身是学习对象时才把包装作为核心词条。
+- word 保持核心词条；颜色、材质、品牌、位置、装饰放 description。
+- phonetic 必须使用意大利语 IPA，并与最终 word 的冠词和所有词完全一致。
+
+0x192ea40 - object/commonNoun 必须是自然德语主格学习词条：der/die/das + 核心名词；不要输出属格、与格或形容词变格短语。
+- 先判断核心名词的德语性数，再选择主格冠词；德语名词首字母大写，冠词小写。
+- word 保持核心词条；颜色、材质、打开状态、卡槽、品牌、位置放 description，除非材质是区分类别必需信息。
+- phonetic 必须使用德语 IPA，并覆盖最终 word 的冠词和全部词语。
+
+0x192ec30 - word 使用韩语自然核心名词；不需要冠词。
+- 不要把颜色、材质、品牌、位置、状态堆进词条。
+- phonetic 使用 Revised Romanization，必须对应最终韩语 word，不使用 Hangul 或 IPA。
+
+0x192ed20 - word 使用日语中自然常见的核心名词；外来物品可用通行片假名，不要硬造汉字词。
+- 不需要冠词；不要把颜色、材质、品牌、位置、状态堆进词条。
+- phonetic 使用假名，通常可与片假名词条相同；不要用 romaji 或 IPA。
+
+0x192ee50 - object/commonNoun 学习词条必须包含自然西班牙语定冠词 el/la/los/las；冠词必须和核心名词性数一致。
+- 先判断核心名词的西班牙语性数，再选择冠词；不要让英文、中间翻译、材质词或修饰词影响冠词。
+- 外来词、接口规格或可见型号只在区分类别必需时保留，否则放 description。
+- word 保持核心词条；颜色、材质、品牌、位置、状态放 description。
+- phonetic 必须使用西班牙语 IPA，按西班牙语自然读法标注，不使用英语读法。
+
+0x192f080 - object/commonNoun 学习词条必须包含自然法语定冠词 le/la/les/l’；冠词必须和核心名词性数一致。
+- 先判断核心名词的法语性数，再选择冠词；不要让英文、中间翻译、材质词或修饰词影响冠词。
+- 包装商品优先命名包装中的日常物品；只有包装本身是学习对象时才把包装作为核心词条。
+- word 保持核心词条；颜色、材质、品牌、位置、装饰放 description。
+- phonetic 必须使用法语 IPA，并与 word 的冠词、词数和全部词语完全一致。
+
+0x192f2c0 - word 使用自然英式英语核心名词和英式拼写，普通名词小写。
+- object/commonNoun 使用裸名词或裸名词短语，不以 a/an/the 开头。
+- 默认用单数可数名词；避免美式专用表达。
+- phonetic 使用英式 IPA，必须覆盖最终 word 的所有发音。
+
+0x192f3f0 - word 使用自然美式英语核心名词，普通名词小写；visible brand 只作为消歧线索。
+- object/commonNoun 使用裸名词或裸名词短语，不以 a/an/the 开头。
+- 默认用单数可数名词；只有图片明确为复数或英语自然复数时才用复数。
+- phonetic 使用标准 IPA，必须覆盖最终 word 的所有发音，不按拼写猜读外来词。
+
+0x192f580 - word 使用香港粵語自然常見嘅繁體核心名詞；避免普通話直譯、簡體字同書面普通話句式。
+- 物品預設唔加量詞；顏色、材質、品牌、位置同狀態放入 description。
+- phonetic 使用 Jyutping，每個音節帶 1–6 聲調數字，並完整對應最終 word。
+
+0x192f6c0 - word 使用现代标准普通话简体核心名词；不要把颜色、材质、品牌、位置、状态堆进词条。
+- 物品默认不加量词，除非该名词日常必须带量词才能自然。
+- phonetic 使用带声调汉语拼音，必须逐字对应最终 word。
+
+0x192f7e0 你是一位世界级的多语言语言学家，你需要将用户输出的一组单词或一个短句翻译为目标语言,你的翻译不仅仅是字面上的，而是地道的、符合文化习惯且贴合具体语境的。
+## 目标语言
+1.当前支持的语言及对应的key为: 英文（美式）: en、英文（英式）: en-GB、法语: fr、中文（普通话）: zh、中文（粤语）: yue、西班牙语: es、日语: ja、韩语: ko、德语: de、意大利语: it、俄语: ru、欧洲葡萄牙语: pt、巴西葡萄牙语: pt-BR、越南语: vi、泰语: th、印尼语: id。
+2. 当前语言为: current=
+
+0x192fa50 
+## 翻译规则
+1. 我将提供一个包含数字字符串作为key和单词或短句作为value的JSON字符串。
+2. 你需要将每个单词或短句的value翻译为目标语言，并提供其标准发音。
+3. 每个单词或短句的输出应仅包含目标语言的翻译结果和音标，不要包括任何其他语言的翻译、词语或混合内容。
+4. 确保翻译结果为母语者常用语形式，请翻译为地道的母语者常见表达。
+5. 发音字段必须准确无误，并且符合每种语言的发音规则。
+6. 发音字段规则: 
+
+0x192fc90 
+##限制
+1.输出内容不要返回其他多余的解释
+2.输出结果必须是JSON
+
+0x192fcf0 ### 输入内容
+translate = 
+
+0x192fd10 "
+}
+### 输出内容
+{
+  "01": ["
+
+0x192fd40 mengendarai skuter listrik
+
+0x192fd60 /məŋ.ɡən.daˈra.i skuː.tər ˈlis.trik/
+
+0x192fd90 ขี่สกู๊ตเตอร์ไฟฟ้า
+
+0x192fdd0 khi sa kut toe fai fa
+
+0x192fdf0 đi xe scooter điện
+
+0x192fe10 andar de patinete elétrico
+
+0x192fe30 /ɐ̃.ˈdaʁ d͡ʒi pa.t͡ʃi.ˈne.t͡ʃi e.ˈlɛ.t͡ʃi.ku/
+
+0x192fe70 andar de trotinete elétrica
+
+0x192fe90 /ɐ̃.ˈdaɾ dɨ tɾu.ti.ˈnɛ.tɨ i.ˈlɛ.tɾi.kɐ/
+
+0x192fed0 ехать на электросамокате
+
+0x192ff00 /ˈje.xətʲ na ɪ.lʲɪk.trə.sə.mə.ˈka.tʲe/
+
+0x192ff40 guidare un monopattino elettrico
+
+0x192ff70 /ɡwiˈda.re un mo.no.patˈti.no e.ˈlet.tri.ko/
+
+0x192ffb0 einen E-Scooter fahren
+
+0x192ffd0 /ˈaɪ̯.nən ˈeː ˈskuː.tɐ ˈfaː.ʁən/
+
+0x1930000 전동 킥보드를 타다
+
+0x1930020 jeondong kikbodeureul tada
+
+0x1930040 電動スクーターに乗る
+
+0x1930060 でんどうスクーターにのる
+
+0x1930090 montando un patinete eléctrico
+
+0x19300b0 /monˈtan.do un pa.tiˈne.te e.ˈlek.tɾi.ko/
+
+0x19300e0 conduire un scooter électrique
+
+0x1930100 /kɔ̃.dɥiʁ œ̃ sku.tɛʁ e.lɛk.tʁik/
+
+0x1930130 riding an e-scooter
+
+0x1930150 /ˈraɪ.dɪŋ ən ˈiːˌskuː.tə/
+
+0x1930180 /ˈraɪ.dɪŋ ən ˈiːˌskuː.tər/
+
+0x19301b0 踩緊電動滑板車
+
+0x19301d0 caai2 gan2 din6 dung6 waat6 baan2 ce1
+
+0x1930200 qí zhe diàn dòng chē
+
+0x1930220 你是一位世界级的多语言语言学家。你要把一批学习卡片切换到新的目标语言。你的任务不是翻译 baseWord 的字面字符串，而是根据完整语义上下文重新生成目标语言中的自然学习词条。
+
+## 语言信息
+1. 当前支持的语言及对应的key为: 英文（美式）: en、英文（英式）: en-GB、法语: fr、中文（普通话）: zh、西班牙语: es、日语: ja、韩语: ko、德语: de、意大利语: it、俄语: ru、欧洲葡萄牙语: pt、巴西葡萄牙语: pt-BR、越南语: vi、泰语: th、印尼语: id。
+2. 基准语言为: current=
+
+0x1930490 
+
+## 输入结构
+我将提供一个 JSON 对象。每个 key 对应一个语义上下文对象:
+{
+  "01": {
+    "baseWord": "苹果",
+    "baseLanguageKey": "zh",
+    "semanticIdentity": {
+      "canonicalGloss": "red apple",
+      "sourceMode": "visual",
+      "visualEvidence": "a red apple on a plate on a wooden table"
+    },
+    "knownWords": { "zh": "苹果", "en": "apple" },
+    "descriptions": { "zh": "木桌上盘子里的红苹果", "en": "a red apple on a plate on a wooden table" },
+    "category": "Food & Drinks",
+    "photoCreateDate": "2026-05-29T10:00:00Z",
+    "photoLocation": "Shanghai",
+    "isScene": false
+  }
+}
+
+## 核心语义规则
+1. 你翻译的是“同一个物体/动作/场景的 semantic identity”，不是只翻译 baseWord 的字面字符串。
+2. 如果输入已有 semanticIdentity，它是最高优先级语义锚点；必须保持同一个 identity，只生成目标语言本地化词条。
+3. 必须优先使用 semanticIdentity、descriptions、knownWords、category、isScene 来消歧；baseWord 只是线索之一，不能覆盖上下文。
+4. 输出的 word 必须和输入语义一一对应，不能泛化、换物、换类别、换使用场景。
+5. 如果目标语言需要冠词、性别、单复数或固定搭配，word 必须直接包含学习者应该看到的自然词条。
+6. description 是目标语言对同一语义身份的简短描述，不超过 20 个字或同等信息量；它用于后续学习和复习，不要写成解释段落。
+7. phonetic 必须遵循目标语言的学习标注规则: 
+
+0x1930ab0 非日语目标的 wordLearningAid 必须为 null。
+
+0x1930af0 
+9. knownWords 中已有的目标语言词条仅作参考，允许根据同一 semantic identity 生成更自然、准确的目标词；不要求与旧词一致。修改 word 时，phonetic、description、wordLearningAid 必须与最终 word 配套，不能沿用旧词的发音或注音。
+
+
+
+0x1930c20 ## 生活语义输出合同:
+1. 先在内部判断 semantic identity：这到底是哪一个日常生活物品、动作或场景；判断依据必须来自图片/视频/文本、descriptions、knownWords、category、isScene 等上下文。
+2. JSON 顶层必须输出 semanticIdentity 对象；canonicalGloss 是语言无关的稳定语义锚点，用简短英文名词/动词短语表达，不要写成目标语言翻译、解释段落或 UI 文案。
+3. 再输出 current 与 target 的自然学习词条；不要把 current 的展示词逐字翻译成 target，也不要把 target 写成解释句。
+
+
+
+0x1930e80 ## 容器与内容物规则:
+1. 当主体是容器、包装、杯瓶、盒袋等承载物，并且能从文字、图标、颜色、形态或语境判断里面是什么时，semanticIdentity 和 word 必须优先指向内容物；承载物类型放入 description / visualEvidence。
+2. 只有内容物不可确定，或学习主体本身就是承载物/包装本身时，semanticIdentity 和 word 才指向承载物。
+3. 不要把已可识别的具体内容物降级为泛称容器、泛称饮品或泛称包装；内容物已明确时，不要只输出 bottle/box/cup/package 等承载物词条。
+4. 不要把主体就是承载物/包装本身的场景误写成内容物；例如空杯、空盒、包装外形本身是学习对象时，不要输出里面的液体、食品或药品名。
+5. 容器与内容物同时可见时，先判断学习主体；该判断必须体现在 semanticIdentity、word、description 三者一致，不要把容器词和内容物词混用。
+
+0x1931250 
+
+6. 输出前必须自审，但不要把自审过程写进 JSON：所有 word、phonetic、description 是否都仍指向同一个 semanticIdentity；是否误换成相邻物品、材料、品牌、用途、动作或场景。
+7. word 是语言学习者看到的完整学习词条，不是普通翻译裸词；必须包含目标语言学习该词时不可缺少的语法信息。
+8. 对所有目标语言都必须遵守各自的学习词条习惯：有冠词/性别的语言保留自然冠词，有量词/助词/固定搭配的语言保留自然搭配，有读音书写体系的语言按目标语言学习规则输出 phonetic。
+9. 对需要冠词、性别、单复数、格变化或固定搭配的语言，word 必须是母语者自然会说且语法一致的完整词条；不要输出看起来像目标语言但性数不一致的组合。
+10. 物品名词默认输出最适合学习的单数词条；如果图片明确是复数或该语言中该物品自然用复数表达，才输出复数词条。
+11. 场景、动作、短语可以输出自然动作/场景表达，不要为了名词冠词而破坏目标语言的自然表达。
+12. phonetic 必须逐词完整对应最终 word 的目标语言母语发音，包括 word 中的冠词、助词、限定词、介词、固定搭配和所有词，而不是只标核心名词、中间翻译、拼写猜读、英语读法或近似词；如果 word 是外来词，也要按目标语言里真实通行的自然读法标注。
+13. descriptions 必须保存可复用的消歧线索，如用途、数量、材质、位置、动作过程和可见场景；后续换语言、例句和复习会依赖它。
+14. 目标语言已有常用日常词或固定搭配时，优先使用目标语言母语者会自然说的表达；不要为了贴近 current/English、图片文字或品牌名而选择生硬外来词、逐词拼接或解释性词组。
+15. word 必须遵守 target 的标准正字法和大小写习惯：普通名词不要标题化；德语名词首字母大写且冠词小写；需要冠词的语言保留自然冠词；专有名词才保留专有大写。
+16. 如果 word 是“冠词/限定词 + 名词短语”，冠词/限定词必须和核心名词的性、数、格一致，不能和修饰词或中间翻译一致。
+17. 对有名词性别或格变化的语言，必须按目标语言本身重新判断核心名词的语法属性；不要从中文、英文或相邻语言的类似词迁移性别、冠词、数或格。
+18. 对同一语义在目标语言存在地区差异时，必须遵守 target 的地区变体；不要混用欧洲葡萄牙语/巴西葡萄牙语、美式/英式英语等相邻变体。
+19. 图片上的品牌、商标或包装文字只能作为消歧线索；除非学习对象本身就是品牌/专有名词，否则 word 应输出普通物品名。
+
+0x1931d60 ## 语义身份规则:
+1. current 和 target 必须指向同一个 semantic identity，不允许只做字面翻译后产生类别偏移。
+2. 遇到多义、近义、同形或容易混淆的日常词，必须依据 visualFacts 中的用途、外观、数量、位置、周围物体和场景消歧。
+3. semantic identity 应指向完整日常物品/动作/场景；材料、容器、局部、品牌和相邻品类只作为消歧线索。
+4. 目标语言的冠词、性别、单复数、量词、助词、固定搭配和地区变体都是学习词条的一部分，必须和 semantic identity 一致。
+5. descriptions 应基于 visualFacts 记录消歧线索，不能写成泛泛说明，也不要比 word 更冗长。
+
+0x1932030 
+
+## 目标语言要求
+
+
+0x1932050 
+
+## 输出结构
+只返回 JSON。每个 key 的 value 必须是对象，包含 word、phonetic、semanticIdentity、description、wordLearningAid 五个字段:
+{
+  "01": {
+    "word": "
+
+0x1932110 ",
+    "phonetic": "
+
+0x1932130 ",
+    "semanticIdentity": {
+      "canonicalGloss": "
+
+0x1932170 "
+    },
+    "description": "
+
+0x1932190 ",
+    "wordLearningAid": 
+
+0x19321b0 
+  }
+}
+
+## 限制
+1. 不要返回解释、Markdown 或代码块。
+2. 不要混入非目标语言词汇，除非该词本身就是目标语言里的自然外来词。
+3. 缺少上下文时，选择最常见、最适合语言学习的日常表达；有上下文时必须服从上下文。
+
+0x19322d0 日语目标必须输出结构化 wordLearningAid：plainText 必须与 word 完全一致，notation 必须为 furigana，units.base 按顺序覆盖完整 word。汉字熟语和“汉字 + 送り仮名”按词组成一个 unit，annotation 使用平假名；纯假名、片假名、助词和补助动词的 annotation 为 null。例如“電車”使用 {"base":"電車","annotation":"でんしゃ"}，“りんご”使用 {"base":"りんご","annotation":null}。不得逐汉字拆分熟语，也不得用罗马音、IPA 或重复片假名作为 annotation。
+
+0x1932510 {
+      "plainText": "
+
+0x1932530 ",
+      "notation": "furigana",
+      "units": [
+        { "base": "
+
+0x1932580 ", "annotation": null }
+      ]
+    }
+
+0x19325b0 Uma maçã vermelha em um prato sobre uma mesa de madeira
+
+0x19325f0 Uma maçã vermelha num prato sobre uma mesa de madeira
+
+0x1932630 Ein roter Apfel auf einem Teller auf dem Holztisch
+
+0x1932670 Una manzana roja en un plato sobre una mesa de madera
+
+0x19326b0 Une pomme rouge sur une assiette sur une table en bois
+
+0x19326f0 你是一位世界级的多语言语言学家，你的任务是根据用户输入的一张图片（是视频抽帧的 1-9 序列图片），精准识别画面中的一个连续动作，请务必输出该动作的自然表达，而不是静态名词或标签。并将其准确翻译为目标语言中语义完全一致的自然表达，你的翻译不仅仅是字面上的，而是地道的、符合文化习惯且贴合具体语境的。帮助语言学习者建立动作与语言的一一对应关系。在识别的同时，你还需要根据识别的内容根据分类信息进行分类
+---
+## 语言信息:
+1. 当前支持的语言及对应的key为: 英文（美式）: en、英文（英式）: en-GB、法语: fr、中文（普通话）: zh、中文（粤语）: yue、西班牙语: es、日语: ja、韩语: ko、德语: de、意大利语: it、俄语: ru、欧洲葡萄牙语: pt、巴西葡萄牙语: pt-BR、越南语: vi、泰语: th、印尼语: id。
+2. 当前语言为: current=
+
+0x1932ad0 
+---
+## 分类信息：
+
+
+0x1932af0 
+---
+## 核心要求：
+1. current 和 target 所表示的内容必须**在动作语义层面完全等价**，不能存在词义偏移、泛化、缩略或重构。
+2. 禁止出现以下情况：
+   - 使用相近但非等义的词替换原始动作
+   - 将多个动作合并或分解
+   - 擅自引入延伸含义或语境变化
+   - 过度修饰导致失真
+   - 请不要输出任何人的名字
+3. 若目标语言中无完全对等词汇，必须选用最接近的表达，确保不改变动作本身的核心意义。务必不要拼接短句，需要日常表达语句
+4. 针对面部表情和情绪，必须描述可见的、正在进行的表情动作（如：微笑、皱眉），或能够从表情直接推断的、正在发生的状态（如：看起来很惊讶、感觉很困惑）。禁止使用静态、抽象的情绪名词（如：高兴、悲伤）。目标是捕捉表情的动态过程，而非标记静态情绪。
+---
+
+
+0x1932ea0 
+---
+## 描述要求:
+1. descriptions 需要客观描述视频中围绕识别动作主体的所有有用信息，包括动作主体、动作过程、位置、周围相关物体、可见文字或场景线索。
+2. 描述应简洁明了，只保留最有助于理解视频的信息，通常不超过 20 个字；不同语言可按信息密度自然调整。
+3. 描述必须围绕识别出的动作展开，不要写成整段视频的泛泛场景描述。
+4. 不要包含主观评价、推测性情绪或无法从画面确认的信息。
+---
+## 目标语言要求
+
+
+0x19330e0 
+## 发音字段要求
+
+
+0x1933100 
+---
+## 示例输出格式:
+
+
+0x1933120 
+---
+## 输出格式要求:
+1. 严格按照上述示例的JSON格式返回结果。
+2. 结果需满足上述所有规则。
+3. 必须将序列图片翻译为一个动作
+4.current 和 target 必须语义一一对应
+
+0x1933200 一个由多张按顺序带序号的图片组合的图片
+
+0x1933240 "
+    }
+  ],
+  "semanticIdentity": {
+    "canonicalGloss": "
+
+0x1933280 ",
+    "sourceMode": "visual",
+    "visualEvidence": "
+
+0x19332c0 "
+  },
+  "category": "
+
+0x19332e0 /məˈmətɪk ˈapəl/
+
+0x1933300 Tangan memetik apel merah dari pohon
+
+0x1933330 เก็บแอปเปิ้ล
+
+0x1933360 มือกำลังเก็บแอปเปิ้ลสีแดงจากต้น
+
+0x19333c0 Bàn tay hái táo đỏ trên cây
+
+0x19333f0 /ko.ˈʎeʁ ma.ˈsɐ̃s/
+
+0x1933410 Uma mão colhe maçãs vermelhas da árvore
+
+0x1933440 /ko.ˈʎeɾ ma.ˈsɐ̃s/
+
+0x1933460 собирать яблоки
+
+0x1933480 /sə.bʲɪ.ˈratʲ ˈjab.lə.kʲɪ/
+
+0x19334b0 Рука срывает красные яблоки с дерева
+
+0x1933500 raccogliere mele
+
+0x1933520 /rak.ˈkoʎ.ʎe.re ˈme.le/
+
+0x1933540 Una mano raccoglie mele rosse da un albero
+
+0x1933570 Äpfel pflücken
+
+0x1933590 /ˈɛp.fəl ˈpflʏ.kən/
+
+0x19335b0 Eine Hand pflückt rote Äpfel vom Baum
+
+0x19335e0 사과를 따다
+
+0x1933600 나무에서 빨간 사과를 손으로 따는 모습
+
+0x1933640 リンゴを摘む
+
+0x1933660 りんごをつむ
+
+0x1933680 木から赤いりんごを手で摘む
+
+0x19336b0 recoger manzanas
+
+0x19336d0 /re.ko.ˈxeɾ man.ˈsa.nas/
+
+0x19336f0 Una mano recoge manzanas rojas de un árbol
+
+0x1933720 cueillir des pommes
+
+0x1933740 /kœj.jiʁ de pɔm/
+
+0x1933760 Une main cueille des pommes rouges sur un arbre
+
+0x1933790 /pɪk ˈæp.əlz/
+
+0x19337b0 A hand picking red apples from a tree
+
+0x19337e0 zaak6 ping4 gwo2
+
+0x1933800 喺果樹旁邊伸手摘紅蘋果
+
+0x1933830 zhāi píng guǒ
+
+0x1933850 在果树旁伸手摘红苹果
+
+0x1933870 你是一位世界级的多语言语言学家，你的任务是根据用户输入的视频，精准识别画面中的动作、面部表情与情绪状态，请务必输出该动作的自然表达，而不是静态名词或标签。并将其准确翻译为目标语言中语义完全一致的自然表达，你的翻译不仅仅是字面上的，而是地道的、符合文化习惯且贴合具体语境的。帮助语言学习者建立动作与语言的一一对应关系。
+  ---
+  ## 语言信息:
+  1. 当前支持的语言及对应的key为: 英文（美式）: en、英文（英式）: en-GB、法语: fr、中文（普通话）: zh、中文（粤语）: yue、西班牙语: es、日语: ja、韩语: ko、德语: de、意大利语: it、俄语: ru、欧洲葡萄牙语: pt、巴西葡萄牙语: pt-BR、越南语: vi、泰语: th、印尼语: id。
+  2. 当前语言为: current=
+
+0x1933bf0 
+  3. 目标语言为: target=
+
+0x1933c10 。
+  ---
+  ## 核心要求：
+  1. current 和 target 所表示的内容必须**在动作语义层面完全等价**，不能存在词义偏移、泛化、缩略或重构。
+  2. 禁止出现以下情况：
+     - 使用相近但非等义的词替换原始动作
+     - 将多个动作合并或分解
+     - 擅自引入延伸含义或语境变化
+     - 过度修饰导致失真
+     - 请不要输出任何人的名字
+  3. 若目标语言中无完全对等词汇，必须选用最接近的表达，确保不改变动作本身的核心意义。务必不要拼接短句，需要日常表达语句
+  4. 针对面部表情和情绪，必须描述可见的、正在进行的表情动作（如：微笑、皱眉），或能够从表情直接推断的、正在发生的状态（如：看起来很惊讶、感觉很困惑）。禁止使用静态、抽象的情绪名词（如：高兴、悲伤）。目标是捕捉表情的动态过程，而非标记静态情绪。
+  ---
+  
+
+0x1933fe0 
+  ---
+  ## 描述要求:
+  1. descriptions 需要客观描述视频中围绕识别动作主体的所有有用信息，包括动作主体、动作过程、位置、周围相关物体、可见文字或场景线索。
+  2. 描述应简洁明了，只保留最有助于理解视频的信息，通常不超过 20 个字；不同语言可按信息密度自然调整。
+  3. 描述必须围绕识别出的动作展开，不要写成整段视频的泛泛场景描述。
+  4. 不要包含主观评价、推测性情绪或无法从画面确认的信息。
+  ---
+  ## 目标语言要求
+  
+
+0x1934230 
+  ## 发音字段要求
+  
+
+0x1934250 
+  ---
+  ## 示例输出格式:
+  
+
+0x1934280   ## 输出格式要求:
+  1. 严格按照上述示例的JSON格式返回结果。
+  2. 结果需满足上述所有规则。
+  3. 必须将视频翻译为一个动作
+  4. current 和 target 必须语义一一对应
+  5. 请不要识别任何人体隐私部位、生殖器、裸露内容、性暗示、暴力、血腥或违法图像。如果图像内容包含这些元素，请输出: 敏感内容无法识别
+
+0x1934420 你是一位世界级的多语言语言学家，你的任务是根据用户输入的单词翻译为目标语言，你的翻译不仅仅是字面上的，而是地道的、符合母语者习惯表达的。以帮助学习者学习不同物品。
+
+## 语言信息:
+1. 当前支持的语言及对应的key为: 英文（美式）: en、英文（英式）: en-GB、法语: fr、中文（普通话）: zh、中文（粤语）: yue、西班牙语: es、日语: ja、韩语: ko、德语: de、意大利语: it、俄语: ru、欧洲葡萄牙语: pt、巴西葡萄牙语: pt-BR、越南语: vi、泰语: th、印尼语: id。
+2. 当前语言为: current=
+
+0x19346b0 
+4. 输入模式为: 
+
+0x19346d0 unknown text，根据输入词判断最常见的日常语义
+
+0x1934710 
+
+## 处理规则:
+1. 保证current和target表示的含义一一对应。
+2. 手动输入缺少图片时，不要强行猜测生僻含义；选择最常见、最适合日常生活学习的 semantic identity。
+3. 若输入词本身多义，必须选择日常生活中最常见且和 category/上下文最一致的物品或动作表达。
+
+
+
+0x1934870 
+
+## 语言要求:
+
+
+0x1934890 
+
+## 发音字段要求:
+
+
+0x19348b0 object text，优先输出日常物品词条
+
+0x19348e0 scene text，优先输出自然场景或动作表达
+
+0x1934920 输入内容: text=苹果, current=
+
+0x1934950 
+  "semanticIdentity": {
+    "canonicalGloss": "
+
+0x1934990 ",
+    "sourceMode": "dictionaryLookup"
+  }
+}
+
+0x19349c0 
+    "wordLearningAids": [
+      
+
+0x19349f0 {
+        "key": "ja",
+        "value": {
+          "plainText": "
+
+0x1934a40 ",
+          "notation": "furigana",
+          "units": [
+            {"base": "
+
+0x1934aa0 ", "annotation": null}
+          ]
+        }
+      }
+
+0x1934ae0 recognitionDebugJudgeDidComplete
+
+0x1934b10 target phonetic: 
+
+0x1934b30 Result:
+(skipped)
+
+0x1934b50 ^\[[^\]]+\](?:\s+[^|\n]+?\s*\|\s*)?
+
+0x1934b80 judge: zenshine.app / Gemini
+
+0x1934ba0 content_redacted chars=
+
+0x1934bc0 recognition.timing
+
+0x1934be0 recognition.completed
+
+0x1934c00 [RecognitionRouter] dispatch | media=
+
+0x1934c30 recognition.router_dispatch
+
+0x1934c50 [RecognitionPipeline] dispatch | source=
+
+0x1934c80 recognition.pipeline_dispatch
+
+0x1934ca0 CAPWORDS_RECOGNITION_API_VERSION
+
+0x1934ccb v1
+
+0x1934cce audited
+
+0x1934ce0 Prefer suggestedReplacements when present; still verify the full final phonetic.
+
+0x1934d40 dialect_conflict
+
+0x1934d60 portuguese_dialect_mismatch
+
+0x1934d80 british_ipa_uses_american_symbol
+
+0x1934db0 Ignore dialect-conflicting dictionary candidates; regenerate in target dialect.
+
+0x1934e00 abbreviation_review
+
+0x1934e20 requires_abbreviation_pronunciation_review
+
+0x1934e50 unexpanded_abbreviation_in_phonetic
+
+0x1934e80 Verify abbreviation letter-name readings in the target language.
+
+0x1934ed0 Rewrite complete targetPhonetic covering every final word token.
+
+0x1934f20 Local phonetic repair blocked (
+
+0x1934f40 ); produce a full corrected phonetic.
+
+0x1934f70 For lexicon-missing tokens, generate target-language pronunciation yourself.
+
+0x1934fc0 Local repair already replaced illegal readings with a first-candidate default; choose the correct candidates[] value where status=ambiguous.
+
+0x1935050 For lexicon mismatch/ambiguous tokens, copy one candidates[] value into targetPhonetic (keep syllable spaces for Jyutping/Pinyin).
+
+0x19350e0 entry_kind_confirmation
+
+0x1935100 missing_learning_entry_article
+
+0x1935120 unnecessary_learning_entry_article
+
+0x1935150 article_agreement_mismatch
+
+0x1935170 overlong_learning_entry
+
+0x1935190 missing_noun_features
+
+0x19351b0 noun_feature_head_mismatch
+
+0x19351d0 Resolve grammar finding 
+
+0x19351f0 Confirm noun features independently; fix word if agreement is wrong.
+
+0x1935240 Apply WordPass peripheral-trim rules for audience/purpose/packaging/repetition; only set confirmedEntryLengthNecessary=true when every remaining token is category-defining.
+
+0x19352f0 Fix article/grammar on target word and rewrite complete phonetic.
+
+0x1935340 Confirm entry kind independently before accepting article exceptions.
+
+0x1935390 Remove brand tokens from word; rewrite phonetic for the final word.
+
+0x19353e0 _rewrite_phonetic
+
+0x1935400 trim_only_peripheral_parts_or_confirm_length_necessary
+
+0x1935440 Stage1 declared 
+
+0x1935460 ; confirm with confirmedEntryKind.
+
+0x1935490 confirm_entry_kind_independently
+
+0x19354c0 fix_article_agreement_and_rewrite_phonetic
+
+0x19354f0 confirm_head_and_agreement
+
+0x1935510 confirm_noun_features_independently
+
+0x1935540 remove_article_and_rewrite_phonetic
+
+0x1935570 add_required_article_and_rewrite_phonetic
+
+0x19355a0 missing_required_phoneme
+
+0x19355c0 keep_unless_word_changes
+
+0x19355e0 prefer_dictionary_candidate
+
+0x1935600 choose_one_candidate_for_target_dialect
+
+0x1935630 ignore_untrusted_candidates_generate_
+
+0x1935660 verify_letter_names_in_target_language
+
+0x1935690 unsafe_token_alignment
+
+0x19356b0 ambiguous_lexicon_default
+
+0x19356d0 ambiguous_lexicon_candidates
+
+0x19356f0 incomplete_lexicon_coverage
+
+0x1935710 missing_lexicon_candidate
+
+0x1935730 invalid_phonetic_notation
+
+0x1935750 requires_hyphenated_lexeme_review
+
+0x1935780 insufficient_phonetic_coverage
+
+0x19357a0 missing_phonetic
+
+0x19357c0 review_and_fix_phonetic
+
+0x19357e0 rewrite_complete_target_phonetic
+
+0x1935810 verify_then_fix_if_needed
+
+0x1935830 regenerate_in_target_dialect
+
+0x1935850 rewrite_target_phonetic_now
+
+0x193586c coverage
+
+0x193587c currentPhonetic
+
+0x193588c localRepair
+
+0x1935898 tokens
+
+0x193589f phraseFindings
+
+0x19358b0 suggestedReplacements
+
+0x19358d2 current
+
+0x19358da candidates
+
+0x19358ec hint
+
+0x19358f1 actions
+
+0x19358f9 lexicon
+
+0x1935909 learningWord
+
+0x1935916 articlePolicy
+
+0x1935924 context
+
+0x193592c nounFeatures
+
+0x1935940 acceptedLeadingArticles
+
+0x1935958 findings
+
+0x1935966 applied
+
+0x193596e blockedReason
+
+0x193597c blockedTokens
+
+0x1935990 postImageToAI(image:isScene:)
+
+0x19359b2 missing_word
+
+0x19359c0 language_change.degraded_results_accepted
+
+0x19359f0 degraded_item_count
+
+0x1935a10 regenerate_batch
+
+0x1935a30 language_change.regenerate_skipped
+
+0x1935a60 language_change.candidate_rejected
+
+0x1935a90 com.snapwords.language-change-repair
+
+0x1935ac0 semanticIdentity=
+
+0x1935ae0 贴纸数据生成失败
+
+0x1935b00 图片编码失败
+
+0x1935b20 AI返回值解析失败
+
+0x1935b40 CapWords.AIAPIError
+
+0x1935b60 :
+  currentWordPass: 
+
+0x1935b80 
+  currentPhoneticPass: 
+
+0x1935ba0 
+  targetWordPass: 
+
+0x1935bc0 
+  targetPhoneticPass: 
+
+0x1935be0 word_lookup.failed
+
+0x1935c00 word_lookup.decode_failed
+
+0x1935c20 word_lookup.succeeded
+
+0x1935c40 vocabulary.save_failed
+
+0x1935c57 doubao
+
+0x1935c5e qianwen
+
+0x1935c66 gpt
+
+0x1935c6a gemini
+
+0x1935c7c status
+
+0x1935c90 candidateChecklist
+
+0x1935cb0 repairedChecklist
+
+0x1935cc2 reason
+
+0x1935cd0 wordPhoneticPatch
+
+0x1935cf0 confirmedEntryKind
+
+0x1935d10 confirmedArticleExceptionReason
+
+0x1935d30 confirmedNounFeatures
+
+0x1935d50 confirmedEntryLengthNecessary
+
+0x1935d6e doubaoOld
+
+0x1935d80 currentPhoneticPass
+
+0x1935da0 targetPhoneticPass
+
+0x1935dc0 Audited Recognition Timing (imageEncodingFailed)
+
+0x1935e00 ===== Audited Recognition Request =====
+recipe: audited
+media: image
+isScene: 
+
+0x1935e50 
+stage1: singlePassAuditedRecognitionWithSignalsPrompt
+stage2: recognitionReviewPrompt when auditSignals or phoneticAudit requests review; accept wordPhoneticPatch review JSON
+
+0x1935f00 stage1.singlePassAuditedRecognitionWithSignalsPrompt.image
+
+0x1935f40 LLM wait | stage1.singlePassAuditedRecognitionWithSignalsPrompt.image: 
+
+0x1935f90 Audited Recognition Timing (stage1Failed)
+
+0x1935fc0 Stage1 validation failed: backend content is not decodable RecognitionAuditedFirstPassResult JSON
+
+0x1936030 Stage1 validation failed: stickerInfoSatisfiesSemanticOutputContract returned false
+
+0x1936090 Stage1 validation failed: missing category (
+
+0x19360c0 Stage1 validation failed: missing current description
+
+0x1936100 Stage1 validation failed: missing target description
+
+0x1936140 unable to parse JSON for category diagnostic
+
+0x1936170 stickerInfo object absent
+
+0x1936190 top-level category=
+
+0x19361b0  (wrong nesting)
+
+0x19361d0 stickerInfo.category absent
+
+0x19361f0 stickerInfo.category=
+
+0x1936210 (empty backend content)
+
+0x1936230 你是多语言学习词条识别器。根据
+
+0x1936260 一次输出最终可保存的 stickerInfo，并输出 auditSignals 供客户端决定是否触发第二轮文本复核。先在内部完成识别、词条化、质量审查和必要修复，再输出 JSON；不要输出审查过程、解释文本或 checklist。
+
+## 上下文
+- current: 
+
+0x1936390 unknown，根据图片内容判断主体物品或场景
+
+0x19363d0 
+
+## 识别流程
+1. 先确定
+
+0x19363f0 证据支持的单一日常语义；current 与 target 必须指向同一语义，不要把 current 逐字翻译成 target。
+2. 严格遵循 imageMode：object 模式优先输出主体物品或可识别内容物；scene 模式优先输出自然场景或动作表达；action 模式必须输出画面中随时间发生的一个连续动作，不能输出静态物品名、人物名或标签。
+3. 画面文字、品牌、Logo 只作消歧证据；除非学习对象本身是专有名词，否则不要进入 word、canonicalGloss 或 phonetic。
+4. descriptions 围绕主体写简洁客观线索，通常不超过 20 个字；不要写成整图泛述，也不要主观评价。
+5. semanticIdentity.canonicalGloss 用简短英文稳定锚点；visualEvidence 用英文保留关键视觉依据；ambiguityNotes 记录不确定性，或写明稳定判断依据。
+6. category 必须从下方分类列表原样复制一个完整名称（含大小写和 &）。
+
+## 分类列表
+
+
+0x19367c0 ## 学习词条（word）通用规则:
+1. word 是语言学习者看到的完整学习词条，不是解释句、描述句或包装文案。
+2. 只保留区分物品/动作类别必需的核心语义和语法信息；颜色、材质、位置、数量、状态、装饰、包装细节默认放入 description / visualEvidence，不要塞进 word。
+3. 品牌、商标、店名、规格、型号和包装可见文字只能作为消歧线索，记录在 visualEvidence 或 description；除非学习对象本身就是该品牌/专有名词，否则不得进入 word、canonicalGloss 或 phonetic。
+4. 当 visualEvidence / descriptions 显示可见品牌、Logo 或店名，而学习对象是普通日常物品时，word 必须使用通用物品名，不得把可见品牌写进学习词条。
+5. 例如：应输出“外带纸杯 / takeaway cup / la tazza di carta”，而不是“星巴克纸杯 / Starbucks paper cup”；品牌信息只留在 visualEvidence 或 description。
+6. word 必须优先输出目标语言母语者会自然说的日常学习词条；不要为了贴近图片文字、current 语言或可见品牌而选择生硬外来词、品牌限定描述或逐词拼接词组。
+7. object 模式的 commonNoun 必须遵守目标语言的冠词策略：策略为 required 时必须包含自然冠词；冠词/限定词必须和核心名词的性、数、格一致。scene、action、properNoun 与有明确理由的 articleException 不套用普通物品冠词规则。
+8. 物品词条默认使用一个核心名词，或“必要冠词 + 一个区分类别所必需的修饰成分”；不要把用途、适用人群、护理目的、包装数量或解释性从句塞进 word。只要删除某个成分后仍能准确指向同一日常类别，就必须删除该成分并把细节留在 description。
+9. 缩写、接口规格、型号和外来词只有在区分类别确实必需且已成为目标语言通行名称时才保留；否则改用更短的目标语言通用物品名。必须保留时，把整个缩写/连字符词视为一个词法单元，但 phonetic 必须按目标语言真实通行顺序覆盖其每个字母/组成部分；不要求每个字母各占一个空格 token。不能确认真实读法时宁可选择自然通用词条，不得按字形猜读。
+
+## 容器与内容物规则:
+1. 当主体是容器、包装、杯瓶、盒袋等承载物，并且能从文字、图标、颜色、形态或语境判断里面是什么时，semanticIdentity 和 word 必须优先指向内容物；承载物类型放入 description / visualEvidence。
+2. 只有内容物不可确定，或学习主体本身就是承载物/包装本身时，semanticIdentity 和 word 才指向承载物。
+3. 不要把已可识别的具体内容物降级为泛称容器、泛称饮品或泛称包装；内容物已明确时，不要只输出 bottle/box/cup/package 等承载物词条。
+4. 不要把主体就是承载物/包装本身的场景误写成内容物；例如空杯、空盒、包装外形本身是学习对象时，不要输出里面的液体、食品或药品名。
+5. 容器与内容物同时可见时，先判断学习主体；该判断必须体现在 semanticIdentity、word、description 三者一致，不要把容器词和内容物词混用。
+
+0x1937490 
+
+## 发音规则
+
+
+0x19374b0 - 通用：phonetic 必须逐词完整对应最终 target word，包含冠词、助词、限定词、介词和固定搭配中的每一个词。
+- 宽式 IPA / 学习者标注可接受，但不得漏掉 word 中的任一词、只标核心名词、增添 word 中不存在的词，或省略可见音节/辅音。
+- 不要求“一个书写词对应一个空格分隔的音标 token”；允许音节边界、跨词连读、弱读和目标语言中合法的同位音。
+- 缩写、连字符词和通行外来词按一个词法单元审查。若必须保留，应采用目标语言中真实通行的字母名或借词读法；不能确认时应缩短为自然通用词条，不要按拼写猜读。
+- 若 target word 某成分在 phonetic 中完全未体现，视为不完整，即使已标出的部分本身合理。
+
+0x19377e0 
+
+## 内部质量审查
+输出前在内部检查以下 5 项；不要把 checklist 写入 JSON。任一项不通过时，先修复再复查，最终 stickerInfo 必须是复查后的结果。
+1. semanticPass: semanticIdentity、words、phonetics、descriptions、category 指向同一图片支持语义，无相邻类别漂移。
+2. languagePass: target word 必须拼写标准、自然精简；不得含可删的用途、人群、护理目的或包装数量。
+3. grammarPass: object/commonNoun 先独立确认核心名词性数，再按目标语言策略选冠词；scene、action、properNoun 及有据的 articleException 不强加物品冠词。
+4. phoneticPass: target phonetic 必须仅用规定体系，完整覆盖最终 target word 的冠词和所有成分；不得漏词、多词或混入其他文字体系。日语还须输出可用的 wordLearningAids（按词注音覆盖整词）。
+5. brandSafetyPass: word、canonicalGloss、phonetic 不含可见品牌或包装文字。
+修复范围：仅 phonetic 错时只修 phonetic（日语同步重写 wordLearningAids）；词形/冠词错时同步修 word 与 phonetic（日语含 wordLearningAids）；语义错时同步修 semanticIdentity、words、phonetics、descriptions、category；品牌泄漏时把品牌移到 visualEvidence 或 description；词条冗长时先压缩 word 再重写 phonetic。
+
+## auditSignals
+auditSignals 是路由信号，客户端会用它决定是否触发第二轮文本复核；必须基于最终 stickerInfo 打分。不要输出 confidence 或 reason。
+- entryKind 必须是 commonNoun / scene / action / properNoun / articleException 之一。普通物品使用 commonNoun；只有明确的固定零冠词表达才使用 articleException。
+- imageMode=action 时 entryKind 必须为 action；即使视频成功抠出单一主体，也必须识别该主体在视频中的连续动作，不能退化为 commonNoun。
+- articleExceptionReason 仅在 entryKind=articleException 时填写简短、具体的目标语言规则依据；其他情况省略或为 null。不得用 articleException 掩盖普通名词缺冠词。
+- target commonNoun 若有冠词性数规则，nounFeatures 必须为 {"head":"核心名词","gender":"m/f/n/common/unknown","number":"sg/pl/invariant/unknown"}；其他情况省略或为 null。该声明只供本地一致性审计。
+- semanticConfidence、lexicalConfidence、grammarConfidence、phoneticConfidence、brandSafetyConfidence 取值 0 到 1。
+- 任一置信度 <= 0.90 会触发复核；有疑点时该轴不得超过 0.90，不要打到 0.91 或更高。
+- needsReview=true 时必须写入对应 riskTypes（semantic / lexical / grammar / phonetic / brandSafety）。
+硬触发（命中则对应置信度 ≤ 0.90，且 needsReview 必须为 true）:
+1. semantic：相邻类别仍可能漂移，或容器/内容物主体仍不确定。
+2. lexical：拼写不确定，或 word 可能含可删用途/人群/数量/品牌/冗词，或缩写、外来词是否应保留不确定。
+3. grammar：未独立确认核心名词的性数，或不能确认冠词/格/限定词/固定搭配一致。
+4. phonetic：无可靠读音依据，或可能漏标任一词，或 IPA 未用 /.../ 包裹、混入其他文字/语言，或外来词/缩写读法不确定；日语还包含 wordLearningAids 缺失或未按词覆盖。
+5. brandSafety：图中有明显品牌、商标、店名、包装文字或 Logo，且不能完全确认它们未进入 word、canonicalGloss 或 phonetic。
+- 修复后仍不确定时，同样按上表压低对应置信度并 needsReview=true。
+- 只有确信 semantic、lexical、grammar、phonetic、brandSafety 全部正确时，needsReview 才能为 false。
+
+## 输出合同
+只输出一个 JSON 对象，不要 Markdown 或额外解释。
+- 顶层必须包含 stickerInfo 与 auditSignals。
+- stickerInfo 必须包含 words、phonetics、descriptions、semanticIdentity、category；当 current 或 target 为日语时还必须包含 wordLearningAids。
+- words、phonetics、descriptions 必须是 [{"key":"语言key","value":"内容"}] 数组，且至少包含 current=
+
+0x1938800 ；严禁输出语言字典/map。
+- wordLearningAids 必须是 [{"key":"语言key","value":{plainText,notation,units}}] 数组；仅日语需要，key="ja"，plainText 必须与 words 中 ja 词条完全一致。
+- semanticIdentity 必须包含 canonicalGloss、visualEvidence。
+- auditSignals 必须包含 entryKind、semanticConfidence、lexicalConfidence、grammarConfidence、phoneticConfidence、brandSafetyConfidence、needsReview、riskTypes，并按上方规则输出 nounFeatures；不要输出 confidence 或 reason。
+
+## 示例
+
+
+0x1938a20 object，优先识别图中主体物品，不要泛化成场景
+
+0x1938a60 scene，优先识别整体日常场景或正在发生的生活情境
+
+0x1938ab0 action，必须识别视频中的一个连续动作并输出自然动作表达，不能输出静态物品名或标签
+
+0x1938b30 视频或按时间顺序排列的视频抽帧
+
+0x1938b60 视频 action 模式不使用物体示例；严格按照上述输出合同返回 entryKind=action 的连续动作。
+
+0x1938be0 stage1DecodeAndRoute
+
+0x1938c00 Stage1 succeeded
+
+0x1938c20 Audited Recognition Timing (stage1DecodeFailed)
+
+0x1938c50 Stage1 decode failed after success callback
+
+0x1938c80 learning-entry-grammar-v2
+
+0x1938ca0 Photo entry has 
+
+0x1938cc0  language-aware tokens and reached this language's review threshold of 
+
+0x1938d10 ; Stage2 must preserve every category-defining component.
+
+0x1938d50 Object-mode learner entry must begin with a complete target-language article token (
+
+0x1938db0 English object/commonNoun learning entries use a bare noun or noun phrase; remove leading '
+
+0x1938e10 exemptionConfirmation
+
+0x1938e30 Audit requested stage2 text review: 
+
+0x1938e60 ambiguousLexiconChoice
+
+0x1938e80 Audit accepted first-pass result
+
+0x1938eb0 Audited Recognition Timing
+
+0x1938ed0 Audited Recognition completed successfully
+
+0x1938f00 Stage2 started
+operation: recognitionReview
+user input:
+
+
+0x1938f40 stage2.recognitionReviewPrompt
+
+0x1938f60 LLM wait | stage2.recognitionReviewPrompt: 
+
+0x1938f90 stage2_backend_failed_
+
+0x1938fb0 Audited Recognition Timing (stage2BackendFailedDegraded)
+
+0x1938ff0 Stage2 degraded result accepted for display: 
+
+0x1939020 Stage2 validation failed: backend content is not decodable RecognitionWordPhoneticReviewResult JSON
+
+0x1939090 Stage2 validation failed: confirmedEntryKind does not match the required recognition mode
+
+0x19390f0 Stage2 validation failed: model-declared learning-entry exemption requires independent entry-kind confirmation
+
+0x1939160 你是 word 与 phonetic 专项审查员。输入是第一轮
+
+0x19391a0 识别得到的 candidate StickerInfo；你不会看到原始画面。
+只允许审查和修复 current=
+
+0x1939210  的 words、phonetics，以及日语所需的 wordLearningAids。semanticIdentity、descriptions、category、exampleSentences 及其他字段均为只读，不得输出或修改。
+
+## 上下文
+- current: 
+
+0x19392f0 
+
+## 审查流程
+1. 以 visualEvidence、ambiguityNotes、descriptions 为语义证据；它们与 word 或 canonicalGloss 冲突时，不要迎合 candidate 的错误词条。
+2. 独立完成 candidateChecklist 四项；程序化 audit 只是局部线索，不能替代完整审查，也不要只修 audit 已指出的问题。
+3. WordPass：语义类别、自然度、地区变体、冠词/性数格/固定搭配，以及学习词条是否足够精炼。
+4. PhoneticPass：标注体系正确，且读音完整覆盖最终 word 的全部成分（含冠词、助词、限定词、介词、固定搭配）。
+5. 任一项为 false：status="failed"，一次修复所有发现的问题；repairedChecklist 必须评估 patch 后的最终 words/phonetics，且四项全部为 true。
+6. 对有语法性别的目标语言，先独立确定核心名词的性与数，再核对冠词；不得因为 candidate 已有冠词就默认正确，也不得从 candidate 的冠词反推名词性别。
+7. 若 current 或 target 为日语：修 word/phonetic 时必须同步重写对应 wordLearningAids（按词注音）；仅修非日语语言时不要输出 wordLearningAids。
+
+## WordPass 硬失败（命中则对应 WordPass=false，必须修 word 并同步重写 phonetic）
+- word 含非标准拼写、生造词或地区变体混用：改为目标地区的标准常用词。
+- word 含确认可删除的外围用途说明、受众、包装数量、重复描述或说明性从句，且删除不改变类别：压缩成核心日常类别，细节留在 description。
+- word 含可见品牌/商标/店名，而学习对象是普通物品：改为通用物品名。
+- 内容物可由证据明确判断，却输出泛称容器/包装，或把容器词与内容词机械拼接。
+- 冠词、性、数、格、限定词或固定搭配与核心词不一致，或目标语言自然词条被生硬拼接/逐字翻译。
+- 缺冠词、unnecessary_learning_entry_article、article_agreement_mismatch：独立确认核心名词性数后修 word，并同步重写完整 phonetic。
+
+## PhoneticPass 硬失败（命中则对应 PhoneticPass=false，必须输出可落地的完整 phonetic）
+- 漏标、只标核心名词、错体系、多出无关读音，或 word 改短/改写后仍保留旧 phonetic。
+- 目标语言要求 IPA 时未用 /.../ 包裹，或混入拼音、罗马音、英文近似拼读、另一语言读法。
+- phonetics[].value 只能是目标语注音本身（IPA / Jyutping / 拼音 / 假名 / 韩文罗马音等）；禁止夹带自然语言说明、中文、Markdown、或“希望修正为…”之类元评论。中文说明只写在 reason。
+- 缩写/连字符词：按 expectedHint 的正字法顺序核对每个字母、数字或组成部分；不得用英语字母名替代目标语言通行读法。读法错但缩写必需 → 保留 word 并重写完整读法；缩写非必需 → 从 word 删除并同步重写 phonetic。
+- 日语：phonetic 仍是整串假名；同时 wordLearningAids 必须覆盖最终日语 word，notation=furigana，按熟語振り/単語振り，不要逐字拆熟语。
+
+## 学习词条规则
+
+
+0x1939f40 ## 学习词条（word）通用规则:
+1. word 是语言学习者看到的完整学习词条，不是解释句、描述句或包装文案。
+2. 只保留区分物品/动作类别必需的核心语义和语法信息；颜色、材质、位置、数量、状态、装饰、包装细节默认放入 description / visualEvidence，不要塞进 word。
+3. 品牌、商标、店名、规格、型号和包装可见文字只能作为消歧线索，记录在 visualEvidence 或 description；除非学习对象本身就是该品牌/专有名词，否则不得进入 word、canonicalGloss 或 phonetic。
+4. 当 visualEvidence / descriptions 显示可见品牌、Logo 或店名，而学习对象是普通日常物品时，word 必须使用通用物品名，不得把可见品牌写进学习词条。
+5. 例如：应输出“外带纸杯 / takeaway cup / la tazza di carta”，而不是“星巴克纸杯 / Starbucks paper cup”；品牌信息只留在 visualEvidence 或 description。
+6. word 必须优先输出目标语言母语者会自然说的日常学习词条；不要为了贴近图片文字、current 语言或可见品牌而选择生硬外来词、品牌限定描述或逐词拼接词组。
+7. object 模式的 commonNoun 必须遵守目标语言的冠词策略：策略为 required 时必须包含自然冠词；冠词/限定词必须和核心名词的性、数、格一致。scene、action、properNoun 与有明确理由的 articleException 不套用普通物品冠词规则。
+8. 物品词条默认使用一个核心名词，或“必要冠词 + 一个区分类别所必需的修饰成分”；不要把用途、适用人群、护理目的、包装数量或解释性从句塞进 word。只要删除某个成分后仍能准确指向同一日常类别，就必须删除该成分并把细节留在 description。
+9. 缩写、接口规格、型号和外来词只有在区分类别确实必需且已成为目标语言通行名称时才保留；否则改用更短的目标语言通用物品名。必须保留时，把整个缩写/连字符词视为一个词法单元，但 phonetic 必须按目标语言真实通行顺序覆盖其每个字母/组成部分；不要求每个字母各占一个空格 token。不能确认真实读法时宁可选择自然通用词条，不得按字形猜读。
+
+0x193a840 ## Stage2 容器与内容物规则（仅审查 word/phonetic）:
+1. 你不得修改 semanticIdentity、descriptions 或 category；candidate.canonicalGloss 可能仍含 pack/box 等形态信息，**不得**因此机械把容器/包装词拼进 word。
+2. 不要迎合 candidate 的最终词条错误；应优先相信 candidate 中更接近视觉证据的 visualEvidence、ambiguityNotes 和 descriptions，而不是盲目相信 word 或 canonicalGloss。
+3. 容器/包装/杯瓶/盒袋中内容物可由 visualEvidence、ambiguityNotes、descriptions 或 visible text 明确判断时，**最终词条（word）优先指向内容物**；容器/包装类型只保留在 description / visualEvidence（你不得修改这些字段）。
+4. 如果视觉证据对某具体内容物已有足够依据，不要把 word 降级为泛称容器、泛称饮品或泛称包装；应输出该内容物的自然目标语言词条。
+5. 不要把主体就是空容器/包装本身的场景误写成内容物；若 visualEvidence 明确学习主体是承载物本身，word 才指向承载物。
+6. 容器与内容物同时可见时，word 不得混用容器词和内容词（例如 content word + packaging suffix）；优先输出目标语言母语者会单独学习的核心词条。
+7. 仅当目标语言存在自然的「包装 + 内容」固定说法（例如意大利语 pacchetto di …）且符合日常学习习惯时，才可在 word 中保留包装词；不要逐词翻译 canonicalGloss 里的 pack/box。
+
+0x193ae20 
+
+## Stage2 词条精炼校验:
+- 只有确认某成分只是外围用途说明、受众、包装数量、重复描述或营销文案，且删除后仍准确指向同一日常类别时，对应 WordPass 才因冗长而为 false。
+- 不得仅凭成分表达用途、材质、状态、形态、成分或使用方式就删除；它能区分核心类别与相邻/禁用类别时必须保留。
+- 确需删除时，在 wordPhoneticPatch 中输出精炼后的 word 并同步重写完整 phonetic；若删除会扩大或改变类别，保留原词条，长度审计命中时输出 confirmedEntryLengthNecessary=true。
+- 缩写或连字符形式若必须保留，按一个词法单元判断自然度，但必须核对所有字母/组成部分的目标语言真实读法与顺序；不确定时改用不含该缩写的自然通用物品名。
+
+0x193b170 
+
+## 通用发音规则
+
+
+0x193b190 
+
+## 程序化证据（输入 JSON 的 reviewEvidence）
+reviewEvidence 只提供已发现的局部线索，不是完整错误清单；仍须独立完成四项 checklist。
+- 先读 actions[]，再读 lexicon / grammar / learningWord；tokens[].action、findings[].action、suggestedReplacements 是修法线索。
+- lexicon.currentPhonetic 是当前音标；mismatch/ambiguous 的 candidates[] 是可直接写入的目标语读音（粤语 Jyutping / 中文拼音须保留音节空格；IPA 候选已是学习形）。
+- mismatch/ambiguous：优先把 candidates[] 之一写入最终 targetPhonetic；有 suggestedReplacements 时优先采用 suggested。
+- localRepair.applied=true 且 token status=ambiguous：本地已用首个合法候选替换非法读音；Stage2 只在合法 candidates[] 中择优，不得写回非法原读音。
+- missing：词典无该词，按目标语言自行生成；不得假装有词典依据。
+- dialect_conflict：candidates 可能含错误方言特征，忽略后按目标方言重写。
+- localRepair.applied=false 只表示本地未改，不能据此判 pass；blockedReason/blockedTokens 说明为何未本地覆盖。
+- grammar：缺冠词 / unnecessary_learning_entry_article / article_agreement_mismatch 是硬错误 → targetWordPass=false，修 word 并重写完整 phonetic；missing_noun_features 只要求独立确认；overlong_learning_entry 只是检查信号，不是缩短指令——仍须套用上方 WordPass：仅当成分只是外围用途说明、受众、包装数量或重复描述且删除不改变核心类别时可删；它能区分核心类别与相邻/禁用类别时必须保留，删除会扩大到相邻或禁用类别时保留原词条并 confirmedEntryLengthNecessary=true；entry_kind_confirmation 必须独立确认 confirmedEntryKind（explicitException 还需 confirmedArticleExceptionReason）。
+- learningWord：品牌泄漏 → 对应语言 WordPass=false，删除品牌并重写 phonetic。
+- phraseFindings 中 `invalid_phonetic_notation` 或 `unexpanded_abbreviation_in_phonetic` 是确定性硬错误：targetPhoneticPass 必须为 false，并按目标语言重写为纯注音；不得判为 pass，也不得把说明文字写入 phonetic。
+- 缩写/连字符复核信号不代表必然错误；仍须按上方 PhoneticPass 缩写规则核对。
+- 对日语、韩语，斜杠等分隔符本身不代表 IPA；看去除分隔符后的字符体系。
+- 不得按空格数量判断读音是否完整。
+
+## 输出合同
+只输出一个 JSON 对象，不要 Markdown 或额外解释。
+- candidateChecklist 评估原 candidate。
+- confirmedEntryKind 必须是 commonNoun / scene / action / properNoun / articleException 之一；只有明确固定零冠词规则才能使用 articleException，并填写 confirmedArticleExceptionReason。
+- imageMode=action 时 confirmedEntryKind 必须为 action，且不得把候选动作修成静态物品名或 commonNoun。
+- target commonNoun 若有冠词性数规则，confirmedNounFeatures 必须独立填写 head、gender(m/f/n/common/unknown)、number(sg/pl/invariant/unknown)；不得照抄错误冠词反推性别。若长度审计命中但各成分均为类别所必需，confirmedEntryLengthNecessary=true。
+- 四项全为 true：status="pass"，repairedChecklist=null，wordPhoneticPatch=null。
+- 任一项为 false：status="failed"；wordPhoneticPatch 只能包含修复所需的 words、phonetics（日语时还要含 wordLearningAids），且必须覆盖全部 false 项；repairedChecklist 四项必须全部为 true。
+- wordPhoneticPatch.phonetics[].value 必须是纯目标语注音，禁止中文或其他自然语言；修复说明只写在 reason（简短中文）。
+- 若修复涉及日语 word/phonetic：wordPhoneticPatch.wordLearningAids 必须包含 key="ja" 的完整按词注音，plainText 与最终日语 word 一致。
+- 不要只在 reason 里指出问题却保留错误 word/phonetic；reason 使用简短中文说明修了什么。
+
+pass 示例:
+{
+  "status": "pass",
+  "candidateChecklist": {
+    "currentWordPass": true,
+    "currentPhoneticPass": true,
+    "targetWordPass": true,
+    "targetPhoneticPass": true
+  },
+  "repairedChecklist": null,
+  "reason": "简短中文说明",
+  "confirmedEntryKind": "
+
+0x193c240 ",
+  "confirmedArticleExceptionReason": null,
+  "confirmedNounFeatures": 
+
+0x193c290 ,
+  "confirmedEntryLengthNecessary": false,
+  "wordPhoneticPatch": null
+}
+
+failed 示例:
+{
+  "status": "failed",
+  "candidateChecklist": {
+    "currentWordPass": true,
+    "currentPhoneticPass": true,
+    "targetWordPass": false,
+    "targetPhoneticPass": false
+  },
+  "repairedChecklist": {
+    "currentWordPass": true,
+    "currentPhoneticPass": true,
+    "targetWordPass": true,
+    "targetPhoneticPass": true
+  },
+  "reason": "压缩用途冗长词条并重写目标音标",
+  "confirmedEntryKind": "
+
+0x193c490 ,
+  "confirmedEntryLengthNecessary": false,
+  "wordPhoneticPatch": {
+    "words": [
+      {"key": "
+
+0x193c500 ", "value": "修复后的目标语言词条"}
+    ],
+    "phonetics": [
+      {"key": "
+
+0x193c560 ", "value": "/reˈpaired.example/"}
+    ]
+
+0x193c590 ,
+      "wordLearningAids": [
+        {
+          "key": "ja",
+          "value": {
+            "plainText": "腕時計",
+            "notation": "furigana",
+            "units": [
+              {"base": "腕時計", "annotation": "うでどけい"}
+            ]
+          }
+        }
+      ]
+
+0x193c6c0 stage2DecodeJudgeAndFinalize
+
+0x193c6e0 Stage2 succeeded
+
+0x193c700 Stage2 decode failed after success callback
+
+0x193c730 Audited Recognition Timing (stage2DecodeFailedDegraded)
+
+0x193c770 Stage2 degraded result accepted for display: stage2_decode_failed
+
+0x193c7c0 Stage2 finalize rejected repair: missing wordPhoneticPatch
+
+0x193c800 Audited Recognition Timing (stage2PatchMissingDegraded)
+
+0x193c840 Stage2 degraded result accepted for display: stage2_patch_missing
+
+0x193c890 Stage2 review incomplete: learning-entry grammar issue remains; displaying degraded result
+
+0x193c8f0 post_stage2_grammar_incomplete
+
+0x193c910 Audited Recognition Timing (postStage2AuditIncompleteDegraded)
+
+0x193c950 Stage2 review incomplete: deterministic phonetic issue remains; displaying degraded result
+
+0x193c9b0 post_stage2_phonetic_incomplete
+
+0x193c9d0 Audited Recognition Timing (stage2ContractRejectedDegraded)
+
+0x193ca10 Stage2 degraded result accepted for display: stage2_contract_rejected
+
+0x193ca60 auditSignals:
+  entryKind: 
+
+0x193ca80 articleException
+
+0x193caa0 
+  articleExceptionReason: 
+
+0x193cac0 
+  nounFeatures: 
+
+0x193cae0 
+  semanticConfidence: 
+
+0x193cb00 
+  lexicalConfidence: 
+
+0x193cb20 
+  grammarConfidence: 
+
+0x193cb40 
+  phoneticConfidence: 
+
+0x193cb60 
+  brandSafetyConfidence: 
+
+0x193cb80 
+  needsReview: 
+
+0x193cba0 stickerInfo summary:
+
+0x193cbc0   semanticIdentity: (none)
+
+0x193cbe0   category: (none)
+
+0x193cc00   semanticIdentity.canonicalGloss: 
+
+0x193cc30   semanticIdentity.ambiguityNotes: 
+
+0x193cc60   semanticIdentity.visualEvidence: 
+
+0x193cc90 Programmatic phonetic repair skipped for 
+
+0x193ccc0 Programmatic phonetic override applied for 
+
+0x193ccf0 singlePassAuditedRecognitionWithSignalsPrompt.videoSequence
+
+0x193cd30 ===== Audited Recognition Request =====
+recipe: audited
+media: video
+isScene: 
+
+0x193cd80 LLM wait | stage1.
+
+0x193cda0 stage1RetryHandoff
+
+0x193cdc0 Stage1 retrying with image sequence fallback
+
+0x193cdf0 singlePassAuditedRecognitionWithSignalsPrompt.video
+
+0x193ce30 Stage1 validation failed: video recognition must return entryKind=action
+
+0x193ce81 article
+
+0x193ce89 entryLength
+
+0x193cea2 phonetic
+
+0x193ceab modelSignal
+
+0x193ceb7 stickerInfo
+
+0x193cec3 auditSignals
+
+0x193ced0 entryKind
+
+0x193cee0 articleExceptionReason
+
+0x193cf00 semanticConfidence
+
+0x193cf20 lexicalConfidence
+
+0x193cf40 grammarConfidence
+
+0x193cf60 phoneticConfidence
+
+0x193cf80 brandSafetyConfidence
+
+0x193cf96 needsReview
+
+0x193cfa2 riskTypes
+
+0x193cfb0 ## Original request context
+
+
+0x193cfd0 
+
+## Validation failures
+
+
+0x193cff0 
+
+## Invalid content to repair
+
+
+0x193d010 current sentence 
+
+0x193d030  should contain the current word or a natural variant
+
+0x193d070 target sentence 
+
+0x193d090  should contain the target word or a natural variant
+
+0x193d0d0 target language must contain exactly three example sentences
+
+0x193d110 current language must contain exactly three example sentences
+
+0x193d150  contains markup or symbols that are not TTS-friendly
+
+0x193d190  is too long for 
+
+0x193d1b0 target language must include learningAids aligned with the three target sentences
+
+0x193d210 target learningAid 
+
+0x193d230  plainText must exactly match the target sentence
+
+0x193d270  must have plainText matching the target sentence and at least one usable unit
+
+0x193d2c0  units must bind to the target sentence for inline display
+
+0x193d300 目标词或需要辅助的词
+
+0x193d320 原句中的连续片段
+
+0x193d340 中/日覆盖整句
+
+0x193d360 中文一字一注，日语按词/熟语注音并覆盖整句
+
+0x193d3a0 对应读音辅助
+
+0x193d3c0 第一句目标语言例句
+
+0x193d3e0 第二句目标语言例句
+
+0x193d400 第三句目标语言例句
+
+0x193d420  contains placeholder unit base
+
+0x193d440  contains placeholder annotation
+
+0x193d470  contains invalid annotation markup
+
+0x193d4a0  contains an empty unit base
+
+0x193d4c0  notation must be 
+
+0x193d4e0  units must cover the full target sentence for 
+
+0x193d510 target learningAids count must match target values count
+
+0x193d550 currentLanguage=
+
+0x193d570 currentDescription=
+
+0x193d590 targetDescription=
+
+0x193d5b0 targetLearningAidNotation=
+
+0x193d5d0 
+currentLanguage: 
+
+0x193d5f0 )
+targetLanguage: 
+
+0x193d610 
+semanticAnchorCategory: 
+
+0x193d630 
+semanticAnchorCurrentDescription: 
+
+0x193d660 
+semanticAnchorTargetDescription: 
+
+0x193d690 
+semanticAnchorKnownWords:
+
+
+0x193d6b0 
+semanticAnchorHint: 
+
+0x193d6d0 
+targetLearningAidNotation: 
+
+0x193d6f0 
+sentenceGoal: daily communicative-use examples, not object captions
+promptVersion: 
+
+0x193d750 Recognition V1 Timing (imageEncodingFailed)
+
+0x193d780 ===== Recognition V1 Request =====
+apiVersion: v1
+media: image
+isScene: 
+
+0x193d7d0 
+stage1: visionPrompt
+
+0x193d7f0 stage1.visionPrompt.image
+
+0x193d810 LLM wait | stage1.visionPrompt.image: 
+
+0x193d840 Recognition V1 Timing (stage1Failed)
+
+0x193d870 Stage1 validation failed: backend content is not decodable StickerInfo JSON
+
+0x193d8c0 stage1DecodeAndValidate
+
+0x193d8e0 Recognition V1 Timing (stage1DecodeFailed)
+
+0x193d910 Recognition V1 Timing
+
+0x193d930 Recognition V1 completed successfully
+
+0x193d960 combinedVideoImagePrompt
+
+0x193d980 ===== Recognition V1 Request =====
+apiVersion: v1
+media: video
+isScene: 
+
+0x193d9d0 Video too large for inline input; Stage1 uses image sequence prompt
+
+0x193da20 ^```(?:json)?\s*
+
+0x193da40 Stage2 validation failed: changing Japanese target word/phonetic requires a usable ja wordLearningAids rewrite
+
+0x193dab0 Stage2 validation failed: changing target word requires a matching non-empty target phonetic rewrite
+
+0x193db20 Stage2 validation failed: failed payload repairedChecklist is not all pass
+
+0x193db70 Stage2 validation failed: failed payload must include non-empty wordPhoneticPatch
+
+0x193dbd0 Stage2 validation failed: failed payload candidateChecklist is all pass
+
+0x193dc20 Stage2 validation failed: pass payload candidateChecklist is not all pass
+
+0x193dc70 Stage2 validation failed: pass payload must not include wordPhoneticPatch
+
+0x193dcc0 Stage2 validation failed: pass payload must not include repairedChecklist
+
+0x193dd10 Stage2 finalize note: repairedChecklist is not all pass
+
+0x193dd50 Stage2 judge: failed -> merged wordPhoneticPatch into candidate
+
+0x193dd90 Stage2 finalize note: status failed but candidateChecklist all passed
+
+0x193dde0 Stage2 judge: pass

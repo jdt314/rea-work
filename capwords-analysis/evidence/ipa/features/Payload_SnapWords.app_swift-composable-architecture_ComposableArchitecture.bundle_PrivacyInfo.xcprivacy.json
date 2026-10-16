@@ -1,0 +1,13 @@
+{
+  "NSPrivacyCollectedDataTypes": [],
+  "NSPrivacyAccessedAPITypes": [
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+      "NSPrivacyAccessedAPITypeReasons": [
+        "C56D.1"
+      ]
+    }
+  ],
+  "NSPrivacyTrackingDomains": [],
+  "NSPrivacyTracking": false
+}

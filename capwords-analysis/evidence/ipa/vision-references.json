@@ -1,0 +1,68 @@
+[
+  {
+    "address": "0x101eb53d8",
+    "file_offset": "0x1eb53d8",
+    "symbol": "_$sSo9VNContourC6VisionE16normalizedPointsSays5SIMD2VySfGGvg",
+    "pointer": "0x8010000000001969"
+  },
+  {
+    "address": "0x101f20c40",
+    "file_offset": "0x1f20c40",
+    "selector": "allInstances",
+    "pointer": "0x100000017f272b"
+  },
+  {
+    "address": "0x101f235c0",
+    "file_offset": "0x1f235c0",
+    "selector": "generateMaskForInstances:error:",
+    "pointer": "0x100000017e5347"
+  },
+  {
+    "address": "0x101f235c8",
+    "file_offset": "0x1f235c8",
+    "selector": "generateMaskedImageOfInstances:fromRequestHandler:croppedToInstancesExtent:error:",
+    "pointer": "0x10000001801a48"
+  },
+  {
+    "address": "0x101f249b0",
+    "file_offset": "0x1f249b0",
+    "selector": "instanceMask",
+    "pointer": "0x1000000180899d"
+  },
+  {
+    "address": "0x101f260b0",
+    "file_offset": "0x1f260b0",
+    "selector": "normalizedPath",
+    "pointer": "0x10000001811645"
+  },
+  {
+    "address": "0x101f2f4d8",
+    "file_offset": "0x1f2f4d8",
+    "symbol": "_OBJC_CLASS_$_VNDetectContoursRequest",
+    "pointer": "0x8010000000001a24"
+  },
+  {
+    "address": "0x101f2f4e0",
+    "file_offset": "0x1f2f4e0",
+    "symbol": "_OBJC_CLASS_$_VNImageRequestHandler",
+    "pointer": "0x8010000000001a25"
+  },
+  {
+    "address": "0x101f2f4f0",
+    "file_offset": "0x1f2f4f0",
+    "symbol": "_OBJC_CLASS_$_VNContoursObservation",
+    "pointer": "0x8010000000001a27"
+  },
+  {
+    "address": "0x101f2f4f8",
+    "file_offset": "0x1f2f4f8",
+    "symbol": "_OBJC_CLASS_$_VNGenerateForegroundInstanceMaskRequest",
+    "pointer": "0x8010000000001a28"
+  },
+  {
+    "address": "0x101f2f500",
+    "file_offset": "0x1f2f500",
+    "symbol": "_OBJC_CLASS_$_VNInstanceMaskObservation",
+    "pointer": "0x8010000000001a29"
+  }
+]

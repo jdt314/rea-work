@@ -1,0 +1,35 @@
+{
+  "CFBundleName": "SnapWordsCaptureExtension",
+  "DTSDKName": "iphoneos27.0",
+  "DTXcode": "2700",
+  "DTSDKBuild": "24A430",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleVersion": "445",
+  "BuildMachineOSBuild": "25G83",
+  "NSCameraUsageDescription": "To allow you to take pictures and recognize object words, CapWords needs access to your camera",
+  "DTPlatformName": "iphoneos",
+  "CFBundlePackageType": "XPC!",
+  "CFBundleShortVersionString": "2.0.9",
+  "CFBundleSupportedPlatforms": [
+    "iPhoneOS"
+  ],
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleExecutable": "SnapWordsCaptureExtension",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "UIRequiredDeviceCapabilities": [
+    "arm64"
+  ],
+  "MinimumOSVersion": "26.0",
+  "CFBundleIdentifier": "com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension",
+  "UIDeviceFamily": [
+    1,
+    2
+  ],
+  "DTPlatformVersion": "27.0",
+  "DTXcodeBuild": "27A266a",
+  "CFBundleDisplayName": "SnapWordsCaptureExtension",
+  "DTPlatformBuild": "24A430",
+  "EXAppExtensionAttributes": {
+    "EXExtensionPointIdentifier": "com.apple.securecapture"
+  }
+}

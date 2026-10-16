@@ -1,0 +1,2637 @@
+[
+  {
+    "path": "Payload/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Ryan_en.json",
+    "size": 6937,
+    "compressed": 2502
+  },
+  {
+    "path": "Payload/SnapWords.app/Assets.car",
+    "size": 119352312,
+    "compressed": 117590209
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON9.json",
+    "size": 1239,
+    "compressed": 365
+  },
+  {
+    "path": "Payload/SnapWords.app/PkgInfo",
+    "size": 8,
+    "compressed": 8
+  },
+  {
+    "path": "Payload/SnapWords.app/whatsnew_1_en.GIF",
+    "size": 1586505,
+    "compressed": 1584758
+  },
+  {
+    "path": "Payload/SnapWords.app/Elias_en.json",
+    "size": 6931,
+    "compressed": 2481
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON3.json",
+    "size": 1316,
+    "compressed": 406
+  },
+  {
+    "path": "Payload/SnapWords.app/default.json",
+    "size": 6937,
+    "compressed": 2501
+  },
+  {
+    "path": "Payload/SnapWords.app/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/_CodeSignature/CodeResources",
+    "size": 155561,
+    "compressed": 37142
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.lproj/nlu.appintents/bce2962db98d34a52765adcf6d6596c0.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2224,
+    "compressed": 2224
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.lproj/Localizable.strings",
+    "size": 99265,
+    "compressed": 44666
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.lproj/InfoPlist.strings",
+    "size": 1223,
+    "compressed": 703
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hant.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hant.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hant.lproj/nlu.appintents/27c19b836516c879f9a03d1e0837cc08.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hant.lproj/nlu.appintents/nlu.lzfse",
+    "size": 288,
+    "compressed": 283
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hant.lproj/Localizable.strings",
+    "size": 85694,
+    "compressed": 44217
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hant.lproj/InfoPlist.strings",
+    "size": 1007,
+    "compressed": 635
+  },
+  {
+    "path": "Payload/SnapWords.app/StickerJSON3.json",
+    "size": 1247,
+    "compressed": 390
+  },
+  {
+    "path": "Payload/SnapWords.app/StickerJSON2.json",
+    "size": 1261,
+    "compressed": 404
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia_ru.json",
+    "size": 6946,
+    "compressed": 2466
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCoreExtension.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCoreExtension.bundle/Info.plist",
+    "size": 714,
+    "compressed": 520
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy",
+    "size": 478,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/OPEN_LEXICON_NOTICES.md",
+    "size": 2162,
+    "compressed": 1089
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Logger.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist",
+    "size": 722,
+    "compressed": 514
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy",
+    "size": 478,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.json",
+    "size": 98254,
+    "compressed": 41729
+  },
+  {
+    "path": "Payload/SnapWords.app/ChatOnboarding.riv",
+    "size": 61929,
+    "compressed": 23962
+  },
+  {
+    "path": "Payload/SnapWords.app/FlashCardStickerJSON2.json",
+    "size": 1650,
+    "compressed": 307
+  },
+  {
+    "path": "Payload/SnapWords.app/Info.plist",
+    "size": 6551,
+    "compressed": 1847
+  },
+  {
+    "path": "Payload/SnapWords.app/ChatOnboardingDark.riv",
+    "size": 61929,
+    "compressed": 23962
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleService-Info.plist",
+    "size": 485,
+    "compressed": 381
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia_de.json",
+    "size": 6940,
+    "compressed": 2469
+  },
+  {
+    "path": "Payload/SnapWords.app/Kai.json",
+    "size": 6887,
+    "compressed": 2482
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/zh-Hant.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/zh-Hant.lproj/Localizable.strings",
+    "size": 764,
+    "compressed": 347
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/Info.plist",
+    "size": 704,
+    "compressed": 508
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/pl.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/pl.lproj/Localizable.strings",
+    "size": 785,
+    "compressed": 296
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/es.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/es.lproj/Localizable.strings",
+    "size": 762,
+    "compressed": 282
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/en.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/en.lproj/Localizable.strings",
+    "size": 755,
+    "compressed": 244
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/uk.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/uk.lproj/Localizable.strings",
+    "size": 917,
+    "compressed": 370
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/fa.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/fa.lproj/Localizable.strings",
+    "size": 851,
+    "compressed": 350
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/it.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/it.lproj/Localizable.strings",
+    "size": 756,
+    "compressed": 251
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/nl.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/nl.lproj/Localizable.strings",
+    "size": 774,
+    "compressed": 276
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/ar.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/ar.lproj/Localizable.strings",
+    "size": 878,
+    "compressed": 345
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/ru.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/ru.lproj/Localizable.strings",
+    "size": 936,
+    "compressed": 397
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/zh_Hans.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/zh_Hans.lproj/Localizable.strings",
+    "size": 758,
+    "compressed": 344
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/fr.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/fr.lproj/Localizable.strings",
+    "size": 784,
+    "compressed": 283
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/de.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/de.lproj/Localizable.strings",
+    "size": 1445,
+    "compressed": 537
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/pt.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PermissionsKit_PermissionsKit.bundle/pt.lproj/Localizable.strings",
+    "size": 782,
+    "compressed": 291
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCore.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCore.bundle/Info.plist",
+    "size": 696,
+    "compressed": 513
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy",
+    "size": 855,
+    "compressed": 299
+  },
+  {
+    "path": "Payload/SnapWords.app/th.json",
+    "size": 65,
+    "compressed": 59
+  },
+  {
+    "path": "Payload/SnapWords.app/MinimaxiVoicesGroup.json",
+    "size": 17061,
+    "compressed": 3218
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry.json",
+    "size": 6964,
+    "compressed": 2502
+  },
+  {
+    "path": "Payload/SnapWords.app/open_lexicon_seed_ru_v1.json.gz",
+    "size": 3337589,
+    "compressed": 3338051
+  },
+  {
+    "path": "Payload/SnapWords.app/pt-BR.json",
+    "size": 102283,
+    "compressed": 37500
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON11.json",
+    "size": 1268,
+    "compressed": 387
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase.pag",
+    "size": 1226329,
+    "compressed": 1225139
+  },
+  {
+    "path": "Payload/SnapWords.app/es.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/es.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/es.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2240,
+    "compressed": 2240
+  },
+  {
+    "path": "Payload/SnapWords.app/es.lproj/nlu.appintents/ffbd16638137aeb93b2127b7ec715efa.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/es.lproj/Localizable.strings",
+    "size": 129624,
+    "compressed": 49556
+  },
+  {
+    "path": "Payload/SnapWords.app/es.lproj/InfoPlist.strings",
+    "size": 1855,
+    "compressed": 796
+  },
+  {
+    "path": "Payload/SnapWords.app/2.m4a",
+    "size": 24678,
+    "compressed": 24226
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON12.json",
+    "size": 1261,
+    "compressed": 402
+  },
+  {
+    "path": "Payload/SnapWords.app/Congratulations.json",
+    "size": 132130,
+    "compressed": 2615
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry_de.json",
+    "size": 6947,
+    "compressed": 2475
+  },
+  {
+    "path": "Payload/SnapWords.app/Promises_Promises.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Promises_Promises.bundle/Info.plist",
+    "size": 680,
+    "compressed": 503
+  },
+  {
+    "path": "Payload/SnapWords.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy",
+    "size": 373,
+    "compressed": 224
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_avatar_item_pag1.pag",
+    "size": 327350,
+    "compressed": 326555
+  },
+  {
+    "path": "Payload/SnapWords.app/PrivacyInfo.xcprivacy",
+    "size": 896,
+    "compressed": 294
+  },
+  {
+    "path": "Payload/SnapWords.app/ko.json",
+    "size": 92026,
+    "compressed": 39136
+  },
+  {
+    "path": "Payload/SnapWords.app/Kai_zh.json",
+    "size": 6862,
+    "compressed": 2487
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON1.json",
+    "size": 1300,
+    "compressed": 427
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON15.json",
+    "size": 1341,
+    "compressed": 427
+  },
+  {
+    "path": "Payload/SnapWords.app/es.json",
+    "size": 103704,
+    "compressed": 37581
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/en.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/en.lproj/Root.strings",
+    "size": 546,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/DustEffectShaders.metal",
+    "size": 5404,
+    "compressed": 1710
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/loki.metal",
+    "size": 1713,
+    "compressed": 480
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/loki_header.metal",
+    "size": 1619,
+    "compressed": 576
+  },
+  {
+    "path": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/Root.plist",
+    "size": 1456,
+    "compressed": 443
+  },
+  {
+    "path": "Payload/SnapWords.app/en.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/en.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/en.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2138,
+    "compressed": 2138
+  },
+  {
+    "path": "Payload/SnapWords.app/en.lproj/nlu.appintents/07e656850b8c8c7d09871f0fab981705.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/en.lproj/Localizable.strings",
+    "size": 75471,
+    "compressed": 31544
+  },
+  {
+    "path": "Payload/SnapWords.app/en.lproj/InfoPlist.strings",
+    "size": 1177,
+    "compressed": 602
+  },
+  {
+    "path": "Payload/SnapWords.app/lottie_completion.json",
+    "size": 22532,
+    "compressed": 3926
+  },
+  {
+    "path": "Payload/SnapWords.app/widget_add_guide_dark.mp4",
+    "size": 1906881,
+    "compressed": 1883399
+  },
+  {
+    "path": "Payload/SnapWords.app/OnoAnna.json",
+    "size": 6929,
+    "compressed": 2475
+  },
+  {
+    "path": "Payload/SnapWords.app/default.metallib",
+    "size": 68768,
+    "compressed": 21163
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia.json",
+    "size": 6927,
+    "compressed": 2479
+  },
+  {
+    "path": "Payload/SnapWords.app/Andre_pt.json",
+    "size": 6885,
+    "compressed": 2493
+  },
+  {
+    "path": "Payload/SnapWords.app/Lenn.json",
+    "size": 6924,
+    "compressed": 2484
+  },
+  {
+    "path": "Payload/SnapWords.app/Sohee_ko.json",
+    "size": 6928,
+    "compressed": 2479
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON5.json",
+    "size": 1225,
+    "compressed": 376
+  },
+  {
+    "path": "Payload/SnapWords.app/snaplogo.pag",
+    "size": 1915,
+    "compressed": 1569
+  },
+  {
+    "path": "Payload/SnapWords.app/OnoAnna_ja.json",
+    "size": 6932,
+    "compressed": 2480
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.lproj/nlu.appintents/bfd4f44c6624a23f917b4c5f2c3ffbb5.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2320,
+    "compressed": 2320
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.lproj/Localizable.strings",
+    "size": 95960,
+    "compressed": 44044
+  },
+  {
+    "path": "Payload/SnapWords.app/ja.lproj/InfoPlist.strings",
+    "size": 1197,
+    "compressed": 714
+  },
+  {
+    "path": "Payload/SnapWords.app/Kingfisher_Kingfisher.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Kingfisher_Kingfisher.bundle/Info.plist",
+    "size": 688,
+    "compressed": 506
+  },
+  {
+    "path": "Payload/SnapWords.app/Kingfisher_Kingfisher.bundle/PrivacyInfo.xcprivacy",
+    "size": 707,
+    "compressed": 300
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia_pt.json",
+    "size": 6935,
+    "compressed": 2474
+  },
+  {
+    "path": "Payload/SnapWords.app/generate_tca_template.py",
+    "size": 3835,
+    "compressed": 1200
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_seed_de_v3.json.gz",
+    "size": 2065782,
+    "compressed": 2063969
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/AppsFlyerLib.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/AppsFlyerLib.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/AppsFlyerLib.framework/_CodeSignature/CodeResources",
+    "size": 3046,
+    "compressed": 741
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/AppsFlyerLib.framework/Info.plist",
+    "size": 792,
+    "compressed": 571
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/AppsFlyerLib.framework/PrivacyInfo.xcprivacy",
+    "size": 2390,
+    "compressed": 509
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/AppsFlyerLib.framework/AppsFlyerLib",
+    "size": 35552,
+    "compressed": 4069
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Tg_Sa1y0miii26.dylib",
+    "size": 176256,
+    "compressed": 20504
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Lottie.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Lottie.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Lottie.framework/_CodeSignature/CodeResources",
+    "size": 3010,
+    "compressed": 736
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Lottie.framework/Info.plist",
+    "size": 748,
+    "compressed": 541
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Lottie.framework/PrivacyInfo.xcprivacy",
+    "size": 599,
+    "compressed": 286
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/Lottie.framework/Lottie",
+    "size": 2311120,
+    "compressed": 850188
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/FirebaseAnalytics.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources",
+    "size": 2776,
+    "compressed": 661
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/FirebaseAnalytics.framework/Info.plist",
+    "size": 812,
+    "compressed": 578
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics",
+    "size": 35584,
+    "compressed": 4070
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/StopReviews.dylib",
+    "size": 224208,
+    "compressed": 16016
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources",
+    "size": 2884,
+    "compressed": 675
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist",
+    "size": 848,
+    "compressed": 594
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport",
+    "size": 35632,
+    "compressed": 4089
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/sideloadKeychainfix2.dylib",
+    "size": 61072,
+    "compressed": 6158
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/sideloadKeychainfix1.dylib",
+    "size": 78704,
+    "compressed": 8673
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAdsOnDeviceConversion.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources",
+    "size": 2836,
+    "compressed": 662
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist",
+    "size": 795,
+    "compressed": 563
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion",
+    "size": 35616,
+    "compressed": 4078
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/RiveRuntime.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/RiveRuntime.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/RiveRuntime.framework/_CodeSignature/CodeResources",
+    "size": 3040,
+    "compressed": 741
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/RiveRuntime.framework/Info.plist",
+    "size": 767,
+    "compressed": 547
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/RiveRuntime.framework/PrivacyInfo.xcprivacy",
+    "size": 522,
+    "compressed": 269
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/RiveRuntime.framework/RiveRuntime",
+    "size": 5514656,
+    "compressed": 2108897
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/CydiaSubstrate.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/CydiaSubstrate.framework/Info.plist",
+    "size": 565,
+    "compressed": 292
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/CydiaSubstrate.framework/CydiaSubstrate",
+    "size": 379968,
+    "compressed": 102285
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/CydiaSubstrate.framework/LICENSE",
+    "size": 1466,
+    "compressed": 785
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurement.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources",
+    "size": 2794,
+    "compressed": 660
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurement.framework/Info.plist",
+    "size": 818,
+    "compressed": 583
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement",
+    "size": 35584,
+    "compressed": 4073
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/libpag.framework/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/libpag.framework/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/libpag.framework/_CodeSignature/CodeResources",
+    "size": 2710,
+    "compressed": 651
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/libpag.framework/Info.plist",
+    "size": 793,
+    "compressed": 578
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/libpag.framework/libpag",
+    "size": 2130640,
+    "compressed": 809550
+  },
+  {
+    "path": "Payload/SnapWords.app/whatsnew_1_es.GIF",
+    "size": 1593314,
+    "compressed": 1591535
+  },
+  {
+    "path": "Payload/SnapWords.app/10.wav",
+    "size": 85224,
+    "compressed": 53332
+  },
+  {
+    "path": "Payload/SnapWords.app/nanopb_nanopb.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/nanopb_nanopb.bundle/Info.plist",
+    "size": 670,
+    "compressed": 499
+  },
+  {
+    "path": "Payload/SnapWords.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy",
+    "size": 374,
+    "compressed": 224
+  },
+  {
+    "path": "Payload/SnapWords.app/Kiki_yue.json",
+    "size": 6940,
+    "compressed": 2510
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist",
+    "size": 738,
+    "compressed": 519
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy",
+    "size": 478,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/ChatHomeCharacter.riv",
+    "size": 48490,
+    "compressed": 17527
+  },
+  {
+    "path": "Payload/SnapWords.app/Kai_ja.json",
+    "size": 6884,
+    "compressed": 2487
+  },
+  {
+    "path": "Payload/SnapWords.app/whatsnew_2_es.GIF",
+    "size": 1038705,
+    "compressed": 1038832
+  },
+  {
+    "path": "Payload/SnapWords.app/Inflate.ahap",
+    "size": 1743,
+    "compressed": 412
+  },
+  {
+    "path": "Payload/SnapWords.app/Alek_ru.json",
+    "size": 6895,
+    "compressed": 2497
+  },
+  {
+    "path": "Payload/SnapWords.app/onboarding_media.mp4",
+    "size": 8716072,
+    "compressed": 8677142
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hans.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hans.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hans.lproj/nlu.appintents/nlu.lzfse",
+    "size": 288,
+    "compressed": 283
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hans.lproj/nlu.appintents/d9f003b4379452c51b9ee0b2a74aee2b.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hans.lproj/Localizable.strings",
+    "size": 86213,
+    "compressed": 44330
+  },
+  {
+    "path": "Payload/SnapWords.app/zh-Hans.lproj/InfoPlist.strings",
+    "size": 1009,
+    "compressed": 638
+  },
+  {
+    "path": "Payload/SnapWords.app/en-GB.json",
+    "size": 96696,
+    "compressed": 36845
+  },
+  {
+    "path": "Payload/SnapWords.app/it.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/it.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/it.lproj/nlu.appintents/4042f37c869a1d683a55b7b3d191a1bf.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/it.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2222,
+    "compressed": 2222
+  },
+  {
+    "path": "Payload/SnapWords.app/it.lproj/Localizable.strings",
+    "size": 120073,
+    "compressed": 48847
+  },
+  {
+    "path": "Payload/SnapWords.app/it.lproj/InfoPlist.strings",
+    "size": 1826,
+    "compressed": 814
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON13.json",
+    "size": 1252,
+    "compressed": 385
+  },
+  {
+    "path": "Payload/SnapWords.app/open_lexicon_seed_ko_v1.json.gz",
+    "size": 316819,
+    "compressed": 316869
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia_zh.json",
+    "size": 6930,
+    "compressed": 2482
+  },
+  {
+    "path": "Payload/SnapWords.app/CapWords AI: Learn Languages.storekit",
+    "size": 9450,
+    "compressed": 1254
+  },
+  {
+    "path": "Payload/SnapWords.app/whatsnew_3_es.GIF",
+    "size": 3712583,
+    "compressed": 3661429
+  },
+  {
+    "path": "Payload/SnapWords.app/open_lexicon_seed_en-GB_v1.json.gz",
+    "size": 355476,
+    "compressed": 355531
+  },
+  {
+    "path": "Payload/SnapWords.app/Elias.json",
+    "size": 6928,
+    "compressed": 2476
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ko.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ko.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 187,
+    "compressed": 148
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/zh-Hant.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/zh-Hant.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 175,
+    "compressed": 140
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ro.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ro.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 181,
+    "compressed": 129
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/Info.plist",
+    "size": 728,
+    "compressed": 519
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/pl.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/pl.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 171,
+    "compressed": 129
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/es.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/es.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 179,
+    "compressed": 121
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/cs.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/cs.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 173,
+    "compressed": 128
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/PrivacyInfo.xcprivacy",
+    "size": 373,
+    "compressed": 223
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/da-DK.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/da-DK.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 174,
+    "compressed": 124
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/en.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/en.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 168,
+    "compressed": 95
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ja.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ja.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 210,
+    "compressed": 157
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/uk.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/uk.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 231,
+    "compressed": 165
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fa.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fa.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 210,
+    "compressed": 155
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/zh-Hans.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/zh-Hans.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 172,
+    "compressed": 135
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/it.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/it.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 181,
+    "compressed": 126
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/nl.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/nl.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 178,
+    "compressed": 122
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ar.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ar.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 207,
+    "compressed": 158
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/pt-BR.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/pt-BR.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 181,
+    "compressed": 129
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/Base.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/Base.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 168,
+    "compressed": 95
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/hu.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/hu.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 194,
+    "compressed": 146
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fa-IR.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fa-IR.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 210,
+    "compressed": 155
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ru.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ru.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 237,
+    "compressed": 168
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/id.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/id.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 178,
+    "compressed": 123
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fr.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fr.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 193,
+    "compressed": 140
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/vi.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/vi.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 178,
+    "compressed": 136
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/tr.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/tr.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 183,
+    "compressed": 140
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/de.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/de.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 189,
+    "compressed": 132
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/pt.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/pt.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 181,
+    "compressed": 129
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/sk.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/sk.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 176,
+    "compressed": 131
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ca.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ca.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 177,
+    "compressed": 123
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fi.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/fi.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 179,
+    "compressed": 134
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ms.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/TOCropViewController_TOCropViewController.bundle/ms.lproj/TOCropViewControllerLocalizable.strings",
+    "size": 173,
+    "compressed": 116
+  },
+  {
+    "path": "Payload/SnapWords.app/8.m4a",
+    "size": 77072,
+    "compressed": 76340
+  },
+  {
+    "path": "Payload/SnapWords.app/AppIcon60x60@2x.png",
+    "size": 24166,
+    "compressed": 24109
+  },
+  {
+    "path": "Payload/SnapWords.app/whatsnew_2_en.GIF",
+    "size": 1025419,
+    "compressed": 1025579
+  },
+  {
+    "path": "Payload/SnapWords.app/rime_cantonese_lexicon_seed_yue_v1.json.gz",
+    "size": 1196889,
+    "compressed": 1197074
+  },
+  {
+    "path": "Payload/SnapWords.app/Kiki.json",
+    "size": 6936,
+    "compressed": 2505
+  },
+  {
+    "path": "Payload/SnapWords.app/it.json",
+    "size": 103122,
+    "compressed": 36496
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_function_words_v2.json",
+    "size": 4912,
+    "compressed": 1774
+  },
+  {
+    "path": "Payload/SnapWords.app/3.wav",
+    "size": 170400,
+    "compressed": 51027
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist",
+    "size": 734,
+    "compressed": 516
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy",
+    "size": 478,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/widget_add_guide.mp4",
+    "size": 1926004,
+    "compressed": 1905221
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry_zh.json",
+    "size": 6967,
+    "compressed": 2505
+  },
+  {
+    "path": "Payload/SnapWords.app/Kai_ko.json",
+    "size": 6877,
+    "compressed": 2489
+  },
+  {
+    "path": "Payload/SnapWords.app/DINCondensed-Bold.ttf",
+    "size": 212040,
+    "compressed": 106263
+  },
+  {
+    "path": "Payload/SnapWords.app/RevenueCat_RevenueCat.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/RevenueCat_RevenueCat.bundle/Info.plist",
+    "size": 691,
+    "compressed": 512
+  },
+  {
+    "path": "Payload/SnapWords.app/RevenueCat_RevenueCat.bundle/PrivacyInfo.xcprivacy",
+    "size": 945,
+    "compressed": 338
+  },
+  {
+    "path": "Payload/SnapWords.app/Ryan_zh.json",
+    "size": 6918,
+    "compressed": 2475
+  },
+  {
+    "path": "Payload/SnapWords.app/sticker_speaker.pag",
+    "size": 1071,
+    "compressed": 611
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON7.json",
+    "size": 1306,
+    "compressed": 427
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_seed_pt-BR_v3.json.gz",
+    "size": 445842,
+    "compressed": 445912
+  },
+  {
+    "path": "Payload/SnapWords.app/cyan.entitlements",
+    "size": 947,
+    "compressed": 370
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia_it.json",
+    "size": 6938,
+    "compressed": 2466
+  },
+  {
+    "path": "Payload/SnapWords.app/Lenn_de.json",
+    "size": 6927,
+    "compressed": 2487
+  },
+  {
+    "path": "Payload/SnapWords.app/Jennifer_en.json",
+    "size": 6936,
+    "compressed": 2503
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry_pt.json",
+    "size": 6933,
+    "compressed": 2494
+  },
+  {
+    "path": "Payload/SnapWords.app/Ryan_ja.json",
+    "size": 6903,
+    "compressed": 2485
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_avatar_item_pag5.pag",
+    "size": 239578,
+    "compressed": 238858
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_seed_fr_v3.json.gz",
+    "size": 592191,
+    "compressed": 592286
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON14.json",
+    "size": 1318,
+    "compressed": 408
+  },
+  {
+    "path": "Payload/SnapWords.app/en.json",
+    "size": 96693,
+    "compressed": 36835
+  },
+  {
+    "path": "Payload/SnapWords.app/CocoaLumberjack_CocoaLumberjack.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/CocoaLumberjack_CocoaLumberjack.bundle/Info.plist",
+    "size": 708,
+    "compressed": 510
+  },
+  {
+    "path": "Payload/SnapWords.app/CocoaLumberjack_CocoaLumberjack.bundle/PrivacyInfo.xcprivacy",
+    "size": 793,
+    "compressed": 306
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_seed_it_v3.json.gz",
+    "size": 246581,
+    "compressed": 246621
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-NSData.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist",
+    "size": 722,
+    "compressed": 514
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy",
+    "size": 478,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseInstallations.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseInstallations.bundle/Info.plist",
+    "size": 714,
+    "compressed": 520
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy",
+    "size": 1105,
+    "compressed": 321
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist",
+    "size": 748,
+    "compressed": 524
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy",
+    "size": 478,
+    "compressed": 232
+  },
+  {
+    "path": "Payload/SnapWords.app/1.wav",
+    "size": 212992,
+    "compressed": 90943
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_avatar_item_pag3.pag",
+    "size": 309740,
+    "compressed": 308861
+  },
+  {
+    "path": "Payload/SnapWords.app/Sohee.json",
+    "size": 6925,
+    "compressed": 2476
+  },
+  {
+    "path": "Payload/SnapWords.app/debug_gif.MOV",
+    "size": 4533121,
+    "compressed": 4531910
+  },
+  {
+    "path": "Payload/SnapWords.app/Rocky_yue.json",
+    "size": 6946,
+    "compressed": 2509
+  },
+  {
+    "path": "Payload/SnapWords.app/StickerJSON5.json",
+    "size": 1246,
+    "compressed": 390
+  },
+  {
+    "path": "Payload/SnapWords.app/Bodega_es.json",
+    "size": 6927,
+    "compressed": 2512
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_seed_es_v3.json.gz",
+    "size": 3263807,
+    "compressed": 3212025
+  },
+  {
+    "path": "Payload/SnapWords.app/sticker_empty.pag",
+    "size": 1027,
+    "compressed": 502
+  },
+  {
+    "path": "Payload/SnapWords.app/Ryan.json",
+    "size": 6934,
+    "compressed": 2499
+  },
+  {
+    "path": "Payload/SnapWords.app/Sonrisa_es.json",
+    "size": 6946,
+    "compressed": 2493
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON8.json",
+    "size": 1222,
+    "compressed": 369
+  },
+  {
+    "path": "Payload/SnapWords.app/localizable_insert.py",
+    "size": 1008,
+    "compressed": 455
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.json",
+    "size": 103949,
+    "compressed": 37403
+  },
+  {
+    "path": "Payload/SnapWords.app/de.json",
+    "size": 104549,
+    "compressed": 38169
+  },
+  {
+    "path": "Payload/SnapWords.app/detail.speaker.pag",
+    "size": 758,
+    "compressed": 532
+  },
+  {
+    "path": "Payload/SnapWords.app/Sonrisa.json",
+    "size": 6943,
+    "compressed": 2489
+  },
+  {
+    "path": "Payload/SnapWords.app/pt.json",
+    "size": 102280,
+    "compressed": 37492
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_seed_en_v3.json.gz",
+    "size": 897099,
+    "compressed": 897239
+  },
+  {
+    "path": "Payload/SnapWords.app/Kai_en.json",
+    "size": 6890,
+    "compressed": 2485
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_avatar_item_pag4.pag",
+    "size": 276196,
+    "compressed": 275334
+  },
+  {
+    "path": "Payload/SnapWords.app/widget_add_guide_dark.mov",
+    "size": 4507116,
+    "compressed": 4266006
+  },
+  {
+    "path": "Payload/SnapWords.app/Maia_fr.json",
+    "size": 6935,
+    "compressed": 2470
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCoreInternal.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCoreInternal.bundle/Info.plist",
+    "size": 712,
+    "compressed": 520
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy",
+    "size": 855,
+    "compressed": 299
+  },
+  {
+    "path": "Payload/SnapWords.app/Bodega.json",
+    "size": 6924,
+    "compressed": 2509
+  },
+  {
+    "path": "Payload/SnapWords.app/Dolce.json",
+    "size": 6901,
+    "compressed": 2492
+  },
+  {
+    "path": "Payload/SnapWords.app/open_lexicon_seed_zh_v1.json.gz",
+    "size": 1065599,
+    "compressed": 1065764
+  },
+  {
+    "path": "Payload/SnapWords.app/default_en.json",
+    "size": 6940,
+    "compressed": 2505
+  },
+  {
+    "path": "Payload/SnapWords.app/Emilien.json",
+    "size": 6915,
+    "compressed": 2491
+  },
+  {
+    "path": "Payload/SnapWords.app/Dolce_it.json",
+    "size": 6904,
+    "compressed": 2495
+  },
+  {
+    "path": "Payload/SnapWords.app/widget_add_guide.mov",
+    "size": 4651708,
+    "compressed": 4416590
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_leaf_left.pag",
+    "size": 2310,
+    "compressed": 1158
+  },
+  {
+    "path": "Payload/SnapWords.app/swift-sharing_Sharing.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/swift-sharing_Sharing.bundle/Info.plist",
+    "size": 688,
+    "compressed": 509
+  },
+  {
+    "path": "Payload/SnapWords.app/swift-sharing_Sharing.bundle/PrivacyInfo.xcprivacy",
+    "size": 815,
+    "compressed": 311
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2237,
+    "compressed": 2237
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.lproj/nlu.appintents/ebd4a0d6fbde186e4c0e2d09cc54b23d.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.lproj/Localizable.strings",
+    "size": 138159,
+    "compressed": 50584
+  },
+  {
+    "path": "Payload/SnapWords.app/fr.lproj/InfoPlist.strings",
+    "size": 2345,
+    "compressed": 826
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON2.json",
+    "size": 1349,
+    "compressed": 443
+  },
+  {
+    "path": "Payload/SnapWords.app/de.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/de.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/de.lproj/nlu.appintents/721055a7ab1784a89a1921281db20006.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/de.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2246,
+    "compressed": 2246
+  },
+  {
+    "path": "Payload/SnapWords.app/de.lproj/Localizable.strings",
+    "size": 128704,
+    "compressed": 50437
+  },
+  {
+    "path": "Payload/SnapWords.app/de.lproj/InfoPlist.strings",
+    "size": 2223,
+    "compressed": 869
+  },
+  {
+    "path": "Payload/SnapWords.app/Jennifer.json",
+    "size": 6933,
+    "compressed": 2499
+  },
+  {
+    "path": "Payload/SnapWords.app/FlashCardStickerJSON3.json",
+    "size": 1719,
+    "compressed": 356
+  },
+  {
+    "path": "Payload/SnapWords.app/gruut_lexicon_regional_overlays_v2.json",
+    "size": 474,
+    "compressed": 267
+  },
+  {
+    "path": "Payload/SnapWords.app/ZIPFoundation_ZIPFoundation.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/ZIPFoundation_ZIPFoundation.bundle/Info.plist",
+    "size": 700,
+    "compressed": 511
+  },
+  {
+    "path": "Payload/SnapWords.app/ZIPFoundation_ZIPFoundation.bundle/PrivacyInfo.xcprivacy",
+    "size": 599,
+    "compressed": 283
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry_ru.json",
+    "size": 6916,
+    "compressed": 2459
+  },
+  {
+    "path": "Payload/SnapWords.app/4.wav",
+    "size": 170400,
+    "compressed": 47198
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON10.json",
+    "size": 1220,
+    "compressed": 386
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Environment.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist",
+    "size": 732,
+    "compressed": 517
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy",
+    "size": 855,
+    "compressed": 300
+  },
+  {
+    "path": "Payload/SnapWords.app/StoreKitTestCertificate.cer",
+    "size": 888,
+    "compressed": 732
+  },
+  {
+    "path": "Payload/SnapWords.app/Andre.json",
+    "size": 6882,
+    "compressed": 2489
+  },
+  {
+    "path": "Payload/SnapWords.app/AppIcon76x76@2x~ipad.png",
+    "size": 34569,
+    "compressed": 34495
+  },
+  {
+    "path": "Payload/SnapWords.app/RadioGol.json",
+    "size": 6920,
+    "compressed": 2491
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry_fr.json",
+    "size": 6955,
+    "compressed": 2489
+  },
+  {
+    "path": "Payload/SnapWords.app/5.wav",
+    "size": 170400,
+    "compressed": 38381
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/_CodeSignature/CodeResources",
+    "size": 4192,
+    "compressed": 1035
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Info.plist",
+    "size": 1059,
+    "compressed": 726
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Metadata.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Metadata.appintents/version.json",
+    "size": 53,
+    "compressed": 44
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Metadata.appintents/nlu/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Metadata.appintents/nlu/nlu.lzfse",
+    "size": 2196,
+    "compressed": 2196
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Metadata.appintents/nlu/a0177f8a20e12d99d01d60079fd80929.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/Metadata.appintents/extract.actionsdata",
+    "size": 3039,
+    "compressed": 713
+  },
+  {
+    "path": "Payload/SnapWords.app/ru.json",
+    "size": 171705,
+    "compressed": 44712
+  },
+  {
+    "path": "Payload/SnapWords.app/Alek.json",
+    "size": 6892,
+    "compressed": 2493
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON6.json",
+    "size": 1246,
+    "compressed": 388
+  },
+  {
+    "path": "Payload/SnapWords.app/RadioGol_pt.json",
+    "size": 6923,
+    "compressed": 2495
+  },
+  {
+    "path": "Payload/SnapWords.app/Rocky.json",
+    "size": 6942,
+    "compressed": 2504
+  },
+  {
+    "path": "Payload/SnapWords.app/FlashCardStickerJSON1.json",
+    "size": 1726,
+    "compressed": 365
+  },
+  {
+    "path": "Payload/SnapWords.app/Emilien_fr.json",
+    "size": 6918,
+    "compressed": 2495
+  },
+  {
+    "path": "Payload/SnapWords.app/SnapWords.momd/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/SnapWords.momd/SnapWords.mom",
+    "size": 10800,
+    "compressed": 6074
+  },
+  {
+    "path": "Payload/SnapWords.app/SnapWords.momd/VersionInfo.plist",
+    "size": 634,
+    "compressed": 548
+  },
+  {
+    "path": "Payload/SnapWords.app/SnapWords.momd/SnapWords.omo",
+    "size": 23920,
+    "compressed": 5871
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Network.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist",
+    "size": 724,
+    "compressed": 515
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy",
+    "size": 856,
+    "compressed": 299
+  },
+  {
+    "path": "Payload/SnapWords.app/StickerJSON6.json",
+    "size": 1252,
+    "compressed": 394
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist",
+    "size": 734,
+    "compressed": 518
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy",
+    "size": 911,
+    "compressed": 308
+  },
+  {
+    "path": "Payload/SnapWords.app/6.wav",
+    "size": 276872,
+    "compressed": 116539
+  },
+  {
+    "path": "Payload/SnapWords.app/zh.json",
+    "size": 86789,
+    "compressed": 41049
+  },
+  {
+    "path": "Payload/SnapWords.app/NeutralLaunchScreen.storyboardc/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/NeutralLaunchScreen.storyboardc/Info.plist",
+    "size": 258,
+    "compressed": 149
+  },
+  {
+    "path": "Payload/SnapWords.app/NeutralLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib",
+    "size": 924,
+    "compressed": 605
+  },
+  {
+    "path": "Payload/SnapWords.app/NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+    "size": 2605,
+    "compressed": 1458
+  },
+  {
+    "path": "Payload/SnapWords.app/Metadata.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Metadata.appintents/version.json",
+    "size": 53,
+    "compressed": 44
+  },
+  {
+    "path": "Payload/SnapWords.app/Metadata.appintents/extract.actionsdata",
+    "size": 5614,
+    "compressed": 1004
+  },
+  {
+    "path": "Payload/SnapWords.app/open_lexicon_seed_ja_v1.json.gz",
+    "size": 3640829,
+    "compressed": 3632934
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/Assets.car",
+    "size": 10107896,
+    "compressed": 9943266
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/_CodeSignature/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/_CodeSignature/CodeResources",
+    "size": 15973,
+    "compressed": 2611
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ko.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ko.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ko.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2275,
+    "compressed": 2275
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ko.lproj/nlu.appintents/de793f624350d845cfbc4ba1be4ff06a.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ko.lproj/Localizable.strings",
+    "size": 8109,
+    "compressed": 4120
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hant.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hant.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hant.lproj/nlu.appintents/nlu.lzfse",
+    "size": 300,
+    "compressed": 295
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hant.lproj/nlu.appintents/c503522beaf4298b3575fdda70c22e67.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hant.lproj/Localizable.strings",
+    "size": 7057,
+    "compressed": 3788
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/Info.plist",
+    "size": 929,
+    "compressed": 637
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/es.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/es.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/es.lproj/nlu.appintents/bda5a448808763043f42cbae8ee57833.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/es.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2271,
+    "compressed": 2271
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/es.lproj/Localizable.strings",
+    "size": 10366,
+    "compressed": 4518
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/en.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/en.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/en.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2158,
+    "compressed": 2158
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/en.lproj/nlu.appintents/94faeac16ad67c3ac7769c42f5a5e274.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/en.lproj/Localizable.strings",
+    "size": 7040,
+    "compressed": 3250
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ja.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ja.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ja.lproj/nlu.appintents/0e3507509f9321e6f81e93e1c29d8a0d.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ja.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2372,
+    "compressed": 2372
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/ja.lproj/Localizable.strings",
+    "size": 7733,
+    "compressed": 3923
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hans.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hans.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hans.lproj/nlu.appintents/nlu.lzfse",
+    "size": 301,
+    "compressed": 295
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hans.lproj/nlu.appintents/02e925d2f7e1f860d4b1e1fd7e0796e1.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/zh-Hans.lproj/Localizable.strings",
+    "size": 7047,
+    "compressed": 3763
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/it.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/it.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/it.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2237,
+    "compressed": 2237
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/it.lproj/nlu.appintents/1cc09d2fe77cb2f3e614376ad4cc4fd1.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/it.lproj/Localizable.strings",
+    "size": 8817,
+    "compressed": 4187
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/fr.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/fr.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/fr.lproj/nlu.appintents/6f81facdb8d21f33891e961b65e3a0e5.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/fr.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2276,
+    "compressed": 2276
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/fr.lproj/Localizable.strings",
+    "size": 10334,
+    "compressed": 4530
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/de.lproj/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/de.lproj/nlu.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/de.lproj/nlu.appintents/nlu.lzfse",
+    "size": 2273,
+    "compressed": 2273
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/de.lproj/nlu.appintents/dce2b438e0c26cd6f671d1552f1dc391.version",
+    "size": 1,
+    "compressed": 1
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/de.lproj/Localizable.strings",
+    "size": 9267,
+    "compressed": 4352
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/Metadata.appintents/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/Metadata.appintents/version.json",
+    "size": 53,
+    "compressed": 44
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/Metadata.appintents/extract.actionsdata",
+    "size": 5733,
+    "compressed": 1021
+  },
+  {
+    "path": "Payload/SnapWords.app/InstrumentSerif-Regular.ttf",
+    "size": 69312,
+    "compressed": 35631
+  },
+  {
+    "path": "Payload/SnapWords.app/open_lexicon_seed_pt_v1.json.gz",
+    "size": 652185,
+    "compressed": 652285
+  },
+  {
+    "path": "Payload/SnapWords.app/7.mp3",
+    "size": 81408,
+    "compressed": 79160
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleDataTransport_GoogleDataTransport.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist",
+    "size": 724,
+    "compressed": 515
+  },
+  {
+    "path": "Payload/SnapWords.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy",
+    "size": 1105,
+    "compressed": 321
+  },
+  {
+    "path": "Payload/SnapWords.app/Ryan_ko.json",
+    "size": 6908,
+    "compressed": 2480
+  },
+  {
+    "path": "Payload/SnapWords.app/StickerJSON1.json",
+    "size": 1256,
+    "compressed": 399
+  },
+  {
+    "path": "Payload/SnapWords.app/id.json",
+    "size": 96465,
+    "compressed": 37080
+  },
+  {
+    "path": "Payload/SnapWords.app/Promises_FBLPromises.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Promises_FBLPromises.bundle/Info.plist",
+    "size": 686,
+    "compressed": 504
+  },
+  {
+    "path": "Payload/SnapWords.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy",
+    "size": 373,
+    "compressed": 224
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_leaf_right.pag",
+    "size": 2302,
+    "compressed": 1156
+  },
+  {
+    "path": "Payload/SnapWords.app/StickerJSON4.json",
+    "size": 1261,
+    "compressed": 403
+  },
+  {
+    "path": "Payload/SnapWords.app/Cherry_it.json",
+    "size": 6950,
+    "compressed": 2488
+  },
+  {
+    "path": "Payload/SnapWords.app/swift-composable-architecture_ComposableArchitecture.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/swift-composable-architecture_ComposableArchitecture.bundle/Info.plist",
+    "size": 750,
+    "compressed": 523
+  },
+  {
+    "path": "Payload/SnapWords.app/swift-composable-architecture_ComposableArchitecture.bundle/PrivacyInfo.xcprivacy",
+    "size": 598,
+    "compressed": 289
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCrashlytics.bundle/",
+    "size": 0,
+    "compressed": 0
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCrashlytics.bundle/Info.plist",
+    "size": 710,
+    "compressed": 517
+  },
+  {
+    "path": "Payload/SnapWords.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy",
+    "size": 1383,
+    "compressed": 367
+  },
+  {
+    "path": "Payload/SnapWords.app/purchase_avatar_item_pag2.pag",
+    "size": 242344,
+    "compressed": 241461
+  },
+  {
+    "path": "Payload/SnapWords.app/vi.json",
+    "size": 80769,
+    "compressed": 33623
+  },
+  {
+    "path": "Payload/SnapWords.app/default_yue.json",
+    "size": 6948,
+    "compressed": 2510
+  },
+  {
+    "path": "Payload/SnapWords.app/FlashCardStickerJSON4.json",
+    "size": 1598,
+    "compressed": 240
+  },
+  {
+    "path": "Payload/SnapWords.app/whatsnew_3_en.GIF",
+    "size": 3795536,
+    "compressed": 3716834
+  },
+  {
+    "path": "Payload/SnapWords.app/9.wav",
+    "size": 425936,
+    "compressed": 281448
+  },
+  {
+    "path": "Payload/SnapWords.app/TestStickerJSON4.json",
+    "size": 1304,
+    "compressed": 411
+  },
+  {
+    "path": "Payload/SnapWords.app/utilities.py",
+    "size": 162,
+    "compressed": 102
+  },
+  {
+    "path": "Payload/SnapWords.app/SnapWords",
+    "size": 35766272,
+    "compressed": 15342640
+  },
+  {
+    "path": "Payload/SnapWords.app/Extensions/SnapWordsCaptureExtension.appex/SnapWordsCaptureExtension",
+    "size": 131072,
+    "compressed": 14776
+  },
+  {
+    "path": "Payload/SnapWords.app/PlugIns/SnapWordsWidgetExtension.appex/SnapWordsWidgetExtension",
+    "size": 1196032,
+    "compressed": 466230
+  },
+  {
+    "path": "Payload/SnapWords.app/Frameworks/zxPluginsInject.dylib",
+    "size": 70368,
+    "compressed": 7616
+  }
+]

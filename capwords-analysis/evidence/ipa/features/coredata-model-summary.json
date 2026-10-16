@@ -1,0 +1,119 @@
+[
+  {
+    "entity": "UserMemory",
+    "class": "UserMemory",
+    "properties": [
+      "lastReferencedAt",
+      "sourceSessionUUID",
+      "fact",
+      "confidence",
+      "category",
+      "uuid",
+      "referenceCount",
+      "createdAt"
+    ]
+  },
+  {
+    "entity": "ChatSession",
+    "class": "ChatSession",
+    "properties": [
+      "fluencyScore",
+      "characterID",
+      "earnedXP",
+      "uuid",
+      "sourceType",
+      "messages",
+      "endDate",
+      "dateString",
+      "level",
+      "streakDays",
+      "turnCount",
+      "language",
+      "sourceCategory",
+      "startDate",
+      "diaryDateString",
+      "messageCount",
+      "mentionedStickerCount"
+    ]
+  },
+  {
+    "entity": "DailyRecorder",
+    "class": "DailyRecorder",
+    "properties": [
+      "dateString",
+      "learnedStickers",
+      "forgottenCount",
+      "masteredCount",
+      "stickerCount",
+      "date"
+    ]
+  },
+  {
+    "entity": "AudioCheckinRecord",
+    "class": "AudioCheckinRecord",
+    "properties": [
+      "date",
+      "dateString"
+    ]
+  },
+  {
+    "entity": "ChatMessage",
+    "class": "ChatMessage",
+    "properties": [
+      "uuid",
+      "isFinal",
+      "rawText",
+      "timestamp",
+      "translatedText",
+      "session",
+      "mentionedWords",
+      "order",
+      "text",
+      "mentionedWordRanges",
+      "mentionedStickers",
+      "sender",
+      "kind"
+    ]
+  },
+  {
+    "entity": "StickerItem",
+    "class": "StickerItem",
+    "properties": [
+      "nextReviewDate",
+      "reviewStage",
+      "isCorrect",
+      "dailyRecorderSortIndex",
+      "lastReviewDate",
+      "uuid",
+      "imageData",
+      "originalImageData",
+      "isVideoGif",
+      "isMastered",
+      "croppedImageHeight",
+      "isScene",
+      "gifData",
+      "isLearned",
+      "isLookupSaved",
+      "reviewCount",
+      "chatMessages",
+      "stickerInfo",
+      "croppedImageWidth",
+      "createDate",
+      "order",
+      "dailyRecords"
+    ]
+  },
+  {
+    "entity": "User",
+    "class": "User",
+    "properties": [
+      "gender",
+      "avatarData",
+      "userName",
+      "chatStartingXP",
+      "uuid",
+      "flashcardCount",
+      "streakDays"
+    ]
+  }
+]

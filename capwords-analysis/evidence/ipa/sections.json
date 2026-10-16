@@ -1,0 +1,429 @@
+[
+  {
+    "name": "__text",
+    "segment": "__TEXT",
+    "address": 4294983680,
+    "size": 24603488,
+    "offset": 16384
+  },
+  {
+    "name": "__stubs",
+    "segment": "__TEXT",
+    "address": 4319587168,
+    "size": 45336,
+    "offset": 24619872
+  },
+  {
+    "name": "__objc_stubs",
+    "segment": "__TEXT",
+    "address": 4319632512,
+    "size": 178176,
+    "offset": 24665216
+  },
+  {
+    "name": "__init_offsets",
+    "segment": "__TEXT",
+    "address": 4319810688,
+    "size": 128,
+    "offset": 24843392
+  },
+  {
+    "name": "__objc_methlist",
+    "segment": "__TEXT",
+    "address": 4319810816,
+    "size": 134792,
+    "offset": 24843520
+  },
+  {
+    "name": "__gcc_except_tab",
+    "segment": "__TEXT",
+    "address": 4319945608,
+    "size": 36980,
+    "offset": 24978312
+  },
+  {
+    "name": "__objc_methname",
+    "segment": "__TEXT",
+    "address": 4319982592,
+    "size": 327695,
+    "offset": 25015296
+  },
+  {
+    "name": "__const",
+    "segment": "__TEXT",
+    "address": 4320310336,
+    "size": 904911,
+    "offset": 25343040
+  },
+  {
+    "name": "__objc_classname",
+    "segment": "__TEXT",
+    "address": 4321215248,
+    "size": 56925,
+    "offset": 26247952
+  },
+  {
+    "name": "__objc_methtype",
+    "segment": "__TEXT",
+    "address": 4321272176,
+    "size": 53268,
+    "offset": 26304880
+  },
+  {
+    "name": "__cstring",
+    "segment": "__TEXT",
+    "address": 4321325456,
+    "size": 920609,
+    "offset": 26358160
+  },
+  {
+    "name": "__swift5_typeref",
+    "segment": "__TEXT",
+    "address": 4322246080,
+    "size": 1913521,
+    "offset": 27278784
+  },
+  {
+    "name": "__constg_swiftt",
+    "segment": "__TEXT",
+    "address": 4324159604,
+    "size": 269920,
+    "offset": 29192308
+  },
+  {
+    "name": "__swift5_reflstr",
+    "segment": "__TEXT",
+    "address": 4324429536,
+    "size": 285588,
+    "offset": 29462240
+  },
+  {
+    "name": "__swift5_fieldmd",
+    "segment": "__TEXT",
+    "address": 4324715124,
+    "size": 286208,
+    "offset": 29747828
+  },
+  {
+    "name": "__swift5_builtin",
+    "segment": "__TEXT",
+    "address": 4325001332,
+    "size": 7180,
+    "offset": 30034036
+  },
+  {
+    "name": "__swift5_assocty",
+    "segment": "__TEXT",
+    "address": 4325008512,
+    "size": 41792,
+    "offset": 30041216
+  },
+  {
+    "name": "__swift5_proto",
+    "segment": "__TEXT",
+    "address": 4325050304,
+    "size": 31960,
+    "offset": 30083008
+  },
+  {
+    "name": "__swift5_types",
+    "segment": "__TEXT",
+    "address": 4325082264,
+    "size": 16124,
+    "offset": 30114968
+  },
+  {
+    "name": "__swift5_capture",
+    "segment": "__TEXT",
+    "address": 4325098388,
+    "size": 175600,
+    "offset": 30131092
+  },
+  {
+    "name": "__swift5_entry",
+    "segment": "__TEXT",
+    "address": 4325273988,
+    "size": 8,
+    "offset": 30306692
+  },
+  {
+    "name": "__swift_as_entry",
+    "segment": "__TEXT",
+    "address": 4325273996,
+    "size": 5980,
+    "offset": 30306700
+  },
+  {
+    "name": "__swift_as_ret",
+    "segment": "__TEXT",
+    "address": 4325279976,
+    "size": 6708,
+    "offset": 30312680
+  },
+  {
+    "name": "__swift_as_cont",
+    "segment": "__TEXT",
+    "address": 4325286684,
+    "size": 16164,
+    "offset": 30319388
+  },
+  {
+    "name": "__swift5_protos",
+    "segment": "__TEXT",
+    "address": 4325302848,
+    "size": 1124,
+    "offset": 30335552
+  },
+  {
+    "name": "__swift5_mpenum",
+    "segment": "__TEXT",
+    "address": 4325303972,
+    "size": 1508,
+    "offset": 30336676
+  },
+  {
+    "name": "__swift5_types2",
+    "segment": "__TEXT",
+    "address": 4325305480,
+    "size": 4,
+    "offset": 30338184
+  },
+  {
+    "name": "__ustring",
+    "segment": "__TEXT",
+    "address": 4325305484,
+    "size": 42,
+    "offset": 30338188
+  },
+  {
+    "name": "__unwind_info",
+    "segment": "__TEXT",
+    "address": 4325305528,
+    "size": 323128,
+    "offset": 30338232
+  },
+  {
+    "name": "__eh_frame",
+    "segment": "__TEXT",
+    "address": 4325628656,
+    "size": 396556,
+    "offset": 30661360
+  },
+  {
+    "name": "__oslogstring",
+    "segment": "__TEXT",
+    "address": 4326031360,
+    "size": 559,
+    "offset": 31064064
+  },
+  {
+    "name": "__const",
+    "segment": "__DATA_CONST",
+    "address": 4326047744,
+    "size": 901000,
+    "offset": 31080448
+  },
+  {
+    "name": "__cfstring",
+    "segment": "__DATA_CONST",
+    "address": 4326948744,
+    "size": 143200,
+    "offset": 31981448
+  },
+  {
+    "name": "__objc_classlist",
+    "segment": "__DATA_CONST",
+    "address": 4327091944,
+    "size": 9824,
+    "offset": 32124648
+  },
+  {
+    "name": "__objc_nlclslist",
+    "segment": "__DATA_CONST",
+    "address": 4327101768,
+    "size": 96,
+    "offset": 32134472
+  },
+  {
+    "name": "__objc_catlist",
+    "segment": "__DATA_CONST",
+    "address": 4327101864,
+    "size": 80,
+    "offset": 32134568
+  },
+  {
+    "name": "__objc_nlcatlist",
+    "segment": "__DATA_CONST",
+    "address": 4327101944,
+    "size": 8,
+    "offset": 32134648
+  },
+  {
+    "name": "__objc_protolist",
+    "segment": "__DATA_CONST",
+    "address": 4327101952,
+    "size": 2120,
+    "offset": 32134656
+  },
+  {
+    "name": "__objc_imageinfo",
+    "segment": "__DATA_CONST",
+    "address": 4327104072,
+    "size": 8,
+    "offset": 32136776
+  },
+  {
+    "name": "__objc_intobj",
+    "segment": "__DATA_CONST",
+    "address": 4327104080,
+    "size": 1248,
+    "offset": 32136784
+  },
+  {
+    "name": "__objc_arraydata",
+    "segment": "__DATA_CONST",
+    "address": 4327105328,
+    "size": 536,
+    "offset": 32138032
+  },
+  {
+    "name": "__objc_arrayobj",
+    "segment": "__DATA_CONST",
+    "address": 4327105864,
+    "size": 144,
+    "offset": 32138568
+  },
+  {
+    "name": "__objc_dictobj",
+    "segment": "__DATA_CONST",
+    "address": 4327106008,
+    "size": 80,
+    "offset": 32138712
+  },
+  {
+    "name": "__got",
+    "segment": "__DATA_CONST",
+    "address": 4327106088,
+    "size": 62976,
+    "offset": 32138792
+  },
+  {
+    "name": "__objc_const",
+    "segment": "__DATA",
+    "address": 4327178240,
+    "size": 425744,
+    "offset": 32210944
+  },
+  {
+    "name": "__objc_selrefs",
+    "segment": "__DATA",
+    "address": 4327603984,
+    "size": 60488,
+    "offset": 32636688
+  },
+  {
+    "name": "__objc_protorefs",
+    "segment": "__DATA",
+    "address": 4327664472,
+    "size": 952,
+    "offset": 32697176
+  },
+  {
+    "name": "__objc_classrefs",
+    "segment": "__DATA",
+    "address": 4327665424,
+    "size": 5752,
+    "offset": 32698128
+  },
+  {
+    "name": "__objc_superrefs",
+    "segment": "__DATA",
+    "address": 4327671176,
+    "size": 2632,
+    "offset": 32703880
+  },
+  {
+    "name": "__objc_ivar",
+    "segment": "__DATA",
+    "address": 4327673808,
+    "size": 5932,
+    "offset": 32706512
+  },
+  {
+    "name": "__objc_data",
+    "segment": "__DATA",
+    "address": 4327679744,
+    "size": 148448,
+    "offset": 32712448
+  },
+  {
+    "name": "__data",
+    "segment": "__DATA",
+    "address": 4327828192,
+    "size": 624261,
+    "offset": 32860896
+  },
+  {
+    "name": "__objc_stublist",
+    "segment": "__DATA",
+    "address": 4328452456,
+    "size": 16,
+    "offset": 33485160
+  },
+  {
+    "name": "__swift_hooks",
+    "segment": "__DATA",
+    "address": 4328452472,
+    "size": 184,
+    "offset": 33485176
+  },
+  {
+    "name": "__swift51_hooks",
+    "segment": "__DATA",
+    "address": 4328452656,
+    "size": 184,
+    "offset": 33485360
+  },
+  {
+    "name": "__s_async_hook",
+    "segment": "__DATA",
+    "address": 4328452840,
+    "size": 416,
+    "offset": 33485544
+  },
+  {
+    "name": "__swift56_hooks",
+    "segment": "__DATA",
+    "address": 4328453256,
+    "size": 176,
+    "offset": 33485960
+  },
+  {
+    "name": "__thread_vars",
+    "segment": "__DATA",
+    "address": 4328453432,
+    "size": 192,
+    "offset": 33486136
+  },
+  {
+    "name": "__thread_bss",
+    "segment": "__DATA",
+    "address": 4328453624,
+    "size": 64,
+    "offset": 0
+  },
+  {
+    "name": "__bss",
+    "segment": "__DATA",
+    "address": 4328453696,
+    "size": 959808,
+    "offset": 0
+  },
+  {
+    "name": "__common",
+    "segment": "__DATA",
+    "address": 4329413504,
+    "size": 82144,
+    "offset": 0
+  }
+]

@@ -1,0 +1,2194 @@
+[
+  {
+    "offset": "0x2878",
+    "text": "/System/Library/Frameworks/Vision.framework/Vision"
+  },
+  {
+    "offset": "0x33c0",
+    "text": "/usr/lib/swift/libswiftVision.dylib"
+  },
+  {
+    "offset": "0x17db8e0",
+    "text": "$__lazy_storage_$_focusTapGestureRecognizer"
+  },
+  {
+    "offset": "0x17dbc70",
+    "text": "$__lazy_storage_$_pinchZoomGestureRecognizer"
+  },
+  {
+    "offset": "0x17dbed0",
+    "text": "$__lazy_storage_$_switchCameraDoubleTapGestureRecognizer"
+  },
+  {
+    "offset": "0x17dc7bb",
+    "text": "_recognizerTask"
+  },
+  {
+    "offset": "0x17dcf80",
+    "text": "appForegrounded"
+  },
+  {
+    "offset": "0x17e3de4",
+    "text": "applicationWillEnterForeground:"
+  },
+  {
+    "offset": "0x17e5347",
+    "text": "generateMaskForInstances:error:"
+  },
+  {
+    "offset": "0x17e5a78",
+    "text": "interactivePopGestureRecognizer"
+  },
+  {
+    "offset": "0x17e72cf",
+    "text": "requireGestureRecognizerToFail:"
+  },
+  {
+    "offset": "0x17e75aa",
+    "text": "segment"
+  },
+  {
+    "offset": "0x17e7d32",
+    "text": "T@\"UIImageView\",&,N,V_foregroundImageView"
+  },
+  {
+    "offset": "0x17e7d78",
+    "text": "T@\"UIPanGestureRecognizer\",&,N,V_gridPanGestureRecognizer"
+  },
+  {
+    "offset": "0x17e7dcd",
+    "text": "T@\"UIView\",&,N,V_foregroundContainerView"
+  },
+  {
+    "offset": "0x17e7e23",
+    "text": "setOffsetIntoBinaryTextSegment:"
+  },
+  {
+    "offset": "0x17e9a70",
+    "text": "Tq,N,R,Vrevision"
+  },
+  {
+    "offset": "0x17e9e8a",
+    "text": "Tq,V_offsetIntoBinaryTextSegment"
+  },
+  {
+    "offset": "0x17ecb50",
+    "text": "_currentRecognizedText"
+  },
+  {
+    "offset": "0x17ed8b4",
+    "text": "_foregroundContainerView"
+  },
+  {
+    "offset": "0x17ed8cd",
+    "text": "_foregroundImageView"
+  },
+  {
+    "offset": "0x17eda79",
+    "text": "_gridPanGestureRecognizer"
+  },
+  {
+    "offset": "0x17ee326",
+    "text": "_isRecognizing"
+  },
+  {
+    "offset": "0x17ef1ae",
+    "text": "_offsetIntoBinaryTextSegment"
+  },
+  {
+    "offset": "0x17f1fda",
+    "text": "addGestureRecognizer:"
+  },
+  {
+    "offset": "0x17f3300",
+    "text": "appWillForeground:"
+  },
+  {
+    "offset": "0x17f4097",
+    "text": "applicationWillEnterForeground"
+  },
+  {
+    "offset": "0x17f40b6",
+    "text": "applicationWillEnterForegroundNotification:"
+  },
+  {
+    "offset": "0x17f61b0",
+    "text": "cachedPlaybackSegments"
+  },
+  {
+    "offset": "0x17fa020",
+    "text": "continuityRevision"
+  },
+  {
+    "offset": "0x17fe381",
+    "text": "doesNotRecognizeSelector:"
+  },
+  {
+    "offset": "0x1801380",
+    "text": "foregroundActivityCount"
+  },
+  {
+    "offset": "0x18013a0",
+    "text": "foregroundActivityLock"
+  },
+  {
+    "offset": "0x18013b7",
+    "text": "foregroundContainerView"
+  },
+  {
+    "offset": "0x18013cf",
+    "text": "foregroundImageView"
+  },
+  {
+    "offset": "0x1801a48",
+    "text": "generateMaskedImageOfInstances:fromRequestHandler:croppedToInstancesExtent:error:"
+  },
+  {
+    "offset": "0x1801c38",
+    "text": "gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:"
+  },
+  {
+    "offset": "0x1801c80",
+    "text": "gestureRecognizer:shouldReceiveEvent:"
+  },
+  {
+    "offset": "0x1801caa",
+    "text": "gestureRecognizer:shouldReceivePress:"
+  },
+  {
+    "offset": "0x1801cd4",
+    "text": "gestureRecognizer:shouldReceiveTouch:"
+  },
+  {
+    "offset": "0x1801d06",
+    "text": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:"
+  },
+  {
+    "offset": "0x1801d4c",
+    "text": "gestureRecognizer:shouldRequireFailureOfGestureRecognizer:"
+  },
+  {
+    "offset": "0x1801d88",
+    "text": "gestureRecognizerShouldBegin:"
+  },
+  {
+    "offset": "0x1801da6",
+    "text": "gestureRecognizers"
+  },
+  {
+    "offset": "0x1802830",
+    "text": "gridPanGestureRecognized:"
+  },
+  {
+    "offset": "0x180284a",
+    "text": "gridPanGestureRecognizer"
+  },
+  {
+    "offset": "0x18029de",
+    "text": "handleAppWillEnterForegroundNotification:"
+  },
+  {
+    "offset": "0x1803ee4",
+    "text": "iOSApplicationWillEnterForeground:"
+  },
+  {
+    "offset": "0x1805f54",
+    "text": "initWithForegroundColor:backgroundColor:flag:context:"
+  },
+  {
+    "offset": "0x1807819",
+    "text": "initWithRevision:ruleId:"
+  },
+  {
+    "offset": "0x180899d",
+    "text": "instanceMask"
+  },
+  {
+    "offset": "0x1809e2e",
+    "text": "isFormattingWithFormatter:"
+  },
+  {
+    "offset": "0x180a026",
+    "text": "isInForeground"
+  },
+  {
+    "offset": "0x180e1b1",
+    "text": "longPressGestureRecognized:"
+  },
+  {
+    "offset": "0x180e7b3",
+    "text": "matchForegroundToBackground"
+  },
+  {
+    "offset": "0x1811f11",
+    "text": "offsetIntoBinaryTextSegment"
+  },
+  {
+    "offset": "0x1813121",
+    "text": "panGestureRecognizer"
+  },
+  {
+    "offset": "0x1817a40",
+    "text": "recoveryRevision"
+  },
+  {
+    "offset": "0x1819e90",
+    "text": "restoreAllowsForegroundContinuation"
+  },
+  {
+    "offset": "0x181a312",
+    "text": "revision"
+  },
+  {
+    "offset": "0x181a327",
+    "text": "revisionId"
+  },
+  {
+    "offset": "0x181add4",
+    "text": "sceneWillEnterForeground:"
+  },
+  {
+    "offset": "0x181b692",
+    "text": "selectedSegmentIndex"
+  },
+  {
+    "offset": "0x181e8b8",
+    "text": "setForegroundColor:backgroundColor:forFlag:"
+  },
+  {
+    "offset": "0x181e8e4",
+    "text": "setForegroundColor:backgroundColor:forFlag:context:"
+  },
+  {
+    "offset": "0x181e918",
+    "text": "setForegroundColor:backgroundColor:forTag:"
+  },
+  {
+    "offset": "0x181e943",
+    "text": "setForegroundContainerView:"
+  },
+  {
+    "offset": "0x181e95f",
+    "text": "setForegroundImageView:"
+  },
+  {
+    "offset": "0x181edc0",
+    "text": "setGridPanGestureRecognizer:"
+  },
+  {
+    "offset": "0x182199a",
+    "text": "setSelectedSegmentIndex:"
+  },
+  {
+    "offset": "0x18234a1",
+    "text": "setZeroFormattingBehavior:"
+  },
+  {
+    "offset": "0x1823c50",
+    "text": "shouldResumeAnimationAfterForeground"
+  },
+  {
+    "offset": "0x18248b0",
+    "text": "speechRecognizer"
+  },
+  {
+    "offset": "0x18248c7",
+    "text": "speechRecognizer:availabilityDidChange:"
+  },
+  {
+    "offset": "0x1825da0",
+    "text": "subscribeForAppForegroundBackgroundNotifications"
+  },
+  {
+    "offset": "0x1826eab",
+    "text": "textView:didBeginFormattingWithViewController:"
+  },
+  {
+    "offset": "0x1826ee8",
+    "text": "textView:didEndFormattingWithViewController:"
+  },
+  {
+    "offset": "0x18271cb",
+    "text": "textView:willBeginFormattingWithViewController:"
+  },
+  {
+    "offset": "0x182723a",
+    "text": "textView:willEndFormattingWithViewController:"
+  },
+  {
+    "offset": "0x182a7b8",
+    "text": "willEnterForegroundNotification:"
+  },
+  {
+    "offset": "0x182c240",
+    "text": "SFSpeechRecognizerAuthorizationStatus"
+  },
+  {
+    "offset": "0x182cd60",
+    "text": "Vision"
+  },
+  {
+    "offset": "0x184805e",
+    "text": "Segment"
+  },
+  {
+    "offset": "0x185ed6f",
+    "text": "?StickerCutoutOutlineView"
+  },
+  {
+    "offset": "0x185ef00",
+    "text": "StickerCutoutOutlineImageView"
+  },
+  {
+    "offset": "0x185fac0",
+    "text": "VisionManagerError"
+  },
+  {
+    "offset": "0x185fb05",
+    "text": "VisionManager"
+  },
+  {
+    "offset": "0x185fe60",
+    "text": "ChatBatchRecognizedDraft"
+  },
+  {
+    "offset": "0x18609c0",
+    "text": "ChatBatchRecognizedStickerView"
+  },
+  {
+    "offset": "0x1860a00",
+    "text": "ChatBatchRecognizedSceneView"
+  },
+  {
+    "offset": "0x187e430",
+    "text": "PCM16AudioSegment"
+  },
+  {
+    "offset": "0x188dc90",
+    "text": "VideoVisionPromptView"
+  },
+  {
+    "offset": "0x188dd00",
+    "text": "VisionPromptView"
+  },
+  {
+    "offset": "0x189ede0",
+    "text": "StickerForegroundPayloadLease"
+  },
+  {
+    "offset": "0x18ee266",
+    "text": "NUIGestureRecognizerState"
+  },
+  {
+    "offset": "0x18ee320",
+    "text": "SFSpeechRecognizerAuthorizationStatus"
+  },
+  {
+    "offset": "0x18f8be0",
+    "text": "selectedSegmentIndex"
+  },
+  {
+    "offset": "0x18fbce0",
+    "text": "AIzaSyB4G40IhwotnuD26vAV-0PAxOVrhttps://firebaselogging.googleapis.com/v0cc/log/logging-pa.googleapis.com/v1/firelog/legacy/batchttps://crashlyticsreports-pa.googleapis.com/v1/firelog/legacy/b"
+  },
+  {
+    "offset": "0x1905fab",
+    "text": "TLSV1_ALERT_UNRECOGNIZED_NAME"
+  },
+  {
+    "offset": "0x1908ded",
+    "text": "UIGestureRecognizerDelegate"
+  },
+  {
+    "offset": "0x19093de",
+    "text": "SFSpeechRecognizerDelegate"
+  },
+  {
+    "offset": "0x190ac60",
+    "text": "_TtC9SnapWords24StickerCutoutOutlineView"
+  },
+  {
+    "offset": "0x190ad10",
+    "text": "_TtCV9SnapWords29StickerCutoutOutlineImageView11Coordinator"
+  },
+  {
+    "offset": "0x190daa0",
+    "text": "_TtC9SnapWordsP33_369FAEDA59E214752D142CFF9E8EC1FD29StickerForegroundPayloadLease"
+  },
+  {
+    "offset": "0x1919fdb",
+    "text": "v28@0:8@\"SFSpeechRecognizer\"16B24"
+  },
+  {
+    "offset": "0x191b470",
+    "text": "B24@0:8@\"UIGestureRecognizer\"16"
+  },
+  {
+    "offset": "0x191b490",
+    "text": "B32@0:8@\"UIGestureRecognizer\"16@\"UIGestureRecognizer\"24"
+  },
+  {
+    "offset": "0x191b4c8",
+    "text": "B32@0:8@\"UIGestureRecognizer\"16@\"UITouch\"24"
+  },
+  {
+    "offset": "0x191b500",
+    "text": "B32@0:8@\"UIGestureRecognizer\"16@\"UIEvent\"24"
+  },
+  {
+    "offset": "0x191bc66",
+    "text": "v32@0:8@\"UITextView\"16@\"UITextFormattingViewController\"24"
+  },
+  {
+    "offset": "0x191bcd8",
+    "text": "B32@0:8@\"UIGestureRecognizer\"16@\"UIPress\"24"
+  },
+  {
+    "offset": "0x191e01c",
+    "text": "@\"UIPanGestureRecognizer\""
+  },
+  {
+    "offset": "0x1923410",
+    "text": "scene.will_enter_foreground"
+  },
+  {
+    "offset": "0x1925720",
+    "text": "isVisionAgain"
+  },
+  {
+    "offset": "0x1926f88",
+    "text": "vision"
+  },
+  {
+    "offset": "0x1927000",
+    "text": "https://app-api.zenshine.app"
+  },
+  {
+    "offset": "0x1927020",
+    "text": "google/gemini-3-flash"
+  },
+  {
+    "offset": "0x19270f0",
+    "text": "https://app-api.dtdstudio.com"
+  },
+  {
+    "offset": "0x1927af0",
+    "text": "openai/gpt-4o-mini"
+  },
+  {
+    "offset": "0x1934b80",
+    "text": "judge: zenshine.app / Gemini"
+  },
+  {
+    "offset": "0x1935c6a",
+    "text": "gemini"
+  },
+  {
+    "offset": "0x193d7d1",
+    "text": "stage1: visionPrompt"
+  },
+  {
+    "offset": "0x193d7f0",
+    "text": "stage1.visionPrompt.image"
+  },
+  {
+    "offset": "0x193d810",
+    "text": "LLM wait | stage1.visionPrompt.image: "
+  },
+  {
+    "offset": "0x194b400",
+    "text": "https://apps.apple.com/app/6738896465?action=write-review"
+  },
+  {
+    "offset": "0x1952610",
+    "text": "purchase.unrecognized_case"
+  },
+  {
+    "offset": "0x1952770",
+    "text": "storekit.unrecognized_case"
+  },
+  {
+    "offset": "0x19528b0",
+    "text": "unrecognized_case"
+  },
+  {
+    "offset": "0x1953930",
+    "text": "https://api.rc-backup.com/"
+  },
+  {
+    "offset": "0x1955020",
+    "text": "camera.vision_failed"
+  },
+  {
+    "offset": "0x1955040",
+    "text": "Tap to recognize the full image"
+  },
+  {
+    "offset": "0x1955090",
+    "text": "Sorry, we couldn't recognize the item. Please make sure the image is clear and try again"
+  },
+  {
+    "offset": "0x19550f0",
+    "text": "We couldn't recognize the image due to a network issue. Please check your connection and try again"
+  },
+  {
+    "offset": "0x1955420",
+    "text": "Tap to recognize this word"
+  },
+  {
+    "offset": "0x1955500",
+    "text": "Recognize this photo?"
+  },
+  {
+    "offset": "0x1955610",
+    "text": "Long press to recognize video"
+  },
+  {
+    "offset": "0x1955cc0",
+    "text": "SnapWords/StickerCutoutOutlineView.swift"
+  },
+  {
+    "offset": "0x1955f80",
+    "text": "vision_extraction"
+  },
+  {
+    "offset": "0x19561e0",
+    "text": "End-to-End Timing (visionSubjectFailed)"
+  },
+  {
+    "offset": "0x1956210",
+    "text": "visionSubjectExtraction"
+  },
+  {
+    "offset": "0x1956230",
+    "text": "visionEdgeExtraction"
+  },
+  {
+    "offset": "0x19563e0",
+    "text": "segmented_output_"
+  },
+  {
+    "offset": "0x1956500",
+    "text": "vision.edge_detection_failed"
+  },
+  {
+    "offset": "0x198c480",
+    "text": "\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "offset": "0x198c920",
+    "text": "\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+  },
+  {
+    "offset": "0x198c960",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M97 51.5221C97 64.7769 82.897 72 65.5 72C48.103 72 34 64.7769 34 51.5221C34 38.2672 42 20 65.5 20C89 20 97 38.2672 97 51.5221Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2751\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"34\" y=\"20\" width=\"63\" height=\"52\"><path d=\"M97 51.5221C97 64.7769 82.897 72 65.5 72C48.103 72 34 64.7769 34 51.5221C34 38.2672 42 20 65.5 20C89 20 97 38.2672 97 51.5221Z\" fill=\"black\"/></mask><g mask=\"url(#mask0_2751_2751)\"><path d=\"M86 73C86 86.8071 72.0619 98 60 98C47.9381 98 34 86.8071 34 73C34 59.1929 47.52 48 60 48C72.48 48 86 59.1929 86 73Z\" fill=\"#E54240\"/><rect x=\"42\" y=\"7\" width=\"48\" height=\"26\" rx=\"6\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198cc70",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M84 52.5221C84 65.7769 75.7173 72 65.5 72C55.2827 72 47 65.7769 47 52.5221C47 39.2672 52 24 65.5 24C79 24 84 39.2672 84 52.5221Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2820\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"47\" y=\"24\" width=\"37\" height=\"48\"><path d=\"M84 52.5221C84 65.7769 75.7173 72 65.5 72C55.2827 72 47 65.7769 47 52.5221C47 39.2672 52 24 65.5 24C79 24 84 39.2672 84 52.5221Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2820)\"><path d=\"M81 80C81 93.8071 67.0619 105 55 105C42.9381 105 29 93.8071 29 80C29 66.1929 42.52 55 55 55C67.48 55 81 66.1929 81 80Z\" fill=\"#E54240\"/><rect x=\"27\" y=\"7\" width=\"77\" height=\"26\" rx=\"6\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198cf80",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M98 44.7068C98 60.9542 83.4493 67 65.5 67C47.5507 67 33 60.0386 33 44.7068C33 29.375 47.5507 25 65.5 25C83.4493 25 98 28.4594 98 44.7068Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2814\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"33\" y=\"25\" width=\"65\" height=\"42\"><path d=\"M98 44.7068C98 60.9542 83.4493 67 65.5 67C47.5507 67 33 60.0386 33 44.7068C33 29.375 47.5507 25 65.5 25C83.4493 25 98 28.4594 98 44.7068Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2814)\"><path d=\"M79.8738 65.9052C72.293 75.6207 59.6645 79 47.7376 79C35.8107 79 19.5566 54.9224 42.7937 54.9224C66.0308 54.9224 34.8833 30 66.5252 30C89.2678 30 87.4547 56.1897 79.8738 65.9052Z\" fill=\"#E54240\"/><rect x=\"35\" y=\"9\" width=\"61\" height=\"26\" rx=\"6\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198d2e0",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M103 38.7013C103 46.9856 92 59 65.5 59C39 59 28 46.9856 28 38.7013C28 30.417 44.7893 29 65.5 29C86.2107 29 103 30.417 103 38.7013Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2808\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"28\" y=\"29\" width=\"75\" height=\"30\"><path d=\"M103 38.7013C103 46.9856 92 59 65.5 59C39 59 28 46.9856 28 38.7013C28 30.417 44.7893 29 65.5 29C86.2107 29 103 30.417 103 38.7013Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2808)\"><path d=\"M84.9845 56.0152C79.6623 66.6298 66.2428 70.6693 58.3633 66.7186C46.5 60.7703 45.6931 49.5977 51.0153 38.9831C56.3374 28.3685 69.4839 24.192 77.6365 28.2797C85.7891 32.3674 90.3066 45.4006 84.9845 56.0152Z\" fill=\"#E54240\"/><rect x=\"35\" y=\"13\" width=\"61\" height=\"26\" rx=\"6\" fill=\"#FEFAF4\"/><path d=\"M90 44C93.3137 44 96 44.6863 96 48C96 53.4673 96 64 96 64C96 67.3137 93.3137 70 90 70H41C37.6863 70 35 67.3137 35 64C35 64 35 53.4673 35 48C35 44.6863 37.6863 44 41 44H41.6063C43.8472 44 45.8309 45.3337 47.4048 46.9289C51.3044 50.8812 58.1745 53 66 53C74.0111 53 81.021 50.7794 84.8677 46.6445C86.2293 45.1809 88.0009 44 90 44Z\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198d7b0",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><mask id=\"mask0_2751_2761\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"28\" y=\"30\" width=\"75\" height=\"36\"><path d=\"M103 51.9211C103 41.3219 86.2107 30.1658 65.5 30.1658C44.7893 30.1658 28 41.3219 28 51.9211C28 62.5203 44.7893 65.8711 65.5 65.8711C86.2107 65.8711 103 62.5203 103 51.9211Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2761)\"><path d=\"M103 51.9211C103 41.3219 86.2107 30.1658 65.5 30.1658C44.7893 30.1658 28 41.3219 28 51.9211C28 62.5203 44.7893 65.8711 65.5 65.8711C86.2107 65.8711 103 62.5203 103 51.9211Z\" fill=\"#A41715\"/><path d=\"M92 76C92 89.8071 78.0619 101 66 101C53.9381 101 40 89.8071 40 76C40 62.1929 53.52 51 66 51C78.48 51 92 62.1929 92 76Z\" fill=\"#E54240\"/><rect x=\"35\" y=\"18\" width=\"61\" height=\"26\" rx=\"12\" fill=\"#FEFAF4\"/><rect x=\"34\" y=\"47\" width=\"63\" height=\"49\" rx=\"16\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198db60",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M102.848 52.9984C111.313 47.7162 97.3701 30.1641 65.5009 30.1641C33.6317 30.1641 21.183 46.8941 28.1542 52.9984C32.309 56.6365 44.8749 50.5966 65.5009 50.5966C86.127 50.5966 97.2211 56.5091 102.848 52.9984Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2774\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"26\" y=\"30\" width=\"80\" height=\"25\"><path d=\"M102.848 52.9984C111.313 47.7162 97.3701 30.1641 65.5009 30.1641C33.6317 30.1641 21.183 46.8941 28.1542 52.9984C32.309 56.6365 44.8749 50.5966 65.5009 50.5966C86.127 50.5966 97.2211 56.5091 102.848 52.9984Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2774)\"><path d=\"M92 76C92 89.8071 78.0619 101 66 101C53.9381 101 40 89.8071 40 76C40 62.1929 53.52 51 66 51C78.48 51 92 62.1929 92 76Z\" fill=\"#E54240\"/><rect x=\"28\" y=\"47\" width=\"75\" height=\"49\" rx=\"24.5\" fill=\"#E54240\"/><rect x=\"35\" y=\"19\" width=\"61\" height=\"26\" rx=\"12\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198df60",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40.0779 48.0961C62.924 57.8164 77.0952 52.8663 91.6852 43.9991\" stroke=\"black\" stroke-width=\"10\" stroke-linecap=\"round\"/></svg>"
+  },
+  {
+    "offset": "0x198e050",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M102.848 38.915C107.073 44.7114 97.3699 66.1658 65.5007 66.1658C33.6315 66.1658 25.1893 45.0623 28.154 38.915C31.1188 32.7677 44.8747 33.5171 65.5007 33.5171C86.1267 33.5171 98.6223 33.1186 102.848 38.915Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2783\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"27\" y=\"33\" width=\"77\" height=\"34\"><path d=\"M102.848 38.915C107.073 44.7114 97.3699 66.1658 65.5007 66.1658C33.6315 66.1658 25.1893 45.0623 28.154 38.915C31.1188 32.7677 44.8747 33.5171 65.5007 33.5171C86.1267 33.5171 98.6223 33.1186 102.848 38.915Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2783)\"><rect x=\"28\" y=\"56\" width=\"75\" height=\"49\" rx=\"24.5\" fill=\"#FEFAF4\"/><rect x=\"30\" y=\"16\" width=\"71\" height=\"26\" rx=\"12\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198e3b0",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M98.3692 38.8065C102.085 44.6601 93.5518 66.3262 65.5236 66.3262C37.4954 66.3262 30.0706 45.0144 32.6781 38.8065C35.2855 32.5985 47.3835 33.3552 65.5236 33.3552C83.6637 33.3552 94.6532 32.9529 98.3692 38.8065Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2801\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"32\" y=\"33\" width=\"68\" height=\"34\"><path d=\"M98.3692 38.8065C102.085 44.6601 93.5518 66.3262 65.5236 66.3262C37.4954 66.3262 30.0706 45.0144 32.6781 38.8065C35.2855 32.5985 47.3835 33.3552 65.5236 33.3552C83.6637 33.3552 94.6532 32.9529 98.3692 38.8065Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2801)\"><path d=\"M87.9999 51.5015C94.4999 59.002 91.4998 91.0009 66.4999 91.001C41.5 91.0012 38.4993 58.003 43.4997 51.5015C48.5 45 55.2199 51.5015 66.4999 51.5015C77.7799 51.5015 81.4999 44.001 87.9999 51.5015Z\" fill=\"#E54240\"/><rect x=\"28\" y=\"56\" width=\"75\" height=\"49\" rx=\"24.5\" fill=\"#FEFAF4\"/><rect x=\"30\" y=\"16\" width=\"71\" height=\"26\" rx=\"12\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198e800",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M91 44.2758C91 65.939 79.5833 74 65.5 74C51.4167 74 40 64.7182 40 44.2758C40 23.8333 56 18 65.5 18C75 18 91 22.6125 91 44.2758Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2789\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"40\" y=\"18\" width=\"51\" height=\"56\"><path d=\"M91 44.2758C91 65.939 79.5833 74 65.5 74C51.4167 74 40 64.7182 40 44.2758C40 23.8333 56 18 65.5 18C75 18 91 22.6125 91 44.2758Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2789)\"><path d=\"M40.6266 60.3138C42.8219 48.1878 50.4318 39.325 60.9916 33.7804C78.5618 24.5539 93.9383 47.2586 75.5002 55.5001C57.062 63.7417 97.1517 71.1879 69.1369 85.8977C49.0012 96.4703 38.4313 72.4399 40.6266 60.3138Z\" fill=\"#E54240\"/><rect x=\"35\" y=\"7\" width=\"61\" height=\"26\" rx=\"6\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198eb70",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M102.848 56.7373C107.073 50.9409 97.3699 33.488 65.5007 33.488C33.6315 33.488 25.1893 50.59 28.154 56.7373C31.1188 62.8846 44.8747 66.1367 65.5007 66.1367C86.1267 66.1367 98.6223 62.5337 102.848 56.7373Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2795\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"27\" y=\"33\" width=\"77\" height=\"34\"><path d=\"M102.848 56.7393C107.073 50.9429 97.3699 33.488 65.5007 33.488C33.6315 33.488 25.1893 50.592 28.154 56.7393C31.1188 62.8866 44.8747 66.1367 65.5007 66.1367C86.1267 66.1367 98.6223 62.5357 102.848 56.7393Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2795)\"><rect x=\"30\" y=\"16\" width=\"71\" height=\"26\" rx=\"12\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198ee90",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M97 51.5221C97 64.7769 82.897 63.5 65.5 63.5C48.103 63.5 34 64.7769 34 51.5221C34 38.2672 42 24 65.5 24C89 24 97 38.2672 97 51.5221Z\" fill=\"#A41715\"/><mask id=\"mask0_2751_2756\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"34\" y=\"24\" width=\"63\" height=\"40\"><path d=\"M97 51.5221C97 64.7769 82.897 63.5 65.5 63.5C48.103 63.5 34 64.7769 34 51.5221C34 38.2672 42 24 65.5 24C89 24 97 38.2672 97 51.5221Z\" fill=\"#D9D9D9\"/></mask><g mask=\"url(#mask0_2751_2756)\"><path d=\"M92 71C92 84.8071 78.0619 96 66 96C53.9381 96 40 84.8071 40 71C40 57.1929 53.52 46 66 46C78.48 46 92 57.1929 92 71Z\" fill=\"#E54240\"/><rect x=\"42\" y=\"7\" width=\"48\" height=\"26\" rx=\"6\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198f1b0",
+    "text": "<svg width=\"131\" height=\"96\" viewBox=\"0 0 131 96\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><mask id=\"mask0_2751_2767\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"28\" y=\"30\" width=\"75\" height=\"36\"><path d=\"M103 51.9211C103 41.3219 86.2107 30.1658 65.5 30.1658C44.7893 30.1658 28 41.3219 28 51.9211C28 62.5203 44.7893 65.8711 65.5 65.8711C86.2107 65.8711 103 62.5203 103 51.9211Z\" fill=\"#A41715\"/></mask><g mask=\"url(#mask0_2751_2767)\"><path d=\"M103 51.9211C103 41.3219 86.2107 30.1658 65.5 30.1658C44.7893 30.1658 28 41.3219 28 51.9211C28 62.5203 44.7893 65.8711 65.5 65.8711C86.2107 65.8711 103 62.5203 103 51.9211Z\" fill=\"#A41715\"/><path d=\"M92 76C92 89.8071 78.0619 101 66 101C53.9381 101 40 89.8071 40 76C40 62.1929 53.52 51 66 51C78.48 51 92 62.1929 92 76Z\" fill=\"#E54240\"/><rect x=\"28\" y=\"49\" width=\"75\" height=\"49\" rx=\"16\" fill=\"#FEFAF4\"/><path d=\"M92.5911 29.4877C92.994 41.355 79.1516 51.4564 66.8899 51.8727C48.4288 52.4996 40.1325 43.1498 39.7296 31.2825C39.3266 19.4153 52.744 9.32826 65.4307 8.89749C78.1175 8.46672 92.1881 17.6204 92.5911 29.4877Z\" fill=\"#E54240\"/><rect x=\"35\" y=\"17\" width=\"61\" height=\"26\" rx=\"12\" fill=\"#FEFAF4\"/></g></svg>"
+  },
+  {
+    "offset": "0x198f810",
+    "text": "<svg width=\"57\" height=\"57\" viewBox=\"0 0 57 57\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"28.3991\" cy=\"28.3991\" r=\"28.3991\" fill=\"white\"/><mask id=\"mask0_2751_2880\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"57\" height=\"57\"><circle cx=\"28.3991\" cy=\"28.3991\" r=\"28.3991\" fill=\"white\"/></mask><g mask=\"url(#mask0_2751_2880)\"><circle cx=\"33.5459\" cy=\"30.5459\" r=\"14.5459\" fill=\"black\"/></g></svg>"
+  },
+  {
+    "offset": "0x1992940",
+    "text": "openai/gpt-5.4-mini"
+  },
+  {
+    "offset": "0x1992cc0",
+    "text": "google/gemini-3.1-flash-lite"
+  },
+  {
+    "offset": "0x199cace",
+    "text": "OpenAI"
+  },
+  {
+    "offset": "0x199ce20",
+    "text": " Gemini Review"
+  },
+  {
+    "offset": "0x199d2e0",
+    "text": "paused_until_foreground"
+  },
+  {
+    "offset": "0x199dc10",
+    "text": "language_change.foreground_auto_resume"
+  },
+  {
+    "offset": "0x199ddd0",
+    "text": "language_change.awaiting_foreground_resume"
+  },
+  {
+    "offset": "0x199df40",
+    "text": "resumes_on_foreground"
+  },
+  {
+    "offset": "0x199ff5a",
+    "text": "At first, I experimented with image segmentation technology, but most models were either too large or not precise enough to process multiple objects. Eventually, I discovered Apple's VisionKit. While it could only recognize a single object at a time, I realized that focusing on accurately identifying and displaying one object's name was enough for most learning scenarios. That's when I decided to make VisionKit the core technology behind SnapWords."
+  },
+  {
+    "offset": "0x19a0150",
+    "text": "In 2024, my wife started learning French. One day, she asked, \"Did you ever build that language-learning app you mentioned for our daughter?\" When I showed her SnapWords recognizing and translating words, she was amazed. \"This is exactly what I need!\" she said. But the most rewarding part wasn't just my wife's approval"
+  },
+  {
+    "offset": "0x19a0ba0",
+    "text": "https://apps.apple.com/account/subscriptions"
+  },
+  {
+    "offset": "0x19a0bd0",
+    "text": "https://capwords.app/faqs"
+  },
+  {
+    "offset": "0x19a0bf0",
+    "text": "https://capwords.app/zh/faqs"
+  },
+  {
+    "offset": "0x19a0c10",
+    "text": "https://capwords.app/terms"
+  },
+  {
+    "offset": "0x19a0c30",
+    "text": "https://capwords.app/zh/terms"
+  },
+  {
+    "offset": "0x19a0c50",
+    "text": "https://capwords.app/privacy"
+  },
+  {
+    "offset": "0x19a0c70",
+    "text": "https://capwords.app/zh/privacy"
+  },
+  {
+    "offset": "0x19a15d0",
+    "text": "https://github.com/rspeer/wordfreq"
+  },
+  {
+    "offset": "0x19a1600",
+    "text": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  {
+    "offset": "0x19a16b0",
+    "text": "https://www.mdbg.net/chinese/dictionary?page=cedict"
+  },
+  {
+    "offset": "0x19a1740",
+    "text": "https://github.com/rime/rime-cantonese"
+  },
+  {
+    "offset": "0x19a1770",
+    "text": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  {
+    "offset": "0x19a1820",
+    "text": "https://www.edrdg.org/jmdict/j_jmdict.html"
+  },
+  {
+    "offset": "0x19a1850",
+    "text": "https://www.edrdg.org/edrdg/licence.html"
+  },
+  {
+    "offset": "0x19a1940",
+    "text": "https://krdict.korean.go.kr/eng/mainAction"
+  },
+  {
+    "offset": "0x19a1970",
+    "text": "https://creativecommons.org/licenses/by-sa/2.0/kr/"
+  },
+  {
+    "offset": "0x19a1a70",
+    "text": "https://mfa-models.readthedocs.io/en/latest/dictionary/index.html"
+  },
+  {
+    "offset": "0x19a65a0",
+    "text": "https://a.revenue.cat"
+  },
+  {
+    "offset": "0x19a8b72",
+    "text": "revisionId"
+  },
+  {
+    "offset": "0x19a9620",
+    "text": "https://api-diagnostics.revenuecat.com"
+  },
+  {
+    "offset": "0x19a9740",
+    "text": "Please see https://rev.cat/in-app-purchase-key-configuration for more info."
+  },
+  {
+    "offset": "0x19a9bc0",
+    "text": "Request failed signature verification. Please see https://rev.cat/trusted-entitlements for more info."
+  },
+  {
+    "offset": "0x19a9c30",
+    "text": "Request failed signature verification. Please see https://rev.cat/trusted-entitlements for more info. "
+  },
+  {
+    "offset": "0x19a9e88",
+    "text": "More information: https://rev.cat/sdk-troubleshooting"
+  },
+  {
+    "offset": "0x19a9f38",
+    "text": "More information: https://rev.cat/sdk-troubleshooting "
+  },
+  {
+    "offset": "0x19aa450",
+    "text": "The information associated with this PromotionalOffer is not valid. See https://rev.cat/ios-subscription-offers for more info."
+  },
+  {
+    "offset": "0x19aa4f0",
+    "text": "The information associated with this PromotionalOffer is not valid. See https://rev.cat/ios-subscription-offers for more info. "
+  },
+  {
+    "offset": "0x19ab320",
+    "text": "targeting_revision"
+  },
+  {
+    "offset": "0x19ab360",
+    "text": "paywall_revision"
+  },
+  {
+    "offset": "0x19ab960",
+    "text": "https://api-paywalls.revenuecat.com"
+  },
+  {
+    "offset": "0x19abd80",
+    "text": "Requests to RevenueCat are being blocked. See: https://rev.cat/dnsBlocking for more info."
+  },
+  {
+    "offset": "0x19acc60",
+    "text": "Reward verification stopped after the server returned a status this SDK version doesn't recognize. Update to the latest SDK version; if you're already on the latest, "
+  },
+  {
+    "offset": "0x19ad4c0",
+    "text": " when the app backgrounds/foregrounds or when a purchase is made."
+  },
+  {
+    "offset": "0x19adf70",
+    "text": "Failed to post the transaction to RevenueCat's backend because your Apple In-App Purchase Key is invalid or not present. This error is thrown only in debug builds; in production, it will fail silently. You must configure an In-App Purchase Key. Please see https://rev.cat/in-app-purchase-key-configuration for more info."
+  },
+  {
+    "offset": "0x19ae7e0",
+    "text": "The specified API Key is not recognized."
+  },
+  {
+    "offset": "0x19ae873",
+    "text": "See https://rev.cat/auth for more details."
+  },
+  {
+    "offset": "0x19ae955",
+    "text": "See https://rev.cat/auth for more details."
+  },
+  {
+    "offset": "0x19aeb34",
+    "text": "See https://errors.rev.cat/testing-in-simulator for more details."
+  },
+  {
+    "offset": "0x19aec40",
+    "text": "There is no singleton instance. Make sure you configure Purchases before trying to get the default instance. More info here: https://errors.rev.cat/configuring-sdk"
+  },
+  {
+    "offset": "0x19aefa0",
+    "text": "applicationWillEnterForeground"
+  },
+  {
+    "offset": "0x19af350",
+    "text": "CustomerInfo cache is stale, updating from network in foreground."
+  },
+  {
+    "offset": "0x19b0340",
+    "text": "The appUserID passed to logIn is a constant string known at compile time. This is likely a programmer error. This ID is used to identify the current user. See https://docs.revenuecat.com/docs/user-ids for more information."
+  },
+  {
+    "offset": "0x19b0720",
+    "text": "see: https://rev.cat/dnsBlocking for more info."
+  },
+  {
+    "offset": "0x19b0f61",
+    "text": "More information: https://rev.cat/ios-18-4-simulator-issue"
+  },
+  {
+    "offset": "0x19b1031",
+    "text": "More information: https://rev.cat/displaying-products"
+  },
+  {
+    "offset": "0x19b11e0",
+    "text": "https://rev.cat/how-to-configure-offerings. "
+  },
+  {
+    "offset": "0x19b1211",
+    "text": "More information: https://rev.cat/why-are-offerings-empty"
+  },
+  {
+    "offset": "0x19b14f0",
+    "text": " If you don't want to use the offerings system, you can safely ignore this message. To configure offerings and their products, follow the instructions in https://rev.cat/how-to-configure-offerings."
+  },
+  {
+    "offset": "0x19b15b6",
+    "text": "More information: https://rev.cat/why-are-offerings-empty"
+  },
+  {
+    "offset": "0x19b170a",
+    "text": "More information: https://rev.cat/why-are-offerings-empty"
+  },
+  {
+    "offset": "0x19b17d5",
+    "text": "More information: https://rev.cat/why-are-offerings-empty"
+  },
+  {
+    "offset": "0x19b18db",
+    "text": "More information: https://rev.cat/why-are-offerings-empty"
+  },
+  {
+    "offset": "0x19b1af0",
+    "text": "Offerings cache is stale, updating from network in foreground"
+  },
+  {
+    "offset": "0x19b1cd1",
+    "text": "More info here: https://errors.rev.cat/configuring-products"
+  },
+  {
+    "offset": "0x19b2370",
+    "text": "Paywall contains unrecognized condition type '"
+  },
+  {
+    "offset": "0x19b3ee0",
+    "text": "Could not purchase SKProduct. There is a problem with your configuration in App Store Connect. More info here: https://errors.rev.cat/configuring-products"
+  },
+  {
+    "offset": "0x19b4e90",
+    "text": "Unrecognized billing plan type. Will not return a product identifier "
+  },
+  {
+    "offset": "0x19b4ee0",
+    "text": "An unrecognized billing plan identifier was detected: "
+  },
+  {
+    "offset": "0x19b5040",
+    "text": "Unrecognized Product.PurchaseResult: "
+  },
+  {
+    "offset": "0x19b5290",
+    "text": "Unrecognized StoreKit Transaction Revocation Reason: "
+  },
+  {
+    "offset": "0x19b52d0",
+    "text": "Unrecognized StoreKit Transaction Reason: "
+  },
+  {
+    "offset": "0x19b5300",
+    "text": "Unrecognized StoreKit Environment: "
+  },
+  {
+    "offset": "0x19b5a50",
+    "text": "Unrecognized PaymentMode: "
+  },
+  {
+    "offset": "0x19b5bb0",
+    "text": "More information: https://rev.cat/skproductsrequest-hangs"
+  },
+  {
+    "offset": "0x19b6120",
+    "text": "Unrecognized product: "
+  },
+  {
+    "offset": "0x19b6420",
+    "text": "https://api.revenuecat.com"
+  },
+  {
+    "offset": "0x19b7180",
+    "text": "https://api-production.8-lives-cat.io"
+  },
+  {
+    "offset": "0x19b7eba",
+    "text": "foreground"
+  },
+  {
+    "offset": "0x19b8080",
+    "text": "https://api.revenuecat.com/"
+  },
+  {
+    "offset": "0x19b8610",
+    "text": "https://example.com"
+  },
+  {
+    "offset": "0x19b9540",
+    "text": "targetingRevision"
+  },
+  {
+    "offset": "0x19b9649",
+    "text": "paywallRevision"
+  },
+  {
+    "offset": "0x19b9da0",
+    "text": "callToActionForeground"
+  },
+  {
+    "offset": "0x19b9e00",
+    "text": "tierControlForeground"
+  },
+  {
+    "offset": "0x19b9e40",
+    "text": "tierControlSelectedForeground"
+  },
+  {
+    "offset": "0x19b9f64",
+    "text": "revision"
+  },
+  {
+    "offset": "0x19ba330",
+    "text": "before releasing. Visit https://rev.cat/sdk-test-store to learn more."
+  },
+  {
+    "offset": "0x19bb340",
+    "text": "targetingContextRevision"
+  },
+  {
+    "offset": "0x19bb6e0",
+    "text": "applicationWillEnterForeground()"
+  },
+  {
+    "offset": "0x19bebd0",
+    "text": "Unrecognized Message.Reason: "
+  },
+  {
+    "offset": "0x19c3b80",
+    "text": "1. A parent view scopes on a store using transform functions, which has been deprecated, instead of with key paths and case paths. Read the migration guide for 1.5 to update these scopes: https://swiftpackageindex.com/pointfreeco/swift-composable-architecture/main/documentation/composablearchitecture/migratingto1.5"
+  },
+  {
+    "offset": "0x19c3cc2",
+    "text": "A parent feature is using deprecated navigation APIs, such as 'IfLetStore', 'SwitchStore', 'ForEachStore', or any navigation view modifiers taking stores instead of bindings. Read the migration guide for 1.7 to update those APIs: https://swiftpackageindex.com/pointfreeco/swift-composable-architecture/main/documentation/composablearchitecture/migratingto1.7"
+  },
+  {
+    "offset": "0x19c7302",
+    "text": "https://swiftpackageindex.com/pointfreeco/swift-dependencies/main/documentation/dependencies/testing#Testing-gotchas"
+  },
+  {
+    "offset": "0x19c92d0",
+    "text": "SFSpeechRecognizerAuthorizationStatus.(@unknown default, rawValue: "
+  },
+  {
+    "offset": "0x19c9320",
+    "text": "SFSpeechRecognizerAuthorizationStatus.restricted"
+  },
+  {
+    "offset": "0x19c9360",
+    "text": "SFSpeechRecognizerAuthorizationStatus.notDetermined"
+  },
+  {
+    "offset": "0x19c93a0",
+    "text": "SFSpeechRecognizerAuthorizationStatus.denied"
+  },
+  {
+    "offset": "0x19c93d0",
+    "text": "SFSpeechRecognizerAuthorizationStatus.authorized"
+  },
+  {
+    "offset": "0x19c98f0",
+    "text": "UIGestureRecognizer.State.(@unknown default, rawValue: "
+  },
+  {
+    "offset": "0x19c9930",
+    "text": "UIGestureRecognizer.State.possible"
+  },
+  {
+    "offset": "0x19c9960",
+    "text": "UIGestureRecognizer.State.failed"
+  },
+  {
+    "offset": "0x19c9990",
+    "text": "UIGestureRecognizer.State.ended"
+  },
+  {
+    "offset": "0x19c99b0",
+    "text": "UIGestureRecognizer.State.changed"
+  },
+  {
+    "offset": "0x19c99e0",
+    "text": "UIGestureRecognizer.State.cancelled"
+  },
+  {
+    "offset": "0x19c9a10",
+    "text": "UIGestureRecognizer.State.began"
+  },
+  {
+    "offset": "0x19ca650",
+    "text": "UNAuthorizationStatus.provisional"
+  },
+  {
+    "offset": "0x19caaf0",
+    "text": "UNAuthorizationOptions.provisional"
+  },
+  {
+    "offset": "0x19cafe0",
+    "text": "XCTAssertNoDifference failed: An unexpected failure occurred. Please report the issue to https://github.com/pointfreeco/swift-custom-dump "
+  },
+  {
+    "offset": "0x19cdd20",
+    "text": "foreground-color"
+  },
+  {
+    "offset": "0x19ceb68",
+    "text": "Replace with '.ulpOfOne' to avoid division by zero."
+  },
+  {
+    "offset": "0x19d2aa6",
+    "text": "WARN  [%s:%d] [Crashlytics] App is attached to a debugger, to see the crash reports please detach from the debugger, https://firebase.google.com/docs/crashlytics/get-started?platform=ios#force-test-crash"
+  },
+  {
+    "offset": "0x19d3231",
+    "text": "offsetIntoBinaryTextSegment"
+  },
+  {
+    "offset": "0x19d45ff",
+    "text": "ERROR [%s:%d] Unrecognized header kind - unable to continue"
+  },
+  {
+    "offset": "0x19d4a1c",
+    "text": "WARN  [%s:%d] Error: Unrecognized DWARF expression opcode 0x%x"
+  },
+  {
+    "offset": "0x19d4d2c",
+    "text": "WARN  [%s:%d] Error: unrecognized DW_OP_deref_size argument %x"
+  },
+  {
+    "offset": "0x19d5478",
+    "text": "WARN  [%s:%d] Error: Unrecognized register save location 0x%x"
+  },
+  {
+    "offset": "0x19d5b8b",
+    "text": "WARN  [%s:%d] Error: Unrecognized DWARF instruction 0x%x"
+  },
+  {
+    "offset": "0x19d6197",
+    "text": "WARN  [%s:%d] Error: Unrecognized get register number %llu"
+  },
+  {
+    "offset": "0x19d61f5",
+    "text": "WARN  [%s:%d] Unrecognized set register number %llu"
+  },
+  {
+    "offset": "0x19d62cb",
+    "text": "https://firebase-settings.crashlytics.com"
+  },
+  {
+    "offset": "0x19d687f",
+    "text": "mobileprovision"
+  },
+  {
+    "offset": "0x19d6b1b",
+    "text": "https://console.firebase.google.com/"
+  },
+  {
+    "offset": "0x19d6d60",
+    "text": "The default Firebase app has not yet been configured. Add `FirebaseApp.configure()` to your application initialization. This can be done in in the App Delegate's application(_:didFinishLaunchingWithOptions:)` (or the `@main` struct's initializer in SwiftUI). Read more: https://firebase.google.com/docs/ios/setup#initialize_firebase_in_your_app"
+  },
+  {
+    "offset": "0x19d702a",
+    "text": "Check formatting and location of GoogleService-Info.plist."
+  },
+  {
+    "offset": "0x19d7086",
+    "text": "Check formatting and location of GoogleService-Info.plist or GoogleAppID set in the customized options."
+  },
+  {
+    "offset": "0x19d91dd",
+    "text": "Firebase Instance ID is not compatible with Firebase 8.x+. Please remove the dependency from the app. See the documentation at https://firebase.google.com/docs/cloud-messaging/ios/client#fetching-the-current-registration-token."
+  },
+  {
+    "offset": "0x19d960e",
+    "text": "https://firebaseinstallations.googleapis.com"
+  },
+  {
+    "offset": "0x19dacae",
+    "text": "https://dummyapiverylong-dummy.google.com/dummy/api/very/long"
+  },
+  {
+    "offset": "0x19db851",
+    "text": "Signaling GDTCORTransformer that the app is foregrounding."
+  },
+  {
+    "offset": "0x19db88c",
+    "text": "Signaling GDTCORUploadCoordinator that the app is foregrounding."
+  },
+  {
+    "offset": "0x19db8cd",
+    "text": "Signaling GDTCORRegistrar that the app is foregrounding."
+  },
+  {
+    "offset": "0x19dbbbe",
+    "text": "GDTCORApplicationWillEnterForegroundNotification"
+  },
+  {
+    "offset": "0x19dbf92",
+    "text": "GDTCORPlatform is sending a notif that the app is foregrounding."
+  },
+  {
+    "offset": "0x19dc6a0",
+    "text": "Unrecognized EventType. Please update the firebase_appquality_sessions_EventType CustomStringConvertible extension"
+  },
+  {
+    "offset": "0x19dca60",
+    "text": "Unrecognized LogEnvironment. Please update the firebase_appquality_sessions_LogEnvironment CustomStringConvertible extension"
+  },
+  {
+    "offset": "0x19dcb00",
+    "text": "Unrecognized OsName. Please update the firebase_appquality_sessions_OsName CustomStringConvertible extension"
+  },
+  {
+    "offset": "0x19dcb70",
+    "text": "Unrecognized DataCollectionState. Please update the firebase_appquality_sessions_DataCollectionState CustomStringConvertible extension"
+  },
+  {
+    "offset": "0x19e0bfd",
+    "text": "ios_segment"
+  },
+  {
+    "offset": "0x19e10bd",
+    "text": "https://%@launches.%@/api/v%@/ios%@?app_id=%@&buildnumber=%@"
+  },
+  {
+    "offset": "0x19e10fa",
+    "text": "https://%@conversions.%@/api/v%@/ios%@?app_id=%@&buildnumber=%@"
+  },
+  {
+    "offset": "0x19e113a",
+    "text": "https://%@adrevenue.%@/api/v2/generic/v%@/ios?app_id=%@"
+  },
+  {
+    "offset": "0x19e1172",
+    "text": "https://%@inapps.%@/api/v%@/ios%@?app_id=%@&buildnumber=%@"
+  },
+  {
+    "offset": "0x19e11ad",
+    "text": "https://%@attr.%@/api/v%@/ios%@?app_id=%@&buildnumber=%@"
+  },
+  {
+    "offset": "0x19e11e6",
+    "text": "https://%@gcdsdk.%@/install_data/v5.0/%@?device_id=%@"
+  },
+  {
+    "offset": "0x19e121c",
+    "text": "https://%@monitorsdk.%@/remote-debug?app_id=%@&device_tracking_disabled=%@"
+  },
+  {
+    "offset": "0x19e1267",
+    "text": "https://%@monitorsdk.%@/api/remote-debug/v2.0?app_id=id%@&device_tracking_disabled=false"
+  },
+  {
+    "offset": "0x19e12c0",
+    "text": "https://%@validate.%@/api/v%@/ios%@?app_id=%@&buildnumber=%@"
+  },
+  {
+    "offset": "0x19e12fd",
+    "text": "https://%@validate-and-log.%@/api/v1.0/ios/validateAndLog?app_id=id%@"
+  },
+  {
+    "offset": "0x19e1343",
+    "text": "https://%@stats.%@/stats?app_id=%@"
+  },
+  {
+    "offset": "0x19e1366",
+    "text": "https://%@register.%@/api/v%@/iosevent?buildnumber=%@&app_id=%@"
+  },
+  {
+    "offset": "0x19e13a6",
+    "text": "https://%@onelink.%@%@"
+  },
+  {
+    "offset": "0x19e13c0",
+    "text": "https://%@onelink.%@/shortlink-sdk/%@/%@"
+  },
+  {
+    "offset": "0x19e13e9",
+    "text": "https://%@impression.%@"
+  },
+  {
+    "offset": "0x19e1401",
+    "text": "https://%@app.%@"
+  },
+  {
+    "offset": "0x19e1412",
+    "text": "https://%@sdk-services.%@/validate-ios-receipt-server?app_id=%@&appsflyer_id=%@&dev_key=%@&sandbox=%@&tran_id=%@&JBDevice=%@"
+  },
+  {
+    "offset": "0x19e148f",
+    "text": "https://%@dlsdk.%@/v1.0/ios/id%@?sdk_version=%@&af_sig=%@"
+  },
+  {
+    "offset": "0x19e14c9",
+    "text": "https://%@dynamic-config-api.%@/api/dynamic-config/1"
+  },
+  {
+    "offset": "0x19e14fe",
+    "text": "https://%@dynamic-report-api.%@/api/dynamic-report/1"
+  },
+  {
+    "offset": "0x19e1533",
+    "text": "https://%@skadsdk.%@/api/v2.0/rules?uid=%@&app_id=id%@&currency=%@&sdk_version=%@&os_version=%@"
+  },
+  {
+    "offset": "0x19e1593",
+    "text": "https://%@skadsdkless.%@/api/v2.0/conversion-value?uid=%@&app_id=id%@&trigger=%@&session_counter=%@&iaecounter=%@&device_timestamp=%@&prev_response_time=%@&prev_update_time=%@&prev_update_value=%@&prev_response_code=%@&session_length=%@&os_version=%@&sdk_version=%@&bundle_id=%@&device_model=%@&gcv_transaction_id=%@"
+  },
+  {
+    "offset": "0x19e16d0",
+    "text": "https://%@monitorsdk.%@/remote-debug/exception-manager"
+  },
+  {
+    "offset": "0x19e1707",
+    "text": "https://%@ars.%@/api/v1/ios/decrypt_cached_receipt"
+  },
+  {
+    "offset": "0x19e173a",
+    "text": "https://%@ars.%@/api/v2/ios/validate_subscription?app_id=id%@"
+  },
+  {
+    "offset": "0x19e1778",
+    "text": "https://%@viap.%@/api/v1/ios/validate_purchase?app_id=id%@"
+  },
+  {
+    "offset": "0x19e17b3",
+    "text": "https://%@ars.%@/api/v3.0/ios/validate_signed_subscription?app_id=id%@"
+  },
+  {
+    "offset": "0x19e17fa",
+    "text": "https://%@viap.%@/api/v3.0/ios/validate_signed_purchase?app_id=id%@"
+  },
+  {
+    "offset": "0x19e1946",
+    "text": "https://%@cdn-settings.%@"
+  },
+  {
+    "offset": "0x19e1960",
+    "text": "https://%@cdn-testsettings.%@"
+  },
+  {
+    "offset": "0x19e1b03",
+    "text": "https://%@/%@"
+  },
+  {
+    "offset": "0x19e1b66",
+    "text": "https://app.appsflyer.com"
+  },
+  {
+    "offset": "0x19e69d5",
+    "text": "Deferring to Google Analytics for Firebase for event data collection. https://goo.gl/YNbdK2"
+  },
+  {
+    "offset": "0x19e97e2",
+    "text": "https://app-analytics-services.com/config/app/%@?"
+  },
+  {
+    "offset": "0x19e982b",
+    "text": "https://app-analytics-services.com/a"
+  },
+  {
+    "offset": "0x19e9850",
+    "text": "https://%@.app-analytics-services.com/a"
+  },
+  {
+    "offset": "0x19e9878",
+    "text": "https://app-analytics-services-att.com/a"
+  },
+  {
+    "offset": "0x19e98a1",
+    "text": "https://%@.app-analytics-services-att.com/a"
+  },
+  {
+    "offset": "0x19e9998",
+    "text": "https://www.googleadservices.com/pagead/conversion/app/deeplink?sdk_version=%@&rdid=%@&id_type=idfa&bundleid=%@&retry=%@"
+  },
+  {
+    "offset": "0x19e9ba8",
+    "text": "https://app-analytics-services.com/skan"
+  },
+  {
+    "offset": "0x19ec9b3",
+    "text": "The AdSupport Framework is not currently linked. Some features will not function properly. Learn more at http://goo.gl/9vSsPb"
+  },
+  {
+    "offset": "0x19ecb79",
+    "text": "https://app-analytics-services.com/sdk-exp"
+  },
+  {
+    "offset": "0x19ee1e7",
+    "text": "notification_foreground"
+  },
+  {
+    "offset": "0x19ef82d",
+    "text": "To disable debug logging set the following application argument: %@ (see http://goo.gl/RfcP7r)"
+  },
+  {
+    "offset": "0x19ef88c",
+    "text": "To enable debug logging set the following application argument: %@ (see http://goo.gl/RfcP7r)"
+  },
+  {
+    "offset": "0x19ef8ea",
+    "text": "To disable verbose logging set the following application argument: %@ (see http://goo.gl/RfcP7r)"
+  },
+  {
+    "offset": "0x19ef94b",
+    "text": "To enable verbose logging set the following application argument: %@ (see http://goo.gl/RfcP7r)"
+  },
+  {
+    "offset": "0x19f6bc8",
+    "text": "https://api-adservices.apple.com/api/v1/"
+  },
+  {
+    "offset": "0x19f9d28",
+    "text": "https://odm.app-ads-services.com/odm/config?%@"
+  },
+  {
+    "offset": "0x19f9d57",
+    "text": "https://odm.app-ads-services.com/odm/psm?%@&tfo=%0.f"
+  },
+  {
+    "offset": "0x19f9d8c",
+    "text": "https://odm.app-ads-services.com/odm/validate?%@"
+  },
+  {
+    "offset": "0x19fd2fb",
+    "text": "https://www.app-ads-services.com/pagead/conversion/app/psm?version=1.1&retry_count=%d"
+  },
+  {
+    "offset": "0x19fe20c",
+    "text": "Use DivAndTruncate() instead of Div() if you want truncated division."
+  },
+  {
+    "offset": "0x1a01f68",
+    "text": "See http://go/deadlock"
+  },
+  {
+    "offset": "0x1a0206c",
+    "text": "Potential Mutex deadlock in %.*s; see http://go/deadlock"
+  },
+  {
+    "offset": "0x1a021a1",
+    "text": "thread releasing lock it does not hold: %p %s; See also http://go/deadlock"
+  },
+  {
+    "offset": "0x1a145c2",
+    "text": "So18SFSpeechRecognizerCSg"
+  },
+  {
+    "offset": "0x1a76a32",
+    "text": "So22UITapGestureRecognizerCSg"
+  },
+  {
+    "offset": "0x1a76a50",
+    "text": "So24UIPinchGestureRecognizerCSg"
+  },
+  {
+    "offset": "0x1b5e122",
+    "text": "So22UIPanGestureRecognizerCSg"
+  },
+  {
+    "offset": "0x1b5e18c",
+    "text": "So28UILongPressGestureRecognizerCSg"
+  },
+  {
+    "offset": "0x1bd456e",
+    "text": "So18UISegmentedControlCSgXw"
+  },
+  {
+    "offset": "0x1bd458a",
+    "text": "xSgXwz_So18UISegmentedControlC_Si"
+  },
+  {
+    "offset": "0x1bd45c9",
+    "text": "ySo18UISegmentedControlCSiG"
+  },
+  {
+    "offset": "0x1bd45e6",
+    "text": "So18UISegmentedControlCSi"
+  },
+  {
+    "offset": "0x1bd4617",
+    "text": "ySo18UISegmentedControlCSiGG"
+  },
+  {
+    "offset": "0x1bd4a20",
+    "text": "So18UISegmentedControlC"
+  },
+  {
+    "offset": "0x1c1a201",
+    "text": "isVisionAgain"
+  },
+  {
+    "offset": "0x1c1ac5e",
+    "text": "vision"
+  },
+  {
+    "offset": "0x1c1c099",
+    "text": "gemini"
+  },
+  {
+    "offset": "0x1c1f6f0",
+    "text": "speechRecognizer"
+  },
+  {
+    "offset": "0x1c258ad",
+    "text": "revision"
+  },
+  {
+    "offset": "0x1c25b52",
+    "text": "visionImage"
+  },
+  {
+    "offset": "0x1c260f0",
+    "text": "$__lazy_storage_$_focusTapGestureRecognizer"
+  },
+  {
+    "offset": "0x1c26120",
+    "text": "$__lazy_storage_$_switchCameraDoubleTapGestureRecognizer"
+  },
+  {
+    "offset": "0x1c26160",
+    "text": "$__lazy_storage_$_pinchZoomGestureRecognizer"
+  },
+  {
+    "offset": "0x1c2678d",
+    "text": "visionResult"
+  },
+  {
+    "offset": "0x1c285a5",
+    "text": "isInForeground"
+  },
+  {
+    "offset": "0x1c28a70",
+    "text": "visionFailed"
+  },
+  {
+    "offset": "0x1c28b70",
+    "text": "generateMaskImageError"
+  },
+  {
+    "offset": "0x1c28de6",
+    "text": "recognizedDraft"
+  },
+  {
+    "offset": "0x1c2dcc0",
+    "text": "continuityRevision"
+  },
+  {
+    "offset": "0x1c2e971",
+    "text": "segments"
+  },
+  {
+    "offset": "0x1c3601d",
+    "text": "recognizing"
+  },
+  {
+    "offset": "0x1c36b30",
+    "text": "recognizing"
+  },
+  {
+    "offset": "0x1c376e0",
+    "text": "recoveryRevision"
+  },
+  {
+    "offset": "0x1c381f0",
+    "text": "cachedPlaybackSegments"
+  },
+  {
+    "offset": "0x1c38a2b",
+    "text": "segments"
+  },
+  {
+    "offset": "0x1c3da4b",
+    "text": "_recognizerTask"
+  },
+  {
+    "offset": "0x1c3dac6",
+    "text": "_isRecognizing"
+  },
+  {
+    "offset": "0x1c3dae0",
+    "text": "_currentRecognizedText"
+  },
+  {
+    "offset": "0x1c3e466",
+    "text": "_isVisionAgain"
+  },
+  {
+    "offset": "0x1c3e580",
+    "text": "_showingVisionPrompt"
+  },
+  {
+    "offset": "0x1c3e5e0",
+    "text": "_showingVideoVisionPrompt"
+  },
+  {
+    "offset": "0x1c3e630",
+    "text": "_videoVisionPrompt"
+  },
+  {
+    "offset": "0x1c3e850",
+    "text": "showVisionPrompt"
+  },
+  {
+    "offset": "0x1c3e8b0",
+    "text": "showVideoVisionPrompt"
+  },
+  {
+    "offset": "0x1c3f240",
+    "text": "restoreAllowsForegroundContinuation"
+  },
+  {
+    "offset": "0x1c3fe5e",
+    "text": "segment"
+  },
+  {
+    "offset": "0x1c3ff89",
+    "text": "segmentBytes"
+  },
+  {
+    "offset": "0x1c40150",
+    "text": "drawsForegroundInCanvas"
+  },
+  {
+    "offset": "0x1c43000",
+    "text": "foregroundActivityLock"
+  },
+  {
+    "offset": "0x1c43020",
+    "text": "foregroundActivityCount"
+  },
+  {
+    "offset": "0x1c46320",
+    "text": "shouldResumeAnimationAfterForeground"
+  },
+  {
+    "offset": "0x1c48392",
+    "text": "revisionID"
+  },
+  {
+    "offset": "0x1c48437",
+    "text": "revisionId"
+  },
+  {
+    "offset": "0x1c4b620",
+    "text": "application_foregrounded"
+  },
+  {
+    "offset": "0x1c4bb40",
+    "text": "customerinfo_stale_updating_in_foreground"
+  },
+  {
+    "offset": "0x1c4ce00",
+    "text": "offerings_stale_updating_in_foreground"
+  },
+  {
+    "offset": "0x1c4d590",
+    "text": "unrecognized_condition_type"
+  },
+  {
+    "offset": "0x1c4ed00",
+    "text": "sk2_unrecognized_billing_plan_identifer"
+  },
+  {
+    "offset": "0x1c50c7e",
+    "text": "revision"
+  },
+  {
+    "offset": "0x1c5137f",
+    "text": "foreground"
+  },
+  {
+    "offset": "0x1c51e94",
+    "text": "revision"
+  },
+  {
+    "offset": "0x1c5216b",
+    "text": "__revision"
+  },
+  {
+    "offset": "0x1c521c3",
+    "text": "_revision"
+  },
+  {
+    "offset": "0x1c5250f",
+    "text": "__revision"
+  },
+  {
+    "offset": "0x1c52677",
+    "text": "_revision"
+  },
+  {
+    "offset": "0x1c539f0",
+    "text": "targetingRevision"
+  },
+  {
+    "offset": "0x1c53af0",
+    "text": "targetingRevision"
+  },
+  {
+    "offset": "0x1c53b59",
+    "text": "paywallRevision"
+  },
+  {
+    "offset": "0x1c53e90",
+    "text": "targetingRevision"
+  },
+  {
+    "offset": "0x1c53fc3",
+    "text": "paywallRevision"
+  },
+  {
+    "offset": "0x1c54050",
+    "text": "targetingRevision"
+  },
+  {
+    "offset": "0x1c54604",
+    "text": "__revision"
+  },
+  {
+    "offset": "0x1c54880",
+    "text": "callToActionForeground"
+  },
+  {
+    "offset": "0x1c54910",
+    "text": "tierControlForeground"
+  },
+  {
+    "offset": "0x1c54950",
+    "text": "tierControlSelectedForeground"
+  },
+  {
+    "offset": "0x1c54ae3",
+    "text": "_revision"
+  },
+  {
+    "offset": "0x1c55387",
+    "text": "revision"
+  },
+  {
+    "offset": "0x1c55641",
+    "text": "revision"
+  },
+  {
+    "offset": "0x1c55a50",
+    "text": "targetingContextRevision"
+  },
+  {
+    "offset": "0x1c5cd16",
+    "text": "foregroundColor"
+  },
+  {
+    "offset": "0x1f5b268",
+    "text": "recognizing"
+  },
+  {
+    "offset": "0x1ff933b",
+    "text": "_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpMV"
+  },
+  {
+    "offset": "0x2002f14",
+    "text": "_$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc"
+  },
+  {
+    "offset": "0x2002f7c",
+    "text": "_$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0ON"
+  },
+  {
+    "offset": "0x200414f",
+    "text": "_$sSo8UIButtonC5UIKitE13ConfigurationV19baseForegroundColorSo7UIColorCSgvs"
+  },
+  {
+    "offset": "0x200444b",
+    "text": "_NSForegroundColorAttributeName"
+  },
+  {
+    "offset": "0x2004803",
+    "text": "_UIApplicationWillEnterForegroundNotification"
+  },
+  {
+    "offset": "0x2004c66",
+    "text": "_UISceneWillEnterForegroundNotification"
+  },
+  {
+    "offset": "0x200a6b8",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ"
+  },
+  {
+    "offset": "0x200a6fa",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingV13prettyPrintedAEvgZ"
+  },
+  {
+    "offset": "0x200a73f",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingVMa"
+  },
+  {
+    "offset": "0x200a772",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingVMn"
+  },
+  {
+    "offset": "0x200a7a5",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingVs10SetAlgebraAAMc"
+  },
+  {
+    "offset": "0x200a7e7",
+    "text": "_$s10Foundation11JSONEncoderC16outputFormattingAC06OutputD0VvsTj"
+  },
+  {
+    "offset": "0x2016955",
+    "text": "_$s10AppIntents11IntentModesV10foregroundyA2C14ForegroundModeVFZ"
+  },
+  {
+    "offset": "0x2016996",
+    "text": "_$s10AppIntents11IntentModesV14ForegroundModeV9immediateAEvgZ"
+  },
+  {
+    "offset": "0x20169d4",
+    "text": "_$s10AppIntents11IntentModesV14ForegroundModeVMa"
+  },
+  {
+    "offset": "0x201d4ef",
+    "text": "_$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc"
+  },
+  {
+    "offset": "0x201d55b",
+    "text": "_$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0ON"
+  },
+  {
+    "offset": "0x2020ebb",
+    "text": "_$s7SwiftUI15ForegroundStyleVMn"
+  },
+  {
+    "offset": "0x2023078",
+    "text": "_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvg"
+  },
+  {
+    "offset": "0x20230b3",
+    "text": "_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvs"
+  },
+  {
+    "offset": "0x20251cd",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVAA0dE0AAWP"
+  },
+  {
+    "offset": "0x20251fa",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVACycfC"
+  },
+  {
+    "offset": "0x2025223",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVMa"
+  },
+  {
+    "offset": "0x2025248",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVMn"
+  },
+  {
+    "offset": "0x20262a6",
+    "text": "_$s7SwiftUI24_ForegroundStyleModifierVMn"
+  },
+  {
+    "offset": "0x20262cf",
+    "text": "_$s7SwiftUI24_ForegroundStyleModifierVyxGAA04ViewE0AAMc"
+  },
+  {
+    "offset": "0x2028882",
+    "text": "_$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF"
+  },
+  {
+    "offset": "0x20288b0",
+    "text": "_$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF"
+  },
+  {
+    "offset": "0x202d66e",
+    "text": "_$s7SwiftUI5ShapePAAE4bodyAA01_C4ViewVyxAA15ForegroundStyleVGvg"
+  },
+  {
+    "offset": "0x204206f",
+    "text": "_$sSo9VNContourC6VisionE16normalizedPointsSays5SIMD2VySfGGvg"
+  },
+  {
+    "offset": "0x2042aa5",
+    "text": "_OBJC_CLASS_$_UITapGestureRecognizer"
+  },
+  {
+    "offset": "0x2042d4c",
+    "text": "_OBJC_CLASS_$_SFSpeechRecognizer"
+  },
+  {
+    "offset": "0x20433f6",
+    "text": "_OBJC_CLASS_$_UIPinchGestureRecognizer"
+  },
+  {
+    "offset": "0x2043752",
+    "text": "_OBJC_CLASS_$_VNGenerateForegroundInstanceMaskRequest"
+  },
+  {
+    "offset": "0x2043788",
+    "text": "_OBJC_CLASS_$_VNInstanceMaskObservation"
+  },
+  {
+    "offset": "0x2043e79",
+    "text": "_OBJC_CLASS_$_UIScreenEdgePanGestureRecognizer"
+  },
+  {
+    "offset": "0x2043ec2",
+    "text": "_OBJC_CLASS_$_UIPanGestureRecognizer"
+  },
+  {
+    "offset": "0x2043ee7",
+    "text": "_OBJC_CLASS_$_UILongPressGestureRecognizer"
+  },
+  {
+    "offset": "0x2043f37",
+    "text": "_OBJC_CLASS_$_UIGestureRecognizer"
+  },
+  {
+    "offset": "0x2050dc6",
+    "text": "shouldResumeAnimationAfterForeground33_F66BEC896F1F38CAC29BEFA58C261558LLSbvpfi"
+  },
+  {
+    "offset": "0x2050e20",
+    "text": "1willEnterForegroundNotification33_F66BEC896F1F38CAC29BEFA58C261558LLyy10Foundation0H0VF"
+  },
+  {
+    "offset": "0x205932e",
+    "text": "__revision33_A1ECD3282AE943C3DD66C1DFDB160B89LLAA12DefaultValueVyAA0N9DecodableO7SourcesO4ZeroOGvpfi"
+  },
+  {
+    "offset": "0x2059f97",
+    "text": "5text15text25text322callToActionBackground0klM10Foreground0klm9SecondaryN07accent17accent27accent311closeButton011tierControlN00vwO00vw8SelectedN00vwxO0AgA0C5ColorVSg_A14YtcfC"
+  },
+  {
+    "offset": "0x205a17e",
+    "text": "ForegroundAA0C5ColorVSgv"
+  },
+  {
+    "offset": "0x205a246",
+    "text": "ForegroundAA0C5ColorVSgv"
+  },
+  {
+    "offset": "0x205a315",
+    "text": "ForegroundAA0C5ColorVSgv"
+  },
+  {
+    "offset": "0x205c3f1",
+    "text": "2localization12assetBaseURL8revision6locale25zeroDecimalPlaceCountriesACSSSg_SSAC13ConfigurationVAC09LocalizedS0V10Foundation0L0VSiAQ6LocaleVSaySSGtcfC"
+  },
+  {
+    "offset": "0x205c48c",
+    "text": "8localizationByTier12assetBaseURL8revision6locale25zeroDecimalPlaceCountriesACSSSg_SSAC13ConfigurationVSDySSAC09LocalizedU0VG10Foundation0N0VSiAR6LocaleVSaySSGtcfC"
+  },
+  {
+    "offset": "0x205ca55",
+    "text": "_revisionSivpfP"
+  },
+  {
+    "offset": "0x205caf1",
+    "text": "8revisionSiv"
+  },
+  {
+    "offset": "0x205f22b",
+    "text": "paywallRevisionSiv"
+  },
+  {
+    "offset": "0x205f3c2",
+    "text": "targetingRevisionSiSgvpfi"
+  },
+  {
+    "offset": "0x2062b01",
+    "text": "__revision33_13F0D132F3DA1A28F6490FD3300E0688LLAA12DefaultValueVyAA0N9DecodableO7SourcesO4ZeroOGvpfi"
+  },
+  {
+    "offset": "0x2062d84",
+    "text": "12templateName8revision12assetBaseURL16componentsConfig0L13Localizations13defaultLocale18offeringIdentifier10exitOffersACSSSg_SSSi10Foundation0K0VAA21PaywallComponentsDataV0wM0VSDySSSDySSAR012LocalizationX0OGGSSAmA04ExitT0VSgtcfC"
+  },
+  {
+    "offset": "0x2063005",
+    "text": "8revisionSiv"
+  },
+  {
+    "offset": "0x2063015",
+    "text": "9_revisionSivpfP"
+  },
+  {
+    "offset": "0x207a397",
+    "text": "__revision33_C32D0ED3268BA49403ADEBD3DD3D3446LLAA12DefaultValueVyAA0N9DecodableO7SourcesO4ZeroOGvpfi"
+  },
+  {
+    "offset": "0x207a7e4",
+    "text": "12templateName12assetBaseURL16componentsConfig0L13Localizations8revision23defaultLocaleIdentifier25zeroDecimalPlaceCountries10exitOffers26automaticallyScaleFontSize17stateDeclarationsACSSSg_SS10Foundation0K0VAC0dM0VSDySSSDySSAC012LocalizationE0OGGSiSSSaySSGAA04ExitX0VSgSbSDySSAA0C9ComponentO16StateDeclarationVGSgtcfC"
+  },
+  {
+    "offset": "0x207aa13",
+    "text": "_revisionSivpfP"
+  },
+  {
+    "offset": "0x207aaed",
+    "text": "8revisionSiv"
+  },
+  {
+    "offset": "0x207e1ea",
+    "text": "8revision"
+  },
+  {
+    "offset": "0x207f6e1",
+    "text": "0revisionIDSiv"
+  },
+  {
+    "offset": "0x207f81d",
+    "text": "locale8darkMode9isSandbox07displayK04path3url14surveyOptionID17additionalContext08revisionS0AE10Foundation6LocaleV_S2bAA0cd12PresentationK0OAA0cd6ConfigH0V8HelpPathV8PathTypeOAO3URLVSgS2SSgSitcfC"
+  },
+  {
+    "offset": "0x209b022",
+    "text": "foregroundColoryAC0A2UI0F0VSgF"
+  },
+  {
+    "offset": "0x20b4961",
+    "text": "5willEnterForegroundNotificationNameSo014NSNotificationG0aSgv"
+  },
+  {
+    "offset": "0x20d32d2",
+    "text": "4isInForeground33_842754875BD7C40AC99E6FADBDDF9E12LLSbvpfi"
+  },
+  {
+    "offset": "0x20d33c8",
+    "text": "#21updateForegroundStateyySbF"
+  },
+  {
+    "offset": "0x20d8c2b",
+    "text": "4bind15selectedSegment6fileID0H4Path4line6column05SwiftD012ObserveTokenCAJ9UIBindingVyxG_s12StaticStringVAQS2utSYRzSi8RawValueRtzlF"
+  },
+  {
+    "offset": "0x20d8cb1",
+    "text": "$5frame15selectedSegment6fileID0H4Path4line6columnABSo6CGRectV_05SwiftD09UIBindingVyxGs12StaticStringVAQS2utcSYRzSi8RawValueRtzlufC"
+  },
+  {
+    "offset": "0x20d8d88",
+    "text": "$SegmentedControlC15UIKitNavigationE"
+  },
+  {
+    "offset": "0x20d9f71",
+    "text": "%4UIGestureRecognizerStateV10CustomDump"
+  },
+  {
+    "offset": "0x20da70c",
+    "text": "%7SFSpeechRecognizerAuthorizationStatusV10CustomDump"
+  },
+  {
+    "offset": "0x20e0cda",
+    "text": "EnterForegroundNotification"
+  },
+  {
+    "offset": "0x20f38b2",
+    "text": "EnterForegroundNotification"
+  },
+  {
+    "offset": "0x2140062",
+    "text": "_$s10AppIntents11IntentModesV10foregroundyA2C14ForegroundModeVFZ"
+  },
+  {
+    "offset": "0x21400a3",
+    "text": "_$s10AppIntents11IntentModesV14ForegroundModeV9immediateAEvgZ"
+  },
+  {
+    "offset": "0x21400e1",
+    "text": "_$s10AppIntents11IntentModesV14ForegroundModeVMa"
+  },
+  {
+    "offset": "0x214119f",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ"
+  },
+  {
+    "offset": "0x21411e1",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingV13prettyPrintedAEvgZ"
+  },
+  {
+    "offset": "0x2141226",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingVMa"
+  },
+  {
+    "offset": "0x2141259",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingVMn"
+  },
+  {
+    "offset": "0x214128c",
+    "text": "_$s10Foundation11JSONEncoderC16OutputFormattingVs10SetAlgebraAAMc"
+  },
+  {
+    "offset": "0x21412ce",
+    "text": "_$s10Foundation11JSONEncoderC16outputFormattingAC06OutputD0VvsTj"
+  },
+  {
+    "offset": "0x2142cf2",
+    "text": "_$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc"
+  },
+  {
+    "offset": "0x2142d5a",
+    "text": "_$s10Foundation15AttributeScopesO5UIKitE0D10AttributesV015ForegroundColorB0ON"
+  },
+  {
+    "offset": "0x2142f02",
+    "text": "_$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc"
+  },
+  {
+    "offset": "0x2142f6e",
+    "text": "_$s10Foundation15AttributeScopesO7SwiftUIE0D12UIAttributesV015ForegroundColorB0ON"
+  },
+  {
+    "offset": "0x21541b5",
+    "text": "_$s7SwiftUI15ForegroundStyleVMn"
+  },
+  {
+    "offset": "0x2156764",
+    "text": "_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvg"
+  },
+  {
+    "offset": "0x215679f",
+    "text": "_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpMV"
+  },
+  {
+    "offset": "0x21567dc",
+    "text": "_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvs"
+  },
+  {
+    "offset": "0x21593bb",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVAA0dE0AAWP"
+  },
+  {
+    "offset": "0x21593e8",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVACycfC"
+  },
+  {
+    "offset": "0x2159411",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVMa"
+  },
+  {
+    "offset": "0x2159436",
+    "text": "_$s7SwiftUI20SegmentedPickerStyleVMn"
+  },
+  {
+    "offset": "0x215a494",
+    "text": "_$s7SwiftUI24_ForegroundStyleModifierVMn"
+  },
+  {
+    "offset": "0x215a4bd",
+    "text": "_$s7SwiftUI24_ForegroundStyleModifierVyxGAA04ViewE0AAMc"
+  },
+  {
+    "offset": "0x215cfa7",
+    "text": "_$s7SwiftUI4TextV15foregroundColoryAcA0E0VSgF"
+  },
+  {
+    "offset": "0x215cfd5",
+    "text": "_$s7SwiftUI4TextV15foregroundStyleyACxAA05ShapeE0RzlF"
+  },
+  {
+    "offset": "0x2162184",
+    "text": "_$s7SwiftUI5ShapePAAE4bodyAA01_C4ViewVyxAA15ForegroundStyleVGvg"
+  },
+  {
+    "offset": "0x21739f7",
+    "text": "_$sSo8UIButtonC5UIKitE13ConfigurationV19baseForegroundColorSo7UIColorCSgvs"
+  },
+  {
+    "offset": "0x217465f",
+    "text": "_$sSo9VNContourC6VisionE16normalizedPointsSays5SIMD2VySfGGvg"
+  },
+  {
+    "offset": "0x2184a61",
+    "text": "_NSForegroundColorAttributeName"
+  },
+  {
+    "offset": "0x2186efd",
+    "text": "_OBJC_CLASS_$_SFSpeechRecognizer"
+  },
+  {
+    "offset": "0x2187415",
+    "text": "_OBJC_CLASS_$_UIGestureRecognizer"
+  },
+  {
+    "offset": "0x2187546",
+    "text": "_OBJC_CLASS_$_UILongPressGestureRecognizer"
+  },
+  {
+    "offset": "0x2187674",
+    "text": "_OBJC_CLASS_$_UIPanGestureRecognizer"
+  },
+  {
+    "offset": "0x21876cf",
+    "text": "_OBJC_CLASS_$_UIPinchGestureRecognizer"
+  },
+  {
+    "offset": "0x21877e9",
+    "text": "_OBJC_CLASS_$_UIScreenEdgePanGestureRecognizer"
+  },
+  {
+    "offset": "0x2187911",
+    "text": "_OBJC_CLASS_$_UITapGestureRecognizer"
+  },
+  {
+    "offset": "0x2187b78",
+    "text": "_OBJC_CLASS_$_VNGenerateForegroundInstanceMaskRequest"
+  },
+  {
+    "offset": "0x2187bd2",
+    "text": "_OBJC_CLASS_$_VNInstanceMaskObservation"
+  },
+  {
+    "offset": "0x21885d9",
+    "text": "_UIApplicationWillEnterForegroundNotification"
+  },
+  {
+    "offset": "0x2188a3c",
+    "text": "_UISceneWillEnterForegroundNotification"
+  },
+  {
+    "offset": "0x21d10a9",
+    "text": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+  },
+  {
+    "offset": "0x2215229",
+    "text": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+  }
+]

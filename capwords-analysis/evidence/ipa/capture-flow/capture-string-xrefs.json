@@ -1,0 +1,2072 @@
+[
+  {
+    "at": "0x10045f3f8",
+    "function": "0x10045f320",
+    "target": "0x101954a40",
+    "text": "camera.authorization_available"
+  },
+  {
+    "at": "0x10045f498",
+    "function": "0x10045f320",
+    "target": "0x1019549f0",
+    "text": "camera.authorization_unavailable"
+  },
+  {
+    "at": "0x10045f6f4",
+    "function": "0x10045f320",
+    "target": "0x101954a20",
+    "text": "camera.authorization_started"
+  },
+  {
+    "at": "0x10045f7dc",
+    "function": "0x10045f320",
+    "target": "0x1019549d0",
+    "text": "camera.authorization_unknown"
+  },
+  {
+    "at": "0x10045fcc4",
+    "function": "0x10045fa40",
+    "target": "0x1019549a0",
+    "text": "com.snapwords.controlsSessionQueue"
+  },
+  {
+    "at": "0x100460100",
+    "function": "0x10045fe84",
+    "target": "0x1019549a0",
+    "text": "com.snapwords.controlsSessionQueue"
+  },
+  {
+    "at": "0x100460a4c",
+    "function": "0x100460844",
+    "target": "0x101954b10",
+    "text": "camera.capture_control_unavailable"
+  },
+  {
+    "at": "0x100460cdc",
+    "function": "0x100460c18",
+    "target": "0x101954a60",
+    "text": "camera.authorization_completed"
+  },
+  {
+    "at": "0x100461170",
+    "function": "0x100461150",
+    "target": "0x101954a80",
+    "text": "Camera permission required"
+  },
+  {
+    "at": "0x1004611e0",
+    "function": "0x100461150",
+    "target": "0x101954aa0",
+    "text": "Please allow access to the camera in settings to use the photo feature"
+  },
+  {
+    "at": "0x10046164c",
+    "function": "0x100461604",
+    "target": "0x101954980",
+    "text": "camera.photo_capture_started"
+  },
+  {
+    "at": "0x1004618d0",
+    "function": "0x1004618a0",
+    "target": "0x101954720",
+    "text": "camera.video_recording_stop_requested"
+  },
+  {
+    "at": "0x100461c18",
+    "function": "0x100461a18",
+    "target": "0x101954780",
+    "text": "camera.video_recording_started"
+  },
+  {
+    "at": "0x100461d48",
+    "function": "0x100461a18",
+    "target": "0x1019547a0",
+    "text": "live_photo_recorded_video_"
+  },
+  {
+    "at": "0x10046249c",
+    "function": "0x100462328",
+    "target": "0x101954950",
+    "text": "camera.focus_configuration_failed"
+  },
+  {
+    "at": "0x100462828",
+    "function": "0x1004626e4",
+    "target": "0x101954930",
+    "text": "camera.session_runtime_failed"
+  },
+  {
+    "at": "0x100462dcc",
+    "function": "0x100462ce4",
+    "target": "0x101954750",
+    "text": "camera.video_recording_cancel_requested"
+  },
+  {
+    "at": "0x10046365c",
+    "function": "0x100463428",
+    "target": "0x101954840",
+    "text": "camera.switch_failed"
+  },
+  {
+    "at": "0x1004637ac",
+    "function": "0x100463428",
+    "target": "0x101954840",
+    "text": "camera.switch_failed"
+  },
+  {
+    "at": "0x100463858",
+    "function": "0x100463428",
+    "target": "0x101954860",
+    "text": "session_add_input"
+  },
+  {
+    "at": "0x1004638c0",
+    "function": "0x100463428",
+    "target": "0x101954840",
+    "text": "camera.switch_failed"
+  },
+  {
+    "at": "0x100463f74",
+    "function": "0x100463eac",
+    "target": "0x101954910",
+    "text": "camera.photo_processing_failed"
+  },
+  {
+    "at": "0x100463fc8",
+    "function": "0x100463eac",
+    "target": "0x1019548e0",
+    "text": "camera.photo_processing_succeeded"
+  },
+  {
+    "at": "0x1004644f8",
+    "function": "0x100464438",
+    "target": "0x1019548b0",
+    "text": "camera.live_photo_processing_failed"
+  },
+  {
+    "at": "0x100464a5c",
+    "function": "0x1004649ac",
+    "target": "0x101954810",
+    "text": "camera.video_recording_cancelled"
+  },
+  {
+    "at": "0x100464b34",
+    "function": "0x1004649ac",
+    "target": "0x1019547f0",
+    "text": "camera.video_recording_failed"
+  },
+  {
+    "at": "0x100466b04",
+    "function": "0x100466a10",
+    "target": "0x101954af0",
+    "text": "com.snapwords.cameraSession"
+  },
+  {
+    "at": "0x100466dd0",
+    "function": "0x100466cd0",
+    "target": "0x1019547c0",
+    "text": "camera.zoom_configuration_failed"
+  },
+  {
+    "at": "0x100467ac0",
+    "function": "0x100467940",
+    "target": "0x101954880",
+    "text": "camera.video_frame_extraction_failed"
+  },
+  {
+    "at": "0x10046957c",
+    "function": "0x1004692bc",
+    "target": "0x101954b60",
+    "text": "camera.video.mask"
+  },
+  {
+    "at": "0x1004698a8",
+    "function": "0x1004692bc",
+    "target": "0x101954b40",
+    "text": "camera.bounds.new"
+  },
+  {
+    "at": "0x10046ae50",
+    "function": "0x10046ac04",
+    "target": "0x101954bb0",
+    "text": "A bit short, record at least 2s"
+  },
+  {
+    "at": "0x10046b39c",
+    "function": "0x10046ac04",
+    "target": "0x101954b80",
+    "text": "Please place the object"
+  },
+  {
+    "at": "0x10046d8b0",
+    "function": "0x10046d894",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10046d8c8",
+    "function": "0x10046d894",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10046d8d0",
+    "function": "0x10046d894",
+    "target": "0x101954bd0",
+    "text": "SnapWords/StickerCameraBoundsView.swift"
+  },
+  {
+    "at": "0x1004702e4",
+    "function": "0x10047026c",
+    "target": "0x101954c20",
+    "text": "camera.bounds.top.icon"
+  },
+  {
+    "at": "0x100470338",
+    "function": "0x10047026c",
+    "target": "0x101954c40",
+    "text": "Zoom or move the image to place"
+  },
+  {
+    "at": "0x1004706ec",
+    "function": "0x100470610",
+    "target": "0x101954c00",
+    "text": "Confirm selection"
+  },
+  {
+    "at": "0x100471408",
+    "function": "0x1004713ec",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x100471420",
+    "function": "0x1004713ec",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x100471428",
+    "function": "0x1004713ec",
+    "target": "0x101954c80",
+    "text": "SnapWords/StickerCameraCropToolView.swift"
+  },
+  {
+    "at": "0x1004722b8",
+    "function": "0x1004722a0",
+    "target": "0x101955040",
+    "text": "Tap to recognize the full image"
+  },
+  {
+    "at": "0x100474c60",
+    "function": "0x100474878",
+    "target": "0x101954fc0",
+    "text": "try_demo_img_normal"
+  },
+  {
+    "at": "0x100474ca8",
+    "function": "0x100474878",
+    "target": "0x101954fe0",
+    "text": "try_demo_img_mask"
+  },
+  {
+    "at": "0x100474ce8",
+    "function": "0x100474878",
+    "target": "0x101955000",
+    "text": "try_demo_img_crop"
+  },
+  {
+    "at": "0x10047893c",
+    "function": "0x1004785b4",
+    "target": "0x101955020",
+    "text": "camera.vision_failed"
+  },
+  {
+    "at": "0x100479a4c",
+    "function": "0x100479194",
+    "target": "0x101954cb0",
+    "text": "camera.result_failed"
+  },
+  {
+    "at": "0x10047bc40",
+    "function": "0x10047b7b0",
+    "target": "0x101954d90",
+    "text": "camera.media_processing_started"
+  },
+  {
+    "at": "0x10047c47c",
+    "function": "0x10047c1a8",
+    "target": "0x101954db0",
+    "text": "camera.gif_processing_failed"
+  },
+  {
+    "at": "0x10047c4ec",
+    "function": "0x10047c1a8",
+    "target": "0x101954dd0",
+    "text": "camera.gif_processing_succeeded"
+  },
+  {
+    "at": "0x10047c7b4",
+    "function": "0x10047c6d4",
+    "target": "0x101954db0",
+    "text": "camera.gif_processing_failed"
+  },
+  {
+    "at": "0x10047cedc",
+    "function": "0x10047ca94",
+    "target": "0x101954df0",
+    "text": "camera.media_processing_discarded"
+  },
+  {
+    "at": "0x10047f478",
+    "function": "0x10047f434",
+    "target": "0x101954e20",
+    "text": "convertMOVToMP4(from:quality:diagnosticID:)"
+  },
+  {
+    "at": "0x10047f974",
+    "function": "0x10047f920",
+    "target": "0x101954ee0",
+    "text": "camera.video_conversion_failed"
+  },
+  {
+    "at": "0x100480448",
+    "function": "0x10047fc3c",
+    "target": "0x101954eb0",
+    "text": "camera.media_recognition_submitted"
+  },
+  {
+    "at": "0x100480ad4",
+    "function": "0x10047fc3c",
+    "target": "0x101954cb0",
+    "text": "camera.result_failed"
+  },
+  {
+    "at": "0x100481738",
+    "function": "0x1004816e0",
+    "target": "0x101954e20",
+    "text": "convertMOVToMP4(from:quality:diagnosticID:)"
+  },
+  {
+    "at": "0x100481a78",
+    "function": "0x10048199c",
+    "target": "0x101954e50",
+    "text": "camera.live_photo_conversion_failed"
+  },
+  {
+    "at": "0x100481ed0",
+    "function": "0x100481bd4",
+    "target": "0x101954e80",
+    "text": "camera.live_photo_result_discarded"
+  },
+  {
+    "at": "0x100487e14",
+    "function": "0x100487dd4",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x100487e20",
+    "function": "0x100487dd4",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004896c4",
+    "function": "0x100489404",
+    "target": "0x101954cb0",
+    "text": "camera.result_failed"
+  },
+  {
+    "at": "0x100489e60",
+    "function": "0x100489d7c",
+    "target": "0x101954d30",
+    "text": "camera.result_delivered"
+  },
+  {
+    "at": "0x100489e7c",
+    "function": "0x100489d7c",
+    "target": "0x101954d10",
+    "text": "camera.result_target_missing"
+  },
+  {
+    "at": "0x10048a208",
+    "function": "0x10048a080",
+    "target": "0x101954cd0",
+    "text": "camera.result_database_failed"
+  },
+  {
+    "at": "0x10048b014",
+    "function": "0x10048af44",
+    "target": "0x101954d50",
+    "text": "camera.sticker_encode_failed"
+  },
+  {
+    "at": "0x10048b9b0",
+    "function": "0x10048b7a0",
+    "target": "0x101954d70",
+    "text": "camera.recognition_failed"
+  },
+  {
+    "at": "0x10048cb64",
+    "function": "0x10048c7fc",
+    "target": "0x101954cb0",
+    "text": "camera.result_failed"
+  },
+  {
+    "at": "0x10048d274",
+    "function": "0x10048d0cc",
+    "target": "0x101954d50",
+    "text": "camera.sticker_encode_failed"
+  },
+  {
+    "at": "0x10048d3a4",
+    "function": "0x10048d0cc",
+    "target": "0x101954d70",
+    "text": "camera.recognition_failed"
+  },
+  {
+    "at": "0x10048ec28",
+    "function": "0x10048ebbc",
+    "target": "0x101954fa0",
+    "text": "debug_gif_normal"
+  },
+  {
+    "at": "0x100495358",
+    "function": "0x10049514c",
+    "target": "0x101923db0",
+    "text": "core_data.save_failed"
+  },
+  {
+    "at": "0x100496bec",
+    "function": "0x1004963a8",
+    "target": "0x101955060",
+    "text": "View.task @ SnapWords/TipView.swift:"
+  },
+  {
+    "at": "0x100498f58",
+    "function": "0x100498f34",
+    "target": "0x101955160",
+    "text": "Recognition Failed"
+  },
+  {
+    "at": "0x100499054",
+    "function": "0x10049901c",
+    "target": "0x1019550f0",
+    "text": "We couldn't recognize the image due to a network issue. Please check your connection and try again"
+  },
+  {
+    "at": "0x100499060",
+    "function": "0x10049901c",
+    "target": "0x101955090",
+    "text": "Sorry, we couldn't recognize the item. Please make sure the image is clear and try again"
+  },
+  {
+    "at": "0x10049d3a4",
+    "function": "0x10049d2f4",
+    "target": "0x101955180",
+    "text": "sticker.layer.alert.icon"
+  },
+  {
+    "at": "0x10049d458",
+    "function": "0x10049d2f4",
+    "target": "0x1019551a0",
+    "text": "Not what you expected? Tap to adjust"
+  },
+  {
+    "at": "0x10049da0c",
+    "function": "0x10049d970",
+    "target": "0x101955210",
+    "text": "stickerlayer.retry"
+  },
+  {
+    "at": "0x10049dc6c",
+    "function": "0x10049dbd0",
+    "target": "0x1019551f0",
+    "text": "stickerlayer.done"
+  },
+  {
+    "at": "0x10049dfd8",
+    "function": "0x10049df3c",
+    "target": "0x1019551d0",
+    "text": "stickerlayer.cancel"
+  },
+  {
+    "at": "0x10049f2cc",
+    "function": "0x10049f0b0",
+    "target": "0x10194ed40",
+    "text": "stickerlayer.loading.circle.mask"
+  },
+  {
+    "at": "0x1004adf5c",
+    "function": "0x1004adc78",
+    "target": "0x101955250",
+    "text": "stickerlayer.result.bg"
+  },
+  {
+    "at": "0x1004adf88",
+    "function": "0x1004adc78",
+    "target": "0x101955270",
+    "text": "stickerlayer.result.bg.star"
+  },
+  {
+    "at": "0x1004b3960",
+    "function": "0x1004b36fc",
+    "target": "0x101955230",
+    "text": "main.speaker.selected"
+  },
+  {
+    "at": "0x1004c4b90",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c4dd4",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c4f30",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c4f44",
+    "function": "0x1004c4980",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5054",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5068",
+    "function": "0x1004c4980",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c51c0",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c52f4",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5308",
+    "function": "0x1004c4980",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5540",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5774",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5788",
+    "function": "0x1004c4980",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5b58",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5b6c",
+    "function": "0x1004c4980",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5d2c",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c5f98",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c6154",
+    "function": "0x1004c4980",
+    "target": "0x101954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004c6168",
+    "function": "0x1004c4980",
+    "target": "0x101954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "at": "0x1004d1bd8",
+    "function": "0x1004d1bac",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x1004d1bf0",
+    "function": "0x1004d1bac",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x1004d1bf8",
+    "function": "0x1004d1bac",
+    "target": "0x1019552c0",
+    "text": "SnapWords/StickerOutlineView.swift"
+  },
+  {
+    "at": "0x1004d1cf8",
+    "function": "0x1004d1cec",
+    "target": "0x101955290",
+    "text": "SnapWords.StickerOutlineImageView"
+  },
+  {
+    "at": "0x1004d1d00",
+    "function": "0x1004d1cec",
+    "target": "0x1019a2ac0",
+    "text": "init(frame:)"
+  },
+  {
+    "at": "0x1004d4138",
+    "function": "0x1004d3f44",
+    "target": "0x1019552f0",
+    "text": "Save this scene?"
+  },
+  {
+    "at": "0x1004d4a94",
+    "function": "0x1004d4a30",
+    "target": "0x101955310",
+    "text": "No, extract a specific object"
+  },
+  {
+    "at": "0x1004d6b5c",
+    "function": "0x1004d68d4",
+    "target": "0x1020da010",
+    "text": "0eF17StringConvertibleAC"
+  },
+  {
+    "at": "0x1004dd1a8",
+    "function": "0x1004dcfb0",
+    "target": "0x101955330",
+    "text": "Enter target object name"
+  },
+  {
+    "at": "0x1004dfd78",
+    "function": "0x1004dfd48",
+    "target": "0x10185c1c8",
+    "text": "FFFFFF"
+  },
+  {
+    "at": "0x1004dfdec",
+    "function": "0x1004dfd48",
+    "target": "0x10185c1f0",
+    "text": "FFFFFF"
+  },
+  {
+    "at": "0x1004e10e0",
+    "function": "0x1004e0ce8",
+    "target": "0x1019553a0",
+    "text": "captureAperturePaper"
+  },
+  {
+    "at": "0x1004e1260",
+    "function": "0x1004e0ce8",
+    "target": "0x101955380",
+    "text": "capturePaperGrain"
+  },
+  {
+    "at": "0x1004e184c",
+    "function": "0x1004e16f8",
+    "target": "0x101955380",
+    "text": "capturePaperGrain"
+  },
+  {
+    "at": "0x1004e1a8c",
+    "function": "0x1004e197c",
+    "target": "0x101955380",
+    "text": "capturePaperGrain"
+  },
+  {
+    "at": "0x1004e3038",
+    "function": "0x1004e3010",
+    "target": "0x1019554a0",
+    "text": "Live Photo is On"
+  },
+  {
+    "at": "0x1004e3044",
+    "function": "0x1004e3010",
+    "target": "0x101955480",
+    "text": "Live Photo is Off"
+  },
+  {
+    "at": "0x1004e5254",
+    "function": "0x1004e50ec",
+    "target": "0x101955460",
+    "text": "camera.livephoto.on"
+  },
+  {
+    "at": "0x1004e527c",
+    "function": "0x1004e50ec",
+    "target": "0x101955440",
+    "text": "camera.livephoto.off"
+  },
+  {
+    "at": "0x1004e6e10",
+    "function": "0x1004e6bc8",
+    "target": "0x1019554c0",
+    "text": "Curious how to say this in %@?"
+  },
+  {
+    "at": "0x1004e7ad8",
+    "function": "0x1004e76b0",
+    "target": "0x101955610",
+    "text": "Long press to recognize video"
+  },
+  {
+    "at": "0x1004e82f4",
+    "function": "0x1004e8168",
+    "target": "0x1019553e0",
+    "text": "Tap the center button to capture your first word"
+  },
+  {
+    "at": "0x1004e8314",
+    "function": "0x1004e8168",
+    "target": "0x101955420",
+    "text": "Tap to recognize this word"
+  },
+  {
+    "at": "0x1004e9108",
+    "function": "0x1004e8fc8",
+    "target": "0x101955500",
+    "text": "Recognize this photo?"
+  },
+  {
+    "at": "0x1004e9114",
+    "function": "0x1004e8fc8",
+    "target": "0x101955570",
+    "text": "Sticker Not Available"
+  },
+  {
+    "at": "0x1004e9304",
+    "function": "0x1004e8fc8",
+    "target": "0x101955520",
+    "text": "Oops! We couldn't create a sticker from this"
+  },
+  {
+    "at": "0x1004e9810",
+    "function": "0x1004e9660",
+    "target": "0x101955590",
+    "text": "object from the scene"
+  },
+  {
+    "at": "0x1004e9b6c",
+    "function": "0x1004e9aec",
+    "target": "0x1019555b0",
+    "text": "If not,tap the crop "
+  },
+  {
+    "at": "0x1004e9c08",
+    "function": "0x1004e9aec",
+    "target": "0x1019555d0",
+    "text": "camera.secen.text.icon"
+  },
+  {
+    "at": "0x1004e9c94",
+    "function": "0x1004e9aec",
+    "target": "0x1019555f0",
+    "text": " button to select an"
+  },
+  {
+    "at": "0x1004ea2b0",
+    "function": "0x1004e9eb4",
+    "target": "0x101955650",
+    "text": "bar.content.retry"
+  },
+  {
+    "at": "0x1004ea2bc",
+    "function": "0x1004e9eb4",
+    "target": "0x101955670",
+    "text": "bar.content.close"
+  },
+  {
+    "at": "0x1004ea99c",
+    "function": "0x1004e9eb4",
+    "target": "0x101955630",
+    "text": "bar.content.photo"
+  },
+  {
+    "at": "0x1004ee4ec",
+    "function": "0x1004ecc48",
+    "target": "0x101955690",
+    "text": "debug.captureBladeStyle"
+  },
+  {
+    "at": "0x1004eeafc",
+    "function": "0x1004ecc48",
+    "target": "0x1019556b0",
+    "text": "bar.camera.checkmark"
+  },
+  {
+    "at": "0x1004ef564",
+    "function": "0x1004ecc48",
+    "target": "0x1019556d0",
+    "text": "bar.camera.select"
+  },
+  {
+    "at": "0x1004f1c88",
+    "function": "0x1004f1b30",
+    "target": "0x101951520",
+    "text": "debug.captureShutterMaterial"
+  },
+  {
+    "at": "0x1004f2458",
+    "function": "0x1004f243c",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x1004f2470",
+    "function": "0x1004f243c",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x1004f2478",
+    "function": "0x1004f243c",
+    "target": "0x1019556f0",
+    "text": "SnapWords/CarmeraBarView.swift"
+  },
+  {
+    "at": "0x1004f9c84",
+    "function": "0x1004f9b3c",
+    "target": "0x101955710",
+    "text": "home.header.storke"
+  },
+  {
+    "at": "0x1004fa2b4",
+    "function": "0x1004fa060",
+    "target": "0x101955380",
+    "text": "capturePaperGrain"
+  },
+  {
+    "at": "0x1004fa384",
+    "function": "0x1004fa060",
+    "target": "0x101955690",
+    "text": "debug.captureBladeStyle"
+  },
+  {
+    "at": "0x1004fba5c",
+    "function": "0x1004fb974",
+    "target": "0x101955690",
+    "text": "debug.captureBladeStyle"
+  },
+  {
+    "at": "0x1004fda24",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdb2c",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdbd0",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdc44",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdca8",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdd0c",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdda0",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdeb8",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdecc",
+    "function": "0x1004fd8f8",
+    "target": "0x101955730",
+    "text": "SnapWords/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdf70",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fdf84",
+    "function": "0x1004fd8f8",
+    "target": "0x101955730",
+    "text": "SnapWords/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fe084",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fe098",
+    "function": "0x1004fd8f8",
+    "target": "0x101955730",
+    "text": "SnapWords/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fe184",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fe198",
+    "function": "0x1004fd8f8",
+    "target": "0x101955730",
+    "text": "SnapWords/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fe224",
+    "function": "0x1004fd8f8",
+    "target": "0x101955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x1004fe238",
+    "function": "0x1004fd8f8",
+    "target": "0x101955730",
+    "text": "SnapWords/ContainerBarModel.swift"
+  },
+  {
+    "at": "0x100500a70",
+    "function": "0x100500a64",
+    "target": "0x1019558e0",
+    "text": "SnapWords.CALayerAnimationDelegate"
+  },
+  {
+    "at": "0x100500a78",
+    "function": "0x100500a64",
+    "target": "0x1019be210",
+    "text": "init()"
+  },
+  {
+    "at": "0x100501110",
+    "function": "0x10050109c",
+    "target": "0x1019557f0",
+    "text": "CAAnimationUtilsSpringCustomCurve"
+  },
+  {
+    "at": "0x10050125c",
+    "function": "0x10050109c",
+    "target": "0x1019557d0",
+    "text": "CAAnimationUtilsSpringCurve"
+  },
+  {
+    "at": "0x1005034fc",
+    "function": "0x10050344c",
+    "target": "0x101955820",
+    "text": "sublayerTransform.scale"
+  },
+  {
+    "at": "0x100503658",
+    "function": "0x1005035ac",
+    "target": "0x101955840",
+    "text": "transform.scale.x"
+  },
+  {
+    "at": "0x1005037ac",
+    "function": "0x100503700",
+    "target": "0x101955860",
+    "text": "transform.scale.y"
+  },
+  {
+    "at": "0x100503900",
+    "function": "0x100503854",
+    "target": "0x101955880",
+    "text": "transform.rotation.z"
+  },
+  {
+    "at": "0x100503e3c",
+    "function": "0x100503d8c",
+    "target": "0x1019558a0",
+    "text": "bounds.size.width"
+  },
+  {
+    "at": "0x100503fa0",
+    "function": "0x100503ef0",
+    "target": "0x1019558c0",
+    "text": "bounds.size.height"
+  },
+  {
+    "at": "0x100504254",
+    "function": "0x1005041b8",
+    "target": "0x1019557f0",
+    "text": "CAAnimationUtilsSpringCustomCurve"
+  },
+  {
+    "at": "0x1005043c0",
+    "function": "0x1005041b8",
+    "target": "0x1019557d0",
+    "text": "CAAnimationUtilsSpringCurve"
+  },
+  {
+    "at": "0x100505e34",
+    "function": "0x100505bb4",
+    "target": "0x101955950",
+    "text": "bits_per_component"
+  },
+  {
+    "at": "0x100505f60",
+    "function": "0x100505bb4",
+    "target": "0x101955930",
+    "text": "missing_cg_image"
+  },
+  {
+    "at": "0x100506050",
+    "function": "0x100505bb4",
+    "target": "0x101955910",
+    "text": "item_creation_failed"
+  },
+  {
+    "at": "0x100506330",
+    "function": "0x100505bb4",
+    "target": "0x101955950",
+    "text": "bits_per_component"
+  },
+  {
+    "at": "0x1005064e8",
+    "function": "0x100505bb4",
+    "target": "0x101955970",
+    "text": "error_description"
+  },
+  {
+    "at": "0x100506600",
+    "function": "0x100505bb4",
+    "target": "0x101955910",
+    "text": "item_creation_failed"
+  },
+  {
+    "at": "0x10050676c",
+    "function": "0x1005066f0",
+    "target": "0x101955a50",
+    "text": "DustEffectMetalSourcesBundle"
+  },
+  {
+    "at": "0x100506d78",
+    "function": "0x100506d28",
+    "target": "0x101955a10",
+    "text": "dustEffectVertex"
+  },
+  {
+    "at": "0x100506db0",
+    "function": "0x100506d28",
+    "target": "0x101955a30",
+    "text": "dustEffectFragment"
+  },
+  {
+    "at": "0x1005071fc",
+    "function": "0x1005071ac",
+    "target": "0x101955a70",
+    "text": "dustEffectInitializeParticle"
+  },
+  {
+    "at": "0x100507254",
+    "function": "0x1005071ac",
+    "target": "0x101955a90",
+    "text": "dustEffectUpdateParticle"
+  },
+  {
+    "at": "0x100507b88",
+    "function": "0x100507940",
+    "target": "0x101955af0",
+    "text": "display_link_created"
+  },
+  {
+    "at": "0x100507d40",
+    "function": "0x100507940",
+    "target": "0x101955ad0",
+    "text": "display_link_released"
+  },
+  {
+    "at": "0x100508520",
+    "function": "0x100508368",
+    "target": "0x101955b10",
+    "text": "first_animation_frame"
+  },
+  {
+    "at": "0x1005089b4",
+    "function": "0x100508934",
+    "target": "0x1019559e0",
+    "text": "metal_update_skipped_empty_bounds"
+  },
+  {
+    "at": "0x100508b34",
+    "function": "0x100508934",
+    "target": "0x101955990",
+    "text": "first_metal_update"
+  },
+  {
+    "at": "0x100508c08",
+    "function": "0x100508934",
+    "target": "0x1019559b0",
+    "text": "particle_buffer_allocation_failed"
+  },
+  {
+    "at": "0x10050a114",
+    "function": "0x10050a024",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10050a12c",
+    "function": "0x10050a024",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10050a134",
+    "function": "0x10050a024",
+    "target": "0x101955ab0",
+    "text": "SnapWords/DustEffectLayer.swift"
+  },
+  {
+    "at": "0x10050b9e4",
+    "function": "0x10050b950",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10050b9fc",
+    "function": "0x10050b950",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10050ba04",
+    "function": "0x10050b950",
+    "target": "0x101955b30",
+    "text": "SnapWords/MetalEngine.swift"
+  },
+  {
+    "at": "0x10050bae4",
+    "function": "0x10050ba2c",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10050bafc",
+    "function": "0x10050ba2c",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10050bb04",
+    "function": "0x10050ba2c",
+    "target": "0x101955b30",
+    "text": "SnapWords/MetalEngine.swift"
+  },
+  {
+    "at": "0x10050bddc",
+    "function": "0x10050bc10",
+    "target": "0x101955b50",
+    "text": "PooledTexture: all textures are in use"
+  },
+  {
+    "at": "0x10050c134",
+    "function": "0x10050bf74",
+    "target": "0x101955b80",
+    "text": "PooledBuffer: all textures are in use"
+  },
+  {
+    "at": "0x10050cb48",
+    "function": "0x10050cabc",
+    "target": "0x101955c40",
+    "text": "Could not resolve renderToLayer inputs"
+  },
+  {
+    "at": "0x10050d038",
+    "function": "0x10050cbe4",
+    "target": "0x101955c40",
+    "text": "Could not resolve renderToLayer inputs"
+  },
+  {
+    "at": "0x10050d860",
+    "function": "0x10050d7e0",
+    "target": "0x101955c40",
+    "text": "Could not resolve renderToLayer inputs"
+  },
+  {
+    "at": "0x10050de24",
+    "function": "0x10050d900",
+    "target": "0x101955c40",
+    "text": "Could not resolve renderToLayer inputs"
+  },
+  {
+    "at": "0x1005231bc",
+    "function": "0x100523108",
+    "target": "0x101924570",
+    "text": "Culture & Holidays"
+  },
+  {
+    "at": "0x1005231cc",
+    "function": "0x100523108",
+    "target": "0x101924590",
+    "text": "Emotions & Personality"
+  },
+  {
+    "at": "0x1005231d8",
+    "function": "0x100523108",
+    "target": "0x1019245b0",
+    "text": "Weather & Seasons"
+  },
+  {
+    "at": "0x1005231f0",
+    "function": "0x100523108",
+    "target": "0x1019245d0",
+    "text": "Entertainment & Art"
+  },
+  {
+    "at": "0x100523204",
+    "function": "0x100523108",
+    "target": "0x1019245f0",
+    "text": "Sports & Exercise"
+  },
+  {
+    "at": "0x100523210",
+    "function": "0x100523108",
+    "target": "0x101924610",
+    "text": "Technology & Media"
+  },
+  {
+    "at": "0x100523228",
+    "function": "0x100523108",
+    "target": "0x101924630",
+    "text": "Shopping & Money"
+  },
+  {
+    "at": "0x100523238",
+    "function": "0x100523108",
+    "target": "0x101924650",
+    "text": "City & Buildings"
+  },
+  {
+    "at": "0x100523244",
+    "function": "0x100523108",
+    "target": "0x101924670",
+    "text": "Transportation & Travel"
+  },
+  {
+    "at": "0x10052325c",
+    "function": "0x100523108",
+    "target": "0x101924690",
+    "text": "Clothes & Accessories"
+  },
+  {
+    "at": "0x100523270",
+    "function": "0x100523108",
+    "target": "0x1019246b0",
+    "text": "Home & Furniture"
+  },
+  {
+    "at": "0x10052327c",
+    "function": "0x100523108",
+    "target": "0x1019246d0",
+    "text": "Animals & Nature"
+  },
+  {
+    "at": "0x100523734",
+    "function": "0x100523688",
+    "target": "0x101924570",
+    "text": "Culture & Holidays"
+  },
+  {
+    "at": "0x100523744",
+    "function": "0x100523688",
+    "target": "0x101924590",
+    "text": "Emotions & Personality"
+  },
+  {
+    "at": "0x100523750",
+    "function": "0x100523688",
+    "target": "0x1019245b0",
+    "text": "Weather & Seasons"
+  },
+  {
+    "at": "0x100523768",
+    "function": "0x100523688",
+    "target": "0x1019245d0",
+    "text": "Entertainment & Art"
+  },
+  {
+    "at": "0x10052377c",
+    "function": "0x100523688",
+    "target": "0x1019245f0",
+    "text": "Sports & Exercise"
+  },
+  {
+    "at": "0x100523788",
+    "function": "0x100523688",
+    "target": "0x101924610",
+    "text": "Technology & Media"
+  },
+  {
+    "at": "0x1005237a0",
+    "function": "0x100523688",
+    "target": "0x101924630",
+    "text": "Shopping & Money"
+  },
+  {
+    "at": "0x1005237b0",
+    "function": "0x100523688",
+    "target": "0x101924650",
+    "text": "City & Buildings"
+  },
+  {
+    "at": "0x1005237bc",
+    "function": "0x100523688",
+    "target": "0x101924670",
+    "text": "Transportation & Travel"
+  },
+  {
+    "at": "0x1005237d4",
+    "function": "0x100523688",
+    "target": "0x101924690",
+    "text": "Clothes & Accessories"
+  },
+  {
+    "at": "0x1005237e8",
+    "function": "0x100523688",
+    "target": "0x1019246b0",
+    "text": "Home & Furniture"
+  },
+  {
+    "at": "0x1005237f4",
+    "function": "0x100523688",
+    "target": "0x1019246d0",
+    "text": "Animals & Nature"
+  },
+  {
+    "at": "0x100523fec",
+    "function": "0x100523f38",
+    "target": "0x1019279a0",
+    "text": "recognitionReview"
+  },
+  {
+    "at": "0x100523ffc",
+    "function": "0x100523f38",
+    "target": "0x1019279e0",
+    "text": "recognitionLexicalization"
+  },
+  {
+    "at": "0x100524010",
+    "function": "0x100523f38",
+    "target": "0x101927a00",
+    "text": "translationReview"
+  },
+  {
+    "at": "0x100530cb4",
+    "function": "0x100530c00",
+    "target": "0x101955bb0",
+    "text": "semantic_identity"
+  },
+  {
+    "at": "0x100530cc4",
+    "function": "0x100530c00",
+    "target": "0x101955bd0",
+    "text": "example_sentence_generation_metadata"
+  },
+  {
+    "at": "0x100530cd0",
+    "function": "0x100530c00",
+    "target": "0x101955c00",
+    "text": "example_sentence"
+  },
+  {
+    "at": "0x100530ce8",
+    "function": "0x100530c00",
+    "target": "0x101955c20",
+    "text": "word_learning_aid"
+  },
+  {
+    "at": "0x10053a508",
+    "function": "0x10053a1d8",
+    "target": "0x101955c70",
+    "text": "SharedDisplayLinkDriver: switch to "
+  },
+  {
+    "at": "0x10053b108",
+    "function": "0x10053b0dc",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053b124",
+    "function": "0x10053b0dc",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053b12c",
+    "function": "0x10053b0dc",
+    "target": "0x101955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "at": "0x10053b180",
+    "function": "0x10053b154",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053b19c",
+    "function": "0x10053b154",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053b1a4",
+    "function": "0x10053b154",
+    "target": "0x101955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "at": "0x10053b570",
+    "function": "0x10053b544",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053b58c",
+    "function": "0x10053b544",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053b594",
+    "function": "0x10053b544",
+    "target": "0x101955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "at": "0x10053b5e8",
+    "function": "0x10053b5bc",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053b604",
+    "function": "0x10053b5bc",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053b60c",
+    "function": "0x10053b5bc",
+    "target": "0x101955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "at": "0x10053bbbc",
+    "function": "0x10053bb8c",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053bbd0",
+    "function": "0x10053bb8c",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053bbd8",
+    "function": "0x10053bb8c",
+    "target": "0x101955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "at": "0x10053bc50",
+    "function": "0x10053bc20",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053bc64",
+    "function": "0x10053bc20",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053bc6c",
+    "function": "0x10053bc20",
+    "target": "0x101955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "at": "0x10053c96c",
+    "function": "0x10053c5d0",
+    "target": "0x101955cf0",
+    "text": "emitterBehaviors"
+  },
+  {
+    "at": "0x10053d638",
+    "function": "0x10053d5b4",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10053d650",
+    "function": "0x10053d5b4",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10053d658",
+    "function": "0x10053d5b4",
+    "target": "0x101955cc0",
+    "text": "SnapWords/StickerCutoutOutlineView.swift"
+  },
+  {
+    "at": "0x100540044",
+    "function": "0x10053fcec",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x100540a28",
+    "function": "0x100540a10",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x100540b30",
+    "function": "0x100540b18",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x100540dc4",
+    "function": "0x100540b84",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x10054114c",
+    "function": "0x100540b84",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x100541600",
+    "function": "0x100541374",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x100541928",
+    "function": "0x100541904",
+    "target": "0x101955d10",
+    "text": "contentsMultiplyColor"
+  },
+  {
+    "at": "0x1005440fc",
+    "function": "0x100543f08",
+    "target": "0x101955de0",
+    "text": "representable_start_received"
+  },
+  {
+    "at": "0x100544aa8",
+    "function": "0x10054470c",
+    "target": "0x101955d70",
+    "text": "waiting_for_layout"
+  },
+  {
+    "at": "0x100544ef8",
+    "function": "0x100544af8",
+    "target": "0x101955d30",
+    "text": "dust_layer_scale"
+  },
+  {
+    "at": "0x100545214",
+    "function": "0x100544af8",
+    "target": "0x101955d50",
+    "text": "image_frame_missing"
+  },
+  {
+    "at": "0x1005455ec",
+    "function": "0x1005455e0",
+    "target": "0x101955d90",
+    "text": "SnapWords.StickerDustImageView"
+  },
+  {
+    "at": "0x1005455f4",
+    "function": "0x1005455e0",
+    "target": "0x1019a2ac0",
+    "text": "init(frame:)"
+  },
+  {
+    "at": "0x100545954",
+    "function": "0x1005458dc",
+    "target": "0x10194ab20",
+    "text": "init(coder:) has not been implemented"
+  },
+  {
+    "at": "0x10054596c",
+    "function": "0x1005458dc",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x100545974",
+    "function": "0x1005458dc",
+    "target": "0x101955db0",
+    "text": "SnapWords/StickerDustImageView.swift"
+  },
+  {
+    "at": "0x100546410",
+    "function": "0x100546280",
+    "target": "0x101955e40",
+    "text": "Recognition Debug"
+  },
+  {
+    "at": "0x100546744",
+    "function": "0x100546280",
+    "target": "0x101955e60",
+    "text": "View.task @ SnapWords/RecognitionDebugSheetView.swift:"
+  },
+  {
+    "at": "0x10054adc8",
+    "function": "0x10054ad1c",
+    "target": "0x101955e20",
+    "text": "checkmark.diamond.fill"
+  },
+  {
+    "at": "0x10054af2c",
+    "function": "0x10054ad1c",
+    "target": "0x101955e00",
+    "text": "xmark.diamond.fill"
+  },
+  {
+    "at": "0x10054c7ac",
+    "function": "0x10054c72c",
+    "target": "0x1019562f0",
+    "text": "Couldn't create the sticker outline."
+  },
+  {
+    "at": "0x10054c8dc",
+    "function": "0x10054c8d8",
+    "target": "0x101955ea0",
+    "text": "CapWords.StickerRecognitionPipelineError"
+  },
+  {
+    "at": "0x10054cc48",
+    "function": "0x10054ca10",
+    "target": "0x1019561c0",
+    "text": "local_duration_ms"
+  },
+  {
+    "at": "0x10054cd14",
+    "function": "0x10054ca10",
+    "target": "0x101956020",
+    "text": "total_duration_ms"
+  },
+  {
+    "at": "0x10054cd84",
+    "function": "0x10054ca10",
+    "target": "0x1019561a0",
+    "text": "recognition.pipeline_timing"
+  },
+  {
+    "at": "0x10054cf00",
+    "function": "0x10054ce40",
+    "target": "0x101956170",
+    "text": "recognition.pipeline_llm_finished"
+  },
+  {
+    "at": "0x10054d1c4",
+    "function": "0x10054d188",
+    "target": "0x101956210",
+    "text": "visionSubjectExtraction"
+  },
+  {
+    "at": "0x10054d1e8",
+    "function": "0x10054d188",
+    "target": "0x101956230",
+    "text": "visionEdgeExtraction"
+  },
+  {
+    "at": "0x10054d370",
+    "function": "0x10054d34c",
+    "target": "0x101956250",
+    "text": "outlineRendering"
+  },
+  {
+    "at": "0x10054d438",
+    "function": "0x10054d34c",
+    "target": "0x101956080",
+    "text": "ai.postImageToAI"
+  },
+  {
+    "at": "0x10054d574",
+    "function": "0x10054d550",
+    "target": "0x1019561e0",
+    "text": "End-to-End Timing (visionSubjectFailed)"
+  },
+  {
+    "at": "0x10054d6d4",
+    "function": "0x10054d644",
+    "target": "0x1019560d0",
+    "text": "aiResultPostProcess"
+  },
+  {
+    "at": "0x10054d764",
+    "function": "0x10054d644",
+    "target": "0x101956290",
+    "text": "End-to-End Timing (encodingFailed)"
+  },
+  {
+    "at": "0x10054d80c",
+    "function": "0x10054d644",
+    "target": "0x101956120",
+    "text": "stickerInfoEncoding"
+  },
+  {
+    "at": "0x10054d81c",
+    "function": "0x10054d644",
+    "target": "0x1019562c0",
+    "text": "End-to-End Timing (stickerSuccess)"
+  },
+  {
+    "at": "0x10054daa0",
+    "function": "0x10054da0c",
+    "target": "0x101956270",
+    "text": "End-to-End Timing (aiFailed)"
+  },
+  {
+    "at": "0x10054db30",
+    "function": "0x10054da0c",
+    "target": "0x101956270",
+    "text": "End-to-End Timing (aiFailed)"
+  },
+  {
+    "at": "0x10054dd04",
+    "function": "0x10054dc44",
+    "target": "0x101956040",
+    "text": "sceneImageResize"
+  },
+  {
+    "at": "0x10054dea0",
+    "function": "0x10054de7c",
+    "target": "0x101956060",
+    "text": "sceneImageRendering"
+  },
+  {
+    "at": "0x10054df64",
+    "function": "0x10054de7c",
+    "target": "0x101956080",
+    "text": "ai.postImageToAI"
+  },
+  {
+    "at": "0x10054e100",
+    "function": "0x10054e070",
+    "target": "0x1019560d0",
+    "text": "aiResultPostProcess"
+  },
+  {
+    "at": "0x10054e190",
+    "function": "0x10054e070",
+    "target": "0x1019560f0",
+    "text": "End-to-End Timing (sceneEncodingFailed)"
+  },
+  {
+    "at": "0x10054e21c",
+    "function": "0x10054e070",
+    "target": "0x101956120",
+    "text": "stickerInfoEncoding"
+  },
+  {
+    "at": "0x10054e400",
+    "function": "0x10054e070",
+    "target": "0x101956140",
+    "text": "End-to-End Timing (sceneSuccess)"
+  },
+  {
+    "at": "0x10054e550",
+    "function": "0x10054e4c8",
+    "target": "0x1019560a0",
+    "text": "End-to-End Timing (sceneAiFailed)"
+  },
+  {
+    "at": "0x10054e5d0",
+    "function": "0x10054e4c8",
+    "target": "0x1019560a0",
+    "text": "End-to-End Timing (sceneAiFailed)"
+  },
+  {
+    "at": "0x10054e7b0",
+    "function": "0x10054e730",
+    "target": "0x101955ed0",
+    "text": "has_location_metadata"
+  },
+  {
+    "at": "0x10054e9d4",
+    "function": "0x10054e730",
+    "target": "0x101955ef0",
+    "text": "sticker.recognition_started"
+  },
+  {
+    "at": "0x10054eaa4",
+    "function": "0x10054e730",
+    "target": "0x101955f10",
+    "text": "imageOrientationFix"
+  },
+  {
+    "at": "0x10054ebec",
+    "function": "0x10054eb70",
+    "target": "0x101956020",
+    "text": "total_duration_ms"
+  },
+  {
+    "at": "0x10054ec5c",
+    "function": "0x10054eb70",
+    "target": "0x101956000",
+    "text": "sticker.recognition_succeeded"
+  },
+  {
+    "at": "0x10054ee3c",
+    "function": "0x10054ed78",
+    "target": "0x101955f30",
+    "text": "End-to-End Timing (stickerFailed)"
+  },
+  {
+    "at": "0x10054eecc",
+    "function": "0x10054ed78",
+    "target": "0x101955f80",
+    "text": "vision_extraction"
+  },
+  {
+    "at": "0x10054eef4",
+    "function": "0x10054ed78",
+    "target": "0x101955fc0",
+    "text": "stickerToSceneFallback"
+  },
+  {
+    "at": "0x10054ef34",
+    "function": "0x10054ed78",
+    "target": "0x101955fa0",
+    "text": "outline_rendering"
+  },
+  {
+    "at": "0x10054ef44",
+    "function": "0x10054ed78",
+    "target": "0x101955f80",
+    "text": "vision_extraction"
+  },
+  {
+    "at": "0x10054ef64",
+    "function": "0x10054ed78",
+    "target": "0x101955fe0",
+    "text": "sticker.scene_fallback_started"
+  },
+  {
+    "at": "0x10054f070",
+    "function": "0x10054ed78",
+    "target": "0x101955fa0",
+    "text": "outline_rendering"
+  },
+  {
+    "at": "0x10054f0f0",
+    "function": "0x10054ed78",
+    "target": "0x101955f60",
+    "text": "sticker.recognition_failed"
+  },
+  {
+    "at": "0x10054f2f0",
+    "function": "0x10054f270",
+    "target": "0x101956020",
+    "text": "total_duration_ms"
+  },
+  {
+    "at": "0x10054f360",
+    "function": "0x10054f270",
+    "target": "0x101956000",
+    "text": "sticker.recognition_succeeded"
+  },
+  {
+    "at": "0x10054f5a4",
+    "function": "0x10054f49c",
+    "target": "0x101955fa0",
+    "text": "outline_rendering"
+  },
+  {
+    "at": "0x10054f634",
+    "function": "0x10054f49c",
+    "target": "0x101955f80",
+    "text": "vision_extraction"
+  },
+  {
+    "at": "0x10054f728",
+    "function": "0x10054f49c",
+    "target": "0x101955f60",
+    "text": "sticker.recognition_failed"
+  },
+  {
+    "at": "0x100550f64",
+    "function": "0x100550de4",
+    "target": "0x1019566a0",
+    "text": "live_photo_original_video_"
+  },
+  {
+    "at": "0x100551064",
+    "function": "0x100550de4",
+    "target": "0x1019566f0",
+    "text": "extractLivePhotoVideoResource(_:)"
+  },
+  {
+    "at": "0x100552e40",
+    "function": "0x100552d74",
+    "target": "0x1019565a0",
+    "text": "live_photo_custom_gif_"
+  },
+  {
+    "at": "0x100553e04",
+    "function": "0x100553d54",
+    "target": "0x1019563e0",
+    "text": "segmented_output_"
+  },
+  {
+    "at": "0x100567074",
+    "function": "0x100566cfc",
+    "target": "0x101956760",
+    "text": "Edge detection failed: "
+  },
+  {
+    "at": "0x100567fd0",
+    "function": "0x100567f2c",
+    "target": "0x101956630",
+    "text": "Unexpected status ("
+  },
+  {
+    "at": "0x100568054",
+    "function": "0x100567f2c",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x10056805c",
+    "function": "0x100567f2c",
+    "target": "0x101956600",
+    "text": "AVFoundation/arm64e-apple-ios.swiftinterface"
+  },
+  {
+    "at": "0x100568104",
+    "function": "0x100568078",
+    "target": "0x101956630",
+    "text": "Unexpected status ("
+  },
+  {
+    "at": "0x100568178",
+    "function": "0x100568078",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x100568180",
+    "function": "0x100568078",
+    "target": "0x101956600",
+    "text": "AVFoundation/arm64e-apple-ios.swiftinterface"
+  },
+  {
+    "at": "0x100568230",
+    "function": "0x10056819c",
+    "target": "0x101956630",
+    "text": "Unexpected status ("
+  },
+  {
+    "at": "0x1005682a8",
+    "function": "0x10056819c",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x1005682b0",
+    "function": "0x10056819c",
+    "target": "0x101956600",
+    "text": "AVFoundation/arm64e-apple-ios.swiftinterface"
+  },
+  {
+    "at": "0x1005683b4",
+    "function": "0x1005682cc",
+    "target": "0x101956650",
+    "text": "Could not extract property name from async property description ("
+  },
+  {
+    "at": "0x100568410",
+    "function": "0x1005682cc",
+    "target": "0x10194b9f0",
+    "text": "Fatal error"
+  },
+  {
+    "at": "0x100568418",
+    "function": "0x1005682cc",
+    "target": "0x101956600",
+    "text": "AVFoundation/arm64e-apple-ios.swiftinterface"
+  },
+  {
+    "at": "0x100569190",
+    "function": "0x100568bb4",
+    "target": "0x101956500",
+    "text": "vision.edge_detection_failed"
+  }
+]

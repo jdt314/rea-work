@@ -1,0 +1,3491 @@
+[
+  {
+    "name": "SnapWords.RecognitionPipelineTimer",
+    "descriptor": "0x101bda374",
+    "kind": 16,
+    "accessor": "0x100158180",
+    "fields": [
+      {
+        "name": "startedAt",
+        "record": "0x101c63058",
+        "flags": 0
+      },
+      {
+        "name": "lastCheckpoint",
+        "record": "0x101c63064",
+        "flags": 2
+      },
+      {
+        "name": "entries",
+        "record": "0x101c63070",
+        "flags": 2
+      },
+      {
+        "name": "activeLLMLabel",
+        "record": "0x101c6307c",
+        "flags": 2
+      },
+      {
+        "name": "activeLLMStartedAt",
+        "record": "0x101c63088",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.RecognitionPipelineTimer.Entry",
+    "descriptor": "0x101bda3b0",
+    "kind": 17,
+    "accessor": "0x10015827c",
+    "fields": [
+      {
+        "name": "kind",
+        "record": "0x101c630a4",
+        "flags": 0
+      },
+      {
+        "name": "label",
+        "record": "0x101c630b0",
+        "flags": 0
+      },
+      {
+        "name": "duration",
+        "record": "0x101c630bc",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.RecognitionPipelineTimer.EntryKind",
+    "descriptor": "0x101bda3cc",
+    "kind": 18,
+    "accessor": "0x100158348",
+    "fields": [
+      {
+        "name": "local",
+        "record": "0x101c630d8",
+        "flags": 0
+      },
+      {
+        "name": "llm",
+        "record": "0x101c630e4",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraLaunchCoordinator",
+    "descriptor": "0x101bdc678",
+    "kind": 16,
+    "accessor": "0x10021f120",
+    "fields": [
+      {
+        "name": "pendingSource",
+        "record": "0x101c665e8",
+        "flags": 2
+      },
+      {
+        "name": "isOpeningCamera",
+        "record": "0x101c665f4",
+        "flags": 2
+      },
+      {
+        "name": "releaseWorkItem",
+        "record": "0x101c66600",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.SoundEffectManager",
+    "descriptor": "0x101bdc6b4",
+    "kind": 16,
+    "accessor": "0x1002213f4",
+    "fields": [
+      {
+        "name": "audioPlayers",
+        "record": "0x101c6661c",
+        "flags": 2
+      },
+      {
+        "name": "volume",
+        "record": "0x101c66628",
+        "flags": 2
+      },
+      {
+        "name": "isSoundEnabled",
+        "record": "0x101c66634",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.SoundEffect",
+    "descriptor": "0x101bdc6f0",
+    "kind": 18,
+    "accessor": "0x100221414",
+    "fields": [
+      {
+        "name": "success",
+        "record": "0x101c66650",
+        "flags": 0
+      },
+      {
+        "name": "failure",
+        "record": "0x101c6665c",
+        "flags": 0
+      },
+      {
+        "name": "open",
+        "record": "0x101c66668",
+        "flags": 0
+      },
+      {
+        "name": "close",
+        "record": "0x101c66674",
+        "flags": 0
+      },
+      {
+        "name": "cancel",
+        "record": "0x101c66680",
+        "flags": 0
+      },
+      {
+        "name": "successCompletion",
+        "record": "0x101c6668c",
+        "flags": 0
+      },
+      {
+        "name": "celebrate",
+        "record": "0x101c66698",
+        "flags": 0
+      },
+      {
+        "name": "back",
+        "record": "0x101c666a4",
+        "flags": 0
+      },
+      {
+        "name": "fireworks",
+        "record": "0x101c666b0",
+        "flags": 0
+      },
+      {
+        "name": "completion",
+        "record": "0x101c666bc",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.OnboardingStickerDustImageView",
+    "descriptor": "0x101bdd1f0",
+    "kind": 16,
+    "accessor": "0x100251ae8",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c67070",
+        "flags": 2
+      },
+      {
+        "name": "imageContentMode",
+        "record": "0x101c6707c",
+        "flags": 2
+      },
+      {
+        "name": "completionHandler",
+        "record": "0x101c67088",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "record": "0x101c67094",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.OnboardingStickerDustImageSwiftUIView",
+    "descriptor": "0x101bdd2a4",
+    "kind": 17,
+    "accessor": "0x100251d3c",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c670b0",
+        "flags": 2
+      },
+      {
+        "name": "contentMode",
+        "record": "0x101c670bc",
+        "flags": 2
+      },
+      {
+        "name": "_startAnimation",
+        "record": "0x101c670c8",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.GroupStickerDustImageView",
+    "descriptor": "0x101bdd3ec",
+    "kind": 16,
+    "accessor": "0x1002544d4",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c67160",
+        "flags": 2
+      },
+      {
+        "name": "imageContentMode",
+        "record": "0x101c6716c",
+        "flags": 2
+      },
+      {
+        "name": "completionHandler",
+        "record": "0x101c67178",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "record": "0x101c67184",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.PreIntroCameraStickerDustGroupView",
+    "descriptor": "0x101bdf3c0",
+    "kind": 17,
+    "accessor": "0x1002d0304",
+    "fields": [
+      {
+        "name": "stickers",
+        "record": "0x101c6895c",
+        "flags": 0
+      },
+      {
+        "name": "containerSize",
+        "record": "0x101c68968",
+        "flags": 0
+      },
+      {
+        "name": "dissolveDuration",
+        "record": "0x101c68974",
+        "flags": 0
+      },
+      {
+        "name": "_startDustAnimation",
+        "record": "0x101c68980",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.PurchaseCCameraRecognitionHero.������0R{�8�\b.CameraPhase",
+    "descriptor": "0x101be0cc8",
+    "kind": 18,
+    "accessor": "0x100391574",
+    "fields": [
+      {
+        "name": "idle",
+        "record": "0x101c6a28c",
+        "flags": 0
+      },
+      {
+        "name": "photosPlaced",
+        "record": "0x101c6a298",
+        "flags": 0
+      },
+      {
+        "name": "buttonPressed",
+        "record": "0x101c6a2a4",
+        "flags": 0
+      },
+      {
+        "name": "dissolving",
+        "record": "0x101c6a2b0",
+        "flags": 0
+      },
+      {
+        "name": "stickersPlaced",
+        "record": "0x101c6a2bc",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.PurchaseCCameraRecognitionHero",
+    "descriptor": "0x101be0ce4",
+    "kind": 17,
+    "accessor": "0x1003921a4",
+    "fields": [
+      {
+        "name": "_adaptiveLayout",
+        "record": "0x101c6a2d8",
+        "flags": 2
+      },
+      {
+        "name": "layout",
+        "record": "0x101c6a2e4",
+        "flags": 0
+      },
+      {
+        "name": "isActive",
+        "record": "0x101c6a2f0",
+        "flags": 0
+      },
+      {
+        "name": "replayToken",
+        "record": "0x101c6a2fc",
+        "flags": 0
+      },
+      {
+        "name": "hasCompletedIntro",
+        "record": "0x101c6a308",
+        "flags": 0
+      },
+      {
+        "name": "onIntroCompleted",
+        "record": "0x101c6a314",
+        "flags": 0
+      },
+      {
+        "name": "__phase",
+        "record": "0x101c6a320",
+        "flags": 2
+      },
+      {
+        "name": "__isCameraButtonPressed",
+        "record": "0x101c6a32c",
+        "flags": 2
+      },
+      {
+        "name": "__showsDustGroup",
+        "record": "0x101c6a338",
+        "flags": 2
+      },
+      {
+        "name": "__shouldStartDustGroup",
+        "record": "0x101c6a344",
+        "flags": 2
+      },
+      {
+        "name": "stickerDustDissolveDuration",
+        "record": "0x101c6a350",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords..PurchaseCCameraButton",
+    "descriptor": "0x101be0d14",
+    "kind": 17,
+    "accessor": "0x100395f50",
+    "fields": [
+      {
+        "name": "_adaptiveLayout",
+        "record": "0x101c6a36c",
+        "flags": 2
+      },
+      {
+        "name": "action",
+        "record": "0x101c6a378",
+        "flags": 2
+      },
+      {
+        "name": "isPressed",
+        "record": "0x101c6a384",
+        "flags": 2
+      },
+      {
+        "name": "__startAnimation",
+        "record": "0x101c6a390",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.AVFoundationCameraSessionHardware",
+    "descriptor": "0x101be2100",
+    "kind": 16,
+    "accessor": "0x10045e1dc",
+    "fields": [
+      {
+        "name": "session",
+        "record": "0x101c6bb18",
+        "flags": 0
+      },
+      {
+        "name": "photoOutput",
+        "record": "0x101c6bb24",
+        "flags": 0
+      },
+      {
+        "name": "movieOutput",
+        "record": "0x101c6bb30",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraSessionController",
+    "descriptor": "0x101be213c",
+    "kind": 16,
+    "accessor": "0x10045ea48",
+    "fields": [
+      {
+        "name": "hardware",
+        "record": "0x101c6bb4c",
+        "flags": 0
+      },
+      {
+        "name": "queue",
+        "record": "0x101c6bb58",
+        "flags": 0
+      },
+      {
+        "name": "lock",
+        "record": "0x101c6bb64",
+        "flags": 0
+      },
+      {
+        "name": "wantsRunning",
+        "record": "0x101c6bb70",
+        "flags": 2
+      },
+      {
+        "name": "ready",
+        "record": "0x101c6bb7c",
+        "flags": 2
+      },
+      {
+        "name": "revision",
+        "record": "0x101c6bb88",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraViewController",
+    "descriptor": "0x101be2178",
+    "kind": 16,
+    "accessor": "0x1004603cc",
+    "fields": [
+      {
+        "name": "captureSession",
+        "record": "0x101c6bba4",
+        "flags": 2
+      },
+      {
+        "name": "captureDeviceInput",
+        "record": "0x101c6bbb0",
+        "flags": 2
+      },
+      {
+        "name": "photoOutput",
+        "record": "0x101c6bbbc",
+        "flags": 2
+      },
+      {
+        "name": "movieOutput",
+        "record": "0x101c6bbc8",
+        "flags": 2
+      },
+      {
+        "name": "previewLayer",
+        "record": "0x101c6bbd4",
+        "flags": 2
+      },
+      {
+        "name": "onPhotoCaptured",
+        "record": "0x101c6bbe0",
+        "flags": 2
+      },
+      {
+        "name": "onVideoRecorded",
+        "record": "0x101c6bbec",
+        "flags": 2
+      },
+      {
+        "name": "sessionController",
+        "record": "0x101c6bbf8",
+        "flags": 2
+      },
+      {
+        "name": "isCapture",
+        "record": "0x101c6bc04",
+        "flags": 2
+      },
+      {
+        "name": "isRecording",
+        "record": "0x101c6bc10",
+        "flags": 2
+      },
+      {
+        "name": "isWaitingForLivePhoto",
+        "record": "0x101c6bc1c",
+        "flags": 2
+      },
+      {
+        "name": "maxVideoRecordingDuration",
+        "record": "0x101c6bc28",
+        "flags": 2
+      },
+      {
+        "name": "maxPhotoDimensions",
+        "record": "0x101c6bc34",
+        "flags": 2
+      },
+      {
+        "name": "livePhotoPhoto",
+        "record": "0x101c6bc40",
+        "flags": 2
+      },
+      {
+        "name": "livePhotoMovieURL",
+        "record": "0x101c6bc4c",
+        "flags": 2
+      },
+      {
+        "name": "currentCaptureMode",
+        "record": "0x101c6bc58",
+        "flags": 2
+      },
+      {
+        "name": "currentRecordingURL",
+        "record": "0x101c6bc64",
+        "flags": 2
+      },
+      {
+        "name": "isRecordingCancelled",
+        "record": "0x101c6bc70",
+        "flags": 2
+      },
+      {
+        "name": "stopVideoDispatchWorkItem",
+        "record": "0x101c6bc7c",
+        "flags": 2
+      },
+      {
+        "name": "currentCameraPosition",
+        "record": "0x101c6bc88",
+        "flags": 2
+      },
+      {
+        "name": "shouldResetToBackCamera",
+        "record": "0x101c6bc94",
+        "flags": 2
+      },
+      {
+        "name": "cameraBottomObstructionHeight",
+        "record": "0x101c6bca0",
+        "flags": 2
+      },
+      {
+        "name": "initialPinchZoomFactor",
+        "record": "0x101c6bcac",
+        "flags": 2
+      },
+      {
+        "name": "controlsDelegate",
+        "record": "0x101c6bcb8",
+        "flags": 2
+      },
+      {
+        "name": "controlsSessionQueue",
+        "record": "0x101c6bcc4",
+        "flags": 0
+      },
+      {
+        "name": "hiddenBoundsView",
+        "record": "0x101c6bcd0",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraViewController.CaptureMode",
+    "descriptor": "0x101be247c",
+    "kind": 18,
+    "accessor": "0x100466120",
+    "fields": [
+      {
+        "name": "photo",
+        "record": "0x101c6bd6c",
+        "flags": 0
+      },
+      {
+        "name": "video",
+        "record": "0x101c6bd78",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraResult",
+    "descriptor": "0x101be2498",
+    "kind": 17,
+    "accessor": "0x1004668d4",
+    "fields": [
+      {
+        "name": "type",
+        "record": "0x101c6bd08",
+        "flags": 0
+      },
+      {
+        "name": "screenImage",
+        "record": "0x101c6bd14",
+        "flags": 0
+      },
+      {
+        "name": "visionImage",
+        "record": "0x101c6bd20",
+        "flags": 0
+      },
+      {
+        "name": "originalImage",
+        "record": "0x101c6bd2c",
+        "flags": 0
+      },
+      {
+        "name": "videoURL",
+        "record": "0x101c6bd38",
+        "flags": 2
+      },
+      {
+        "name": "croppedRect",
+        "record": "0x101c6bd44",
+        "flags": 2
+      },
+      {
+        "name": "memoryTraceContext",
+        "record": "0x101c6bd50",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraResult.ResultType",
+    "descriptor": "0x101be24c0",
+    "kind": 18,
+    "accessor": "0x100468480",
+    "fields": [
+      {
+        "name": "photo",
+        "record": "0x101c6bd94",
+        "flags": 0
+      },
+      {
+        "name": "livePhoto",
+        "record": "0x101c6bda0",
+        "flags": 0
+      },
+      {
+        "name": "video",
+        "record": "0x101c6bdac",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraBoundsContentViewModel",
+    "descriptor": "0x101be24dc",
+    "kind": 16,
+    "accessor": "0x100468920",
+    "fields": [
+      {
+        "name": "_showCameraFrame",
+        "record": "0x101c6bdc8",
+        "flags": 2
+      },
+      {
+        "name": "_opacityCameraFrame",
+        "record": "0x101c6bdd4",
+        "flags": 2
+      },
+      {
+        "name": "_startAniamtion",
+        "record": "0x101c6bde0",
+        "flags": 2
+      },
+      {
+        "name": "_location",
+        "record": "0x101c6bdec",
+        "flags": 2
+      },
+      {
+        "name": "_showFocusIndicator",
+        "record": "0x101c6bdf8",
+        "flags": 2
+      },
+      {
+        "name": "_zoomFactor",
+        "record": "0x101c6be04",
+        "flags": 2
+      },
+      {
+        "name": "_showZoomHUD",
+        "record": "0x101c6be10",
+        "flags": 2
+      },
+      {
+        "name": "_visiableBound",
+        "record": "0x101c6be1c",
+        "flags": 2
+      },
+      {
+        "name": "_isVideoMode",
+        "record": "0x101c6be28",
+        "flags": 2
+      },
+      {
+        "name": "_shakeAnimation",
+        "record": "0x101c6be34",
+        "flags": 2
+      },
+      {
+        "name": "_shakeOffsetX",
+        "record": "0x101c6be40",
+        "flags": 2
+      },
+      {
+        "name": "_isDemoMode",
+        "record": "0x101c6be4c",
+        "flags": 2
+      },
+      {
+        "name": "_bottomObstructionHeight",
+        "record": "0x101c6be58",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraBoundsView",
+    "descriptor": "0x101be2794",
+    "kind": 16,
+    "accessor": "0x10046d938",
+    "fields": [
+      {
+        "name": "$__lazy_storage_$_content",
+        "record": "0x101c6be74",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraBoundsContentView",
+    "descriptor": "0x101be27e0",
+    "kind": 17,
+    "accessor": "0x10046de10",
+    "fields": [
+      {
+        "name": "_viewModel",
+        "record": "0x101c6be90",
+        "flags": 2
+      },
+      {
+        "name": "__hideFocusIndicatorWorkItem",
+        "record": "0x101c6be9c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraCropToolContentViewModel",
+    "descriptor": "0x101be2830",
+    "kind": 16,
+    "accessor": "0x10046f564",
+    "fields": [
+      {
+        "name": "_isZoomed",
+        "record": "0x101c6beb8",
+        "flags": 2
+      },
+      {
+        "name": "_opacity",
+        "record": "0x101c6bec4",
+        "flags": 2
+      },
+      {
+        "name": "_confirmButtonFrame",
+        "record": "0x101c6bed0",
+        "flags": 2
+      },
+      {
+        "name": "_cancelButtonFrame",
+        "record": "0x101c6bedc",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraCropToolView",
+    "descriptor": "0x101be2938",
+    "kind": 16,
+    "accessor": "0x1004715b8",
+    "fields": [
+      {
+        "name": "$__lazy_storage_$_content",
+        "record": "0x101c6bef8",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraCropToolContentView",
+    "descriptor": "0x101be2984",
+    "kind": 17,
+    "accessor": "0x1004715d8",
+    "fields": [
+      {
+        "name": "_viewModel",
+        "record": "0x101c6bf14",
+        "flags": 2
+      },
+      {
+        "name": "tappedCancelButton",
+        "record": "0x101c6bf20",
+        "flags": 2
+      },
+      {
+        "name": "tappedConfirmButton",
+        "record": "0x101c6bf2c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraViewController",
+    "descriptor": "0x101be29c8",
+    "kind": 16,
+    "accessor": "0x100473058",
+    "fields": [
+      {
+        "name": "usesDemoMedia",
+        "record": "0x101c6bf48",
+        "flags": 2
+      },
+      {
+        "name": "stickerLayerStore",
+        "record": "0x101c6bf54",
+        "flags": 2
+      },
+      {
+        "name": "stickerLayerController",
+        "record": "0x101c6bf60",
+        "flags": 2
+      },
+      {
+        "name": "sceneStickerLayerStore",
+        "record": "0x101c6bf6c",
+        "flags": 2
+      },
+      {
+        "name": "sceneStickerLayerController",
+        "record": "0x101c6bf78",
+        "flags": 2
+      },
+      {
+        "name": "dustImageView",
+        "record": "0x101c6bf84",
+        "flags": 2
+      },
+      {
+        "name": "cameraCaptureViewController",
+        "record": "0x101c6bf90",
+        "flags": 2
+      },
+      {
+        "name": "cropViewController",
+        "record": "0x101c6bf9c",
+        "flags": 2
+      },
+      {
+        "name": "boundsView",
+        "record": "0x101c6bfa8",
+        "flags": 2
+      },
+      {
+        "name": "isFromLibrary",
+        "record": "0x101c6bfb4",
+        "flags": 2
+      },
+      {
+        "name": "cancellable",
+        "record": "0x101c6bfc0",
+        "flags": 2
+      },
+      {
+        "name": "errorAlertType",
+        "record": "0x101c6bfcc",
+        "flags": 2
+      },
+      {
+        "name": "errorAlertController",
+        "record": "0x101c6bfd8",
+        "flags": 2
+      },
+      {
+        "name": "resultImage",
+        "record": "0x101c6bfe4",
+        "flags": 2
+      },
+      {
+        "name": "recognitionDebugSnapshot",
+        "record": "0x101c6bff0",
+        "flags": 2
+      },
+      {
+        "name": "isRecognitionResultVisible",
+        "record": "0x101c6bffc",
+        "flags": 2
+      },
+      {
+        "name": "needShowAPIErrorAlert",
+        "record": "0x101c6c008",
+        "flags": 2
+      },
+      {
+        "name": "cameraBottomObstructionHeight",
+        "record": "0x101c6c014",
+        "flags": 2
+      },
+      {
+        "name": "apiTask",
+        "record": "0x101c6c020",
+        "flags": 2
+      },
+      {
+        "name": "sceneApiTask",
+        "record": "0x101c6c02c",
+        "flags": 2
+      },
+      {
+        "name": "enterDate",
+        "record": "0x101c6c038",
+        "flags": 2
+      },
+      {
+        "name": "capDate",
+        "record": "0x101c6c044",
+        "flags": 2
+      },
+      {
+        "name": "captureTargetDate",
+        "record": "0x101c6c050",
+        "flags": 2
+      },
+      {
+        "name": "sendedImage",
+        "record": "0x101c6c05c",
+        "flags": 2
+      },
+      {
+        "name": "sendedSceneImage",
+        "record": "0x101c6c068",
+        "flags": 2
+      },
+      {
+        "name": "videoURL",
+        "record": "0x101c6c074",
+        "flags": 2
+      },
+      {
+        "name": "livePhotoRecognitionResources",
+        "record": "0x101c6c080",
+        "flags": 2
+      },
+      {
+        "name": "livePhotoRecognitionRequestID",
+        "record": "0x101c6c08c",
+        "flags": 2
+      },
+      {
+        "name": "mediaProcessingSessionID",
+        "record": "0x101c6c098",
+        "flags": 2
+      },
+      {
+        "name": "hasShowScene",
+        "record": "0x101c6c0a4",
+        "flags": 2
+      },
+      {
+        "name": "isProcessing",
+        "record": "0x101c6c0b0",
+        "flags": 2
+      },
+      {
+        "name": "hideZoomHUDWorkItem",
+        "record": "0x101c6c0bc",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_focusTapGestureRecognizer",
+        "record": "0x101c6c0c8",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_switchCameraDoubleTapGestureRecognizer",
+        "record": "0x101c6c0d4",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_pinchZoomGestureRecognizer",
+        "record": "0x101c6c0e0",
+        "flags": 2
+      },
+      {
+        "name": "metadataCoordinator",
+        "record": "0x101c6c0ec",
+        "flags": 0
+      },
+      {
+        "name": "$__lazy_storage_$_sceneTipView",
+        "record": "0x101c6c0f8",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_backgroundColorView",
+        "record": "0x101c6c104",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "record": "0x101c6c110",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraViewController..LivePhotoRecognitionResources",
+    "descriptor": "0x101be2db0",
+    "kind": 17,
+    "accessor": "0x100473234",
+    "fields": [
+      {
+        "name": "combinedImage",
+        "record": "0x101c6c12c",
+        "flags": 0
+      },
+      {
+        "name": "sourceVideoURL",
+        "record": "0x101c6c138",
+        "flags": 0
+      },
+      {
+        "name": "gifURL",
+        "record": "0x101c6c144",
+        "flags": 0
+      },
+      {
+        "name": "coverImage",
+        "record": "0x101c6c150",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraViewController.StickerDatabaseType",
+    "descriptor": "0x101be2dd8",
+    "kind": 18,
+    "accessor": "0x10048f198",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c6c16c",
+        "flags": 0
+      },
+      {
+        "name": "imageScene",
+        "record": "0x101c6c178",
+        "flags": 0
+      },
+      {
+        "name": "gif",
+        "record": "0x101c6c184",
+        "flags": 0
+      },
+      {
+        "name": "gifScene",
+        "record": "0x101c6c190",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorAlertViewController",
+    "descriptor": "0x101be2fb0",
+    "kind": 16,
+    "accessor": "0x1004982e0",
+    "fields": [
+      {
+        "name": "store",
+        "record": "0x101c6c380",
+        "flags": 0
+      },
+      {
+        "name": "cancellables",
+        "record": "0x101c6c38c",
+        "flags": 2
+      },
+      {
+        "name": "retryHandler",
+        "record": "0x101c6c398",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_contentController",
+        "record": "0x101c6c3a4",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorAlertModel.Action",
+    "descriptor": "0x101be3058",
+    "kind": 18,
+    "accessor": "0x1004986a0",
+    "fields": [
+      {
+        "name": "tappedRetryButton",
+        "record": "0x101c6c438",
+        "flags": 0
+      },
+      {
+        "name": "tappedCancelButton",
+        "record": "0x101c6c444",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorAlertModel",
+    "descriptor": "0x101be3074",
+    "kind": 17,
+    "accessor": "0x1004986b0",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorAlertModel.State",
+    "descriptor": "0x101be3090",
+    "kind": 17,
+    "accessor": "0x100498810",
+    "fields": [
+      {
+        "name": "errorType",
+        "record": "0x101c6c3e8",
+        "flags": 0
+      },
+      {
+        "name": "_isRetry",
+        "record": "0x101c6c3f4",
+        "flags": 2
+      },
+      {
+        "name": "_isCancel",
+        "record": "0x101c6c400",
+        "flags": 2
+      },
+      {
+        "name": "_$observationRegistrar",
+        "record": "0x101c6c40c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorType",
+    "descriptor": "0x101be30ac",
+    "kind": 18,
+    "accessor": "0x100498820",
+    "fields": [
+      {
+        "name": "networkError",
+        "record": "0x101c6c3c0",
+        "flags": 0
+      },
+      {
+        "name": "otherError",
+        "record": "0x101c6c3cc",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorAlertModel.Action.AllCasePaths",
+    "descriptor": "0x101be30c8",
+    "kind": 17,
+    "accessor": "0x100499788",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.StickerCameraErrorAlertView",
+    "descriptor": "0x101be30e4",
+    "kind": 17,
+    "accessor": "0x100499af4",
+    "fields": [
+      {
+        "name": "store",
+        "record": "0x101c6c470",
+        "flags": 0
+      },
+      {
+        "name": "_retryButtonFeedback",
+        "record": "0x101c6c47c",
+        "flags": 2
+      },
+      {
+        "name": "_cancelButtonFeedback",
+        "record": "0x101c6c488",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayerButtons",
+    "descriptor": "0x101be3128",
+    "kind": 17,
+    "accessor": "0x10049c058",
+    "fields": [
+      {
+        "name": "__showButtons",
+        "record": "0x101c6c4a4",
+        "flags": 2
+      },
+      {
+        "name": "_showWrongAlert",
+        "record": "0x101c6c4b0",
+        "flags": 2
+      },
+      {
+        "name": "retryHandler",
+        "record": "0x101c6c4bc",
+        "flags": 2
+      },
+      {
+        "name": "doneHandler",
+        "record": "0x101c6c4c8",
+        "flags": 2
+      },
+      {
+        "name": "cancelHandler",
+        "record": "0x101c6c4d4",
+        "flags": 2
+      },
+      {
+        "name": "tappedWrongButton",
+        "record": "0x101c6c4e0",
+        "flags": 2
+      },
+      {
+        "name": "__retryTappedTrigger",
+        "record": "0x101c6c4ec",
+        "flags": 2
+      },
+      {
+        "name": "__doneTappedTrigger",
+        "record": "0x101c6c4f8",
+        "flags": 2
+      },
+      {
+        "name": "__cancelTappedTrigger",
+        "record": "0x101c6c504",
+        "flags": 2
+      },
+      {
+        "name": "__wrongTappedTrigger",
+        "record": "0x101c6c510",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayer",
+    "descriptor": "0x101be31c8",
+    "kind": 17,
+    "accessor": "0x1004a1e40",
+    "fields": [
+      {
+        "name": "_colorScheme",
+        "record": "0x101c6c560",
+        "flags": 2
+      },
+      {
+        "name": "_adaptiveLayout",
+        "record": "0x101c6c56c",
+        "flags": 2
+      },
+      {
+        "name": "_store",
+        "record": "0x101c6c578",
+        "flags": 2
+      },
+      {
+        "name": "_dismissImage",
+        "record": "0x101c6c584",
+        "flags": 2
+      },
+      {
+        "name": "_startDustAnimation",
+        "record": "0x101c6c590",
+        "flags": 2
+      },
+      {
+        "name": "_cancelFeedback",
+        "record": "0x101c6c59c",
+        "flags": 2
+      },
+      {
+        "name": "_isTappedSpeaker",
+        "record": "0x101c6c5a8",
+        "flags": 2
+      },
+      {
+        "name": "__returnFlightWordSize",
+        "record": "0x101c6c5b4",
+        "flags": 2
+      },
+      {
+        "name": "_showVideoAppearAnimation",
+        "record": "0x101c6c5c0",
+        "flags": 2
+      },
+      {
+        "name": "_boundsViewModel",
+        "record": "0x101c6c5cc",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayerModel.Action",
+    "descriptor": "0x101be3218",
+    "kind": 18,
+    "accessor": "0x1004b71b8",
+    "fields": [
+      {
+        "name": "binding",
+        "record": "0x101c6c810",
+        "flags": 0
+      },
+      {
+        "name": "setMaskAnimation",
+        "record": "0x101c6c81c",
+        "flags": 0
+      },
+      {
+        "name": "startDustAnimation",
+        "record": "0x101c6c828",
+        "flags": 0
+      },
+      {
+        "name": "showPathAnimation",
+        "record": "0x101c6c834",
+        "flags": 0
+      },
+      {
+        "name": "layerState",
+        "record": "0x101c6c840",
+        "flags": 0
+      },
+      {
+        "name": "stickerFloat",
+        "record": "0x101c6c84c",
+        "flags": 0
+      },
+      {
+        "name": "moveStickerToFrame",
+        "record": "0x101c6c858",
+        "flags": 0
+      },
+      {
+        "name": "stickerDrop",
+        "record": "0x101c6c864",
+        "flags": 0
+      },
+      {
+        "name": "startMoving",
+        "record": "0x101c6c870",
+        "flags": 0
+      },
+      {
+        "name": "showResultBgLayer",
+        "record": "0x101c6c87c",
+        "flags": 0
+      },
+      {
+        "name": "wrongButtonTapped",
+        "record": "0x101c6c888",
+        "flags": 0
+      },
+      {
+        "name": "scaleMovingAnimation",
+        "record": "0x101c6c894",
+        "flags": 0
+      },
+      {
+        "name": "setStickerItem",
+        "record": "0x101c6c8a0",
+        "flags": 0
+      },
+      {
+        "name": "showCompletionAnimation",
+        "record": "0x101c6c8ac",
+        "flags": 0
+      },
+      {
+        "name": "speakStickerItem",
+        "record": "0x101c6c8b8",
+        "flags": 0
+      },
+      {
+        "name": "insertStickerItemToList",
+        "record": "0x101c6c8c4",
+        "flags": 0
+      },
+      {
+        "name": "setIsSpeaking",
+        "record": "0x101c6c8d0",
+        "flags": 0
+      },
+      {
+        "name": "showStickerLayerButtons",
+        "record": "0x101c6c8dc",
+        "flags": 0
+      },
+      {
+        "name": "prepareReturnFlight",
+        "record": "0x101c6c8e8",
+        "flags": 0
+      },
+      {
+        "name": "doneAnimation",
+        "record": "0x101c6c8f4",
+        "flags": 0
+      },
+      {
+        "name": "setGifURL",
+        "record": "0x101c6c900",
+        "flags": 0
+      },
+      {
+        "name": "showGifView",
+        "record": "0x101c6c90c",
+        "flags": 0
+      },
+      {
+        "name": "willBeginVideoAnimation",
+        "record": "0x101c6c918",
+        "flags": 0
+      },
+      {
+        "name": "hideVideoImmediatly",
+        "record": "0x101c6c924",
+        "flags": 0
+      },
+      {
+        "name": "setDismissImage",
+        "record": "0x101c6c930",
+        "flags": 0
+      },
+      {
+        "name": "incrementRippleCounter",
+        "record": "0x101c6c93c",
+        "flags": 0
+      },
+      {
+        "name": "startFloatingAnimation",
+        "record": "0x101c6c948",
+        "flags": 0
+      },
+      {
+        "name": "showResult",
+        "record": "0x101c6c954",
+        "flags": 0
+      },
+      {
+        "name": "showResultIfNeed",
+        "record": "0x101c6c960",
+        "flags": 0
+      },
+      {
+        "name": "fetchOutlineImage",
+        "record": "0x101c6c96c",
+        "flags": 0
+      },
+      {
+        "name": "fetchOriginalOutlineImage",
+        "record": "0x101c6c978",
+        "flags": 0
+      },
+      {
+        "name": "skipFloatingAnimation",
+        "record": "0x101c6c984",
+        "flags": 0
+      },
+      {
+        "name": "enterReloadingMode",
+        "record": "0x101c6c990",
+        "flags": 0
+      },
+      {
+        "name": "enterLoadingMode",
+        "record": "0x101c6c99c",
+        "flags": 0
+      },
+      {
+        "name": "showResultCounter",
+        "record": "0x101c6c9a8",
+        "flags": 0
+      },
+      {
+        "name": "retryButtonTapped",
+        "record": "0x101c6c9b4",
+        "flags": 0
+      },
+      {
+        "name": "doneButtonTapped",
+        "record": "0x101c6c9c0",
+        "flags": 0
+      },
+      {
+        "name": "cancelButtonTapped",
+        "record": "0x101c6c9cc",
+        "flags": 0
+      },
+      {
+        "name": "resetWrongButton",
+        "record": "0x101c6c9d8",
+        "flags": 0
+      },
+      {
+        "name": "dismissAniamtion",
+        "record": "0x101c6c9e4",
+        "flags": 0
+      },
+      {
+        "name": "tappedSpeakerButton",
+        "record": "0x101c6c9f0",
+        "flags": 0
+      },
+      {
+        "name": "returnFlightCompleted",
+        "record": "0x101c6c9fc",
+        "flags": 0
+      },
+      {
+        "name": "setLowMemoryMode",
+        "record": "0x101c6ca08",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayerModel",
+    "descriptor": "0x101be3240",
+    "kind": 17,
+    "accessor": "0x1004b7830",
+    "fields": [
+      {
+        "name": "_clock",
+        "record": "0x101c6c7f4",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayerModel.State",
+    "descriptor": "0x101be325c",
+    "kind": 17,
+    "accessor": "0x1004b8bd0",
+    "fields": [
+      {
+        "name": "_image",
+        "record": "0x101c6c610",
+        "flags": 2
+      },
+      {
+        "name": "mediaType",
+        "record": "0x101c6c61c",
+        "flags": 0
+      },
+      {
+        "name": "visionResult",
+        "record": "0x101c6c628",
+        "flags": 0
+      },
+      {
+        "name": "contentMode",
+        "record": "0x101c6c634",
+        "flags": 0
+      },
+      {
+        "name": "_stickerFrame",
+        "record": "0x101c6c640",
+        "flags": 2
+      },
+      {
+        "name": "stickerPath",
+        "record": "0x101c6c64c",
+        "flags": 0
+      },
+      {
+        "name": "_startDustAnimation",
+        "record": "0x101c6c658",
+        "flags": 2
+      },
+      {
+        "name": "_isFromLibrary",
+        "record": "0x101c6c664",
+        "flags": 2
+      },
+      {
+        "name": "_layerState",
+        "record": "0x101c6c670",
+        "flags": 2
+      },
+      {
+        "name": "_rippleCounter",
+        "record": "0x101c6c67c",
+        "flags": 2
+      },
+      {
+        "name": "_stickerFloat",
+        "record": "0x101c6c688",
+        "flags": 2
+      },
+      {
+        "name": "_stickerDrop",
+        "record": "0x101c6c694",
+        "flags": 2
+      },
+      {
+        "name": "_showPathAnimation",
+        "record": "0x101c6c6a0",
+        "flags": 2
+      },
+      {
+        "name": "_startMoving",
+        "record": "0x101c6c6ac",
+        "flags": 2
+      },
+      {
+        "name": "_showResultBgLayer",
+        "record": "0x101c6c6b8",
+        "flags": 2
+      },
+      {
+        "name": "_resultRippleCounter",
+        "record": "0x101c6c6c4",
+        "flags": 2
+      },
+      {
+        "name": "_scaleMovingAnimation",
+        "record": "0x101c6c6d0",
+        "flags": 2
+      },
+      {
+        "name": "_dismissAnimation",
+        "record": "0x101c6c6dc",
+        "flags": 2
+      },
+      {
+        "name": "_isRetry",
+        "record": "0x101c6c6e8",
+        "flags": 2
+      },
+      {
+        "name": "_showWrongAlert",
+        "record": "0x101c6c6f4",
+        "flags": 2
+      },
+      {
+        "name": "_stickerDatabase",
+        "record": "0x101c6c700",
+        "flags": 2
+      },
+      {
+        "name": "_showCompletionAnimation",
+        "record": "0x101c6c70c",
+        "flags": 2
+      },
+      {
+        "name": "_shouldInsertSticerItem",
+        "record": "0x101c6c718",
+        "flags": 2
+      },
+      {
+        "name": "_skipFloating",
+        "record": "0x101c6c724",
+        "flags": 2
+      },
+      {
+        "name": "_skipFloatingAnimation",
+        "record": "0x101c6c730",
+        "flags": 2
+      },
+      {
+        "name": "_isSpeaking",
+        "record": "0x101c6c73c",
+        "flags": 2
+      },
+      {
+        "name": "_showStickerLayerButtons",
+        "record": "0x101c6c748",
+        "flags": 2
+      },
+      {
+        "name": "_returnFlightTarget",
+        "record": "0x101c6c754",
+        "flags": 2
+      },
+      {
+        "name": "_returnFlightCompleted",
+        "record": "0x101c6c760",
+        "flags": 2
+      },
+      {
+        "name": "_doneAnimation",
+        "record": "0x101c6c76c",
+        "flags": 2
+      },
+      {
+        "name": "_isLowMemoryMode",
+        "record": "0x101c6c778",
+        "flags": 2
+      },
+      {
+        "name": "_showGifView",
+        "record": "0x101c6c784",
+        "flags": 2
+      },
+      {
+        "name": "_gifURL",
+        "record": "0x101c6c790",
+        "flags": 2
+      },
+      {
+        "name": "_willBeginVideoAnimation",
+        "record": "0x101c6c79c",
+        "flags": 2
+      },
+      {
+        "name": "_maskAnimation",
+        "record": "0x101c6c7a8",
+        "flags": 2
+      },
+      {
+        "name": "_hideVideoImmediatly",
+        "record": "0x101c6c7b4",
+        "flags": 2
+      },
+      {
+        "name": "_isCroppedVideo",
+        "record": "0x101c6c7c0",
+        "flags": 2
+      },
+      {
+        "name": "_dismissImage",
+        "record": "0x101c6c7cc",
+        "flags": 2
+      },
+      {
+        "name": "_$observationRegistrar",
+        "record": "0x101c6c7d8",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayerModel.State.MediaType",
+    "descriptor": "0x101be3284",
+    "kind": 18,
+    "accessor": "0x1004b7b84",
+    "fields": [
+      {
+        "name": "video",
+        "record": "0x101c6c5e8",
+        "flags": 0
+      },
+      {
+        "name": "image",
+        "record": "0x101c6c5f4",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerLayerModel.Action.AllCasePaths",
+    "descriptor": "0x101be32ac",
+    "kind": 17,
+    "accessor": "0x1004d067c",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.StickerLayerModel.State.LayerState",
+    "descriptor": "0x101be32c8",
+    "kind": 18,
+    "accessor": "0x1004d068c",
+    "fields": [
+      {
+        "name": "begin",
+        "record": "0x101c6ca24",
+        "flags": 0
+      },
+      {
+        "name": "floating",
+        "record": "0x101c6ca30",
+        "flags": 0
+      },
+      {
+        "name": "dropped",
+        "record": "0x101c6ca3c",
+        "flags": 0
+      },
+      {
+        "name": "loading",
+        "record": "0x101c6ca48",
+        "flags": 0
+      },
+      {
+        "name": "showResult",
+        "record": "0x101c6ca54",
+        "flags": 0
+      },
+      {
+        "name": "error",
+        "record": "0x101c6ca60",
+        "flags": 0
+      },
+      {
+        "name": "done",
+        "record": "0x101c6ca6c",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerOutlineImageView",
+    "descriptor": "0x101be33c8",
+    "kind": 16,
+    "accessor": "0x1004d1d90",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c6cb2c",
+        "flags": 2
+      },
+      {
+        "name": "outlineWidth",
+        "record": "0x101c6cb38",
+        "flags": 2
+      },
+      {
+        "name": "path",
+        "record": "0x101c6cb44",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "record": "0x101c6cb50",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraBarContentViewModel",
+    "descriptor": "0x101be3b34",
+    "kind": 16,
+    "accessor": "0x1004e37b8",
+    "fields": [
+      {
+        "name": "_showCameraExpandedBar",
+        "record": "0x101c6d07c",
+        "flags": 2
+      },
+      {
+        "name": "_cameraBarState",
+        "record": "0x101c6d088",
+        "flags": 2
+      },
+      {
+        "name": "_rotationAnimation",
+        "record": "0x101c6d094",
+        "flags": 2
+      },
+      {
+        "name": "_cameraButtonFrame",
+        "record": "0x101c6d0a0",
+        "flags": 2
+      },
+      {
+        "name": "_showSceneContent",
+        "record": "0x101c6d0ac",
+        "flags": 2
+      },
+      {
+        "name": "_isCropError",
+        "record": "0x101c6d0b8",
+        "flags": 2
+      },
+      {
+        "name": "_isDemoMode",
+        "record": "0x101c6d0c4",
+        "flags": 2
+      },
+      {
+        "name": "_livePhotoTipState",
+        "record": "0x101c6d0d0",
+        "flags": 2
+      },
+      {
+        "name": "_showLoadingCircleview",
+        "record": "0x101c6d0dc",
+        "flags": 2
+      },
+      {
+        "name": "_loadingProgress",
+        "record": "0x101c6d0e8",
+        "flags": 2
+      },
+      {
+        "name": "_checkermarkAnimation",
+        "record": "0x101c6d0f4",
+        "flags": 2
+      },
+      {
+        "name": "_showContent",
+        "record": "0x101c6d100",
+        "flags": 2
+      },
+      {
+        "name": "_disableActionButtons",
+        "record": "0x101c6d10c",
+        "flags": 2
+      },
+      {
+        "name": "_isTappedEndGesture",
+        "record": "0x101c6d118",
+        "flags": 2
+      },
+      {
+        "name": "_showLongPressTip",
+        "record": "0x101c6d124",
+        "flags": 2
+      },
+      {
+        "name": "_showLongPressTipAnimation",
+        "record": "0x101c6d130",
+        "flags": 2
+      },
+      {
+        "name": "_hasPerformedCameraButtonAction",
+        "record": "0x101c6d13c",
+        "flags": 2
+      },
+      {
+        "name": "_onboardingGuideState",
+        "record": "0x101c6d148",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraBarView",
+    "descriptor": "0x101be3f0c",
+    "kind": 16,
+    "accessor": "0x1004f24e0",
+    "fields": [
+      {
+        "name": "$__lazy_storage_$_content",
+        "record": "0x101c6d164",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraBarContentView",
+    "descriptor": "0x101be3f58",
+    "kind": 17,
+    "accessor": "0x1004f5740",
+    "fields": [
+      {
+        "name": "_savedMaterial",
+        "record": "0x101c6d1dc",
+        "flags": 2
+      },
+      {
+        "name": "_appearanceColorScheme",
+        "record": "0x101c6d1e8",
+        "flags": 2
+      },
+      {
+        "name": "_adaptiveLayout",
+        "record": "0x101c6d1f4",
+        "flags": 2
+      },
+      {
+        "name": "_viewModel",
+        "record": "0x101c6d200",
+        "flags": 2
+      },
+      {
+        "name": "_selectedPhotosPickerItem",
+        "record": "0x101c6d20c",
+        "flags": 2
+      },
+      {
+        "name": "__isPressed",
+        "record": "0x101c6d218",
+        "flags": 2
+      },
+      {
+        "name": "__isInnerPressed",
+        "record": "0x101c6d224",
+        "flags": 2
+      },
+      {
+        "name": "__isVideoMode",
+        "record": "0x101c6d230",
+        "flags": 2
+      },
+      {
+        "name": "__progressValue",
+        "record": "0x101c6d23c",
+        "flags": 2
+      },
+      {
+        "name": "__isProgressCompletion",
+        "record": "0x101c6d248",
+        "flags": 2
+      },
+      {
+        "name": "_dispatchItem",
+        "record": "0x101c6d254",
+        "flags": 2
+      },
+      {
+        "name": "_twoSecondsDispatchItem",
+        "record": "0x101c6d260",
+        "flags": 2
+      },
+      {
+        "name": "_longPressWordItem",
+        "record": "0x101c6d26c",
+        "flags": 2
+      },
+      {
+        "name": "_longPressFeedbackCounter",
+        "record": "0x101c6d278",
+        "flags": 2
+      },
+      {
+        "name": "_longPressFeedbackCompletionCounter",
+        "record": "0x101c6d284",
+        "flags": 2
+      },
+      {
+        "name": "_progressTimer",
+        "record": "0x101c6d290",
+        "flags": 2
+      },
+      {
+        "name": "_isLeftButtonPressed",
+        "record": "0x101c6d29c",
+        "flags": 2
+      },
+      {
+        "name": "_isRightButtonPressed",
+        "record": "0x101c6d2a8",
+        "flags": 2
+      },
+      {
+        "name": "_showLiveTip",
+        "record": "0x101c6d2b4",
+        "flags": 2
+      },
+      {
+        "name": "_leftRightButtonAppearAnimation",
+        "record": "0x101c6d2c0",
+        "flags": 2
+      },
+      {
+        "name": "__isOnboardingGuideVisible",
+        "record": "0x101c6d2cc",
+        "flags": 2
+      },
+      {
+        "name": "__isOnboardingButtonSimulatingPress",
+        "record": "0x101c6d2d8",
+        "flags": 2
+      },
+      {
+        "name": "__onboardingGuideAnimationToken",
+        "record": "0x101c6d2e4",
+        "flags": 2
+      },
+      {
+        "name": "__onboardingGuideShowWorkItem",
+        "record": "0x101c6d2f0",
+        "flags": 2
+      },
+      {
+        "name": "__onboardingGuideNextPressWorkItem",
+        "record": "0x101c6d2fc",
+        "flags": 2
+      },
+      {
+        "name": "__onboardingGuidePressResetWorkItem",
+        "record": "0x101c6d308",
+        "flags": 2
+      },
+      {
+        "name": "didTappedSettingsButton",
+        "record": "0x101c6d314",
+        "flags": 2
+      },
+      {
+        "name": "didTappedHiddenButton",
+        "record": "0x101c6d320",
+        "flags": 2
+      },
+      {
+        "name": "didTappedCameraButton",
+        "record": "0x101c6d32c",
+        "flags": 2
+      },
+      {
+        "name": "didTappedSelectImageButton",
+        "record": "0x101c6d338",
+        "flags": 2
+      },
+      {
+        "name": "didTappedRetryButton",
+        "record": "0x101c6d344",
+        "flags": 2
+      },
+      {
+        "name": "didSelectedImage",
+        "record": "0x101c6d350",
+        "flags": 2
+      },
+      {
+        "name": "startRecordVideo",
+        "record": "0x101c6d35c",
+        "flags": 2
+      },
+      {
+        "name": "completionRecordVideo",
+        "record": "0x101c6d368",
+        "flags": 2
+      },
+      {
+        "name": "cancelRecordVideo",
+        "record": "0x101c6d374",
+        "flags": 2
+      },
+      {
+        "name": "progressValueChanged",
+        "record": "0x101c6d380",
+        "flags": 2
+      },
+      {
+        "name": "isProcessing",
+        "record": "0x101c6d38c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraOnboardingGuideState",
+    "descriptor": "0x101be3f80",
+    "kind": 18,
+    "accessor": "0x1004f5aa4",
+    "fields": [
+      {
+        "name": "capture",
+        "record": "0x101c6d1b4",
+        "flags": 0
+      },
+      {
+        "name": "save",
+        "record": "0x101c6d1c0",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraBarContentViewModel.LivePhotoTipState",
+    "descriptor": "0x101be3f9c",
+    "kind": 18,
+    "accessor": "0x1004f5ab4",
+    "fields": [
+      {
+        "name": "none",
+        "record": "0x101c6d180",
+        "flags": 0
+      },
+      {
+        "name": "on",
+        "record": "0x101c6d18c",
+        "flags": 0
+      },
+      {
+        "name": "off",
+        "record": "0x101c6d198",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraOnboardingGuideMode",
+    "descriptor": "0x101be3fb8",
+    "kind": 18,
+    "accessor": "0x1004f8a10",
+    "fields": [
+      {
+        "name": "demo",
+        "record": "0x101c6d3a8",
+        "flags": 0
+      },
+      {
+        "name": "realCamera",
+        "record": "0x101c6d3b4",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.FlashCardReviewCameraButton",
+    "descriptor": "0x101be4024",
+    "kind": 17,
+    "accessor": "0x1004fb53c",
+    "fields": [
+      {
+        "name": "_colorScheme",
+        "record": "0x101c6d470",
+        "flags": 2
+      },
+      {
+        "name": "_savedMaterial",
+        "record": "0x101c6d47c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraBarState",
+    "descriptor": "0x101be409c",
+    "kind": 18,
+    "accessor": "0x1004fc0ac",
+    "fields": [
+      {
+        "name": "small",
+        "record": "0x101c6d498",
+        "flags": 0
+      },
+      {
+        "name": "prepareNormalFromSmall",
+        "record": "0x101c6d4a4",
+        "flags": 0
+      },
+      {
+        "name": "prepareNormalFromCompletion",
+        "record": "0x101c6d4b0",
+        "flags": 0
+      },
+      {
+        "name": "normal",
+        "record": "0x101c6d4bc",
+        "flags": 0
+      },
+      {
+        "name": "capture",
+        "record": "0x101c6d4c8",
+        "flags": 0
+      },
+      {
+        "name": "prepareLoading",
+        "record": "0x101c6d4d4",
+        "flags": 0
+      },
+      {
+        "name": "loading",
+        "record": "0x101c6d4e0",
+        "flags": 0
+      },
+      {
+        "name": "completion",
+        "record": "0x101c6d4ec",
+        "flags": 0
+      },
+      {
+        "name": "prepareSmall",
+        "record": "0x101c6d4f8",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.ContainerBarType",
+    "descriptor": "0x101be40b8",
+    "kind": 18,
+    "accessor": "0x1004ffec0",
+    "fields": [
+      {
+        "name": "profile",
+        "record": "0x101c6d514",
+        "flags": 0
+      },
+      {
+        "name": "list",
+        "record": "0x101c6d520",
+        "flags": 0
+      },
+      {
+        "name": "library",
+        "record": "0x101c6d52c",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.ContainerBarModel.State",
+    "descriptor": "0x101be40d4",
+    "kind": 17,
+    "accessor": "0x100500018",
+    "fields": [
+      {
+        "name": "_rotationAnimation",
+        "record": "0x101c6d548",
+        "flags": 2
+      },
+      {
+        "name": "_cameraBarState",
+        "record": "0x101c6d554",
+        "flags": 2
+      },
+      {
+        "name": "_impact",
+        "record": "0x101c6d560",
+        "flags": 2
+      },
+      {
+        "name": "_currentBarType",
+        "record": "0x101c6d56c",
+        "flags": 2
+      },
+      {
+        "name": "_showCameraExpandedBar",
+        "record": "0x101c6d578",
+        "flags": 2
+      },
+      {
+        "name": "_$observationRegistrar",
+        "record": "0x101c6d584",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.ContainerBarModel",
+    "descriptor": "0x101be40f0",
+    "kind": 17,
+    "accessor": "0x100500028",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.ContainerBarModel.Action",
+    "descriptor": "0x101be410c",
+    "kind": 18,
+    "accessor": "0x1005001e8",
+    "fields": [
+      {
+        "name": "changeCameraBarButotnStateWithAnimation",
+        "record": "0x101c6d5b0",
+        "flags": 0
+      },
+      {
+        "name": "setCameraBarButtonState",
+        "record": "0x101c6d5bc",
+        "flags": 0
+      },
+      {
+        "name": "setRotationAnimation",
+        "record": "0x101c6d5c8",
+        "flags": 0
+      },
+      {
+        "name": "setBarType",
+        "record": "0x101c6d5d4",
+        "flags": 0
+      },
+      {
+        "name": "cameraBarButtonTapped",
+        "record": "0x101c6d5e0",
+        "flags": 0
+      },
+      {
+        "name": "profileBarButtonTapped",
+        "record": "0x101c6d5ec",
+        "flags": 0
+      },
+      {
+        "name": "libraryBarButtonTapped",
+        "record": "0x101c6d5f8",
+        "flags": 0
+      },
+      {
+        "name": "selecedImageFromLibrary",
+        "record": "0x101c6d604",
+        "flags": 0
+      },
+      {
+        "name": "setShowCameraExpandedBar",
+        "record": "0x101c6d610",
+        "flags": 0
+      },
+      {
+        "name": "impact",
+        "record": "0x101c6d61c",
+        "flags": 0
+      },
+      {
+        "name": "upButtonTapped",
+        "record": "0x101c6d628",
+        "flags": 0
+      },
+      {
+        "name": "cancelButtonTapped",
+        "record": "0x101c6d634",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.ContainerBarModel.Action.AllCasePaths",
+    "descriptor": "0x101be4128",
+    "kind": 17,
+    "accessor": "0x1005001f8",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.DustEffectLayer",
+    "descriptor": "0x101be41dc",
+    "kind": 16,
+    "accessor": "0x10050a228",
+    "fields": [
+      {
+        "name": "internalData",
+        "record": "0x101c6d698",
+        "flags": 2
+      },
+      {
+        "name": "particleStride",
+        "record": "0x101c6d6a4",
+        "flags": 2
+      },
+      {
+        "name": "renderScale",
+        "record": "0x101c6d6b0",
+        "flags": 2
+      },
+      {
+        "name": "animatesWhenAttachedToLayerTree",
+        "record": "0x101c6d6bc",
+        "flags": 2
+      },
+      {
+        "name": "diagnosticTag",
+        "record": "0x101c6d6c8",
+        "flags": 2
+      },
+      {
+        "name": "updateLink",
+        "record": "0x101c6d6d4",
+        "flags": 2
+      },
+      {
+        "name": "items",
+        "record": "0x101c6d6e0",
+        "flags": 2
+      },
+      {
+        "name": "lastTimeStep",
+        "record": "0x101c6d6ec",
+        "flags": 2
+      },
+      {
+        "name": "hasLoggedFirstAnimationFrame",
+        "record": "0x101c6d6f8",
+        "flags": 2
+      },
+      {
+        "name": "hasLoggedFirstMetalUpdate",
+        "record": "0x101c6d704",
+        "flags": 2
+      },
+      {
+        "name": "hasLoggedParticleBufferFailure",
+        "record": "0x101c6d710",
+        "flags": 2
+      },
+      {
+        "name": "animationSpeed",
+        "record": "0x101c6d71c",
+        "flags": 2
+      },
+      {
+        "name": "playsBackwards",
+        "record": "0x101c6d728",
+        "flags": 2
+      },
+      {
+        "name": "becameEmpty",
+        "record": "0x101c6d734",
+        "flags": 2
+      },
+      {
+        "name": "lastUpdateTimestamp",
+        "record": "0x101c6d740",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.DustEffectLayer.DustComputeState",
+    "descriptor": "0x101be4290",
+    "kind": 16,
+    "accessor": "0x10050a268",
+    "fields": [
+      {
+        "name": "computePipelineStateInitializeParticle",
+        "record": "0x101c6d7c4",
+        "flags": 0
+      },
+      {
+        "name": "computePipelineStateUpdateParticle",
+        "record": "0x101c6d7d0",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.MetalEngineSubjectLayer",
+    "descriptor": "0x101be4444",
+    "kind": 16,
+    "accessor": "0x1005386e4",
+    "fields": [
+      {
+        "name": "internalId",
+        "record": "0x101c6d918",
+        "flags": 2
+      },
+      {
+        "name": "surfaceAllocation",
+        "record": "0x101c6d924",
+        "flags": 2
+      },
+      {
+        "name": "cloneLayers",
+        "record": "0x101c6d930",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.MetalEngineSubjectContext",
+    "descriptor": "0x101be4670",
+    "kind": 16,
+    "accessor": "0x100539230",
+    "fields": [
+      {
+        "name": "device",
+        "record": "0x101c6da5c",
+        "flags": 0
+      },
+      {
+        "name": "impl",
+        "record": "0x101c6da68",
+        "flags": 0
+      },
+      {
+        "name": "computeOperations",
+        "record": "0x101c6da74",
+        "flags": 2
+      },
+      {
+        "name": "renderToLayerOperationsGroupedByState",
+        "record": "0x101c6da80",
+        "flags": 2
+      },
+      {
+        "name": "freeResourcesOnCompletion",
+        "record": "0x101c6da8c",
+        "flags": 2
+      },
+      {
+        "name": "customCompletions",
+        "record": "0x101c6da98",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.MetalEngineSubjectInternalData",
+    "descriptor": "0x101be4734",
+    "kind": 16,
+    "accessor": "0x100539250",
+    "fields": [
+      {
+        "name": "internalId",
+        "record": "0x101c6db10",
+        "flags": 2
+      },
+      {
+        "name": "renderSurfaceAllocation",
+        "record": "0x101c6db1c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.MetalEngine",
+    "descriptor": "0x101be47f0",
+    "kind": 16,
+    "accessor": "0x100539290",
+    "fields": [
+      {
+        "name": "impl",
+        "record": "0x101c6db64",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.MetalEngine.SurfaceAllocation",
+    "descriptor": "0x101be4900",
+    "kind": 17,
+    "accessor": "0x100539398",
+    "fields": [
+      {
+        "name": "surfaceId",
+        "record": "0x101c6dcac",
+        "flags": 0
+      },
+      {
+        "name": "allocationId0",
+        "record": "0x101c6dcb8",
+        "flags": 0
+      },
+      {
+        "name": "allocationId1",
+        "record": "0x101c6dcc4",
+        "flags": 0
+      },
+      {
+        "name": "renderingParameters",
+        "record": "0x101c6dcd0",
+        "flags": 0
+      },
+      {
+        "name": "phase0",
+        "record": "0x101c6dcdc",
+        "flags": 0
+      },
+      {
+        "name": "phase1",
+        "record": "0x101c6dce8",
+        "flags": 0
+      },
+      {
+        "name": "currentPhase",
+        "record": "0x101c6dcf4",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.MetalEngine.SurfaceAllocation.Phase",
+    "descriptor": "0x101be4940",
+    "kind": 17,
+    "accessor": "0x100539868",
+    "fields": [
+      {
+        "name": "subRect",
+        "record": "0x101c6dd10",
+        "flags": 0
+      },
+      {
+        "name": "renderingRect",
+        "record": "0x101c6dd1c",
+        "flags": 0
+      },
+      {
+        "name": "contentsRect",
+        "record": "0x101c6dd28",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.SharedDisplayLinkDriver",
+    "descriptor": "0x101be49a0",
+    "kind": 16,
+    "accessor": "0x10053aa5c",
+    "fields": [
+      {
+        "name": "displayLink",
+        "record": "0x101c6dd64",
+        "flags": 2
+      },
+      {
+        "name": "requests",
+        "record": "0x101c6dd70",
+        "flags": 2
+      },
+      {
+        "name": "isInForeground",
+        "record": "0x101c6dd7c",
+        "flags": 2
+      },
+      {
+        "name": "isProcessingEvent",
+        "record": "0x101c6dd88",
+        "flags": 2
+      },
+      {
+        "name": "isUpdateRequested",
+        "record": "0x101c6dd94",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.SharedDisplayLinkDriver.FramesPerSecond",
+    "descriptor": "0x101be49dc",
+    "kind": 18,
+    "accessor": "0x10053ab08",
+    "fields": [
+      {
+        "name": "fps",
+        "record": "0x101c6ddb0",
+        "flags": 0
+      },
+      {
+        "name": "max",
+        "record": "0x101c6ddbc",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.SharedDisplayLinkDriver.LinkImpl",
+    "descriptor": "0x101be49f8",
+    "kind": 16,
+    "accessor": "0x100539c28",
+    "fields": [
+      {
+        "name": "driver",
+        "record": "0x101c6ddd8",
+        "flags": 0
+      },
+      {
+        "name": "framesPerSecond",
+        "record": "0x101c6dde4",
+        "flags": 0
+      },
+      {
+        "name": "update",
+        "record": "0x101c6ddf0",
+        "flags": 0
+      },
+      {
+        "name": "isValid",
+        "record": "0x101c6ddfc",
+        "flags": 2
+      },
+      {
+        "name": "isPaused",
+        "record": "0x101c6de08",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.SimpleLayer",
+    "descriptor": "0x101be4aa4",
+    "kind": 16,
+    "accessor": "0x10053bcf0",
+    "fields": [
+      {
+        "name": "didEnterHierarchy",
+        "record": "0x101c6de68",
+        "flags": 2
+      },
+      {
+        "name": "didExitHierarchy",
+        "record": "0x101c6de74",
+        "flags": 2
+      },
+      {
+        "name": "isInHierarchy",
+        "record": "0x101c6de80",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCutoutOutlineView",
+    "descriptor": "0x101be4c64",
+    "kind": 16,
+    "accessor": "0x10053d378",
+    "fields": [
+      {
+        "name": "strokeLayer",
+        "record": "0x101c6df20",
+        "flags": 0
+      },
+      {
+        "name": "imageLayer",
+        "record": "0x101c6df2c",
+        "flags": 0
+      },
+      {
+        "name": "outlineLayer",
+        "record": "0x101c6df38",
+        "flags": 2
+      },
+      {
+        "name": "glowLayer",
+        "record": "0x101c6df44",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.RippleEffect",
+    "descriptor": "0x101be4d00",
+    "kind": 17,
+    "accessor": "0x100542404",
+    "fields": [
+      {
+        "name": "origin",
+        "record": "0x101c6df88",
+        "flags": 2
+      },
+      {
+        "name": "trigger",
+        "record": "0x101c6df94",
+        "flags": 2
+      },
+      {
+        "name": "amplitude",
+        "record": "0x101c6dfa0",
+        "flags": 2
+      },
+      {
+        "name": "frequency",
+        "record": "0x101c6dfac",
+        "flags": 2
+      },
+      {
+        "name": "decay",
+        "record": "0x101c6dfb8",
+        "flags": 2
+      },
+      {
+        "name": "speed",
+        "record": "0x101c6dfc4",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.RippleModifier",
+    "descriptor": "0x101be4d3c",
+    "kind": 17,
+    "accessor": "0x100542ebc",
+    "fields": [
+      {
+        "name": "origin",
+        "record": "0x101c6dfe0",
+        "flags": 2
+      },
+      {
+        "name": "elapsedTime",
+        "record": "0x101c6dfec",
+        "flags": 2
+      },
+      {
+        "name": "duration",
+        "record": "0x101c6dff8",
+        "flags": 2
+      },
+      {
+        "name": "amplitude",
+        "record": "0x101c6e004",
+        "flags": 2
+      },
+      {
+        "name": "frequency",
+        "record": "0x101c6e010",
+        "flags": 2
+      },
+      {
+        "name": "decay",
+        "record": "0x101c6e01c",
+        "flags": 2
+      },
+      {
+        "name": "speed",
+        "record": "0x101c6e028",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCutoutOutlineImageView.Coordinator",
+    "descriptor": "0x101be4dd4",
+    "kind": 16,
+    "accessor": "0x100543834",
+    "fields": [
+      {
+        "name": "frame",
+        "record": "0x101c6e044",
+        "flags": 2
+      },
+      {
+        "name": "animation",
+        "record": "0x101c6e050",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCutoutOutlineImageView",
+    "descriptor": "0x101be4e38",
+    "kind": 17,
+    "accessor": "0x100543af8",
+    "fields": [
+      {
+        "name": "contentMode",
+        "record": "0x101c6e06c",
+        "flags": 0
+      },
+      {
+        "name": "imageViewSize",
+        "record": "0x101c6e078",
+        "flags": 0
+      },
+      {
+        "name": "vistionResult",
+        "record": "0x101c6e084",
+        "flags": 2
+      },
+      {
+        "name": "path",
+        "record": "0x101c6e090",
+        "flags": 2
+      },
+      {
+        "name": "_pathAnimation",
+        "record": "0x101c6e09c",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerDustImageView",
+    "descriptor": "0x101be4e54",
+    "kind": 16,
+    "accessor": "0x1005456ac",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c6e0b8",
+        "flags": 2
+      },
+      {
+        "name": "imageContentMode",
+        "record": "0x101c6e0c4",
+        "flags": 2
+      },
+      {
+        "name": "dissolveDuration",
+        "record": "0x101c6e0d0",
+        "flags": 2
+      },
+      {
+        "name": "particleStride",
+        "record": "0x101c6e0dc",
+        "flags": 2
+      },
+      {
+        "name": "renderScale",
+        "record": "0x101c6e0e8",
+        "flags": 2
+      },
+      {
+        "name": "maximumDustLayerSide",
+        "record": "0x101c6e0f4",
+        "flags": 2
+      },
+      {
+        "name": "particleCanvasPadding",
+        "record": "0x101c6e100",
+        "flags": 2
+      },
+      {
+        "name": "animatesWhenAttachedToLayerTree",
+        "record": "0x101c6e10c",
+        "flags": 2
+      },
+      {
+        "name": "completionHandler",
+        "record": "0x101c6e118",
+        "flags": 2
+      },
+      {
+        "name": "diagnosticTag",
+        "record": "0x101c6e124",
+        "flags": 2
+      },
+      {
+        "name": "activeDustEffectLayer",
+        "record": "0x101c6e130",
+        "flags": 2
+      },
+      {
+        "name": "didCompleteCleanup",
+        "record": "0x101c6e13c",
+        "flags": 2
+      },
+      {
+        "name": "isDissolveStartPending",
+        "record": "0x101c6e148",
+        "flags": 2
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "record": "0x101c6e154",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerDustImageSwiftUIView",
+    "descriptor": "0x101be5020",
+    "kind": 17,
+    "accessor": "0x100545d58",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c6e170",
+        "flags": 2
+      },
+      {
+        "name": "contentMode",
+        "record": "0x101c6e17c",
+        "flags": 2
+      },
+      {
+        "name": "dissolveDuration",
+        "record": "0x101c6e188",
+        "flags": 2
+      },
+      {
+        "name": "particleStride",
+        "record": "0x101c6e194",
+        "flags": 2
+      },
+      {
+        "name": "renderScale",
+        "record": "0x101c6e1a0",
+        "flags": 2
+      },
+      {
+        "name": "maximumDustLayerSide",
+        "record": "0x101c6e1ac",
+        "flags": 2
+      },
+      {
+        "name": "particleCanvasPadding",
+        "record": "0x101c6e1b8",
+        "flags": 2
+      },
+      {
+        "name": "animatesWhenAttachedToLayerTree",
+        "record": "0x101c6e1c4",
+        "flags": 2
+      },
+      {
+        "name": "completionHandler",
+        "record": "0x101c6e1d0",
+        "flags": 2
+      },
+      {
+        "name": "diagnosticTag",
+        "record": "0x101c6e1dc",
+        "flags": 2
+      },
+      {
+        "name": "_startAnimation",
+        "record": "0x101c6e1e8",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerRecognitionPipeline.Request",
+    "descriptor": "0x101be51d0",
+    "kind": 17,
+    "accessor": "0x10054f84c",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c6e398",
+        "flags": 0
+      },
+      {
+        "name": "photoCreateDate",
+        "record": "0x101c6e3a4",
+        "flags": 0
+      },
+      {
+        "name": "photoLocation",
+        "record": "0x101c6e3b0",
+        "flags": 0
+      },
+      {
+        "name": "createDateOverride",
+        "record": "0x101c6e3bc",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerRecognitionPipelineError",
+    "descriptor": "0x101be51f8",
+    "kind": 18,
+    "accessor": "0x100550500",
+    "fields": [
+      {
+        "name": "visionFailed",
+        "record": "0x101c6e358",
+        "flags": 0
+      },
+      {
+        "name": "aiFailed",
+        "record": "0x101c6e364",
+        "flags": 0
+      },
+      {
+        "name": "encodingFailed",
+        "record": "0x101c6e370",
+        "flags": 0
+      },
+      {
+        "name": "outlineImageUnavailable",
+        "record": "0x101c6e37c",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.VisionManager.EdgePathError",
+    "descriptor": "0x101be5230",
+    "kind": 18,
+    "accessor": "0x10056c890",
+    "fields": [
+      {
+        "name": "otherError",
+        "record": "0x101c6e448",
+        "flags": 0
+      },
+      {
+        "name": "cgImageError",
+        "record": "0x101c6e454",
+        "flags": 0
+      },
+      {
+        "name": "observationError",
+        "record": "0x101c6e460",
+        "flags": 0
+      },
+      {
+        "name": "contoursEmpty",
+        "record": "0x101c6e46c",
+        "flags": 0
+      },
+      {
+        "name": "generatePathError",
+        "record": "0x101c6e478",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.VisionManager.VisionManagerError",
+    "descriptor": "0x101be524c",
+    "kind": 18,
+    "accessor": "0x10056c958",
+    "fields": [
+      {
+        "name": "generateMaskImageError",
+        "record": "0x101c6e494",
+        "flags": 0
+      },
+      {
+        "name": "cgImageError",
+        "record": "0x101c6e4a0",
+        "flags": 0
+      },
+      {
+        "name": "noResults",
+        "record": "0x101c6e4ac",
+        "flags": 0
+      },
+      {
+        "name": "pixelBufferError",
+        "record": "0x101c6e4b8",
+        "flags": 0
+      },
+      {
+        "name": "livePhotoResourcesError",
+        "record": "0x101c6e4c4",
+        "flags": 0
+      },
+      {
+        "name": "videoTrackError",
+        "record": "0x101c6e4d0",
+        "flags": 0
+      },
+      {
+        "name": "frameExtractionError",
+        "record": "0x101c6e4dc",
+        "flags": 0
+      },
+      {
+        "name": "gifCreationError",
+        "record": "0x101c6e4e8",
+        "flags": 0
+      },
+      {
+        "name": "unsupportedInputType",
+        "record": "0x101c6e4f4",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.VisionManager.ProcessingResult",
+    "descriptor": "0x101be5268",
+    "kind": 18,
+    "accessor": "0x10056c4a8",
+    "fields": [
+      {
+        "name": "video",
+        "record": "0x101c6e420",
+        "flags": 0
+      },
+      {
+        "name": "gif",
+        "record": "0x101c6e42c",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.VisionManager.InputType",
+    "descriptor": "0x101be5290",
+    "kind": 18,
+    "accessor": "0x10056d044",
+    "fields": [
+      {
+        "name": "livePhoto",
+        "record": "0x101c6e3f8",
+        "flags": 0
+      },
+      {
+        "name": "video",
+        "record": "0x101c6e404",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.VisionManager",
+    "descriptor": "0x101be52b8",
+    "kind": 17,
+    "accessor": "0x10056d20c",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.VisionManager.SubjectResults",
+    "descriptor": "0x101be52d4",
+    "kind": 17,
+    "accessor": "0x10056d344",
+    "fields": [
+      {
+        "name": "image",
+        "record": "0x101c6e520",
+        "flags": 0
+      },
+      {
+        "name": "maskedImage",
+        "record": "0x101c6e52c",
+        "flags": 0
+      },
+      {
+        "name": "croppedImage",
+        "record": "0x101c6e538",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.PullDownHapticController",
+    "descriptor": "0x101be641c",
+    "kind": 16,
+    "accessor": "0x10061b76c",
+    "fields": [
+      {
+        "name": "_fallbackFeedbackTrigger",
+        "record": "0x101c6fe0c",
+        "flags": 2
+      },
+      {
+        "name": "engine",
+        "record": "0x101c6fe18",
+        "flags": 2
+      },
+      {
+        "name": "continuousPlayer",
+        "record": "0x101c6fe24",
+        "flags": 2
+      },
+      {
+        "name": "isContinuousFeedbackActive",
+        "record": "0x101c6fe30",
+        "flags": 2
+      },
+      {
+        "name": "lastFallbackImpactTime",
+        "record": "0x101c6fe3c",
+        "flags": 2
+      },
+      {
+        "name": "lastTransientPulseTime",
+        "record": "0x101c6fe48",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerCollectionNavigationBarContentViewModel.CameraAdditionalType",
+    "descriptor": "0x101bf01d4",
+    "kind": 18,
+    "accessor": "0x100a6edf4",
+    "fields": [
+      {
+        "name": "none",
+        "record": "0x101c7c810",
+        "flags": 0
+      },
+      {
+        "name": "scene",
+        "record": "0x101c7c81c",
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.StickerOutlinedTargetWordView",
+    "descriptor": "0x101bf1128",
+    "kind": 17,
+    "accessor": "0x100a9db2c",
+    "fields": [
+      {
+        "name": "text",
+        "record": "0x101c7ce6c",
+        "flags": 0
+      },
+      {
+        "name": "annotatedText",
+        "record": "0x101c7ce78",
+        "flags": 0
+      },
+      {
+        "name": "singleLayerTextColor",
+        "record": "0x101c7ce84",
+        "flags": 0
+      },
+      {
+        "name": "baseFontSize",
+        "record": "0x101c7ce90",
+        "flags": 2
+      },
+      {
+        "name": "color",
+        "record": "0x101c7ce9c",
+        "flags": 2
+      },
+      {
+        "name": "lineLimit",
+        "record": "0x101c7cea8",
+        "flags": 2
+      },
+      {
+        "name": "strokeSize",
+        "record": "0x101c7ceb4",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.CameraLauncherShortcutsProvider",
+    "descriptor": "0x101bf4b04",
+    "kind": 17,
+    "accessor": "0x100c33930",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.CameraLauncherShortcutIntent",
+    "descriptor": "0x101bf4b20",
+    "kind": 17,
+    "accessor": "0x100c33940",
+    "fields": []
+  },
+  {
+    "name": "SnapWords.CameraLauncherControlIntent",
+    "descriptor": "0x101bf4b3c",
+    "kind": 17,
+    "accessor": "0x100c33950",
+    "fields": []
+  },
+  {
+    "name": "Wave.CADisplayLinkProvider",
+    "descriptor": "0x101c0c8e4",
+    "kind": 16,
+    "accessor": "0x1013208d0",
+    "fields": [
+      {
+        "name": "frameCallback",
+        "record": "0x101c9e26c",
+        "flags": 0
+      },
+      {
+        "name": "displayLinkProvider",
+        "record": "0x101c9e278",
+        "flags": 2
+      }
+    ]
+  }
+]

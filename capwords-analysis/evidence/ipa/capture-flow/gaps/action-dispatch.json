@@ -1,0 +1,267 @@
+{
+  "descriptor": "0x101be3218",
+  "payload_count": 25,
+  "empty_count": 18,
+  "reducer": "0x1004c4980",
+  "table": "0x1004c61fc",
+  "actions": [
+    {
+      "tag": 0,
+      "action": "binding",
+      "payload_type_address": "0x101a7e8d2",
+      "reducer_branch": "0x1004c5c3c"
+    },
+    {
+      "tag": 1,
+      "action": "setMaskAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c4b24"
+    },
+    {
+      "tag": 2,
+      "action": "startDustAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c53ac"
+    },
+    {
+      "tag": 3,
+      "action": "showPathAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c53d4"
+    },
+    {
+      "tag": 4,
+      "action": "layerState",
+      "payload_type_address": "0x101a76ade",
+      "reducer_branch": "0x1004c4fcc"
+    },
+    {
+      "tag": 5,
+      "action": "stickerFloat",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c5554"
+    },
+    {
+      "tag": 6,
+      "action": "moveStickerToFrame",
+      "payload_type_address": "0x101a03e56",
+      "reducer_branch": "0x1004c5590"
+    },
+    {
+      "tag": 7,
+      "action": "stickerDrop",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c53e8"
+    },
+    {
+      "tag": 8,
+      "action": "startMoving",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c55e0"
+    },
+    {
+      "tag": 9,
+      "action": "showResultBgLayer",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c5350"
+    },
+    {
+      "tag": 10,
+      "action": "wrongButtonTapped",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c55d8"
+    },
+    {
+      "tag": 11,
+      "action": "scaleMovingAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c4fb8"
+    },
+    {
+      "tag": 12,
+      "action": "setStickerItem",
+      "payload_type_address": "0x101a09318",
+      "reducer_branch": "0x1004c51d4"
+    },
+    {
+      "tag": 13,
+      "action": "showCompletionAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c557c"
+    },
+    {
+      "tag": 14,
+      "action": "speakStickerItem",
+      "payload_type_address": "0x101a7e8e0",
+      "reducer_branch": "0x1004c4e20"
+    },
+    {
+      "tag": 15,
+      "action": "insertStickerItemToList",
+      "payload_type_address": "0x101a06404",
+      "reducer_branch": "0x1004c53c0"
+    },
+    {
+      "tag": 16,
+      "action": "setIsSpeaking",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c4e0c"
+    },
+    {
+      "tag": 17,
+      "action": "showStickerLayerButtons",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c5410"
+    },
+    {
+      "tag": 18,
+      "action": "prepareReturnFlight",
+      "payload_type_address": "0x101a03e56",
+      "reducer_branch": "0x1004c55a8"
+    },
+    {
+      "tag": 19,
+      "action": "doneAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c5800"
+    },
+    {
+      "tag": 20,
+      "action": "setGifURL",
+      "payload_type_address": "0x101a76b14",
+      "reducer_branch": "0x1004c5438"
+    },
+    {
+      "tag": 21,
+      "action": "showGifView",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c5568"
+    },
+    {
+      "tag": 22,
+      "action": "willBeginVideoAnimation",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c57d8"
+    },
+    {
+      "tag": 23,
+      "action": "hideVideoImmediatly",
+      "payload_type_address": "0x101a03e26",
+      "reducer_branch": "0x1004c5970"
+    },
+    {
+      "tag": 24,
+      "action": "setDismissImage",
+      "payload_type_address": "0x101a0640a",
+      "reducer_branch": "0x1004c5388"
+    },
+    {
+      "tag": 25,
+      "action": "incrementRippleCounter",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5364"
+    },
+    {
+      "tag": 26,
+      "action": "startFloatingAnimation",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5c8c"
+    },
+    {
+      "tag": 27,
+      "action": "showResult",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c4cf4"
+    },
+    {
+      "tag": 28,
+      "action": "showResultIfNeed",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5984"
+    },
+    {
+      "tag": 29,
+      "action": "fetchOutlineImage",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5bc0"
+    },
+    {
+      "tag": 30,
+      "action": "fetchOriginalOutlineImage",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c55f4"
+    },
+    {
+      "tag": 31,
+      "action": "skipFloatingAnimation",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c53fc"
+    },
+    {
+      "tag": 32,
+      "action": "enterReloadingMode",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c571c"
+    },
+    {
+      "tag": 33,
+      "action": "enterLoadingMode",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c4f98"
+    },
+    {
+      "tag": 34,
+      "action": "showResultCounter",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c4de8"
+    },
+    {
+      "tag": 35,
+      "action": "retryButtonTapped",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c4ba4"
+    },
+    {
+      "tag": 36,
+      "action": "doneButtonTapped",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c4bb8"
+    },
+    {
+      "tag": 37,
+      "action": "cancelButtonTapped",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c4b38"
+    },
+    {
+      "tag": 38,
+      "action": "resetWrongButton",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5c2c"
+    },
+    {
+      "tag": 39,
+      "action": "dismissAniamtion",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c57ec"
+    },
+    {
+      "tag": 40,
+      "action": "tappedSpeakerButton",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c50bc"
+    },
+    {
+      "tag": 41,
+      "action": "returnFlightCompleted",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5424"
+    },
+    {
+      "tag": 42,
+      "action": "setLowMemoryMode",
+      "payload_type_address": null,
+      "reducer_branch": "0x1004c5814"
+    }
+  ]
+}

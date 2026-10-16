@@ -1,0 +1,90 @@
+[
+  {
+    "index": 0,
+    "wrapper_offset": "0x79b",
+    "size": 8676,
+    "bitcode_sha256": "de64421c8ee78aad14965402dda0c799ad1bb3bd57df86b6e75915fc50ea3a71",
+    "source_filename": "Ripple",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 1,
+    "wrapper_offset": "0x299b",
+    "size": 6728,
+    "bitcode_sha256": "c592d905c2e94ecd25bac06e8e46447e50964626555bb654255e0529a2a65d22",
+    "source_filename": "distortion",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 2,
+    "wrapper_offset": "0x43fb",
+    "size": 6868,
+    "bitcode_sha256": "0d9b1f0d8db942139def4eff6177f3d4f6f9e42721a09f4cf097ae635dfc167d",
+    "source_filename": "captureAperturePaper",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 3,
+    "wrapper_offset": "0x5eeb",
+    "size": 5864,
+    "bitcode_sha256": "1adeb5570451ae8ca9e87d849e2184bcbf3d37680af502a89ab5cc7509c3c267",
+    "source_filename": "capturePaperGrain",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 4,
+    "wrapper_offset": "0x75eb",
+    "size": 5396,
+    "bitcode_sha256": "b91916310a6ebf9e709d5c5f50ec6f7910949963185afd8c85b9dba521fc25dd",
+    "source_filename": "softPaperArtwork",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 5,
+    "wrapper_offset": "0x8b1b",
+    "size": 6236,
+    "bitcode_sha256": "ad25ac031c46f55da7ea369d8147e48fe74bec16b18bf4b90d68d13fd71e2248",
+    "source_filename": "dustEffectInitializeParticle",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 6,
+    "wrapper_offset": "0xa38b",
+    "size": 4624,
+    "bitcode_sha256": "bb5a33210811b5f532c6f1f94899bf9dc059fc1083235387bf86f9ba8572956b",
+    "source_filename": "dustEffectUpdateParticle",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 7,
+    "wrapper_offset": "0xb5bb",
+    "size": 4940,
+    "bitcode_sha256": "c9343910a313cfe8fea61e413690b71749ac021dd7ac1c7ebdb00844e9a3d0cc",
+    "source_filename": "dustEffectVertex",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 8,
+    "wrapper_offset": "0xc91b",
+    "size": 3624,
+    "bitcode_sha256": "717527242ff3a2be05121867520f2af47f1197ec8c191b96a61215ef37b78ff3",
+    "source_filename": "dustEffectFragment",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 9,
+    "wrapper_offset": "0xd75b",
+    "size": 3316,
+    "bitcode_sha256": "223a8db93e8139ce691d9f10930aa70f83deeaa825d3dd50b41294b67dd9619d",
+    "source_filename": "clearVertex",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "index": 10,
+    "wrapper_offset": "0xe46b",
+    "size": 3356,
+    "bitcode_sha256": "d96084cbb9ab902467db18f73ebfaba594327192056b490ad0c2fcbfac158b55",
+    "source_filename": "clearFragment",
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  }
+]

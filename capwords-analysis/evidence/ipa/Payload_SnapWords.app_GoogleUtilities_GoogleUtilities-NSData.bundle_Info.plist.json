@@ -1,0 +1,27 @@
+{
+  "BuildMachineOSBuild": "25G83",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleIdentifier": "googleutilities.GoogleUtilities-NSData.resources",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "GoogleUtilities_GoogleUtilities-NSData",
+  "CFBundlePackageType": "BNDL",
+  "CFBundleSupportedPlatforms": [
+    "iPhoneOS"
+  ],
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "24A430",
+  "DTPlatformName": "iphoneos",
+  "DTPlatformVersion": "27.0",
+  "DTSDKBuild": "24A430",
+  "DTSDKName": "iphoneos27.0",
+  "DTXcode": "2700",
+  "DTXcodeBuild": "27A266a",
+  "MinimumOSVersion": "15.0",
+  "UIDeviceFamily": [
+    1,
+    2
+  ],
+  "UIRequiredDeviceCapabilities": [
+    "arm64"
+  ]
+}

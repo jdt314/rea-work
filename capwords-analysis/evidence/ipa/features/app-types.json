@@ -1,0 +1,6966 @@
+[
+  {
+    "offset": "0x18308e0",
+    "text": "StickerInfoProtocol"
+  },
+  {
+    "offset": "0x183094a",
+    "text": "StickerDatabase"
+  },
+  {
+    "offset": "0x18309d8",
+    "text": "StickerItem"
+  },
+  {
+    "offset": "0x1830a30",
+    "text": "ImageOffsetCacheKey"
+  },
+  {
+    "offset": "0x1830a50",
+    "text": "StickerInfoCache"
+  },
+  {
+    "offset": "0x1830af0",
+    "text": "StickerLibrarySnapshotStore"
+  },
+  {
+    "offset": "0x1830b40",
+    "text": "StickerLibrarySnapshot"
+  },
+  {
+    "offset": "0x1830bb0",
+    "text": "StickerLibraryCategorySnapshot"
+  },
+  {
+    "offset": "0x1830bd0",
+    "text": "StickerLibraryDailySnapshot"
+  },
+  {
+    "offset": "0x1830c9a",
+    "text": "UserMemory"
+  },
+  {
+    "offset": "0x1830cea",
+    "text": "DayState"
+  },
+  {
+    "offset": "0x183118a",
+    "text": "SheetCardView"
+  },
+  {
+    "offset": "0x1831210",
+    "text": "AttributeText"
+  },
+  {
+    "offset": "0x183121e",
+    "text": "RoundedCorner"
+  },
+  {
+    "offset": "0x1831230",
+    "text": "AdaptiveSheetBackgroundModifier"
+  },
+  {
+    "offset": "0x1831440",
+    "text": "AppLogDiagnosticError"
+  },
+  {
+    "offset": "0x1831460",
+    "text": "AppLogRequestContext"
+  },
+  {
+    "offset": "0x1831475",
+    "text": "Value"
+  },
+  {
+    "offset": "0x1831620",
+    "text": "ErrorDiagnosticMetadata"
+  },
+  {
+    "offset": "0x1831640",
+    "text": "PurchaseErrorDetails"
+  },
+  {
+    "offset": "0x1831655",
+    "text": "AppLog"
+  },
+  {
+    "offset": "0x183165c",
+    "text": "AppLogCategory"
+  },
+  {
+    "offset": "0x1831670",
+    "text": "AppLogErrorReason"
+  },
+  {
+    "offset": "0x18318a0",
+    "text": "Leases"
+  },
+  {
+    "offset": "0x18318b0",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x18318d0",
+    "text": "DiagnosticLogArchive"
+  },
+  {
+    "offset": "0x1831988",
+    "text": "Index"
+  },
+  {
+    "offset": "0x18319b0",
+    "text": "DiagnosticAIConfigurationSnapshot"
+  },
+  {
+    "offset": "0x1831a18",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1831b40",
+    "text": "AppDiagnosticFormatter"
+  },
+  {
+    "offset": "0x1831b60",
+    "text": "ReliableAppFileLogger"
+  },
+  {
+    "offset": "0x1831bc0",
+    "text": "Aggregate"
+  },
+  {
+    "offset": "0x1831c40",
+    "text": "CriticalEvent"
+  },
+  {
+    "offset": "0x1831cb0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1831e12",
+    "text": "APICrypto"
+  },
+  {
+    "offset": "0x1831ee0",
+    "text": "BackendChatResponse"
+  },
+  {
+    "offset": "0x1831f00",
+    "text": "BackendChatRequest"
+  },
+  {
+    "offset": "0x1831f20",
+    "text": "BackendChatMessage"
+  },
+  {
+    "offset": "0x1831f40",
+    "text": "BackendContentPart"
+  },
+  {
+    "offset": "0x1831f60",
+    "text": "BackendErrorResponse"
+  },
+  {
+    "offset": "0x1831f80",
+    "text": "BackendHeaderInfo"
+  },
+  {
+    "offset": "0x1831f92",
+    "text": "BackendAIError"
+  },
+  {
+    "offset": "0x18321c0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x18321cb",
+    "text": "ErrorDetail"
+  },
+  {
+    "offset": "0x18321e0",
+    "text": "BackendMessageContent"
+  },
+  {
+    "offset": "0x18321f6",
+    "text": "Choice"
+  },
+  {
+    "offset": "0x1832200",
+    "text": "BackendChatMessageContent"
+  },
+  {
+    "offset": "0x1832220",
+    "text": "BackendResponseFormat"
+  },
+  {
+    "offset": "0x1832236",
+    "text": "BackendVideoURL"
+  },
+  {
+    "offset": "0x1832246",
+    "text": "BackendImageURL"
+  },
+  {
+    "offset": "0x1832260",
+    "text": "BackendReasoning"
+  },
+  {
+    "offset": "0x1832271",
+    "text": "BackendThinking"
+  },
+  {
+    "offset": "0x1833430",
+    "text": "BackendAIRequestTask"
+  },
+  {
+    "offset": "0x1833478",
+    "text": "BackendAIRoute"
+  },
+  {
+    "offset": "0x1833490",
+    "text": "BackendAIService"
+  },
+  {
+    "offset": "0x18334a1",
+    "text": "Operation"
+  },
+  {
+    "offset": "0x18334b0",
+    "text": "BackendAIRequestTelemetry"
+  },
+  {
+    "offset": "0x18334ca",
+    "text": "Record"
+  },
+  {
+    "offset": "0x18335a0",
+    "text": "BackendCredentialRequestRace"
+  },
+  {
+    "offset": "0x18336a0",
+    "text": "BackendCommonLLMResponse"
+  },
+  {
+    "offset": "0x18336c0",
+    "text": "BackendCommonLLMMessage"
+  },
+  {
+    "offset": "0x18336e0",
+    "text": "BackendCommonLLMStreamChunk"
+  },
+  {
+    "offset": "0x1833700",
+    "text": "BackendCommonLLMRequest"
+  },
+  {
+    "offset": "0x18338b0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x18338bb",
+    "text": "Choice"
+  },
+  {
+    "offset": "0x18338d0",
+    "text": "BackendCommonLLMMessageContent"
+  },
+  {
+    "offset": "0x1833e68",
+    "text": "Message"
+  },
+  {
+    "offset": "0x1833e70",
+    "text": "BackendCommonLLMContentPart"
+  },
+  {
+    "offset": "0x1833e8c",
+    "text": "Delta"
+  },
+  {
+    "offset": "0x1834570",
+    "text": "RegisterResponse"
+  },
+  {
+    "offset": "0x1834590",
+    "text": "BackendDeviceInfo"
+  },
+  {
+    "offset": "0x18345b0",
+    "text": "BackendBaseURLOption"
+  },
+  {
+    "offset": "0x1834760",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1834880",
+    "text": "BackendDeviceRefreshResponse"
+  },
+  {
+    "offset": "0x18348a0",
+    "text": "BackendDeviceRefreshRequest"
+  },
+  {
+    "offset": "0x1834980",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1834bc0",
+    "text": "DictionaryLookupMemoryCache"
+  },
+  {
+    "offset": "0x1834be0",
+    "text": "TapWordDictionaryEntry"
+  },
+  {
+    "offset": "0x1834bf7",
+    "text": "CacheValue"
+  },
+  {
+    "offset": "0x1834c20",
+    "text": "DictionaryLookupCacheKey"
+  },
+  {
+    "offset": "0x1834d58",
+    "text": "LookupError"
+  },
+  {
+    "offset": "0x1834d70",
+    "text": "BackendDictionaryLookupService"
+  },
+  {
+    "offset": "0x1834e40",
+    "text": "BackendDeviceCredentials"
+  },
+  {
+    "offset": "0x1834ec8",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1835020",
+    "text": "BackendQwenRealtimeASRClient"
+  },
+  {
+    "offset": "0x183503d",
+    "text": "Event"
+  },
+  {
+    "offset": "0x1835090",
+    "text": "BackendQwenRealtimeService"
+  },
+  {
+    "offset": "0x18350ab",
+    "text": "Event"
+  },
+  {
+    "offset": "0x18351e0",
+    "text": "BackendQwenRealtimeServiceError"
+  },
+  {
+    "offset": "0x1835248",
+    "text": "FailureStage"
+  },
+  {
+    "offset": "0x1835360",
+    "text": "BackendQwenRealtimeTTSClient"
+  },
+  {
+    "offset": "0x183537d",
+    "text": "Event"
+  },
+  {
+    "offset": "0x18353e0",
+    "text": "BackendQwenTTSResponse"
+  },
+  {
+    "offset": "0x18353f7",
+    "text": "DataBlock"
+  },
+  {
+    "offset": "0x1835410",
+    "text": "BackendQwenTTSPayload"
+  },
+  {
+    "offset": "0x1835550",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1835960",
+    "text": "BackendTTSPayload"
+  },
+  {
+    "offset": "0x1835972",
+    "text": "BaseResp"
+  },
+  {
+    "offset": "0x1835980",
+    "text": "BackendTTSResponse"
+  },
+  {
+    "offset": "0x1835993",
+    "text": "ExtraInfo"
+  },
+  {
+    "offset": "0x183599d",
+    "text": "DataBlock"
+  },
+  {
+    "offset": "0x1835bb0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1835bc0",
+    "text": "BackendTTSAudioSetting"
+  },
+  {
+    "offset": "0x1835be0",
+    "text": "BackendTTSVoiceSetting"
+  },
+  {
+    "offset": "0x1836490",
+    "text": "RecognitionDebugLogLine"
+  },
+  {
+    "offset": "0x1836520",
+    "text": "RecognitionDebugJudgeResult"
+  },
+  {
+    "offset": "0x1836550",
+    "text": "RecognitionDebugSnapshot"
+  },
+  {
+    "offset": "0x1836670",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x18367b0",
+    "text": "RecognitionPipelineAdapter"
+  },
+  {
+    "offset": "0x18367f0",
+    "text": "RecognitionRecipe"
+  },
+  {
+    "offset": "0x1836970",
+    "text": "SuggestedReplacement"
+  },
+  {
+    "offset": "0x1836985",
+    "text": "LexiconSection"
+  },
+  {
+    "offset": "0x1836994",
+    "text": "Token"
+  },
+  {
+    "offset": "0x18369a0",
+    "text": "RecognitionStage2ReviewEvidence"
+  },
+  {
+    "offset": "0x18369c0",
+    "text": "GrammarSection"
+  },
+  {
+    "offset": "0x18369cf",
+    "text": "Finding"
+  },
+  {
+    "offset": "0x1836c30",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1836c40",
+    "text": "LocalRepairStatus"
+  },
+  {
+    "offset": "0x1836c60",
+    "text": "LearningWordSection"
+  },
+  {
+    "offset": "0x18376c8",
+    "text": "requiredusuallyRnotRequicontextu"
+  },
+  {
+    "offset": "0x18376f0",
+    "text": "equired"
+  },
+  {
+    "offset": "0x1837750",
+    "text": "StickerLanguageContentContract"
+  },
+  {
+    "offset": "0x183776f",
+    "text": "Violation"
+  },
+  {
+    "offset": "0x1837840",
+    "text": "StickerTranslationBatchRepairTask"
+  },
+  {
+    "offset": "0x18378a0",
+    "text": "StickerTranslationResolvedItem"
+  },
+  {
+    "offset": "0x18378e0",
+    "text": "StickerTranslationBatchRepairAdapter"
+  },
+  {
+    "offset": "0x1837910",
+    "text": "StickerTranslationBatchResolution"
+  },
+  {
+    "offset": "0x1837932",
+    "text": "Request"
+  },
+  {
+    "offset": "0x1837960",
+    "text": "StickerTranslationContext"
+  },
+  {
+    "offset": "0x1837980",
+    "text": "StickerTranslationResult"
+  },
+  {
+    "offset": "0x1837ac8",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1837e40",
+    "text": "MediaType"
+  },
+  {
+    "offset": "0x1837e50",
+    "text": "RecognitionWordPhoneticReviewResult"
+  },
+  {
+    "offset": "0x1837e80",
+    "text": "RecognitionWordPhoneticPatch"
+  },
+  {
+    "offset": "0x1837ea0",
+    "text": "FlexibleStickerInfoPayload"
+  },
+  {
+    "offset": "0x1837f20",
+    "text": "APIError"
+  },
+  {
+    "offset": "0x1837f29",
+    "text": "AIAPI"
+  },
+  {
+    "offset": "0x1838138",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1838150",
+    "text": "LegacyCodingKeys"
+  },
+  {
+    "offset": "0x1838170",
+    "text": "RecognitionWordPhoneticReviewChecklist"
+  },
+  {
+    "offset": "0x1838820",
+    "text": "RecognitionAuditedStage2RouteReason"
+  },
+  {
+    "offset": "0x1838850",
+    "text": "RecognitionAuditedReviewRouteContext"
+  },
+  {
+    "offset": "0x1838880",
+    "text": "RecognitionAuditedReviewInput"
+  },
+  {
+    "offset": "0x18388d0",
+    "text": "RecognitionAuditedFirstPassResult"
+  },
+  {
+    "offset": "0x1838a18",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1838a30",
+    "text": "RecognitionAuditedAuditSignals"
+  },
+  {
+    "offset": "0x1838e50",
+    "text": "ExampleSentenceRequestContext"
+  },
+  {
+    "offset": "0x1838fd0",
+    "text": "PromptDebugManager"
+  },
+  {
+    "offset": "0x1839060",
+    "text": "RecognitionPipelineTimer"
+  },
+  {
+    "offset": "0x1839079",
+    "text": "Entry"
+  },
+  {
+    "offset": "0x1839080",
+    "text": "EntryKind"
+  },
+  {
+    "offset": "0x1839140",
+    "text": "AIAPIReachability"
+  },
+  {
+    "offset": "0x1839190",
+    "text": "CategoryMigrationManager"
+  },
+  {
+    "offset": "0x18391e8",
+    "text": "AuditResult"
+  },
+  {
+    "offset": "0x18391f4",
+    "text": "AuditIssue"
+  },
+  {
+    "offset": "0x1839200",
+    "text": "LearningEntryGrammarAudit"
+  },
+  {
+    "offset": "0x183921a",
+    "text": "NounGender"
+  },
+  {
+    "offset": "0x1839225",
+    "text": "EntryContext"
+  },
+  {
+    "offset": "0x18393a0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x18393ab",
+    "text": "ArticlePolicy"
+  },
+  {
+    "offset": "0x18393b9",
+    "text": "AuditStatus"
+  },
+  {
+    "offset": "0x18393c5",
+    "text": "NounFeatures"
+  },
+  {
+    "offset": "0x18393e0",
+    "text": "DeclaredEntryKind"
+  },
+  {
+    "offset": "0x18393f2",
+    "text": "IssueType"
+  },
+  {
+    "offset": "0x1839a15",
+    "text": "NounNumber"
+  },
+  {
+    "offset": "0x1839eb0",
+    "text": "LearningWordValidation"
+  },
+  {
+    "offset": "0x1839ed0",
+    "text": "BrandSafetyAuditIssue"
+  },
+  {
+    "offset": "0x1839ef0",
+    "text": "BrandSafetyAuditResult"
+  },
+  {
+    "offset": "0x1839f38",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x183a1c0",
+    "text": "PhoneticLexiconResourceLoader"
+  },
+  {
+    "offset": "0x183a1e0",
+    "text": "ResourceBundleMarker"
+  },
+  {
+    "offset": "0x183a200",
+    "text": "PhoneticFunctionWordSeedBundle"
+  },
+  {
+    "offset": "0x183a220",
+    "text": "PhoneticRegionalOverlayBundle"
+  },
+  {
+    "offset": "0x183a240",
+    "text": "PhoneticLexiconSeedLanguage"
+  },
+  {
+    "offset": "0x183a340",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x183a350",
+    "text": "PhoneticFunctionWordSeedLanguage"
+  },
+  {
+    "offset": "0x183a380",
+    "text": "PhoneticRegionalOverlayLanguage"
+  },
+  {
+    "offset": "0x183a9b0",
+    "text": "MFALearnerMatchProfile"
+  },
+  {
+    "offset": "0x183a9d0",
+    "text": "OrderedDiagnosticMemoValue"
+  },
+  {
+    "offset": "0x183a9f0",
+    "text": "StructuredMatchState"
+  },
+  {
+    "offset": "0x183aa10",
+    "text": "DeterministicPhoneticRepairOutcome"
+  },
+  {
+    "offset": "0x183aa40",
+    "text": "DeterministicPhoneticRepairPlan"
+  },
+  {
+    "offset": "0x183aa60",
+    "text": "ProgrammaticPhoneticDecision"
+  },
+  {
+    "offset": "0x183aad0",
+    "text": "RequiredPhoneticFragment"
+  },
+  {
+    "offset": "0x183aaf0",
+    "text": "DeterministicPhoneticReplacement"
+  },
+  {
+    "offset": "0x183ab20",
+    "text": "PhoneticAuditResult"
+  },
+  {
+    "offset": "0x183ab40",
+    "text": "PhoneticValidation"
+  },
+  {
+    "offset": "0x183ab60",
+    "text": "PhoneticAuditIssue"
+  },
+  {
+    "offset": "0x183ad18",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x183ad30",
+    "text": "OrderedDiagnosticMatch"
+  },
+  {
+    "offset": "0x183ad50",
+    "text": "PhoneticFragmentMatchPolicy"
+  },
+  {
+    "offset": "0x183b238",
+    "text": "ConversionError"
+  },
+  {
+    "offset": "0x183b24a",
+    "text": "VideoConverter"
+  },
+  {
+    "offset": "0x183b310",
+    "text": "AlertViewController"
+  },
+  {
+    "offset": "0x183b330",
+    "text": "AlertPresentationController"
+  },
+  {
+    "offset": "0x183b350",
+    "text": "AdaptiveSheetOverflowScrollView"
+  },
+  {
+    "offset": "0x183b408",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x183b470",
+    "text": "SystemModalOverlayWindowHost"
+  },
+  {
+    "offset": "0x183b590",
+    "text": "SystemSheetViewController"
+  },
+  {
+    "offset": "0x183b5b0",
+    "text": "SystemSheetDismissalObserver"
+  },
+  {
+    "offset": "0x183b5d0",
+    "text": "WarningAlertViewController"
+  },
+  {
+    "offset": "0x183b690",
+    "text": "WarningAlertType"
+  },
+  {
+    "offset": "0x183b6a1",
+    "text": "Action"
+  },
+  {
+    "offset": "0x183b6b0",
+    "text": "WarningAlertModel"
+  },
+  {
+    "offset": "0x183b6c2",
+    "text": "State"
+  },
+  {
+    "offset": "0x183bb20",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x183bb30",
+    "text": "PermissionPrimaryAction"
+  },
+  {
+    "offset": "0x183bc50",
+    "text": "WarningAlertView"
+  },
+  {
+    "offset": "0x183bdc0",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x183bdd0",
+    "text": "BasicPagPlayerView"
+  },
+  {
+    "offset": "0x183bef0",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x183bf10",
+    "text": "BasicTabbarViewModel"
+  },
+  {
+    "offset": "0x183bf38",
+    "text": "BasicTabbarView"
+  },
+  {
+    "offset": "0x183bf78",
+    "text": "BasicTabbarItem"
+  },
+  {
+    "offset": "0x183bf90",
+    "text": "LiquideTabbarView"
+  },
+  {
+    "offset": "0x183c3d0",
+    "text": "BasicViewController"
+  },
+  {
+    "offset": "0x183c410",
+    "text": "MainPageViewController"
+  },
+  {
+    "offset": "0x183c4c0",
+    "text": "RootViewController"
+  },
+  {
+    "offset": "0x183c4f0",
+    "text": "RatingPromptViewController"
+  },
+  {
+    "offset": "0x183c5a0",
+    "text": "RatingPromptView"
+  },
+  {
+    "offset": "0x183c7c0",
+    "text": "RatingPromptPresenting"
+  },
+  {
+    "offset": "0x183c830",
+    "text": "RatingPromptManager"
+  },
+  {
+    "offset": "0x183c844",
+    "text": "Dependencies"
+  },
+  {
+    "offset": "0x183c890",
+    "text": "TriggerSource"
+  },
+  {
+    "offset": "0x183c8a0",
+    "text": "UITestBlockingViewController"
+  },
+  {
+    "offset": "0x183c8e0",
+    "text": "RatingPromptUITestBootstrap"
+  },
+  {
+    "offset": "0x183c900",
+    "text": "LinkedWordTextDictionaryContext"
+  },
+  {
+    "offset": "0x183c980",
+    "text": "LinkedWordPreparedLayout"
+  },
+  {
+    "offset": "0x183c9a0",
+    "text": "LinkedWordStableLayoutKey"
+  },
+  {
+    "offset": "0x183c9c0",
+    "text": "LinkedWordTapTarget"
+  },
+  {
+    "offset": "0x183cada",
+    "text": "LinkedWordToken"
+  },
+  {
+    "offset": "0x183cb22",
+    "text": "LinkedWordText"
+  },
+  {
+    "offset": "0x183cc9c",
+    "text": "Action"
+  },
+  {
+    "offset": "0x183ccb0",
+    "text": "TapWordDictionaryFeature"
+  },
+  {
+    "offset": "0x183ccc9",
+    "text": "State"
+  },
+  {
+    "offset": "0x183d770",
+    "text": "TapWordDictionaryClientKey"
+  },
+  {
+    "offset": "0x183d790",
+    "text": "TapWordDictionaryLearningAidClientKey"
+  },
+  {
+    "offset": "0x183d7c0",
+    "text": "TapWordDictionaryVocabularyClientKey"
+  },
+  {
+    "offset": "0x183d7e5",
+    "text": "CancelID"
+  },
+  {
+    "offset": "0x183d7ee",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x183d7fb",
+    "text": "SaveError"
+  },
+  {
+    "offset": "0x183d805",
+    "text": "LookupError"
+  },
+  {
+    "offset": "0x183d820",
+    "text": "TapWordDictionaryVocabularyClient"
+  },
+  {
+    "offset": "0x183d850",
+    "text": "TapWordDictionaryLearningAidClient"
+  },
+  {
+    "offset": "0x183d880",
+    "text": "TapWordDictionaryClient"
+  },
+  {
+    "offset": "0x183d898",
+    "text": "SaveState"
+  },
+  {
+    "offset": "0x183e080",
+    "text": "TapWordDictionaryCardView"
+  },
+  {
+    "offset": "0x183e660",
+    "text": "DictionaryCardHeightKey"
+  },
+  {
+    "offset": "0x183e710",
+    "text": "TapWordDictionarySheetPresenter"
+  },
+  {
+    "offset": "0x183e730",
+    "text": "TapWordDictionarySheetViewController"
+  },
+  {
+    "offset": "0x183e820",
+    "text": "TapWordDictionarySpeechClientKey"
+  },
+  {
+    "offset": "0x183e850",
+    "text": "TapWordDictionarySpeechClient"
+  },
+  {
+    "offset": "0x183e8b0",
+    "text": "TapWordDictionaryMatchedSticker"
+  },
+  {
+    "offset": "0x183e900",
+    "text": "TapWordDictionaryStickerMatchClientKey"
+  },
+  {
+    "offset": "0x183e930",
+    "text": "TapWordDictionaryStickerMatchClient"
+  },
+  {
+    "offset": "0x183e9a0",
+    "text": "VocabularySaveService"
+  },
+  {
+    "offset": "0x183e9c0",
+    "text": "VocabularyAddOutcome"
+  },
+  {
+    "offset": "0x183ea40",
+    "text": "VocabularySaveError"
+  },
+  {
+    "offset": "0x183eb80",
+    "text": "VocabularySaveToastPresenter"
+  },
+  {
+    "offset": "0x183eba0",
+    "text": "VocabularySaveToastPresenterModel"
+  },
+  {
+    "offset": "0x183ebe0",
+    "text": "ToastOverlayRootViewController"
+  },
+  {
+    "offset": "0x183ec00",
+    "text": "ToastPassThroughView"
+  },
+  {
+    "offset": "0x183ec20",
+    "text": "VocabularySaveToastHostView"
+  },
+  {
+    "offset": "0x183ee40",
+    "text": "VocabularySavedToastView"
+  },
+  {
+    "offset": "0x183f070",
+    "text": "WordFrequencyPayload"
+  },
+  {
+    "offset": "0x183f090",
+    "text": "WordFrequencyTable"
+  },
+  {
+    "offset": "0x183f0e0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x183f218",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x183f230",
+    "text": "LearningAidAnnotatedDrawingUIView"
+  },
+  {
+    "offset": "0x183f252",
+    "text": "PositionedUnit"
+  },
+  {
+    "offset": "0x183f261",
+    "text": "LayoutResult"
+  },
+  {
+    "offset": "0x183f26e",
+    "text": "MeasuredUnit"
+  },
+  {
+    "offset": "0x183f27b",
+    "text": "Configuration"
+  },
+  {
+    "offset": "0x183f290",
+    "text": "LearningAidAnnotatedDrawingView"
+  },
+  {
+    "offset": "0x183f2b0",
+    "text": "LearningAidAnnotatedDrawingInteraction"
+  },
+  {
+    "offset": "0x183f420",
+    "text": "LearningAidAnnotatedText"
+  },
+  {
+    "offset": "0x183f520",
+    "text": "LearningAidJapaneseRomanizer"
+  },
+  {
+    "offset": "0x183f53d",
+    "text": "Token"
+  },
+  {
+    "offset": "0x183f543",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x183f550",
+    "text": "LearningAidAnnotatedTextUnit"
+  },
+  {
+    "offset": "0x183f780",
+    "text": "TokenKind"
+  },
+  {
+    "offset": "0x183f960",
+    "text": "PronunciationAnnotationOption"
+  },
+  {
+    "offset": "0x183f980",
+    "text": "LearningAidNotation"
+  },
+  {
+    "offset": "0x183f9a0",
+    "text": "LearningAidSettings"
+  },
+  {
+    "offset": "0x183fd50",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x183fd60",
+    "text": "JapaneseReadingStyle"
+  },
+  {
+    "offset": "0x183fd75",
+    "text": "Scope"
+  },
+  {
+    "offset": "0x1840138",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x1840170",
+    "text": "ProfileSettingsMenuButton"
+  },
+  {
+    "offset": "0x1840190",
+    "text": "PronunciationAnnotationSettingsMenuButton"
+  },
+  {
+    "offset": "0x1840370",
+    "text": "LearningAidSettingsSheetView"
+  },
+  {
+    "offset": "0x1840530",
+    "text": "LearningAidSettingsSheetViewController"
+  },
+  {
+    "offset": "0x1840572",
+    "text": "Analytics"
+  },
+  {
+    "offset": "0x184079c",
+    "text": "yyyyyys"
+  },
+  {
+    "offset": "0x1840850",
+    "text": "xxxxxxt"
+  },
+  {
+    "offset": "0x1840960",
+    "text": "Review_entry_source"
+  },
+  {
+    "offset": "0x1840980",
+    "text": "OnboardingCaptureMode"
+  },
+  {
+    "offset": "0x18409a0",
+    "text": "Onboarding_paywall_context"
+  },
+  {
+    "offset": "0x18409f0",
+    "text": "Purchase_context"
+  },
+  {
+    "offset": "0x1840a10",
+    "text": "PurchaseFromEnum"
+  },
+  {
+    "offset": "0x1840a30",
+    "text": "FirebaseEventParameter"
+  },
+  {
+    "offset": "0x1840a47",
+    "text": "ABTest"
+  },
+  {
+    "offset": "0x1840e10",
+    "text": "Product"
+  },
+  {
+    "offset": "0x1840e18",
+    "text": "Restore_outcome"
+  },
+  {
+    "offset": "0x1840e28",
+    "text": "Chat_context"
+  },
+  {
+    "offset": "0x1840e35",
+    "text": "Ai_error_kind"
+  },
+  {
+    "offset": "0x1840e43",
+    "text": "Http_status"
+  },
+  {
+    "offset": "0x1840e4f",
+    "text": "Failure_stage"
+  },
+  {
+    "offset": "0x1840e5d",
+    "text": "Operation"
+  },
+  {
+    "offset": "0x1840e67",
+    "text": "Error_code"
+  },
+  {
+    "offset": "0x1840e72",
+    "text": "To_server"
+  },
+  {
+    "offset": "0x1840e7c",
+    "text": "From_server"
+  },
+  {
+    "offset": "0x1840e88",
+    "text": "To_model"
+  },
+  {
+    "offset": "0x1840e91",
+    "text": "To_provider"
+  },
+  {
+    "offset": "0x1840e9d",
+    "text": "From_model"
+  },
+  {
+    "offset": "0x1840ea8",
+    "text": "From_provider"
+  },
+  {
+    "offset": "0x1840eb6",
+    "text": "Reason"
+  },
+  {
+    "offset": "0x1840ec2",
+    "text": "PurchaseLayout"
+  },
+  {
+    "offset": "0x1840ee0",
+    "text": "PurchasePageType"
+  },
+  {
+    "offset": "0x1840ef1",
+    "text": "FirebaseEvent"
+  },
+  {
+    "offset": "0x1841210",
+    "text": "Chat_quality_payload"
+  },
+  {
+    "offset": "0x1841230",
+    "text": "Purchase_outcome"
+  },
+  {
+    "offset": "0x1841241",
+    "text": "Success"
+  },
+  {
+    "offset": "0x1841249",
+    "text": "Cap_type"
+  },
+  {
+    "offset": "0x1841257",
+    "text": "Capture_mode"
+  },
+  {
+    "offset": "0x1841270",
+    "text": "Completion_action"
+  },
+  {
+    "offset": "0x1841282",
+    "text": "Elapsed_ms"
+  },
+  {
+    "offset": "0x184128d",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1841294",
+    "text": "Page_name"
+  },
+  {
+    "offset": "0x184129e",
+    "text": "Step_no"
+  },
+  {
+    "offset": "0x18412a6",
+    "text": "Ab_variant"
+  },
+  {
+    "offset": "0x18412b1",
+    "text": "ProductEnum"
+  },
+  {
+    "offset": "0x1841360",
+    "text": "PurchaseOutcome"
+  },
+  {
+    "offset": "0x1841370",
+    "text": "CapTypeEnum"
+  },
+  {
+    "offset": "0x1841380",
+    "text": "OnboardingCompletionAction"
+  },
+  {
+    "offset": "0x18415a0",
+    "text": "AudioSessionManager"
+  },
+  {
+    "offset": "0x18415d0",
+    "text": "PendingOperationCancellation"
+  },
+  {
+    "offset": "0x18415f0",
+    "text": "AudioSessionMode"
+  },
+  {
+    "offset": "0x18416c0",
+    "text": "CameraLaunchCoordinator"
+  },
+  {
+    "offset": "0x1841710",
+    "text": "SoundEffectManager"
+  },
+  {
+    "offset": "0x1841723",
+    "text": "SoundEffect"
+  },
+  {
+    "offset": "0x1841832",
+    "text": "SpeakerManager"
+  },
+  {
+    "offset": "0x1841910",
+    "text": "VoiceSection"
+  },
+  {
+    "offset": "0x184194a",
+    "text": "SpeechManager"
+  },
+  {
+    "offset": "0x18419a0",
+    "text": "SpeechAuthorizationType"
+  },
+  {
+    "offset": "0x18419e0",
+    "text": "BackendTTSProvider"
+  },
+  {
+    "offset": "0x1841a3a",
+    "text": "TTSAudioCache"
+  },
+  {
+    "offset": "0x1841a50",
+    "text": "TTSAudioConverter"
+  },
+  {
+    "offset": "0x1841a6a",
+    "text": "TTSFilePlaying"
+  },
+  {
+    "offset": "0x1841a80",
+    "text": "AVAudioTTSFilePlayer"
+  },
+  {
+    "offset": "0x1841b30",
+    "text": "TTSFilePlayerError"
+  },
+  {
+    "offset": "0x1841c32",
+    "text": "TTSManager"
+  },
+  {
+    "offset": "0x1841c50",
+    "text": "TTSSharedSynthesisCoordinator"
+  },
+  {
+    "offset": "0x1841c80",
+    "text": "TTSSharedSessionCoordinator"
+  },
+  {
+    "offset": "0x1841cc8",
+    "text": "TTSStartGate"
+  },
+  {
+    "offset": "0x1841ce0",
+    "text": "TTSWaitRace"
+  },
+  {
+    "offset": "0x1841d20",
+    "text": "TTSSynthesisWaitRace"
+  },
+  {
+    "offset": "0x1841d50",
+    "text": "Outcome"
+  },
+  {
+    "offset": "0x1841d60",
+    "text": "Result"
+  },
+  {
+    "offset": "0x1841d67",
+    "text": "Session"
+  },
+  {
+    "offset": "0x1841db8",
+    "text": "Entry"
+  },
+  {
+    "offset": "0x1842088",
+    "text": "Cancellation"
+  },
+  {
+    "offset": "0x1842095",
+    "text": "TTSManagerError"
+  },
+  {
+    "offset": "0x18420a5",
+    "text": "Lease"
+  },
+  {
+    "offset": "0x18420c8",
+    "text": "Registration"
+  },
+  {
+    "offset": "0x18420f0",
+    "text": "Waiter"
+  },
+  {
+    "offset": "0x1842212",
+    "text": "TTSOutput"
+  },
+  {
+    "offset": "0x1842238",
+    "text": "TTSMode"
+  },
+  {
+    "offset": "0x1842240",
+    "text": "TTSProvider"
+  },
+  {
+    "offset": "0x1842250",
+    "text": "TTSFallbackIdentity"
+  },
+  {
+    "offset": "0x1842270",
+    "text": "TTSSynthesisIdentity"
+  },
+  {
+    "offset": "0x1842358",
+    "text": "TTSFallbackPlan"
+  },
+  {
+    "offset": "0x1842370",
+    "text": "TTSRequestSource"
+  },
+  {
+    "offset": "0x1842390",
+    "text": "TTSPlaybackSessionIdentity"
+  },
+  {
+    "offset": "0x18424ba",
+    "text": "TTSVoiceGroup"
+  },
+  {
+    "offset": "0x18424c8",
+    "text": "TTSVoice"
+  },
+  {
+    "offset": "0x18425f0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1842860",
+    "text": "OnboardingStickerExampleCell"
+  },
+  {
+    "offset": "0x1842880",
+    "text": "OnboardingStickerExampleContentView"
+  },
+  {
+    "offset": "0x18428a4",
+    "text": "Style"
+  },
+  {
+    "offset": "0x1842e80",
+    "text": "OnboardingStickerDustImageSwiftUIView"
+  },
+  {
+    "offset": "0x1842f90",
+    "text": "OnboardingDustGroupImageView"
+  },
+  {
+    "offset": "0x1842fb0",
+    "text": "GroupStickerDustImageView"
+  },
+  {
+    "offset": "0x1842fd0",
+    "text": "OnboardingDustGroupImageSwiftUIView"
+  },
+  {
+    "offset": "0x18430fb",
+    "text": "VVQQQOnboardingGetStartContentViewModel"
+  },
+  {
+    "offset": "0x1843130",
+    "text": "OnboardingGetStartCell"
+  },
+  {
+    "offset": "0x1843150",
+    "text": "OnboardingGetStartContentView"
+  },
+  {
+    "offset": "0x18439f8",
+    "text": "CustomShape"
+  },
+  {
+    "offset": "0x1843b1a",
+    "text": "LanguageRow"
+  },
+  {
+    "offset": "0x1843bd0",
+    "text": "OnboardingCurrentLanguageContentViewModel"
+  },
+  {
+    "offset": "0x1843c10",
+    "text": "OnboardingCurrentLanguageCell"
+  },
+  {
+    "offset": "0x1843c30",
+    "text": "OnboardingCurrentLanguageContentView"
+  },
+  {
+    "offset": "0x1844040",
+    "text": "OnboardingLanguageContentViewModel"
+  },
+  {
+    "offset": "0x1844080",
+    "text": "OnboardingLanguageCell"
+  },
+  {
+    "offset": "0x18440a0",
+    "text": "OnboardingLanguageContentView"
+  },
+  {
+    "offset": "0x1844560",
+    "text": "OnboardingLoadingCell"
+  },
+  {
+    "offset": "0x1844580",
+    "text": "OnboardingLoadingContentView"
+  },
+  {
+    "offset": "0x18446f0",
+    "text": "OnboardingLoadingDotMask"
+  },
+  {
+    "offset": "0x18448b0",
+    "text": "NewOnboardingLoginCell"
+  },
+  {
+    "offset": "0x18448d0",
+    "text": "NewOnboardingLoginContentView"
+  },
+  {
+    "offset": "0x1844eb8",
+    "text": "PoweredByAIView"
+  },
+  {
+    "offset": "0x1844f20",
+    "text": "PoweredByAIDarkView"
+  },
+  {
+    "offset": "0x1844fb0",
+    "text": "OnboardingLoginContentViewModel"
+  },
+  {
+    "offset": "0x1844fe0",
+    "text": "OnboardingLoginCell"
+  },
+  {
+    "offset": "0x1845000",
+    "text": "OnboardingLoginContentView"
+  },
+  {
+    "offset": "0x1845020",
+    "text": "OnboardingLoginContent"
+  },
+  {
+    "offset": "0x1845700",
+    "text": "OnboardingLoginLoadingLayer"
+  },
+  {
+    "offset": "0x18458f0",
+    "text": "OnboardingTutorialCellContentViewModel"
+  },
+  {
+    "offset": "0x1845920",
+    "text": "OnboardingTutorialCell"
+  },
+  {
+    "offset": "0x1845950",
+    "text": "OnboardingTutorialCellContentView"
+  },
+  {
+    "offset": "0x18459b0",
+    "text": "OnboardingTutorialStickerContent"
+  },
+  {
+    "offset": "0x18459e0",
+    "text": "OnboardingTutorialCellContentViewModelItem"
+  },
+  {
+    "offset": "0x1845a10",
+    "text": "OnboardingTutorialCellContentViewModelType"
+  },
+  {
+    "offset": "0x18463b0",
+    "text": "OnboardingVoiceLevelCell"
+  },
+  {
+    "offset": "0x18463d0",
+    "text": "OnboardingVoiceLevelContentView"
+  },
+  {
+    "offset": "0x18467d0",
+    "text": "TryDemoViewModel"
+  },
+  {
+    "offset": "0x18467f0",
+    "text": "TryDemoViewController"
+  },
+  {
+    "offset": "0x1846806",
+    "text": "TryDemoView"
+  },
+  {
+    "offset": "0x1846a90",
+    "text": "OnboardingTransition"
+  },
+  {
+    "offset": "0x1846ab0",
+    "text": "OnboardingViewController"
+  },
+  {
+    "offset": "0x1846ac9",
+    "text": "OnboardingPage"
+  },
+  {
+    "offset": "0x1846be0",
+    "text": "OnboardingCViewController"
+  },
+  {
+    "offset": "0x1846cb1",
+    "text": "HasM33"
+  },
+  {
+    "offset": "0x1846cec",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1846d00",
+    "text": "OnboardingCModel"
+  },
+  {
+    "offset": "0x1846d11",
+    "text": "State"
+  },
+  {
+    "offset": "0x1847470",
+    "text": "PreIntroSticker"
+  },
+  {
+    "offset": "0x18474b0",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1847548",
+    "text": "female"
+  },
+  {
+    "offset": "0x1847558",
+    "text": "nonBinarpreferNo"
+  },
+  {
+    "offset": "0x1847588",
+    "text": "tToSay"
+  },
+  {
+    "offset": "0x184788c",
+    "text": "ListPayload"
+  },
+  {
+    "offset": "0x18478a0",
+    "text": "OnboardingListItem"
+  },
+  {
+    "offset": "0x184791c",
+    "text": "ContentKind"
+  },
+  {
+    "offset": "0x1847940",
+    "text": "CustomMatchedGeometryCoordinator"
+  },
+  {
+    "offset": "0x18479a0",
+    "text": "CustomMatchedGeometryEntry"
+  },
+  {
+    "offset": "0x1847aa0",
+    "text": "CustomMatchedGeometryLayer"
+  },
+  {
+    "offset": "0x1847c80",
+    "text": "CustomMatchedGeometryValuesKey"
+  },
+  {
+    "offset": "0x1847ca0",
+    "text": "CustomMatchedGeometryCoordinatorKey"
+  },
+  {
+    "offset": "0x1847cd0",
+    "text": "CustomMatchedGeometryLayerIdKey"
+  },
+  {
+    "offset": "0x1847cf0",
+    "text": "CustomMatchedGeometryTransitionKeyKey"
+  },
+  {
+    "offset": "0x1847d30",
+    "text": "CustomMatchedGeometrySource"
+  },
+  {
+    "offset": "0x1847fa0",
+    "text": "CustomMatchedGeometryFramePreferenceKey"
+  },
+  {
+    "offset": "0x1848040",
+    "text": "OnboardingPromptTextTokenizer"
+  },
+  {
+    "offset": "0x184805e",
+    "text": "Segment"
+  },
+  {
+    "offset": "0x1848090",
+    "text": "OnboardingAnimatedPromptText"
+  },
+  {
+    "offset": "0x18482b0",
+    "text": "OnboardingPromptWordAttribute"
+  },
+  {
+    "offset": "0x18482d0",
+    "text": "OnboardingPromptTextRenderer"
+  },
+  {
+    "offset": "0x1848420",
+    "text": "OnboardingPromptTextTimingConfig"
+  },
+  {
+    "offset": "0x1848490",
+    "text": "OnboardingCStepScreen"
+  },
+  {
+    "offset": "0x1848590",
+    "text": "OnboardingListContent"
+  },
+  {
+    "offset": "0x1848840",
+    "text": "OnboardingListEntranceModifier"
+  },
+  {
+    "offset": "0x184885f",
+    "text": "SelectionMode"
+  },
+  {
+    "offset": "0x18489b0",
+    "text": "OnboardingStepContainerView"
+  },
+  {
+    "offset": "0x1848bd0",
+    "text": "OnboardingTopBarView"
+  },
+  {
+    "offset": "0x1848eb0",
+    "text": "PreIntroCameraStickerDustGroupView"
+  },
+  {
+    "offset": "0x18490c0",
+    "text": "PreIntroCollectionBotsView"
+  },
+  {
+    "offset": "0x1849160",
+    "text": "PreIntroLegalAgreementView"
+  },
+  {
+    "offset": "0x18492e0",
+    "text": "PreIntroStickerImage"
+  },
+  {
+    "offset": "0x18493a0",
+    "text": "OnboardingBuildView"
+  },
+  {
+    "offset": "0x184951a",
+    "text": "OnboardingCView"
+  },
+  {
+    "offset": "0x18499d0",
+    "text": "OnboardingTryDemoPreviewController"
+  },
+  {
+    "offset": "0x1849a00",
+    "text": "OnboardingDemoView"
+  },
+  {
+    "offset": "0x1849b40",
+    "text": "OnboardingHabitContent"
+  },
+  {
+    "offset": "0x1849c10",
+    "text": "OnboardingHabitTimePickerButton"
+  },
+  {
+    "offset": "0x1849d70",
+    "text": "OnboardingLevelBallPhase"
+  },
+  {
+    "offset": "0x1849d90",
+    "text": "LevelBallNodeBundle"
+  },
+  {
+    "offset": "0x1849e10",
+    "text": "OnboardingLevelBallStepContent"
+  },
+  {
+    "offset": "0x1849e2f",
+    "text": "LevelBallItem"
+  },
+  {
+    "offset": "0x1849ef0",
+    "text": "OnboardingLevelBallIntroView"
+  },
+  {
+    "offset": "0x1849f70",
+    "text": "OnboardingLevelBallSpriteLayer"
+  },
+  {
+    "offset": "0x184a1a0",
+    "text": "OnboardingLevelBallTransparentSpriteView"
+  },
+  {
+    "offset": "0x184a2f0",
+    "text": "OnboardingNameContent"
+  },
+  {
+    "offset": "0x184a4d0",
+    "text": "OnboardingRatingContent"
+  },
+  {
+    "offset": "0x184a5b0",
+    "text": "OnboardingRatingReviewCard"
+  },
+  {
+    "offset": "0x184a5d0",
+    "text": "OnboardingRatingReview"
+  },
+  {
+    "offset": "0x184a5f0",
+    "text": "OnboardingRatingLearnersRow"
+  },
+  {
+    "offset": "0x184a610",
+    "text": "OnboardingRatingAwardSection"
+  },
+  {
+    "offset": "0x184a8f0",
+    "text": "OnboardingRatingStarsView"
+  },
+  {
+    "offset": "0x184a910",
+    "text": "OnboardingRatingAvatarView"
+  },
+  {
+    "offset": "0x184aab0",
+    "text": "OnboardingReadyContent"
+  },
+  {
+    "offset": "0x184ab40",
+    "text": "OnboardingReadyComparisonCards"
+  },
+  {
+    "offset": "0x184abf0",
+    "text": "OnboardingReadyWithCard"
+  },
+  {
+    "offset": "0x184ac10",
+    "text": "OnboardingReadyWithoutCard"
+  },
+  {
+    "offset": "0x184ae40",
+    "text": "OnboardingReadyComparisonRow"
+  },
+  {
+    "offset": "0x184ae60",
+    "text": "OnboardingReadyComparisonItem"
+  },
+  {
+    "offset": "0x184afc0",
+    "text": "OnboardingScienceView"
+  },
+  {
+    "offset": "0x184aff0",
+    "text": "OnboardingSciencePhase"
+  },
+  {
+    "offset": "0x184b2e0",
+    "text": "InfiniteRotatingImageView"
+  },
+  {
+    "offset": "0x184b478",
+    "text": "Solution"
+  },
+  {
+    "offset": "0x184b481",
+    "text": "Phase"
+  },
+  {
+    "offset": "0x184b4a0",
+    "text": "OnboardingSolutionView"
+  },
+  {
+    "offset": "0x184b7a0",
+    "text": "OnboardingVoiceListContent"
+  },
+  {
+    "offset": "0x184b8f0",
+    "text": "OnboardingVoiceIconView"
+  },
+  {
+    "offset": "0x184b910",
+    "text": "OnboardingVoicePlayIndicator"
+  },
+  {
+    "offset": "0x184ba80",
+    "text": "PreIntroCollection1View"
+  },
+  {
+    "offset": "0x184bdb0",
+    "text": "PreIntroCollection2View"
+  },
+  {
+    "offset": "0x184c020",
+    "text": "PreIntroCollection3View"
+  },
+  {
+    "offset": "0x184c250",
+    "text": "PreIntroWelcomeView"
+  },
+  {
+    "offset": "0x184c4f0",
+    "text": "PreIntroAwardBadgeContent"
+  },
+  {
+    "offset": "0x184c510",
+    "text": "PreIntroAwardBadge"
+  },
+  {
+    "offset": "0x184c6b0",
+    "text": "LaunchAwardWheatView"
+  },
+  {
+    "offset": "0x184c6c5",
+    "text": "AwardBadgeColor"
+  },
+  {
+    "offset": "0x184c7a0",
+    "text": "PurchaseViewController"
+  },
+  {
+    "offset": "0x184c930",
+    "text": "PurchaseGiftViewController"
+  },
+  {
+    "offset": "0x184c950",
+    "text": "PurchaseGiftContentView"
+  },
+  {
+    "offset": "0x184cb90",
+    "text": "PurchaseSaleViewBController"
+  },
+  {
+    "offset": "0x184cbb0",
+    "text": "PurchaseSaleBContentView"
+  },
+  {
+    "offset": "0x184d400",
+    "text": "TopRoundedRectangle"
+  },
+  {
+    "offset": "0x184d414",
+    "text": "SaleCardShape"
+  },
+  {
+    "offset": "0x184d430",
+    "text": "SaleCardDottedDivider"
+  },
+  {
+    "offset": "0x184d446",
+    "text": "BottomButtons"
+  },
+  {
+    "offset": "0x184d790",
+    "text": "PurchaseSaleViewController"
+  },
+  {
+    "offset": "0x184d7b0",
+    "text": "PurchaseSaleContentView"
+  },
+  {
+    "offset": "0x184df48",
+    "text": "BottomButtons"
+  },
+  {
+    "offset": "0x184df56",
+    "text": "SaleInfoItem"
+  },
+  {
+    "offset": "0x184e040",
+    "text": "load_items"
+  },
+  {
+    "offset": "0x184e0e0",
+    "text": "PurchaseAvatarItem"
+  },
+  {
+    "offset": "0x184e100",
+    "text": "Action"
+  },
+  {
+    "offset": "0x184e168",
+    "text": "PurchaseComment"
+  },
+  {
+    "offset": "0x184e190",
+    "text": "PurchaseFuture"
+  },
+  {
+    "offset": "0x184e1a8",
+    "text": "State"
+  },
+  {
+    "offset": "0x184f258",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x184f265",
+    "text": "Alert"
+  },
+  {
+    "offset": "0x184f270",
+    "text": "PurchaseDarkBenefitItem"
+  },
+  {
+    "offset": "0x184f290",
+    "text": "PurchaseBenefitItem"
+  },
+  {
+    "offset": "0x184f2a4",
+    "text": "Style"
+  },
+  {
+    "offset": "0x184f530",
+    "text": "PurchaseSaleCardViewController"
+  },
+  {
+    "offset": "0x184f62d",
+    "text": "Action"
+  },
+  {
+    "offset": "0x184f680",
+    "text": "PurchaseSaleCardFuture"
+  },
+  {
+    "offset": "0x184f6a0",
+    "text": "State"
+  },
+  {
+    "offset": "0x184ff80",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x184ff8d",
+    "text": "Alert"
+  },
+  {
+    "offset": "0x1850070",
+    "text": "PurchaseSaleCardView"
+  },
+  {
+    "offset": "0x1850370",
+    "text": "PurchaseBViewController"
+  },
+  {
+    "offset": "0x1850540",
+    "text": "PurchaseCAwardsPageView"
+  },
+  {
+    "offset": "0x1850650",
+    "text": "PurchaseCDarkASAAwardView"
+  },
+  {
+    "offset": "0x1850670",
+    "text": "PurchaseCDarkADAAwardView"
+  },
+  {
+    "offset": "0x1850830",
+    "text": "PurchaseCCameraRecognitionHero"
+  },
+  {
+    "offset": "0x1850b00",
+    "text": "PurchaseCCameraButton"
+  },
+  {
+    "offset": "0x1850bf0",
+    "text": "PurchaseCContextualLearningHero"
+  },
+  {
+    "offset": "0x1850d90",
+    "text": "PurchaseCPhrasePill"
+  },
+  {
+    "offset": "0x1850e90",
+    "text": "PurchaseCFlashcardsHero"
+  },
+  {
+    "offset": "0x1850fe0",
+    "text": "PurchaseCMomentCaptureHero"
+  },
+  {
+    "offset": "0x1851220",
+    "text": "PurchaseCSpeakingHero"
+  },
+  {
+    "offset": "0x18514e0",
+    "text": "PurchaseBHeaderTitleBlock"
+  },
+  {
+    "offset": "0x1851500",
+    "text": "PurchaseBHeaderTopImage"
+  },
+  {
+    "offset": "0x18516d0",
+    "text": "PurchaseCAwardsRow"
+  },
+  {
+    "offset": "0x1851740",
+    "text": "PurchaseCASAAwardRow"
+  },
+  {
+    "offset": "0x1851760",
+    "text": "PurchaseCADAAwardRow"
+  },
+  {
+    "offset": "0x1851920",
+    "text": "PurchaseCBackground"
+  },
+  {
+    "offset": "0x18519d0",
+    "text": "Entry"
+  },
+  {
+    "offset": "0x18519e0",
+    "text": "PurchaseCFeatureBackdropBoundsKey"
+  },
+  {
+    "offset": "0x1851a30",
+    "text": "PurchaseCFeatureCarousel"
+  },
+  {
+    "offset": "0x1851c60",
+    "text": "PurchaseCFeaturePage"
+  },
+  {
+    "offset": "0x1851da0",
+    "text": "PurchaseCFeaturePageView"
+  },
+  {
+    "offset": "0x1851f80",
+    "text": "PurchaseCFeaturePageContent"
+  },
+  {
+    "offset": "0x18520d0",
+    "text": "PurchaseCFeaturePagingScrollView"
+  },
+  {
+    "offset": "0x18521c0",
+    "text": "PurchasePagingViewportFrameKey"
+  },
+  {
+    "offset": "0x1852260",
+    "text": "PurchaseCFloatingStickerItem"
+  },
+  {
+    "offset": "0x1852280",
+    "text": "PurchaseCFlashcardCardItem"
+  },
+  {
+    "offset": "0x18522a0",
+    "text": "PurchaseCFeatureVisualLayout"
+  },
+  {
+    "offset": "0x1852300",
+    "text": "PurchaseDarkAutoPlayProgressScheduler"
+  },
+  {
+    "offset": "0x1852530",
+    "text": "PurchaseDarkAwardsRow"
+  },
+  {
+    "offset": "0x18525a0",
+    "text": "PurchaseDarkASAAwardView"
+  },
+  {
+    "offset": "0x18525c0",
+    "text": "PurchaseDarkADAAwardView"
+  },
+  {
+    "offset": "0x18528e0",
+    "text": "PurchaseDarkComments"
+  },
+  {
+    "offset": "0x1852a60",
+    "text": "PurchaseDarkCommentPageView"
+  },
+  {
+    "offset": "0x1852b20",
+    "text": "PurchaseDarkTestimonialCard"
+  },
+  {
+    "offset": "0x1852ca0",
+    "text": "PurchaseDarkContinueButton"
+  },
+  {
+    "offset": "0x1852f40",
+    "text": "PurchaseDarkFooter"
+  },
+  {
+    "offset": "0x1853000",
+    "text": "PurchaseDarkLayout"
+  },
+  {
+    "offset": "0x18530b0",
+    "text": "PurchaseDarkPageIndicatorStyle"
+  },
+  {
+    "offset": "0x18531b0",
+    "text": "PurchaseDarkPurchaseOptions"
+  },
+  {
+    "offset": "0x1853290",
+    "text": "PurchaseDarkPurchaseOptionRow"
+  },
+  {
+    "offset": "0x1853450",
+    "text": "PurchaseDarkTrialTimeline"
+  },
+  {
+    "offset": "0x1853590",
+    "text": "PurchaseDarkTrialItem"
+  },
+  {
+    "offset": "0x18536d0",
+    "text": "PurchaseBDarkView"
+  },
+  {
+    "offset": "0x1853d68",
+    "text": "Style"
+  },
+  {
+    "offset": "0x1853d70",
+    "text": "PurchaseLayoutCNavAppearance"
+  },
+  {
+    "offset": "0x1853e70",
+    "text": "PurchasesSuccessView"
+  },
+  {
+    "offset": "0x1853ed0",
+    "text": "PurchasesSuccessBadgeFrameRole"
+  },
+  {
+    "offset": "0x1853ef0",
+    "text": "PurchasesSuccessViewStage"
+  },
+  {
+    "offset": "0x1854400",
+    "text": "PurchasesSuccessBadgeFramePreferenceKey"
+  },
+  {
+    "offset": "0x1854490",
+    "text": "PurchasesSuccessViewController"
+  },
+  {
+    "offset": "0x18544c0",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x18544d0",
+    "text": "AnimationMaskCollectionViewCell"
+  },
+  {
+    "offset": "0x1854500",
+    "text": "AnimationMaskCollectionViewCellContentViewModel"
+  },
+  {
+    "offset": "0x1854560",
+    "text": "AnimationMaskCollectionViewCellPagContentView"
+  },
+  {
+    "offset": "0x1854590",
+    "text": "AnimationMaskCollectionView"
+  },
+  {
+    "offset": "0x1854892",
+    "text": "NewPurchaseView"
+  },
+  {
+    "offset": "0x18554f0",
+    "text": "HeaderItem"
+  },
+  {
+    "offset": "0x1855500",
+    "text": "PurchaseBHeaderItem"
+  },
+  {
+    "offset": "0x1855514",
+    "text": "Style"
+  },
+  {
+    "offset": "0x18556a0",
+    "text": "PurchasePageBackground"
+  },
+  {
+    "offset": "0x18556d0",
+    "text": "PurchaseFooterFade"
+  },
+  {
+    "offset": "0x18557a8",
+    "text": "Style"
+  },
+  {
+    "offset": "0x1855820",
+    "text": "purchase"
+  },
+  {
+    "offset": "0x1855830",
+    "text": "customer_info"
+  },
+  {
+    "offset": "0x1855850",
+    "text": "offerings"
+  },
+  {
+    "offset": "0x1855860",
+    "text": "discount_setup"
+  },
+  {
+    "offset": "0x1855870",
+    "text": "store_purchase"
+  },
+  {
+    "offset": "0x1855b5e",
+    "text": "PurchaseItem"
+  },
+  {
+    "offset": "0x1855b70",
+    "text": "InAppPurchaseError"
+  },
+  {
+    "offset": "0x1855b90",
+    "text": "PurchaseUserRequestGate"
+  },
+  {
+    "offset": "0x1855bd0",
+    "text": "InAppPurchase"
+  },
+  {
+    "offset": "0x1855c45",
+    "text": "Token"
+  },
+  {
+    "offset": "0x1855c50",
+    "text": "PurchaseLogContext"
+  },
+  {
+    "offset": "0x1855c63",
+    "text": "Value"
+  },
+  {
+    "offset": "0x1856290",
+    "text": "PurchaseLogError"
+  },
+  {
+    "offset": "0x1856580",
+    "text": "PurchaseDiagnosticContext"
+  },
+  {
+    "offset": "0x18565a0",
+    "text": "PurchaseReconciliationStage"
+  },
+  {
+    "offset": "0x18565c0",
+    "text": "PurchaseOperation"
+  },
+  {
+    "offset": "0x18565d2",
+    "text": "PurchaseNotice"
+  },
+  {
+    "offset": "0x1856750",
+    "text": "PurchaseRestoreResult"
+  },
+  {
+    "offset": "0x1856780",
+    "text": "PurchaseNoticeAction"
+  },
+  {
+    "offset": "0x18567f0",
+    "text": "PurchaseAccountSnapshot"
+  },
+  {
+    "offset": "0x1856830",
+    "text": "PurchaseStatusConclusion"
+  },
+  {
+    "offset": "0x1856870",
+    "text": "PurchaseNonSubscriptionSnapshot"
+  },
+  {
+    "offset": "0x18568b0",
+    "text": "PurchaseSubscriptionSnapshot"
+  },
+  {
+    "offset": "0x1856970",
+    "text": "FeedbackEmailCoordinator"
+  },
+  {
+    "offset": "0x1856a20",
+    "text": "ImageCombinerConfiguration"
+  },
+  {
+    "offset": "0x1856a3b",
+    "text": "NumberStyle"
+  },
+  {
+    "offset": "0x1856a47",
+    "text": "BorderStyle"
+  },
+  {
+    "offset": "0x1856a53",
+    "text": "ImageCombiner"
+  },
+  {
+    "offset": "0x1856b30",
+    "text": "CameraSessionHardware"
+  },
+  {
+    "offset": "0x1856b60",
+    "text": "AVFoundationCameraSessionHardware"
+  },
+  {
+    "offset": "0x1856bc0",
+    "text": "CameraSessionController"
+  },
+  {
+    "offset": "0x1856bf0",
+    "text": "CameraViewController"
+  },
+  {
+    "offset": "0x1856c80",
+    "text": "CaptureControlsDelegate"
+  },
+  {
+    "offset": "0x1856c98",
+    "text": "CaptureMode"
+  },
+  {
+    "offset": "0x1856cb0",
+    "text": "CameraResult"
+  },
+  {
+    "offset": "0x1856d68",
+    "text": "ResultType"
+  },
+  {
+    "offset": "0x1856e40",
+    "text": "StickerCameraBoundsView"
+  },
+  {
+    "offset": "0x1856e70",
+    "text": "StickerCameraBoundsContentView"
+  },
+  {
+    "offset": "0x1857430",
+    "text": "StickerCameraCropToolContentViewModel"
+  },
+  {
+    "offset": "0x1857460",
+    "text": "StickerCameraCropToolView"
+  },
+  {
+    "offset": "0x1857480",
+    "text": "StickerCameraCropToolContentView"
+  },
+  {
+    "offset": "0x18577d0",
+    "text": "StickerCameraViewController"
+  },
+  {
+    "offset": "0x1857840",
+    "text": "LivePhotoRecognitionResources"
+  },
+  {
+    "offset": "0x1858370",
+    "text": "StickerDatabaseType"
+  },
+  {
+    "offset": "0x18583b0",
+    "text": "RecognitionMetadataSession"
+  },
+  {
+    "offset": "0x1858440",
+    "text": "StickerRecognitionMetadataCoordinator"
+  },
+  {
+    "offset": "0x1858470",
+    "text": "RecognitionMetadataBinding"
+  },
+  {
+    "offset": "0x1858490",
+    "text": "DeferredMetadataRequest"
+  },
+  {
+    "offset": "0x1858580",
+    "text": "RecognitionPhotoMetadata"
+  },
+  {
+    "offset": "0x185859a",
+    "text": "TipContentView"
+  },
+  {
+    "offset": "0x18585a9",
+    "text": "LeadingImage"
+  },
+  {
+    "offset": "0x18586b0",
+    "text": "TipPointerShape"
+  },
+  {
+    "offset": "0x18586c0",
+    "text": "PointerPosition"
+  },
+  {
+    "offset": "0x1858830",
+    "text": "StickerCameraErrorAlertViewController"
+  },
+  {
+    "offset": "0x18588d0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x18588e0",
+    "text": "StickerCameraErrorAlertModel"
+  },
+  {
+    "offset": "0x18588fd",
+    "text": "State"
+  },
+  {
+    "offset": "0x1858910",
+    "text": "StickerCameraErrorType"
+  },
+  {
+    "offset": "0x1858c18",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1858e20",
+    "text": "StickerLayerButtons"
+  },
+  {
+    "offset": "0x18590b2",
+    "text": "StickerLayer"
+  },
+  {
+    "offset": "0x18599c8",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1859a60",
+    "text": "StickerLayerModel"
+  },
+  {
+    "offset": "0x1859a80",
+    "text": "State"
+  },
+  {
+    "offset": "0x1859ad0",
+    "text": "MediaType"
+  },
+  {
+    "offset": "0x185ac40",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x185ac4d",
+    "text": "LayerState"
+  },
+  {
+    "offset": "0x185ad20",
+    "text": "StickerVideoViewModel"
+  },
+  {
+    "offset": "0x185ad70",
+    "text": "StickerVideoView"
+  },
+  {
+    "offset": "0x185adb8",
+    "text": "MorphingShape"
+  },
+  {
+    "offset": "0x185af10",
+    "text": "CustomVideoPlayer"
+  },
+  {
+    "offset": "0x185b010",
+    "text": "StickerOutlineImageView"
+  },
+  {
+    "offset": "0x185b030",
+    "text": "StickerSceneAlertViewController"
+  },
+  {
+    "offset": "0x185b0e0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x185b0f0",
+    "text": "StickerSceneAlertModel"
+  },
+  {
+    "offset": "0x185b107",
+    "text": "State"
+  },
+  {
+    "offset": "0x185b3e8",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x185b460",
+    "text": "StickerSceneAlertView"
+  },
+  {
+    "offset": "0x185b542",
+    "text": "MotionManager"
+  },
+  {
+    "offset": "0x185b6a0",
+    "text": "StickerWallImageView"
+  },
+  {
+    "offset": "0x185b880",
+    "text": "Action"
+  },
+  {
+    "offset": "0x185b890",
+    "text": "StickerWrongWordAlertModel"
+  },
+  {
+    "offset": "0x185b8ab",
+    "text": "State"
+  },
+  {
+    "offset": "0x185bbb0",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x185bc20",
+    "text": "StickerWrongWordAlertView"
+  },
+  {
+    "offset": "0x185bfc0",
+    "text": "CaptureBladeStyle"
+  },
+  {
+    "offset": "0x185bfe0",
+    "text": "CaptureShutterMaterial"
+  },
+  {
+    "offset": "0x185c1c8",
+    "text": "FFFFFF"
+  },
+  {
+    "offset": "0x185c1d0",
+    "text": "F2F2F2"
+  },
+  {
+    "offset": "0x185c1f0",
+    "text": "FFFFFF"
+  },
+  {
+    "offset": "0x185c1f8",
+    "text": "F2F2F2"
+  },
+  {
+    "offset": "0x185c230",
+    "text": "CaptureMatteCoatingSurface"
+  },
+  {
+    "offset": "0x185c250",
+    "text": "CaptureShutterCenter"
+  },
+  {
+    "offset": "0x185c270",
+    "text": "CaptureApertureImage"
+  },
+  {
+    "offset": "0x185c2d0",
+    "text": "CaptureShutterBase"
+  },
+  {
+    "offset": "0x185c4a0",
+    "text": "CaptureShutterBezel"
+  },
+  {
+    "offset": "0x185c5c0",
+    "text": "CameraBarContentViewModel"
+  },
+  {
+    "offset": "0x185c5e8",
+    "text": "CameraBarView"
+  },
+  {
+    "offset": "0x185c620",
+    "text": "CameraBarContentView"
+  },
+  {
+    "offset": "0x185c690",
+    "text": "CameraOnboardingGuideState"
+  },
+  {
+    "offset": "0x185c6b0",
+    "text": "LivePhotoTipState"
+  },
+  {
+    "offset": "0x185d200",
+    "text": "CameraOnboardingGuideMode"
+  },
+  {
+    "offset": "0x185d550",
+    "text": "FlashCardReviewCameraButton"
+  },
+  {
+    "offset": "0x185d61e",
+    "text": "CameraBarState"
+  },
+  {
+    "offset": "0x185dc20",
+    "text": "ContainerBarType"
+  },
+  {
+    "offset": "0x185dc31",
+    "text": "State"
+  },
+  {
+    "offset": "0x185dc40",
+    "text": "ContainerBarModel"
+  },
+  {
+    "offset": "0x185dc52",
+    "text": "Action"
+  },
+  {
+    "offset": "0x185dc59",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x185dd50",
+    "text": "CALayerAnimationDelegate"
+  },
+  {
+    "offset": "0x185ddbe",
+    "text": "BundleMarker"
+  },
+  {
+    "offset": "0x185ddcb",
+    "text": "DustEffectLayer"
+  },
+  {
+    "offset": "0x185de18",
+    "text": "RenderState"
+  },
+  {
+    "offset": "0x185de40",
+    "text": "DustComputeState"
+  },
+  {
+    "offset": "0x185e08e",
+    "text": "Placeholder"
+  },
+  {
+    "offset": "0x185e09a",
+    "text": "TextureSpec"
+  },
+  {
+    "offset": "0x185e0a6",
+    "text": "PixelFormat"
+  },
+  {
+    "offset": "0x185e0d0",
+    "text": "TexturePlaceholder"
+  },
+  {
+    "offset": "0x185e0e3",
+    "text": "RenderSize"
+  },
+  {
+    "offset": "0x185e0ee",
+    "text": "RenderLayerSpec"
+  },
+  {
+    "offset": "0x185e100",
+    "text": "RenderLayerPlacement"
+  },
+  {
+    "offset": "0x185e120",
+    "text": "RenderToLayerState"
+  },
+  {
+    "offset": "0x185e133",
+    "text": "ComputeState"
+  },
+  {
+    "offset": "0x185e140",
+    "text": "MetalEngineSubjectLayer"
+  },
+  {
+    "offset": "0x185e160",
+    "text": "MetalEngineResource"
+  },
+  {
+    "offset": "0x185e188",
+    "text": "PooledTexture"
+  },
+  {
+    "offset": "0x185e1a8",
+    "text": "Texture"
+  },
+  {
+    "offset": "0x185e1b0",
+    "text": "BufferSpec"
+  },
+  {
+    "offset": "0x185e1d0",
+    "text": "BufferPlaceholder"
+  },
+  {
+    "offset": "0x185e1f8",
+    "text": "PooledBuffer"
+  },
+  {
+    "offset": "0x185e218",
+    "text": "Buffer"
+  },
+  {
+    "offset": "0x185e228",
+    "text": "SharedBuffer"
+  },
+  {
+    "offset": "0x185e270",
+    "text": "MetalEngineSubjectContext"
+  },
+  {
+    "offset": "0x185e2a0",
+    "text": "ComputeOperation"
+  },
+  {
+    "offset": "0x185e2e0",
+    "text": "RenderToLayerOperation"
+  },
+  {
+    "offset": "0x185e310",
+    "text": "MetalEngineSubjectInternalData"
+  },
+  {
+    "offset": "0x185e330",
+    "text": "MetalEngineSubject"
+  },
+  {
+    "offset": "0x185e343",
+    "text": "MetalEventLayer"
+  },
+  {
+    "offset": "0x185e360",
+    "text": "MetalEngine"
+  },
+  {
+    "offset": "0x185e3a0",
+    "text": "Surface"
+  },
+  {
+    "offset": "0x185e3b0",
+    "text": "SubjectReference"
+  },
+  {
+    "offset": "0x185e440",
+    "text": "SurfaceAllocation"
+  },
+  {
+    "offset": "0x185ea30",
+    "text": "PlaceholderResolveError"
+  },
+  {
+    "offset": "0x185ea48",
+    "text": "Phase"
+  },
+  {
+    "offset": "0x185ec00",
+    "text": "SharedDisplayLinkDriverLink"
+  },
+  {
+    "offset": "0x185ec50",
+    "text": "SharedDisplayLinkDriver"
+  },
+  {
+    "offset": "0x185ec68",
+    "text": "FramesPerSecond"
+  },
+  {
+    "offset": "0x185eca0",
+    "text": "LinkImpl"
+  },
+  {
+    "offset": "0x185ecc8",
+    "text": "RequestContext"
+  },
+  {
+    "offset": "0x185ecee",
+    "text": "NullActionClass"
+  },
+  {
+    "offset": "0x185ecfe",
+    "text": "SimpleLayer"
+  },
+  {
+    "offset": "0x185ed10",
+    "text": "SimpleShapeLayer"
+  },
+  {
+    "offset": "0x185ed30",
+    "text": "SimpleGradientLayer"
+  },
+  {
+    "offset": "0x185ed50",
+    "text": "SimpleTransformLayer"
+  },
+  {
+    "offset": "0x185eda0",
+    "text": "UserInfo"
+  },
+  {
+    "offset": "0x185ede2",
+    "text": "RippleEffect"
+  },
+  {
+    "offset": "0x185ee80",
+    "text": "RippleModifier"
+  },
+  {
+    "offset": "0x185eef0",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x185ef00",
+    "text": "StickerCutoutOutlineImageView"
+  },
+  {
+    "offset": "0x185f010",
+    "text": "StickerDustImageView"
+  },
+  {
+    "offset": "0x185f030",
+    "text": "StickerDustImageSwiftUIView"
+  },
+  {
+    "offset": "0x185f130",
+    "text": "RecognitionDebugSheetViewModel"
+  },
+  {
+    "offset": "0x185f160",
+    "text": "RecognitionDebugNavButtonModel"
+  },
+  {
+    "offset": "0x185f1a0",
+    "text": "RecognitionDebugNavButton"
+  },
+  {
+    "offset": "0x185f1d0",
+    "text": "RecognitionDebugSheetView"
+  },
+  {
+    "offset": "0x185f220",
+    "text": "Appearance"
+  },
+  {
+    "offset": "0x185f7b0",
+    "text": "RecognitionDebugSheetViewController"
+  },
+  {
+    "offset": "0x185f8d8",
+    "text": "Request"
+  },
+  {
+    "offset": "0x185f900",
+    "text": "StickerRecognitionPipelineError"
+  },
+  {
+    "offset": "0x185f920",
+    "text": "StickerRecognitionPipeline"
+  },
+  {
+    "offset": "0x185faa8",
+    "text": "EdgePathError"
+  },
+  {
+    "offset": "0x185fac0",
+    "text": "VisionManagerError"
+  },
+  {
+    "offset": "0x185fae0",
+    "text": "ProcessingResult"
+  },
+  {
+    "offset": "0x185faf1",
+    "text": "InputType"
+  },
+  {
+    "offset": "0x185fb05",
+    "text": "VisionManager"
+  },
+  {
+    "offset": "0x185fb13",
+    "text": "SubjectResults"
+  },
+  {
+    "offset": "0x185fb30",
+    "text": "CaptureMemoryTrace"
+  },
+  {
+    "offset": "0x185fb43",
+    "text": "Context"
+  },
+  {
+    "offset": "0x185fc80",
+    "text": "ChatPhotoAssetImageLoader"
+  },
+  {
+    "offset": "0x185fcb0",
+    "text": "ChatPhotoSelectionAsset"
+  },
+  {
+    "offset": "0x185fcd0",
+    "text": "ChatBatchStickerDraft"
+  },
+  {
+    "offset": "0x185fe40",
+    "text": "ChatBatchStickerEditState"
+  },
+  {
+    "offset": "0x185fe60",
+    "text": "ChatBatchRecognizedDraft"
+  },
+  {
+    "offset": "0x185fe80",
+    "text": "ChatBatchStickerProcessingState"
+  },
+  {
+    "offset": "0x185ff80",
+    "text": "ChatBatchStickerGenerationViewModel"
+  },
+  {
+    "offset": "0x185ffe0",
+    "text": "ChatBatchStickerGenerationViewController"
+  },
+  {
+    "offset": "0x1860060",
+    "text": "StickerGridStarParticlesView"
+  },
+  {
+    "offset": "0x186007d",
+    "text": "Particle"
+  },
+  {
+    "offset": "0x18600a0",
+    "text": "ChatBatchStickerGenerationRootView"
+  },
+  {
+    "offset": "0x1860690",
+    "text": "GridMetrics"
+  },
+  {
+    "offset": "0x18606a0",
+    "text": "BottomBarHeightPreferenceKey"
+  },
+  {
+    "offset": "0x18606c0",
+    "text": "ChatBatchStickerCardView"
+  },
+  {
+    "offset": "0x18606e0",
+    "text": "HeaderHeightPreferenceKey"
+  },
+  {
+    "offset": "0x1860700",
+    "text": "StickerGridStarParticles"
+  },
+  {
+    "offset": "0x18609c0",
+    "text": "ChatBatchRecognizedStickerView"
+  },
+  {
+    "offset": "0x1860a00",
+    "text": "ChatBatchRecognizedSceneView"
+  },
+  {
+    "offset": "0x1860a20",
+    "text": "ChatBatchPhotoStateView"
+  },
+  {
+    "offset": "0x1860b90",
+    "text": "ChatCaptureEntrySheetViewController"
+  },
+  {
+    "offset": "0x1860bf0",
+    "text": "ChatCaptureEntrySheetView"
+  },
+  {
+    "offset": "0x1860fa0",
+    "text": "InitialPage"
+  },
+  {
+    "offset": "0x1860fe0",
+    "text": "ChatCaptureSheetViewController"
+  },
+  {
+    "offset": "0x1861000",
+    "text": "ChatCaptureSheetPreviewContainerViewController"
+  },
+  {
+    "offset": "0x1861030",
+    "text": "AutomaticContentHeightConfiguration"
+  },
+  {
+    "offset": "0x1861090",
+    "text": "ChatPhotoLibraryAccessView"
+  },
+  {
+    "offset": "0x18610b0",
+    "text": "ChatPhotoLibraryAccessMode"
+  },
+  {
+    "offset": "0x18612c0",
+    "text": "ChatPhotoLibraryPickerViewController"
+  },
+  {
+    "offset": "0x1861360",
+    "text": "ChatPhotoLibraryPickerCell"
+  },
+  {
+    "offset": "0x1861380",
+    "text": "ChatPhotoLibraryAddMoreCell"
+  },
+  {
+    "offset": "0x18613a0",
+    "text": "ChatCaptureGlassCloseButton"
+  },
+  {
+    "offset": "0x18613c0",
+    "text": "ChatPhotoLibraryPickerPreviewItem"
+  },
+  {
+    "offset": "0x18615c0",
+    "text": "ChatOnboardingViewController"
+  },
+  {
+    "offset": "0x1861648",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1861650",
+    "text": "ChatOnboardingModel"
+  },
+  {
+    "offset": "0x1861664",
+    "text": "State"
+  },
+  {
+    "offset": "0x18622f8",
+    "text": "CancelID"
+  },
+  {
+    "offset": "0x1862301",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x186230e",
+    "text": "RiveOperation"
+  },
+  {
+    "offset": "0x1862320",
+    "text": "ChatOnboardingTurnState"
+  },
+  {
+    "offset": "0x1862510",
+    "text": "BackendQwenTTSPreviewPlayer"
+  },
+  {
+    "offset": "0x18626d0",
+    "text": "RenderSticker"
+  },
+  {
+    "offset": "0x1862700",
+    "text": "CircularStickersRingView"
+  },
+  {
+    "offset": "0x1862750",
+    "text": "CircularStickersScreenTransition"
+  },
+  {
+    "offset": "0x186294a",
+    "text": "IntroOptionItem"
+  },
+  {
+    "offset": "0x1862960",
+    "text": "ChatOnboardingIntroProgressDots"
+  },
+  {
+    "offset": "0x1862a20",
+    "text": "ChatOnboardingIntroOptionGroup"
+  },
+  {
+    "offset": "0x1862a40",
+    "text": "ChatOnboardingIntroBadge"
+  },
+  {
+    "offset": "0x1862a60",
+    "text": "ChatOnboardingIntroActionButton"
+  },
+  {
+    "offset": "0x1862cc0",
+    "text": "ChatOnboardingIntroPage4View"
+  },
+  {
+    "offset": "0x1862d10",
+    "text": "ChatOnboardingIntroQuestionPageView"
+  },
+  {
+    "offset": "0x1862d70",
+    "text": "ChatOnboardingIntroPage1View"
+  },
+  {
+    "offset": "0x18631c0",
+    "text": "ChatOnboardingSharedHeroController"
+  },
+  {
+    "offset": "0x1863220",
+    "text": "ChatOnboardingSharedHeroView"
+  },
+  {
+    "offset": "0x1863700",
+    "text": "IntroSpecialPageTransition"
+  },
+  {
+    "offset": "0x1863750",
+    "text": "Phase"
+  },
+  {
+    "offset": "0x1863840",
+    "text": "SpeakContextSetupSheetViewController"
+  },
+  {
+    "offset": "0x1863870",
+    "text": "SpeakContextSetupView"
+  },
+  {
+    "offset": "0x1864140",
+    "text": "CustomColorSlider"
+  },
+  {
+    "offset": "0x1864a20",
+    "text": "SpeakingPacePageView"
+  },
+  {
+    "offset": "0x1865200",
+    "text": "ChatSelectionSheetViewController"
+  },
+  {
+    "offset": "0x1865350",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1865370",
+    "text": "ChatSelectionSheetModel"
+  },
+  {
+    "offset": "0x1865398",
+    "text": "State"
+  },
+  {
+    "offset": "0x1865908",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1865970",
+    "text": "DiaryChatSummary"
+  },
+  {
+    "offset": "0x18659e0",
+    "text": "ChatSelectionSheetView"
+  },
+  {
+    "offset": "0x1865f20",
+    "text": "ChatSelectionCardBackgroundModifier"
+  },
+  {
+    "offset": "0x1865f44",
+    "text": "DateRow"
+  },
+  {
+    "offset": "0x1866000",
+    "text": "WordCoverageRingView"
+  },
+  {
+    "offset": "0x18660c0",
+    "text": "ChatConversationEngineProtocol"
+  },
+  {
+    "offset": "0x1866100",
+    "text": "missingStickers"
+  },
+  {
+    "offset": "0x1866120",
+    "text": "ChatTalkOperationResult"
+  },
+  {
+    "offset": "0x1866200",
+    "text": "ChatDiaryConversationEngine"
+  },
+  {
+    "offset": "0x1866320",
+    "text": "ChatDiaryConversationRuntimeContext"
+  },
+  {
+    "offset": "0x1866350",
+    "text": "ChatDiaryPreparedTurn"
+  },
+  {
+    "offset": "0x18663b0",
+    "text": "Snapshot"
+  },
+  {
+    "offset": "0x1866450",
+    "text": "ConversationModeStrategy"
+  },
+  {
+    "offset": "0x1866470",
+    "text": "DailyModeStrategy"
+  },
+  {
+    "offset": "0x1866490",
+    "text": "CategoryModeStrategy"
+  },
+  {
+    "offset": "0x18665d0",
+    "text": "RelationshipFirstConversationEngine"
+  },
+  {
+    "offset": "0x18666d0",
+    "text": "RelationshipThinkTalkConversationEngine"
+  },
+  {
+    "offset": "0x1866700",
+    "text": "RelationshipThinkTalkEngagementPolicy"
+  },
+  {
+    "offset": "0x1866730",
+    "text": "ActualOperationKind"
+  },
+  {
+    "offset": "0x1866a20",
+    "text": "CharacterActionDefinition"
+  },
+  {
+    "offset": "0x1866a40",
+    "text": "ConversationOrchestrationDiagnosticError"
+  },
+  {
+    "offset": "0x1866a69",
+    "text": "Snapshot"
+  },
+  {
+    "offset": "0x1866bea",
+    "text": "ChatDiaryEvent"
+  },
+  {
+    "offset": "0x1866cc0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1866cd0",
+    "text": "ChatDiaryEventStatus"
+  },
+  {
+    "offset": "0x1866f30",
+    "text": "SessionNarrative"
+  },
+  {
+    "offset": "0x1866f50",
+    "text": "WelcomePromptInput"
+  },
+  {
+    "offset": "0x1866f70",
+    "text": "SystemPromptConfig"
+  },
+  {
+    "offset": "0x1867020",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1867038",
+    "text": "StickerContext"
+  },
+  {
+    "offset": "0x18672b0",
+    "text": "ConversationSource"
+  },
+  {
+    "offset": "0x18672d0",
+    "text": "ChatConversationTurnDebugInfo"
+  },
+  {
+    "offset": "0x1867350",
+    "text": "ThinkTalkDebugEvent"
+  },
+  {
+    "offset": "0x1867370",
+    "text": "TodayILearnedItem"
+  },
+  {
+    "offset": "0x1867390",
+    "text": "ChatSessionMessage"
+  },
+  {
+    "offset": "0x18675c8",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x18675e0",
+    "text": "RelationshipThinkTalkSessionInput"
+  },
+  {
+    "offset": "0x1867610",
+    "text": "ChatAgentEndTalkInput"
+  },
+  {
+    "offset": "0x1867630",
+    "text": "ChatAgentConversationInput"
+  },
+  {
+    "offset": "0x1867650",
+    "text": "CorrectionIntent"
+  },
+  {
+    "offset": "0x1867670",
+    "text": "ChatAgentConversationOutput"
+  },
+  {
+    "offset": "0x1867690",
+    "text": "TodayILearnedKind"
+  },
+  {
+    "offset": "0x18676b0",
+    "text": "ChatMessageSender"
+  },
+  {
+    "offset": "0x1867c20",
+    "text": "ConversationPhase"
+  },
+  {
+    "offset": "0x1867c40",
+    "text": "ChatContextSnapshot"
+  },
+  {
+    "offset": "0x1867fe0",
+    "text": "ChatStickerCoverageTracker"
+  },
+  {
+    "offset": "0x1868030",
+    "text": "ChatStickerCoverageTarget"
+  },
+  {
+    "offset": "0x1868080",
+    "text": "ChatStickerInput"
+  },
+  {
+    "offset": "0x1868188",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1868193",
+    "text": "Target"
+  },
+  {
+    "offset": "0x186819a",
+    "text": "TargetBucket"
+  },
+  {
+    "offset": "0x18681a7",
+    "text": "WordRange"
+  },
+  {
+    "offset": "0x18681c0",
+    "text": "ChatMentionMarkerParser"
+  },
+  {
+    "offset": "0x18681d8",
+    "text": "Mention"
+  },
+  {
+    "offset": "0x1868362",
+    "text": "VoiceLevel"
+  },
+  {
+    "offset": "0x1868540",
+    "text": "RelationshipThinkTalkSessionContextPayload"
+  },
+  {
+    "offset": "0x1868570",
+    "text": "ConversationPromptInput"
+  },
+  {
+    "offset": "0x1868590",
+    "text": "CategoryConversationPromptInput"
+  },
+  {
+    "offset": "0x18685b0",
+    "text": "RelationshipFirstConversationPromptInput"
+  },
+  {
+    "offset": "0x18686b0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x18686c0",
+    "text": "PromptContextSnapshot"
+  },
+  {
+    "offset": "0x1868c30",
+    "text": "ChatPrompt"
+  },
+  {
+    "offset": "0x1868c40",
+    "text": "DiaryGenerationInput"
+  },
+  {
+    "offset": "0x1868c90",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1868dd0",
+    "text": "CategoryConversationPromptInput"
+  },
+  {
+    "offset": "0x1868df0",
+    "text": "ConversationPromptInput"
+  },
+  {
+    "offset": "0x1868e68",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1868e80",
+    "text": "PromptContextSnapshot"
+  },
+  {
+    "offset": "0x1869230",
+    "text": "ChatAgentService"
+  },
+  {
+    "offset": "0x1869250",
+    "text": "TalkOperationAuditInput"
+  },
+  {
+    "offset": "0x1869340",
+    "text": "ThinkRegenerationReason"
+  },
+  {
+    "offset": "0x1869360",
+    "text": "ChatAgentServiceError"
+  },
+  {
+    "offset": "0x1869550",
+    "text": "TalkOutputValidationReason"
+  },
+  {
+    "offset": "0x1869630",
+    "text": "DiaryGenerationService"
+  },
+  {
+    "offset": "0x1869680",
+    "text": "HintAgentService"
+  },
+  {
+    "offset": "0x18696a0",
+    "text": "HintAgentServiceError"
+  },
+  {
+    "offset": "0x18697c0",
+    "text": "MemoryExtractionService"
+  },
+  {
+    "offset": "0x18697e8",
+    "text": "MemoryFact"
+  },
+  {
+    "offset": "0x1869858",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1869970",
+    "text": "ready"
+  },
+  {
+    "offset": "0x1869980",
+    "text": "optional"
+  },
+  {
+    "offset": "0x18699d0",
+    "text": "RelationshipDirectorService"
+  },
+  {
+    "offset": "0x18699f0",
+    "text": "RelationshipDirectorPlan"
+  },
+  {
+    "offset": "0x1869a10",
+    "text": "RelationshipDirectorTurnPolicy"
+  },
+  {
+    "offset": "0x1869a2f",
+    "text": "MemoryUse"
+  },
+  {
+    "offset": "0x1869a39",
+    "text": "WordOpportunity"
+  },
+  {
+    "offset": "0x1869d08",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1869d20",
+    "text": "RelationshipDirectorInput"
+  },
+  {
+    "offset": "0x1869d40",
+    "text": "CompactPromptPayload"
+  },
+  {
+    "offset": "0x1869d60",
+    "text": "RelationshipDirectorDiagnosticError"
+  },
+  {
+    "offset": "0x1869d90",
+    "text": "RelationshipDirectorRealtimeDirective"
+  },
+  {
+    "offset": "0x1869db6",
+    "text": "WordReadiness"
+  },
+  {
+    "offset": "0x1869dc4",
+    "text": "WordWindow"
+  },
+  {
+    "offset": "0x1869dcf",
+    "text": "MoveOption"
+  },
+  {
+    "offset": "0x1869de0",
+    "text": "ReplyShapeBudget"
+  },
+  {
+    "offset": "0x1869e00",
+    "text": "SignalPrediction"
+  },
+  {
+    "offset": "0x186a6c8",
+    "text": "ResponseBranch"
+  },
+  {
+    "offset": "0x186b030",
+    "text": "UserMemoryManager"
+  },
+  {
+    "offset": "0x186b050",
+    "text": "AssistantSpeechPresenterDelegate"
+  },
+  {
+    "offset": "0x186b090",
+    "text": "AssistantSpeechPresenter"
+  },
+  {
+    "offset": "0x186b220",
+    "text": "ChatCoverageService"
+  },
+  {
+    "offset": "0x186b270",
+    "text": "ChatRequestHandleBox"
+  },
+  {
+    "offset": "0x186b2a0",
+    "text": "ChatManager"
+  },
+  {
+    "offset": "0x186b460",
+    "text": "ChatSessionLifecycleState"
+  },
+  {
+    "offset": "0x186b480",
+    "text": "MessageRollbackSnapshot"
+  },
+  {
+    "offset": "0x186c130",
+    "text": "ChatRecoveryRequestError"
+  },
+  {
+    "offset": "0x186c150",
+    "text": "ChatSupportRequestError"
+  },
+  {
+    "offset": "0x186c320",
+    "text": "ChatSupportFailureKind"
+  },
+  {
+    "offset": "0x186c530",
+    "text": "ChatQualitySessionRecorder"
+  },
+  {
+    "offset": "0x186c570",
+    "text": "ChatQualityOutbox"
+  },
+  {
+    "offset": "0x186c5b0",
+    "text": "ChatQualityNetworkObserver"
+  },
+  {
+    "offset": "0x186c5e0",
+    "text": "ActiveSession"
+  },
+  {
+    "offset": "0x186c5ee",
+    "text": "LiveTiming"
+  },
+  {
+    "offset": "0x186c618",
+    "text": "Snapshot"
+  },
+  {
+    "offset": "0x186c7e8",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x186c7f3",
+    "text": "LatencySamples"
+  },
+  {
+    "offset": "0x186c802",
+    "text": "Context"
+  },
+  {
+    "offset": "0x186c80a",
+    "text": "Participant"
+  },
+  {
+    "offset": "0x186cca0",
+    "text": "ChatRequestRecoveryCoordinator"
+  },
+  {
+    "offset": "0x186ccbf",
+    "text": "Context"
+  },
+  {
+    "offset": "0x186ccf8",
+    "text": "ChatRequestKind"
+  },
+  {
+    "offset": "0x186cd10",
+    "text": "ChatRecoverableOperation"
+  },
+  {
+    "offset": "0x186cd30",
+    "text": "ChatRequestHandle"
+  },
+  {
+    "offset": "0x186cea0",
+    "text": "ChatRecoveryProgress"
+  },
+  {
+    "offset": "0x186cec0",
+    "text": "ChatRecoveryReason"
+  },
+  {
+    "offset": "0x186cee0",
+    "text": "ChatRequestRecoveryDecision"
+  },
+  {
+    "offset": "0x186cf20",
+    "text": "ChatRequestPolicy"
+  },
+  {
+    "offset": "0x186d000",
+    "text": "ChatRecoveryFailure"
+  },
+  {
+    "offset": "0x186d230",
+    "text": "ChatTranslationControllerDelegate"
+  },
+  {
+    "offset": "0x186d270",
+    "text": "ChatTranslationController"
+  },
+  {
+    "offset": "0x186d2c0",
+    "text": "TranslationError"
+  },
+  {
+    "offset": "0x186d2e0",
+    "text": "ChatReverseChannelTranslation"
+  },
+  {
+    "offset": "0x186d3c0",
+    "text": "ConversationAudioCache"
+  },
+  {
+    "offset": "0x186d3e0",
+    "text": "ConversationAudioClip"
+  },
+  {
+    "offset": "0x186d420",
+    "text": "ConversationTurnCoordinator"
+  },
+  {
+    "offset": "0x186d460",
+    "text": "ConversationTurn"
+  },
+  {
+    "offset": "0x186d480",
+    "text": "ConversationTurnKind"
+  },
+  {
+    "offset": "0x186d540",
+    "text": "DiaryPrefetchService"
+  },
+  {
+    "offset": "0x186d560",
+    "text": "PlannerCacheEntry"
+  },
+  {
+    "offset": "0x186d5b0",
+    "text": "DiaryPrefetchError"
+  },
+  {
+    "offset": "0x186d670",
+    "text": "HintOrchestratorDelegate"
+  },
+  {
+    "offset": "0x186d6a0",
+    "text": "HintOrchestrator"
+  },
+  {
+    "offset": "0x186d720",
+    "text": "RollbackSnapshot"
+  },
+  {
+    "offset": "0x186d7f0",
+    "text": "ChatViewController"
+  },
+  {
+    "offset": "0x186df40",
+    "text": "DiaryPlannerPrefetchSignal"
+  },
+  {
+    "offset": "0x186df60",
+    "text": "CaptureEntryPoint"
+  },
+  {
+    "offset": "0x186e710",
+    "text": "ChatViewModelUndoPresentationSnapshot"
+  },
+  {
+    "offset": "0x186e7a0",
+    "text": "MessageUndoTipPresentation"
+  },
+  {
+    "offset": "0x186e7c0",
+    "text": "ConversationTurnState"
+  },
+  {
+    "offset": "0x186e7f8",
+    "text": "Action"
+  },
+  {
+    "offset": "0x186e848",
+    "text": "MentionAnimItem"
+  },
+  {
+    "offset": "0x186e870",
+    "text": "ChatViewModel"
+  },
+  {
+    "offset": "0x186e888",
+    "text": "State"
+  },
+  {
+    "offset": "0x186f250",
+    "text": "WelcomeTTSPlaybackClientKey"
+  },
+  {
+    "offset": "0x186f270",
+    "text": "AbortPreConversationSessionKey"
+  },
+  {
+    "offset": "0x186f290",
+    "text": "MentionAnimPhase"
+  },
+  {
+    "offset": "0x186f2b0",
+    "text": "SpeakTextClientKey"
+  },
+  {
+    "offset": "0x186f2c3",
+    "text": "CancelID"
+  },
+  {
+    "offset": "0x186f2cc",
+    "text": "SpeakTextClient"
+  },
+  {
+    "offset": "0x186f2dc",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x186f2f0",
+    "text": "ConversationFinishedState"
+  },
+  {
+    "offset": "0x186f310",
+    "text": "WelcomeTTSPlaybackClient"
+  },
+  {
+    "offset": "0x186f330",
+    "text": "AbortPreConversationSessionClient"
+  },
+  {
+    "offset": "0x186f352",
+    "text": "ChatDataSource"
+  },
+  {
+    "offset": "0x186f630",
+    "text": "ChatViewModelCompletionAction"
+  },
+  {
+    "offset": "0x186f6e0",
+    "text": "ChatCompletionPresentationHelper"
+  },
+  {
+    "offset": "0x186f710",
+    "text": "CelebrationStickerDescriptor"
+  },
+  {
+    "offset": "0x186f730",
+    "text": "FinishedCelebrationSticker"
+  },
+  {
+    "offset": "0x186f750",
+    "text": "ChatViewModelCompletionFeature"
+  },
+  {
+    "offset": "0x186f770",
+    "text": "StatisticsSmallBlockFlyItem"
+  },
+  {
+    "offset": "0x186f7e0",
+    "text": "ChatViewModelCompletionState"
+  },
+  {
+    "offset": "0x186fa70",
+    "text": "ChatViewModelConversationState"
+  },
+  {
+    "offset": "0x186fb40",
+    "text": "ChatViewModelConversationAction"
+  },
+  {
+    "offset": "0x186fc00",
+    "text": "ChatViewModelConversationFeature"
+  },
+  {
+    "offset": "0x186fd30",
+    "text": "ChatViewModelDataAction"
+  },
+  {
+    "offset": "0x186fdf0",
+    "text": "ChatLoadingStickerTransition"
+  },
+  {
+    "offset": "0x186fe10",
+    "text": "ChatViewModelDataState"
+  },
+  {
+    "offset": "0x186ff10",
+    "text": "ChatDailyStickerSnapshot"
+  },
+  {
+    "offset": "0x186ff30",
+    "text": "ChatViewModelDataFeature"
+  },
+  {
+    "offset": "0x186ff50",
+    "text": "ChatCategoryLaunchStickerFrame"
+  },
+  {
+    "offset": "0x186ff70",
+    "text": "ChatStickerLoadPayload"
+  },
+  {
+    "offset": "0x186ff90",
+    "text": "ChatLoadingStickerItem"
+  },
+  {
+    "offset": "0x186ffb0",
+    "text": "ChatLoadingStickerTransitionPhase"
+  },
+  {
+    "offset": "0x186ffe0",
+    "text": "ChatLoadingStickerTransitionSource"
+  },
+  {
+    "offset": "0x1870010",
+    "text": "ChatSessionStatisticsSnapshot"
+  },
+  {
+    "offset": "0x1870290",
+    "text": "ChatCategoryStickerSnapshot"
+  },
+  {
+    "offset": "0x18702fb",
+    "text": "sPxssssiss"
+  },
+  {
+    "offset": "0x18703f0",
+    "text": "ChatViewModelHintAction"
+  },
+  {
+    "offset": "0x1870490",
+    "text": "ChatViewModelHintFeature"
+  },
+  {
+    "offset": "0x18705b0",
+    "text": "ChatViewModelMessageAction"
+  },
+  {
+    "offset": "0x1870650",
+    "text": "ChatViewModelMessageFeature"
+  },
+  {
+    "offset": "0x1870700",
+    "text": "FFTWorkspace"
+  },
+  {
+    "offset": "0x1870710",
+    "text": "ULipSyncAlgorithm"
+  },
+  {
+    "offset": "0x1870760",
+    "text": "ULipSyncAnalyzer"
+  },
+  {
+    "offset": "0x1870780",
+    "text": "ULipSyncAnalysisResult"
+  },
+  {
+    "offset": "0x18707f0",
+    "text": "ULipSyncCalibrator"
+  },
+  {
+    "offset": "0x1870902",
+    "text": "ULipSyncEngine"
+  },
+  {
+    "offset": "0x1870920",
+    "text": "CueAnalysisMode"
+  },
+  {
+    "offset": "0x18709b0",
+    "text": "ULipSyncPhonemeMapper"
+  },
+  {
+    "offset": "0x1870a30",
+    "text": "ULipSyncPhonemeName"
+  },
+  {
+    "offset": "0x1870a44",
+    "text": "ULipSyncProfile"
+  },
+  {
+    "offset": "0x1870c30",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1870c40",
+    "text": "ULipSyncPhonemeEntry"
+  },
+  {
+    "offset": "0x1870c60",
+    "text": "ULipSyncCompareMethod"
+  },
+  {
+    "offset": "0x18710f7",
+    "text": "BotViseme"
+  },
+  {
+    "offset": "0x1871390",
+    "text": "CharacterAvatarSpeechRigView"
+  },
+  {
+    "offset": "0x1871460",
+    "text": "FigmaMouthBlendView"
+  },
+  {
+    "offset": "0x1871480",
+    "text": "FigmaEyeGlyphView"
+  },
+  {
+    "offset": "0x1871492",
+    "text": "StarEyeView"
+  },
+  {
+    "offset": "0x18714a0",
+    "text": "SpeechRigStaticBodyLayer"
+  },
+  {
+    "offset": "0x1871710",
+    "text": "MouthOuterClipShape"
+  },
+  {
+    "offset": "0x1871940",
+    "text": "ConversationLipSyncDriver"
+  },
+  {
+    "offset": "0x1871a20",
+    "text": "AnalysisGenerationGate"
+  },
+  {
+    "offset": "0x1871a40",
+    "text": "PendingAnalysisSource"
+  },
+  {
+    "offset": "0x1871a56",
+    "text": "FrameState"
+  },
+  {
+    "offset": "0x1871fb0",
+    "text": "FigmaSVGXMLDelegate"
+  },
+  {
+    "offset": "0x1871fe8",
+    "text": "Container"
+  },
+  {
+    "offset": "0x1871ff7",
+    "text": "FigmaSVGNode"
+  },
+  {
+    "offset": "0x1872010",
+    "text": "SVGPathGeometryParser"
+  },
+  {
+    "offset": "0x1872026",
+    "text": "Token"
+  },
+  {
+    "offset": "0x1872030",
+    "text": "FigmaSVGDocument"
+  },
+  {
+    "offset": "0x1872041",
+    "text": "Command"
+  },
+  {
+    "offset": "0x1872049",
+    "text": "SVGPathGeometry"
+  },
+  {
+    "offset": "0x1872059",
+    "text": "SVGPaintStyle"
+  },
+  {
+    "offset": "0x1872067",
+    "text": "SVGGroupNode"
+  },
+  {
+    "offset": "0x1872074",
+    "text": "SVGCircleNode"
+  },
+  {
+    "offset": "0x1872082",
+    "text": "SVGRectNode"
+  },
+  {
+    "offset": "0x187208e",
+    "text": "SVGPathNode"
+  },
+  {
+    "offset": "0x1872200",
+    "text": "PrimitiveDescriptor"
+  },
+  {
+    "offset": "0x187221e",
+    "text": "LipSyncLayerID"
+  },
+  {
+    "offset": "0x1872230",
+    "text": "LipSyncAssetCatalog"
+  },
+  {
+    "offset": "0x1872250",
+    "text": "LayerMorphTemplate"
+  },
+  {
+    "offset": "0x1872410",
+    "text": "QuantizedVisemeWeight"
+  },
+  {
+    "offset": "0x1872426",
+    "text": "MorphCacheKey"
+  },
+  {
+    "offset": "0x1872440",
+    "text": "MorphedLayerPaths"
+  },
+  {
+    "offset": "0x18725b0",
+    "text": "LipSyncBlinkController"
+  },
+  {
+    "offset": "0x18725f0",
+    "text": "LipSyncCueTimeline"
+  },
+  {
+    "offset": "0x1872603",
+    "text": "LipSyncCue"
+  },
+  {
+    "offset": "0x187261a",
+    "text": "LipSyncPhase"
+  },
+  {
+    "offset": "0x18726e2",
+    "text": "LyricSyncEngine"
+  },
+  {
+    "offset": "0x18727a0",
+    "text": "TimingMap"
+  },
+  {
+    "offset": "0x18727aa",
+    "text": "Config"
+  },
+  {
+    "offset": "0x1872b72",
+    "text": "SpeechEmotion"
+  },
+  {
+    "offset": "0x1872cb0",
+    "text": "VisemeBlendState"
+  },
+  {
+    "offset": "0x1872cd0",
+    "text": "ChatHistoryManager"
+  },
+  {
+    "offset": "0x1872d30",
+    "text": "PersistedVoiceChatMessageSnapshot"
+  },
+  {
+    "offset": "0x1872da0",
+    "text": "ChatConversationPersistenceSnapshot"
+  },
+  {
+    "offset": "0x1872dfa",
+    "text": "ChatDemoData"
+  },
+  {
+    "offset": "0x1872e10",
+    "text": "DemoLocalizedContent"
+  },
+  {
+    "offset": "0x1872e48",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x1872e60",
+    "text": "ChatHistorySheetViewController"
+  },
+  {
+    "offset": "0x1872e80",
+    "text": "ChatHistoryCardPresenter"
+  },
+  {
+    "offset": "0x1872fb0",
+    "text": "ChatHistoryDetailView"
+  },
+  {
+    "offset": "0x1873010",
+    "text": "ChatHistoryDictionaryPresenterAttachment"
+  },
+  {
+    "offset": "0x1873040",
+    "text": "ChatHistoryMessageListView"
+  },
+  {
+    "offset": "0x18735a0",
+    "text": "ChatHistoryMessageAvatarView"
+  },
+  {
+    "offset": "0x18736ba",
+    "text": "ChatHistoryView"
+  },
+  {
+    "offset": "0x18739e0",
+    "text": "ChatHistoryShareCardView"
+  },
+  {
+    "offset": "0x1873fd0",
+    "text": "ChatCompletionStickerRingView"
+  },
+  {
+    "offset": "0x18740d0",
+    "text": "ChatCompletionStickerOrbitItem"
+  },
+  {
+    "offset": "0x18741d0",
+    "text": "LevelUpCelebrationContent"
+  },
+  {
+    "offset": "0x1874910",
+    "text": "StatisticsBlockItem"
+  },
+  {
+    "offset": "0x1875170",
+    "text": "StatisticsSmallBlockFlyView"
+  },
+  {
+    "offset": "0x1875320",
+    "text": "StatisticsSmallBlockFlyKeyframes"
+  },
+  {
+    "offset": "0x1875370",
+    "text": "WigglyRectangleShape"
+  },
+  {
+    "offset": "0x18754b0",
+    "text": "ChatHomeAvatarRegionView"
+  },
+  {
+    "offset": "0x1875640",
+    "text": "ChatHomeCapuAvatarView"
+  },
+  {
+    "offset": "0x1875780",
+    "text": "ConversationLiveInputState"
+  },
+  {
+    "offset": "0x18757c8",
+    "text": "ChatView"
+  },
+  {
+    "offset": "0x1875870",
+    "text": "ChatMessageListUndoScrollRequest"
+  },
+  {
+    "offset": "0x18764b0",
+    "text": "RequestedFrameMeasurementModifier"
+  },
+  {
+    "offset": "0x18764e0",
+    "text": "HomeScrollAnchor"
+  },
+  {
+    "offset": "0x1876500",
+    "text": "ChatMessageListUndoPresentationSnapshot"
+  },
+  {
+    "offset": "0x18766e2",
+    "text": "IcingFallModel"
+  },
+  {
+    "offset": "0x18766f1",
+    "text": "IcingPiece"
+  },
+  {
+    "offset": "0x1876790",
+    "text": "CharacterAvatarView"
+  },
+  {
+    "offset": "0x18767f0",
+    "text": "IcingSlot"
+  },
+  {
+    "offset": "0x1876960",
+    "text": "IcingFallView"
+  },
+  {
+    "offset": "0x1876a38",
+    "text": "speaker"
+  },
+  {
+    "offset": "0x18772e0",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x18772f0",
+    "text": "ScrollableAttributedTextView"
+  },
+  {
+    "offset": "0x18773d0",
+    "text": "ConversationLyricText"
+  },
+  {
+    "offset": "0x1877440",
+    "text": "ConversationLiveLyricScrollView"
+  },
+  {
+    "offset": "0x1877612",
+    "text": "HintNudgePhase"
+  },
+  {
+    "offset": "0x1877630",
+    "text": "ConversationHintPreparingChipView"
+  },
+  {
+    "offset": "0x1877660",
+    "text": "ConversationMessageSpeakerButton"
+  },
+  {
+    "offset": "0x18776a0",
+    "text": "ConversationHintCardView"
+  },
+  {
+    "offset": "0x1877780",
+    "text": "ConversationLiveTranscriptView"
+  },
+  {
+    "offset": "0x1877dc0",
+    "text": "ConversationCollapsedHintRevealModifier"
+  },
+  {
+    "offset": "0x1877df0",
+    "text": "ReverseChannelShimmerOverlay"
+  },
+  {
+    "offset": "0x1878162",
+    "text": "JellyEffect"
+  },
+  {
+    "offset": "0x187816e",
+    "text": "DragJellyEffect"
+  },
+  {
+    "offset": "0x1878180",
+    "text": "ConversationLipSyncAvatarView"
+  },
+  {
+    "offset": "0x18781c0",
+    "text": "ConversationSpeakerInteractionView"
+  },
+  {
+    "offset": "0x1878200",
+    "text": "ConversationSpeakerBackgroundView"
+  },
+  {
+    "offset": "0x1878610",
+    "text": "CollapsibleToolsView"
+  },
+  {
+    "offset": "0x1878750",
+    "text": "ChatHomeCategorySectionView"
+  },
+  {
+    "offset": "0x18789f0",
+    "text": "ChatHomeCategoryCard"
+  },
+  {
+    "offset": "0x1878a50",
+    "text": "ChatHomeCategoryEntranceEffectModifier"
+  },
+  {
+    "offset": "0x1878c40",
+    "text": "CategoryProgressBadge"
+  },
+  {
+    "offset": "0x1878d80",
+    "text": "Route"
+  },
+  {
+    "offset": "0x1878d90",
+    "text": "ChatNavigationLeadingButton"
+  },
+  {
+    "offset": "0x1878e80",
+    "text": "HomeQuickSettingsSheet"
+  },
+  {
+    "offset": "0x1878ea0",
+    "text": "ChatNavigationPresentationStyle"
+  },
+  {
+    "offset": "0x18795f0",
+    "text": "QuickSettingsConversationDifficultyPicker"
+  },
+  {
+    "offset": "0x1879640",
+    "text": "QuickSettingsNavigationRow"
+  },
+  {
+    "offset": "0x1879660",
+    "text": "QuickSettingsTextSizeSelector"
+  },
+  {
+    "offset": "0x1879680",
+    "text": "QuickSettingsSpeakingPaceSelector"
+  },
+  {
+    "offset": "0x1879a90",
+    "text": "Streak"
+  },
+  {
+    "offset": "0x1879b40",
+    "text": "gechattet"
+  },
+  {
+    "offset": "0x1879bb0",
+    "text": "seguida"
+  },
+  {
+    "offset": "0x1879df0",
+    "text": "HomeStudyStatisticsPiece"
+  },
+  {
+    "offset": "0x1879e8a",
+    "text": "MentionFlyPath"
+  },
+  {
+    "offset": "0x1879e99",
+    "text": "Waypoint"
+  },
+  {
+    "offset": "0x1879ee0",
+    "text": "MentionStickerFlyView"
+  },
+  {
+    "offset": "0x187a210",
+    "text": "MentionFlyKeyframes"
+  },
+  {
+    "offset": "0x187a230",
+    "text": "MentionCollectTarget"
+  },
+  {
+    "offset": "0x187a780",
+    "text": "ChatMessageListPresentation"
+  },
+  {
+    "offset": "0x187a800",
+    "text": "PreparedExport"
+  },
+  {
+    "offset": "0x187a820",
+    "text": "LLMCallDebugSheet"
+  },
+  {
+    "offset": "0x187a840",
+    "text": "ChatMessageListStructure"
+  },
+  {
+    "offset": "0x187a860",
+    "text": "MessageCardMetalDissolveModifier"
+  },
+  {
+    "offset": "0x187a890",
+    "text": "UserMessageUndoMenuModifier"
+  },
+  {
+    "offset": "0x187a8b0",
+    "text": "ChatMessageBubbleShape"
+  },
+  {
+    "offset": "0x187a8d0",
+    "text": "EquatableChatMessageRow"
+  },
+  {
+    "offset": "0x187adb8",
+    "text": "ExportSnapshot"
+  },
+  {
+    "offset": "0x187adc7",
+    "text": "Message"
+  },
+  {
+    "offset": "0x187add0",
+    "text": "SelectableMonospacedTextView"
+  },
+  {
+    "offset": "0x187adf0",
+    "text": "ChatMessageRowPresentation"
+  },
+  {
+    "offset": "0x187afe0",
+    "text": "MessageTextStyle"
+  },
+  {
+    "offset": "0x187b000",
+    "text": "MarkdownEmphasisRange"
+  },
+  {
+    "offset": "0x187b020",
+    "text": "RenderedMarkdownText"
+  },
+  {
+    "offset": "0x187b040",
+    "text": "ParsedInlineMarkdownText"
+  },
+  {
+    "offset": "0x187b4e0",
+    "text": "StickerOverlayDisplayItem"
+  },
+  {
+    "offset": "0x187b500",
+    "text": "HomeStickerSlotLayout"
+  },
+  {
+    "offset": "0x187b516",
+    "text": "HomeCloudLayout"
+  },
+  {
+    "offset": "0x187b530",
+    "text": "StickerAnimationRenderItem"
+  },
+  {
+    "offset": "0x187b5e0",
+    "text": "ConversationHintLiveSpeechTextView"
+  },
+  {
+    "offset": "0x187b700",
+    "text": "ConversationHintReverseChannelView"
+  },
+  {
+    "offset": "0x187b930",
+    "text": "OptionalScrollAnchor"
+  },
+  {
+    "offset": "0x187b9b0",
+    "text": "FirstSpeechCelebrationOverlay"
+  },
+  {
+    "offset": "0x187bad0",
+    "text": "EmojiParticle"
+  },
+  {
+    "offset": "0x187baf0",
+    "text": "EmojiParticleView"
+  },
+  {
+    "offset": "0x187bbe0",
+    "text": "ConversationManager"
+  },
+  {
+    "offset": "0x187bc00",
+    "text": "ConversationConfig"
+  },
+  {
+    "offset": "0x187bc20",
+    "text": "Snapshot"
+  },
+  {
+    "offset": "0x187bc7b",
+    "text": "Frame"
+  },
+  {
+    "offset": "0x187bc81",
+    "text": "Configuration"
+  },
+  {
+    "offset": "0x187bc90",
+    "text": "VoiceChatClientDelegate"
+  },
+  {
+    "offset": "0x187bd00",
+    "text": "VoiceChatClient"
+  },
+  {
+    "offset": "0x187c110",
+    "text": "LLMTimeoutError"
+  },
+  {
+    "offset": "0x187c120",
+    "text": "TTSTimeoutError"
+  },
+  {
+    "offset": "0x187c1c0",
+    "text": "VoiceChatPlaybackState"
+  },
+  {
+    "offset": "0x187c1f0",
+    "text": "VoiceChatLLMRuntimeState"
+  },
+  {
+    "offset": "0x187c270",
+    "text": "VoiceChatInputTurnState"
+  },
+  {
+    "offset": "0x187c2b8",
+    "text": "VoiceChatConfig"
+  },
+  {
+    "offset": "0x187c2d0",
+    "text": "ChatConversationEngineRecoverySnapshot"
+  },
+  {
+    "offset": "0x187c300",
+    "text": "VoiceLLMTurnKind"
+  },
+  {
+    "offset": "0x187c320",
+    "text": "VoiceLLMTurnRequest"
+  },
+  {
+    "offset": "0x187c370",
+    "text": "VoiceChatRecoverySnapshot"
+  },
+  {
+    "offset": "0x187c3f0",
+    "text": "VoiceChatErrorContext"
+  },
+  {
+    "offset": "0x187c410",
+    "text": "PrefetchedHintResult"
+  },
+  {
+    "offset": "0x187c425",
+    "text": "HintResponse"
+  },
+  {
+    "offset": "0x187c432",
+    "text": "VoiceChatState"
+  },
+  {
+    "offset": "0x187c450",
+    "text": "VoiceChatConnectionState"
+  },
+  {
+    "offset": "0x187c470",
+    "text": "VoiceChatMessage"
+  },
+  {
+    "offset": "0x187c760",
+    "text": "VoiceChatConversationRollbackSnapshot"
+  },
+  {
+    "offset": "0x187c790",
+    "text": "VoiceChatServiceProvider"
+  },
+  {
+    "offset": "0x187c7b0",
+    "text": "VoiceChatMessageKind"
+  },
+  {
+    "offset": "0x187c7c5",
+    "text": "VoiceChatSender"
+  },
+  {
+    "offset": "0x187cae0",
+    "text": "VoiceInputTurnController"
+  },
+  {
+    "offset": "0x187cb50",
+    "text": "VoiceInputTurnEvent"
+  },
+  {
+    "offset": "0x187cbd0",
+    "text": "VoiceLLMTurnController"
+  },
+  {
+    "offset": "0x187cc20",
+    "text": "VoiceLLMTurnEvent"
+  },
+  {
+    "offset": "0x187cd80",
+    "text": "TranscribeTTSServiceChannelDelegate"
+  },
+  {
+    "offset": "0x187cdb0",
+    "text": "VoicePlaybackController"
+  },
+  {
+    "offset": "0x187cdd0",
+    "text": "VoicePlaybackEvent"
+  },
+  {
+    "offset": "0x187cdf0",
+    "text": "VoicePlaybackChannel"
+  },
+  {
+    "offset": "0x187d050",
+    "text": "VoiceRecoveryStore"
+  },
+  {
+    "offset": "0x187d070",
+    "text": "ASRHoldToTalkAudioBuffer"
+  },
+  {
+    "offset": "0x187d0c0",
+    "text": "Phase"
+  },
+  {
+    "offset": "0x187d130",
+    "text": "ASRProviderDelegate"
+  },
+  {
+    "offset": "0x187d144",
+    "text": "ASRProvider"
+  },
+  {
+    "offset": "0x187d150",
+    "text": "ASRState"
+  },
+  {
+    "offset": "0x187d1ec",
+    "text": "ASRError"
+  },
+  {
+    "offset": "0x187d240",
+    "text": "DiagnosticContext"
+  },
+  {
+    "offset": "0x187d2f0",
+    "text": "BackendQwenRealtimeASRProvider"
+  },
+  {
+    "offset": "0x187d4e0",
+    "text": "AudioRecorderDelegate"
+  },
+  {
+    "offset": "0x187d548",
+    "text": "AudioRecorder"
+  },
+  {
+    "offset": "0x187d5c0",
+    "text": "AudioQualityConfig"
+  },
+  {
+    "offset": "0x187d600",
+    "text": "ChatProvider"
+  },
+  {
+    "offset": "0x187d60d",
+    "text": "ChatConfig"
+  },
+  {
+    "offset": "0x187d632",
+    "text": "ChatService"
+  },
+  {
+    "offset": "0x187d660",
+    "text": "ChatTabAISettings"
+  },
+  {
+    "offset": "0x187d6a0",
+    "text": "ChatConversationEngineVariant"
+  },
+  {
+    "offset": "0x187d830",
+    "text": "ChatTabLLMModelPriceQuote"
+  },
+  {
+    "offset": "0x187d850",
+    "text": "ChatTabLLMModelOption"
+  },
+  {
+    "offset": "0x187d930",
+    "text": "Currency"
+  },
+  {
+    "offset": "0x187d9e0",
+    "text": "RoutedASRProvider"
+  },
+  {
+    "offset": "0x187da20",
+    "text": "ChatLLMRouteCapability"
+  },
+  {
+    "offset": "0x187da40",
+    "text": "ChatASRRouteStep"
+  },
+  {
+    "offset": "0x187db40",
+    "text": "TTSServiceRouteKind"
+  },
+  {
+    "offset": "0x187db60",
+    "text": "ChatTTSRouteStep"
+  },
+  {
+    "offset": "0x187db80",
+    "text": "ChatLLMRouteStep"
+  },
+  {
+    "offset": "0x187dba0",
+    "text": "ChatNetworkRouting"
+  },
+  {
+    "offset": "0x187dc1c",
+    "text": "Transport"
+  },
+  {
+    "offset": "0x187dc9a",
+    "text": "LLMProvider"
+  },
+  {
+    "offset": "0x187dcb0",
+    "text": "RoutedLLMProvider"
+  },
+  {
+    "offset": "0x187dcc2",
+    "text": "LLMMessage"
+  },
+  {
+    "offset": "0x187de30",
+    "text": "RoutedTTSBatchRoute"
+  },
+  {
+    "offset": "0x187de50",
+    "text": "RoutedTTSRealtimeRoute"
+  },
+  {
+    "offset": "0x187de67",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x187de72",
+    "text": "LLMError"
+  },
+  {
+    "offset": "0x187de7b",
+    "text": "LLMMessageKind"
+  },
+  {
+    "offset": "0x187de8a",
+    "text": "LLMRole"
+  },
+  {
+    "offset": "0x187e200",
+    "text": "RoutedTranslationProvider"
+  },
+  {
+    "offset": "0x187e240",
+    "text": "TranslationProvider"
+  },
+  {
+    "offset": "0x187e260",
+    "text": "TranslationConfig"
+  },
+  {
+    "offset": "0x187e280",
+    "text": "TranslationError"
+  },
+  {
+    "offset": "0x187e2a0",
+    "text": "TranslationRequest"
+  },
+  {
+    "offset": "0x187e2c0",
+    "text": "TranslationModelSelectionStrategy"
+  },
+  {
+    "offset": "0x187e400",
+    "text": "TranslationService"
+  },
+  {
+    "offset": "0x187e430",
+    "text": "PCM16AudioSegment"
+  },
+  {
+    "offset": "0x187e470",
+    "text": "PlaybackProgressWatchdog"
+  },
+  {
+    "offset": "0x187e490",
+    "text": "PlaybackReconciliation"
+  },
+  {
+    "offset": "0x187e4b0",
+    "text": "PlaybackCheckpoint"
+  },
+  {
+    "offset": "0x187e4d0",
+    "text": "PlaybackContinuityState"
+  },
+  {
+    "offset": "0x187e5f0",
+    "text": "TranscribeAudioEngineDriver"
+  },
+  {
+    "offset": "0x187e710",
+    "text": "TranscribeAudioPlayer"
+  },
+  {
+    "offset": "0x187e740",
+    "text": "PendingStreamingChunk"
+  },
+  {
+    "offset": "0x187e790",
+    "text": "TranscribePCMBufferConverter"
+  },
+  {
+    "offset": "0x187e7d0",
+    "text": "PCMConversionContext"
+  },
+  {
+    "offset": "0x187e7f0",
+    "text": "TranscribeStreamingPlaybackState"
+  },
+  {
+    "offset": "0x187e840",
+    "text": "BackendQwenRealtimeTTSProvider"
+  },
+  {
+    "offset": "0x187e8a0",
+    "text": "TranscribeRealtimeTTSProvider"
+  },
+  {
+    "offset": "0x187e8c0",
+    "text": "TranscribeRealtimeTTSProviderDelegate"
+  },
+  {
+    "offset": "0x187e980",
+    "text": "TranscribeRealtimeTTSError"
+  },
+  {
+    "offset": "0x187e99b",
+    "text": "TTSSessionMode"
+  },
+  {
+    "offset": "0x187ea00",
+    "text": "DiagnosticContext"
+  },
+  {
+    "offset": "0x187ea90",
+    "text": "BackendQwenTTSProvider"
+  },
+  {
+    "offset": "0x187eac0",
+    "text": "TranscribeTTSProvider"
+  },
+  {
+    "offset": "0x187eae0",
+    "text": "TranscribeTTSError"
+  },
+  {
+    "offset": "0x187ebc0",
+    "text": "QwenRealtimeVoice"
+  },
+  {
+    "offset": "0x187ed30",
+    "text": "TranscribeTTSServiceDelegate"
+  },
+  {
+    "offset": "0x187ef00",
+    "text": "TranscribeTTSService"
+  },
+  {
+    "offset": "0x187ef60",
+    "text": "RealtimeDelegateBridge"
+  },
+  {
+    "offset": "0x187ef77",
+    "text": "CachedAudio"
+  },
+  {
+    "offset": "0x187ef90",
+    "text": "QueuedTTSRequest"
+  },
+  {
+    "offset": "0x187efb0",
+    "text": "RealtimeProviderRoute"
+  },
+  {
+    "offset": "0x187efd0",
+    "text": "BatchProviderRoute"
+  },
+  {
+    "offset": "0x187eff0",
+    "text": "TranscribeTTSDebugAudioChunkMetrics"
+  },
+  {
+    "offset": "0x187f1e0",
+    "text": "ProviderRouteKind"
+  },
+  {
+    "offset": "0x187f31a",
+    "text": "BotCharacterID"
+  },
+  {
+    "offset": "0x187f329",
+    "text": "BotCharator"
+  },
+  {
+    "offset": "0x187f460",
+    "text": "ChatPhotoSuggestionDataSource"
+  },
+  {
+    "offset": "0x187f4a0",
+    "text": "ChatPhotoDaySuggestion"
+  },
+  {
+    "offset": "0x187f4b7",
+    "text": "ImageCache"
+  },
+  {
+    "offset": "0x187f4c2",
+    "text": "SuggestionCache"
+  },
+  {
+    "offset": "0x187f5f0",
+    "text": "ChatTextSizeLevel"
+  },
+  {
+    "offset": "0x187fdd0",
+    "text": "CancelID"
+  },
+  {
+    "offset": "0x187fdd9",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x187fde6",
+    "text": "Action"
+  },
+  {
+    "offset": "0x187fdf0",
+    "text": "ShareCardFeature"
+  },
+  {
+    "offset": "0x187fe01",
+    "text": "State"
+  },
+  {
+    "offset": "0x187ff30",
+    "text": "CalendarDateButton"
+  },
+  {
+    "offset": "0x1880070",
+    "text": "ChatAutoGeneratePhotoIconButtonViewModel"
+  },
+  {
+    "offset": "0x1880110",
+    "text": "ChatAutoGeneratePhotoIconButton"
+  },
+  {
+    "offset": "0x1880358",
+    "text": "Style"
+  },
+  {
+    "offset": "0x18803d2",
+    "text": "BubbleContext"
+  },
+  {
+    "offset": "0x1880400",
+    "text": "ChatHomePromptBubbleContent"
+  },
+  {
+    "offset": "0x1880440",
+    "text": "LeadingAccessory"
+  },
+  {
+    "offset": "0x1880460",
+    "text": "ChatHomePromptBubble"
+  },
+  {
+    "offset": "0x1880620",
+    "text": "LLMModelMenuButtonContainer"
+  },
+  {
+    "offset": "0x1880648",
+    "text": "Coordinator"
+  },
+  {
+    "offset": "0x1880660",
+    "text": "ChatTabLLMModelMenuButton"
+  },
+  {
+    "offset": "0x1880680",
+    "text": "InlineAccessoryText"
+  },
+  {
+    "offset": "0x1880730",
+    "text": "CenteredInlineFlowLayout"
+  },
+  {
+    "offset": "0x1880814",
+    "text": "RowItem"
+  },
+  {
+    "offset": "0x1880820",
+    "text": "Cache"
+  },
+  {
+    "offset": "0x1880830",
+    "text": "EventRiveViewModel"
+  },
+  {
+    "offset": "0x1880860",
+    "text": "RiveArtboardView"
+  },
+  {
+    "offset": "0x1880900",
+    "text": "ResolvedRiveArtboardView"
+  },
+  {
+    "offset": "0x18809c0",
+    "text": "FloatingShareCardChatOverlayMeasureModifier"
+  },
+  {
+    "offset": "0x18809f0",
+    "text": "ShareCardTransitionOverlayHost"
+  },
+  {
+    "offset": "0x1880a10",
+    "text": "ShareCardNativeSheetPresentationModifier"
+  },
+  {
+    "offset": "0x1880a50",
+    "text": "ShareCardView"
+  },
+  {
+    "offset": "0x1881040",
+    "text": "ShareCardActiveSlotFrameKey"
+  },
+  {
+    "offset": "0x188105c",
+    "text": "ShareSheet"
+  },
+  {
+    "offset": "0x1881070",
+    "text": "ShareCardSavedToastView"
+  },
+  {
+    "offset": "0x1881090",
+    "text": "ShareCardTransitionOverlayContent"
+  },
+  {
+    "offset": "0x18813e0",
+    "text": "VoiceLevelIconView"
+  },
+  {
+    "offset": "0x18814e0",
+    "text": "CategoryMigrationProgressView"
+  },
+  {
+    "offset": "0x1881510",
+    "text": "HomeSectionTitleViewModel"
+  },
+  {
+    "offset": "0x1881530",
+    "text": "HomeCategorySectionHeaderView"
+  },
+  {
+    "offset": "0x188154e",
+    "text": "ScaleUIButton"
+  },
+  {
+    "offset": "0x1881560",
+    "text": "HomeSectionTitleView"
+  },
+  {
+    "offset": "0x18817d0",
+    "text": "HomeCollectionCategoryProgressFooterView"
+  },
+  {
+    "offset": "0x1881800",
+    "text": "HomeCollectionCategoryProgressFooterContentView"
+  },
+  {
+    "offset": "0x1881970",
+    "text": "HomeCollectionCategoryProgressContentViewModel"
+  },
+  {
+    "offset": "0x18819a0",
+    "text": "HomeCollectionCategoryProgressCell"
+  },
+  {
+    "offset": "0x18819d0",
+    "text": "HomeCollectionCategoryProgressContentView"
+  },
+  {
+    "offset": "0x1881d30",
+    "text": "HomeCollectionCell"
+  },
+  {
+    "offset": "0x1881d50",
+    "text": "HomeCollectionCellContentView"
+  },
+  {
+    "offset": "0x18823f8",
+    "text": "GridItemInfo"
+  },
+  {
+    "offset": "0x1882405",
+    "text": "LayoutMetrics"
+  },
+  {
+    "offset": "0x1882470",
+    "text": "HomeCollectionViewController"
+  },
+  {
+    "offset": "0x1882520",
+    "text": "DailyReviewMediaPrewarmTracker"
+  },
+  {
+    "offset": "0x1882540",
+    "text": "HomeCollectionViewLayoutStyle"
+  },
+  {
+    "offset": "0x1882b40",
+    "text": "DailyReviewMediaPrewarmCandidate"
+  },
+  {
+    "offset": "0x1882b70",
+    "text": "HomeCollectionTransitionTarget"
+  },
+  {
+    "offset": "0x1882bb0",
+    "text": "HomeCollectionNavBarGiftButtonViewModel"
+  },
+  {
+    "offset": "0x1882be0",
+    "text": "HomeCollectionViewNavbarContentViewModel"
+  },
+  {
+    "offset": "0x1882c10",
+    "text": "HomeCollectionViewNavBarView"
+  },
+  {
+    "offset": "0x1882c30",
+    "text": "HomeCollectionViewNavbarContentView"
+  },
+  {
+    "offset": "0x1882c60",
+    "text": "HomeCollectionNavBarGiftButtonContentView"
+  },
+  {
+    "offset": "0x18831a0",
+    "text": "HomeCollectionNavBarGiftButton"
+  },
+  {
+    "offset": "0x1883230",
+    "text": "HomeHeaderContentViewModel"
+  },
+  {
+    "offset": "0x1883270",
+    "text": "HomeHeaderView"
+  },
+  {
+    "offset": "0x1883280",
+    "text": "HomeHeaderContentView"
+  },
+  {
+    "offset": "0x1883970",
+    "text": "HomeSectionHeaderView"
+  },
+  {
+    "offset": "0x1883990",
+    "text": "HomeSwipeInteractionController"
+  },
+  {
+    "offset": "0x1883a70",
+    "text": "StickerInteractiveTransitionCoordinatorDelegate"
+  },
+  {
+    "offset": "0x1883ac0",
+    "text": "StickerInteractiveTransitionCoordinator"
+  },
+  {
+    "offset": "0x1883af0",
+    "text": "StickerInteractiveTransitionStateMachine"
+  },
+  {
+    "offset": "0x1883b30",
+    "text": "SettlementOutcome"
+  },
+  {
+    "offset": "0x1883b42",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1883b49",
+    "text": "Progress"
+  },
+  {
+    "offset": "0x1883b52",
+    "text": "Phase"
+  },
+  {
+    "offset": "0x1883cd0",
+    "text": "StickerTransitionInterruptionRecovery"
+  },
+  {
+    "offset": "0x1883d00",
+    "text": "StickerTransitionInterruptionReason"
+  },
+  {
+    "offset": "0x1883dd0",
+    "text": "possiblebegan"
+  },
+  {
+    "offset": "0x1883de0",
+    "text": "changed"
+  },
+  {
+    "offset": "0x1883de8",
+    "text": "ended"
+  },
+  {
+    "offset": "0x1883df0",
+    "text": "cancellefailed"
+  },
+  {
+    "offset": "0x1883e30",
+    "text": "ZoomTransitionAnimator"
+  },
+  {
+    "offset": "0x1884070",
+    "text": "StickerCollectionCellContentViewModel"
+  },
+  {
+    "offset": "0x18840b0",
+    "text": "StickerSceneImageUIView"
+  },
+  {
+    "offset": "0x18840d0",
+    "text": "StickerCollectionCell"
+  },
+  {
+    "offset": "0x18840f0",
+    "text": "StickerCollectionCellContentView"
+  },
+  {
+    "offset": "0x18844e0",
+    "text": "StickerCollectionPlainWordView"
+  },
+  {
+    "offset": "0x1884560",
+    "text": "StickerCollectionFooterView"
+  },
+  {
+    "offset": "0x18845e0",
+    "text": "StickerCollectionNavigationBar"
+  },
+  {
+    "offset": "0x1884600",
+    "text": "StickerCollectionNavigationBarContentView"
+  },
+  {
+    "offset": "0x1884630",
+    "text": "CameraAdditionalType"
+  },
+  {
+    "offset": "0x1884e30",
+    "text": "StickerCollectionPlaceholderHeaderContentViewModel"
+  },
+  {
+    "offset": "0x1884e70",
+    "text": "StickerCollectionPlaceholderHeader"
+  },
+  {
+    "offset": "0x1884ea0",
+    "text": "StickerCollectionPlaceholderHeaderContentView"
+  },
+  {
+    "offset": "0x1885060",
+    "text": "StickerCollectionSectionBaseHeader"
+  },
+  {
+    "offset": "0x1885090",
+    "text": "StickerCollectionSectionEmptyHeader"
+  },
+  {
+    "offset": "0x18850c0",
+    "text": "StickerCollectionSectionHeader"
+  },
+  {
+    "offset": "0x1885100",
+    "text": "StickerCollectionViewControllerDelegate"
+  },
+  {
+    "offset": "0x1885130",
+    "text": "StickerCollectionViewController"
+  },
+  {
+    "offset": "0x1885260",
+    "text": "NavigationInfoSection"
+  },
+  {
+    "offset": "0x18857b0",
+    "text": "StickerDotBackgroundUIView"
+  },
+  {
+    "offset": "0x18857d0",
+    "text": "StickerDotBackgroundViewModel"
+  },
+  {
+    "offset": "0x18857f0",
+    "text": "StickerDotBackgroundView"
+  },
+  {
+    "offset": "0x1885960",
+    "text": "StickerSavedToastViewModel"
+  },
+  {
+    "offset": "0x18859a0",
+    "text": "StickerSavedToastView"
+  },
+  {
+    "offset": "0x18859c0",
+    "text": "StickerSavedToastContentView"
+  },
+  {
+    "offset": "0x1885f00",
+    "text": "StickerOutlinedTargetWordView"
+  },
+  {
+    "offset": "0x1885f1e",
+    "text": "StickerTextView"
+  },
+  {
+    "offset": "0x18860d0",
+    "text": "CustomNavigationBar"
+  },
+  {
+    "offset": "0x18860f0",
+    "text": "CustomNavigationController"
+  },
+  {
+    "offset": "0x1886140",
+    "text": "DetailLargeCollectionCell"
+  },
+  {
+    "offset": "0x1886340",
+    "text": "DetailLargeCollectionCellExampleViewModel"
+  },
+  {
+    "offset": "0x1886390",
+    "text": "DetailLargeCollectionCellExampleView"
+  },
+  {
+    "offset": "0x1886770",
+    "text": "DetailSmallCollectionContentViewModel"
+  },
+  {
+    "offset": "0x18867a0",
+    "text": "DetailSmallCollectionCell"
+  },
+  {
+    "offset": "0x18867c0",
+    "text": "DetailSmallCollectionContentView"
+  },
+  {
+    "offset": "0x1886a10",
+    "text": "StickerDetailBottomContentViewModel"
+  },
+  {
+    "offset": "0x1886a40",
+    "text": "StickerDetailBottomView"
+  },
+  {
+    "offset": "0x1886a60",
+    "text": "StickerDetailBottomContentView"
+  },
+  {
+    "offset": "0x1886cb0",
+    "text": "StickerDetailSwipeInteractionController"
+  },
+  {
+    "offset": "0x1886d40",
+    "text": "StickerDetailTransition"
+  },
+  {
+    "offset": "0x1886dc0",
+    "text": "StickerDetailViewController"
+  },
+  {
+    "offset": "0x1886e70",
+    "text": "StickerInfoWrapper"
+  },
+  {
+    "offset": "0x1887110",
+    "text": "StickerGroupSwitchDirection"
+  },
+  {
+    "offset": "0x1887150",
+    "text": "StickerEditViewController"
+  },
+  {
+    "offset": "0x188716a",
+    "text": "EditingTarget"
+  },
+  {
+    "offset": "0x18871f0",
+    "text": "FlashCardBackView"
+  },
+  {
+    "offset": "0x1887350",
+    "text": "FlashCardFrontView"
+  },
+  {
+    "offset": "0x1887370",
+    "text": "FlashCardSpeechErrorLevel"
+  },
+  {
+    "offset": "0x1887752",
+    "text": "FlashCardView"
+  },
+  {
+    "offset": "0x1887810",
+    "text": "CircularCardView"
+  },
+  {
+    "offset": "0x1887930",
+    "text": "CircularTextView"
+  },
+  {
+    "offset": "0x1887941",
+    "text": "ArcTextView"
+  },
+  {
+    "offset": "0x1887ab0",
+    "text": "WidthLetterPreferenceKey"
+  },
+  {
+    "offset": "0x1887ac9",
+    "text": "LetterWidthSize"
+  },
+  {
+    "offset": "0x1887ae0",
+    "text": "ArcTextLetterOrientation"
+  },
+  {
+    "offset": "0x1887b00",
+    "text": "ArcTextPlacement"
+  },
+  {
+    "offset": "0x18880a0",
+    "text": "CompletionItem"
+  },
+  {
+    "offset": "0x18880b0",
+    "text": "AnimatedMicrophoneButton"
+  },
+  {
+    "offset": "0x1888310",
+    "text": "FlashCardStackView"
+  },
+  {
+    "offset": "0x18883a0",
+    "text": "ChatLongPressGestureView"
+  },
+  {
+    "offset": "0x18883c0",
+    "text": "LongPressGestureView"
+  },
+  {
+    "offset": "0x1888f10",
+    "text": "CardStyleMenuItem"
+  },
+  {
+    "offset": "0x1888f30",
+    "text": "FlashCardCorrectLevel"
+  },
+  {
+    "offset": "0x1888f50",
+    "text": "CardAnimationState"
+  },
+  {
+    "offset": "0x18892c0",
+    "text": "FlashCardStackViewModel"
+  },
+  {
+    "offset": "0x18895a0",
+    "text": "FlashCardViewController"
+  },
+  {
+    "offset": "0x1889810",
+    "text": "FlashCardNewWordAlertViewController"
+  },
+  {
+    "offset": "0x18898d0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x18898e0",
+    "text": "FlashCardNewWordAlertModel"
+  },
+  {
+    "offset": "0x18898fb",
+    "text": "State"
+  },
+  {
+    "offset": "0x1889c50",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1889cb0",
+    "text": "FlashCardNewWordAlertView"
+  },
+  {
+    "offset": "0x188a070",
+    "text": "ResolvedStickerBackgroundColorPreferenceKey"
+  },
+  {
+    "offset": "0x188a0a0",
+    "text": "LoadedStickerImagePreferenceKey"
+  },
+  {
+    "offset": "0x188a1c0",
+    "text": "FlashCardReviewModel"
+  },
+  {
+    "offset": "0x188a450",
+    "text": "FlashCardReviewView"
+  },
+  {
+    "offset": "0x188a99a",
+    "text": "BufferConverter"
+  },
+  {
+    "offset": "0x188a9aa",
+    "text": "Error"
+  },
+  {
+    "offset": "0x188aaa6",
+    "text": "FlashCardSpeech"
+  },
+  {
+    "offset": "0x188ab30",
+    "text": "TranscriptionError"
+  },
+  {
+    "offset": "0x188afc0",
+    "text": "FlashCardSpeechError"
+  },
+  {
+    "offset": "0x188b080",
+    "text": "CalendarGridView"
+  },
+  {
+    "offset": "0x188b0e0",
+    "text": "CalendarGridLayout"
+  },
+  {
+    "offset": "0x188b180",
+    "text": "CalendarGridSwiftUIView"
+  },
+  {
+    "offset": "0x188b2c0",
+    "text": "FlashCardStatiticsViewModel"
+  },
+  {
+    "offset": "0x188b310",
+    "text": "FlashCardStatiticsView"
+  },
+  {
+    "offset": "0x188b910",
+    "text": "FlashCardStatisticsViewController"
+  },
+  {
+    "offset": "0x188b9b0",
+    "text": "FlashCardTryDemoAlertViewController"
+  },
+  {
+    "offset": "0x188ba80",
+    "text": "Action"
+  },
+  {
+    "offset": "0x188ba90",
+    "text": "FlashCardTryDemoAlertModel"
+  },
+  {
+    "offset": "0x188baab",
+    "text": "State"
+  },
+  {
+    "offset": "0x188be28",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x188bea0",
+    "text": "FlashCardTryDemoAlertView"
+  },
+  {
+    "offset": "0x188c130",
+    "text": "DebugPageViewController"
+  },
+  {
+    "offset": "0x188c190",
+    "text": "DebugLanguageDataResetResult"
+  },
+  {
+    "offset": "0x188c1d8",
+    "text": "Action"
+  },
+  {
+    "offset": "0x188c1e1",
+    "text": "DebugPageModel"
+  },
+  {
+    "offset": "0x188c1f0",
+    "text": "State"
+  },
+  {
+    "offset": "0x188cf50",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x188cfd2",
+    "text": "DebugPageView"
+  },
+  {
+    "offset": "0x188dc90",
+    "text": "VideoVisionPromptView"
+  },
+  {
+    "offset": "0x188dcc0",
+    "text": "TranslationPromptView"
+  },
+  {
+    "offset": "0x188dce0",
+    "text": "ExamplePromptView"
+  },
+  {
+    "offset": "0x188dd00",
+    "text": "VisionPromptView"
+  },
+  {
+    "offset": "0x188df00",
+    "text": "LanguageMigrationBackgroundExecutionCoordinator"
+  },
+  {
+    "offset": "0x188dfe0",
+    "text": "LanguageMigrationSystemProgressPolicy"
+  },
+  {
+    "offset": "0x188e006",
+    "text": "WorkStage"
+  },
+  {
+    "offset": "0x188e010",
+    "text": "ProgressSnapshot"
+  },
+  {
+    "offset": "0x188e030",
+    "text": "LanguageMigrationBackgroundExecutionMode"
+  },
+  {
+    "offset": "0x188e170",
+    "text": "LanguageMigrationSystemCompletionOutcome"
+  },
+  {
+    "offset": "0x188e350",
+    "text": "Action"
+  },
+  {
+    "offset": "0x188e360",
+    "text": "LanguageChangeAlertModel"
+  },
+  {
+    "offset": "0x188e379",
+    "text": "State"
+  },
+  {
+    "offset": "0x188e668",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x188e675",
+    "text": "Style"
+  },
+  {
+    "offset": "0x188e740",
+    "text": "LanguageChangeAlertView"
+  },
+  {
+    "offset": "0x188e970",
+    "text": "LanguageMigrationLiveActivityCoordinator"
+  },
+  {
+    "offset": "0x188ea90",
+    "text": "LanguageMigrationLiveActivitySnapshot"
+  },
+  {
+    "offset": "0x188eac0",
+    "text": "ProfileLanguageSheetViewController"
+  },
+  {
+    "offset": "0x188ec30",
+    "text": "LanguageChangeBatchRequestPipeline"
+  },
+  {
+    "offset": "0x188eca0",
+    "text": "ChangeLanguageManager"
+  },
+  {
+    "offset": "0x188ed20",
+    "text": "LanguageChangeBatchExecutionContext"
+  },
+  {
+    "offset": "0x188ed50",
+    "text": "ChangeLanguageState"
+  },
+  {
+    "offset": "0x188ed70",
+    "text": "PendingLanguageChangeResult"
+  },
+  {
+    "offset": "0x188edc0",
+    "text": "ChangeLanguageTask"
+  },
+  {
+    "offset": "0x188ee20",
+    "text": "State"
+  },
+  {
+    "offset": "0x188f0b0",
+    "text": "DedicatedCommitSummary"
+  },
+  {
+    "offset": "0x188f0d0",
+    "text": "DedicatedCommitOutcome"
+  },
+  {
+    "offset": "0x188f0f0",
+    "text": "CompletedLanguageMigrationMarker"
+  },
+  {
+    "offset": "0x188f130",
+    "text": "ContinuedProcessingPauseMarker"
+  },
+  {
+    "offset": "0x188f168",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x188f180",
+    "text": "ChangeLanguageProgress"
+  },
+  {
+    "offset": "0x188f1a0",
+    "text": "LanguageMigrationCommitIntent"
+  },
+  {
+    "offset": "0x188f1c0",
+    "text": "ChangeLanguageResult"
+  },
+  {
+    "offset": "0x188f650",
+    "text": "ChangeLanguageKind"
+  },
+  {
+    "offset": "0x188fa90",
+    "text": "LanguageChangeBatchRetryScheduler"
+  },
+  {
+    "offset": "0x188fb20",
+    "text": "LanguageChangeRetryTrigger"
+  },
+  {
+    "offset": "0x188fc00",
+    "text": "LanguageChangePauseReason"
+  },
+  {
+    "offset": "0x188fc20",
+    "text": "LanguageChangeRetryState"
+  },
+  {
+    "offset": "0x188fde0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x188ff50",
+    "text": "LanguageMigrationCheckpointWriter"
+  },
+  {
+    "offset": "0x1890010",
+    "text": "LanguageMigrationCommitExecution"
+  },
+  {
+    "offset": "0x1890040",
+    "text": "LanguageMigrationCommitStateMachine"
+  },
+  {
+    "offset": "0x1890064",
+    "text": "Stage"
+  },
+  {
+    "offset": "0x1890180",
+    "text": "LanguageMigrationStickerSlice"
+  },
+  {
+    "offset": "0x189019e",
+    "text": "ThreeWayValue"
+  },
+  {
+    "offset": "0x18901c0",
+    "text": "LanguageMigrationStickerMergeResult"
+  },
+  {
+    "offset": "0x18901f0",
+    "text": "LanguageMigrationStickerMergeField"
+  },
+  {
+    "offset": "0x18902f0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1890300",
+    "text": "ProfileLanguageAlertModel"
+  },
+  {
+    "offset": "0x189031a",
+    "text": "State"
+  },
+  {
+    "offset": "0x1890798",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1890800",
+    "text": "LanguageMigrationActivityAttributes"
+  },
+  {
+    "offset": "0x1890830",
+    "text": "ContentState"
+  },
+  {
+    "offset": "0x18909f0",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1890a00",
+    "text": "LanguageMigrationPauseState"
+  },
+  {
+    "offset": "0x1890d40",
+    "text": "DiagnosticSnapshot"
+  },
+  {
+    "offset": "0x1890d60",
+    "text": "DiagnosticJournal"
+  },
+  {
+    "offset": "0x1890db0",
+    "text": "DiagnosticRetention"
+  },
+  {
+    "offset": "0x1890dd0",
+    "text": "FileReport"
+  },
+  {
+    "offset": "0x1890df8",
+    "text": "SourceReport"
+  },
+  {
+    "offset": "0x1890e20",
+    "text": "DiagnosticCounters"
+  },
+  {
+    "offset": "0x1890e50",
+    "text": "Pinned"
+  },
+  {
+    "offset": "0x1890f88",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1891330",
+    "text": "DiagnosticWorkQueue"
+  },
+  {
+    "offset": "0x1891348",
+    "text": "Statistics"
+  },
+  {
+    "offset": "0x18913c8",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1891620",
+    "text": "PlayWidgetWordIntent"
+  },
+  {
+    "offset": "0x1891670",
+    "text": "WidgetAudioError"
+  },
+  {
+    "offset": "0x1891790",
+    "text": "WordImages"
+  },
+  {
+    "offset": "0x18917a0",
+    "text": "StickerListImageRenderer"
+  },
+  {
+    "offset": "0x18917e0",
+    "text": "StickerListWordLabel"
+  },
+  {
+    "offset": "0x1891800",
+    "text": "OutlineTextModifier"
+  },
+  {
+    "offset": "0x18919b8",
+    "text": "ReviewPool"
+  },
+  {
+    "offset": "0x18919c5",
+    "text": "WidgetSticker"
+  },
+  {
+    "offset": "0x1891a38",
+    "text": "WidgetSnapshot"
+  },
+  {
+    "offset": "0x1891a47",
+    "text": "HomeWidgetKind"
+  },
+  {
+    "offset": "0x1891c30",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1891fe8",
+    "text": "State"
+  },
+  {
+    "offset": "0x1892070",
+    "text": "Event"
+  },
+  {
+    "offset": "0x1892090",
+    "text": "WidgetDiagnostics"
+  },
+  {
+    "offset": "0x18920a2",
+    "text": "Aggregation"
+  },
+  {
+    "offset": "0x1892170",
+    "text": "ReadDiagnostic"
+  },
+  {
+    "offset": "0x1892180",
+    "text": "WidgetSnapshotStore"
+  },
+  {
+    "offset": "0x1892194",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1892620",
+    "text": "CameraLauncherShortcutsProvider"
+  },
+  {
+    "offset": "0x1892640",
+    "text": "CameraLauncherShortcutIntent"
+  },
+  {
+    "offset": "0x1892660",
+    "text": "CameraLauncherControlIntent"
+  },
+  {
+    "offset": "0x18926e0",
+    "text": "ProfileLanguageAlertView"
+  },
+  {
+    "offset": "0x1892bfa",
+    "text": "SupportLanguage"
+  },
+  {
+    "offset": "0x1892e20",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x1892e30",
+    "text": "ChineseCodingKeys"
+  },
+  {
+    "offset": "0x1892e50",
+    "text": "ChineseCantoneseCodingKeys"
+  },
+  {
+    "offset": "0x1892e70",
+    "text": "EnglishCodingKeys"
+  },
+  {
+    "offset": "0x1892e90",
+    "text": "EnglishBritishCodingKeys"
+  },
+  {
+    "offset": "0x1892eb0",
+    "text": "FrenchCodingKeys"
+  },
+  {
+    "offset": "0x1892ed0",
+    "text": "SpanishCodingKeys"
+  },
+  {
+    "offset": "0x1892ef0",
+    "text": "JapaneseCodingKeys"
+  },
+  {
+    "offset": "0x1892f10",
+    "text": "KoreanCodingKeys"
+  },
+  {
+    "offset": "0x1892f30",
+    "text": "GermanCodingKeys"
+  },
+  {
+    "offset": "0x1892f50",
+    "text": "ItalianCodingKeys"
+  },
+  {
+    "offset": "0x1892f70",
+    "text": "RussianCodingKeys"
+  },
+  {
+    "offset": "0x1892f90",
+    "text": "PortugueseCodingKeys"
+  },
+  {
+    "offset": "0x1892fb0",
+    "text": "BrazilianPortugueseCodingKeys"
+  },
+  {
+    "offset": "0x1892fd0",
+    "text": "VietnameseCodingKeys"
+  },
+  {
+    "offset": "0x1892fe5",
+    "text": "ThaiCodingKeys"
+  },
+  {
+    "offset": "0x1893000",
+    "text": "IndonesianCodingKeys"
+  },
+  {
+    "offset": "0x1893bb0",
+    "text": "OurStoryViewController"
+  },
+  {
+    "offset": "0x1893c08",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1893c11",
+    "text": "OurStoryModel"
+  },
+  {
+    "offset": "0x1893c1f",
+    "text": "State"
+  },
+  {
+    "offset": "0x1893ea8",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1893f0a",
+    "text": "OurStoryView"
+  },
+  {
+    "offset": "0x1894110",
+    "text": "ProfileAppleHealthViewController"
+  },
+  {
+    "offset": "0x1894150",
+    "text": "ProfileViewController"
+  },
+  {
+    "offset": "0x1894390",
+    "text": "Action"
+  },
+  {
+    "offset": "0x18943a0",
+    "text": "StickerProfileModel"
+  },
+  {
+    "offset": "0x18943b4",
+    "text": "State"
+  },
+  {
+    "offset": "0x1895098",
+    "text": "CancelID"
+  },
+  {
+    "offset": "0x18950a1",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x18950ae",
+    "text": "SettingType"
+  },
+  {
+    "offset": "0x18950ba",
+    "text": "SettingGroup"
+  },
+  {
+    "offset": "0x1895260",
+    "text": "AppearanceSettingsMenu"
+  },
+  {
+    "offset": "0x1895430",
+    "text": "ProfileAppleHealthView"
+  },
+  {
+    "offset": "0x1895460",
+    "text": "HealthAuthorizationDisplayState"
+  },
+  {
+    "offset": "0x1895890",
+    "text": "ProfileNavigationGlyph"
+  },
+  {
+    "offset": "0x1895940",
+    "text": "StickerProfileView"
+  },
+  {
+    "offset": "0x1896660",
+    "text": "ProfileInfoAlertViewController"
+  },
+  {
+    "offset": "0x18967b0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x18967c0",
+    "text": "ProfileInfoAlertModel"
+  },
+  {
+    "offset": "0x18967d6",
+    "text": "State"
+  },
+  {
+    "offset": "0x1896bf0",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1896c60",
+    "text": "ProfileInfoAlertView"
+  },
+  {
+    "offset": "0x1897050",
+    "text": "SetupReminderViewController"
+  },
+  {
+    "offset": "0x1897160",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1897170",
+    "text": "SetupReminderFuture"
+  },
+  {
+    "offset": "0x1897184",
+    "text": "State"
+  },
+  {
+    "offset": "0x18972f0",
+    "text": "UNUserNotificationCenter"
+  },
+  {
+    "offset": "0x1897310",
+    "text": "UserNotificationCentering"
+  },
+  {
+    "offset": "0x1897340",
+    "text": "SetupReminderView"
+  },
+  {
+    "offset": "0x1897610",
+    "text": "SpeechQualityAlertViewController"
+  },
+  {
+    "offset": "0x18976f0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1897700",
+    "text": "SpeechQualityAlertModel"
+  },
+  {
+    "offset": "0x1897718",
+    "text": "State"
+  },
+  {
+    "offset": "0x18979b8",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1897a20",
+    "text": "SpeechQualityAlertView"
+  },
+  {
+    "offset": "0x1897b30",
+    "text": "SpeechQualitySheetViewController"
+  },
+  {
+    "offset": "0x1897bd0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1897be0",
+    "text": "SpeechQualitySheetModel"
+  },
+  {
+    "offset": "0x1897bf8",
+    "text": "State"
+  },
+  {
+    "offset": "0x1898218",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1898225",
+    "text": "Style"
+  },
+  {
+    "offset": "0x18982f0",
+    "text": "SpeechQualityTutorialItem"
+  },
+  {
+    "offset": "0x18983a0",
+    "text": "SpeechQualitySheetView"
+  },
+  {
+    "offset": "0x1898a60",
+    "text": "SpeechTTSSheetViewController"
+  },
+  {
+    "offset": "0x1898af0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1898b00",
+    "text": "SpeechTTSSheetModel"
+  },
+  {
+    "offset": "0x1898b14",
+    "text": "State"
+  },
+  {
+    "offset": "0x1899168",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1899175",
+    "text": "Style"
+  },
+  {
+    "offset": "0x1899240",
+    "text": "SpeechTTSTutorialItem"
+  },
+  {
+    "offset": "0x18992d0",
+    "text": "SpeechTTSSheetView"
+  },
+  {
+    "offset": "0x1899a20",
+    "text": "WhatsNewSheetViewController"
+  },
+  {
+    "offset": "0x1899ae0",
+    "text": "Action"
+  },
+  {
+    "offset": "0x1899af0",
+    "text": "WhatsNewSheetModel"
+  },
+  {
+    "offset": "0x1899b03",
+    "text": "State"
+  },
+  {
+    "offset": "0x1899de0",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x1899ded",
+    "text": "GifItem"
+  },
+  {
+    "offset": "0x1899ec0",
+    "text": "WhatsNewSheetView"
+  },
+  {
+    "offset": "0x189a140",
+    "text": "WhatsNewForChatSheetViewViewController"
+  },
+  {
+    "offset": "0x189a210",
+    "text": "Action"
+  },
+  {
+    "offset": "0x189a220",
+    "text": "WhatsNewForChatSheetViewModel"
+  },
+  {
+    "offset": "0x189a23e",
+    "text": "State"
+  },
+  {
+    "offset": "0x189a748",
+    "text": "AllCasePaths"
+  },
+  {
+    "offset": "0x189a760",
+    "text": "WhatsNewForChatRiveOperation"
+  },
+  {
+    "offset": "0x189a820",
+    "text": "WhatsNewForChatSheetViewView"
+  },
+  {
+    "offset": "0x189aa40",
+    "text": "WhatsNewForChatHeroView"
+  },
+  {
+    "offset": "0x189aa70",
+    "text": "WhatsNewForChatSheetLayout"
+  },
+  {
+    "offset": "0x189ac88",
+    "text": "StickerLayout"
+  },
+  {
+    "offset": "0x189ad30",
+    "text": "WhatsNewForWidgetView"
+  },
+  {
+    "offset": "0x189b0b0",
+    "text": "WidgetGuidePhoneOutline"
+  },
+  {
+    "offset": "0x189b1d0",
+    "text": "WhatsNewForWidgetViewController"
+  },
+  {
+    "offset": "0x189b270",
+    "text": "WidgetGuidePlayback"
+  },
+  {
+    "offset": "0x189b3f0",
+    "text": "pictureInPicturePossible"
+  },
+  {
+    "offset": "0x189b440",
+    "text": "WidgetGuidePlayerView"
+  },
+  {
+    "offset": "0x189b458",
+    "text": "readyForDisplay"
+  },
+  {
+    "offset": "0x189b490",
+    "text": "WidgetGuideVideoView"
+  },
+  {
+    "offset": "0x189b640",
+    "text": "WidgetWhatsNewLaunchGate"
+  },
+  {
+    "offset": "0x189b660",
+    "text": "WidgetWhatsNewLaunchState"
+  },
+  {
+    "offset": "0x189b708",
+    "text": "CodingKeys"
+  },
+  {
+    "offset": "0x189b820",
+    "text": "WidgetNavigationCoordinator"
+  },
+  {
+    "offset": "0x189b910",
+    "text": "WidgetSnapshotPublisher"
+  },
+  {
+    "offset": "0x189b9a0",
+    "text": "Settings"
+  },
+  {
+    "offset": "0x189b9c0",
+    "text": "WidgetWordPlayer"
+  },
+  {
+    "offset": "0x189bb10",
+    "text": "PlaybackError"
+  },
+  {
+    "offset": "0x189bbd0",
+    "text": "EntranceAnimator"
+  },
+  {
+    "offset": "0x189bbe1",
+    "text": "Style"
+  },
+  {
+    "offset": "0x189bce2",
+    "text": "RoundedCross"
+  },
+  {
+    "offset": "0x189bdea",
+    "text": "SlimRectangle"
+  },
+  {
+    "offset": "0x189bef2",
+    "text": "Triangle"
+  },
+  {
+    "offset": "0x189c16e",
+    "text": "ConfettiType"
+  },
+  {
+    "offset": "0x189c17b",
+    "text": "Shape"
+  },
+  {
+    "offset": "0x189c181",
+    "text": "ConfettiCannon"
+  },
+  {
+    "offset": "0x189c200",
+    "text": "ConfettiConfig"
+  },
+  {
+    "offset": "0x189c230",
+    "text": "ConfettiContainer"
+  },
+  {
+    "offset": "0x189c250",
+    "text": "AppearanceConfettiImage"
+  },
+  {
+    "offset": "0x189c868",
+    "text": "ConfettiView"
+  },
+  {
+    "offset": "0x189c900",
+    "text": "ConfettiAnimationView"
+  },
+  {
+    "offset": "0x189c9c0",
+    "text": "ConfettiContainerView"
+  },
+  {
+    "offset": "0x189d302",
+    "text": "NewConfettiView"
+  },
+  {
+    "offset": "0x189d3a0",
+    "text": "DisplayConfettiModifier"
+  },
+  {
+    "offset": "0x189d48a",
+    "text": "PassthroughView"
+  },
+  {
+    "offset": "0x189d4a0",
+    "text": "UIKitConfettiController"
+  },
+  {
+    "offset": "0x189d4c0",
+    "text": "AdaptiveLayoutContextStore"
+  },
+  {
+    "offset": "0x189d4e0",
+    "text": "AdaptiveLayoutHostingController"
+  },
+  {
+    "offset": "0x189d530",
+    "text": "AdaptiveLayoutHostingRoot"
+  },
+  {
+    "offset": "0x189d580",
+    "text": "AdaptiveLayoutContext"
+  },
+  {
+    "offset": "0x189d6c0",
+    "text": "AdaptiveLayoutEnvironmentKey"
+  },
+  {
+    "offset": "0x189d6e0",
+    "text": "AdaptiveLayoutInsets"
+  },
+  {
+    "offset": "0x189d760",
+    "text": "PopupAdaptiveLayoutModifier"
+  },
+  {
+    "offset": "0x189d810",
+    "text": "AppAppearancePreference"
+  },
+  {
+    "offset": "0x189db0a",
+    "text": "PaperCardStyle"
+  },
+  {
+    "offset": "0x189dbfa",
+    "text": "BlurBgView"
+  },
+  {
+    "offset": "0x189dce0",
+    "text": "NoEffectButtonStyle"
+  },
+  {
+    "offset": "0x189dd00",
+    "text": "PurchaseButtonArtworkModifier"
+  },
+  {
+    "offset": "0x189de10",
+    "text": "DGCarouselFlowLayoutSpacingMode"
+  },
+  {
+    "offset": "0x189de30",
+    "text": "DGCarouselFlowLayout"
+  },
+  {
+    "offset": "0x189dea8",
+    "text": "LayoutState"
+  },
+  {
+    "offset": "0x189dec0",
+    "text": "DynamicIslandLogoOverlay"
+  },
+  {
+    "offset": "0x189dee0",
+    "text": "PassthroughWindow"
+  },
+  {
+    "offset": "0x189dfa0",
+    "text": "HealthKitService"
+  },
+  {
+    "offset": "0x189e0a0",
+    "text": "HealthSummary"
+  },
+  {
+    "offset": "0x189e0ae",
+    "text": "WorkoutEntry"
+  },
+  {
+    "offset": "0x189e0f2",
+    "text": "LRUCostCache"
+  },
+  {
+    "offset": "0x189e140",
+    "text": "Entry"
+  },
+  {
+    "offset": "0x189e170",
+    "text": "Policy"
+  },
+  {
+    "offset": "0x189e190",
+    "text": "PhotoMetadataExtractor"
+  },
+  {
+    "offset": "0x189e230",
+    "text": "CardSheetNavigationLabel"
+  },
+  {
+    "offset": "0x189e250",
+    "text": "PopupSecondaryTextButton"
+  },
+  {
+    "offset": "0x189e290",
+    "text": "PopupPrimaryButton"
+  },
+  {
+    "offset": "0x189e460",
+    "text": "ProgressLoadingAlert"
+  },
+  {
+    "offset": "0x189e480",
+    "text": "ProgressLoadingViewModel"
+  },
+  {
+    "offset": "0x189e4a0",
+    "text": "ProgressLoadingView"
+  },
+  {
+    "offset": "0x189e630",
+    "text": "fractionCompleted"
+  },
+  {
+    "offset": "0x189e66c",
+    "text": "finished"
+  },
+  {
+    "offset": "0x189e6a0",
+    "text": "CircularProgressView"
+  },
+  {
+    "offset": "0x189e710",
+    "text": "SectorShape"
+  },
+  {
+    "offset": "0x189e820",
+    "text": "FramePreferenceKey"
+  },
+  {
+    "offset": "0x189e840",
+    "text": "SizePreferenceKey"
+  },
+  {
+    "offset": "0x189e90a",
+    "text": "ScaleButton"
+  },
+  {
+    "offset": "0x189e980",
+    "text": "SpringStyle"
+  },
+  {
+    "offset": "0x189e9d0",
+    "text": "SnapshotModifier"
+  },
+  {
+    "offset": "0x189ead8",
+    "text": "ViewExtractor"
+  },
+  {
+    "offset": "0x189ec00",
+    "text": "StickerExportManager"
+  },
+  {
+    "offset": "0x189ed30",
+    "text": "StickerMediaWorkPriorityController"
+  },
+  {
+    "offset": "0x189ed60",
+    "text": "WeakOperation"
+  },
+  {
+    "offset": "0x189ed80",
+    "text": "StickerMediaProcessingQueue"
+  },
+  {
+    "offset": "0x189edb0",
+    "text": "StickerPayloadLoadCancellation"
+  },
+  {
+    "offset": "0x189ede0",
+    "text": "StickerForegroundPayloadLease"
+  },
+  {
+    "offset": "0x189ee20",
+    "text": "StickerMediaScrollActivity"
+  },
+  {
+    "offset": "0x189ee70",
+    "text": "StickerPayloadLoadCoordinator"
+  },
+  {
+    "offset": "0x189eea0",
+    "text": "StickerMediaPayloadDiskCache"
+  },
+  {
+    "offset": "0x189ef10",
+    "text": "StickerMediaPayloadLifetimeTracker"
+  },
+  {
+    "offset": "0x189ef50",
+    "text": "Entry"
+  },
+  {
+    "offset": "0x189ef80",
+    "text": "StickerGIFFrameSource"
+  },
+  {
+    "offset": "0x189efb0",
+    "text": "StickerImageLoadRequest"
+  },
+  {
+    "offset": "0x189efe0",
+    "text": "StickerImageDeliveryGate"
+  }
+]

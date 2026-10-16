@@ -1,0 +1,52 @@
+[
+  {
+    "file": "shader-01.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-02.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-03.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-04.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-05.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-06.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-07.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-08.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-09.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  },
+  {
+    "file": "shader-10.bc",
+    "exit": 0,
+    "stderr": "warning: overriding the module target triple with x86_64-pc-windows-msvc19.42.34435 [-Woverride-module]\n1 warning generated.\n"
+  }
+]

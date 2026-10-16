@@ -1,0 +1,15 @@
+{
+  "NSPrivacyTracking": false,
+  "NSPrivacyTrackingDomains": [],
+  "NSPrivacyCollectedDataTypes": [
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeOtherDiagnosticData",
+      "NSPrivacyCollectedDataTypeLinked": false,
+      "NSPrivacyCollectedDataTypeTracking": false,
+      "NSPrivacyCollectedDataTypePurposes": [
+        "NSPrivacyCollectedDataTypePurposeAnalytics"
+      ]
+    }
+  ],
+  "NSPrivacyAccessedAPITypes": []
+}

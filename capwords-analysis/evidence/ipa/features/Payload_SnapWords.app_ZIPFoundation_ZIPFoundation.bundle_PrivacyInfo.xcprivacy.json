@@ -1,0 +1,13 @@
+{
+  "NSPrivacyTracking": false,
+  "NSPrivacyCollectedDataTypes": [],
+  "NSPrivacyTrackingDomains": [],
+  "NSPrivacyAccessedAPITypes": [
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+      "NSPrivacyAccessedAPITypeReasons": [
+        "0A2A.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1946 @@
+[
+  {
+    "name": "_TtC9SnapWords24RecognitionPipelineTimer",
+    "class": "0x101f615e8",
+    "ro": "0x101ebbd68",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "startedAt",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "lastCheckpoint",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "entries",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "activeLLMLabel",
+        "initial_offset_before_runtime": 40,
+        "size": 16
+      },
+      {
+        "name": "activeLLMStartedAt",
+        "initial_offset_before_runtime": 56,
+        "size": 9
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords23CameraLaunchCoordinator",
+    "class": "0x101f69870",
+    "ro": "0x101ebdc18",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "pendingSource",
+        "initial_offset_before_runtime": 16,
+        "size": 16
+      },
+      {
+        "name": "isOpeningCamera",
+        "initial_offset_before_runtime": 32,
+        "size": 1
+      },
+      {
+        "name": "releaseWorkItem",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords18SoundEffectManager",
+    "class": "0x101f69958",
+    "ro": "0x101ebdd10",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "audioPlayers",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "volume",
+        "initial_offset_before_runtime": 24,
+        "size": 4
+      },
+      {
+        "name": "isSoundEnabled",
+        "initial_offset_before_runtime": 28,
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords30OnboardingStickerDustImageView",
+    "class": "0x101f35368",
+    "ro": "0x101f35308",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x1002511e0"
+      },
+      {
+        "kind": "instance",
+        "selector": "layoutSubviews",
+        "imp": "0x100251340"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x100251a40"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x100251a9c"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "image",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      },
+      {
+        "name": "imageContentMode",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "completionHandler",
+        "initial_offset_before_runtime": 24,
+        "size": 16
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords25GroupStickerDustImageView",
+    "class": "0x101f356a8",
+    "ro": "0x101f35648",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x100253e04"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x100254420"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x100254488"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "image",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      },
+      {
+        "name": "imageContentMode",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "completionHandler",
+        "initial_offset_before_runtime": 24,
+        "size": 16
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords33AVFoundationCameraSessionHardware",
+    "class": "0x101f783c8",
+    "ro": "0x101ec1b48",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "session",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "photoOutput",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "movieOutput",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords23CameraSessionController",
+    "class": "0x101f78478",
+    "ro": "0x101ec1ca0",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "hardware",
+        "initial_offset_before_runtime": 16,
+        "size": 16
+      },
+      {
+        "name": "queue",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "lock",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "wantsRunning",
+        "initial_offset_before_runtime": 48,
+        "size": 1
+      },
+      {
+        "name": "ready",
+        "initial_offset_before_runtime": 49,
+        "size": 1
+      },
+      {
+        "name": "revision",
+        "initial_offset_before_runtime": 56,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords20CameraViewController",
+    "class": "0x101f37988",
+    "ro": "0x101f37920",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "captureOutput:didFinishRecordingToOutputFileAtURL:fromConnections:error:",
+        "imp": "0x100464d10"
+      },
+      {
+        "kind": "instance",
+        "selector": "captureOutput:didFinishProcessingPhoto:error:",
+        "imp": "0x1004643c0"
+      },
+      {
+        "kind": "instance",
+        "selector": "captureOutput:didFinishProcessingLivePhotoToMovieFileAtURL:duration:photoDisplayTime:resolvedSettings:error:",
+        "imp": "0x1004648d0"
+      },
+      {
+        "kind": "instance",
+        "selector": "capturePhoto",
+        "imp": "0x1004622f8"
+      },
+      {
+        "kind": "instance",
+        "selector": "handleTap:",
+        "imp": "0x100462580"
+      },
+      {
+        "kind": "instance",
+        "selector": "handleDoubleTap:",
+        "imp": "0x100462698"
+      },
+      {
+        "kind": "instance",
+        "selector": "sessionRuntimeErrorWithNotification:",
+        "imp": "0x10046292c"
+      },
+      {
+        "kind": "instance",
+        "selector": "sessionInterruptionEndedWithNotification:",
+        "imp": "0x100462980"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewDidLoad",
+        "imp": "0x10045f08c"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewDidLayoutSubviews",
+        "imp": "0x10045f1dc"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewWillAppear:",
+        "imp": "0x10045f2e0"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewDidAppear:",
+        "imp": "0x10045f8b0"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewWillDisappear:",
+        "imp": "0x10045fa00"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithNibName:bundle:",
+        "imp": "0x10045fe28"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x100460244"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x100460278"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "captureSession",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      },
+      {
+        "name": "captureDeviceInput",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "photoOutput",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "movieOutput",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "previewLayer",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "onPhotoCaptured",
+        "initial_offset_before_runtime": 48,
+        "size": 16
+      },
+      {
+        "name": "onVideoRecorded",
+        "initial_offset_before_runtime": 64,
+        "size": 16
+      },
+      {
+        "name": "sessionController",
+        "initial_offset_before_runtime": 80,
+        "size": 8
+      },
+      {
+        "name": "isCapture",
+        "initial_offset_before_runtime": 88,
+        "size": 1
+      },
+      {
+        "name": "isRecording",
+        "initial_offset_before_runtime": 89,
+        "size": 1
+      },
+      {
+        "name": "isWaitingForLivePhoto",
+        "initial_offset_before_runtime": 90,
+        "size": 1
+      },
+      {
+        "name": "maxVideoRecordingDuration",
+        "initial_offset_before_runtime": 96,
+        "size": 8
+      },
+      {
+        "name": "maxPhotoDimensions",
+        "initial_offset_before_runtime": 104,
+        "size": 9
+      },
+      {
+        "name": "livePhotoPhoto",
+        "initial_offset_before_runtime": 120,
+        "size": 8
+      },
+      {
+        "name": "livePhotoMovieURL",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "currentCaptureMode",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "currentRecordingURL",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "isRecordingCancelled",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "stopVideoDispatchWorkItem",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "currentCameraPosition",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "shouldResetToBackCamera",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "cameraBottomObstructionHeight",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "initialPinchZoomFactor",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "controlsDelegate",
+        "initial_offset_before_runtime": 0,
+        "size": 32
+      },
+      {
+        "name": "controlsSessionQueue",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "hiddenBoundsView",
+        "initial_offset_before_runtime": 0,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords35StickerCameraBoundsContentViewModel",
+    "class": "0x101f788e8",
+    "ro": "0x101f37df0",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "_showCameraFrame",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_opacityCameraFrame",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_startAniamtion",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_location",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showFocusIndicator",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_zoomFactor",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showZoomHUD",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_visiableBound",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_isVideoMode",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_shakeAnimation",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_shakeOffsetX",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_isDemoMode",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_bottomObstructionHeight",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords23StickerCameraBoundsView",
+    "class": "0x101f37ea0",
+    "ro": "0x101f37e40",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x10046d874"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x10046d894"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x10046d928"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "$__lazy_storage_$_content",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords37StickerCameraCropToolContentViewModel",
+    "class": "0x101f78f08",
+    "ro": "0x101f37f10",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "_isZoomed",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_opacity",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_confirmButtonFrame",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_cancelButtonFrame",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords25StickerCameraCropToolView",
+    "class": "0x101f37fc0",
+    "ro": "0x101f37f60",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x1004713cc"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x1004713ec"
+      },
+      {
+        "kind": "instance",
+        "selector": "hitTest:withEvent:",
+        "imp": "0x100471450"
+      },
+      {
+        "kind": "instance",
+        "selector": "pointInside:withEvent:",
+        "imp": "0x100471518"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x1004715a8"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "$__lazy_storage_$_content",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords27StickerCameraViewController",
+    "class": "0x101f38098",
+    "ro": "0x101f38030",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "handleTap:",
+        "imp": "0x100475ed4"
+      },
+      {
+        "kind": "instance",
+        "selector": "handleDoubleTap:",
+        "imp": "0x100475f28"
+      },
+      {
+        "kind": "instance",
+        "selector": "handlePinch:",
+        "imp": "0x1004763cc"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewDidLoad",
+        "imp": "0x100472510"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewWillAppear:",
+        "imp": "0x1004725b4"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithNibName:bundle:",
+        "imp": "0x100472998"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x100472d64"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x100472dbc"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "usesDemoMedia",
+        "initial_offset_before_runtime": 8,
+        "size": 1
+      },
+      {
+        "name": "stickerLayerStore",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "stickerLayerController",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "sceneStickerLayerStore",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "sceneStickerLayerController",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "dustImageView",
+        "initial_offset_before_runtime": 48,
+        "size": 8
+      },
+      {
+        "name": "cameraCaptureViewController",
+        "initial_offset_before_runtime": 56,
+        "size": 8
+      },
+      {
+        "name": "cropViewController",
+        "initial_offset_before_runtime": 64,
+        "size": 8
+      },
+      {
+        "name": "boundsView",
+        "initial_offset_before_runtime": 72,
+        "size": 8
+      },
+      {
+        "name": "isFromLibrary",
+        "initial_offset_before_runtime": 80,
+        "size": 1
+      },
+      {
+        "name": "cancellable",
+        "initial_offset_before_runtime": 88,
+        "size": 8
+      },
+      {
+        "name": "errorAlertType",
+        "initial_offset_before_runtime": 96,
+        "size": 1
+      },
+      {
+        "name": "errorAlertController",
+        "initial_offset_before_runtime": 104,
+        "size": 8
+      },
+      {
+        "name": "resultImage",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "recognitionDebugSnapshot",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "isRecognitionResultVisible",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "needShowAPIErrorAlert",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "cameraBottomObstructionHeight",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "apiTask",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "sceneApiTask",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "enterDate",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "capDate",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "captureTargetDate",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "sendedImage",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "sendedSceneImage",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "videoURL",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "livePhotoRecognitionResources",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "livePhotoRecognitionRequestID",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "mediaProcessingSessionID",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "hasShowScene",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "isProcessing",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "hideZoomHUDWorkItem",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_focusTapGestureRecognizer",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_switchCameraDoubleTapGestureRecognizer",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_pinchZoomGestureRecognizer",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "metadataCoordinator",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_sceneTipView",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_backgroundColorView",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords37StickerCameraErrorAlertViewController",
+    "class": "0x101f386c0",
+    "ro": "0x101f38660",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "viewDidLoad",
+        "imp": "0x10049819c"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x100498284"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "store",
+        "initial_offset_before_runtime": 128,
+        "size": 8
+      },
+      {
+        "name": "cancellables",
+        "initial_offset_before_runtime": 136,
+        "size": 8
+      },
+      {
+        "name": "retryHandler",
+        "initial_offset_before_runtime": 144,
+        "size": 16
+      },
+      {
+        "name": "$__lazy_storage_$_contentController",
+        "initial_offset_before_runtime": 160,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords23StickerOutlineImageView",
+    "class": "0x101f388c0",
+    "ro": "0x101f38860",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x1004d1bac"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x1004d1cec"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x1004d1d48"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "image",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      },
+      {
+        "name": "outlineWidth",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "path",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords25CameraBarContentViewModel",
+    "class": "0x101f7b6a0",
+    "ro": "0x101f38e50",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "_showCameraExpandedBar",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_cameraBarState",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_rotationAnimation",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_cameraButtonFrame",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showSceneContent",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_isCropError",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_isDemoMode",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_livePhotoTipState",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showLoadingCircleview",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_loadingProgress",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_checkermarkAnimation",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showContent",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_disableActionButtons",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_isTappedEndGesture",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showLongPressTip",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_showLongPressTipAnimation",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_hasPerformedCameraButtonAction",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "_onboardingGuideState",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords13CameraBarView",
+    "class": "0x101f38f00",
+    "ro": "0x101f38ea0",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x1004f241c"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x1004f243c"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x1004f24d0"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "$__lazy_storage_$_content",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords15DustEffectLayer",
+    "class": "0x101f39168",
+    "ro": "0x101f39108",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "init",
+        "imp": "0x100507e88"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithLayer:",
+        "imp": "0x10050807c"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x100508104"
+      },
+      {
+        "kind": "instance",
+        "selector": "dealloc",
+        "imp": "0x100508244"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x1005082f8"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "internalData",
+        "initial_offset_before_runtime": 312,
+        "size": 8
+      },
+      {
+        "name": "particleStride",
+        "initial_offset_before_runtime": 320,
+        "size": 8
+      },
+      {
+        "name": "renderScale",
+        "initial_offset_before_runtime": 328,
+        "size": 8
+      },
+      {
+        "name": "animatesWhenAttachedToLayerTree",
+        "initial_offset_before_runtime": 336,
+        "size": 1
+      },
+      {
+        "name": "diagnosticTag",
+        "initial_offset_before_runtime": 344,
+        "size": 16
+      },
+      {
+        "name": "updateLink",
+        "initial_offset_before_runtime": 360,
+        "size": 16
+      },
+      {
+        "name": "items",
+        "initial_offset_before_runtime": 376,
+        "size": 8
+      },
+      {
+        "name": "lastTimeStep",
+        "initial_offset_before_runtime": 384,
+        "size": 8
+      },
+      {
+        "name": "hasLoggedFirstAnimationFrame",
+        "initial_offset_before_runtime": 392,
+        "size": 1
+      },
+      {
+        "name": "hasLoggedFirstMetalUpdate",
+        "initial_offset_before_runtime": 393,
+        "size": 1
+      },
+      {
+        "name": "hasLoggedParticleBufferFailure",
+        "initial_offset_before_runtime": 394,
+        "size": 1
+      },
+      {
+        "name": "animationSpeed",
+        "initial_offset_before_runtime": 396,
+        "size": 4
+      },
+      {
+        "name": "playsBackwards",
+        "initial_offset_before_runtime": 400,
+        "size": 1
+      },
+      {
+        "name": "becameEmpty",
+        "initial_offset_before_runtime": 408,
+        "size": 16
+      },
+      {
+        "name": "lastUpdateTimestamp",
+        "initial_offset_before_runtime": 424,
+        "size": 9
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords15DustEffectLayerP33_9C81C42A7E54816F0017B75EA1A140104Item",
+    "class": "0x101f7c728",
+    "ro": "0x101ec3a28",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "frame",
+        "initial_offset_before_runtime": 16,
+        "size": 32
+      },
+      {
+        "name": "texture",
+        "initial_offset_before_runtime": 48,
+        "size": 8
+      },
+      {
+        "name": "phase",
+        "initial_offset_before_runtime": 56,
+        "size": 4
+      },
+      {
+        "name": "particleBufferIsInitialized",
+        "initial_offset_before_runtime": 60,
+        "size": 1
+      },
+      {
+        "name": "particleBuffer",
+        "initial_offset_before_runtime": 64,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords15DustEffectLayerP33_9C81C42A7E54816F0017B75EA1A1401011RenderState",
+    "class": "0x101f7c7e8",
+    "ro": "0x101ec3ae0",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "pipelineState",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords15DustEffectLayer16DustComputeState",
+    "class": "0x101f7c888",
+    "ro": "0x101ec3bb8",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "computePipelineStateInitializeParticle",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "computePipelineStateUpdateParticle",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords23MetalEngineSubjectLayer",
+    "class": "0x101f39350",
+    "ro": "0x101f392f0",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "contents",
+        "imp": "0x10050acac"
+      },
+      {
+        "kind": "instance",
+        "selector": "setContents:",
+        "imp": "0x10050adb4"
+      },
+      {
+        "kind": "instance",
+        "selector": "contentsRect",
+        "imp": "0x10050b0c8"
+      },
+      {
+        "kind": "instance",
+        "selector": "setContentsRect:",
+        "imp": "0x10050b134"
+      },
+      {
+        "kind": "instance",
+        "selector": "init",
+        "imp": "0x10050b3c0"
+      },
+      {
+        "kind": "instance",
+        "selector": "dealloc",
+        "imp": "0x10050b6c4"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithLayer:",
+        "imp": "0x10050b810"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x10050ba2c"
+      },
+      {
+        "kind": "instance",
+        "selector": "setNeedsDisplay",
+        "imp": "0x10050bb80"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x10050b6e8"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "internalId",
+        "initial_offset_before_runtime": 48,
+        "size": 8
+      },
+      {
+        "name": "surfaceAllocation",
+        "initial_offset_before_runtime": 56,
+        "size": 241
+      },
+      {
+        "name": "cloneLayers",
+        "initial_offset_before_runtime": 304,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords25MetalEngineSubjectContext",
+    "class": "0x101f7cec8",
+    "ro": "0x101ec43d8",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "device",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "impl",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "computeOperations",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "renderToLayerOperationsGroupedByState",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "freeResourcesOnCompletion",
+        "initial_offset_before_runtime": 48,
+        "size": 8
+      },
+      {
+        "name": "customCompletions",
+        "initial_offset_before_runtime": 56,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords25MetalEngineSubjectContextP33_DB9909774E7624C171953EDD0C8B58C716ComputeOperation",
+    "class": "0x101f7cf90",
+    "ro": "0x101ec4490",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "commands",
+        "initial_offset_before_runtime": 16,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords25MetalEngineSubjectContextP33_DB9909774E7624C171953EDD0C8B58C722RenderToLayerOperation",
+    "class": "0x101f7d030",
+    "ro": "0x101ec45a8",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "spec",
+        "initial_offset_before_runtime": 16,
+        "size": 24
+      },
+      {
+        "name": "state",
+        "initial_offset_before_runtime": 40,
+        "size": 16
+      },
+      {
+        "name": "layer",
+        "initial_offset_before_runtime": 56,
+        "size": 8
+      },
+      {
+        "name": "commands",
+        "initial_offset_before_runtime": 64,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords30MetalEngineSubjectInternalData",
+    "class": "0x101f7d0e8",
+    "ro": "0x101ec4680",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "internalId",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "renderSurfaceAllocation",
+        "initial_offset_before_runtime": 24,
+        "size": 241
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords11MetalEngine",
+    "class": "0x101f7d1c0",
+    "ro": "0x101ec47a8",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "impl",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords11MetalEngineP33_DB9909774E7624C171953EDD0C8B58C77Surface",
+    "class": "0x101f7d260",
+    "ro": "0x101ec4900",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "id",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "width",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "height",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "ioSurface",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "texture",
+        "initial_offset_before_runtime": 48,
+        "size": 8
+      },
+      {
+        "name": "packContext",
+        "initial_offset_before_runtime": 56,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords11MetalEngineP33_DB9909774E7624C171953EDD0C8B58C716SubjectReference",
+    "class": "0x101f7d328",
+    "ro": "0x101ec49b8",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "subject",
+        "initial_offset_before_runtime": 16,
+        "size": 16
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords11MetalEngineP33_DB9909774E7624C171953EDD0C8B58C74Impl",
+    "class": "0x101f7d3c8",
+    "ro": "0x101ec4c10",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "device",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "library",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "commandQueue",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "clearPipelineState",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "layer",
+        "initial_offset_before_runtime": 48,
+        "size": 8
+      },
+      {
+        "name": "nextSurfaceId",
+        "initial_offset_before_runtime": 56,
+        "size": 8
+      },
+      {
+        "name": "surfaces",
+        "initial_offset_before_runtime": 64,
+        "size": 8
+      },
+      {
+        "name": "nextLayerId",
+        "initial_offset_before_runtime": 72,
+        "size": 8
+      },
+      {
+        "name": "nextSubjectId",
+        "initial_offset_before_runtime": 80,
+        "size": 8
+      },
+      {
+        "name": "updatedSubjectIds",
+        "initial_offset_before_runtime": 88,
+        "size": 8
+      },
+      {
+        "name": "updatedSubjects",
+        "initial_offset_before_runtime": 96,
+        "size": 8
+      },
+      {
+        "name": "scheduledClearAllocations",
+        "initial_offset_before_runtime": 104,
+        "size": 8
+      },
+      {
+        "name": "renderStates",
+        "initial_offset_before_runtime": 112,
+        "size": 8
+      },
+      {
+        "name": "computeStates",
+        "initial_offset_before_runtime": 120,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords23SharedDisplayLinkDriver",
+    "class": "0x101f7d890",
+    "ro": "0x101ec4d48",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "displayLinkEventWithDisplayLink:",
+        "imp": "0x10053a980"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "displayLink",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "requests",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "isInForeground",
+        "initial_offset_before_runtime": 32,
+        "size": 1
+      },
+      {
+        "name": "isProcessingEvent",
+        "initial_offset_before_runtime": 33,
+        "size": 1
+      },
+      {
+        "name": "isUpdateRequested",
+        "initial_offset_before_runtime": 34,
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords23SharedDisplayLinkDriver8LinkImpl",
+    "class": "0x101f7d950",
+    "ro": "0x101ec4e80",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "driver",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "framesPerSecond",
+        "initial_offset_before_runtime": 24,
+        "size": 9
+      },
+      {
+        "name": "update",
+        "initial_offset_before_runtime": 40,
+        "size": 16
+      },
+      {
+        "name": "isValid",
+        "initial_offset_before_runtime": 56,
+        "size": 1
+      },
+      {
+        "name": "isPaused",
+        "initial_offset_before_runtime": 57,
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "_TtCC9SnapWords23SharedDisplayLinkDriverP33_842754875BD7C40AC99E6FADBDDF9E1214RequestContext",
+    "class": "0x101f7da10",
+    "ro": "0x101ec4f78",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "link",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "framesPerSecond",
+        "initial_offset_before_runtime": 24,
+        "size": 9
+      },
+      {
+        "name": "lastDuration",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords11SimpleLayer",
+    "class": "0x101f39628",
+    "ro": "0x101f395c8",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "actionForKey:",
+        "imp": "0x10053adf4"
+      },
+      {
+        "kind": "instance",
+        "selector": "init",
+        "imp": "0x10053ae34"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithLayer:",
+        "imp": "0x10053ae80"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x10053aecc"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x10053aef8"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "didEnterHierarchy",
+        "initial_offset_before_runtime": 8,
+        "size": 16
+      },
+      {
+        "name": "didExitHierarchy",
+        "initial_offset_before_runtime": 24,
+        "size": 16
+      },
+      {
+        "name": "isInHierarchy",
+        "initial_offset_before_runtime": 40,
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords24StickerCutoutOutlineView",
+    "class": "0x101f39a28",
+    "ro": "0x101f399c8",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x10053c3ec"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x10053c40c"
+      },
+      {
+        "kind": "instance",
+        "selector": "layoutSubviews",
+        "imp": "0x10053d2ec"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x10053d320"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "strokeLayer",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      },
+      {
+        "name": "imageLayer",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "outlineLayer",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "glowLayer",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtCV9SnapWords29StickerCutoutOutlineImageView11Coordinator",
+    "class": "0x101f39af8",
+    "ro": "0x101f39a98",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "init",
+        "imp": "0x1005437a8"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "frame",
+        "initial_offset_before_runtime": 8,
+        "size": 32
+      },
+      {
+        "name": "animation",
+        "initial_offset_before_runtime": 40,
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords20StickerDustImageView",
+    "class": "0x101f39be8",
+    "ro": "0x101f39b88",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x10054446c"
+      },
+      {
+        "kind": "instance",
+        "selector": "layoutSubviews",
+        "imp": "0x1005445bc"
+      },
+      {
+        "kind": "instance",
+        "selector": "didMoveToWindow",
+        "imp": "0x1005445f0"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithFrame:",
+        "imp": "0x1005455e0"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x10054563c"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "image",
+        "initial_offset_before_runtime": 8,
+        "size": 8
+      },
+      {
+        "name": "imageContentMode",
+        "initial_offset_before_runtime": 16,
+        "size": 8
+      },
+      {
+        "name": "dissolveDuration",
+        "initial_offset_before_runtime": 24,
+        "size": 8
+      },
+      {
+        "name": "particleStride",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      },
+      {
+        "name": "renderScale",
+        "initial_offset_before_runtime": 40,
+        "size": 8
+      },
+      {
+        "name": "maximumDustLayerSide",
+        "initial_offset_before_runtime": 48,
+        "size": 9
+      },
+      {
+        "name": "particleCanvasPadding",
+        "initial_offset_before_runtime": 64,
+        "size": 8
+      },
+      {
+        "name": "animatesWhenAttachedToLayerTree",
+        "initial_offset_before_runtime": 72,
+        "size": 1
+      },
+      {
+        "name": "completionHandler",
+        "initial_offset_before_runtime": 80,
+        "size": 16
+      },
+      {
+        "name": "diagnosticTag",
+        "initial_offset_before_runtime": 96,
+        "size": 16
+      },
+      {
+        "name": "activeDustEffectLayer",
+        "initial_offset_before_runtime": 112,
+        "size": 8
+      },
+      {
+        "name": "didCompleteCleanup",
+        "initial_offset_before_runtime": 120,
+        "size": 1
+      },
+      {
+        "name": "isDissolveStartPending",
+        "initial_offset_before_runtime": 121,
+        "size": 1
+      },
+      {
+        "name": "$__lazy_storage_$_imageView",
+        "initial_offset_before_runtime": 128,
+        "size": 8
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords24PullDownHapticController",
+    "class": "0x101f81fe0",
+    "ro": "0x101f3bd80",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "_fallbackFeedbackTrigger",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "engine",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "continuousPlayer",
+        "initial_offset_before_runtime": 0,
+        "size": 8
+      },
+      {
+        "name": "isContinuousFeedbackActive",
+        "initial_offset_before_runtime": 0,
+        "size": 1
+      },
+      {
+        "name": "lastFallbackImpactTime",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      },
+      {
+        "name": "lastTransientPulseTime",
+        "initial_offset_before_runtime": 0,
+        "size": 0
+      }
+    ]
+  },
+  {
+    "name": "_TtC4Wave21CADisplayLinkProvider",
+    "class": "0x101fdc8c8",
+    "ro": "0x101ef5988",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "displayLinkFired",
+        "imp": "0x10132087c"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "frameCallback",
+        "initial_offset_before_runtime": 16,
+        "size": 16
+      },
+      {
+        "name": "displayLinkProvider",
+        "initial_offset_before_runtime": 32,
+        "size": 8
+      }
+    ]
+  }
+]

@@ -1,0 +1,2157 @@
+100550a9c:	str	x26, [sp, #-0x50]!
+100550aa0:	stp	x25, x24, [sp, #0x10]
+100550aa4:	stp	x23, x22, [sp, #0x20]
+100550aa8:	stp	x20, x19, [sp, #0x30]
+100550aac:	stp	x29, x30, [sp, #0x40]
+100550ab0:	add	x29, sp, #0x40
+100550ab4:	mov	x19, x21
+100550ab8:	mov	x24, x4
+100550abc:	mov	x25, x3
+100550ac0:	ldr	x22, [x0]
+100550ac4:	ldr	x23, [x1]
+100550ac8:	ldr	x20, [x2]
+100550acc:	ldr	x8, [x20, #0x10]
+100550ad0:	cbz	x8, 0x100550b20
+100550ad4:	mov	x0, x22
+100550ad8:	bl	0x100057ea0
+100550adc:	tbz	w1, #0x0, 0x100550b00
+100550ae0:	ldr	x8, [x20, #0x38]
+100550ae4:	ldr	x26, [x8, x0, lsl #3]
+100550ae8:	mov	x0, x23
+100550aec:	bl	0x100057ea0
+100550af0:	tbnz	w1, #0x0, 0x100550b10
+100550af4:	cbz	x26, 0x100550b20
+100550af8:	cmp	xzr, x26
+100550afc:	b	0x100550bf0
+100550b00:	mov	x0, x23
+100550b04:	bl	0x100057ea0
+100550b08:	tbz	w1, #0x0, 0x100550b20
+100550b0c:	mov	x26, #0x0
+100550b10:	ldr	x8, [x20, #0x38]
+100550b14:	ldr	x8, [x8, x0, lsl #3]
+100550b18:	cmp	x26, x8
+100550b1c:	b.ne	0x100550be4
+100550b20:	ldr	x20, [x25]
+100550b24:	ldr	x8, [x20, #0x10]
+100550b28:	cbz	x8, 0x100550b7c
+100550b2c:	mov	x0, x22
+100550b30:	bl	0x100057ea0
+100550b34:	tbz	w1, #0x0, 0x100550b5c
+100550b38:	ldr	x8, [x20, #0x38]
+100550b3c:	ldr	x25, [x8, x0, lsl #3]
+100550b40:	mov	x0, x23
+100550b44:	bl	0x100057ea0
+100550b48:	tbnz	w1, #0x0, 0x100550b6c
+100550b4c:	mov	x8, #0x7fffffffffffffff
+100550b50:	cmp	x25, x8
+100550b54:	b.eq	0x100550b7c
+100550b58:	b	0x100550bdc
+100550b5c:	mov	x0, x23
+100550b60:	bl	0x100057ea0
+100550b64:	tbz	w1, #0x0, 0x100550b7c
+100550b68:	mov	x25, #0x7fffffffffffffff
+100550b6c:	ldr	x8, [x20, #0x38]
+100550b70:	ldr	x8, [x8, x0, lsl #3]
+100550b74:	cmp	x25, x8
+100550b78:	b.ne	0x100550bdc
+100550b7c:	ldr	x20, [x24]
+100550b80:	ldr	x8, [x20, #0x10]
+100550b84:	cbz	x8, 0x100550bd4
+100550b88:	mov	x0, x22
+100550b8c:	bl	0x100057ea0
+100550b90:	tbz	w1, #0x0, 0x100550bb4
+100550b94:	ldr	x8, [x20, #0x38]
+100550b98:	ldr	x24, [x8, x0, lsl #3]
+100550b9c:	mov	x0, x23
+100550ba0:	bl	0x100057ea0
+100550ba4:	tbnz	w1, #0x0, 0x100550bc4
+100550ba8:	cbz	x24, 0x100550bd4
+100550bac:	cmp	xzr, x24
+100550bb0:	b	0x100550bf0
+100550bb4:	mov	x0, x23
+100550bb8:	bl	0x100057ea0
+100550bbc:	tbz	w1, #0x0, 0x100550bd4
+100550bc0:	mov	x24, #0x0
+100550bc4:	ldr	x8, [x20, #0x38]
+100550bc8:	ldr	x8, [x8, x0, lsl #3]
+100550bcc:	cmp	x24, x8
+100550bd0:	b.ne	0x100550bec
+100550bd4:	cmp	x22, x23
+100550bd8:	b	0x100550bf0
+100550bdc:	cmp	x25, x8
+100550be0:	b	0x100550bf0
+100550be4:	cmp	x8, x26
+100550be8:	b	0x100550bf0
+100550bec:	cmp	x8, x24
+100550bf0:	cset	w0, lt
+100550bf4:	mov	x21, x19
+100550bf8:	ldp	x29, x30, [sp, #0x40]
+100550bfc:	ldp	x20, x19, [sp, #0x30]
+100550c00:	ldp	x23, x22, [sp, #0x20]
+100550c04:	ldp	x25, x24, [sp, #0x10]
+100550c08:	ldr	x26, [sp], #0x50
+100550c0c:	ret
+100550c10:	stp	x25, x24, [sp, #-0x40]!
+100550c14:	stp	x23, x22, [sp, #0x10]
+100550c18:	stp	x20, x19, [sp, #0x20]
+100550c1c:	stp	x29, x30, [sp, #0x30]
+100550c20:	add	x29, sp, #0x30
+100550c24:	mov	x19, x21
+100550c28:	mov	x24, x3
+100550c2c:	ldr	x22, [x0]
+100550c30:	ldr	x23, [x1]
+100550c34:	ldr	x20, [x2]
+100550c38:	ldr	x8, [x20, #0x10]
+100550c3c:	cbz	x8, 0x100550c90
+100550c40:	mov	x0, x22
+100550c44:	bl	0x100057ea0
+100550c48:	tbz	w1, #0x0, 0x100550c70
+100550c4c:	ldr	x8, [x20, #0x38]
+100550c50:	ldr	x25, [x8, x0, lsl #3]
+100550c54:	mov	x0, x23
+100550c58:	bl	0x100057ea0
+100550c5c:	tbnz	w1, #0x0, 0x100550c80
+100550c60:	mov	x8, #0x7fffffffffffffff
+100550c64:	cmp	x25, x8
+100550c68:	b.eq	0x100550c90
+100550c6c:	b	0x100550cf0
+100550c70:	mov	x0, x23
+100550c74:	bl	0x100057ea0
+100550c78:	tbz	w1, #0x0, 0x100550c90
+100550c7c:	mov	x25, #0x7fffffffffffffff
+100550c80:	ldr	x8, [x20, #0x38]
+100550c84:	ldr	x8, [x8, x0, lsl #3]
+100550c88:	cmp	x25, x8
+100550c8c:	b.ne	0x100550cf0
+100550c90:	ldr	x20, [x24]
+100550c94:	ldr	x8, [x20, #0x10]
+100550c98:	cbz	x8, 0x100550ce8
+100550c9c:	mov	x0, x22
+100550ca0:	bl	0x100057ea0
+100550ca4:	tbz	w1, #0x0, 0x100550cc8
+100550ca8:	ldr	x8, [x20, #0x38]
+100550cac:	ldr	x24, [x8, x0, lsl #3]
+100550cb0:	mov	x0, x23
+100550cb4:	bl	0x100057ea0
+100550cb8:	tbnz	w1, #0x0, 0x100550cd8
+100550cbc:	cbz	x24, 0x100550ce8
+100550cc0:	cmp	xzr, x24
+100550cc4:	b	0x100550cfc
+100550cc8:	mov	x0, x23
+100550ccc:	bl	0x100057ea0
+100550cd0:	tbz	w1, #0x0, 0x100550ce8
+100550cd4:	mov	x24, #0x0
+100550cd8:	ldr	x8, [x20, #0x38]
+100550cdc:	ldr	x8, [x8, x0, lsl #3]
+100550ce0:	cmp	x24, x8
+100550ce4:	b.ne	0x100550cf8
+100550ce8:	cmp	x22, x23
+100550cec:	b	0x100550cfc
+100550cf0:	cmp	x25, x8
+100550cf4:	b	0x100550cfc
+100550cf8:	cmp	x8, x24
+100550cfc:	cset	w0, lt
+100550d00:	mov	x21, x19
+100550d04:	ldp	x29, x30, [sp, #0x30]
+100550d08:	ldp	x20, x19, [sp, #0x20]
+100550d0c:	ldp	x23, x22, [sp, #0x10]
+100550d10:	ldp	x25, x24, [sp], #0x40
+100550d14:	ret
+100569408:	stp	d13, d12, [sp, #-0x90]!
+10056940c:	stp	d11, d10, [sp, #0x10]
+100569410:	stp	d9, d8, [sp, #0x20]
+100569414:	stp	x28, x27, [sp, #0x30]
+100569418:	stp	x26, x25, [sp, #0x40]
+10056941c:	stp	x24, x23, [sp, #0x50]
+100569420:	stp	x22, x21, [sp, #0x60]
+100569424:	stp	x20, x19, [sp, #0x70]
+100569428:	stp	x29, x30, [sp, #0x80]
+10056942c:	add	x29, sp, #0x80
+100569430:	sub	sp, sp, #0x110
+100569434:	mov	x22, x4
+100569438:	mov	x23, x3
+10056943c:	mov.16b	v8, v0
+100569440:	mov	x20, x2
+100569444:	mov	x24, x1
+100569448:	mov	x25, x0
+10056944c:	mov	x0, #0x0
+100569450:	bl	0x10177bd54 ; symbol stub for: _$s10Foundation8IndexSetV0B0VMa
+100569454:	sub	x8, x29, #0x38
+100569458:	stur	x0, [x8, #-0x100]
+10056945c:	ldur	x8, [x0, #-0x8]
+100569460:	sub	x9, x29, #0x40
+100569464:	stur	x8, [x9, #-0x100]
+100569468:	ldr	x8, [x8, #0x40]
+10056946c:	mov	x9, x8
+100569470:	adrp	x16, 6468 ; 0x101ead000
+100569474:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+100569478:	blr	x16
+10056947c:	mov	x9, sp
+100569480:	add	x8, x8, #0xf
+100569484:	and	x8, x8, #0xfffffffffffffff0
+100569488:	sub	x8, x9, x8
+10056948c:	sub	x9, x29, #0x48
+100569490:	stur	x8, [x9, #-0x100]
+100569494:	mov	sp, x8
+100569498:	adrp	x0, 6677 ; 0x101f7e000
+10056949c:	add	x0, x0, #0x688
+1005694a0:	adrp	x1, 4854 ; 0x10185f000
+1005694a4:	add	x1, x1, #0xa40
+1005694a8:	bl	0x1000066b0
+1005694ac:	mov	x26, x0
+1005694b0:	ldur	x8, [x0, #-0x8]
+1005694b4:	ldr	x9, [x8, #0x40]
+1005694b8:	add	x8, x9, #0xf
+1005694bc:	and	x8, x8, #0xfffffffffffffff0
+1005694c0:	adrp	x16, 6468 ; 0x101ead000
+1005694c4:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+1005694c8:	blr	x16
+1005694cc:	mov	x9, sp
+1005694d0:	sub	x19, x9, x8
+1005694d4:	mov	sp, x19
+1005694d8:	mov	x0, #0x0
+1005694dc:	bl	0x10177bdd8 ; symbol stub for: _$s10Foundation8IndexSetVMa
+1005694e0:	mov	x21, x0
+1005694e4:	ldur	x28, [x0, #-0x8]
+1005694e8:	ldr	x8, [x28, #0x40]
+1005694ec:	mov	x9, x8
+1005694f0:	adrp	x16, 6468 ; 0x101ead000
+1005694f4:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+1005694f8:	blr	x16
+1005694fc:	mov	x9, sp
+100569500:	add	x8, x8, #0xf
+100569504:	and	x8, x8, #0xfffffffffffffff0
+100569508:	sub	x27, x9, x8
+10056950c:	mov	sp, x27
+100569510:	mov	x0, #0x0
+100569514:	mov	w1, #0x1
+100569518:	sub	x8, x29, #0x18
+10056951c:	stur	x25, [x8, #-0x100]
+100569520:	cmp	x25, #0x1
+100569524:	b.lt	0x100569f6c
+100569528:	cmp	x24, #0x1
+10056952c:	b.lt	0x100569f6c
+100569530:	bl	0x10177bd9c ; symbol stub for: _$s10Foundation8IndexSetV7isEmptySbvg
+100569534:	mov	x8, x0
+100569538:	mov	x0, #0x0
+10056953c:	mov	w1, #0x1
+100569540:	tbnz	w8, #0x0, 0x100569f6c
+100569544:	fcmp	d8, #0.0
+100569548:	b.le	0x100569f6c
+10056954c:	fmov	d0, #1.00000000
+100569550:	fcmp	d8, d0
+100569554:	b.hi	0x100569f6c
+100569558:	sub	x8, x29, #0x88
+10056955c:	stur	x28, [x8, #-0x100]
+100569560:	sub	x8, x29, #0x80
+100569564:	stur	x27, [x8, #-0x100]
+100569568:	sub	x8, x29, #0x78
+10056956c:	stur	x26, [x8, #-0x100]
+100569570:	sub	x8, x29, #0x60
+100569574:	stur	x21, [x8, #-0x100]
+100569578:	sub	x8, x29, #0x58
+10056957c:	stur	x19, [x8, #-0x100]
+100569580:	fsub	d1, d0, d8
+100569584:	fmov	d8, #0.50000000
+100569588:	fmul	d9, d1, d8
+10056958c:	fsub	d10, d0, d9
+100569590:	adrp	x21, 6475 ; 0x101eb4000
+100569594:	ldr	x21, [x21, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+100569598:	mov	x0, x21
+10056959c:	bl	0x10000b4ac
+1005695a0:	mov	x27, x0
+1005695a4:	stur	x0, [x29, #-0x90]
+1005695a8:	mov	x0, x21
+1005695ac:	bl	0x10000b4ac
+1005695b0:	mov	x19, x0
+1005695b4:	stur	x0, [x29, #-0x98]
+1005695b8:	mov	x0, x21
+1005695bc:	bl	0x10000b4ac
+1005695c0:	mov	x28, x0
+1005695c4:	stur	xzr, [x29, #-0xe0]
+1005695c8:	sub	x8, x29, #0x20
+1005695cc:	stur	xzr, [x8, #-0x100]
+1005695d0:	mov	x8, #0x0
+1005695d4:	sub	x9, x29, #0x90
+1005695d8:	stur	xzr, [x9, #-0x100]
+1005695dc:	stur	x0, [x29, #-0xa0]
+1005695e0:	ucvtf	d11, x24
+1005695e4:	sub	x9, x29, #0x18
+1005695e8:	ldur	x25, [x9, #-0x100]
+1005695ec:	ucvtf	d12, x25
+1005695f0:	mov	w9, #0x1
+1005695f4:	sub	x9, x9, x25
+1005695f8:	sub	x10, x29, #0x50
+1005695fc:	stur	x9, [x10, #-0x100]
+100569600:	sub	x9, x29, #0x28
+100569604:	stur	x20, [x9, #-0x100]
+100569608:	sub	x9, x29, #0x68
+10056960c:	stur	x22, [x9, #-0x100]
+100569610:	sub	x9, x29, #0x70
+100569614:	stur	x24, [x9, #-0x100]
+100569618:	b	0x100569644
+10056961c:	sub	x8, x29, #0x68
+100569620:	ldur	x22, [x8, #-0x100]
+100569624:	add	x23, x23, x22
+100569628:	sub	x8, x29, #0x30
+10056962c:	ldur	x9, [x8, #-0x100]
+100569630:	mov	x8, x9
+100569634:	sub	x10, x29, #0x70
+100569638:	ldur	x24, [x10, #-0x100]
+10056963c:	cmp	x9, x24
+100569640:	b.eq	0x100569ab4
+100569644:	mul	x9, x8, x22
+100569648:	smulh	x10, x8, x22
+10056964c:	cmp	x10, x9, asr #63
+100569650:	b.ne	0x100569f9c
+100569654:	mov	x22, #0x0
+100569658:	add	x9, x8, #0x1
+10056965c:	sub	x10, x29, #0x30
+100569660:	stur	x9, [x10, #-0x100]
+100569664:	ucvtf	d0, x8
+100569668:	fadd	d0, d0, d8
+10056966c:	fdiv	d0, d0, d11
+100569670:	fcmp	d9, d0
+100569674:	cset	w9, ls
+100569678:	fcmp	d0, d10
+10056967c:	csel	w9, wzr, w9, hi
+100569680:	stur	w9, [x29, #-0xf0]
+100569684:	mov	x26, #0x4000000000000000
+100569688:	add	x9, x8, x26
+10056968c:	stur	x9, [x29, #-0xf8]
+100569690:	mov	w9, #0x1
+100569694:	orr	x8, x9, x8, lsl #1
+100569698:	sub	x8, x8, x24
+10056969c:	mul	x9, x8, x8
+1005696a0:	smulh	x8, x8, x8
+1005696a4:	sub	x10, x29, #0x8
+1005696a8:	stur	x9, [x10, #-0x100]
+1005696ac:	cmp	x8, x9, asr #63
+1005696b0:	cset	w8, ne
+1005696b4:	stur	w8, [x29, #-0xfc]
+1005696b8:	sub	x8, x29, #0x50
+1005696bc:	ldur	x24, [x8, #-0x100]
+1005696c0:	sub	x8, x29, #0x10
+1005696c4:	stur	x23, [x8, #-0x100]
+1005696c8:	b	0x100569718
+1005696cc:	ldr	x8, [x28, #0x38]
+1005696d0:	str	x19, [x8, x23, lsl #3]
+1005696d4:	stur	x28, [x29, #-0xa0]
+1005696d8:	adrp	x25, -1369 ; 0x100010000
+1005696dc:	add	x25, x25, #0x638
+1005696e0:	stur	x25, [x29, #-0xe0]
+1005696e4:	mov	x19, x27
+1005696e8:	ldur	x27, [x29, #-0xe8]
+1005696ec:	sub	x8, x29, #0x28
+1005696f0:	ldur	x20, [x8, #-0x100]
+1005696f4:	sub	x8, x29, #0x10
+1005696f8:	ldur	x23, [x8, #-0x100]
+1005696fc:	sub	x8, x29, #0x18
+100569700:	ldur	x25, [x8, #-0x100]
+100569704:	add	x22, x22, #0x1
+100569708:	add	x26, x26, #0x1
+10056970c:	add	x24, x24, #0x2
+100569710:	cmp	x25, x22
+100569714:	b.eq	0x10056961c
+100569718:	ldrb	w21, [x23, x22]
+10056971c:	mov	x0, x21
+100569720:	bl	0x10177bda8 ; symbol stub for: _$s10Foundation8IndexSetV8containsySbSiF
+100569724:	tbz	w0, #0x0, 0x100569704
+100569728:	ldur	x0, [x29, #-0xe0]
+10056972c:	mov	x1, #0x0
+100569730:	bl	0x100015ad8
+100569734:	mov	x0, x27
+100569738:	bl	0x1017855dc ; symbol stub for: _swift_isUniquelyReferenced_nonNull_native
+10056973c:	mov	x23, x0
+100569740:	stur	x27, [x29, #-0xd0]
+100569744:	mov	x0, x21
+100569748:	mov	x20, x27
+10056974c:	bl	0x100057ea0
+100569750:	ldr	x8, [x27, #0x10]
+100569754:	mvn	w9, w1
+100569758:	and	x9, x9, #0x1
+10056975c:	adds	x8, x8, x9
+100569760:	b.vs	0x100569e70
+100569764:	mov	x25, x1
+100569768:	ldr	x9, [x27, #0x18]
+10056976c:	cmp	x9, x8
+100569770:	b.ge	0x1005697a8
+100569774:	sub	x20, x29, #0xd0
+100569778:	mov	x0, x8
+10056977c:	mov	x1, x23
+100569780:	bl	0x100527ff0
+100569784:	ldur	x27, [x29, #-0xd0]
+100569788:	mov	x0, x21
+10056978c:	mov	x20, x27
+100569790:	bl	0x100057ea0
+100569794:	and	w8, w1, #0x1
+100569798:	and	w9, w25, #0x1
+10056979c:	cmp	w9, w8
+1005697a0:	b.eq	0x1005697ac
+1005697a4:	b	0x100569fa0
+1005697a8:	tbz	w23, #0x0, 0x100569a58
+1005697ac:	stur	x27, [x29, #-0x90]
+1005697b0:	tbnz	w25, #0x0, 0x1005697f0
+1005697b4:	lsr	x8, x0, #6
+1005697b8:	add	x8, x27, x8, lsl #3
+1005697bc:	mov	w9, #0x1
+1005697c0:	lsl	x9, x9, x0
+1005697c4:	ldr	x10, [x8, #0x40]
+1005697c8:	orr	x9, x10, x9
+1005697cc:	str	x9, [x8, #0x40]
+1005697d0:	ldr	x8, [x27, #0x30]
+1005697d4:	str	x21, [x8, x0, lsl #3]
+1005697d8:	ldr	x8, [x27, #0x38]
+1005697dc:	str	xzr, [x8, x0, lsl #3]
+1005697e0:	ldr	x8, [x27, #0x10]
+1005697e4:	adds	x8, x8, #0x1
+1005697e8:	b.vs	0x100569f2c
+1005697ec:	str	x8, [x27, #0x10]
+1005697f0:	ldr	x8, [x27, #0x38]
+1005697f4:	ldr	x9, [x8, x0, lsl #3]
+1005697f8:	adds	x9, x9, #0x1
+1005697fc:	b.vs	0x100569e74
+100569800:	str	x9, [x8, x0, lsl #3]
+100569804:	ucvtf	d0, x22
+100569808:	fadd	d0, d0, d8
+10056980c:	fdiv	d0, d0, d12
+100569810:	fcmp	d9, d0
+100569814:	cset	w8, ls
+100569818:	fcmp	d0, d10
+10056981c:	csel	w8, wzr, w8, hi
+100569820:	ldur	w9, [x29, #-0xf0]
+100569824:	and	w8, w8, w9
+100569828:	cmp	w8, #0x1
+10056982c:	b.ne	0x100569924
+100569830:	sub	x8, x29, #0x20
+100569834:	ldur	x0, [x8, #-0x100]
+100569838:	mov	x1, #0x0
+10056983c:	bl	0x100015ad8
+100569840:	ldur	x19, [x29, #-0x98]
+100569844:	mov	x0, x19
+100569848:	bl	0x1017855dc ; symbol stub for: _swift_isUniquelyReferenced_nonNull_native
+10056984c:	mov	x25, x0
+100569850:	stur	x19, [x29, #-0xd0]
+100569854:	mov	x0, x21
+100569858:	mov	x20, x19
+10056985c:	bl	0x100057ea0
+100569860:	ldr	x8, [x19, #0x10]
+100569864:	mvn	w9, w1
+100569868:	and	x9, x9, #0x1
+10056986c:	adds	x8, x8, x9
+100569870:	b.vs	0x100569f30
+100569874:	mov	x23, x1
+100569878:	ldr	x9, [x19, #0x18]
+10056987c:	cmp	x9, x8
+100569880:	b.ge	0x1005698b8
+100569884:	sub	x20, x29, #0xd0
+100569888:	mov	x0, x8
+10056988c:	mov	x1, x25
+100569890:	bl	0x100527ff0
+100569894:	ldur	x19, [x29, #-0xd0]
+100569898:	mov	x0, x21
+10056989c:	mov	x20, x19
+1005698a0:	bl	0x100057ea0
+1005698a4:	and	w8, w1, #0x1
+1005698a8:	and	w9, w23, #0x1
+1005698ac:	cmp	w9, w8
+1005698b0:	b.eq	0x1005698bc
+1005698b4:	b	0x100569fa0
+1005698b8:	tbz	w25, #0x0, 0x100569a94
+1005698bc:	stur	x19, [x29, #-0x98]
+1005698c0:	tbnz	w23, #0x0, 0x100569900
+1005698c4:	lsr	x8, x0, #6
+1005698c8:	add	x8, x19, x8, lsl #3
+1005698cc:	mov	w9, #0x1
+1005698d0:	lsl	x9, x9, x0
+1005698d4:	ldr	x10, [x8, #0x40]
+1005698d8:	orr	x9, x10, x9
+1005698dc:	str	x9, [x8, #0x40]
+1005698e0:	ldr	x8, [x19, #0x30]
+1005698e4:	str	x21, [x8, x0, lsl #3]
+1005698e8:	ldr	x8, [x19, #0x38]
+1005698ec:	str	xzr, [x8, x0, lsl #3]
+1005698f0:	ldr	x8, [x19, #0x10]
+1005698f4:	adds	x8, x8, #0x1
+1005698f8:	b.vs	0x100569f98
+1005698fc:	str	x8, [x19, #0x10]
+100569900:	ldr	x8, [x19, #0x38]
+100569904:	ldr	x9, [x8, x0, lsl #3]
+100569908:	adds	x9, x9, #0x1
+10056990c:	b.vs	0x100569f34
+100569910:	str	x9, [x8, x0, lsl #3]
+100569914:	adrp	x8, -1369 ; 0x100010000
+100569918:	add	x8, x8, #0x638
+10056991c:	sub	x9, x29, #0x20
+100569920:	stur	x8, [x9, #-0x100]
+100569924:	tbnz	x26, #0x3f, 0x100569e78
+100569928:	ldur	x8, [x29, #-0xf8]
+10056992c:	tbnz	x8, #0x3f, 0x100569e7c
+100569930:	mul	x8, x24, x24
+100569934:	smulh	x9, x24, x24
+100569938:	cmp	x9, x8, asr #63
+10056993c:	b.ne	0x100569e80
+100569940:	ldur	w9, [x29, #-0xfc]
+100569944:	tbnz	w9, #0x0, 0x100569e84
+100569948:	stur	x27, [x29, #-0xe8]
+10056994c:	mov	x27, x19
+100569950:	sub	x9, x29, #0x8
+100569954:	ldur	x9, [x9, #-0x100]
+100569958:	adds	x19, x8, x9
+10056995c:	b.vs	0x100569e88
+100569960:	ldr	x8, [x28, #0x10]
+100569964:	cbz	x8, 0x100569984
+100569968:	mov	x0, x21
+10056996c:	mov	x20, x28
+100569970:	bl	0x100057ea0
+100569974:	tbz	w1, #0x0, 0x100569984
+100569978:	ldr	x8, [x28, #0x38]
+10056997c:	ldr	x8, [x8, x0, lsl #3]
+100569980:	b	0x100569988
+100569984:	mov	x8, #0x7fffffffffffffff
+100569988:	cmp	x19, x8
+10056998c:	csel	x19, x19, x8, lt
+100569990:	ldur	x20, [x29, #-0xa0]
+100569994:	mov	x0, x20
+100569998:	bl	0x1017855dc ; symbol stub for: _swift_isUniquelyReferenced_nonNull_native
+10056999c:	mov	x28, x0
+1005699a0:	stur	x20, [x29, #-0xd0]
+1005699a4:	mov	x0, x21
+1005699a8:	bl	0x100057ea0
+1005699ac:	mov	x23, x0
+1005699b0:	ldr	x8, [x20, #0x10]
+1005699b4:	mvn	w9, w1
+1005699b8:	and	x9, x9, #0x1
+1005699bc:	adds	x0, x8, x9
+1005699c0:	b.vs	0x100569e8c
+1005699c4:	mov	x25, x1
+1005699c8:	ldr	x8, [x20, #0x18]
+1005699cc:	cmp	x8, x0
+1005699d0:	b.ge	0x100569a0c
+1005699d4:	sub	x20, x29, #0xd0
+1005699d8:	mov	x1, x28
+1005699dc:	bl	0x100527ff0
+1005699e0:	ldur	x20, [x29, #-0xd0]
+1005699e4:	mov	x0, x21
+1005699e8:	bl	0x100057ea0
+1005699ec:	and	w8, w1, #0x1
+1005699f0:	and	w9, w25, #0x1
+1005699f4:	cmp	w9, w8
+1005699f8:	b.ne	0x100569fa0
+1005699fc:	mov	x23, x0
+100569a00:	ldur	x28, [x29, #-0xd0]
+100569a04:	tbnz	w25, #0x0, 0x1005696cc
+100569a08:	b	0x100569a18
+100569a0c:	tbz	w28, #0x0, 0x100569a80
+100569a10:	ldur	x28, [x29, #-0xd0]
+100569a14:	tbnz	w25, #0x0, 0x1005696cc
+100569a18:	lsr	x8, x23, #6
+100569a1c:	add	x8, x28, x8, lsl #3
+100569a20:	mov	w9, #0x1
+100569a24:	lsl	x9, x9, x23
+100569a28:	ldr	x10, [x8, #0x40]
+100569a2c:	orr	x9, x10, x9
+100569a30:	str	x9, [x8, #0x40]
+100569a34:	ldr	x8, [x28, #0x30]
+100569a38:	str	x21, [x8, x23, lsl #3]
+100569a3c:	ldr	x8, [x28, #0x38]
+100569a40:	str	x19, [x8, x23, lsl #3]
+100569a44:	ldr	x8, [x28, #0x10]
+100569a48:	adds	x8, x8, #0x1
+100569a4c:	b.vs	0x100569f38
+100569a50:	str	x8, [x28, #0x10]
+100569a54:	b	0x1005696d4
+100569a58:	sub	x20, x29, #0xd0
+100569a5c:	mov	x23, x19
+100569a60:	mov	x19, x0
+100569a64:	bl	0x10051c244
+100569a68:	mov	x0, x19
+100569a6c:	mov	x19, x23
+100569a70:	ldur	x27, [x29, #-0xd0]
+100569a74:	stur	x27, [x29, #-0x90]
+100569a78:	tbz	w25, #0x0, 0x1005697b4
+100569a7c:	b	0x1005697f0
+100569a80:	sub	x20, x29, #0xd0
+100569a84:	bl	0x10051c244
+100569a88:	ldur	x28, [x29, #-0xd0]
+100569a8c:	tbz	w25, #0x0, 0x100569a18
+100569a90:	b	0x1005696cc
+100569a94:	sub	x20, x29, #0xd0
+100569a98:	mov	x19, x0
+100569a9c:	bl	0x10051c244
+100569aa0:	mov	x0, x19
+100569aa4:	ldur	x19, [x29, #-0xd0]
+100569aa8:	stur	x19, [x29, #-0x98]
+100569aac:	tbz	w23, #0x0, 0x1005698c4
+100569ab0:	b	0x100569900
+100569ab4:	sub	x8, x29, #0x88
+100569ab8:	ldur	x8, [x8, #-0x100]
+100569abc:	ldr	x8, [x8, #0x10]
+100569ac0:	sub	x9, x29, #0x80
+100569ac4:	ldur	x23, [x9, #-0x100]
+100569ac8:	mov	x0, x23
+100569acc:	mov	x1, x20
+100569ad0:	sub	x9, x29, #0x60
+100569ad4:	ldur	x22, [x9, #-0x100]
+100569ad8:	mov	x2, x22
+100569adc:	blr	x8
+100569ae0:	adrp	x0, 6677 ; 0x101f7e000
+100569ae4:	add	x0, x0, #0x6a0
+100569ae8:	adrp	x21, 6467 ; 0x101eac000
+100569aec:	ldr	x21, [x21, #0x3f8] ; literal pool symbol address: _$s10Foundation8IndexSetVMa
+100569af0:	adrp	x2, 6467 ; 0x101eac000
+100569af4:	ldr	x2, [x2, #0x408] ; literal pool symbol address: _$s10Foundation8IndexSetVSTAAMc
+100569af8:	mov	x1, x21
+100569afc:	bl	0x10000c25c
+100569b00:	mov	x1, x0
+100569b04:	sub	x8, x29, #0x58
+100569b08:	ldur	x8, [x8, #-0x100]
+100569b0c:	mov	x20, x23
+100569b10:	mov	x0, x22
+100569b14:	bl	0x101780734 ; symbol stub for: _$sST12makeIterator0B0QzyFTj
+100569b18:	sub	x8, x29, #0x78
+100569b1c:	ldur	x8, [x8, #-0x100]
+100569b20:	ldrsw	x8, [x8, #0x24]
+100569b24:	stur	x8, [x29, #-0xe8]
+100569b28:	adrp	x0, 6677 ; 0x101f7e000
+100569b2c:	add	x0, x0, #0x690
+100569b30:	adrp	x2, 6467 ; 0x101eac000
+100569b34:	ldr	x2, [x2, #0x410] ; literal pool symbol address: _$s10Foundation8IndexSetVSlAAMc
+100569b38:	mov	x1, x21
+100569b3c:	bl	0x10000c25c
+100569b40:	mov	x21, x0
+100569b44:	adrp	x8, 6475 ; 0x101eb4000
+100569b48:	ldr	x8, [x8, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+100569b4c:	stur	x8, [x29, #-0xf0]
+100569b50:	sub	x8, x29, #0x58
+100569b54:	ldur	x26, [x8, #-0x100]
+100569b58:	mov	x23, x27
+100569b5c:	sub	x8, x29, #0x48
+100569b60:	ldur	x27, [x8, #-0x100]
+100569b64:	mov	x8, x27
+100569b68:	mov	x20, x26
+100569b6c:	sub	x9, x29, #0x60
+100569b70:	ldur	x22, [x9, #-0x100]
+100569b74:	mov	x0, x22
+100569b78:	mov	x1, x21
+100569b7c:	bl	0x101780f20 ; symbol stub for: _$sSl8endIndex0B0QzvgTj
+100569b80:	adrp	x0, 6677 ; 0x101f7e000
+100569b84:	add	x0, x0, #0x698
+100569b88:	adrp	x1, 6467 ; 0x101eac000
+100569b8c:	ldr	x1, [x1, #0x388] ; literal pool symbol address: _$s10Foundation8IndexSetV0B0VMa
+100569b90:	adrp	x2, 6467 ; 0x101eac000
+100569b94:	ldr	x2, [x2, #0x390] ; literal pool symbol address: _$s10Foundation8IndexSetV0B0VSQAAMc
+100569b98:	bl	0x10000c25c
+100569b9c:	mov	x3, x0
+100569ba0:	ldur	x25, [x29, #-0xe8]
+100569ba4:	add	x0, x26, x25
+100569ba8:	mov	x1, x27
+100569bac:	sub	x8, x29, #0x38
+100569bb0:	ldur	x24, [x8, #-0x100]
+100569bb4:	mov	x20, x24
+100569bb8:	mov	x2, x24
+100569bbc:	bl	0x101780308 ; symbol stub for: _$sSQ2eeoiySbx_xtFZTj
+100569bc0:	mov	x20, x0
+100569bc4:	sub	x8, x29, #0x40
+100569bc8:	ldur	x8, [x8, #-0x100]
+100569bcc:	ldr	x8, [x8, #0x8]
+100569bd0:	mov	x0, x27
+100569bd4:	mov	x1, x24
+100569bd8:	blr	x8
+100569bdc:	tbnz	w20, #0x0, 0x100569cc8
+100569be0:	sub	x0, x29, #0xd0
+100569be4:	add	x1, x26, x25
+100569be8:	mov	x20, x26
+100569bec:	mov	x2, x22
+100569bf0:	mov	x3, x21
+100569bf4:	bl	0x101780fa4 ; symbol stub for: _$sSly7ElementQz5IndexQzcirTj
+100569bf8:	mov	x8, x0
+100569bfc:	ldr	x24, [x1]
+100569c00:	sub	x0, x29, #0xd0
+100569c04:	mov	w1, #0x0
+100569c08:	blr	x8
+100569c0c:	add	x0, x26, x25
+100569c10:	mov	x1, x22
+100569c14:	mov	x2, x21
+100569c18:	bl	0x101780f2c ; symbol stub for: _$sSl9formIndex5aftery0B0Qzz_tFTj
+100569c1c:	mov	x27, x23
+100569c20:	ldr	x8, [x23, #0x10]
+100569c24:	cbz	x8, 0x100569b58
+100569c28:	mov	x0, x24
+100569c2c:	mov	x20, x27
+100569c30:	bl	0x100057ea0
+100569c34:	tbz	w1, #0x0, 0x100569b58
+100569c38:	ldr	x8, [x27, #0x38]
+100569c3c:	ldr	x8, [x8, x0, lsl #3]
+100569c40:	cmp	x8, #0x1
+100569c44:	b.lt	0x100569b58
+100569c48:	ldur	x20, [x29, #-0xf0]
+100569c4c:	mov	x0, x20
+100569c50:	bl	0x1017855dc ; symbol stub for: _swift_isUniquelyReferenced_nonNull_native
+100569c54:	stur	x20, [x29, #-0xa8]
+100569c58:	mov	x27, x19
+100569c5c:	tbnz	w0, #0x0, 0x100569c7c
+100569c60:	ldr	x8, [x20, #0x10]
+100569c64:	add	x1, x8, #0x1
+100569c68:	sub	x20, x29, #0xa8
+100569c6c:	mov	w0, #0x0
+100569c70:	mov	w2, #0x1
+100569c74:	bl	0x100435668
+100569c78:	ldur	x20, [x29, #-0xa8]
+100569c7c:	ldp	x19, x8, [x20, #0x10]
+100569c80:	add	x22, x19, #0x1
+100569c84:	cmp	x19, x8, lsr #1
+100569c88:	b.hs	0x100569ca8
+100569c8c:	str	x22, [x20, #0x10]
+100569c90:	stur	x20, [x29, #-0xf0]
+100569c94:	add	x8, x20, x19, lsl #3
+100569c98:	str	x24, [x8, #0x20]
+100569c9c:	mov	x19, x27
+100569ca0:	mov	x27, x23
+100569ca4:	b	0x100569b58
+100569ca8:	cmp	x8, #0x1
+100569cac:	cset	w0, hi
+100569cb0:	sub	x20, x29, #0xa8
+100569cb4:	mov	x1, x22
+100569cb8:	mov	w2, #0x1
+100569cbc:	bl	0x100435668
+100569cc0:	ldur	x20, [x29, #-0xa8]
+100569cc4:	b	0x100569c8c
+100569cc8:	adrp	x1, 6677 ; 0x101f7e000
+100569ccc:	add	x1, x1, #0x688
+100569cd0:	adrp	x2, 4854 ; 0x10185f000
+100569cd4:	add	x2, x2, #0xa40
+100569cd8:	mov	x0, x26
+100569cdc:	bl	0x1000159a4
+100569ce0:	ldur	x25, [x29, #-0xf0]
+100569ce4:	ldr	x24, [x25, #0x10]
+100569ce8:	cbz	x24, 0x100569e2c
+100569cec:	bl	0x1017857bc ; symbol stub for: _swift_retain_x25
+100569cf0:	adrp	x22, 6475 ; 0x101eb4000
+100569cf4:	ldr	x22, [x22, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+100569cf8:	mov	w26, #0x20
+100569cfc:	b	0x100569d2c
+100569d00:	ldp	x19, x8, [x22, #0x10]
+100569d04:	add	x23, x19, #0x1
+100569d08:	cmp	x19, x8, lsr #1
+100569d0c:	b.hs	0x100569d8c
+100569d10:	str	x23, [x22, #0x10]
+100569d14:	add	x8, x22, x19, lsl #3
+100569d18:	str	x21, [x8, #0x20]
+100569d1c:	mov	x19, x27
+100569d20:	add	x26, x26, #0x8
+100569d24:	subs	x24, x24, #0x1
+100569d28:	b.eq	0x100569dac
+100569d2c:	ldr	x8, [x19, #0x10]
+100569d30:	cbz	x8, 0x100569d20
+100569d34:	ldr	x21, [x25, x26]
+100569d38:	mov	x0, x21
+100569d3c:	mov	x20, x19
+100569d40:	bl	0x100057ea0
+100569d44:	tbz	w1, #0x0, 0x100569d20
+100569d48:	ldr	x8, [x19, #0x38]
+100569d4c:	ldr	x8, [x8, x0, lsl #3]
+100569d50:	cmp	x8, #0x1
+100569d54:	b.lt	0x100569d20
+100569d58:	mov	x0, x22
+100569d5c:	bl	0x1017855dc ; symbol stub for: _swift_isUniquelyReferenced_nonNull_native
+100569d60:	stur	x22, [x29, #-0xd0]
+100569d64:	mov	x27, x19
+100569d68:	tbnz	w0, #0x0, 0x100569d00
+100569d6c:	ldr	x8, [x22, #0x10]
+100569d70:	add	x1, x8, #0x1
+100569d74:	sub	x20, x29, #0xd0
+100569d78:	mov	w0, #0x0
+100569d7c:	mov	w2, #0x1
+100569d80:	bl	0x100435668
+100569d84:	ldur	x22, [x29, #-0xd0]
+100569d88:	b	0x100569d00
+100569d8c:	cmp	x8, #0x1
+100569d90:	cset	w0, hi
+100569d94:	sub	x20, x29, #0xd0
+100569d98:	mov	x1, x23
+100569d9c:	mov	w2, #0x1
+100569da0:	bl	0x100435668
+100569da4:	ldur	x22, [x29, #-0xd0]
+100569da8:	b	0x100569d10
+100569dac:	ldr	x8, [x22, #0x10]
+100569db0:	cbz	x8, 0x100569e90
+100569db4:	bl	0x101785798 ; symbol stub for: _swift_retain_x22
+100569db8:	mov	x0, x25
+100569dbc:	mov	w1, #0x2
+100569dc0:	bl	0x10178563c ; symbol stub for: _swift_release_n
+100569dc4:	sub	x8, x29, #0x98
+100569dc8:	sub	x9, x29, #0xa0
+100569dcc:	stp	x8, x9, [x29, #-0xc0]
+100569dd0:	sub	x8, x29, #0x90
+100569dd4:	stp	x8, x22, [x29, #-0xb0]
+100569dd8:	adrp	x0, 3 ; 0x10056c000
+100569ddc:	add	x0, x0, #0x5c8
+100569de0:	sub	x1, x29, #0xd0
+100569de4:	sub	x20, x29, #0xa8
+100569de8:	ldur	x21, [x8, #-0x100]
+100569dec:	bl	0x10007264c
+100569df0:	cbnz	x21, 0x100569fb0
+100569df4:	ldur	x0, [x29, #-0xe0]
+100569df8:	mov	x1, #0x0
+100569dfc:	bl	0x100015ad8
+100569e00:	sub	x8, x29, #0x20
+100569e04:	ldur	x0, [x8, #-0x100]
+100569e08:	mov	x1, #0x0
+100569e0c:	bl	0x100015ad8
+100569e10:	bl	0x10178569c ; symbol stub for: _swift_release_x22
+100569e14:	ldur	x8, [x29, #-0xa8]
+100569e18:	ldr	x9, [x8, #0x10]
+100569e1c:	cbz	x9, 0x100569f00
+100569e20:	mov	w19, #0x0
+100569e24:	ldr	x20, [x8, #0x20]
+100569e28:	b	0x100569f08
+100569e2c:	ldur	x0, [x29, #-0xe0]
+100569e30:	mov	x1, #0x0
+100569e34:	bl	0x100015ad8
+100569e38:	sub	x8, x29, #0x20
+100569e3c:	ldur	x0, [x8, #-0x100]
+100569e40:	mov	x1, #0x0
+100569e44:	bl	0x100015ad8
+100569e48:	mov	x0, x23
+100569e4c:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569e50:	mov	x0, x19
+100569e54:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569e58:	mov	x0, x28
+100569e5c:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569e60:	bl	0x1017856c0 ; symbol stub for: _swift_release_x25
+100569e64:	mov	x0, #0x0
+100569e68:	mov	w1, #0x1
+100569e6c:	b	0x100569f6c
+100569e70:	brk	#0x1
+100569e74:	brk	#0x1
+100569e78:	brk	#0x1
+100569e7c:	brk	#0x1
+100569e80:	brk	#0x1
+100569e84:	brk	#0x1
+100569e88:	brk	#0x1
+100569e8c:	brk	#0x1
+100569e90:	bl	0x10178569c ; symbol stub for: _swift_release_x22
+100569e94:	sub	x8, x29, #0xa0
+100569e98:	sub	x9, x29, #0x90
+100569e9c:	stp	x8, x9, [x29, #-0xc0]
+100569ea0:	stur	x25, [x29, #-0xa8]
+100569ea4:	adrp	x0, 3 ; 0x10056c000
+100569ea8:	add	x0, x0, #0x5e8
+100569eac:	sub	x1, x29, #0xd0
+100569eb0:	sub	x20, x29, #0xa8
+100569eb4:	sub	x8, x29, #0x90
+100569eb8:	ldur	x21, [x8, #-0x100]
+100569ebc:	bl	0x10007264c
+100569ec0:	cbnz	x21, 0x100569fb0
+100569ec4:	mov	x22, x19
+100569ec8:	ldur	x0, [x29, #-0xe0]
+100569ecc:	mov	x1, #0x0
+100569ed0:	bl	0x100015ad8
+100569ed4:	sub	x8, x29, #0x20
+100569ed8:	ldur	x0, [x8, #-0x100]
+100569edc:	mov	x1, #0x0
+100569ee0:	bl	0x100015ad8
+100569ee4:	bl	0x1017856c0 ; symbol stub for: _swift_release_x25
+100569ee8:	ldur	x8, [x29, #-0xa8]
+100569eec:	ldr	x9, [x8, #0x10]
+100569ef0:	cbz	x9, 0x100569f3c
+100569ef4:	mov	w19, #0x0
+100569ef8:	ldr	x21, [x8, #0x20]
+100569efc:	b	0x100569f44
+100569f00:	mov	x20, #0x0
+100569f04:	mov	w19, #0x1
+100569f08:	bl	0x101785708 ; symbol stub for: _swift_release_x8
+100569f0c:	ldur	x0, [x29, #-0xa0]
+100569f10:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569f14:	ldur	x0, [x29, #-0x98]
+100569f18:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569f1c:	ldur	x0, [x29, #-0x90]
+100569f20:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569f24:	mov	x0, x20
+100569f28:	b	0x100569f68
+100569f2c:	brk	#0x1
+100569f30:	brk	#0x1
+100569f34:	brk	#0x1
+100569f38:	brk	#0x1
+100569f3c:	mov	x21, #0x0
+100569f40:	mov	w19, #0x1
+100569f44:	bl	0x101785708 ; symbol stub for: _swift_release_x8
+100569f48:	ldur	x20, [x29, #-0xa0]
+100569f4c:	mov	x0, x22
+100569f50:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569f54:	mov	x0, x20
+100569f58:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569f5c:	ldur	x0, [x29, #-0x90]
+100569f60:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569f64:	mov	x0, x21
+100569f68:	mov	x1, x19
+100569f6c:	sub	sp, x29, #0x80
+100569f70:	ldp	x29, x30, [sp, #0x80]
+100569f74:	ldp	x20, x19, [sp, #0x70]
+100569f78:	ldp	x22, x21, [sp, #0x60]
+100569f7c:	ldp	x24, x23, [sp, #0x50]
+100569f80:	ldp	x26, x25, [sp, #0x40]
+100569f84:	ldp	x28, x27, [sp, #0x30]
+100569f88:	ldp	d9, d8, [sp, #0x20]
+100569f8c:	ldp	d11, d10, [sp, #0x10]
+100569f90:	ldp	d13, d12, [sp], #0x90
+100569f94:	ret
+100569f98:	brk	#0x1
+100569f9c:	brk	#0x1
+100569fa0:	adrp	x0, 6473 ; 0x101eb2000
+100569fa4:	ldr	x0, [x0, #0x880] ; literal pool symbol address: _$sSiN
+100569fa8:	bl	0x101782f78 ; symbol stub for: _$ss53KEY_TYPE_OF_DICTIONARY_VIOLATES_HASHABLE_REQUIREMENTSys5NeverOypXpF
+100569fac:	brk	#0x1
+100569fb0:	ldur	x8, [x29, #-0xa8]
+100569fb4:	bl	0x101785708 ; symbol stub for: _swift_release_x8
+100569fb8:	brk	#0x1
+100569fbc:	stp	x28, x27, [sp, #-0x60]!
+100569fc0:	stp	x26, x25, [sp, #0x10]
+100569fc4:	stp	x24, x23, [sp, #0x20]
+100569fc8:	stp	x22, x21, [sp, #0x30]
+100569fcc:	stp	x20, x19, [sp, #0x40]
+100569fd0:	stp	x29, x30, [sp, #0x50]
+100569fd4:	add	x29, sp, #0x50
+100569fd8:	mov	x22, x0
+100569fdc:	mov	x0, #0x0
+100569fe0:	bl	0x10177bdd8 ; symbol stub for: _$s10Foundation8IndexSetVMa
+100569fe4:	mov	x20, x0
+100569fe8:	ldur	x27, [x0, #-0x8]
+100569fec:	ldr	x8, [x27, #0x40]
+100569ff0:	mov	x9, x8
+100569ff4:	adrp	x16, 6468 ; 0x101ead000
+100569ff8:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+100569ffc:	blr	x16
+10056a000:	mov	x9, sp
+10056a004:	add	x8, x8, #0xf
+10056a008:	and	x8, x8, #0xfffffffffffffff0
+10056a00c:	sub	x21, x9, x8
+10056a010:	mov	sp, x21
+10056a014:	mov	x0, x22
+10056a018:	bl	0x101797720 ; SEL instanceMask
+10056a01c:	mov	x29, x29
+10056a020:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a024:	mov	x19, x0
+10056a028:	bl	0x101783af4 ; symbol stub for: _CVPixelBufferGetPixelFormatType
+10056a02c:	mov	w8, #0x3038
+10056a030:	movk	w8, #0x4c30, lsl #16
+10056a034:	cmp	w0, w8
+10056a038:	b.ne	0x10056a0f8
+10056a03c:	mov	x0, x19
+10056a040:	bl	0x101783b00 ; symbol stub for: _CVPixelBufferGetWidth
+10056a044:	mov	x23, x0
+10056a048:	mov	x0, x19
+10056a04c:	bl	0x101783ae8 ; symbol stub for: _CVPixelBufferGetHeight
+10056a050:	cmp	x23, #0x1
+10056a054:	b.lt	0x10056a0f8
+10056a058:	cmp	x0, #0x1
+10056a05c:	b.lt	0x10056a0f8
+10056a060:	mov	x24, x0
+10056a064:	mov	x0, x19
+10056a068:	mov	w1, #0x1
+10056a06c:	bl	0x101783b0c ; symbol stub for: _CVPixelBufferLockBaseAddress
+10056a070:	mov	x0, x19
+10056a074:	bl	0x101783ad0 ; symbol stub for: _CVPixelBufferGetBaseAddress
+10056a078:	cbz	x0, 0x10056a128
+10056a07c:	mov	x25, x0
+10056a080:	mov	x0, x19
+10056a084:	bl	0x101783adc ; symbol stub for: _CVPixelBufferGetBytesPerRow
+10056a088:	mov	x26, x0
+10056a08c:	mov	x0, x22
+10056a090:	bl	0x101788160 ; SEL allInstances
+10056a094:	mov	x29, x29
+10056a098:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a09c:	mov	x22, x0
+10056a0a0:	mov	x8, x21
+10056a0a4:	bl	0x10177bd78 ; symbol stub for: _$s10Foundation8IndexSetV36_unconditionallyBridgeFromObjectiveCyACSo07NSIndexC0CSgFZ
+10056a0a8:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a0ac:	fmov	d0, #0.50000000
+10056a0b0:	mov	x0, x23
+10056a0b4:	mov	x1, x24
+10056a0b8:	mov	x2, x21
+10056a0bc:	mov	x3, x25
+10056a0c0:	mov	x4, x26
+10056a0c4:	bl	0x100569408
+10056a0c8:	mov	x23, x0
+10056a0cc:	mov	x22, x1
+10056a0d0:	ldr	x8, [x27, #0x8]
+10056a0d4:	mov	x0, x21
+10056a0d8:	mov	x1, x20
+10056a0dc:	blr	x8
+10056a0e0:	mov	x0, x19
+10056a0e4:	mov	w1, #0x1
+10056a0e8:	bl	0x101783b18 ; symbol stub for: _CVPixelBufferUnlockBaseAddress
+10056a0ec:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a0f0:	mov	x0, x23
+10056a0f4:	b	0x10056a104
+10056a0f8:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a0fc:	mov	x0, #0x0
+10056a100:	mov	w22, #0x1
+10056a104:	mov	x1, x22
+10056a108:	sub	sp, x29, #0x50
+10056a10c:	ldp	x29, x30, [sp, #0x50]
+10056a110:	ldp	x20, x19, [sp, #0x40]
+10056a114:	ldp	x22, x21, [sp, #0x30]
+10056a118:	ldp	x24, x23, [sp, #0x20]
+10056a11c:	ldp	x26, x25, [sp, #0x10]
+10056a120:	ldp	x28, x27, [sp], #0x60
+10056a124:	ret
+10056a128:	mov	w22, #0x1
+10056a12c:	mov	x0, x19
+10056a130:	mov	w1, #0x1
+10056a134:	bl	0x101783b18 ; symbol stub for: _CVPixelBufferUnlockBaseAddress
+10056a138:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a13c:	mov	x0, #0x0
+10056a140:	b	0x10056a104
+10056a144:	str	d14, [sp, #-0x90]!
+10056a148:	stp	d13, d12, [sp, #0x8]
+10056a14c:	stp	d11, d10, [sp, #0x18]
+10056a150:	stp	d9, d8, [sp, #0x28]
+10056a154:	str	x28, [sp, #0x38]
+10056a158:	stp	x27, x26, [sp, #0x40]
+10056a15c:	stp	x25, x24, [sp, #0x50]
+10056a160:	stp	x23, x22, [sp, #0x60]
+10056a164:	stp	x20, x19, [sp, #0x70]
+10056a168:	stp	x29, x30, [sp, #0x80]
+10056a16c:	add	x29, sp, #0x80
+10056a170:	sub	sp, sp, #0xb0
+10056a174:	stur	x21, [x29, #-0xb8]
+10056a178:	mov	x27, x0
+10056a17c:	adrp	x8, 6467 ; 0x101ead000
+10056a180:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056a184:	ldr	x8, [x8]
+10056a188:	stur	x8, [x29, #-0x90]
+10056a18c:	mov	x0, #0x0
+10056a190:	bl	0x10177bd54 ; symbol stub for: _$s10Foundation8IndexSetV0B0VMa
+10056a194:	ldur	x8, [x0, #-0x8]
+10056a198:	stp	x8, x0, [x29, #-0xc8]
+10056a19c:	ldr	x8, [x8, #0x40]
+10056a1a0:	mov	x9, x8
+10056a1a4:	adrp	x16, 6467 ; 0x101ead000
+10056a1a8:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+10056a1ac:	blr	x16
+10056a1b0:	mov	x9, sp
+10056a1b4:	add	x8, x8, #0xf
+10056a1b8:	and	x8, x8, #0xfffffffffffffff0
+10056a1bc:	sub	x8, x9, x8
+10056a1c0:	stur	x8, [x29, #-0xd0]
+10056a1c4:	mov	sp, x8
+10056a1c8:	mov	x0, #0x0
+10056a1cc:	bl	0x10177bdd8 ; symbol stub for: _$s10Foundation8IndexSetVMa
+10056a1d0:	mov	x24, x0
+10056a1d4:	adrp	x19, 6466 ; 0x101eac000
+10056a1d8:	ldr	x19, [x19, #0x3f8] ; literal pool symbol address: _$s10Foundation8IndexSetVMa
+10056a1dc:	ldur	x23, [x0, #-0x8]
+10056a1e0:	ldr	x8, [x23, #0x40]
+10056a1e4:	mov	x9, x8
+10056a1e8:	adrp	x16, 6467 ; 0x101ead000
+10056a1ec:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+10056a1f0:	blr	x16
+10056a1f4:	mov	x9, sp
+10056a1f8:	add	x8, x8, #0xf
+10056a1fc:	and	x8, x8, #0xfffffffffffffff0
+10056a200:	sub	x25, x9, x8
+10056a204:	mov	sp, x25
+10056a208:	adrp	x0, 6676 ; 0x101f7e000
+10056a20c:	add	x0, x0, #0x688
+10056a210:	adrp	x1, 4853 ; 0x10185f000
+10056a214:	add	x1, x1, #0xa40
+10056a218:	bl	0x1000066b0
+10056a21c:	mov	x22, x0
+10056a220:	ldur	x8, [x0, #-0x8]
+10056a224:	ldr	x9, [x8, #0x40]
+10056a228:	add	x8, x9, #0xf
+10056a22c:	and	x8, x8, #0xfffffffffffffff0
+10056a230:	adrp	x16, 6467 ; 0x101ead000
+10056a234:	ldr	x16, [x16, #0xb0] ; literal pool symbol address: ___chkstk_darwin
+10056a238:	blr	x16
+10056a23c:	mov	x9, sp
+10056a240:	sub	x26, x9, x8
+10056a244:	mov	sp, x26
+10056a248:	mov	x0, x27
+10056a24c:	bl	0x101788160 ; SEL allInstances
+10056a250:	mov	x29, x29
+10056a254:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a258:	mov	x20, x0
+10056a25c:	mov	x8, x25
+10056a260:	bl	0x10177bd78 ; symbol stub for: _$s10Foundation8IndexSetV36_unconditionallyBridgeFromObjectiveCyACSo07NSIndexC0CSgFZ
+10056a264:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a268:	mov	x8, x26
+10056a26c:	mov	x20, x25
+10056a270:	bl	0x10177bd60 ; symbol stub for: _$s10Foundation8IndexSetV12makeIterators08IndexingE0VyACGyF
+10056a274:	ldr	x8, [x23, #0x8]
+10056a278:	stp	x8, x25, [x29, #-0xe8]
+10056a27c:	mov	x0, x25
+10056a280:	mov	x1, x24
+10056a284:	blr	x8
+10056a288:	ldrsw	x23, [x22, #0x24]
+10056a28c:	adrp	x0, 6676 ; 0x101f7e000
+10056a290:	add	x0, x0, #0x690
+10056a294:	adrp	x2, 6466 ; 0x101eac000
+10056a298:	ldr	x2, [x2, #0x410] ; literal pool symbol address: _$s10Foundation8IndexSetVSlAAMc
+10056a29c:	mov	x1, x19
+10056a2a0:	bl	0x10000c25c
+10056a2a4:	mov	x25, x0
+10056a2a8:	sub	x8, x29, #0x28
+10056a2ac:	stur	xzr, [x8, #-0x100]
+10056a2b0:	fmov	s13, wzr
+10056a2b4:	mov	w8, #0x1
+10056a2b8:	sub	x9, x29, #0x2c
+10056a2bc:	stur	w8, [x9, #-0x100]
+10056a2c0:	adrp	x8, 4804 ; 0x10182e000
+10056a2c4:	ldr	q0, [x8, #0xef0]
+10056a2c8:	stur	q0, [x29, #-0x100]
+10056a2cc:	stur	x27, [x29, #-0xd8]
+10056a2d0:	sub	x8, x29, #0x8
+10056a2d4:	stur	x23, [x8, #-0x100]
+10056a2d8:	sub	x8, x29, #0x10
+10056a2dc:	stur	x0, [x8, #-0x100]
+10056a2e0:	b	0x10056a310
+10056a2e4:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a2e8:	mov	x20, x0
+10056a2ec:	mov	x0, x19
+10056a2f0:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056a2f4:	mov	x19, x0
+10056a2f8:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a2fc:	mov	x21, x19
+10056a300:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056a304:	mov	x0, x19
+10056a308:	bl	0x101785360 ; symbol stub for: _swift_errorRelease
+10056a30c:	stur	xzr, [x29, #-0xb8]
+10056a310:	ldur	x22, [x29, #-0xd0]
+10056a314:	mov	x8, x22
+10056a318:	mov	x20, x26
+10056a31c:	mov	x0, x24
+10056a320:	mov	x1, x25
+10056a324:	bl	0x101780f20 ; symbol stub for: _$sSl8endIndex0B0QzvgTj
+10056a328:	adrp	x0, 6676 ; 0x101f7e000
+10056a32c:	add	x0, x0, #0x698
+10056a330:	adrp	x1, 6466 ; 0x101eac000
+10056a334:	ldr	x1, [x1, #0x388] ; literal pool symbol address: _$s10Foundation8IndexSetV0B0VMa
+10056a338:	adrp	x2, 6466 ; 0x101eac000
+10056a33c:	ldr	x2, [x2, #0x390] ; literal pool symbol address: _$s10Foundation8IndexSetV0B0VSQAAMc
+10056a340:	bl	0x10000c25c
+10056a344:	mov	x3, x0
+10056a348:	add	x0, x26, x23
+10056a34c:	mov	x1, x22
+10056a350:	ldur	x20, [x29, #-0xc0]
+10056a354:	mov	x2, x20
+10056a358:	bl	0x101780308 ; symbol stub for: _$sSQ2eeoiySbx_xtFZTj
+10056a35c:	mov	x19, x0
+10056a360:	ldur	x8, [x29, #-0xc8]
+10056a364:	ldr	x8, [x8, #0x8]
+10056a368:	mov	x0, x22
+10056a36c:	mov	x1, x20
+10056a370:	blr	x8
+10056a374:	tbnz	w19, #0x0, 0x10056a868
+10056a378:	sub	x0, x29, #0xb0
+10056a37c:	add	x1, x26, x23
+10056a380:	mov	x20, x26
+10056a384:	mov	x2, x24
+10056a388:	mov	x3, x25
+10056a38c:	bl	0x101780fa4 ; symbol stub for: _$sSly7ElementQz5IndexQzcirTj
+10056a390:	mov	x8, x0
+10056a394:	ldr	x22, [x1]
+10056a398:	sub	x0, x29, #0xb0
+10056a39c:	mov	w1, #0x0
+10056a3a0:	blr	x8
+10056a3a4:	add	x0, x26, x23
+10056a3a8:	mov	x1, x24
+10056a3ac:	mov	x2, x25
+10056a3b0:	bl	0x101780f2c ; symbol stub for: _$sSl9formIndex5aftery0B0Qzz_tFTj
+10056a3b4:	ldur	x20, [x29, #-0xe0]
+10056a3b8:	mov	x8, x20
+10056a3bc:	mov	x0, x22
+10056a3c0:	bl	0x10177bd90 ; symbol stub for: _$s10Foundation8IndexSetV7integerACSi_tcfC
+10056a3c4:	bl	0x10177bd6c ; symbol stub for: _$s10Foundation8IndexSetV19_bridgeToObjectiveCSo07NSIndexC0CyF
+10056a3c8:	mov	x19, x0
+10056a3cc:	mov	x0, x20
+10056a3d0:	mov	x1, x24
+10056a3d4:	ldur	x8, [x29, #-0xe8]
+10056a3d8:	blr	x8
+10056a3dc:	stur	xzr, [x29, #-0xb0]
+10056a3e0:	sub	x3, x29, #0xb0
+10056a3e4:	ldur	x0, [x29, #-0xd8]
+10056a3e8:	mov	x2, x19
+10056a3ec:	bl	0x101792760 ; SEL generateMaskForInstances:error:
+10056a3f0:	mov	x20, x0
+10056a3f4:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a3f8:	ldur	x19, [x29, #-0xb0]
+10056a3fc:	cbz	x20, 0x10056a2e4
+10056a400:	sub	x8, x29, #0x18
+10056a404:	stur	x22, [x8, #-0x100]
+10056a408:	adrp	x8, 6597 ; 0x101f2f000
+10056a40c:	ldr	x0, [x8, #0x3f8] ; Objc class ref: bad class ref
+10056a410:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056a414:	mov	x22, x0
+10056a418:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a41c:	mov	x0, x22
+10056a420:	mov	x2, x20
+10056a424:	bl	0x101794fa0 ; SEL initWithCVPixelBuffer:
+10056a428:	mov	x28, x0
+10056a42c:	adrp	x8, 6597 ; 0x101f2f000
+10056a430:	ldr	x0, [x8, #0x4d8] ; Objc class ref: bad class ref
+10056a434:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056a438:	bl	0x1017947a0 ; SEL init
+10056a43c:	mov	x19, x0
+10056a440:	fmov	s0, #2.00000000
+10056a444:	bl	0x1017a53e0 ; SEL setContrastAdjustment:
+10056a448:	mov	x0, x19
+10056a44c:	mov	w2, #0x1
+10056a450:	bl	0x1017a5c80 ; SEL setDetectsDarkOnLight:
+10056a454:	mov	x0, x19
+10056a458:	mov	w2, #0x200
+10056a45c:	bl	0x1017a8000 ; SEL setMaximumImageDimension:
+10056a460:	adrp	x0, 6474 ; 0x101eb4000
+10056a464:	ldr	x0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+10056a468:	bl	0x10000b838
+10056a46c:	mov	x22, x0
+10056a470:	adrp	x8, 6597 ; 0x101f2f000
+10056a474:	ldr	x0, [x8, #0x4e0] ; Objc class ref: bad class ref
+10056a478:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056a47c:	mov	x23, x0
+10056a480:	mov	x0, #0x0
+10056a484:	bl	0x10000fa7c
+10056a488:	mov	x25, x0
+10056a48c:	adrp	x0, 6637 ; 0x101f57000
+10056a490:	add	x0, x0, #0xa58
+10056a494:	adrp	x1, -1371 ; 0x10000f000
+10056a498:	add	x1, x1, #0xa7c
+10056a49c:	adrp	x2, 4803 ; 0x10182d000
+10056a4a0:	add	x2, x2, #0xeb4
+10056a4a4:	bl	0x10000c25c
+10056a4a8:	mov	x3, x0
+10056a4ac:	adrp	x8, 6474 ; 0x101eb4000
+10056a4b0:	ldr	x8, [x8, #0x1f0] ; literal pool symbol address: _$sypN
+10056a4b4:	add	x2, x8, #0x8
+10056a4b8:	mov	x0, x22
+10056a4bc:	mov	x1, x25
+10056a4c0:	bl	0x10178002c ; symbol stub for: _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+10056a4c4:	mov	x25, x0
+10056a4c8:	mov	x0, x22
+10056a4cc:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056a4d0:	mov	x0, x23
+10056a4d4:	mov	x2, x28
+10056a4d8:	mov	x3, x25
+10056a4dc:	bl	0x101794f80 ; SEL initWithCIImage:options:
+10056a4e0:	mov	x22, x0
+10056a4e4:	bl	0x101784acc ; symbol stub for: _objc_release_x25
+10056a4e8:	adrp	x0, 6649 ; 0x101f63000
+10056a4ec:	add	x0, x0, #0xbe0
+10056a4f0:	adrp	x1, 4804 ; 0x10182e000
+10056a4f4:	add	x1, x1, #0xd20
+10056a4f8:	bl	0x1000066b0
+10056a4fc:	mov	w1, #0x28
+10056a500:	mov	w2, #0x7
+10056a504:	bl	0x10178515c ; symbol stub for: _swift_allocObject
+10056a508:	mov	x23, x0
+10056a50c:	ldur	q0, [x29, #-0x100]
+10056a510:	str	q0, [x0, #0x10]
+10056a514:	str	x19, [x0, #0x20]
+10056a518:	mov	x0, #0x0
+10056a51c:	adrp	x1, 6676 ; 0x101f7e000
+10056a520:	add	x1, x1, #0x648
+10056a524:	adrp	x2, 6597 ; 0x101f2f000
+10056a528:	add	x2, x2, #0x4e8 ; Objc class ref: bad class ref
+10056a52c:	bl	0x10001d668
+10056a530:	mov	x25, x0
+10056a534:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a538:	mov	x27, x0
+10056a53c:	mov	x0, x23
+10056a540:	mov	x1, x25
+10056a544:	bl	0x1017808a8 ; symbol stub for: _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+10056a548:	mov	x19, x0
+10056a54c:	bl	0x1017856a8 ; symbol stub for: _swift_release_x23
+10056a550:	stur	xzr, [x29, #-0xb0]
+10056a554:	sub	x3, x29, #0xb0
+10056a558:	mov	x0, x22
+10056a55c:	mov	x2, x19
+10056a560:	bl	0x10179e980 ; SEL performRequests:error:
+10056a564:	mov	x23, x0
+10056a568:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a56c:	ldur	x19, [x29, #-0xb0]
+10056a570:	cbz	w23, 0x10056a704
+10056a574:	stur	x28, [x29, #-0xf0]
+10056a578:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a57c:	mov	x0, x27
+10056a580:	bl	0x1017a2560 ; SEL results
+10056a584:	mov	x29, x29
+10056a588:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a58c:	cbz	x0, 0x10056a744
+10056a590:	mov	x23, x0
+10056a594:	sub	x8, x29, #0x20
+10056a598:	stur	x27, [x8, #-0x100]
+10056a59c:	mov	x0, #0x0
+10056a5a0:	adrp	x1, 6676 ; 0x101f7e000
+10056a5a4:	add	x1, x1, #0x650
+10056a5a8:	adrp	x2, 6597 ; 0x101f2f000
+10056a5ac:	add	x2, x2, #0x4f0 ; Objc class ref: bad class ref
+10056a5b0:	bl	0x10001d668
+10056a5b4:	mov	x1, x0
+10056a5b8:	mov	x0, x23
+10056a5bc:	bl	0x1017808c0 ; symbol stub for: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+10056a5c0:	mov	x25, x0
+10056a5c4:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10056a5c8:	lsr	x8, x25, #62
+10056a5cc:	cbnz	x8, 0x10056a80c
+10056a5d0:	and	x8, x25, #0xffffffffffffff8
+10056a5d4:	ldr	x0, [x8, #0x10]
+10056a5d8:	ldur	x19, [x29, #-0xf0]
+10056a5dc:	cbz	x0, 0x10056a824
+10056a5e0:	tst	x25, #0xc000000000000001
+10056a5e4:	b.ne	0x10056a858
+10056a5e8:	and	x8, x25, #0xffffffffffffff8
+10056a5ec:	ldr	x8, [x8, #0x10]
+10056a5f0:	cbz	x8, 0x10056a8e0
+10056a5f4:	ldr	x8, [x25, #0x20]
+10056a5f8:	bl	0x101784c10 ; symbol stub for: _objc_retain_x8
+10056a5fc:	mov	x23, x0
+10056a600:	mov	x0, x25
+10056a604:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056a608:	mov	x0, x23
+10056a60c:	bl	0x10178c820 ; SEL contourCount
+10056a610:	tbnz	x0, #0x3f, 0x10056a8dc
+10056a614:	mov	x27, x0
+10056a618:	cbz	x0, 0x10056a7b4
+10056a61c:	mov	x25, #0x0
+10056a620:	fmov	s14, wzr
+10056a624:	b	0x10056a660
+10056a628:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a62c:	mov	x28, x0
+10056a630:	mov	x0, x19
+10056a634:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056a638:	mov	x19, x0
+10056a63c:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+10056a640:	mov	x21, x19
+10056a644:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056a648:	mov	x0, x19
+10056a64c:	bl	0x101785360 ; symbol stub for: _swift_errorRelease
+10056a650:	stur	xzr, [x29, #-0xb8]
+10056a654:	add	x25, x25, #0x1
+10056a658:	cmp	x27, x25
+10056a65c:	b.eq	0x10056a75c
+10056a660:	stur	xzr, [x29, #-0xb0]
+10056a664:	sub	x3, x29, #0xb0
+10056a668:	mov	x0, x23
+10056a66c:	mov	x2, x25
+10056a670:	bl	0x10178c800 ; SEL contourAtIndex:error:
+10056a674:	mov	x29, x29
+10056a678:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a67c:	ldur	x19, [x29, #-0xb0]
+10056a680:	cbz	x0, 0x10056a628
+10056a684:	mov	x28, x0
+10056a688:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a68c:	mov	x0, x28
+10056a690:	bl	0x10179d320 ; SEL normalizedPath
+10056a694:	mov	x29, x29
+10056a698:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a69c:	mov	x19, x0
+10056a6a0:	bl	0x1017839b0 ; symbol stub for: _CGPathGetBoundingBox
+10056a6a4:	mov.16b	v8, v0
+10056a6a8:	mov.16b	v9, v1
+10056a6ac:	mov.16b	v10, v2
+10056a6b0:	mov.16b	v11, v3
+10056a6b4:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a6b8:	mov.16b	v0, v8
+10056a6bc:	mov.16b	v1, v9
+10056a6c0:	mov.16b	v2, v10
+10056a6c4:	mov.16b	v3, v11
+10056a6c8:	bl	0x101783a40 ; symbol stub for: _CGRectGetWidth
+10056a6cc:	mov.16b	v12, v0
+10056a6d0:	mov.16b	v0, v8
+10056a6d4:	mov.16b	v1, v9
+10056a6d8:	mov.16b	v2, v10
+10056a6dc:	mov.16b	v3, v11
+10056a6e0:	bl	0x1017839ec ; symbol stub for: _CGRectGetHeight
+10056a6e4:	mov.16b	v8, v0
+10056a6e8:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+10056a6ec:	fmul	d0, d12, d8
+10056a6f0:	fcvt	s0, d0
+10056a6f4:	fcmp	s14, s0
+10056a6f8:	b.pl	0x10056a654
+10056a6fc:	mov.16b	v14, v0
+10056a700:	b	0x10056a654
+10056a704:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056a708:	mov	x23, x0
+10056a70c:	mov	x0, x19
+10056a710:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056a714:	mov	x19, x0
+10056a718:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10056a71c:	mov	x21, x19
+10056a720:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056a724:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a728:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056a72c:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+10056a730:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a734:	mov	x0, x19
+10056a738:	bl	0x101785360 ; symbol stub for: _swift_errorRelease
+10056a73c:	stur	xzr, [x29, #-0xb8]
+10056a740:	b	0x10056a844
+10056a744:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a748:	ldur	x8, [x29, #-0xf0]
+10056a74c:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056a750:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056a754:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a758:	b	0x10056a844
+10056a75c:	sub	x8, x29, #0x20
+10056a760:	ldur	x8, [x8, #-0x100]
+10056a764:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056a768:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10056a76c:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a770:	ldur	x8, [x29, #-0xf0]
+10056a774:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056a778:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a77c:	fcmp	s13, s14
+10056a780:	sub	x8, x29, #0x8
+10056a784:	ldur	x23, [x8, #-0x100]
+10056a788:	sub	x8, x29, #0x10
+10056a78c:	ldur	x25, [x8, #-0x100]
+10056a790:	b.pl	0x10056a310
+10056a794:	sub	x8, x29, #0x2c
+10056a798:	stur	wzr, [x8, #-0x100]
+10056a79c:	sub	x8, x29, #0x18
+10056a7a0:	ldur	x8, [x8, #-0x100]
+10056a7a4:	sub	x9, x29, #0x28
+10056a7a8:	stur	x8, [x9, #-0x100]
+10056a7ac:	mov.16b	v13, v14
+10056a7b0:	b	0x10056a310
+10056a7b4:	sub	x8, x29, #0x20
+10056a7b8:	ldur	x8, [x8, #-0x100]
+10056a7bc:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056a7c0:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10056a7c4:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a7c8:	ldur	x8, [x29, #-0xf0]
+10056a7cc:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056a7d0:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a7d4:	fcmp	s13, #0.0
+10056a7d8:	sub	x8, x29, #0x8
+10056a7dc:	ldur	x23, [x8, #-0x100]
+10056a7e0:	sub	x8, x29, #0x10
+10056a7e4:	ldur	x25, [x8, #-0x100]
+10056a7e8:	b.pl	0x10056a310
+10056a7ec:	sub	x8, x29, #0x2c
+10056a7f0:	stur	wzr, [x8, #-0x100]
+10056a7f4:	sub	x8, x29, #0x18
+10056a7f8:	ldur	x8, [x8, #-0x100]
+10056a7fc:	sub	x9, x29, #0x28
+10056a800:	stur	x8, [x9, #-0x100]
+10056a804:	fmov	s13, wzr
+10056a808:	b	0x10056a310
+10056a80c:	and	x8, x25, #0xffffffffffffff8
+10056a810:	cmn	x25, #0x1
+10056a814:	csel	x0, x8, x25, gt
+10056a818:	bl	0x101782528 ; symbol stub for: _$ss18_CocoaArrayWrapperV8endIndexSivg
+10056a81c:	ldur	x19, [x29, #-0xf0]
+10056a820:	cbnz	x0, 0x10056a5e0
+10056a824:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a828:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056a82c:	sub	x8, x29, #0x20
+10056a830:	ldur	x8, [x8, #-0x100]
+10056a834:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056a838:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a83c:	mov	x0, x25
+10056a840:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056a844:	sub	x8, x29, #0x8
+10056a848:	ldur	x23, [x8, #-0x100]
+10056a84c:	sub	x8, x29, #0x10
+10056a850:	ldur	x25, [x8, #-0x100]
+10056a854:	b	0x10056a310
+10056a858:	mov	x0, #0x0
+10056a85c:	mov	x1, x25
+10056a860:	bl	0x101781fdc ; symbol stub for: _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+10056a864:	b	0x10056a5fc
+10056a868:	adrp	x1, 6676 ; 0x101f7e000
+10056a86c:	add	x1, x1, #0x688
+10056a870:	adrp	x2, 4853 ; 0x10185f000
+10056a874:	add	x2, x2, #0xa40
+10056a878:	mov	x0, x26
+10056a87c:	bl	0x1000159a4
+10056a880:	ldur	x8, [x29, #-0x90]
+10056a884:	adrp	x9, 6467 ; 0x101ead000
+10056a888:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056a88c:	ldr	x9, [x9]
+10056a890:	cmp	x9, x8
+10056a894:	b.ne	0x10056a8e4
+10056a898:	sub	x8, x29, #0x28
+10056a89c:	ldur	x0, [x8, #-0x100]
+10056a8a0:	sub	x8, x29, #0x2c
+10056a8a4:	ldur	w1, [x8, #-0x100]
+10056a8a8:	ldur	x21, [x29, #-0xb8]
+10056a8ac:	sub	sp, x29, #0x80
+10056a8b0:	ldp	x29, x30, [sp, #0x80]
+10056a8b4:	ldp	x20, x19, [sp, #0x70]
+10056a8b8:	ldp	x23, x22, [sp, #0x60]
+10056a8bc:	ldp	x25, x24, [sp, #0x50]
+10056a8c0:	ldp	x27, x26, [sp, #0x40]
+10056a8c4:	ldr	x28, [sp, #0x38]
+10056a8c8:	ldp	d9, d8, [sp, #0x28]
+10056a8cc:	ldp	d11, d10, [sp, #0x18]
+10056a8d0:	ldp	d13, d12, [sp, #0x8]
+10056a8d4:	ldr	d14, [sp], #0x90
+10056a8d8:	ret
+10056a8dc:	brk	#0x1
+10056a8e0:	brk	#0x1
+10056a8e4:	bl	0x101784064 ; symbol stub for: ___stack_chk_fail
+10056a8e8:	stp	x24, x23, [sp, #-0x40]!
+10056a8ec:	stp	x22, x21, [sp, #0x10]
+10056a8f0:	stp	x20, x19, [sp, #0x20]
+10056a8f4:	stp	x29, x30, [sp, #0x30]
+10056a8f8:	add	x29, sp, #0x30
+10056a8fc:	mov	x19, x1
+10056a900:	mov	x22, x0
+10056a904:	mov	w21, #0x1
+10056a908:	mov	x0, x1
+10056a90c:	mov	w1, #0x1
+10056a910:	bl	0x101783b0c ; symbol stub for: _CVPixelBufferLockBaseAddress
+10056a914:	adrp	x8, 6597 ; 0x101f2f000
+10056a918:	ldr	x0, [x8, #0x3f8] ; Objc class ref: bad class ref
+10056a91c:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056a920:	mov	x2, x19
+10056a924:	bl	0x101794fa0 ; SEL initWithCVPixelBuffer:
+10056a928:	mov	x20, x0
+10056a92c:	mov	x0, x22
+10056a930:	bl	0x101794000 ; SEL imageOrientation
+10056a934:	sub	x8, x0, #0x1
+10056a938:	cmp	x8, #0x6
+10056a93c:	b.hi	0x10056a94c
+10056a940:	adrp	x9, 4853 ; 0x10185f000
+10056a944:	add	x9, x9, #0xbf8
+10056a948:	ldr	w21, [x9, x8, lsl #2]
+10056a94c:	mov	x0, x20
+10056a950:	mov	x2, x21
+10056a954:	bl	0x101793ec0 ; SEL imageByApplyingCGOrientation:
+10056a958:	mov	x29, x29
+10056a95c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056a960:	mov	x21, x0
+10056a964:	adrp	x8, 6676 ; 0x101f7e000
+10056a968:	ldr	x8, [x8, #0x678]
+10056a96c:	cmn	x8, #0x1
+10056a970:	b.ne	0x10056a9f0
+10056a974:	adrp	x8, 6676 ; 0x101f7e000
+10056a978:	ldr	x22, [x8, #0x680]
+10056a97c:	mov	x0, x21
+10056a980:	bl	0x101791240 ; SEL extent
+10056a984:	mov	x0, x22
+10056a988:	mov	x2, x21
+10056a98c:	bl	0x10178cfc0 ; SEL createCGImage:fromRect:
+10056a990:	cbz	x0, 0x10056a9c0
+10056a994:	mov	x22, x0
+10056a998:	adrp	x8, 6597 ; 0x101f2f000
+10056a99c:	ldr	x0, [x8, #0x8] ; Objc class ref: bad class ref
+10056a9a0:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056a9a4:	mov	x2, x22
+10056a9a8:	bl	0x101794f00 ; SEL initWithCGImage:
+10056a9ac:	mov	x23, x0
+10056a9b0:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a9b4:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056a9b8:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056a9bc:	b	0x10056a9cc
+10056a9c0:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056a9c4:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056a9c8:	mov	x23, #0x0
+10056a9cc:	mov	x0, x19
+10056a9d0:	mov	w1, #0x1
+10056a9d4:	bl	0x101783b18 ; symbol stub for: _CVPixelBufferUnlockBaseAddress
+10056a9d8:	mov	x0, x23
+10056a9dc:	ldp	x29, x30, [sp, #0x30]
+10056a9e0:	ldp	x20, x19, [sp, #0x20]
+10056a9e4:	ldp	x22, x21, [sp, #0x10]
+10056a9e8:	ldp	x24, x23, [sp], #0x40
+10056a9ec:	ret
+10056a9f0:	adrp	x0, 6676 ; 0x101f7e000
+10056a9f4:	add	x0, x0, #0x678
+10056a9f8:	adrp	x1, -26 ; 0x100550000
+10056a9fc:	add	x1, x1, #0x51c
+10056aa00:	bl	0x10178560c ; symbol stub for: _swift_once
+10056aa04:	b	0x10056a974
+10056aa08:	orr	x29, x29, #0x1000000000000000
+10056aa0c:	sub	sp, sp, #0x20
+10056aa10:	stp	x29, x30, [sp, #0x10]
+10056aa14:	str	x22, [sp, #0x8]
+10056aa18:	add	x29, sp, #0x10
+10056aa1c:	adrp	x8, 6467 ; 0x101ead000
+10056aa20:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056aa24:	ldr	x8, [x8]
+10056aa28:	str	x8, [sp]
+10056aa2c:	str	x0, [x22, #0x38]
+10056aa30:	adrp	x0, 6676 ; 0x101f7e000
+10056aa34:	add	x0, x0, #0x658
+10056aa38:	adrp	x1, 4853 ; 0x10185f000
+10056aa3c:	add	x1, x1, #0xa38
+10056aa40:	bl	0x1000066b0
+10056aa44:	ldur	x8, [x0, #-0x8]
+10056aa48:	ldr	x8, [x8, #0x40]
+10056aa4c:	add	x8, x8, #0xf
+10056aa50:	and	x0, x8, #0xfffffffffffffff0
+10056aa54:	bl	0x1017858ac ; symbol stub for: _swift_task_alloc
+10056aa58:	str	x0, [x22, #0x40]
+10056aa5c:	mov	x0, #0x0
+10056aa60:	bl	0x10177bdd8 ; symbol stub for: _$s10Foundation8IndexSetVMa
+10056aa64:	str	x0, [x22, #0x48]
+10056aa68:	ldur	x8, [x0, #-0x8]
+10056aa6c:	str	x8, [x22, #0x50]
+10056aa70:	ldr	x8, [x8, #0x40]
+10056aa74:	add	x8, x8, #0xf
+10056aa78:	and	x0, x8, #0xfffffffffffffff0
+10056aa7c:	bl	0x1017858ac ; symbol stub for: _swift_task_alloc
+10056aa80:	str	x0, [x22, #0x58]
+10056aa84:	ldr	x8, [sp]
+10056aa88:	adrp	x9, 6467 ; 0x101ead000
+10056aa8c:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056aa90:	ldr	x9, [x9]
+10056aa94:	cmp	x9, x8
+10056aa98:	b.ne	0x10056aabc
+10056aa9c:	adrp	x0, 0 ; 0x10056a000
+10056aaa0:	add	x0, x0, #0xac0
+10056aaa4:	mov	x1, #0x0
+10056aaa8:	mov	x2, #0x0
+10056aaac:	ldp	x29, x30, [sp, #0x10]
+10056aab0:	and	x29, x29, #0xefffffffffffffff
+10056aab4:	add	sp, sp, #0x20
+10056aab8:	b	0x101785954 ; symbol stub for: _swift_task_switch
+10056aabc:	bl	0x101784064 ; symbol stub for: ___stack_chk_fail
+10056aac0:	orr	x29, x29, #0x1000000000000000
+10056aac4:	sub	sp, sp, #0x90
+10056aac8:	stp	x28, x27, [sp, #0x38]
+10056aacc:	stp	x26, x25, [sp, #0x48]
+10056aad0:	stp	x24, x23, [sp, #0x58]
+10056aad4:	stp	x21, x19, [sp, #0x68]
+10056aad8:	stp	x29, x30, [sp, #0x80]
+10056aadc:	str	x22, [sp, #0x78]
+10056aae0:	add	x29, sp, #0x80
+10056aae4:	adrp	x8, 6467 ; 0x101ead000
+10056aae8:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056aaec:	ldr	x8, [x8]
+10056aaf0:	str	x8, [sp, #0x30]
+10056aaf4:	ldr	x20, [x22, #0x38]
+10056aaf8:	adrp	x8, 6597 ; 0x101f2f000
+10056aafc:	ldr	x0, [x8, #0x4f8] ; Objc class ref: bad class ref
+10056ab00:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056ab04:	bl	0x1017947a0 ; SEL init
+10056ab08:	mov	x19, x0
+10056ab0c:	mov	x0, x20
+10056ab10:	bl	0x101785ea0 ; SEL CGImage
+10056ab14:	mov	x29, x29
+10056ab18:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056ab1c:	cbz	x0, 0x10056acf8
+10056ab20:	mov	x23, x0
+10056ab24:	adrp	x0, 6474 ; 0x101eb4000
+10056ab28:	ldr	x0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+10056ab2c:	bl	0x10000b838
+10056ab30:	mov	x20, x0
+10056ab34:	adrp	x8, 6597 ; 0x101f2f000
+10056ab38:	ldr	x0, [x8, #0x4e0] ; Objc class ref: bad class ref
+10056ab3c:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056ab40:	mov	x21, x0
+10056ab44:	mov	x0, #0x0
+10056ab48:	bl	0x10000fa7c
+10056ab4c:	mov	x24, x0
+10056ab50:	adrp	x1, -1371 ; 0x10000f000
+10056ab54:	add	x1, x1, #0xa7c
+10056ab58:	adrp	x0, 6637 ; 0x101f57000
+10056ab5c:	add	x0, x0, #0xa58
+10056ab60:	adrp	x2, 4803 ; 0x10182d000
+10056ab64:	add	x2, x2, #0xeb4
+10056ab68:	bl	0x10000c25c
+10056ab6c:	mov	x3, x0
+10056ab70:	adrp	x8, 6474 ; 0x101eb4000
+10056ab74:	ldr	x8, [x8, #0x1f0] ; literal pool symbol address: _$sypN
+10056ab78:	add	x2, x8, #0x8
+10056ab7c:	mov	x0, x20
+10056ab80:	mov	x1, x24
+10056ab84:	bl	0x10178002c ; symbol stub for: _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+10056ab88:	mov	x25, x0
+10056ab8c:	mov	x0, x20
+10056ab90:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056ab94:	mov	x0, x21
+10056ab98:	mov	x2, x23
+10056ab9c:	mov	x3, x25
+10056aba0:	bl	0x101794f20 ; SEL initWithCGImage:options:
+10056aba4:	mov	x24, x0
+10056aba8:	bl	0x101784acc ; symbol stub for: _objc_release_x25
+10056abac:	adrp	x0, 6649 ; 0x101f63000
+10056abb0:	add	x0, x0, #0xbe0
+10056abb4:	adrp	x1, 4804 ; 0x10182e000
+10056abb8:	add	x1, x1, #0xd20
+10056abbc:	bl	0x1000066b0
+10056abc0:	mov	w1, #0x28
+10056abc4:	mov	w2, #0x7
+10056abc8:	bl	0x10178515c ; symbol stub for: _swift_allocObject
+10056abcc:	mov	x20, x0
+10056abd0:	adrp	x8, 4804 ; 0x10182e000
+10056abd4:	ldr	q0, [x8, #0xef0]
+10056abd8:	str	q0, [x0, #0x10]
+10056abdc:	str	x19, [x0, #0x20]
+10056abe0:	adrp	x1, 6676 ; 0x101f7e000
+10056abe4:	add	x1, x1, #0x648
+10056abe8:	adrp	x2, 6597 ; 0x101f2f000
+10056abec:	add	x2, x2, #0x4e8 ; Objc class ref: bad class ref
+10056abf0:	mov	x0, #0x0
+10056abf4:	bl	0x10001d668
+10056abf8:	mov	x21, x0
+10056abfc:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056ac00:	mov	x27, x0
+10056ac04:	mov	x0, x20
+10056ac08:	mov	x1, x21
+10056ac0c:	bl	0x1017808a8 ; symbol stub for: _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+10056ac10:	mov	x21, x0
+10056ac14:	bl	0x101785684 ; symbol stub for: _swift_release_x20
+10056ac18:	mov	x20, x22
+10056ac1c:	str	xzr, [x20, #0x10]!
+10056ac20:	mov	x0, x24
+10056ac24:	mov	x2, x21
+10056ac28:	mov	x3, x20
+10056ac2c:	bl	0x10179e980 ; SEL performRequests:error:
+10056ac30:	mov	x25, x0
+10056ac34:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056ac38:	ldr	x20, [x20]
+10056ac3c:	cbz	w25, 0x10056ad28
+10056ac40:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056ac44:	mov	x0, x27
+10056ac48:	bl	0x1017a2560 ; SEL results
+10056ac4c:	mov	x29, x29
+10056ac50:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056ac54:	cbz	x0, 0x10056b230
+10056ac58:	mov	x21, x0
+10056ac5c:	adrp	x1, 6676 ; 0x101f7e000
+10056ac60:	add	x1, x1, #0x660
+10056ac64:	adrp	x2, 6597 ; 0x101f2f000
+10056ac68:	add	x2, x2, #0x500 ; Objc class ref: bad class ref
+10056ac6c:	mov	x0, #0x0
+10056ac70:	bl	0x10001d668
+10056ac74:	mov	x1, x0
+10056ac78:	mov	x0, x21
+10056ac7c:	bl	0x1017808c0 ; symbol stub for: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+10056ac80:	mov	x20, x0
+10056ac84:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056ac88:	lsr	x8, x20, #62
+10056ac8c:	cbnz	x8, 0x10056b214
+10056ac90:	and	x8, x20, #0xffffffffffffff8
+10056ac94:	ldr	x0, [x8, #0x10]
+10056ac98:	cbz	x0, 0x10056b228
+10056ac9c:	tst	x20, #0xc000000000000001
+10056aca0:	b.ne	0x10056b2ec
+10056aca4:	and	x8, x20, #0xffffffffffffff8
+10056aca8:	ldr	x8, [x8, #0x10]
+10056acac:	cbz	x8, 0x10056b2fc
+10056acb0:	ldr	x8, [x20, #0x20]
+10056acb4:	bl	0x101784c10 ; symbol stub for: _objc_retain_x8
+10056acb8:	mov	x26, x0
+10056acbc:	mov	x0, x20
+10056acc0:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056acc4:	mov	x0, x26
+10056acc8:	bl	0x100569fbc
+10056accc:	and	w8, w1, #0xff
+10056acd0:	cmp	w8, #0x1
+10056acd4:	str	x26, [sp, #0x20]
+10056acd8:	b.ne	0x10056ad48
+10056acdc:	mov	x0, x26
+10056ace0:	mov	x21, #0x0
+10056ace4:	bl	0x10056a144
+10056ace8:	cbz	x21, 0x10056b020
+10056acec:	mov	x20, x21
+10056acf0:	bl	0x101784ad8 ; symbol stub for: _objc_release_x26
+10056acf4:	b	0x10056b260
+10056acf8:	bl	0x10048fd40
+10056acfc:	mov	x1, x0
+10056ad00:	adrp	x0, 6245 ; 0x101dcf000
+10056ad04:	add	x0, x0, #0x20
+10056ad08:	mov	x2, #0x0
+10056ad0c:	mov	w3, #0x0
+10056ad10:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056ad14:	mov	x25, x0
+10056ad18:	str	xzr, [x1]
+10056ad1c:	mov	x21, x0
+10056ad20:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056ad24:	b	0x10056b294
+10056ad28:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056ad2c:	mov	x21, x0
+10056ad30:	mov	x0, x20
+10056ad34:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056ad38:	mov	x20, x0
+10056ad3c:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056ad40:	mov	x21, x20
+10056ad44:	b	0x10056b25c
+10056ad48:	mov	x28, x0
+10056ad4c:	str	x27, [sp, #0x8]
+10056ad50:	ldp	x8, x9, [x22, #0x50]
+10056ad54:	stp	x8, x9, [sp, #0x10]
+10056ad58:	ldp	x27, x20, [x22, #0x40]
+10056ad5c:	adrp	x0, 6669 ; 0x101f77000
+10056ad60:	add	x0, x0, #0xa28
+10056ad64:	adrp	x1, 4843 ; 0x101855000
+10056ad68:	add	x1, x1, #0xee0
+10056ad6c:	bl	0x1000066b0
+10056ad70:	mov	w1, #0x28
+10056ad74:	mov	w2, #0x7
+10056ad78:	bl	0x10178515c ; symbol stub for: _swift_allocObject
+10056ad7c:	adrp	x8, 4804 ; 0x10182e000
+10056ad80:	ldr	q0, [x8, #0xc00]
+10056ad84:	str	q0, [x0, #0x10]
+10056ad88:	str	x28, [x0, #0x20]
+10056ad8c:	str	x0, [x22, #0x30]
+10056ad90:	adrp	x0, 6676 ; 0x101f7e000
+10056ad94:	add	x0, x0, #0x668
+10056ad98:	adrp	x1, 6466 ; 0x101eac000
+10056ad9c:	ldr	x1, [x1, #0x3f8] ; literal pool symbol address: _$s10Foundation8IndexSetVMa
+10056ada0:	adrp	x2, 6466 ; 0x101eac000
+10056ada4:	ldr	x2, [x2, #0x418] ; literal pool symbol address: _$s10Foundation8IndexSetVs0C7AlgebraAAMc
+10056ada8:	bl	0x10000c25c
+10056adac:	mov	x28, x0
+10056adb0:	adrp	x25, 6675 ; 0x101f7d000
+10056adb4:	add	x25, x25, #0x588
+10056adb8:	adrp	x21, 4852 ; 0x10185e000
+10056adbc:	add	x21, x21, #0x600
+10056adc0:	mov	x0, x25
+10056adc4:	mov	x1, x21
+10056adc8:	bl	0x1000066b0
+10056adcc:	mov	x26, x0
+10056add0:	adrp	x0, 6676 ; 0x101f7e000
+10056add4:	add	x0, x0, #0x670
+10056add8:	mov	x1, x25
+10056addc:	mov	x2, x21
+10056ade0:	bl	0x100163944
+10056ade4:	mov	x2, x0
+10056ade8:	add	x0, x22, #0x30
+10056adec:	mov	x8, x27
+10056adf0:	mov	x1, x26
+10056adf4:	mov	x3, x20
+10056adf8:	mov	x4, x28
+10056adfc:	bl	0x101781d60 ; symbol stub for: _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+10056ae00:	ldr	x21, [sp, #0x10]
+10056ae04:	ldr	x8, [x21, #0x38]
+10056ae08:	mov	x0, x27
+10056ae0c:	mov	w1, #0x0
+10056ae10:	mov	w2, #0x1
+10056ae14:	mov	x3, x20
+10056ae18:	blr	x8
+10056ae1c:	ldr	x8, [x21, #0x20]
+10056ae20:	ldr	x0, [sp, #0x18]
+10056ae24:	mov	x1, x27
+10056ae28:	mov	x2, x20
+10056ae2c:	blr	x8
+10056ae30:	ldr	x20, [x22, #0x58]
+10056ae34:	bl	0x1017840e8 ; symbol stub for: __objc_autoreleasePoolPush
+10056ae38:	mov	x28, x0
+10056ae3c:	bl	0x10177bd6c ; symbol stub for: _$s10Foundation8IndexSetV19_bridgeToObjectiveCSo07NSIndexC0CyF
+10056ae40:	mov	x20, x0
+10056ae44:	str	xzr, [x22, #0x18]
+10056ae48:	add	x5, x22, #0x18
+10056ae4c:	ldr	x25, [sp, #0x20]
+10056ae50:	mov	x0, x25
+10056ae54:	mov	x2, x20
+10056ae58:	mov	x3, x24
+10056ae5c:	mov	w4, #0x0
+10056ae60:	bl	0x101792780 ; SEL generateMaskedImageOfInstances:fromRequestHandler:croppedToInstancesExtent:error:
+10056ae64:	mov	x27, x0
+10056ae68:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056ae6c:	ldr	x20, [x22, #0x18]
+10056ae70:	cbz	x27, 0x10056affc
+10056ae74:	ldr	x21, [x22, #0x38]
+10056ae78:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056ae7c:	mov	x0, x21
+10056ae80:	mov	x1, x27
+10056ae84:	bl	0x10056a8e8
+10056ae88:	cbz	x0, 0x10056b0a8
+10056ae8c:	mov	x26, x0
+10056ae90:	ldr	x20, [x22, #0x58]
+10056ae94:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056ae98:	mov	x0, x28
+10056ae9c:	bl	0x1017840dc ; symbol stub for: __objc_autoreleasePoolPop
+10056aea0:	bl	0x1017840e8 ; symbol stub for: __objc_autoreleasePoolPush
+10056aea4:	mov	x28, x0
+10056aea8:	bl	0x10177bd6c ; symbol stub for: _$s10Foundation8IndexSetV19_bridgeToObjectiveCSo07NSIndexC0CyF
+10056aeac:	mov	x20, x0
+10056aeb0:	str	xzr, [x22, #0x20]
+10056aeb4:	add	x5, x22, #0x20
+10056aeb8:	mov	x0, x25
+10056aebc:	mov	x2, x20
+10056aec0:	mov	x3, x24
+10056aec4:	mov	w4, #0x1
+10056aec8:	bl	0x101792780 ; SEL generateMaskedImageOfInstances:fromRequestHandler:croppedToInstancesExtent:error:
+10056aecc:	mov	x27, x0
+10056aed0:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056aed4:	ldr	x20, [x22, #0x20]
+10056aed8:	cbz	x27, 0x10056b0f4
+10056aedc:	ldr	x21, [x22, #0x38]
+10056aee0:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056aee4:	mov	x0, x21
+10056aee8:	mov	x1, x27
+10056aeec:	bl	0x10056a8e8
+10056aef0:	cbz	x0, 0x10056b124
+10056aef4:	str	x0, [sp]
+10056aef8:	ldr	x20, [x22, #0x58]
+10056aefc:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056af00:	mov	x0, x28
+10056af04:	bl	0x1017840dc ; symbol stub for: __objc_autoreleasePoolPop
+10056af08:	bl	0x1017840e8 ; symbol stub for: __objc_autoreleasePoolPush
+10056af0c:	mov	x21, x0
+10056af10:	bl	0x10177bd6c ; symbol stub for: _$s10Foundation8IndexSetV19_bridgeToObjectiveCSo07NSIndexC0CyF
+10056af14:	mov	x20, x0
+10056af18:	str	xzr, [x22, #0x28]
+10056af1c:	add	x4, x22, #0x28
+10056af20:	mov	x0, x25
+10056af24:	mov	x2, x20
+10056af28:	mov	x3, x24
+10056af2c:	bl	0x101792800 ; SEL generateScaledMaskForImageForInstances:fromRequestHandler:error:
+10056af30:	mov	x28, x0
+10056af34:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10056af38:	ldr	x20, [x22, #0x28]
+10056af3c:	str	x21, [sp, #0x10]
+10056af40:	cbz	x28, 0x10056b17c
+10056af44:	ldr	x21, [x22, #0x38]
+10056af48:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056af4c:	mov	x0, x21
+10056af50:	mov	x1, x28
+10056af54:	bl	0x10056a8e8
+10056af58:	cbz	x0, 0x10056b1a4
+10056af5c:	mov	x20, x0
+10056af60:	str	x26, [sp, #0x18]
+10056af64:	ldp	x26, x19, [x22, #0x50]
+10056af68:	mov	x27, x25
+10056af6c:	ldp	x25, x21, [x22, #0x40]
+10056af70:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+10056af74:	ldr	x0, [sp, #0x10]
+10056af78:	bl	0x1017840dc ; symbol stub for: __objc_autoreleasePoolPop
+10056af7c:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056af80:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10056af84:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+10056af88:	ldr	x8, [sp, #0x8]
+10056af8c:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056af90:	ldr	x8, [x26, #0x8]
+10056af94:	mov	x0, x19
+10056af98:	mov	x1, x21
+10056af9c:	blr	x8
+10056afa0:	mov	x0, x19
+10056afa4:	bl	0x1017858c4 ; symbol stub for: _swift_task_dealloc
+10056afa8:	mov	x0, x25
+10056afac:	bl	0x1017858c4 ; symbol stub for: _swift_task_dealloc
+10056afb0:	ldr	x3, [x22, #0x8]
+10056afb4:	ldr	x8, [sp, #0x30]
+10056afb8:	adrp	x9, 6467 ; 0x101ead000
+10056afbc:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056afc0:	ldr	x9, [x9]
+10056afc4:	cmp	x9, x8
+10056afc8:	b.ne	0x10056b300
+10056afcc:	ldr	x0, [sp, #0x18]
+10056afd0:	mov	x1, x20
+10056afd4:	ldr	x2, [sp]
+10056afd8:	mov	x20, #0x0
+10056afdc:	ldp	x29, x30, [sp, #0x80]
+10056afe0:	ldp	x21, x19, [sp, #0x68]
+10056afe4:	ldp	x24, x23, [sp, #0x58]
+10056afe8:	ldp	x26, x25, [sp, #0x48]
+10056afec:	ldp	x28, x27, [sp, #0x38]
+10056aff0:	and	x29, x29, #0xefffffffffffffff
+10056aff4:	add	sp, sp, #0x90
+10056aff8:	br	x3
+10056affc:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056b000:	mov	x21, x0
+10056b004:	mov	x0, x20
+10056b008:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056b00c:	mov	x20, x0
+10056b010:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056b014:	mov	x21, x20
+10056b018:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b01c:	b	0x10056b0dc
+10056b020:	and	w8, w1, #0xff
+10056b024:	cmp	w8, #0x1
+10056b028:	str	x27, [sp, #0x8]
+10056b02c:	b.ne	0x10056b11c
+10056b030:	ldp	x27, x20, [x22, #0x50]
+10056b034:	ldp	x25, x21, [x22, #0x40]
+10056b038:	ldr	x8, [x27, #0x38]
+10056b03c:	mov	x0, x25
+10056b040:	mov	w1, #0x1
+10056b044:	mov	w2, #0x1
+10056b048:	mov	x3, x21
+10056b04c:	blr	x8
+10056b050:	mov	x0, x26
+10056b054:	bl	0x101788160 ; SEL allInstances
+10056b058:	mov	x29, x29
+10056b05c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10056b060:	mov	x26, x0
+10056b064:	mov	x8, x20
+10056b068:	bl	0x10177bd78 ; symbol stub for: _$s10Foundation8IndexSetV36_unconditionallyBridgeFromObjectiveCyACSo07NSIndexC0CSgFZ
+10056b06c:	bl	0x101784ad8 ; symbol stub for: _objc_release_x26
+10056b070:	ldr	x8, [x27, #0x30]
+10056b074:	mov	x0, x25
+10056b078:	mov	w1, #0x1
+10056b07c:	mov	x2, x21
+10056b080:	blr	x8
+10056b084:	cmp	w0, #0x1
+10056b088:	b.eq	0x10056ae30
+10056b08c:	ldr	x0, [x22, #0x40]
+10056b090:	adrp	x1, 6675 ; 0x101f7e000
+10056b094:	add	x1, x1, #0x658
+10056b098:	adrp	x2, 4852 ; 0x10185f000
+10056b09c:	add	x2, x2, #0xa38
+10056b0a0:	bl	0x1000159a4
+10056b0a4:	b	0x10056ae30
+10056b0a8:	bl	0x10048fd40
+10056b0ac:	mov	x1, x0
+10056b0b0:	adrp	x0, 6244 ; 0x101dcf000
+10056b0b4:	add	x0, x0, #0x20
+10056b0b8:	mov	x2, #0x0
+10056b0bc:	mov	w3, #0x0
+10056b0c0:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056b0c4:	mov	x20, x0
+10056b0c8:	mov	w8, #0x2
+10056b0cc:	str	x8, [x1]
+10056b0d0:	mov	x21, x0
+10056b0d4:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b0d8:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056b0dc:	ldp	x26, x21, [x22, #0x50]
+10056b0e0:	ldr	x25, [x22, #0x48]
+10056b0e4:	mov	x0, x28
+10056b0e8:	bl	0x1017840dc ; symbol stub for: __objc_autoreleasePoolPop
+10056b0ec:	ldr	x8, [sp, #0x20]
+10056b0f0:	b	0x10056b1fc
+10056b0f4:	str	x26, [sp, #0x18]
+10056b0f8:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056b0fc:	mov	x21, x0
+10056b100:	mov	x0, x20
+10056b104:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056b108:	mov	x20, x0
+10056b10c:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056b110:	mov	x21, x20
+10056b114:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b118:	b	0x10056b15c
+10056b11c:	mov	x28, x0
+10056b120:	b	0x10056ad50
+10056b124:	str	x26, [sp, #0x18]
+10056b128:	bl	0x10048fd40
+10056b12c:	mov	x1, x0
+10056b130:	adrp	x0, 6244 ; 0x101dcf000
+10056b134:	add	x0, x0, #0x20
+10056b138:	mov	x2, #0x0
+10056b13c:	mov	w3, #0x0
+10056b140:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056b144:	mov	x20, x0
+10056b148:	mov	w8, #0x2
+10056b14c:	str	x8, [x1]
+10056b150:	mov	x21, x0
+10056b154:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b158:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056b15c:	ldp	x26, x21, [x22, #0x50]
+10056b160:	ldr	x25, [x22, #0x48]
+10056b164:	mov	x0, x28
+10056b168:	bl	0x1017840dc ; symbol stub for: __objc_autoreleasePoolPop
+10056b16c:	ldr	x8, [sp, #0x20]
+10056b170:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056b174:	ldr	x8, [sp, #0x18]
+10056b178:	b	0x10056b1fc
+10056b17c:	mov	x27, x26
+10056b180:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056b184:	mov	x21, x0
+10056b188:	mov	x0, x20
+10056b18c:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056b190:	mov	x20, x0
+10056b194:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056b198:	mov	x21, x20
+10056b19c:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b1a0:	b	0x10056b1dc
+10056b1a4:	mov	x27, x26
+10056b1a8:	bl	0x10048fd40
+10056b1ac:	mov	x1, x0
+10056b1b0:	adrp	x0, 6244 ; 0x101dcf000
+10056b1b4:	add	x0, x0, #0x20
+10056b1b8:	mov	x2, #0x0
+10056b1bc:	mov	w3, #0x0
+10056b1c0:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056b1c4:	mov	x20, x0
+10056b1c8:	mov	w8, #0x2
+10056b1cc:	str	x8, [x1]
+10056b1d0:	mov	x21, x0
+10056b1d4:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b1d8:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+10056b1dc:	ldp	x26, x21, [x22, #0x50]
+10056b1e0:	ldr	x25, [x22, #0x48]
+10056b1e4:	ldr	x0, [sp, #0x10]
+10056b1e8:	bl	0x1017840dc ; symbol stub for: __objc_autoreleasePoolPop
+10056b1ec:	ldr	x8, [sp, #0x20]
+10056b1f0:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056b1f4:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+10056b1f8:	ldr	x8, [sp]
+10056b1fc:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+10056b200:	ldr	x8, [x26, #0x8]
+10056b204:	mov	x0, x21
+10056b208:	mov	x1, x25
+10056b20c:	blr	x8
+10056b210:	b	0x10056b260
+10056b214:	and	x8, x20, #0xffffffffffffff8
+10056b218:	cmn	x20, #0x1
+10056b21c:	csel	x0, x8, x20, gt
+10056b220:	bl	0x101782528 ; symbol stub for: _$ss18_CocoaArrayWrapperV8endIndexSivg
+10056b224:	cbnz	x0, 0x10056ac9c
+10056b228:	mov	x0, x20
+10056b22c:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056b230:	bl	0x10048fd40
+10056b234:	mov	x1, x0
+10056b238:	adrp	x0, 6244 ; 0x101dcf000
+10056b23c:	add	x0, x0, #0x20
+10056b240:	mov	x2, #0x0
+10056b244:	mov	w3, #0x0
+10056b248:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056b24c:	mov	x20, x0
+10056b250:	mov	w8, #0x1
+10056b254:	str	x8, [x1]
+10056b258:	mov	x21, x0
+10056b25c:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b260:	bl	0x10048fd40
+10056b264:	mov	x1, x0
+10056b268:	adrp	x0, 6244 ; 0x101dcf000
+10056b26c:	add	x0, x0, #0x20
+10056b270:	mov	x2, #0x0
+10056b274:	mov	w3, #0x0
+10056b278:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056b27c:	mov	x25, x0
+10056b280:	str	x20, [x1]
+10056b284:	mov	x21, x0
+10056b288:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056b28c:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+10056b290:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10056b294:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056b298:	ldr	x0, [x22, #0x58]
+10056b29c:	ldr	x20, [x22, #0x40]
+10056b2a0:	bl	0x1017858c4 ; symbol stub for: _swift_task_dealloc
+10056b2a4:	mov	x0, x20
+10056b2a8:	bl	0x1017858c4 ; symbol stub for: _swift_task_dealloc
+10056b2ac:	ldr	x0, [x22, #0x8]
+10056b2b0:	ldr	x8, [sp, #0x30]
+10056b2b4:	adrp	x9, 6466 ; 0x101ead000
+10056b2b8:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056b2bc:	ldr	x9, [x9]
+10056b2c0:	cmp	x9, x8
+10056b2c4:	b.ne	0x10056b300
+10056b2c8:	mov	x20, x25
+10056b2cc:	ldp	x29, x30, [sp, #0x80]
+10056b2d0:	ldp	x21, x19, [sp, #0x68]
+10056b2d4:	ldp	x24, x23, [sp, #0x58]
+10056b2d8:	ldp	x26, x25, [sp, #0x48]
+10056b2dc:	ldp	x28, x27, [sp, #0x38]
+10056b2e0:	and	x29, x29, #0xefffffffffffffff
+10056b2e4:	add	sp, sp, #0x90
+10056b2e8:	br	x0
+10056b2ec:	mov	x0, #0x0
+10056b2f0:	mov	x1, x20
+10056b2f4:	bl	0x101781fdc ; symbol stub for: _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+10056b2f8:	b	0x10056acb8
+10056b2fc:	brk	#0x1
+10056b300:	bl	0x101784064 ; symbol stub for: ___stack_chk_fail
+10056c5c8:	stp	x29, x30, [sp, #-0x10]!
+10056c5cc:	mov	x29, sp
+10056c5d0:	ldp	x2, x3, [x20, #0x10]
+10056c5d4:	ldr	x4, [x20, #0x20]
+10056c5d8:	bl	0x100550a9c
+10056c5dc:	and	w0, w0, #0x1
+10056c5e0:	ldp	x29, x30, [sp], #0x10
+10056c5e4:	ret
+10056c5e8:	stp	x29, x30, [sp, #-0x10]!
+10056c5ec:	mov	x29, sp
+10056c5f0:	ldp	x2, x3, [x20, #0x10]
+10056c5f4:	bl	0x100550c10
+10056c5f8:	and	w0, w0, #0x1
+10056c5fc:	ldp	x29, x30, [sp], #0x10
+10056c600:	ret

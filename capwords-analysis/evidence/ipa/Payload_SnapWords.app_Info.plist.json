@@ -1,0 +1,130 @@
+{
+  "BGTaskSchedulerPermittedIdentifiers": [
+    "com.HappyPlanTech.SnapWords.languageMigration.*"
+  ],
+  "BuildMachineOSBuild": "25G83",
+  "CFBundleDevelopmentRegion": "en",
+  "CFBundleDisplayName": "CapWords",
+  "CFBundleExecutable": "SnapWords",
+  "CFBundleIcons": {
+    "CFBundlePrimaryIcon": {
+      "CFBundleIconFiles": [
+        "AppIcon60x60"
+      ],
+      "CFBundleIconName": "AppIcon"
+    }
+  },
+  "CFBundleIcons~ipad": {
+    "CFBundlePrimaryIcon": {
+      "CFBundleIconFiles": [
+        "AppIcon60x60",
+        "AppIcon76x76"
+      ],
+      "CFBundleIconName": "AppIcon"
+    }
+  },
+  "CFBundleIdentifier": "com.HappyPlanTech.SnapWords",
+  "CFBundleInfoDictionaryVersion": "6.0",
+  "CFBundleName": "SnapWords",
+  "CFBundlePackageType": "APPL",
+  "CFBundleShortVersionString": "2.0.9",
+  "CFBundleSupportedPlatforms": [
+    "iPhoneOS"
+  ],
+  "CFBundleURLTypes": [
+    {
+      "CFBundleTypeRole": "Editor",
+      "CFBundleURLName": "com.happyplantech.snapwords",
+      "CFBundleURLSchemes": [
+        "snapwords"
+      ]
+    }
+  ],
+  "CFBundleVersion": "445",
+  "DTAppStoreToolsBuild": "27A261",
+  "DTCompiler": "com.apple.compilers.llvm.clang.1_0",
+  "DTPlatformBuild": "24A430",
+  "DTPlatformName": "iphoneos",
+  "DTPlatformVersion": "27.0",
+  "DTSDKBuild": "24A430",
+  "DTSDKName": "iphoneos27.0",
+  "DTXcode": "2700",
+  "DTXcodeBuild": "27A266a",
+  "DecryptedBy": "@FastDecryptBot - https://t.me/FastDecryptBot",
+  "ITSAppUsesNonExemptEncryption": false,
+  "LSApplicationCategoryType": "public.app-category.education",
+  "LSApplicationQueriesSchemes": [
+    "twitter",
+    "tg"
+  ],
+  "LSRequiresIPhoneOS": true,
+  "MinimumOSVersion": "17.0",
+  "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
+  "NSAppTransportSecurity": {
+    "NSAllowsLocalNetworking": true
+  },
+  "NSCameraUsageDescription": "To allow you to take pictures and recognize object words, CapWords needs access to your camera",
+  "NSHealthShareUsageDescription": "CapWords uses your steps, workouts, sleep, and recovery data to make conversations feel more relevant to your day.",
+  "NSHealthUpdateUsageDescription": "CapWords does not write data to Apple Health. CapWords only reads selected health data with your permission to personalize conversations.",
+  "NSLocationWhenInUseUsageDescription": "CapWords uses your location to include your city and local weather in conversations.",
+  "NSMicrophoneUsageDescription": "We need access to your microphone so you can recognize and remember words through voice.",
+  "NSPhotoLibraryAddUsageDescription": "We need to save the image to your photo library",
+  "NSPhotoLibraryUsageDescription": "CapWords displays authorized photos for selection. Only photos in a selection you confirm are uploaded to AI for sticker recognition.",
+  "NSPrivacyTrackingDomains": [
+    "att-attr.appsflyer-cn.com",
+    "att-attr.appsflyersdk.com",
+    "att-attr.hevents.appsflyer-cn.com",
+    "att-attr.whappsflyer.com",
+    "att-conversions.appsflyer-cn.com",
+    "att-conversions.appsflyersdk.com",
+    "att-conversions.hevents.appsflyer-cn.com",
+    "att-conversions.whappsflyer.com",
+    "att-dlsdk.appsflyer-cn.com",
+    "att-dlsdk.appsflyersdk.com",
+    "att-dlsdk.hevents.appsflyer-cn.com",
+    "att-dlsdk.whappsflyer.com",
+    "att-launches.appsflyer-cn.com",
+    "att-launches.appsflyersdk.com",
+    "att-launches.hevents.appsflyer-cn.com",
+    "att-launches.whappsflyer.com"
+  ],
+  "NSSpeechRecognitionUsageDescription": "We need access to speech recognition to convert your voice into text for a better user experience.",
+  "NSSupportsLiveActivities": true,
+  "UIAppFonts": [
+    "DINCondensed-Bold.ttf",
+    "InstrumentSerif-Regular.ttf"
+  ],
+  "UIApplicationSceneManifest": {
+    "UIApplicationSupportsMultipleScenes": false,
+    "UISceneConfigurations": {
+      "UIWindowSceneSessionRoleApplication": [
+        {
+          "UISceneConfigurationName": "Default Configuration",
+          "UISceneDelegateClassName": "SnapWords.SceneDelegate"
+        }
+      ]
+    }
+  },
+  "UIApplicationSupportsIndirectInputEvents": true,
+  "UIBackgroundModes": [
+    "processing",
+    "remote-notification",
+    "audio"
+  ],
+  "UIDeviceFamily": [
+    1,
+    2
+  ],
+  "UILaunchScreen": false,
+  "UILaunchStoryboardName": "NeutralLaunchScreen",
+  "UIRequiresFullScreen": false,
+  "UISupportedInterfaceOrientations": [
+    "UIInterfaceOrientationPortrait"
+  ],
+  "UISupportedInterfaceOrientations~ipad": [
+    "UIInterfaceOrientationLandscapeLeft",
+    "UIInterfaceOrientationLandscapeRight",
+    "UIInterfaceOrientationPortrait",
+    "UIInterfaceOrientationPortraitUpsideDown"
+  ]
+}

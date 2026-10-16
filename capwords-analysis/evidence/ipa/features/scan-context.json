@@ -1,0 +1,202 @@
+[
+  {
+    "offset": "0x1954eb0",
+    "address": "0x101954eb0",
+    "text": "camera.media_recognition_submitted"
+  },
+  {
+    "offset": "0x1958530",
+    "address": "0x101958530",
+    "text": "context.health.pending"
+  },
+  {
+    "offset": "0x1958550",
+    "address": "0x101958550",
+    "text": "context.health.done"
+  },
+  {
+    "offset": "0x195a3a0",
+    "address": "0x10195a3a0",
+    "text": "memory.extraction_failed"
+  },
+  {
+    "offset": "0x1983480",
+    "address": "0x101983480",
+    "text": "你的开场风格（仅示意，不照搬）：\n- \"Park weather. Couldn't ask for better.\"\n- \"Coffee, then a long walk. Classic Sunday move.\""
+  },
+  {
+    "offset": "0x1986a10",
+    "address": "0x101986a10",
+    "text": "memory.decode_failed"
+  },
+  {
+    "offset": "0x1987fe0",
+    "address": "0x101987fe0",
+    "text": "memory.duplicate_count_failed"
+  },
+  {
+    "offset": "0x1988000",
+    "address": "0x101988000",
+    "text": "memory.save_failed"
+  },
+  {
+    "offset": "0x1988020",
+    "address": "0x101988020",
+    "text": "memory.reference_save_failed"
+  },
+  {
+    "offset": "0x1988040",
+    "address": "0x101988040",
+    "text": "user_memory_reference"
+  },
+  {
+    "offset": "0x19880d0",
+    "address": "0x1019880d0",
+    "text": "memory.fetch_failed"
+  },
+  {
+    "offset": "0x198a040",
+    "address": "0x10198a040",
+    "text": "weather.location_requested"
+  },
+  {
+    "offset": "0x198a060",
+    "address": "0x10198a060",
+    "text": "weather.location_unavailable"
+  },
+  {
+    "offset": "0x198a080",
+    "address": "0x10198a080",
+    "text": "weather.update_started"
+  },
+  {
+    "offset": "0x198a0a0",
+    "address": "0x10198a0a0",
+    "text": "weather.update_finished"
+  },
+  {
+    "offset": "0x199d300",
+    "address": "0x10199d300",
+    "text": "language_change.continued_processing_submission_failed"
+  },
+  {
+    "offset": "0x199d340",
+    "address": "0x10199d340",
+    "text": "language_change.continued_processing_submitted"
+  },
+  {
+    "offset": "0x199f400",
+    "address": "0x10199f400",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherIntentBridge.submit"
+  },
+  {
+    "offset": "0x19a0c90",
+    "address": "0x1019a0c90",
+    "text": "weather.attribution_failed"
+  },
+  {
+    "offset": "0x19a0f50",
+    "address": "0x1019a0f50",
+    "text": "profile.weatherkit.icon"
+  },
+  {
+    "offset": "0x19a1250",
+    "address": "0x1019a1250",
+    "text": "This feature needs Apple Health access. CapWords reads selected Health data only with your permission and does not write data to Apple Health. To manage access, open the Health app: Health > Profile > Apps > CapWords"
+  },
+  {
+    "offset": "0x19a1450",
+    "address": "0x1019a1450",
+    "text": "CapWords integrates with Apple Health to personalize conversations using a brief wellness summary. CapWords reads selected Health data only with your permission and does not write data to Apple Health."
+  },
+  {
+    "offset": "0x19a3280",
+    "address": "0x1019a3280",
+    "text": "healthkit.unavailable"
+  },
+  {
+    "offset": "0x19a32a0",
+    "address": "0x1019a32a0",
+    "text": "healthkit.authorization_started"
+  },
+  {
+    "offset": "0x19a32c0",
+    "address": "0x1019a32c0",
+    "text": "healthkit.authorization_failed"
+  },
+  {
+    "offset": "0x19a32e0",
+    "address": "0x1019a32e0",
+    "text": "healthkit.authorization_request_completed"
+  },
+  {
+    "offset": "0x19a3340",
+    "address": "0x1019a3340",
+    "text": "healthkit.request_status_failed"
+  },
+  {
+    "offset": "0x19a39e0",
+    "address": "0x1019a39e0",
+    "text": "weather.fetch_started"
+  },
+  {
+    "offset": "0x19a3a00",
+    "address": "0x1019a3a00",
+    "text": "weather.fetch_failed"
+  },
+  {
+    "offset": "0x19a3a20",
+    "address": "0x1019a3a20",
+    "text": "weather.fetch_succeeded"
+  },
+  {
+    "offset": "0x19a8b15",
+    "address": "0x1019a8b15",
+    "text": "submit_ticket"
+  },
+  {
+    "offset": "0x19a8b80",
+    "address": "0x1019a8b80",
+    "text": "answer_submitted"
+  },
+  {
+    "offset": "0x19b3350",
+    "address": "0x1019b3350",
+    "text": "Refund request submission failed: "
+  },
+  {
+    "offset": "0x19d1388",
+    "address": "0x1019d1388",
+    "text": "Data collection disabled and report will not be submitted"
+  },
+  {
+    "offset": "0x19d151e",
+    "address": "0x1019d151e",
+    "text": "[Firebase/Crashlytics] Packaged report with id '%@' for submission"
+  },
+  {
+    "offset": "0x19d1561",
+    "address": "0x1019d1561",
+    "text": "Submitting report %@"
+  },
+  {
+    "offset": "0x19d1658",
+    "address": "0x1019d1658",
+    "text": "Completed report submission with id: %@"
+  },
+  {
+    "offset": "0x19d1695",
+    "address": "0x1019d1695",
+    "text": "Unable to remove packaged submission"
+  },
+  {
+    "offset": "0x19d3a3f",
+    "address": "0x1019d3a3f",
+    "text": "Submitted an on-demand exception, starting delay %.20f"
+  },
+  {
+    "offset": "0x19fa5d5",
+    "address": "0x1019fa5d5",
+    "text": "container_memory.h"
+  }
+]

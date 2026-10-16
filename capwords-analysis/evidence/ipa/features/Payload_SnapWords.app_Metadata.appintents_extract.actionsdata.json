@@ -1,0 +1,363 @@
+{
+  "actions": {
+    "CameraLauncherControlIntent": {
+      "assistantDefinedSchemaTraits": [],
+      "assistantDefinedSchemas": [],
+      "authenticationPolicy": 0,
+      "availabilityAnnotations": {
+        "LNPlatformNameIOS": {
+          "introducedVersion": "18.0"
+        },
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "descriptionMetadata": {
+        "descriptionText": {
+          "alternatives": [],
+          "key": "Quickly open the CapWords camera page"
+        },
+        "searchKeywords": []
+      },
+      "effectiveBundleIdentifiers": [],
+      "fullyQualifiedTypeName": "SnapWords.CameraLauncherControlIntent",
+      "identifier": "CameraLauncherControlIntent",
+      "isAuthPolExplicit": false,
+      "isDiscoverable": true,
+      "mangledTypeName": "",
+      "mangledTypeNameByBundleIdentifier": {},
+      "mangledTypeNameByBundleIdentifierV2": {},
+      "mangledTypeNameV2": "9SnapWords27CameraLauncherControlIntentV",
+      "openAppWhenRun": true,
+      "outputFlags": 1,
+      "parameters": [],
+      "presentationStyle": 0,
+      "requiredCapabilities": [],
+      "supportedModes": 2,
+      "systemProtocolMetadata": [],
+      "systemProtocolMetadataV2": [],
+      "systemProtocols": [],
+      "title": {
+        "alternatives": [],
+        "key": "Open CapWords Camera"
+      },
+      "typeSpecificMetadata": [],
+      "visibilityMetadata": {
+        "assistantOnly": false,
+        "isDiscoverable": true
+      }
+    },
+    "CameraLauncherShortcutIntent": {
+      "assistantDefinedSchemaTraits": [],
+      "assistantDefinedSchemas": [],
+      "authenticationPolicy": 0,
+      "availabilityAnnotations": {
+        "LNPlatformNameIOS": {
+          "introducedVersion": "18.0"
+        },
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "descriptionMetadata": {
+        "descriptionText": {
+          "alternatives": [],
+          "key": "Quickly open the CapWords camera page"
+        },
+        "searchKeywords": []
+      },
+      "effectiveBundleIdentifiers": [],
+      "fullyQualifiedTypeName": "SnapWords.CameraLauncherShortcutIntent",
+      "identifier": "CameraLauncherShortcutIntent",
+      "isAuthPolExplicit": false,
+      "isDiscoverable": true,
+      "mangledTypeName": "",
+      "mangledTypeNameByBundleIdentifier": {},
+      "mangledTypeNameByBundleIdentifierV2": {},
+      "mangledTypeNameV2": "9SnapWords28CameraLauncherShortcutIntentV",
+      "openAppWhenRun": true,
+      "outputFlags": 1,
+      "parameters": [],
+      "presentationStyle": 0,
+      "requiredCapabilities": [],
+      "supportedModes": 2,
+      "systemProtocolMetadata": [],
+      "systemProtocolMetadataV2": [],
+      "systemProtocols": [],
+      "title": {
+        "alternatives": [],
+        "key": "Open CapWords Camera"
+      },
+      "typeSpecificMetadata": [],
+      "visibilityMetadata": {
+        "assistantOnly": false,
+        "isDiscoverable": true
+      }
+    },
+    "PlayWidgetWordIntent": {
+      "assistantDefinedSchemaTraits": [],
+      "assistantDefinedSchemas": [],
+      "authenticationPolicy": 0,
+      "availabilityAnnotations": {
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "effectiveBundleIdentifiers": [],
+      "fullyQualifiedTypeName": "SnapWords.PlayWidgetWordIntent",
+      "identifier": "PlayWidgetWordIntent",
+      "isAuthPolExplicit": false,
+      "isDiscoverable": true,
+      "mangledTypeName": "9SnapWords20PlayWidgetWordIntentV",
+      "mangledTypeNameByBundleIdentifier": {},
+      "mangledTypeNameByBundleIdentifierV2": {},
+      "mangledTypeNameV2": "9SnapWords20PlayWidgetWordIntentV",
+      "openAppWhenRun": false,
+      "outputFlags": 0,
+      "parameters": [
+        {
+          "capabilities": 0,
+          "dynamicOptionsSupport": 0,
+          "inputConnectionBehavior": 0,
+          "isInput": false,
+          "isOptional": false,
+          "name": "stickerID",
+          "resolvableInputTypes": [
+            {
+              "kindValue": 0,
+              "valueType": {
+                "primitive": {
+                  "wrapper": {
+                    "typeIdentifier": 2
+                  }
+                }
+              }
+            },
+            {
+              "kindValue": 0,
+              "valueType": {
+                "primitive": {
+                  "wrapper": {
+                    "typeIdentifier": 0
+                  }
+                }
+              }
+            },
+            {
+              "kindValue": 0,
+              "valueType": {
+                "array": {
+                  "wrapper": {
+                    "capabilities": 3,
+                    "memberValueType": {
+                      "primitive": {
+                        "wrapper": {
+                          "typeIdentifier": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "title": {
+            "alternatives": [],
+            "key": "Word ID"
+          },
+          "typeSpecificMetadata": [],
+          "valueType": {
+            "primitive": {
+              "wrapper": {
+                "typeIdentifier": 0
+              }
+            }
+          }
+        },
+        {
+          "capabilities": 0,
+          "dynamicOptionsSupport": 0,
+          "inputConnectionBehavior": 0,
+          "isInput": false,
+          "isOptional": false,
+          "name": "language",
+          "resolvableInputTypes": [
+            {
+              "kindValue": 0,
+              "valueType": {
+                "primitive": {
+                  "wrapper": {
+                    "typeIdentifier": 2
+                  }
+                }
+              }
+            },
+            {
+              "kindValue": 0,
+              "valueType": {
+                "primitive": {
+                  "wrapper": {
+                    "typeIdentifier": 0
+                  }
+                }
+              }
+            },
+            {
+              "kindValue": 0,
+              "valueType": {
+                "array": {
+                  "wrapper": {
+                    "capabilities": 3,
+                    "memberValueType": {
+                      "primitive": {
+                        "wrapper": {
+                          "typeIdentifier": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "title": {
+            "alternatives": [],
+            "key": "Language"
+          },
+          "typeSpecificMetadata": [],
+          "valueType": {
+            "primitive": {
+              "wrapper": {
+                "typeIdentifier": 0
+              }
+            }
+          }
+        },
+        {
+          "capabilities": 0,
+          "dynamicOptionsSupport": 0,
+          "inputConnectionBehavior": 0,
+          "isInput": false,
+          "isOptional": false,
+          "name": "contentVersion",
+          "resolvableInputTypes": [
+            {
+              "kindValue": 0,
+              "valueType": {
+                "primitive": {
+                  "wrapper": {
+                    "typeIdentifier": 2
+                  }
+                }
+              }
+            },
+            {
+              "kindValue": 0,
+              "valueType": {
+                "primitive": {
+                  "wrapper": {
+                    "typeIdentifier": 0
+                  }
+                }
+              }
+            },
+            {
+              "kindValue": 0,
+              "valueType": {
+                "array": {
+                  "wrapper": {
+                    "capabilities": 3,
+                    "memberValueType": {
+                      "primitive": {
+                        "wrapper": {
+                          "typeIdentifier": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "title": {
+            "alternatives": [],
+            "key": "Content version"
+          },
+          "typeSpecificMetadata": [],
+          "valueType": {
+            "primitive": {
+              "wrapper": {
+                "typeIdentifier": 0
+              }
+            }
+          }
+        }
+      ],
+      "presentationStyle": 0,
+      "requiredCapabilities": [],
+      "supportedModes": 1,
+      "systemProtocolMetadata": [
+        "com.apple.link.systemProtocol.AudioStarting",
+        {
+          "empty": {}
+        }
+      ],
+      "systemProtocolMetadataV2": [
+        "com.apple.link.systemProtocol.AudioStarting",
+        {
+          "empty": {}
+        }
+      ],
+      "systemProtocols": [
+        "com.apple.link.systemProtocol.AudioStarting"
+      ],
+      "title": {
+        "alternatives": [],
+        "key": "Play pronunciation"
+      },
+      "typeSpecificMetadata": [],
+      "visibilityMetadata": {
+        "assistantOnly": false,
+        "isDiscoverable": true
+      }
+    }
+  },
+  "assistantEntities": [],
+  "assistantIntentNegativePhrases": [],
+  "assistantIntents": [],
+  "autoShortcutProviderMangledName": "9SnapWords31CameraLauncherShortcutsProviderV",
+  "autoShortcuts": [
+    {
+      "actionIdentifier": "CameraLauncherShortcutIntent",
+      "availabilityAnnotations": {
+        "LNPlatformNameIOS": {
+          "introducedVersion": "18.0"
+        },
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "phraseTemplates": [
+        {
+          "alternatives": [],
+          "key": "Open ${applicationName} Camera"
+        }
+      ],
+      "shortTitle": {
+        "alternatives": [],
+        "key": "Open Camera"
+      },
+      "systemImageName": "camera"
+    }
+  ],
+  "entities": {},
+  "enums": [],
+  "generator": {
+    "name": "xcode-tools",
+    "version": "27A266a"
+  },
+  "negativePhrases": [],
+  "queries": {},
+  "shortcutTileColor": 14,
+  "version": 1
+}

@@ -1,0 +1,53 @@
+{
+  "NSPrivacyCollectedDataTypes": [
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeDeviceID",
+      "NSPrivacyCollectedDataTypeLinked": true,
+      "NSPrivacyCollectedDataTypeTracking": true,
+      "NSPrivacyCollectedDataTypePurposes": [
+        "NSPrivacyCollectedDataTypePurposeThirdPartyAdvertising"
+      ]
+    },
+    {
+      "NSPrivacyCollectedDataType": "NSPrivacyCollectedDataTypeProductInteraction",
+      "NSPrivacyCollectedDataTypeLinked": false,
+      "NSPrivacyCollectedDataTypeTracking": false,
+      "NSPrivacyCollectedDataTypePurposes": [
+        "NSPrivacyCollectedDataTypePurposeAnalytics"
+      ]
+    }
+  ],
+  "NSPrivacyTrackingDomains": [
+    "att-attr.whappsflyer.com",
+    "att-attr.appsflyer-cn.com",
+    "att-attr.hevents.appsflyer-cn.com",
+    "att-launches.whappsflyer.com",
+    "att-launches.appsflyer-cn.com",
+    "att-launches.hevents.appsflyer-cn.com",
+    "att-conversions.hevents.appsflyer-cn.com",
+    "att-conversions.appsflyer-cn.com",
+    "att-conversions.whappsflyer.com",
+    "att-dlsdk.hevents.appsflyer-cn.com",
+    "att-dlsdk.appsflyer-cn.com",
+    "att-dlsdk.whappsflyer.com",
+    "att-dlsdk.appsflyersdk.com",
+    "att-conversions.appsflyersdk.com",
+    "att-launches.appsflyersdk.com",
+    "att-attr.appsflyersdk.com"
+  ],
+  "NSPrivacyTracking": true,
+  "NSPrivacyAccessedAPITypes": [
+    {
+      "NSPrivacyAccessedAPITypeReasons": [
+        "CA92.1"
+      ],
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults"
+    },
+    {
+      "NSPrivacyAccessedAPITypeReasons": [
+        "C617.1"
+      ],
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp"
+    }
+  ]
+}

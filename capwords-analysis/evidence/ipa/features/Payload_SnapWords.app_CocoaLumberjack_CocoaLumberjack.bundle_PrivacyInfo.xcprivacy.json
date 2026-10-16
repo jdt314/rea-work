@@ -1,0 +1,19 @@
+{
+  "NSPrivacyTracking": false,
+  "NSPrivacyCollectedDataTypes": [],
+  "NSPrivacyAccessedAPITypes": [
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryFileTimestamp",
+      "NSPrivacyAccessedAPITypeReasons": [
+        "C617.1",
+        "0A2A.1"
+      ]
+    },
+    {
+      "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryDiskSpace",
+      "NSPrivacyAccessedAPITypeReasons": [
+        "E174.1"
+      ]
+    }
+  ]
+}

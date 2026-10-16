@@ -1,0 +1,83 @@
+[
+  {
+    "stub": "0x101792780",
+    "selector_pointer": "0x101f235c8",
+    "selector": "generateMaskedImageOfInstances:fromRequestHandler:croppedToInstancesExtent:error:",
+    "words": [
+      "0xb0003c81",
+      "0xf942e421"
+    ]
+  },
+  {
+    "stub": "0x101792800",
+    "selector_pointer": "0x101f235e8",
+    "selector": "generateScaledMaskForImageForInstances:fromRequestHandler:error:",
+    "words": [
+      "0xb0003c81",
+      "0xf942f421"
+    ]
+  },
+  {
+    "stub": "0x101788160",
+    "selector_pointer": "0x101f20c40",
+    "selector": "allInstances",
+    "words": [
+      "0x90003cc1",
+      "0xf9462021"
+    ]
+  },
+  {
+    "stub": "0x1017947a0",
+    "selector_pointer": "0x101f23dd0",
+    "selector": "init",
+    "words": [
+      "0xf0003c61",
+      "0xf946e821"
+    ]
+  },
+  {
+    "stub": "0x1017a53e0",
+    "selector_pointer": "0x101f280e0",
+    "selector": "setContrastAdjustment:",
+    "words": [
+      "0xf0003c01",
+      "0xf9407021"
+    ]
+  },
+  {
+    "stub": "0x1017a5c80",
+    "selector_pointer": "0x101f28308",
+    "selector": "setDetectsDarkOnLight:",
+    "words": [
+      "0xf0003c01",
+      "0xf9418421"
+    ]
+  },
+  {
+    "stub": "0x1017a8000",
+    "selector_pointer": "0x101f28be8",
+    "selector": "setMaximumImageDimension:",
+    "words": [
+      "0x90003c01",
+      "0xf945f421"
+    ]
+  },
+  {
+    "stub": "0x10179e980",
+    "selector_pointer": "0x101f26648",
+    "selector": "performRequests:error:",
+    "words": [
+      "0x90003c41",
+      "0xf9432421"
+    ]
+  },
+  {
+    "stub": "0x101794f20",
+    "selector_pointer": "0x101f23fb0",
+    "selector": "initWithCGImage:options:",
+    "words": [
+      "0xf0003c61",
+      "0xf947d821"
+    ]
+  }
+]

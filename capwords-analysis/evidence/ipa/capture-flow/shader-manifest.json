@@ -1,0 +1,26 @@
+[
+  {
+    "member": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/DustEffectShaders.metal",
+    "file": "capwords-analysis\\evidence\\ipa\\capture-flow\\DustEffectShaders.metal",
+    "sha256": "fdc9cec7221d6f9a61611e593d9c9922705a1da93e91696d9f5642a03b209883",
+    "size": 5404
+  },
+  {
+    "member": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/loki.metal",
+    "file": "capwords-analysis\\evidence\\ipa\\capture-flow\\loki.metal",
+    "sha256": "71fe7cb7922c92766fff4d386cde4857357bd2ce5f8f2cf4de7881f929999559",
+    "size": 1713
+  },
+  {
+    "member": "Payload/SnapWords.app/DustEffectMetalSourcesBundle.bundle/loki_header.metal",
+    "file": "capwords-analysis\\evidence\\ipa\\capture-flow\\loki_header.metal",
+    "sha256": "03ff37f00baf36c07b8a93470c14b33fbcb8dff8a81815f194002fe65e5d5af4",
+    "size": 1619
+  },
+  {
+    "member": "Payload/SnapWords.app/default.metallib",
+    "file": "capwords-analysis\\evidence\\ipa\\capture-flow\\default.metallib",
+    "sha256": "cca0741fc6a03a665ec13aebd39fc0e9f6c78e302d774d67de46b13449fb9e19",
+    "size": 68768
+  }
+]

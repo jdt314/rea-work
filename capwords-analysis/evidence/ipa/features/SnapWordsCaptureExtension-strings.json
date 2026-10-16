@@ -1,0 +1,1470 @@
+[
+  {
+    "offset": "0x28",
+    "text": "__PAGEZERO"
+  },
+  {
+    "offset": "0x70",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0xb0",
+    "text": "__text"
+  },
+  {
+    "offset": "0xc0",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x100",
+    "text": "__stubs"
+  },
+  {
+    "offset": "0x110",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x150",
+    "text": "__objc_stubs"
+  },
+  {
+    "offset": "0x160",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x1a0",
+    "text": "__swift5_entry"
+  },
+  {
+    "offset": "0x1b0",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x1f0",
+    "text": "__const"
+  },
+  {
+    "offset": "0x200",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x240",
+    "text": "__constg_swiftt"
+  },
+  {
+    "offset": "0x250",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x290",
+    "text": "__swift5_typeref__TEXT"
+  },
+  {
+    "offset": "0x2e0",
+    "text": "__swift5_fieldmd__TEXT"
+  },
+  {
+    "offset": "0x330",
+    "text": "__swift5_reflstr__TEXT"
+  },
+  {
+    "offset": "0x380",
+    "text": "__swift5_assocty__TEXT"
+  },
+  {
+    "offset": "0x3d0",
+    "text": "__swift5_proto"
+  },
+  {
+    "offset": "0x3e0",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x420",
+    "text": "__swift5_types"
+  },
+  {
+    "offset": "0x430",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x470",
+    "text": "__cstring"
+  },
+  {
+    "offset": "0x480",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x4c0",
+    "text": "__swift_as_entry__TEXT"
+  },
+  {
+    "offset": "0x510",
+    "text": "__swift_as_ret"
+  },
+  {
+    "offset": "0x520",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x560",
+    "text": "__swift_as_cont"
+  },
+  {
+    "offset": "0x570",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x5b0",
+    "text": "__objc_methname"
+  },
+  {
+    "offset": "0x5c0",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x600",
+    "text": "__unwind_info"
+  },
+  {
+    "offset": "0x610",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x650",
+    "text": "__eh_frame"
+  },
+  {
+    "offset": "0x660",
+    "text": "__TEXT"
+  },
+  {
+    "offset": "0x6a8",
+    "text": "__DATA_CONST"
+  },
+  {
+    "offset": "0x6e8",
+    "text": "__const"
+  },
+  {
+    "offset": "0x6f8",
+    "text": "__DATA_CONST"
+  },
+  {
+    "offset": "0x738",
+    "text": "__objc_imageinfo__DATA_CONST"
+  },
+  {
+    "offset": "0x788",
+    "text": "__got"
+  },
+  {
+    "offset": "0x798",
+    "text": "__DATA_CONST"
+  },
+  {
+    "offset": "0x7e0",
+    "text": "__DATA"
+  },
+  {
+    "offset": "0x820",
+    "text": "__objc_selrefs"
+  },
+  {
+    "offset": "0x830",
+    "text": "__DATA"
+  },
+  {
+    "offset": "0x870",
+    "text": "__data"
+  },
+  {
+    "offset": "0x880",
+    "text": "__DATA"
+  },
+  {
+    "offset": "0x8c0",
+    "text": "__bss"
+  },
+  {
+    "offset": "0x8d0",
+    "text": "__DATA"
+  },
+  {
+    "offset": "0x910",
+    "text": "__common"
+  },
+  {
+    "offset": "0x920",
+    "text": "__DATA"
+  },
+  {
+    "offset": "0x968",
+    "text": "__LINKEDIT"
+  },
+  {
+    "offset": "0xa3c",
+    "text": "/usr/lib/dyld"
+  },
+  {
+    "offset": "0xae0",
+    "text": "/System/Library/Frameworks/Foundation.framework/Foundation"
+  },
+  {
+    "offset": "0xb38",
+    "text": "/usr/lib/libobjc.A.dylib"
+  },
+  {
+    "offset": "0xb70",
+    "text": "/usr/lib/libSystem.B.dylib"
+  },
+  {
+    "offset": "0xba8",
+    "text": "/System/Library/Frameworks/AppIntents.framework/AppIntents"
+  },
+  {
+    "offset": "0xc00",
+    "text": "/System/Library/Frameworks/ExtensionFoundation.framework/ExtensionFoundation"
+  },
+  {
+    "offset": "0xc68",
+    "text": "/System/Library/Frameworks/ExtensionKit.framework/ExtensionKit"
+  },
+  {
+    "offset": "0xcc0",
+    "text": "/System/Library/Frameworks/LockedCameraCapture.framework/LockedCameraCapture"
+  },
+  {
+    "offset": "0xd28",
+    "text": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI"
+  },
+  {
+    "offset": "0xd78",
+    "text": "/System/Library/Frameworks/UIKit.framework/UIKit"
+  },
+  {
+    "offset": "0xdc8",
+    "text": "/usr/lib/swift/libswiftCore.dylib"
+  },
+  {
+    "offset": "0xe08",
+    "text": "/usr/lib/swift/libswiftCoreAudio.dylib"
+  },
+  {
+    "offset": "0xe48",
+    "text": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+  },
+  {
+    "offset": "0xe90",
+    "text": "/usr/lib/swift/libswiftCoreImage.dylib"
+  },
+  {
+    "offset": "0xed0",
+    "text": "/usr/lib/swift/libswiftCoreLocation.dylib"
+  },
+  {
+    "offset": "0xf18",
+    "text": "/usr/lib/swift/libswiftDispatch.dylib"
+  },
+  {
+    "offset": "0xf58",
+    "text": "/usr/lib/swift/libswiftMetal.dylib"
+  },
+  {
+    "offset": "0xf98",
+    "text": "/usr/lib/swift/libswiftOSLog.dylib"
+  },
+  {
+    "offset": "0xfd8",
+    "text": "/usr/lib/swift/libswiftObjectiveC.dylib"
+  },
+  {
+    "offset": "0x1018",
+    "text": "/usr/lib/swift/libswiftQuartzCore.dylib"
+  },
+  {
+    "offset": "0x1058",
+    "text": "/usr/lib/swift/libswiftSpatial.dylib"
+  },
+  {
+    "offset": "0x1098",
+    "text": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+  },
+  {
+    "offset": "0x10e8",
+    "text": "/usr/lib/swift/libswiftXPC.dylib"
+  },
+  {
+    "offset": "0x1128",
+    "text": "/usr/lib/swift/libswift_Builtin_float.dylib"
+  },
+  {
+    "offset": "0x1170",
+    "text": "/usr/lib/swift/libswift_Concurrency.dylib"
+  },
+  {
+    "offset": "0x11b8",
+    "text": "/usr/lib/swift/libswiftos.dylib"
+  },
+  {
+    "offset": "0x11f0",
+    "text": "/usr/lib/swift/libswiftsimd.dylib"
+  },
+  {
+    "offset": "0x1224",
+    "text": "@executable_path/Frameworks"
+  },
+  {
+    "offset": "0x124c",
+    "text": "@executable_path/../../Frameworks"
+  },
+  {
+    "offset": "0x12a8",
+    "text": "@rpath/zxPluginsInject.dylib"
+  },
+  {
+    "offset": "0x5c10",
+    "text": "SnapWordsCaptureExtension"
+  },
+  {
+    "offset": "0x5ef0",
+    "text": "CameraLauncherShortcutsProvider"
+  },
+  {
+    "offset": "0x5f10",
+    "text": "CameraLauncherShortcutIntent"
+  },
+  {
+    "offset": "0x5f30",
+    "text": "CameraLauncherControlIntent"
+  },
+  {
+    "offset": "0x60c0",
+    "text": "$s19LockedCameraCapture0abC9ExtensionP"
+  },
+  {
+    "offset": "0x60f6",
+    "text": "$s19ExtensionFoundation03AppA0P"
+  },
+  {
+    "offset": "0x616a",
+    "text": "$s10AppIntents0A6IntentP"
+  },
+  {
+    "offset": "0x6275",
+    "text": "Configuration"
+  },
+  {
+    "offset": "0x6283",
+    "text": "PerformResult"
+  },
+  {
+    "offset": "0x6291",
+    "text": "SummaryContent"
+  },
+  {
+    "offset": "0x6350",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherShortcutIntent.perform"
+  },
+  {
+    "offset": "0x6390",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherIntentBridge.submit"
+  },
+  {
+    "offset": "0x63d0",
+    "text": "cameraLauncherIntentDidRequestOpen"
+  },
+  {
+    "offset": "0x6400",
+    "text": "snapwords://open?target=camera&source=appShortcut"
+  },
+  {
+    "offset": "0x6440",
+    "text": "Open CapWords Camera"
+  },
+  {
+    "offset": "0x6460",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherControlIntent.perform"
+  },
+  {
+    "offset": "0x64a0",
+    "text": "snapwords://open?target=camera&source=controlWidget"
+  },
+  {
+    "offset": "0x6504",
+    "text": "defaultCenter"
+  },
+  {
+    "offset": "0x6512",
+    "text": "postNotificationName:object:"
+  },
+  {
+    "offset": "0x1025d",
+    "text": "_$sytWV"
+  },
+  {
+    "offset": "0x10265",
+    "text": "_$s19LockedCameraCapture0abC9ExtensionMp"
+  },
+  {
+    "offset": "0x1028e",
+    "text": "_$s19LockedCameraCapture0abC9ExtensionP0D10Foundation03AppD0Tb"
+  },
+  {
+    "offset": "0x102cd",
+    "text": "_$s19LockedCameraCapture0abC9ExtensionP4BodyAC_AA0abcD5SceneTn"
+  },
+  {
+    "offset": "0x1030c",
+    "text": "_$s4Body19LockedCameraCapture0bcD9ExtensionPTl"
+  },
+  {
+    "offset": "0x1033b",
+    "text": "_$s19LockedCameraCapture0abC9ExtensionP4body4BodyQzvgTq"
+  },
+  {
+    "offset": "0x10373",
+    "text": "_$s19ExtensionFoundation03AppA0Mp"
+  },
+  {
+    "offset": "0x10395",
+    "text": "_$s19ExtensionFoundation03AppA0P13ConfigurationAC_AA0caD0Tn"
+  },
+  {
+    "offset": "0x103d1",
+    "text": "_$s13Configuration19ExtensionFoundation03AppB0PTl"
+  },
+  {
+    "offset": "0x10403",
+    "text": "_$s19ExtensionFoundation03AppA0P13configuration13ConfigurationQzvgTq"
+  },
+  {
+    "offset": "0x10448",
+    "text": "_$s19ExtensionFoundation03AppA0PxycfCTq"
+  },
+  {
+    "offset": "0x10470",
+    "text": "_$s19ExtensionFoundation03AppA0P14extensionPointAA0caE0VvgTq"
+  },
+  {
+    "offset": "0x104ad",
+    "text": "_$sScMs11GlobalActorsMc"
+  },
+  {
+    "offset": "0x104c5",
+    "text": "_$s19LockedCameraCapture0abC14ExtensionSceneMp"
+  },
+  {
+    "offset": "0x104f4",
+    "text": "_$s10AppIntents0A6IntentMp"
+  },
+  {
+    "offset": "0x1050f",
+    "text": "_$s10AppIntents0A6IntentPAA24PersistentlyIdentifiableTb"
+  },
+  {
+    "offset": "0x10547",
+    "text": "_$s10AppIntents0A6IntentPAA09_SupportsA12DependenciesTb"
+  },
+  {
+    "offset": "0x1057f",
+    "text": "_$s10AppIntents0A6IntentP13PerformResultAC_AA0cE0Tn"
+  },
+  {
+    "offset": "0x105b3",
+    "text": "_$s10AppIntents0A6IntentP14SummaryContentAC_AA09ParameterD0Tn"
+  },
+  {
+    "offset": "0x105f1",
+    "text": "_$s13PerformResult10AppIntents0C6IntentPTl"
+  },
+  {
+    "offset": "0x1061c",
+    "text": "_$s14SummaryContent10AppIntents0C6IntentPTl"
+  },
+  {
+    "offset": "0x10648",
+    "text": "_$s10AppIntents0A6IntentP5title10Foundation23LocalizedStringResourceVvgZTq"
+  },
+  {
+    "offset": "0x10693",
+    "text": "_$s10AppIntents0A6IntentP04openA7WhenRunSbvgZTq"
+  },
+  {
+    "offset": "0x106c3",
+    "text": "_$s10AppIntents0A6IntentP14supportedModesAA0cE0VvgZTq"
+  },
+  {
+    "offset": "0x106f9",
+    "text": "_$s10AppIntents0A6IntentP20authenticationPolicyAA0c14AuthenticationE0OvgZTq"
+  },
+  {
+    "offset": "0x10745",
+    "text": "_$s10AppIntents0A6IntentP14isDiscoverableSbvgZTq"
+  },
+  {
+    "offset": "0x10776",
+    "text": "_$s10AppIntents0A6IntentP23allowedExecutionTargetsAA0ceF0VvgZTq"
+  },
+  {
+    "offset": "0x107b6",
+    "text": "_$s10AppIntents0A6IntentP16parameterSummary0E7ContentQzvgZTq"
+  },
+  {
+    "offset": "0x107f3",
+    "text": "_$s10AppIntents0A6IntentP11descriptionAA0C11DescriptionVSgvgZTq"
+  },
+  {
+    "offset": "0x10833",
+    "text": "_$s10AppIntents0A6IntentP7perform13PerformResultQzyYaKFTq"
+  },
+  {
+    "offset": "0x1086d",
+    "text": "_$s10AppIntents0A6IntentPxycfCTq"
+  },
+  {
+    "offset": "0x1088e",
+    "text": "_$s10AppIntents24PersistentlyIdentifiableMp"
+  },
+  {
+    "offset": "0x108ba",
+    "text": "_$s10AppIntents24PersistentlyIdentifiableP20persistentIdentifierSSvgZTq"
+  },
+  {
+    "offset": "0x10902",
+    "text": "_$s10AppIntents09_SupportsA12DependenciesMp"
+  },
+  {
+    "offset": "0x1092e",
+    "text": "_$s10AppIntents0A17ShortcutsProviderMp"
+  },
+  {
+    "offset": "0x10955",
+    "text": "_$s10AppIntents0A17ShortcutsProviderP03appC0SayAA0A8ShortcutVGvgZTq"
+  },
+  {
+    "offset": "0x10999",
+    "text": "_$s10AppIntents0A17ShortcutsProviderP17shortcutTileColorAA08ShortcutfG0OvgZTq"
+  },
+  {
+    "offset": "0x109e7",
+    "text": "_$s10AppIntents11OpensIntentMp"
+  },
+  {
+    "offset": "0x10a06",
+    "text": "_$s10Foundation23LocalizedStringResourceV13stringLiteralACSS_tcfC"
+  },
+  {
+    "offset": "0x10a48",
+    "text": "_$s10Foundation23LocalizedStringResourceVMa"
+  },
+  {
+    "offset": "0x10a74",
+    "text": "_$s10Foundation3URLV14absoluteStringSSvg"
+  },
+  {
+    "offset": "0x10a9d",
+    "text": "_$s10Foundation3URLV6stringACSgSSh_tcfC"
+  },
+  {
+    "offset": "0x10ac5",
+    "text": "_$s10Foundation3URLVMa"
+  },
+  {
+    "offset": "0x10adc",
+    "text": "_$s10Foundation3URLVMn"
+  },
+  {
+    "offset": "0x10af3",
+    "text": "_$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF"
+  },
+  {
+    "offset": "0x10b29",
+    "text": "_NSExtensionMain"
+  },
+  {
+    "offset": "0x10b3a",
+    "text": "_OBJC_CLASS_$_NSNotificationCenter"
+  },
+  {
+    "offset": "0x10b5d",
+    "text": "_objc_msgSend"
+  },
+  {
+    "offset": "0x10b6b",
+    "text": "_objc_opt_self"
+  },
+  {
+    "offset": "0x10b7a",
+    "text": "_objc_release_x19"
+  },
+  {
+    "offset": "0x10b8c",
+    "text": "_objc_retainAutoreleasedReturnValue"
+  },
+  {
+    "offset": "0x10bb0",
+    "text": "___chkstk_darwin"
+  },
+  {
+    "offset": "0x10bc1",
+    "text": "_$s10AppIntents0A14ShortcutPhraseV19StringInterpolationV06appendF0yyAA0acD5TokenOF"
+  },
+  {
+    "offset": "0x10c14",
+    "text": "_$s10AppIntents0A14ShortcutPhraseV19StringInterpolationV13appendLiteralyySSF"
+  },
+  {
+    "offset": "0x10c61",
+    "text": "_$s10AppIntents0A14ShortcutPhraseV19StringInterpolationV15literalCapacity18interpolationCountAEyx_GSi_SitcfC"
+  },
+  {
+    "offset": "0x10cce",
+    "text": "_$s10AppIntents0A14ShortcutPhraseV19StringInterpolationVMn"
+  },
+  {
+    "offset": "0x10d09",
+    "text": "_$s10AppIntents0A14ShortcutPhraseV19stringInterpolationACyxGAC06StringF0Vyx_G_tcfC"
+  },
+  {
+    "offset": "0x10d5c",
+    "text": "_$s10AppIntents0A14ShortcutPhraseVMn"
+  },
+  {
+    "offset": "0x10d81",
+    "text": "_$s10AppIntents0A17ShortcutsProviderPAAE17shortcutTileColorAA08ShortcutfG0OvgZ"
+  },
+  {
+    "offset": "0x10dd0",
+    "text": "_$s10AppIntents0A19ShortcutPhraseTokenO15applicationNameyA2CmFWC"
+  },
+  {
+    "offset": "0x10e11",
+    "text": "_$s10AppIntents0A19ShortcutPhraseTokenOMa"
+  },
+  {
+    "offset": "0x10e3b",
+    "text": "_$s10AppIntents0A6IntentPAAE11descriptionAA0C11DescriptionVSgvgZ"
+  },
+  {
+    "offset": "0x10e7c",
+    "text": "_$s10AppIntents0A6IntentPAAE14isDiscoverableSbvgZ"
+  },
+  {
+    "offset": "0x10eae",
+    "text": "_$s10AppIntents0A6IntentPAAE16parameterSummaryQrvgZ"
+  },
+  {
+    "offset": "0x10ee2",
+    "text": "_$s10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOMQ"
+  },
+  {
+    "offset": "0x10f1a",
+    "text": "_$s10AppIntents0A6IntentPAAE20authenticationPolicyAA0c14AuthenticationE0OvgZ"
+  },
+  {
+    "offset": "0x10f67",
+    "text": "_$s10AppIntents0A6IntentPAAE20persistentIdentifierSSvgZ"
+  },
+  {
+    "offset": "0x10f9f",
+    "text": "_$s10AppIntents0A6IntentPAAE23allowedExecutionTargetsAA0ceF0VvgZ"
+  },
+  {
+    "offset": "0x10fe0",
+    "text": "_$s10AppIntents0A8ShortcutV6intent7phrases10shortTitle15systemImageNameACx_SayAA0aC6PhraseVyxGG10Foundation23LocalizedStringResourceVSSYttcAA0A6IntentRzlufC"
+  },
+  {
+    "offset": "0x1107d",
+    "text": "_$s10AppIntents0A8ShortcutVMa"
+  },
+  {
+    "offset": "0x1109b",
+    "text": "_$s10AppIntents0A8ShortcutVMn"
+  },
+  {
+    "offset": "0x110b9",
+    "text": "_$s10AppIntents11IntentModesV10foregroundyA2C14ForegroundModeVFZ"
+  },
+  {
+    "offset": "0x110fa",
+    "text": "_$s10AppIntents11IntentModesV14ForegroundModeV9immediateAEvgZ"
+  },
+  {
+    "offset": "0x11138",
+    "text": "_$s10AppIntents11IntentModesV14ForegroundModeVMa"
+  },
+  {
+    "offset": "0x11169",
+    "text": "_$s10AppIntents11IntentModesVMa"
+  },
+  {
+    "offset": "0x11189",
+    "text": "_$s10AppIntents11IntentModesVMn"
+  },
+  {
+    "offset": "0x111a9",
+    "text": "_$s10AppIntents11IntentModesVs10SetAlgebraAAMc"
+  },
+  {
+    "offset": "0x111d8",
+    "text": "_$s10AppIntents12IntentResultPAAE6result05opensC0AA0cD9ContainerVys5NeverOA3IGqd___tAJRszAA0aC0Rd__lFZ"
+  },
+  {
+    "offset": "0x1123f",
+    "text": "_$s10AppIntents13OpenURLIntentVAA0A6IntentAAMc"
+  },
+  {
+    "offset": "0x1126e",
+    "text": "_$s10AppIntents13OpenURLIntentVMa"
+  },
+  {
+    "offset": "0x11290",
+    "text": "_$s10AppIntents13OpenURLIntentVyAC10Foundation3URLVcfC"
+  },
+  {
+    "offset": "0x112c7",
+    "text": "_$s10AppIntents21IntentResultContainerVMn"
+  },
+  {
+    "offset": "0x112f1",
+    "text": "_$s10AppIntents21IntentResultContainerVyxq_q0_q1_GAA05OpensC0AAMc"
+  },
+  {
+    "offset": "0x11333",
+    "text": "_$s19ExtensionFoundation03AppA0PAAE14extensionPointAA0caE0Vvg"
+  },
+  {
+    "offset": "0x11371",
+    "text": "_$s12ExtensionKit03AppA18SceneConfigurationV0A10Foundation0caE0AAMc"
+  },
+  {
+    "offset": "0x113b5",
+    "text": "_$s12ExtensionKit03AppA18SceneConfigurationVMa"
+  },
+  {
+    "offset": "0x113e4",
+    "text": "_$s12ExtensionKit03AppA18SceneConfigurationVMn"
+  },
+  {
+    "offset": "0x11413",
+    "text": "_$s19ExtensionFoundation03AppA0P0A3KitAD0cA18SceneConfigurationV0F0RtzrlE4mainyyKFZ"
+  },
+  {
+    "offset": "0x11467",
+    "text": "_$s19LockedCameraCapture0abC7UISceneV7contentACyxGxAA0abC7SessionCc_tcfC"
+  },
+  {
+    "offset": "0x114b0",
+    "text": "_$s19LockedCameraCapture0abC7UISceneVMn"
+  },
+  {
+    "offset": "0x114d8",
+    "text": "_$s19LockedCameraCapture0abC7UISceneVyxGAA0abC14ExtensionSceneAAMc"
+  },
+  {
+    "offset": "0x1151b",
+    "text": "_$s19LockedCameraCapture0abC9ExtensionPAAE13configuration0D3Kit03AppD18SceneConfigurationVvg"
+  },
+  {
+    "offset": "0x11578",
+    "text": "_$s7SwiftUI5ColorV5blackACvgZ"
+  },
+  {
+    "offset": "0x11596",
+    "text": "_$s7SwiftUI5ColorVAA4ViewAAWP"
+  },
+  {
+    "offset": "0x115b4",
+    "text": "_$s7SwiftUI5ColorVMn"
+  },
+  {
+    "offset": "0x115c9",
+    "text": "_$s7SwiftUI5ColorVN"
+  },
+  {
+    "offset": "0x115dd",
+    "text": "_$sSS6appendyySSF"
+  },
+  {
+    "offset": "0x115ef",
+    "text": "_$sSSN"
+  },
+  {
+    "offset": "0x115f6",
+    "text": "_$sSayxGSTsMc"
+  },
+  {
+    "offset": "0x11604",
+    "text": "_$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj"
+  },
+  {
+    "offset": "0x1163c",
+    "text": "_$ss23_ContiguousArrayStorageCMn"
+  },
+  {
+    "offset": "0x1165d",
+    "text": "_$ss5NeverOMn"
+  },
+  {
+    "offset": "0x1166b",
+    "text": "_$ss5print_9separator10terminatoryypd_S2StF"
+  },
+  {
+    "offset": "0x11697",
+    "text": "_swift_allocObject"
+  },
+  {
+    "offset": "0x116aa",
+    "text": "_swift_beginAccess"
+  },
+  {
+    "offset": "0x116bd",
+    "text": "_swift_bridgeObjectRelease"
+  },
+  {
+    "offset": "0x116d8",
+    "text": "_swift_endAccess"
+  },
+  {
+    "offset": "0x116e9",
+    "text": "_swift_errorInMain"
+  },
+  {
+    "offset": "0x116fc",
+    "text": "_swift_getObjectType"
+  },
+  {
+    "offset": "0x11711",
+    "text": "_swift_getOpaqueTypeConformance2"
+  },
+  {
+    "offset": "0x11732",
+    "text": "_swift_getTypeByMangledNameInContext2"
+  },
+  {
+    "offset": "0x11758",
+    "text": "_swift_getTypeByMangledNameInContextInMetadataState2"
+  },
+  {
+    "offset": "0x1178d",
+    "text": "_swift_getWitnessTable"
+  },
+  {
+    "offset": "0x117a4",
+    "text": "_swift_once"
+  },
+  {
+    "offset": "0x117b0",
+    "text": "_swift_release_x19"
+  },
+  {
+    "offset": "0x117c3",
+    "text": "_swift_release_x23"
+  },
+  {
+    "offset": "0x117d6",
+    "text": "_swift_release_x8"
+  },
+  {
+    "offset": "0x117e8",
+    "text": "_swift_slowAlloc"
+  },
+  {
+    "offset": "0x117f9",
+    "text": "_$sScA15unownedExecutorScevgTj"
+  },
+  {
+    "offset": "0x11818",
+    "text": "_$sScM6sharedScMvgZ"
+  },
+  {
+    "offset": "0x1182c",
+    "text": "_$sScMMa"
+  },
+  {
+    "offset": "0x11835",
+    "text": "_$sScMScAsWP"
+  },
+  {
+    "offset": "0x11842",
+    "text": "_swift_task_alloc"
+  },
+  {
+    "offset": "0x11854",
+    "text": "_swift_task_dealloc"
+  },
+  {
+    "offset": "0x11868",
+    "text": "_swift_task_switch"
+  },
+  {
+    "offset": "0x11895",
+    "text": "_mh_execute_header"
+  },
+  {
+    "offset": "0x11e34",
+    "text": "__mh_execute_header"
+  },
+  {
+    "offset": "0x11e48",
+    "text": "_main"
+  },
+  {
+    "offset": "0x11e4e",
+    "text": "_NSExtensionMain"
+  },
+  {
+    "offset": "0x11e5f",
+    "text": "_OBJC_CLASS_$_NSNotificationCenter"
+  },
+  {
+    "offset": "0x11e82",
+    "text": "___chkstk_darwin"
+  },
+  {
+    "offset": "0x11e93",
+    "text": "__swift_FORCE_LOAD_$_swiftCoreAudio"
+  },
+  {
+    "offset": "0x11eb7",
+    "text": "__swift_FORCE_LOAD_$_swiftCoreFoundation"
+  },
+  {
+    "offset": "0x11ee0",
+    "text": "__swift_FORCE_LOAD_$_swiftCoreImage"
+  },
+  {
+    "offset": "0x11f04",
+    "text": "__swift_FORCE_LOAD_$_swiftCoreLocation"
+  },
+  {
+    "offset": "0x11f2b",
+    "text": "__swift_FORCE_LOAD_$_swiftDispatch"
+  },
+  {
+    "offset": "0x11f4e",
+    "text": "__swift_FORCE_LOAD_$_swiftFoundation"
+  },
+  {
+    "offset": "0x11f73",
+    "text": "__swift_FORCE_LOAD_$_swiftMetal"
+  },
+  {
+    "offset": "0x11f93",
+    "text": "__swift_FORCE_LOAD_$_swiftOSLog"
+  },
+  {
+    "offset": "0x11fb3",
+    "text": "__swift_FORCE_LOAD_$_swiftObjectiveC"
+  },
+  {
+    "offset": "0x11fd8",
+    "text": "__swift_FORCE_LOAD_$_swiftQuartzCore"
+  },
+  {
+    "offset": "0x11ffd",
+    "text": "__swift_FORCE_LOAD_$_swiftSpatial"
+  },
+  {
+    "offset": "0x1201f",
+    "text": "__swift_FORCE_LOAD_$_swiftUIKit"
+  },
+  {
+    "offset": "0x1203f",
+    "text": "__swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers"
+  },
+  {
+    "offset": "0x12070",
+    "text": "__swift_FORCE_LOAD_$_swiftXPC"
+  },
+  {
+    "offset": "0x1208e",
+    "text": "__swift_FORCE_LOAD_$_swift_Builtin_float"
+  },
+  {
+    "offset": "0x120b7",
+    "text": "__swift_FORCE_LOAD_$_swiftos"
+  },
+  {
+    "offset": "0x120d4",
+    "text": "__swift_FORCE_LOAD_$_swiftsimd"
+  },
+  {
+    "offset": "0x120f3",
+    "text": "_objc_msgSend"
+  },
+  {
+    "offset": "0x12101",
+    "text": "_objc_opt_self"
+  },
+  {
+    "offset": "0x12110",
+    "text": "_objc_release_x19"
+  },
+  {
+    "offset": "0x12122",
+    "text": "_objc_retainAutoreleasedReturnValue"
+  },
+  {
+    "offset": "0x12146",
+    "text": "_swift_allocObject"
+  },
+  {
+    "offset": "0x12159",
+    "text": "_swift_beginAccess"
+  },
+  {
+    "offset": "0x1216c",
+    "text": "_swift_bridgeObjectRelease"
+  },
+  {
+    "offset": "0x12187",
+    "text": "_swift_endAccess"
+  },
+  {
+    "offset": "0x12198",
+    "text": "_swift_errorInMain"
+  },
+  {
+    "offset": "0x121ab",
+    "text": "_swift_getObjectType"
+  },
+  {
+    "offset": "0x121c0",
+    "text": "_swift_getOpaqueTypeConformance2"
+  },
+  {
+    "offset": "0x121e1",
+    "text": "_swift_getTypeByMangledNameInContext2"
+  },
+  {
+    "offset": "0x12207",
+    "text": "_swift_getTypeByMangledNameInContextInMetadataState2"
+  },
+  {
+    "offset": "0x1223c",
+    "text": "_swift_getWitnessTable"
+  },
+  {
+    "offset": "0x12253",
+    "text": "_swift_once"
+  },
+  {
+    "offset": "0x1225f",
+    "text": "_swift_release_x19"
+  },
+  {
+    "offset": "0x12272",
+    "text": "_swift_release_x23"
+  },
+  {
+    "offset": "0x12285",
+    "text": "_swift_release_x8"
+  },
+  {
+    "offset": "0x12297",
+    "text": "_swift_slowAlloc"
+  },
+  {
+    "offset": "0x122a8",
+    "text": "_swift_task_alloc"
+  },
+  {
+    "offset": "0x122ba",
+    "text": "_swift_task_dealloc"
+  },
+  {
+    "offset": "0x122ce",
+    "text": "_swift_task_switch"
+  },
+  {
+    "offset": "0x122e1",
+    "text": "radr://5614542"
+  },
+  {
+    "offset": "0x1238c",
+    "text": "com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension"
+  },
+  {
+    "offset": "0x123c2",
+    "text": "R47FJVWY9R"
+  },
+  {
+    "offset": "0x127a0",
+    "text": "5com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension"
+  },
+  {
+    "offset": "0x127e1",
+    "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+  },
+  {
+    "offset": "0x12808",
+    "text": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+  },
+  {
+    "offset": "0x1286f",
+    "text": "<plist version=\"1.0\">"
+  },
+  {
+    "offset": "0x12885",
+    "text": "<dict>"
+  },
+  {
+    "offset": "0x1288d",
+    "text": "<key>com.apple.developer.team-identifier</key>"
+  },
+  {
+    "offset": "0x128bd",
+    "text": "<string>R47FJVWY9R</string>"
+  },
+  {
+    "offset": "0x128da",
+    "text": "<key>application-identifier</key>"
+  },
+  {
+    "offset": "0x128fd",
+    "text": "<string>R47FJVWY9R.com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension</string>"
+  },
+  {
+    "offset": "0x1294f",
+    "text": "</dict>"
+  },
+  {
+    "offset": "0x12957",
+    "text": "</plist>"
+  },
+  {
+    "offset": "0x12974",
+    "text": "application-identifier"
+  },
+  {
+    "offset": "0x1298b",
+    "text": "@R47FJVWY9R.com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension01"
+  },
+  {
+    "offset": "0x129cf",
+    "text": "#com.apple.developer.team-identifier"
+  },
+  {
+    "offset": "0x129f5",
+    "text": "R47FJVWY9R"
+  },
+  {
+    "offset": "0x12a5f",
+    "text": "com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension"
+  },
+  {
+    "offset": "0x12a95",
+    "text": "R47FJVWY9R"
+  },
+  {
+    "offset": "0x12cb2",
+    "text": "l$D;P"
+  },
+  {
+    "offset": "0x12e88",
+    "text": "%]0}E"
+  },
+  {
+    "offset": "0x12ff2",
+    "text": "l$D;P"
+  },
+  {
+    "offset": "0x130a8",
+    "text": "0s1-0+"
+  },
+  {
+    "offset": "0x130b4",
+    "text": "$Apple iPhone Certification Authority1 0"
+  },
+  {
+    "offset": "0x130e4",
+    "text": "Certification Authority1"
+  },
+  {
+    "offset": "0x13106",
+    "text": "Apple Inc.1"
+  },
+  {
+    "offset": "0x13121",
+    "text": "250326170637Z"
+  },
+  {
+    "offset": "0x13130",
+    "text": "270421170219Z0a1"
+  },
+  {
+    "offset": "0x13157",
+    "text": "Apple Inc.1"
+  },
+  {
+    "offset": "0x1316c",
+    "text": "iPhone1,0*"
+  },
+  {
+    "offset": "0x1317c",
+    "text": "#Apple iPhone OS Application Signing0"
+  },
+  {
+    "offset": "0x13227",
+    "text": ".b:dD"
+  },
+  {
+    "offset": "0x13308",
+    "text": "40200"
+  },
+  {
+    "offset": "0x13318",
+    "text": "$http://ocsp.apple.com/ocsp03-aipca040"
+  },
+  {
+    "offset": "0x13478",
+    "text": "eYBCU"
+  },
+  {
+    "offset": "0x134ea",
+    "text": "Apple Inc.1&0$"
+  },
+  {
+    "offset": "0x134ff",
+    "text": "Apple Certification Authority1"
+  },
+  {
+    "offset": "0x13527",
+    "text": "Apple Root CA0"
+  },
+  {
+    "offset": "0x13538",
+    "text": "170510212730Z"
+  },
+  {
+    "offset": "0x13547",
+    "text": "301231000000Z0s1-0+"
+  },
+  {
+    "offset": "0x13560",
+    "text": "$Apple iPhone Certification Authority1 0"
+  },
+  {
+    "offset": "0x13590",
+    "text": "Certification Authority1"
+  },
+  {
+    "offset": "0x135b2",
+    "text": "Apple Inc.1"
+  },
+  {
+    "offset": "0x135fd",
+    "text": "0sc&."
+  },
+  {
+    "offset": "0x1368f",
+    "text": "[wz}$"
+  },
+  {
+    "offset": "0x13734",
+    "text": "80604"
+  },
+  {
+    "offset": "0x13744",
+    "text": "(http://ocsp.apple.com/ocsp03-applerootca0."
+  },
+  {
+    "offset": "0x13775",
+    "text": "'0%0#"
+  },
+  {
+    "offset": "0x13780",
+    "text": "http://crl.apple.com/root.crl0"
+  },
+  {
+    "offset": "0x13803",
+    "text": "6-W Dtsd"
+  },
+  {
+    "offset": "0x1392b",
+    "text": "Apple Inc.1&0$"
+  },
+  {
+    "offset": "0x13940",
+    "text": "Apple Certification Authority1"
+  },
+  {
+    "offset": "0x13968",
+    "text": "Apple Root CA0"
+  },
+  {
+    "offset": "0x13979",
+    "text": "060425214036Z"
+  },
+  {
+    "offset": "0x13988",
+    "text": "350209214036Z0b1"
+  },
+  {
+    "offset": "0x139af",
+    "text": "Apple Inc.1&0$"
+  },
+  {
+    "offset": "0x139c4",
+    "text": "Apple Certification Authority1"
+  },
+  {
+    "offset": "0x139ec",
+    "text": "Apple Root CA0"
+  },
+  {
+    "offset": "0x13bb9",
+    "text": "https://www.apple.com/appleca/0"
+  },
+  {
+    "offset": "0x13bea",
+    "text": "Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.0"
+  },
+  {
+    "offset": "0x13dbe",
+    "text": "0s1-0+"
+  },
+  {
+    "offset": "0x13dca",
+    "text": "$Apple iPhone Certification Authority1 0"
+  },
+  {
+    "offset": "0x13dfa",
+    "text": "Certification Authority1"
+  },
+  {
+    "offset": "0x13e1c",
+    "text": "Apple Inc.1"
+  },
+  {
+    "offset": "0x13f0c",
+    "text": "H<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+  },
+  {
+    "offset": "0x13f34",
+    "text": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+  },
+  {
+    "offset": "0x13f9b",
+    "text": "<plist version=\"1.0\">"
+  },
+  {
+    "offset": "0x13fb1",
+    "text": "<dict>"
+  },
+  {
+    "offset": "0x13fb9",
+    "text": "<key>cdhashes</key>"
+  },
+  {
+    "offset": "0x13fce",
+    "text": "<array>"
+  },
+  {
+    "offset": "0x13fd8",
+    "text": "<data>"
+  },
+  {
+    "offset": "0x13fe1",
+    "text": "vhKJEzIXRoj4PitynA9k+yCtXBQ="
+  },
+  {
+    "offset": "0x14000",
+    "text": "</data>"
+  },
+  {
+    "offset": "0x1400a",
+    "text": "<data>"
+  },
+  {
+    "offset": "0x14013",
+    "text": "F6TnzIScTNHZsrPJ4OZ7XPziI14="
+  },
+  {
+    "offset": "0x14032",
+    "text": "</data>"
+  },
+  {
+    "offset": "0x1403b",
+    "text": "</array>"
+  },
+  {
+    "offset": "0x14044",
+    "text": "</dict>"
+  },
+  {
+    "offset": "0x1404c",
+    "text": "</plist>"
+  },
+  {
+    "offset": "0x17724",
+    "text": "com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension"
+  },
+  {
+    "offset": "0x1775a",
+    "text": "R47FJVWY9R"
+  },
+  {
+    "offset": "0x17a57",
+    "text": "l$D;P"
+  },
+  {
+    "offset": "0x17b59",
+    "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+  },
+  {
+    "offset": "0x17b80",
+    "text": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+  },
+  {
+    "offset": "0x17be7",
+    "text": "<plist version=\"1.0\">"
+  },
+  {
+    "offset": "0x17bfd",
+    "text": "<dict>"
+  },
+  {
+    "offset": "0x17c05",
+    "text": "<key>com.apple.developer.team-identifier</key>"
+  },
+  {
+    "offset": "0x17c35",
+    "text": "<string>R47FJVWY9R</string>"
+  },
+  {
+    "offset": "0x17c52",
+    "text": "<key>application-identifier</key>"
+  },
+  {
+    "offset": "0x17c75",
+    "text": "<string>R47FJVWY9R.com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension</string>"
+  },
+  {
+    "offset": "0x17cc7",
+    "text": "</dict>"
+  },
+  {
+    "offset": "0x17ccf",
+    "text": "</plist>"
+  },
+  {
+    "offset": "0x17cec",
+    "text": "application-identifier"
+  },
+  {
+    "offset": "0x17d03",
+    "text": "@R47FJVWY9R.com.HappyPlanTech.SnapWords.SnapWordsCaptureExtension01"
+  },
+  {
+    "offset": "0x17d47",
+    "text": "#com.apple.developer.team-identifier"
+  },
+  {
+    "offset": "0x17d6d",
+    "text": "R47FJVWY9R"
+  }
+]

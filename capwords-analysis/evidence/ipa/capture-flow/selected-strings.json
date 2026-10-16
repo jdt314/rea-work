@@ -1,0 +1,1646 @@
+[
+  {
+    "offset": "0x1fa8",
+    "text": "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics"
+  },
+  {
+    "offset": "0x17db400",
+    "text": "$__lazy_storage_$_cameraBarView"
+  },
+  {
+    "offset": "0x17db7f0",
+    "text": "$__lazy_storage_$_displayLink"
+  },
+  {
+    "offset": "0x17dbed0",
+    "text": "$__lazy_storage_$_switchCameraDoubleTapGestureRecognizer"
+  },
+  {
+    "offset": "0x17dc177",
+    "text": "_cameraBarState"
+  },
+  {
+    "offset": "0x17e1922",
+    "text": "supportsHaptics"
+  },
+  {
+    "offset": "0x17e2250",
+    "text": "$__lazy_storage_$_cameraViewController"
+  },
+  {
+    "offset": "0x17e2550",
+    "text": "$__lazy_storage_$_displayLinkProvider"
+  },
+  {
+    "offset": "0x17e31e7",
+    "text": "_hapticFeedback"
+  },
+  {
+    "offset": "0x17e3200",
+    "text": "_hasPerformedCameraButtonAction"
+  },
+  {
+    "offset": "0x17e4eae",
+    "text": "displayLinkWithTarget:selector:"
+  },
+  {
+    "offset": "0x17e5dd4",
+    "text": "isOpeningCamera"
+  },
+  {
+    "offset": "0x17ec050",
+    "text": "_cameraAdditionalType"
+  },
+  {
+    "offset": "0x17ec070",
+    "text": "_cameraButtonFeedback"
+  },
+  {
+    "offset": "0x17ec090",
+    "text": "_cameraButtonFrame"
+  },
+  {
+    "offset": "0x17ec0b0",
+    "text": "_cameraButtonSize"
+  },
+  {
+    "offset": "0x17ec220",
+    "text": "_captureItemsRippleTrigger"
+  },
+  {
+    "offset": "0x17ed118",
+    "text": "_displayLink"
+  },
+  {
+    "offset": "0x17ed34d",
+    "text": "_enableHaptic"
+  },
+  {
+    "offset": "0x17ef320",
+    "text": "_opacityCameraFrame"
+  },
+  {
+    "offset": "0x17f04b0",
+    "text": "_showCameraDetailText"
+  },
+  {
+    "offset": "0x17f04d0",
+    "text": "_showCameraExpandedBar"
+  },
+  {
+    "offset": "0x17f04f0",
+    "text": "_showCameraFrame"
+  },
+  {
+    "offset": "0x17f1840",
+    "text": "activeDustEffectLayer"
+  },
+  {
+    "offset": "0x17f6670",
+    "text": "cameraBarHeightConstraint"
+  },
+  {
+    "offset": "0x17f6690",
+    "text": "cameraBottomObstructionHeight"
+  },
+  {
+    "offset": "0x17f66b0",
+    "text": "cameraCaptureViewController"
+  },
+  {
+    "offset": "0x17fb110",
+    "text": "currentCameraPosition"
+  },
+  {
+    "offset": "0x17fe21a",
+    "text": "displayLink"
+  },
+  {
+    "offset": "0x17fe230",
+    "text": "displayLinkEventWithDisplayLink:"
+  },
+  {
+    "offset": "0x17fe260",
+    "text": "displayLinkFired"
+  },
+  {
+    "offset": "0x17fe280",
+    "text": "displayLinkProvider"
+  },
+  {
+    "offset": "0x17feead",
+    "text": "enableHaptic"
+  },
+  {
+    "offset": "0x1802a99",
+    "text": "handleCameraLauncherIntentRequest"
+  },
+  {
+    "offset": "0x18031f0",
+    "text": "hapticSequenceID"
+  },
+  {
+    "offset": "0x1809a50",
+    "text": "isDisplayLinkInitialized"
+  },
+  {
+    "offset": "0x180a970",
+    "text": "isRecognitionResultVisible"
+  },
+  {
+    "offset": "0x1812873",
+    "text": "openCameraScreen"
+  },
+  {
+    "offset": "0x181ad70",
+    "text": "sceneStickerLayerController"
+  },
+  {
+    "offset": "0x181ad90",
+    "text": "sceneStickerLayerStore"
+  },
+  {
+    "offset": "0x181b160",
+    "text": "scrollToItemDisplayLink"
+  },
+  {
+    "offset": "0x181b17d",
+    "text": "scrollToItemDisplayLinkFired"
+  },
+  {
+    "offset": "0x181c383",
+    "text": "setAllowHapticsAndSystemSoundsDuringRecording:error:"
+  },
+  {
+    "offset": "0x1823c20",
+    "text": "shouldResetToBackCamera"
+  },
+  {
+    "offset": "0x1825360",
+    "text": "stickerLayerController"
+  },
+  {
+    "offset": "0x1825380",
+    "text": "stickerLayerStore"
+  },
+  {
+    "offset": "0x182c37e",
+    "text": "NCHHapticEngineStoppedReason"
+  },
+  {
+    "offset": "0x18367b0",
+    "text": "RecognitionPipelineAdapter"
+  },
+  {
+    "offset": "0x1839060",
+    "text": "RecognitionPipelineTimer"
+  },
+  {
+    "offset": "0x18416c0",
+    "text": "CameraLaunchCoordinator"
+  },
+  {
+    "offset": "0x1841710",
+    "text": "SoundEffectManager"
+  },
+  {
+    "offset": "0x1841723",
+    "text": "SoundEffect"
+  },
+  {
+    "offset": "0x1842e5f",
+    "text": "@OnboardingStickerDustImageView"
+  },
+  {
+    "offset": "0x1842e80",
+    "text": "OnboardingStickerDustImageSwiftUIView"
+  },
+  {
+    "offset": "0x1842fb0",
+    "text": "GroupStickerDustImageView"
+  },
+  {
+    "offset": "0x1848eb0",
+    "text": "PreIntroCameraStickerDustGroupView"
+  },
+  {
+    "offset": "0x185080f",
+    "text": "?CameraPhase"
+  },
+  {
+    "offset": "0x1850830",
+    "text": "PurchaseCCameraRecognitionHero"
+  },
+  {
+    "offset": "0x1850b00",
+    "text": "PurchaseCCameraButton"
+  },
+  {
+    "offset": "0x1856b30",
+    "text": "CameraSessionHardware"
+  },
+  {
+    "offset": "0x1856b60",
+    "text": "AVFoundationCameraSessionHardware"
+  },
+  {
+    "offset": "0x1856bc0",
+    "text": "CameraSessionController"
+  },
+  {
+    "offset": "0x1856bf0",
+    "text": "CameraViewController"
+  },
+  {
+    "offset": "0x1856cb0",
+    "text": "CameraResult"
+  },
+  {
+    "offset": "0x1856e0f",
+    "text": "?StickerCameraBoundsContentViewModel"
+  },
+  {
+    "offset": "0x1856e40",
+    "text": "StickerCameraBoundsView"
+  },
+  {
+    "offset": "0x1856e70",
+    "text": "StickerCameraBoundsContentView"
+  },
+  {
+    "offset": "0x1857430",
+    "text": "StickerCameraCropToolContentViewModel"
+  },
+  {
+    "offset": "0x1857460",
+    "text": "StickerCameraCropToolView"
+  },
+  {
+    "offset": "0x1857480",
+    "text": "StickerCameraCropToolContentView"
+  },
+  {
+    "offset": "0x18577d0",
+    "text": "StickerCameraViewController"
+  },
+  {
+    "offset": "0x1858830",
+    "text": "StickerCameraErrorAlertViewController"
+  },
+  {
+    "offset": "0x18588e0",
+    "text": "StickerCameraErrorAlertModel"
+  },
+  {
+    "offset": "0x1858910",
+    "text": "StickerCameraErrorType"
+  },
+  {
+    "offset": "0x1858c8e",
+    "text": "9@StickerCameraErrorAlertView"
+  },
+  {
+    "offset": "0x1858e20",
+    "text": "StickerLayerButtons"
+  },
+  {
+    "offset": "0x18590b2",
+    "text": "StickerLayer"
+  },
+  {
+    "offset": "0x1859a60",
+    "text": "StickerLayerModel"
+  },
+  {
+    "offset": "0x185b010",
+    "text": "StickerOutlineImageView"
+  },
+  {
+    "offset": "0x185c5c0",
+    "text": "CameraBarContentViewModel"
+  },
+  {
+    "offset": "0x185c5e8",
+    "text": "CameraBarView"
+  },
+  {
+    "offset": "0x185c620",
+    "text": "CameraBarContentView"
+  },
+  {
+    "offset": "0x185c690",
+    "text": "CameraOnboardingGuideState"
+  },
+  {
+    "offset": "0x185d200",
+    "text": "CameraOnboardingGuideMode"
+  },
+  {
+    "offset": "0x185d550",
+    "text": "FlashCardReviewCameraButton"
+  },
+  {
+    "offset": "0x185d61e",
+    "text": "CameraBarState"
+  },
+  {
+    "offset": "0x185dc20",
+    "text": "ContainerBarType"
+  },
+  {
+    "offset": "0x185dc40",
+    "text": "ContainerBarModel"
+  },
+  {
+    "offset": "0x185ddcb",
+    "text": "DustEffectLayer"
+  },
+  {
+    "offset": "0x185e140",
+    "text": "MetalEngineSubjectLayer"
+  },
+  {
+    "offset": "0x185e160",
+    "text": "MetalEngineResource"
+  },
+  {
+    "offset": "0x185e270",
+    "text": "MetalEngineSubjectContext"
+  },
+  {
+    "offset": "0x185e310",
+    "text": "MetalEngineSubjectInternalData"
+  },
+  {
+    "offset": "0x185e330",
+    "text": "MetalEngineSubject"
+  },
+  {
+    "offset": "0x185e360",
+    "text": "MetalEngine"
+  },
+  {
+    "offset": "0x185ec00",
+    "text": "SharedDisplayLinkDriverLink"
+  },
+  {
+    "offset": "0x185ec50",
+    "text": "SharedDisplayLinkDriver"
+  },
+  {
+    "offset": "0x185ecfe",
+    "text": "SimpleLayer"
+  },
+  {
+    "offset": "0x185ed6f",
+    "text": "?StickerCutoutOutlineView"
+  },
+  {
+    "offset": "0x185ede2",
+    "text": "RippleEffect"
+  },
+  {
+    "offset": "0x185ee80",
+    "text": "RippleModifier"
+  },
+  {
+    "offset": "0x185ef00",
+    "text": "StickerCutoutOutlineImageView"
+  },
+  {
+    "offset": "0x185f010",
+    "text": "StickerDustImageView"
+  },
+  {
+    "offset": "0x185f030",
+    "text": "StickerDustImageSwiftUIView"
+  },
+  {
+    "offset": "0x185f900",
+    "text": "StickerRecognitionPipelineError"
+  },
+  {
+    "offset": "0x185f920",
+    "text": "StickerRecognitionPipeline"
+  },
+  {
+    "offset": "0x185fac0",
+    "text": "VisionManagerError"
+  },
+  {
+    "offset": "0x185fb05",
+    "text": "VisionManager"
+  },
+  {
+    "offset": "0x186511f",
+    "text": "?PullDownHapticController"
+  },
+  {
+    "offset": "0x1884630",
+    "text": "CameraAdditionalType"
+  },
+  {
+    "offset": "0x1885f00",
+    "text": "StickerOutlinedTargetWordView"
+  },
+  {
+    "offset": "0x1892620",
+    "text": "CameraLauncherShortcutsProvider"
+  },
+  {
+    "offset": "0x1892640",
+    "text": "CameraLauncherShortcutIntent"
+  },
+  {
+    "offset": "0x1892660",
+    "text": "CameraLauncherControlIntent"
+  },
+  {
+    "offset": "0x18a6240",
+    "text": "CADisplayLink"
+  },
+  {
+    "offset": "0x18a6250",
+    "text": "DisplayLinkCompatible"
+  },
+  {
+    "offset": "0x18e3af0",
+    "text": "DisplayLinkProviding"
+  },
+  {
+    "offset": "0x18e3b20",
+    "text": "CADisplayLinkProvider"
+  },
+  {
+    "offset": "0x1908422",
+    "text": "CHHapticAdvancedPatternPlayer"
+  },
+  {
+    "offset": "0x19084c2",
+    "text": "CHHapticPatternPlayer"
+  },
+  {
+    "offset": "0x1908a10",
+    "text": "_TtC9SnapWords24RecognitionPipelineTimer"
+  },
+  {
+    "offset": "0x1909310",
+    "text": "_TtC9SnapWords23CameraLaunchCoordinator"
+  },
+  {
+    "offset": "0x1909340",
+    "text": "_TtC9SnapWords18SoundEffectManager"
+  },
+  {
+    "offset": "0x19096f0",
+    "text": "_TtC9SnapWords30OnboardingStickerDustImageView"
+  },
+  {
+    "offset": "0x1909750",
+    "text": "_TtC9SnapWords25GroupStickerDustImageView"
+  },
+  {
+    "offset": "0x190a0a0",
+    "text": "_TtC9SnapWords33AVFoundationCameraSessionHardware"
+  },
+  {
+    "offset": "0x190a0e0",
+    "text": "_TtC9SnapWords23CameraSessionController"
+  },
+  {
+    "offset": "0x190a110",
+    "text": "_TtC9SnapWords20CameraViewController"
+  },
+  {
+    "offset": "0x190a1d0",
+    "text": "_TtC9SnapWords35StickerCameraBoundsContentViewModel"
+  },
+  {
+    "offset": "0x190a210",
+    "text": "_TtC9SnapWords23StickerCameraBoundsView"
+  },
+  {
+    "offset": "0x190a240",
+    "text": "_TtC9SnapWords37StickerCameraCropToolContentViewModel"
+  },
+  {
+    "offset": "0x190a280",
+    "text": "_TtC9SnapWords25StickerCameraCropToolView"
+  },
+  {
+    "offset": "0x190a2b0",
+    "text": "_TtC9SnapWords27StickerCameraViewController"
+  },
+  {
+    "offset": "0x190a370",
+    "text": "_TtC9SnapWords37StickerCameraErrorAlertViewController"
+  },
+  {
+    "offset": "0x190a3e0",
+    "text": "_TtC9SnapWords23StickerOutlineImageView"
+  },
+  {
+    "offset": "0x190a4a0",
+    "text": "_TtC9SnapWords25CameraBarContentViewModel"
+  },
+  {
+    "offset": "0x190a4d0",
+    "text": "_TtC9SnapWords13CameraBarView"
+  },
+  {
+    "offset": "0x190a5b0",
+    "text": "_TtC9SnapWords15DustEffectLayer"
+  },
+  {
+    "offset": "0x190a5d0",
+    "text": "_TtCC9SnapWords15DustEffectLayerP33_9C81C42A7E54816F0017B75EA1A140104Item"
+  },
+  {
+    "offset": "0x190a620",
+    "text": "_TtCC9SnapWords15DustEffectLayerP33_9C81C42A7E54816F0017B75EA1A1401011RenderState"
+  },
+  {
+    "offset": "0x190a680",
+    "text": "_TtCC9SnapWords15DustEffectLayer16DustComputeState"
+  },
+  {
+    "offset": "0x190a6f0",
+    "text": "_TtC9SnapWords23MetalEngineSubjectLayer"
+  },
+  {
+    "offset": "0x190a810",
+    "text": "_TtC9SnapWords25MetalEngineSubjectContext"
+  },
+  {
+    "offset": "0x190a840",
+    "text": "_TtCC9SnapWords25MetalEngineSubjectContextP33_DB9909774E7624C171953EDD0C8B58C716ComputeOperation"
+  },
+  {
+    "offset": "0x190a8b0",
+    "text": "_TtCC9SnapWords25MetalEngineSubjectContextP33_DB9909774E7624C171953EDD0C8B58C722RenderToLayerOperation"
+  },
+  {
+    "offset": "0x190a920",
+    "text": "_TtC9SnapWords30MetalEngineSubjectInternalData"
+  },
+  {
+    "offset": "0x190a9a0",
+    "text": "_TtC9SnapWords11MetalEngine"
+  },
+  {
+    "offset": "0x190a9c0",
+    "text": "_TtCC9SnapWords11MetalEngineP33_DB9909774E7624C171953EDD0C8B58C77Surface"
+  },
+  {
+    "offset": "0x190aa10",
+    "text": "_TtCC9SnapWords11MetalEngineP33_DB9909774E7624C171953EDD0C8B58C716SubjectReference"
+  },
+  {
+    "offset": "0x190aa70",
+    "text": "_TtCC9SnapWords11MetalEngineP33_DB9909774E7624C171953EDD0C8B58C74Impl"
+  },
+  {
+    "offset": "0x190aac0",
+    "text": "_TtC9SnapWords23SharedDisplayLinkDriver"
+  },
+  {
+    "offset": "0x190aaf0",
+    "text": "_TtCC9SnapWords23SharedDisplayLinkDriver8LinkImpl"
+  },
+  {
+    "offset": "0x190ab30",
+    "text": "_TtCC9SnapWords23SharedDisplayLinkDriverP33_842754875BD7C40AC99E6FADBDDF9E1214RequestContext"
+  },
+  {
+    "offset": "0x190abb0",
+    "text": "_TtC9SnapWords11SimpleLayer"
+  },
+  {
+    "offset": "0x190ac60",
+    "text": "_TtC9SnapWords24StickerCutoutOutlineView"
+  },
+  {
+    "offset": "0x190ad10",
+    "text": "_TtCV9SnapWords29StickerCutoutOutlineImageView11Coordinator"
+  },
+  {
+    "offset": "0x190ad50",
+    "text": "_TtC9SnapWords20StickerDustImageView"
+  },
+  {
+    "offset": "0x190b240",
+    "text": "_TtC9SnapWords24PullDownHapticController"
+  },
+  {
+    "offset": "0x1912510",
+    "text": "_TtC4Wave21CADisplayLinkProvider"
+  },
+  {
+    "offset": "0x1918b2f",
+    "text": "B40@0:8@\"CHHapticParameterCurve\"16d24^@32"
+  },
+  {
+    "offset": "0x1919f80",
+    "text": "v24@?0@\"SFSpeechRecognitionResult\"8@\"NSError\"16"
+  },
+  {
+    "offset": "0x1923197",
+    "text": "Camera rejected photo capture: %@"
+  },
+  {
+    "offset": "0x19231b9",
+    "text": "Camera rejected video recording: %@"
+  },
+  {
+    "offset": "0x1934c50",
+    "text": "[RecognitionPipeline] dispatch | source="
+  },
+  {
+    "offset": "0x1934c80",
+    "text": "recognition.pipeline_dispatch"
+  },
+  {
+    "offset": "0x194a9f0",
+    "text": "camera.video_export_unavailable"
+  },
+  {
+    "offset": "0x194aa10",
+    "text": "camera.video_export_failed"
+  },
+  {
+    "offset": "0x194d744",
+    "text": "real_camera"
+  },
+  {
+    "offset": "0x194dbd0",
+    "text": "SoundEffectManager"
+  },
+  {
+    "offset": "0x194e5a0",
+    "text": "DustEffectLayer bounds: "
+  },
+  {
+    "offset": "0x194e5c0",
+    "text": "DustEffectLayer position: "
+  },
+  {
+    "offset": "0x194e600",
+    "text": "SnapWords.OnboardingStickerDustImageView"
+  },
+  {
+    "offset": "0x194e660",
+    "text": "SnapWords.GroupStickerDustImageView"
+  },
+  {
+    "offset": "0x194ed40",
+    "text": "stickerlayer.loading.circle.mask"
+  },
+  {
+    "offset": "0x194f2c0",
+    "text": "com.snapwords.onboardingC.startCameraFlow"
+  },
+  {
+    "offset": "0x19514e0",
+    "text": "View.task @ SnapWords/PurchaseCCameraRecognitionHero.swift:"
+  },
+  {
+    "offset": "0x1954720",
+    "text": "camera.video_recording_stop_requested"
+  },
+  {
+    "offset": "0x1954750",
+    "text": "camera.video_recording_cancel_requested"
+  },
+  {
+    "offset": "0x1954780",
+    "text": "camera.video_recording_started"
+  },
+  {
+    "offset": "0x19547c0",
+    "text": "camera.zoom_configuration_failed"
+  },
+  {
+    "offset": "0x19547f0",
+    "text": "camera.video_recording_failed"
+  },
+  {
+    "offset": "0x1954810",
+    "text": "camera.video_recording_cancelled"
+  },
+  {
+    "offset": "0x1954840",
+    "text": "camera.switch_failed"
+  },
+  {
+    "offset": "0x1954880",
+    "text": "camera.video_frame_extraction_failed"
+  },
+  {
+    "offset": "0x19548b0",
+    "text": "camera.live_photo_processing_failed"
+  },
+  {
+    "offset": "0x19548e0",
+    "text": "camera.photo_processing_succeeded"
+  },
+  {
+    "offset": "0x1954910",
+    "text": "camera.photo_processing_failed"
+  },
+  {
+    "offset": "0x1954930",
+    "text": "camera.session_runtime_failed"
+  },
+  {
+    "offset": "0x1954950",
+    "text": "camera.focus_configuration_failed"
+  },
+  {
+    "offset": "0x1954980",
+    "text": "camera.photo_capture_started"
+  },
+  {
+    "offset": "0x19549d0",
+    "text": "camera.authorization_unknown"
+  },
+  {
+    "offset": "0x19549f0",
+    "text": "camera.authorization_unavailable"
+  },
+  {
+    "offset": "0x1954a20",
+    "text": "camera.authorization_started"
+  },
+  {
+    "offset": "0x1954a40",
+    "text": "camera.authorization_available"
+  },
+  {
+    "offset": "0x1954a60",
+    "text": "camera.authorization_completed"
+  },
+  {
+    "offset": "0x1954a80",
+    "text": "Camera permission required"
+  },
+  {
+    "offset": "0x1954aa0",
+    "text": "Please allow access to the camera in settings to use the photo feature"
+  },
+  {
+    "offset": "0x1954af0",
+    "text": "com.snapwords.cameraSession"
+  },
+  {
+    "offset": "0x1954b10",
+    "text": "camera.capture_control_unavailable"
+  },
+  {
+    "offset": "0x1954b40",
+    "text": "camera.bounds.new"
+  },
+  {
+    "offset": "0x1954b60",
+    "text": "camera.video.mask"
+  },
+  {
+    "offset": "0x1954bd0",
+    "text": "SnapWords/StickerCameraBoundsView.swift"
+  },
+  {
+    "offset": "0x1954c20",
+    "text": "camera.bounds.top.icon"
+  },
+  {
+    "offset": "0x1954c80",
+    "text": "SnapWords/StickerCameraCropToolView.swift"
+  },
+  {
+    "offset": "0x1954cb0",
+    "text": "camera.result_failed"
+  },
+  {
+    "offset": "0x1954cd0",
+    "text": "camera.result_database_failed"
+  },
+  {
+    "offset": "0x1954d10",
+    "text": "camera.result_target_missing"
+  },
+  {
+    "offset": "0x1954d30",
+    "text": "camera.result_delivered"
+  },
+  {
+    "offset": "0x1954d50",
+    "text": "camera.sticker_encode_failed"
+  },
+  {
+    "offset": "0x1954d70",
+    "text": "camera.recognition_failed"
+  },
+  {
+    "offset": "0x1954d90",
+    "text": "camera.media_processing_started"
+  },
+  {
+    "offset": "0x1954db0",
+    "text": "camera.gif_processing_failed"
+  },
+  {
+    "offset": "0x1954dd0",
+    "text": "camera.gif_processing_succeeded"
+  },
+  {
+    "offset": "0x1954df0",
+    "text": "camera.media_processing_discarded"
+  },
+  {
+    "offset": "0x1954e50",
+    "text": "camera.live_photo_conversion_failed"
+  },
+  {
+    "offset": "0x1954e80",
+    "text": "camera.live_photo_result_discarded"
+  },
+  {
+    "offset": "0x1954eb0",
+    "text": "camera.media_recognition_submitted"
+  },
+  {
+    "offset": "0x1954ee0",
+    "text": "camera.video_conversion_failed"
+  },
+  {
+    "offset": "0x1954f00",
+    "text": "SnapWords/StickerLayerModel.swift"
+  },
+  {
+    "offset": "0x1954f30",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/Camera/StickerLayer/StickerLayerModel.swift"
+  },
+  {
+    "offset": "0x1955020",
+    "text": "camera.vision_failed"
+  },
+  {
+    "offset": "0x19551d0",
+    "text": "stickerlayer.cancel"
+  },
+  {
+    "offset": "0x19551f0",
+    "text": "stickerlayer.done"
+  },
+  {
+    "offset": "0x1955210",
+    "text": "stickerlayer.retry"
+  },
+  {
+    "offset": "0x1955250",
+    "text": "stickerlayer.result.bg"
+  },
+  {
+    "offset": "0x1955270",
+    "text": "stickerlayer.result.bg.star"
+  },
+  {
+    "offset": "0x1955290",
+    "text": "SnapWords.StickerOutlineImageView"
+  },
+  {
+    "offset": "0x19552c0",
+    "text": "SnapWords/StickerOutlineView.swift"
+  },
+  {
+    "offset": "0x1955440",
+    "text": "camera.livephoto.off"
+  },
+  {
+    "offset": "0x1955460",
+    "text": "camera.livephoto.on"
+  },
+  {
+    "offset": "0x19555d0",
+    "text": "camera.secen.text.icon"
+  },
+  {
+    "offset": "0x19556b0",
+    "text": "bar.camera.checkmark"
+  },
+  {
+    "offset": "0x19556d0",
+    "text": "bar.camera.select"
+  },
+  {
+    "offset": "0x19556f0",
+    "text": "SnapWords/CarmeraBarView.swift"
+  },
+  {
+    "offset": "0x1955730",
+    "text": "SnapWords/ContainerBarModel.swift"
+  },
+  {
+    "offset": "0x1955760",
+    "text": "/Users/jinhonn/CapWords/CapWords/SnapWords/Modules/Tabs/Camera/ContainerBar/ContainerBarModel.swift"
+  },
+  {
+    "offset": "0x1955a10",
+    "text": "dustEffectVertex"
+  },
+  {
+    "offset": "0x1955a30",
+    "text": "dustEffectFragment"
+  },
+  {
+    "offset": "0x1955a50",
+    "text": "DustEffectMetalSourcesBundle"
+  },
+  {
+    "offset": "0x1955a70",
+    "text": "dustEffectInitializeParticle"
+  },
+  {
+    "offset": "0x1955a90",
+    "text": "dustEffectUpdateParticle"
+  },
+  {
+    "offset": "0x1955ab0",
+    "text": "SnapWords/DustEffectLayer.swift"
+  },
+  {
+    "offset": "0x1955b30",
+    "text": "SnapWords/MetalEngine.swift"
+  },
+  {
+    "offset": "0x1955c70",
+    "text": "SharedDisplayLinkDriver: switch to "
+  },
+  {
+    "offset": "0x1955ca0",
+    "text": "SnapWords/SimpleLayer.swift"
+  },
+  {
+    "offset": "0x1955cc0",
+    "text": "SnapWords/StickerCutoutOutlineView.swift"
+  },
+  {
+    "offset": "0x1955d90",
+    "text": "SnapWords.StickerDustImageView"
+  },
+  {
+    "offset": "0x1955db0",
+    "text": "SnapWords/StickerDustImageView.swift"
+  },
+  {
+    "offset": "0x1955ea0",
+    "text": "CapWords.StickerRecognitionPipelineError"
+  },
+  {
+    "offset": "0x1955ef0",
+    "text": "sticker.recognition_started"
+  },
+  {
+    "offset": "0x1955f60",
+    "text": "sticker.recognition_failed"
+  },
+  {
+    "offset": "0x1956000",
+    "text": "sticker.recognition_succeeded"
+  },
+  {
+    "offset": "0x1956170",
+    "text": "recognition.pipeline_llm_finished"
+  },
+  {
+    "offset": "0x19561a0",
+    "text": "recognition.pipeline_timing"
+  },
+  {
+    "offset": "0x1956210",
+    "text": "visionSubjectExtraction"
+  },
+  {
+    "offset": "0x1956230",
+    "text": "visionEdgeExtraction"
+  },
+  {
+    "offset": "0x1956250",
+    "text": "outlineRendering"
+  },
+  {
+    "offset": "0x199a7a0",
+    "text": "camera.live.icon.normal"
+  },
+  {
+    "offset": "0x199a7c0",
+    "text": "camera.live.icon.selected"
+  },
+  {
+    "offset": "0x199a7e0",
+    "text": "camera.scene.icon.normal"
+  },
+  {
+    "offset": "0x199a800",
+    "text": "camera.scene.icon.selected"
+  },
+  {
+    "offset": "0x199f390",
+    "text": "cameraLauncherIntentDidRequestOpen"
+  },
+  {
+    "offset": "0x199f3c0",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherShortcutIntent.perform"
+  },
+  {
+    "offset": "0x199f400",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherIntentBridge.submit"
+  },
+  {
+    "offset": "0x199f440",
+    "text": "snapwords://open?target=camera&source=appShortcut"
+  },
+  {
+    "offset": "0x199f480",
+    "text": "Open CapWords Camera"
+  },
+  {
+    "offset": "0x199f4a0",
+    "text": "[DEBUG-lock-camera] event=CameraLauncherControlIntent.perform"
+  },
+  {
+    "offset": "0x199f4e0",
+    "text": "snapwords://open?target=camera&source=controlWidget"
+  },
+  {
+    "offset": "0x19c2010",
+    "text": "Wave/DisplayLinkProviding.swift"
+  },
+  {
+    "offset": "0x19dee10",
+    "text": "permission camera name"
+  },
+  {
+    "offset": "0x1a0810c",
+    "text": "$s9SnapWords26RecognitionPipelineAdapterP"
+  },
+  {
+    "offset": "0x1a73e74",
+    "text": "$s9SnapWords21CameraSessionHardwareP"
+  },
+  {
+    "offset": "0x1a8a7b0",
+    "text": "$s9SnapWords19MetalEngineResourceP"
+  },
+  {
+    "offset": "0x1a8a8c2",
+    "text": "$s9SnapWords18MetalEngineSubjectP"
+  },
+  {
+    "offset": "0x1a8b330",
+    "text": "$s9SnapWords023SharedDisplayLinkDriverE0P"
+  },
+  {
+    "offset": "0x1a8b360",
+    "text": "So13CADisplayLinkCSg"
+  },
+  {
+    "offset": "0x1aabf82",
+    "text": "So14CHHapticEngineCSg"
+  },
+  {
+    "offset": "0x1aabf98",
+    "text": "So29CHHapticAdvancedPatternPlayer_pSg"
+  },
+  {
+    "offset": "0x1aabfde",
+    "text": "So14CHHapticEngineC"
+  },
+  {
+    "offset": "0x1b6ba7b",
+    "text": "ySo14CHHapticEngineCSgG"
+  },
+  {
+    "offset": "0x1b6ba99",
+    "text": "ySo29CHHapticAdvancedPatternPlayer_pSgG"
+  },
+  {
+    "offset": "0x1bb8cb4",
+    "text": "$s10Kingfisher21DisplayLinkCompatibleP"
+  },
+  {
+    "offset": "0x1bc91f2",
+    "text": "So13CADisplayLinkCSgXw"
+  },
+  {
+    "offset": "0x1bc96be",
+    "text": "Sb23playsHapticsOnTouchDown_Sb26supportsPointerInteractiont"
+  },
+  {
+    "offset": "0x1bca03c",
+    "text": "$s4Wave20DisplayLinkProvidingP"
+  },
+  {
+    "offset": "0x1bca068",
+    "text": "So13CADisplayLinkCSg"
+  },
+  {
+    "offset": "0x1c1ea2c",
+    "text": "real_camera"
+  },
+  {
+    "offset": "0x1c1f543",
+    "text": "isOpeningCamera"
+  },
+  {
+    "offset": "0x1c203dd",
+    "text": "enableHaptic"
+  },
+  {
+    "offset": "0x1c203f0",
+    "text": "hapticSequenceID"
+  },
+  {
+    "offset": "0x1c20840",
+    "text": "_captureItemsRippleTrigger"
+  },
+  {
+    "offset": "0x1c2087d",
+    "text": "_enableHaptic"
+  },
+  {
+    "offset": "0x1c20bb0",
+    "text": "_cameraButtonFeedback"
+  },
+  {
+    "offset": "0x1c20c50",
+    "text": "didTappedShowCameraButton"
+  },
+  {
+    "offset": "0x1c23c70",
+    "text": "__isCameraButtonPressed"
+  },
+  {
+    "offset": "0x1c23cd0",
+    "text": "stickerDustDissolveDuration"
+  },
+  {
+    "offset": "0x1c25a70",
+    "text": "currentCameraPosition"
+  },
+  {
+    "offset": "0x1c25a90",
+    "text": "shouldResetToBackCamera"
+  },
+  {
+    "offset": "0x1c25ab0",
+    "text": "cameraBottomObstructionHeight"
+  },
+  {
+    "offset": "0x1c25bc0",
+    "text": "_showCameraFrame"
+  },
+  {
+    "offset": "0x1c25be0",
+    "text": "_opacityCameraFrame"
+  },
+  {
+    "offset": "0x1c25e30",
+    "text": "stickerLayerStore"
+  },
+  {
+    "offset": "0x1c25e50",
+    "text": "stickerLayerController"
+  },
+  {
+    "offset": "0x1c25e70",
+    "text": "sceneStickerLayerStore"
+  },
+  {
+    "offset": "0x1c25e90",
+    "text": "sceneStickerLayerController"
+  },
+  {
+    "offset": "0x1c25ec0",
+    "text": "cameraCaptureViewController"
+  },
+  {
+    "offset": "0x1c25f80",
+    "text": "isRecognitionResultVisible"
+  },
+  {
+    "offset": "0x1c25fc0",
+    "text": "cameraBottomObstructionHeight"
+  },
+  {
+    "offset": "0x1c26120",
+    "text": "$__lazy_storage_$_switchCameraDoubleTapGestureRecognizer"
+  },
+  {
+    "offset": "0x1c267ef",
+    "text": "_rippleCounter"
+  },
+  {
+    "offset": "0x1c26860",
+    "text": "_resultRippleCounter"
+  },
+  {
+    "offset": "0x1c26970",
+    "text": "_showStickerLayerButtons"
+  },
+  {
+    "offset": "0x1c26c30",
+    "text": "showStickerLayerButtons"
+  },
+  {
+    "offset": "0x1c26ce0",
+    "text": "incrementRippleCounter"
+  },
+  {
+    "offset": "0x1c27680",
+    "text": "_showCameraExpandedBar"
+  },
+  {
+    "offset": "0x1c27697",
+    "text": "_cameraBarState"
+  },
+  {
+    "offset": "0x1c276d0",
+    "text": "_cameraButtonFrame"
+  },
+  {
+    "offset": "0x1c27830",
+    "text": "_hasPerformedCameraButtonAction"
+  },
+  {
+    "offset": "0x1c27bd0",
+    "text": "didTappedCameraButton"
+  },
+  {
+    "offset": "0x1c27cff",
+    "text": "realCamera"
+  },
+  {
+    "offset": "0x1c27eb3",
+    "text": "_cameraBarState"
+  },
+  {
+    "offset": "0x1c27ee0",
+    "text": "_showCameraExpandedBar"
+  },
+  {
+    "offset": "0x1c27f20",
+    "text": "changeCameraBarButotnStateWithAnimation"
+  },
+  {
+    "offset": "0x1c27f50",
+    "text": "setCameraBarButtonState"
+  },
+  {
+    "offset": "0x1c27f90",
+    "text": "cameraBarButtonTapped"
+  },
+  {
+    "offset": "0x1c28010",
+    "text": "setShowCameraExpandedBar"
+  },
+  {
+    "offset": "0x1c28590",
+    "text": "displayLink"
+  },
+  {
+    "offset": "0x1c28860",
+    "text": "activeDustEffectLayer"
+  },
+  {
+    "offset": "0x1c2919d",
+    "text": "displayLink"
+  },
+  {
+    "offset": "0x1c2aa80",
+    "text": "_pullDownHaptics"
+  },
+  {
+    "offset": "0x1c2edee",
+    "text": "camera"
+  },
+  {
+    "offset": "0x1c31f38",
+    "text": "_displayLink"
+  },
+  {
+    "offset": "0x1c3277a",
+    "text": "displayLink"
+  },
+  {
+    "offset": "0x1c39780",
+    "text": "$__lazy_storage_$_cameraBarView"
+  },
+  {
+    "offset": "0x1c39b20",
+    "text": "_cameraButtonSize"
+  },
+  {
+    "offset": "0x1c39c80",
+    "text": "_savedCameraMaterial"
+  },
+  {
+    "offset": "0x1c39cbd",
+    "text": "cameraOuterFill"
+  },
+  {
+    "offset": "0x1c39cd0",
+    "text": "cameraCenterFill"
+  },
+  {
+    "offset": "0x1c39cf0",
+    "text": "cameraAperturePaperFill"
+  },
+  {
+    "offset": "0x1c39d08",
+    "text": "cameraMaterial"
+  },
+  {
+    "offset": "0x1c39d20",
+    "text": "usesSavedCameraMaterial"
+  },
+  {
+    "offset": "0x1c39d40",
+    "text": "didTappedCameraButton"
+  },
+  {
+    "offset": "0x1c3a3c0",
+    "text": "_cameraAdditionalType"
+  },
+  {
+    "offset": "0x1c3a430",
+    "text": "_showCameraDetailText"
+  },
+  {
+    "offset": "0x1c3aa70",
+    "text": "$__lazy_storage_$_cameraViewController"
+  },
+  {
+    "offset": "0x1c3ac20",
+    "text": "cameraBarHeightConstraint"
+  },
+  {
+    "offset": "0x1c3ac40",
+    "text": "$__lazy_storage_$_cameraBarView"
+  },
+  {
+    "offset": "0x1c3cc20",
+    "text": "cameraButtonTapped"
+  },
+  {
+    "offset": "0x1c3cef7",
+    "text": "_hapticEngine"
+  },
+  {
+    "offset": "0x1c3d8a0",
+    "text": "_cameraButtonFeedback"
+  },
+  {
+    "offset": "0x1c3d980",
+    "text": "didTappedCameraButton"
+  },
+  {
+    "offset": "0x1c425e7",
+    "text": "_hapticFeedback"
+  },
+  {
+    "offset": "0x1c46370",
+    "text": "isDisplayLinkInitialized"
+  },
+  {
+    "offset": "0x1c46390",
+    "text": "$__lazy_storage_$_displayLink"
+  },
+  {
+    "offset": "0x1c59630",
+    "text": "scrollToItemDisplayLink"
+  },
+  {
+    "offset": "0x1c5a4a0",
+    "text": "$__lazy_storage_$_displayLinkProvider"
+  },
+  {
+    "offset": "0x1c5a570",
+    "text": "displayLinkProvider"
+  },
+  {
+    "offset": "0x1c5de12",
+    "text": "camera"
+  },
+  {
+    "offset": "0x2015dde",
+    "text": "_AVCaptureDeviceTypeBuiltInDualCamera"
+  },
+  {
+    "offset": "0x2015e04",
+    "text": "_AVCaptureDeviceTypeBuiltInWideAngleCamera"
+  },
+  {
+    "offset": "0x201a833",
+    "text": "_CHHapticDynamicParameterIDHapticIntensityControl"
+  },
+  {
+    "offset": "0x201a865",
+    "text": "_CHHapticDynamicParameterIDHapticSharpnessControl"
+  },
+  {
+    "offset": "0x201a897",
+    "text": "_CHHapticEventParameterIDHapticIntensity"
+  },
+  {
+    "offset": "0x201a8c0",
+    "text": "_CHHapticEventParameterIDHapticSharpness"
+  },
+  {
+    "offset": "0x201a8e9",
+    "text": "_CHHapticEventTypeHapticContinuous"
+  },
+  {
+    "offset": "0x201a90c",
+    "text": "_CHHapticEventTypeHapticTransient"
+  },
+  {
+    "offset": "0x20435de",
+    "text": "_OBJC_CLASS_$_CADisplayLink"
+  },
+  {
+    "offset": "0x204393f",
+    "text": "_OBJC_CLASS_$_CHHapticEngine"
+  },
+  {
+    "offset": "0x2043991",
+    "text": "_OBJC_CLASS_$_CHHapticEventParameter"
+  },
+  {
+    "offset": "0x20439b6",
+    "text": "_OBJC_CLASS_$_CHHapticEvent"
+  },
+  {
+    "offset": "0x20439d2",
+    "text": "_OBJC_CLASS_$_CHHapticPattern"
+  },
+  {
+    "offset": "0x20439f0",
+    "text": "_OBJC_CLASS_$_CHHapticDynamicParameter"
+  },
+  {
+    "offset": "0x205074c",
+    "text": "displayLink33_F66BEC896F1F38CAC29BEFA58C261558LLAA07DisplayF10Compatible_pvg"
+  },
+  {
+    "offset": "0x2050be3",
+    "text": "4isDisplayLinkInitialized33_F66BEC896F1F38CAC29BEFA58C261558LLSbvpfi"
+  },
+  {
+    "offset": "0x2050c2b",
+    "text": "9$__lazy_storage_$_displayLink33_F66BEC896F1F38CAC29BEFA58C261558LLAA07DisplayH10Compatible_pSgvpfi"
+  },
+  {
+    "offset": "0x2094719",
+    "text": "3scrollToItemDisplayLink33_40B176C7726513EDF9475E6DE07E0B1ELLSo09CADisplayH0CSgvpfi"
+  },
+  {
+    "offset": "0x20ca0f7",
+    "text": "4confettiCannon7trigger3num9confettis6colors0F4Size10rainHeight8fadesOut7opacity12openingAngle07closingS06radius0M5Delay11repetitions18repetitionInterval14hapticFeedback10scalesDownQrAA7BindingVyqd__G_SiSayAD12ConfettiTypeOGSayAA5ColorVG12CoreGraphics7CGFloatVA5_SbSdAA0S0VA7_A5_SdSgSiSdS2btSQRd__lF"
+  },
+  {
+    "offset": "0x20cf43b",
+    "text": "\"MetalEngineC"
+  },
+  {
+    "offset": "0x20cf775",
+    "text": "3get7contextAA0D11PlaceholderCSgAA25MetalEngineSubjectContextC_tF"
+  },
+  {
+    "offset": "0x20d09b4",
+    "text": "3get7contextAA0D11PlaceholderCSgAA25MetalEngineSubjectContextC_tF"
+  },
+  {
+    "offset": "0x20d0c54",
+    "text": "\"trigger3num9confettis6colors12confettiSize10rainHeight8fadesOut7opacity12openingAngle07closingQ06radius0K5Delay11repetitions18repetitionInterval14hapticFeedback10scalesDownACyxG7SwiftUI7BindingVyxG_SiSayAA0C4TypeOGSayAU5ColorVG12CoreGraphics7CGFloatVA5_SbSdAU0Q0VA7_A5_SdSgSiSdS2btcfC"
+  },
+  {
+    "offset": "0x20d0f9b",
+    "text": "internalDataAA026MetalEngineSubjectInternalG0CSgv"
+  },
+  {
+    "offset": "0x20d141b",
+    "text": "A18MetalEngineSubjectAA"
+  },
+  {
+    "offset": "0x20d14eb",
+    "text": "#6update7contextyAA25MetalEngineSubjectContextC_tF"
+  },
+  {
+    "offset": "0x20d172f",
+    "text": "DustEffectLayerC"
+  },
+  {
+    "offset": "0x20d2072",
+    "text": "#MetalEngineSubject"
+  },
+  {
+    "offset": "0x20d34a8",
+    "text": "MetalEngineSubjectLayerC"
+  },
+  {
+    "offset": "0x20d34c3",
+    "text": "#SharedDisplayLinkDriverC"
+  },
+  {
+    "offset": "0x20d3993",
+    "text": "MetalEngineSubjectContextC"
+  },
+  {
+    "offset": "0x20d3d8c",
+    "text": "0MetalEngineSubjectInternalDataC"
+  },
+  {
+    "offset": "0x20d4318",
+    "text": "023SharedDisplayLinkDriverE0"
+  },
+  {
+    "offset": "0x20ea5c7",
+    "text": "DustEffectLayer"
+  },
+  {
+    "offset": "0x20ea5fd",
+    "text": "1SimpleLayer"
+  },
+  {
+    "offset": "0x20ea69d",
+    "text": ")3MetalEngineSubjectLayer"
+  },
+  {
+    "offset": "0x20ee0f4",
+    "text": "DustEffectLayer"
+  },
+  {
+    "offset": "0x20ee12a",
+    "text": "1SimpleLayer"
+  },
+  {
+    "offset": "0x20ee1ca",
+    "text": "*3MetalEngineSubjectLayer"
+  },
+  {
+    "offset": "0x2183302",
+    "text": "_AVCaptureDeviceTypeBuiltInDualCamera"
+  },
+  {
+    "offset": "0x2183328",
+    "text": "_AVCaptureDeviceTypeBuiltInWideAngleCamera"
+  },
+  {
+    "offset": "0x21841db",
+    "text": "_CHHapticDynamicParameterIDHapticIntensityControl"
+  },
+  {
+    "offset": "0x218420d",
+    "text": "_CHHapticDynamicParameterIDHapticSharpnessControl"
+  },
+  {
+    "offset": "0x218423f",
+    "text": "_CHHapticEventParameterIDHapticIntensity"
+  },
+  {
+    "offset": "0x2184268",
+    "text": "_CHHapticEventParameterIDHapticSharpness"
+  },
+  {
+    "offset": "0x2184291",
+    "text": "_CHHapticEventTypeHapticContinuous"
+  },
+  {
+    "offset": "0x21842b4",
+    "text": "_CHHapticEventTypeHapticTransient"
+  },
+  {
+    "offset": "0x21857bb",
+    "text": "_OBJC_CLASS_$_CADisplayLink"
+  },
+  {
+    "offset": "0x2185936",
+    "text": "_OBJC_CLASS_$_CHHapticDynamicParameter"
+  },
+  {
+    "offset": "0x218595d",
+    "text": "_OBJC_CLASS_$_CHHapticEngine"
+  },
+  {
+    "offset": "0x218597a",
+    "text": "_OBJC_CLASS_$_CHHapticEvent"
+  },
+  {
+    "offset": "0x2185996",
+    "text": "_OBJC_CLASS_$_CHHapticEventParameter"
+  },
+  {
+    "offset": "0x21859bb",
+    "text": "_OBJC_CLASS_$_CHHapticPattern"
+  }
+]

@@ -1,0 +1,213 @@
+10055ccf4:	orr	x29, x29, #0x1000000000000000
+10055ccf8:	sub	sp, sp, #0x40
+10055ccfc:	stp	d9, d8, [sp, #0x10]
+10055cd00:	str	x19, [sp, #0x20]
+10055cd04:	stp	x29, x30, [sp, #0x30]
+10055cd08:	str	x22, [sp, #0x28]
+10055cd0c:	add	x29, sp, #0x30
+10055cd10:	adrp	x8, 6481 ; 0x101ead000
+10055cd14:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10055cd18:	ldr	x8, [x8]
+10055cd1c:	str	x8, [sp, #0x8]
+10055cd20:	ldr	x8, [x22, #0x2a8]
+10055cd24:	bl	0x101785708 ; symbol stub for: _swift_release_x8
+10055cd28:	bl	0x1000689e8
+10055cd2c:	cbz	x0, 0x10055cd44
+10055cd30:	mov	x20, x0
+10055cd34:	bl	0x10178a300 ; SEL bounds
+10055cd38:	mov.16b	v8, v2
+10055cd3c:	mov.16b	v9, v3
+10055cd40:	b	0x10055cd74
+10055cd44:	bl	0x100068794
+10055cd48:	cbz	x0, 0x10055cdc0
+10055cd4c:	mov	x20, x0
+10055cd50:	bl	0x10178cae0 ; SEL coordinateSpace
+10055cd54:	mov	x29, x29
+10055cd58:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10055cd5c:	mov	x19, x0
+10055cd60:	bl	0x10178a300 ; SEL bounds
+10055cd64:	mov.16b	v8, v2
+10055cd68:	mov.16b	v9, v3
+10055cd6c:	mov	x0, x19
+10055cd70:	bl	0x10178596c ; symbol stub for: _swift_unknownObjectRelease
+10055cd74:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+10055cd78:	str	d9, [x22, #0x2b8]
+10055cd7c:	str	d8, [x22, #0x2b0]
+10055cd80:	ldr	x8, [sp, #0x8]
+10055cd84:	adrp	x9, 6481 ; 0x101ead000
+10055cd88:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10055cd8c:	ldr	x9, [x9]
+10055cd90:	cmp	x9, x8
+10055cd94:	b.ne	0x10055cdcc
+10055cd98:	adrp	x0, 0 ; 0x10055c000
+10055cd9c:	add	x0, x0, #0xdd0
+10055cda0:	mov	x1, #0x0
+10055cda4:	mov	x2, #0x0
+10055cda8:	ldp	x29, x30, [sp, #0x30]
+10055cdac:	ldr	x19, [sp, #0x20]
+10055cdb0:	ldp	d9, d8, [sp, #0x10]
+10055cdb4:	and	x29, x29, #0xefffffffffffffff
+10055cdb8:	add	sp, sp, #0x40
+10055cdbc:	b	0x101785954 ; symbol stub for: _swift_task_switch
+10055cdc0:	fmov	d8, xzr
+10055cdc4:	fmov	d9, xzr
+10055cdc8:	b	0x10055cd78
+10055cdcc:	bl	0x101784064 ; symbol stub for: ___stack_chk_fail
+10055cdd0:	orr	x29, x29, #0x1000000000000000
+10055cdd4:	sub	sp, sp, #0xd0
+10055cdd8:	str	d14, [sp, #0x40]
+10055cddc:	stp	d13, d12, [sp, #0x48]
+10055cde0:	stp	d11, d10, [sp, #0x58]
+10055cde4:	stp	d9, d8, [sp, #0x68]
+10055cde8:	stp	x28, x27, [sp, #0x78]
+10055cdec:	stp	x26, x25, [sp, #0x88]
+10055cdf0:	stp	x24, x23, [sp, #0x98]
+10055cdf4:	stp	x21, x19, [sp, #0xa8]
+10055cdf8:	stp	x29, x30, [sp, #0xc0]
+10055cdfc:	str	x22, [sp, #0xb8]
+10055ce00:	add	x29, sp, #0xc0
+10055ce04:	adrp	x8, 6481 ; 0x101ead000
+10055ce08:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10055ce0c:	ldr	x8, [x8]
+10055ce10:	str	x8, [sp, #0x38]
+10055ce14:	ldr	x20, [x22, #0x280]
+10055ce18:	adrp	x8, 6610 ; 0x101f2e000
+10055ce1c:	ldr	x0, [x8, #0xf38] ; Objc class ref: bad class ref
+10055ce20:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+10055ce24:	mov	x19, x0
+10055ce28:	bl	0x1017b0d80 ; SEL whiteColor
+10055ce2c:	mov	x29, x29
+10055ce30:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10055ce34:	mov	x21, x0
+10055ce38:	mov	x0, x20
+10055ce3c:	bl	0x101785ea0 ; SEL CGImage
+10055ce40:	mov	x29, x29
+10055ce44:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10055ce48:	cbz	x0, 0x10055cf10
+10055ce4c:	mov	x23, x0
+10055ce50:	ldr	d8, [x22, #0x2b8]
+10055ce54:	ldr	d9, [x22, #0x2b0]
+10055ce58:	ldr	d10, [x22, #0x2a0]
+10055ce5c:	ldr	d11, [x22, #0x298]
+10055ce60:	ldr	d12, [x22, #0x290]
+10055ce64:	ldr	d13, [x22, #0x288]
+10055ce68:	bl	0x101783920 ; symbol stub for: _CGImageGetWidth
+10055ce6c:	scvtf	d14, x0
+10055ce70:	mov	x0, x23
+10055ce74:	bl	0x1017838fc ; symbol stub for: _CGImageGetHeight
+10055ce78:	scvtf	d0, x0
+10055ce7c:	fdiv	d2, d14, d9
+10055ce80:	fdiv	d3, d0, d8
+10055ce84:	fmul	d0, d13, d2
+10055ce88:	fmul	d1, d12, d3
+10055ce8c:	fmul	d2, d11, d2
+10055ce90:	fmul	d3, d10, d3
+10055ce94:	bl	0x101783a58 ; symbol stub for: _CGRectIntegral
+10055ce98:	mov	x0, x23
+10055ce9c:	bl	0x101783854 ; symbol stub for: _CGImageCreateWithImageInRect
+10055cea0:	ldr	x20, [x22, #0x280]
+10055cea4:	cbz	x0, 0x10055cf1c
+10055cea8:	mov	x24, x0
+10055ceac:	mov	x0, x20
+10055ceb0:	bl	0x1017a2e20 ; SEL scale
+10055ceb4:	mov.16b	v8, v0
+10055ceb8:	mov	x0, x20
+10055cebc:	bl	0x101794000 ; SEL imageOrientation
+10055cec0:	mov	x20, x0
+10055cec4:	adrp	x8, 6611 ; 0x101f2f000
+10055cec8:	ldr	x0, [x8, #0x8] ; Objc class ref: bad class ref
+10055cecc:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10055ced0:	mov	x2, x24
+10055ced4:	mov.16b	v0, v8
+10055ced8:	mov	x3, x20
+10055cedc:	bl	0x101794f40 ; SEL initWithCGImage:scale:orientation:
+10055cee0:	mov	x20, x0
+10055cee4:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10055cee8:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+10055ceec:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+10055cef0:	cbz	x20, 0x10055d2d4
+10055cef4:	bl	0x1000689e8
+10055cef8:	cbz	x0, 0x10055d4f8
+10055cefc:	mov	x21, x0
+10055cf00:	bl	0x10178a300 ; SEL bounds
+10055cf04:	mov.16b	v8, v2
+10055cf08:	mov.16b	v9, v3
+10055cf0c:	b	0x10055d528
+10055f348:	orr	x29, x29, #0x1000000000000000
+10055f34c:	sub	sp, sp, #0xb0
+10055f350:	str	d10, [sp, #0x40]
+10055f354:	stp	d9, d8, [sp, #0x48]
+10055f358:	stp	x28, x27, [sp, #0x58]
+10055f35c:	stp	x26, x25, [sp, #0x68]
+10055f360:	stp	x24, x23, [sp, #0x78]
+10055f364:	stp	x21, x19, [sp, #0x88]
+10055f368:	stp	x29, x30, [sp, #0xa0]
+10055f36c:	str	x22, [sp, #0x98]
+10055f370:	add	x29, sp, #0xa0
+10055f374:	adrp	x8, 6478 ; 0x101ead000
+10055f378:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10055f37c:	ldr	x8, [x8]
+10055f380:	str	x8, [sp, #0x38]
+10055f384:	ldr	x19, [x22, #0x280]
+10055f388:	adrp	x25, 6607 ; 0x101f2e000
+10055f38c:	ldr	x0, [x25, #0xf38] ; Objc class ref: bad class ref
+10055f390:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+10055f394:	bl	0x1017b0d80 ; SEL whiteColor
+10055f398:	mov	x29, x29
+10055f39c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10055f3a0:	mov	x20, x0
+10055f3a4:	mov	x0, x19
+10055f3a8:	bl	0x101785ea0 ; SEL CGImage
+10055f3ac:	mov	x29, x29
+10055f3b0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+10055f3b4:	cbz	x0, 0x10055f6c4
+10055f3b8:	mov	x21, x0
+10055f3bc:	ldr	d8, [x22, #0x2e0]
+10055f3c0:	ldr	d9, [x22, #0x2d8]
+10055f3c4:	bl	0x101783920 ; symbol stub for: _CGImageGetWidth
+10055f3c8:	scvtf	d10, x0
+10055f3cc:	mov	x0, x21
+10055f3d0:	bl	0x1017838fc ; symbol stub for: _CGImageGetHeight
+10055f3d4:	scvtf	d0, x0
+10055f3d8:	fdiv	d1, d10, d0
+10055f3dc:	fdiv	d2, d9, d8
+10055f3e0:	ldr	d3, [x22, #0x2e0]
+10055f3e4:	ldr	d4, [x22, #0x2d8]
+10055f3e8:	fcmp	d2, d1
+10055f3ec:	fdiv	d2, d4, d10
+10055f3f0:	fmul	d1, d2, d0
+10055f3f4:	fsub	d1, d3, d1
+10055f3f8:	fmov	d5, #0.50000000
+10055f3fc:	fmul	d1, d1, d5
+10055f400:	fmov	d6, xzr
+10055f404:	fdiv	d0, d3, d0
+10055f408:	fmul	d3, d0, d10
+10055f40c:	fsub	d3, d4, d3
+10055f410:	fmul	d4, d3, d5
+10055f414:	fcsel	d1, d1, d6, mi
+10055f418:	fcsel	d3, d2, d0, mi
+10055f41c:	fcsel	d0, d6, d4, mi
+10055f420:	ldr	d4, [x22, #0x2a0]
+10055f424:	ldr	d2, [x22, #0x298]
+10055f428:	ldr	d5, [x22, #0x290]
+10055f42c:	ldr	d6, [x22, #0x288]
+10055f430:	fsub	d0, d6, d0
+10055f434:	fdiv	d0, d0, d3
+10055f438:	fsub	d1, d5, d1
+10055f43c:	fdiv	d1, d1, d3
+10055f440:	fdiv	d2, d2, d3
+10055f444:	fdiv	d3, d4, d3
+10055f448:	bl	0x101783a58 ; symbol stub for: _CGRectIntegral
+10055f44c:	mov	x0, x21
+10055f450:	bl	0x101783854 ; symbol stub for: _CGImageCreateWithImageInRect
+10055f454:	ldr	x23, [x22, #0x280]
+10055f458:	cbz	x0, 0x10055f6d0
+10055f45c:	mov	x24, x0
+10055f460:	mov	x0, x23
+10055f464:	bl	0x1017a2e20 ; SEL scale
+10055f468:	mov.16b	v8, v0
+10055f46c:	mov	x0, x23
+10055f470:	bl	0x101794000 ; SEL imageOrientation
+10055f474:	mov	x19, x0
+10055f478:	adrp	x8, 6608 ; 0x101f2f000
+10055f47c:	ldr	x0, [x8, #0x8] ; Objc class ref: bad class ref

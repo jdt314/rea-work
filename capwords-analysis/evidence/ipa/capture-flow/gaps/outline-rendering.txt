@@ -1,0 +1,1232 @@
+1004d1b20:	stp	x22, x21, [sp, #-0x30]!
+1004d1b24:	stp	x20, x19, [sp, #0x10]
+1004d1b28:	stp	x29, x30, [sp, #0x20]
+1004d1b2c:	add	x29, sp, #0x20
+1004d1b30:	adrp	x8, 6825 ; 0x101f7a000
+1004d1b34:	ldr	x21, [x8, #0x7a0]
+1004d1b38:	ldr	x8, [x20, x21]
+1004d1b3c:	cbz	x8, 0x1004d1b48
+1004d1b40:	mov	x19, x8
+1004d1b44:	b	0x1004d1b94
+1004d1b48:	adrp	x8, 6750 ; 0x101f2f000
+1004d1b4c:	ldr	x0, [x8, #0xd0] ; Objc class ref: bad class ref
+1004d1b50:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+1004d1b54:	bl	0x1017947a0 ; SEL init
+1004d1b58:	mov	x29, x29
+1004d1b5c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1b60:	mov	x19, x0
+1004d1b64:	mov	w2, #0x0
+1004d1b68:	bl	0x1017ab020 ; SEL setTranslatesAutoresizingMaskIntoConstraints:
+1004d1b6c:	mov	x0, x19
+1004d1b70:	mov	w2, #0x1
+1004d1b74:	bl	0x1017a52a0 ; SEL setContentMode:
+1004d1b78:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+1004d1b7c:	ldr	x22, [x20, x21]
+1004d1b80:	str	x19, [x20, x21]
+1004d1b84:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+1004d1b88:	mov	x19, x0
+1004d1b8c:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+1004d1b90:	mov	x8, #0x0
+1004d1b94:	bl	0x101784c10 ; symbol stub for: _objc_retain_x8
+1004d1b98:	mov	x0, x19
+1004d1b9c:	ldp	x29, x30, [sp, #0x20]
+1004d1ba0:	ldp	x20, x19, [sp, #0x10]
+1004d1ba4:	ldp	x22, x21, [sp], #0x30
+1004d1ba8:	ret
+1004d1bac:	sub	sp, sp, #0x20
+1004d1bb0:	stp	x29, x30, [sp, #0x10]
+1004d1bb4:	add	x29, sp, #0x10
+1004d1bb8:	adrp	x8, 6825 ; 0x101f7a000
+1004d1bbc:	ldr	x8, [x8, #0x790]
+1004d1bc0:	mov	x9, #0x4024000000000000
+1004d1bc4:	str	x9, [x0, x8]
+1004d1bc8:	adrp	x8, 6825 ; 0x101f7a000
+1004d1bcc:	ldr	x8, [x8, #0x7a0]
+1004d1bd0:	str	xzr, [x0, x8]
+1004d1bd4:	adrp	x8, 5241 ; 0x10194a000
+1004d1bd8:	add	x8, x8, #0xb20 ; literal pool for: "init(coder:) has not been implemented" ; STRING init(coder:) has not been implemented
+1004d1bdc:	sub	x8, x8, #0x20
+1004d1be0:	str	wzr, [sp, #0x8]
+1004d1be4:	mov	w9, #0x2c
+1004d1be8:	str	x9, [sp]
+1004d1bec:	adrp	x0, 5242 ; 0x10194b000
+1004d1bf0:	add	x0, x0, #0x9f0 ; literal pool for: "Fatal error" ; STRING Fatal error
+1004d1bf4:	adrp	x5, 5252 ; 0x101955000
+1004d1bf8:	add	x5, x5, #0x2c0 ; literal pool for: "SnapWords/StickerOutlineView.swift" ; STRING SnapWords/StickerOutlineView.swift
+1004d1bfc:	orr	x4, x8, #0x8000000000000000
+1004d1c00:	mov	w1, #0xb
+1004d1c04:	mov	w2, #0x2
+1004d1c08:	mov	x3, #0x25
+1004d1c0c:	movk	x3, #0xd000, lsl #48
+1004d1c10:	mov	w6, #0x22
+1004d1c14:	mov	w7, #0x2
+1004d1c18:	bl	0x1017824bc ; symbol stub for: _$ss17_assertionFailure__4file4line5flagss5NeverOs12StaticStringV_SSAHSus6UInt32VtF
+1004d1c1c:	brk	#0x1
+1004d1c20:	stp	d11, d10, [sp, #-0x40]!
+1004d1c24:	stp	d9, d8, [sp, #0x10]
+1004d1c28:	stp	x20, x19, [sp, #0x20]
+1004d1c2c:	stp	x29, x30, [sp, #0x30]
+1004d1c30:	add	x29, sp, #0x30
+1004d1c34:	mov	x0, x20
+1004d1c38:	bl	0x10178a300 ; SEL bounds
+1004d1c3c:	mov.16b	v8, v2
+1004d1c40:	mov.16b	v9, v3
+1004d1c44:	adrp	x8, 6750 ; 0x101f2f000
+1004d1c48:	ldr	x0, [x8, #0xc8] ; Objc class ref: bad class ref
+1004d1c4c:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+1004d1c50:	bl	0x10179b9a0 ; SEL mainScreen
+1004d1c54:	mov	x29, x29
+1004d1c58:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1c5c:	mov	x19, x0
+1004d1c60:	bl	0x1017a2e20 ; SEL scale
+1004d1c64:	mov.16b	v10, v0
+1004d1c68:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+1004d1c6c:	mov.16b	v0, v8
+1004d1c70:	mov.16b	v1, v9
+1004d1c74:	mov	w0, #0x0
+1004d1c78:	mov.16b	v2, v10
+1004d1c7c:	bl	0x101783c98 ; symbol stub for: _UIGraphicsBeginImageContextWithOptions
+1004d1c80:	bl	0x101783cb0 ; symbol stub for: _UIGraphicsGetCurrentContext
+1004d1c84:	mov	x29, x29
+1004d1c88:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1c8c:	cbz	x0, 0x1004d1cd0
+1004d1c90:	mov	x19, x0
+1004d1c94:	mov	x0, x20
+1004d1c98:	bl	0x10179a4c0 ; SEL layer
+1004d1c9c:	mov	x29, x29
+1004d1ca0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1ca4:	mov	x20, x0
+1004d1ca8:	mov	x2, x19
+1004d1cac:	bl	0x1017a1940 ; SEL renderInContext:
+1004d1cb0:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+1004d1cb4:	bl	0x101783cbc ; symbol stub for: _UIGraphicsGetImageFromCurrentImageContext
+1004d1cb8:	mov	x29, x29
+1004d1cbc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1cc0:	mov	x20, x0
+1004d1cc4:	bl	0x101783ca4 ; symbol stub for: _UIGraphicsEndImageContext
+1004d1cc8:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+1004d1ccc:	b	0x1004d1cd4
+1004d1cd0:	mov	x20, #0x0
+1004d1cd4:	mov	x0, x20
+1004d1cd8:	ldp	x29, x30, [sp, #0x30]
+1004d1cdc:	ldp	x20, x19, [sp, #0x20]
+1004d1ce0:	ldp	d9, d8, [sp, #0x10]
+1004d1ce4:	ldp	d11, d10, [sp], #0x40
+1004d1ce8:	ret
+1004d1cec:	stp	x29, x30, [sp, #-0x10]!
+1004d1cf0:	mov	x29, sp
+1004d1cf4:	adrp	x0, 5252 ; 0x101955000
+1004d1cf8:	add	x0, x0, #0x290 ; literal pool for: "SnapWords.StickerOutlineImageView" ; STRING SnapWords.StickerOutlineImageView
+1004d1cfc:	adrp	x2, 5329 ; 0x1019a2000
+1004d1d00:	add	x2, x2, #0xac0 ; literal pool for: "init(frame:)" ; STRING init(frame:)
+1004d1d04:	mov	w1, #0x21
+1004d1d08:	mov	w3, #0xc
+1004d1d0c:	mov	w4, #0x0
+1004d1d10:	bl	0x101784118 ; symbol stub for: __swift_stdlib_reportUnimplementedInitializer
+1004d1d14:	brk	#0x1
+1004d1d18:	sub	sp, sp, #0x20
+1004d1d1c:	stp	x29, x30, [sp, #0x10]
+1004d1d20:	add	x29, sp, #0x10
+1004d1d24:	bl	0x1004d1d90
+1004d1d28:	stp	x20, x0, [sp]
+1004d1d2c:	adrp	x8, 6734 ; 0x101f1f000
+1004d1d30:	ldr	x1, [x8, #0xf18]
+1004d1d34:	mov	x0, sp
+1004d1d38:	bl	0x101784a0c ; symbol stub for: _objc_msgSendSuper2
+1004d1d3c:	ldp	x29, x30, [sp, #0x10]
+1004d1d40:	add	sp, sp, #0x20
+1004d1d44:	ret
+1004d1d48:	stp	x20, x19, [sp, #-0x20]!
+1004d1d4c:	stp	x29, x30, [sp, #0x10]
+1004d1d50:	add	x29, sp, #0x10
+1004d1d54:	mov	x19, x0
+1004d1d58:	adrp	x8, 6825 ; 0x101f7a000
+1004d1d5c:	ldr	x8, [x8, #0x788]
+1004d1d60:	ldr	x8, [x0, x8]
+1004d1d64:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+1004d1d68:	adrp	x8, 6825 ; 0x101f7a000
+1004d1d6c:	ldr	x8, [x8, #0x798]
+1004d1d70:	ldr	x8, [x19, x8]
+1004d1d74:	bl	0x101784afc ; symbol stub for: _objc_release_x8
+1004d1d78:	adrp	x8, 6825 ; 0x101f7a000
+1004d1d7c:	ldr	x8, [x8, #0x7a0]
+1004d1d80:	ldr	x0, [x19, x8]
+1004d1d84:	ldp	x29, x30, [sp, #0x10]
+1004d1d88:	ldp	x20, x19, [sp], #0x20
+1004d1d8c:	b	0x101784a60 ; symbol stub for: _objc_release
+1004d1d90:	stp	x29, x30, [sp, #-0x10]!
+1004d1d94:	mov	x29, sp
+1004d1d98:	adrp	x0, 6759 ; 0x101f38000
+1004d1d9c:	add	x0, x0, #0x8c0
+1004d1da0:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+1004d1da4:	mov	x1, #0x0
+1004d1da8:	ldp	x29, x30, [sp], #0x10
+1004d1dac:	ret
+1004d1db0:	sub	sp, sp, #0x50
+1004d1db4:	stp	x24, x23, [sp, #0x10]
+1004d1db8:	stp	x22, x21, [sp, #0x20]
+1004d1dbc:	stp	x20, x19, [sp, #0x30]
+1004d1dc0:	stp	x29, x30, [sp, #0x40]
+1004d1dc4:	add	x29, sp, #0x40
+1004d1dc8:	mov	x22, x1
+1004d1dcc:	mov	x21, x0
+1004d1dd0:	adrp	x8, 6750 ; 0x101f2f000
+1004d1dd4:	ldr	x0, [x8, #0x438] ; Objc class ref: bad class ref
+1004d1dd8:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+1004d1ddc:	bl	0x1017947a0 ; SEL init
+1004d1de0:	mov	x19, x0
+1004d1de4:	mov	x0, x22
+1004d1de8:	bl	0x101785ec0 ; SEL CGPath
+1004d1dec:	mov	x29, x29
+1004d1df0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1df4:	mov	x22, x0
+1004d1df8:	mov	x0, x19
+1004d1dfc:	mov	x2, x22
+1004d1e00:	bl	0x1017a8ce0 ; SEL setPath:
+1004d1e04:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+1004d1e08:	adrp	x8, 6749 ; 0x101f2e000
+1004d1e0c:	ldr	x0, [x8, #0xf38] ; Objc class ref: bad class ref
+1004d1e10:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+1004d1e14:	mov	x22, x0
+1004d1e18:	bl	0x1017b0d80 ; SEL whiteColor
+1004d1e1c:	mov	x29, x29
+1004d1e20:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1e24:	mov	x23, x0
+1004d1e28:	bl	0x101785e60 ; SEL CGColor
+1004d1e2c:	mov	x29, x29
+1004d1e30:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1e34:	mov	x24, x0
+1004d1e38:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+1004d1e3c:	mov	x0, x19
+1004d1e40:	mov	x2, x24
+1004d1e44:	bl	0x1017aa8e0 ; SEL setStrokeColor:
+1004d1e48:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+1004d1e4c:	adrp	x8, 6825 ; 0x101f7a000
+1004d1e50:	ldr	x8, [x8, #0x790]
+1004d1e54:	ldr	d0, [x20, x8]
+1004d1e58:	mov	x0, x19
+1004d1e5c:	bl	0x1017a7ba0 ; SEL setLineWidth:
+1004d1e60:	adrp	x8, 6621 ; 0x101eae000
+1004d1e64:	ldr	x8, [x8, #0xe00] ; literal pool symbol address: _kCALineJoinRound
+1004d1e68:	ldr	x2, [x8]
+1004d1e6c:	mov	x0, x19
+1004d1e70:	bl	0x1017a7b80 ; SEL setLineJoin:
+1004d1e74:	adrp	x8, 6621 ; 0x101eae000
+1004d1e78:	ldr	x8, [x8, #0xdf8] ; literal pool symbol address: _kCALineCapRound
+1004d1e7c:	ldr	x2, [x8]
+1004d1e80:	mov	x0, x19
+1004d1e84:	bl	0x1017a7ae0 ; SEL setLineCap:
+1004d1e88:	mov	x0, x22
+1004d1e8c:	bl	0x10178b420 ; SEL clearColor
+1004d1e90:	mov	x29, x29
+1004d1e94:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1e98:	mov	x20, x0
+1004d1e9c:	bl	0x101785e60 ; SEL CGColor
+1004d1ea0:	mov	x29, x29
+1004d1ea4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1ea8:	mov	x22, x0
+1004d1eac:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+1004d1eb0:	mov	x0, x19
+1004d1eb4:	mov	x2, x22
+1004d1eb8:	bl	0x1017a66e0 ; SEL setFillColor:
+1004d1ebc:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+1004d1ec0:	mov	x0, x21
+1004d1ec4:	bl	0x10179a4c0 ; SEL layer
+1004d1ec8:	mov	x29, x29
+1004d1ecc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1ed0:	str	x0, [sp, #0x8]
+1004d1ed4:	mov	x2, x19
+1004d1ed8:	mov	w3, #0x0
+1004d1edc:	bl	0x101797420 ; SEL insertSublayer:atIndex:
+1004d1ee0:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+1004d1ee4:	ldr	x0, [sp, #0x8]
+1004d1ee8:	ldp	x29, x30, [sp, #0x40]
+1004d1eec:	ldp	x20, x19, [sp, #0x30]
+1004d1ef0:	ldp	x22, x21, [sp, #0x20]
+1004d1ef4:	ldp	x24, x23, [sp, #0x10]
+1004d1ef8:	add	sp, sp, #0x50
+1004d1efc:	b	0x101784a60 ; symbol stub for: _objc_release
+1004d1f00:	sub	sp, sp, #0xa0
+1004d1f04:	stp	d13, d12, [sp, #0x10]
+1004d1f08:	stp	d11, d10, [sp, #0x20]
+1004d1f0c:	stp	d9, d8, [sp, #0x30]
+1004d1f10:	stp	x28, x27, [sp, #0x40]
+1004d1f14:	stp	x26, x25, [sp, #0x50]
+1004d1f18:	stp	x24, x23, [sp, #0x60]
+1004d1f1c:	stp	x22, x21, [sp, #0x70]
+1004d1f20:	stp	x20, x19, [sp, #0x80]
+1004d1f24:	stp	x29, x30, [sp, #0x90]
+1004d1f28:	add	x29, sp, #0x90
+1004d1f2c:	mov.16b	v8, v4
+1004d1f30:	mov.16b	v9, v3
+1004d1f34:	mov.16b	v10, v2
+1004d1f38:	mov.16b	v11, v1
+1004d1f3c:	mov.16b	v12, v0
+1004d1f40:	mov	x19, x1
+1004d1f44:	mov	x21, x0
+1004d1f48:	adrp	x8, 6825 ; 0x101f7a000
+1004d1f4c:	ldr	x8, [x8, #0x790]
+1004d1f50:	mov	x9, #0x4024000000000000
+1004d1f54:	str	x9, [x20, x8]
+1004d1f58:	adrp	x23, 6825 ; 0x101f7a000
+1004d1f5c:	ldr	x9, [x23, #0x7a0]
+1004d1f60:	str	xzr, [x20, x9]
+1004d1f64:	adrp	x26, 6825 ; 0x101f7a000
+1004d1f68:	ldr	x9, [x26, #0x788]
+1004d1f6c:	str	x0, [x20, x9]
+1004d1f70:	adrp	x9, 6825 ; 0x101f7a000
+1004d1f74:	ldr	x9, [x9, #0x798]
+1004d1f78:	str	x1, [x20, x9]
+1004d1f7c:	str	d4, [x20, x8]
+1004d1f80:	bl	0x1004d1d90
+1004d1f84:	stp	x20, x0, [sp]
+1004d1f88:	adrp	x8, 6739 ; 0x101f24000
+1004d1f8c:	ldr	x20, [x8, #0x268]
+1004d1f90:	bl	0x101784b98 ; symbol stub for: _objc_retain_x21
+1004d1f94:	mov	x21, x0
+1004d1f98:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+1004d1f9c:	mov	x19, x0
+1004d1fa0:	mov	x0, sp
+1004d1fa4:	mov	x1, x20
+1004d1fa8:	mov.16b	v0, v12
+1004d1fac:	mov.16b	v1, v11
+1004d1fb0:	mov.16b	v2, v10
+1004d1fb4:	mov.16b	v3, v9
+1004d1fb8:	bl	0x101784a0c ; symbol stub for: _objc_msgSendSuper2
+1004d1fbc:	mov	x20, x0
+1004d1fc0:	adrp	x8, 6749 ; 0x101f2e000
+1004d1fc4:	ldr	x0, [x8, #0xf38] ; Objc class ref: bad class ref
+1004d1fc8:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+1004d1fcc:	mov	x22, x0
+1004d1fd0:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+1004d1fd4:	mov	x20, x0
+1004d1fd8:	mov	x0, x22
+1004d1fdc:	bl	0x10178b420 ; SEL clearColor
+1004d1fe0:	mov	x29, x29
+1004d1fe4:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d1fe8:	mov	x22, x0
+1004d1fec:	mov	x0, x20
+1004d1ff0:	mov	x2, x22
+1004d1ff4:	bl	0x1017a46c0 ; SEL setBackgroundColor:
+1004d1ff8:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+1004d1ffc:	bl	0x1004d1b20
+1004d2000:	mov	x22, x0
+1004d2004:	mov	x2, x21
+1004d2008:	bl	0x1017a6f60 ; SEL setImage:
+1004d200c:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+1004d2010:	ldr	x27, [x23, #0x7a0]
+1004d2014:	ldr	x2, [x20, x27]
+1004d2018:	mov	x0, x20
+1004d201c:	bl	0x101787ce0 ; SEL addSubview:
+1004d2020:	adrp	x8, 6749 ; 0x101f2f000
+1004d2024:	ldr	x0, [x8, #0xc0] ; Objc class ref: bad class ref
+1004d2028:	bl	0x101784a48 ; symbol stub for: _objc_opt_self
+1004d202c:	mov	x21, x0
+1004d2030:	adrp	x0, 6801 ; 0x101f63000
+1004d2034:	add	x0, x0, #0xbe0
+1004d2038:	adrp	x1, 4956 ; 0x10182e000
+1004d203c:	add	x1, x1, #0xd20
+1004d2040:	bl	0x1000066b0
+1004d2044:	mov	w1, #0x40
+1004d2048:	mov	w2, #0x7
+1004d204c:	bl	0x10178515c ; symbol stub for: _swift_allocObject
+1004d2050:	mov	x22, x0
+1004d2054:	adrp	x8, 4958 ; 0x101830000
+1004d2058:	ldr	q0, [x8, #0xd80]
+1004d205c:	str	q0, [x0, #0x10]
+1004d2060:	ldr	x0, [x20, x27]
+1004d2064:	bl	0x10179a620 ; SEL leadingAnchor
+1004d2068:	mov	x29, x29
+1004d206c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2070:	mov	x23, x0
+1004d2074:	mov	x0, x20
+1004d2078:	bl	0x10179a620 ; SEL leadingAnchor
+1004d207c:	mov	x29, x29
+1004d2080:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2084:	mov	x24, x0
+1004d2088:	mov	x0, x23
+1004d208c:	mov	x2, x24
+1004d2090:	mov.16b	v0, v8
+1004d2094:	bl	0x10178c340 ; SEL constraintEqualToAnchor:constant:
+1004d2098:	mov	x29, x29
+1004d209c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d20a0:	mov	x25, x0
+1004d20a4:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+1004d20a8:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+1004d20ac:	str	x25, [x22, #0x20]
+1004d20b0:	ldr	x0, [x20, x27]
+1004d20b4:	bl	0x1017aeb80 ; SEL trailingAnchor
+1004d20b8:	mov	x29, x29
+1004d20bc:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d20c0:	mov	x23, x0
+1004d20c4:	mov	x0, x20
+1004d20c8:	bl	0x1017aeb80 ; SEL trailingAnchor
+1004d20cc:	mov	x29, x29
+1004d20d0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d20d4:	mov	x24, x0
+1004d20d8:	fneg	d9, d8
+1004d20dc:	mov	x0, x23
+1004d20e0:	mov	x2, x24
+1004d20e4:	mov.16b	v0, v9
+1004d20e8:	bl	0x10178c340 ; SEL constraintEqualToAnchor:constant:
+1004d20ec:	mov	x29, x29
+1004d20f0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d20f4:	mov	x25, x0
+1004d20f8:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+1004d20fc:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+1004d2100:	str	x25, [x22, #0x28]
+1004d2104:	ldr	x0, [x20, x27]
+1004d2108:	bl	0x1017ae9c0 ; SEL topAnchor
+1004d210c:	mov	x29, x29
+1004d2110:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2114:	mov	x23, x0
+1004d2118:	mov	x0, x20
+1004d211c:	bl	0x1017ae9c0 ; SEL topAnchor
+1004d2120:	mov	x29, x29
+1004d2124:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2128:	mov	x24, x0
+1004d212c:	mov	x0, x23
+1004d2130:	mov	x2, x24
+1004d2134:	mov.16b	v0, v8
+1004d2138:	bl	0x10178c340 ; SEL constraintEqualToAnchor:constant:
+1004d213c:	mov	x29, x29
+1004d2140:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2144:	mov	x25, x0
+1004d2148:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+1004d214c:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+1004d2150:	str	x25, [x22, #0x30]
+1004d2154:	ldr	x0, [x20, x27]
+1004d2158:	bl	0x10178a280 ; SEL bottomAnchor
+1004d215c:	mov	x29, x29
+1004d2160:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2164:	mov	x23, x0
+1004d2168:	mov	x0, x20
+1004d216c:	bl	0x10178a280 ; SEL bottomAnchor
+1004d2170:	mov	x29, x29
+1004d2174:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2178:	mov	x24, x0
+1004d217c:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+1004d2180:	mov	x0, x23
+1004d2184:	mov	x2, x24
+1004d2188:	mov.16b	v0, v9
+1004d218c:	bl	0x10178c340 ; SEL constraintEqualToAnchor:constant:
+1004d2190:	mov	x29, x29
+1004d2194:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+1004d2198:	mov	x25, x0
+1004d219c:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+1004d21a0:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+1004d21a4:	str	x25, [x22, #0x38]
+1004d21a8:	mov	x0, #0x0
+1004d21ac:	bl	0x100067ff8
+1004d21b0:	mov	x1, x0
+1004d21b4:	mov	x0, x22
+1004d21b8:	bl	0x1017808a8 ; symbol stub for: _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+1004d21bc:	mov	x23, x0
+1004d21c0:	bl	0x10178569c ; symbol stub for: _swift_release_x22
+1004d21c4:	mov	x0, x21
+1004d21c8:	mov	x2, x23
+1004d21cc:	bl	0x1017871e0 ; SEL activateConstraints:
+1004d21d0:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+1004d21d4:	ldr	x8, [x26, #0x788]
+1004d21d8:	ldr	x0, [x20, x8]
+1004d21dc:	bl	0x1017ac560 ; SEL size
+1004d21e0:	mov	x0, x20
+1004d21e4:	mov	x1, x19
+1004d21e8:	bl	0x1004d1db0
+1004d21ec:	mov	x0, x20
+1004d21f0:	ldp	x29, x30, [sp, #0x90]
+1004d21f4:	ldp	x20, x19, [sp, #0x80]
+1004d21f8:	ldp	x22, x21, [sp, #0x70]
+1004d21fc:	ldp	x24, x23, [sp, #0x60]
+1004d2200:	ldp	x26, x25, [sp, #0x50]
+1004d2204:	ldp	x28, x27, [sp, #0x40]
+1004d2208:	ldp	d9, d8, [sp, #0x30]
+1004d220c:	ldp	d11, d10, [sp, #0x20]
+1004d2210:	ldp	d13, d12, [sp, #0x10]
+1004d2214:	add	sp, sp, #0xa0
+1004d2218:	ret
+100568bb4:	orr	x29, x29, #0x1000000000000000
+100568bb8:	sub	sp, sp, #0xa0
+100568bbc:	stp	d13, d12, [sp, #0x18]
+100568bc0:	stp	d11, d10, [sp, #0x28]
+100568bc4:	stp	d9, d8, [sp, #0x38]
+100568bc8:	stp	x28, x27, [sp, #0x48]
+100568bcc:	stp	x26, x25, [sp, #0x58]
+100568bd0:	stp	x24, x23, [sp, #0x68]
+100568bd4:	stp	x21, x19, [sp, #0x78]
+100568bd8:	stp	x29, x30, [sp, #0x90]
+100568bdc:	str	x22, [sp, #0x88]
+100568be0:	add	x29, sp, #0x90
+100568be4:	adrp	x8, 6469 ; 0x101ead000
+100568be8:	ldr	x8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+100568bec:	ldr	x8, [x8]
+100568bf0:	str	x8, [sp, #0x10]
+100568bf4:	ldr	x0, [x22, #0x18]
+100568bf8:	bl	0x101785ea0 ; SEL CGImage
+100568bfc:	mov	x29, x29
+100568c00:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+100568c04:	cbz	x0, 0x100568f04
+100568c08:	mov	x19, x0
+100568c0c:	adrp	x8, 6599 ; 0x101f2f000
+100568c10:	ldr	x0, [x8, #0x3f8] ; Objc class ref: bad class ref
+100568c14:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+100568c18:	mov	x2, x19
+100568c1c:	bl	0x101794f00 ; SEL initWithCGImage:
+100568c20:	mov	x23, x0
+100568c24:	adrp	x8, 6599 ; 0x101f2f000
+100568c28:	ldr	x0, [x8, #0x4d8] ; Objc class ref: bad class ref
+100568c2c:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+100568c30:	bl	0x1017947a0 ; SEL init
+100568c34:	mov	x20, x0
+100568c38:	fmov	s0, #2.00000000
+100568c3c:	bl	0x1017a53e0 ; SEL setContrastAdjustment:
+100568c40:	mov	x0, x20
+100568c44:	mov	w2, #0x0
+100568c48:	bl	0x1017a5c80 ; SEL setDetectsDarkOnLight:
+100568c4c:	mov	x0, x20
+100568c50:	mov	w2, #0x200
+100568c54:	bl	0x1017a8000 ; SEL setMaximumImageDimension:
+100568c58:	adrp	x0, 6476 ; 0x101eb4000
+100568c5c:	ldr	x0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+100568c60:	bl	0x10000b838
+100568c64:	mov	x21, x0
+100568c68:	adrp	x8, 6599 ; 0x101f2f000
+100568c6c:	ldr	x0, [x8, #0x4e0] ; Objc class ref: bad class ref
+100568c70:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+100568c74:	mov	x24, x0
+100568c78:	mov	x0, #0x0
+100568c7c:	bl	0x10000fa7c
+100568c80:	mov	x25, x0
+100568c84:	adrp	x1, -1369 ; 0x10000f000
+100568c88:	add	x1, x1, #0xa7c
+100568c8c:	adrp	x0, 6639 ; 0x101f57000
+100568c90:	add	x0, x0, #0xa58
+100568c94:	adrp	x2, 4805 ; 0x10182d000
+100568c98:	add	x2, x2, #0xeb4
+100568c9c:	bl	0x10000c25c
+100568ca0:	mov	x3, x0
+100568ca4:	adrp	x8, 6476 ; 0x101eb4000
+100568ca8:	ldr	x8, [x8, #0x1f0] ; literal pool symbol address: _$sypN
+100568cac:	add	x2, x8, #0x8
+100568cb0:	mov	x0, x21
+100568cb4:	mov	x1, x25
+100568cb8:	bl	0x10178002c ; symbol stub for: _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+100568cbc:	mov	x25, x0
+100568cc0:	mov	x0, x21
+100568cc4:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100568cc8:	mov	x0, x24
+100568ccc:	mov	x2, x23
+100568cd0:	mov	x3, x25
+100568cd4:	bl	0x101794f80 ; SEL initWithCIImage:options:
+100568cd8:	mov	x24, x0
+100568cdc:	bl	0x101784acc ; symbol stub for: _objc_release_x25
+100568ce0:	adrp	x0, 6651 ; 0x101f63000
+100568ce4:	add	x0, x0, #0xbe0
+100568ce8:	adrp	x1, 4806 ; 0x10182e000
+100568cec:	add	x1, x1, #0xd20
+100568cf0:	bl	0x1000066b0
+100568cf4:	mov	w1, #0x28
+100568cf8:	mov	w2, #0x7
+100568cfc:	bl	0x10178515c ; symbol stub for: _swift_allocObject
+100568d00:	mov	x21, x0
+100568d04:	adrp	x8, 4806 ; 0x10182e000
+100568d08:	ldr	q0, [x8, #0xef0]
+100568d0c:	str	q0, [x0, #0x10]
+100568d10:	str	x20, [x0, #0x20]
+100568d14:	adrp	x1, 6678 ; 0x101f7e000
+100568d18:	add	x1, x1, #0x648
+100568d1c:	adrp	x2, 6599 ; 0x101f2f000
+100568d20:	add	x2, x2, #0x4e8 ; Objc class ref: bad class ref
+100568d24:	mov	x0, #0x0
+100568d28:	bl	0x10001d668
+100568d2c:	mov	x26, x0
+100568d30:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+100568d34:	mov	x28, x0
+100568d38:	mov	x0, x21
+100568d3c:	mov	x1, x26
+100568d40:	bl	0x1017808a8 ; symbol stub for: _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+100568d44:	mov	x20, x0
+100568d48:	bl	0x101785690 ; symbol stub for: _swift_release_x21
+100568d4c:	stur	xzr, [x22, #0x10]
+100568d50:	add	x3, x22, #0x10
+100568d54:	mov	x0, x24
+100568d58:	mov	x2, x20
+100568d5c:	bl	0x10179e980 ; SEL performRequests:error:
+100568d60:	mov	x21, x0
+100568d64:	bl	0x101784a90 ; symbol stub for: _objc_release_x20
+100568d68:	ldur	x20, [x22, #0x10]
+100568d6c:	cbz	w21, 0x100568f34
+100568d70:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+100568d74:	mov	x0, x28
+100568d78:	bl	0x1017a2560 ; SEL results
+100568d7c:	mov	x29, x29
+100568d80:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+100568d84:	cbz	x0, 0x100569128
+100568d88:	mov	x21, x0
+100568d8c:	adrp	x1, 6678 ; 0x101f7e000
+100568d90:	add	x1, x1, #0x650
+100568d94:	adrp	x2, 6599 ; 0x101f2f000
+100568d98:	add	x2, x2, #0x4f0 ; Objc class ref: bad class ref
+100568d9c:	mov	x0, #0x0
+100568da0:	bl	0x10001d668
+100568da4:	mov	x1, x0
+100568da8:	mov	x0, x21
+100568dac:	bl	0x1017808c0 ; symbol stub for: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+100568db0:	mov	x20, x0
+100568db4:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+100568db8:	lsr	x8, x20, #62
+100568dbc:	cbnz	x8, 0x10056910c
+100568dc0:	and	x8, x20, #0xffffffffffffff8
+100568dc4:	ldr	x0, [x8, #0x10]
+100568dc8:	cbz	x0, 0x100569120
+100568dcc:	tst	x20, #0xc000000000000001
+100568dd0:	b.ne	0x100569298
+100568dd4:	and	x8, x20, #0xffffffffffffff8
+100568dd8:	ldr	x8, [x8, #0x10]
+100568ddc:	cbz	x8, 0x1005692ac
+100568de0:	ldr	x8, [x20, #0x20]
+100568de4:	bl	0x101784c10 ; symbol stub for: _objc_retain_x8
+100568de8:	mov	x26, x0
+100568dec:	mov	x0, x20
+100568df0:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100568df4:	mov	x0, x26
+100568df8:	bl	0x10178c820 ; SEL contourCount
+100568dfc:	tbnz	x0, #0x3f, 0x1005692a8
+100568e00:	mov	x20, x0
+100568e04:	str	x28, [sp]
+100568e08:	cbz	x0, 0x100568f54
+100568e0c:	mov	x25, #0x0
+100568e10:	mov	x27, #0x0
+100568e14:	fmov	s13, wzr
+100568e18:	b	0x100568e60
+100568e1c:	bl	0x101784bec ; symbol stub for: _objc_retain_x28
+100568e20:	mov	x21, x0
+100568e24:	mov	x0, x28
+100568e28:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+100568e2c:	mov	x28, x0
+100568e30:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+100568e34:	mov	x21, x28
+100568e38:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+100568e3c:	mov	x0, x28
+100568e40:	bl	0x101785360 ; symbol stub for: _swift_errorRelease
+100568e44:	mov	x2, x25
+100568e48:	mov.16b	v0, v13
+100568e4c:	add	x27, x27, #0x1
+100568e50:	mov	x25, x2
+100568e54:	mov.16b	v13, v0
+100568e58:	cmp	x20, x27
+100568e5c:	b.eq	0x100568f58
+100568e60:	stur	xzr, [x22, #0x10]
+100568e64:	add	x3, x22, #0x10
+100568e68:	mov	x0, x26
+100568e6c:	mov	x2, x27
+100568e70:	bl	0x10178c800 ; SEL contourAtIndex:error:
+100568e74:	mov	x29, x29
+100568e78:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+100568e7c:	ldur	x28, [x22, #0x10]
+100568e80:	cbz	x0, 0x100568e1c
+100568e84:	mov	x21, x0
+100568e88:	bl	0x101784bec ; symbol stub for: _objc_retain_x28
+100568e8c:	mov	x0, x21
+100568e90:	bl	0x10179d320 ; SEL normalizedPath
+100568e94:	mov	x29, x29
+100568e98:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+100568e9c:	mov	x28, x0
+100568ea0:	bl	0x1017839b0 ; symbol stub for: _CGPathGetBoundingBox
+100568ea4:	mov.16b	v8, v0
+100568ea8:	mov.16b	v9, v1
+100568eac:	mov.16b	v10, v2
+100568eb0:	mov.16b	v11, v3
+100568eb4:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+100568eb8:	mov.16b	v0, v8
+100568ebc:	mov.16b	v1, v9
+100568ec0:	mov.16b	v2, v10
+100568ec4:	mov.16b	v3, v11
+100568ec8:	bl	0x101783a40 ; symbol stub for: _CGRectGetWidth
+100568ecc:	mov.16b	v12, v0
+100568ed0:	mov.16b	v0, v8
+100568ed4:	mov.16b	v1, v9
+100568ed8:	mov.16b	v2, v10
+100568edc:	mov.16b	v3, v11
+100568ee0:	bl	0x1017839ec ; symbol stub for: _CGRectGetHeight
+100568ee4:	mov.16b	v8, v0
+100568ee8:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+100568eec:	fmul	d0, d12, d8
+100568ef0:	fcvt	s0, d0
+100568ef4:	fcmp	s13, s0
+100568ef8:	mov	x2, x27
+100568efc:	b.pl	0x100568e44
+100568f00:	b	0x100568e4c
+100568f04:	bl	0x10056c588
+100568f08:	mov	x1, x0
+100568f0c:	adrp	x0, 6246 ; 0x101dce000
+100568f10:	add	x0, x0, #0xf90
+100568f14:	mov	x2, #0x0
+100568f18:	mov	w3, #0x0
+100568f1c:	bl	0x101785150 ; symbol stub for: _swift_allocError
+100568f20:	mov	x26, x0
+100568f24:	str	xzr, [x1]
+100568f28:	mov	x21, x0
+100568f2c:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+100568f30:	b	0x10056924c
+100568f34:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+100568f38:	mov	x21, x0
+100568f3c:	mov	x0, x20
+100568f40:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+100568f44:	mov	x20, x0
+100568f48:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+100568f4c:	mov	x21, x20
+100568f50:	b	0x100569154
+100568f54:	mov	x2, #0x0
+100568f58:	stur	xzr, [x22, #0x10]
+100568f5c:	add	x3, x22, #0x10
+100568f60:	mov	x0, x26
+100568f64:	bl	0x10178c800 ; SEL contourAtIndex:error:
+100568f68:	mov	x29, x29
+100568f6c:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+100568f70:	ldur	x20, [x22, #0x10]
+100568f74:	cbz	x0, 0x10056903c
+100568f78:	mov	x27, x0
+100568f7c:	stur	xzr, [x22, #0x10]
+100568f80:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+100568f84:	mov	w8, #0x999a
+100568f88:	movk	w8, #0x3e99, lsl #16
+100568f8c:	fmov	s0, w8
+100568f90:	add	x2, x22, #0x10
+100568f94:	mov	x0, x27
+100568f98:	bl	0x10179ee60 ; SEL polygonApproximationWithEpsilon:error:
+100568f9c:	mov	x29, x29
+100568fa0:	bl	0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue
+100568fa4:	ldur	x20, [x22, #0x10]
+100568fa8:	ldr	x28, [sp]
+100568fac:	cbz	x0, 0x1005690a0
+100568fb0:	mov	x21, x0
+100568fb4:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+100568fb8:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+100568fbc:	mov	x20, x27
+100568fc0:	bl	0x1017819b8 ; symbol stub for: _$sSo9VNContourC6VisionE16normalizedPointsSays5SIMD2VySfGGvg
+100568fc4:	ldr	x8, [x0, #0x10]
+100568fc8:	cmp	x8, #0x2
+100568fcc:	b.lo	0x1005690cc
+100568fd0:	mov	x20, x0
+100568fd4:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+100568fd8:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+100568fdc:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+100568fe0:	bl	0x101784ad8 ; symbol stub for: _objc_release_x26
+100568fe4:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+100568fe8:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+100568fec:	ldr	x1, [x22, #0x8]
+100568ff0:	ldr	x8, [sp, #0x10]
+100568ff4:	adrp	x9, 6469 ; 0x101ead000
+100568ff8:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+100568ffc:	ldr	x9, [x9]
+100569000:	cmp	x9, x8
+100569004:	b.ne	0x1005692b0
+100569008:	mov	x0, x20
+10056900c:	mov	x20, #0x0
+100569010:	ldp	x29, x30, [sp, #0x90]
+100569014:	ldp	x21, x19, [sp, #0x78]
+100569018:	ldp	x24, x23, [sp, #0x68]
+10056901c:	ldp	x26, x25, [sp, #0x58]
+100569020:	ldp	x28, x27, [sp, #0x48]
+100569024:	ldp	d9, d8, [sp, #0x38]
+100569028:	ldp	d11, d10, [sp, #0x28]
+10056902c:	ldp	d13, d12, [sp, #0x18]
+100569030:	and	x29, x29, #0xefffffffffffffff
+100569034:	add	sp, sp, #0xa0
+100569038:	br	x1
+10056903c:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+100569040:	mov	x21, x0
+100569044:	mov	x0, x20
+100569048:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+10056904c:	mov	x20, x0
+100569050:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+100569054:	mov	x21, x20
+100569058:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056905c:	mov	x0, x20
+100569060:	bl	0x101785360 ; symbol stub for: _swift_errorRelease
+100569064:	bl	0x10056c588
+100569068:	mov	x1, x0
+10056906c:	adrp	x0, 6245 ; 0x101dce000
+100569070:	add	x0, x0, #0xf90
+100569074:	mov	x2, #0x0
+100569078:	mov	w3, #0x0
+10056907c:	bl	0x101785150 ; symbol stub for: _swift_allocError
+100569080:	mov	x20, x0
+100569084:	mov	w8, #0x3
+100569088:	str	x8, [x1]
+10056908c:	mov	x21, x0
+100569090:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+100569094:	bl	0x101784ad8 ; symbol stub for: _objc_release_x26
+100569098:	ldr	x28, [sp]
+10056909c:	b	0x100569158
+1005690a0:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+1005690a4:	mov	x21, x0
+1005690a8:	mov	x0, x20
+1005690ac:	bl	0x10177b568 ; symbol stub for: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+1005690b0:	mov	x20, x0
+1005690b4:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+1005690b8:	mov	x21, x20
+1005690bc:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+1005690c0:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+1005690c4:	bl	0x101784ad8 ; symbol stub for: _objc_release_x26
+1005690c8:	b	0x100569158
+1005690cc:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+1005690d0:	bl	0x10056c588
+1005690d4:	mov	x1, x0
+1005690d8:	adrp	x0, 6245 ; 0x101dce000
+1005690dc:	add	x0, x0, #0xf90
+1005690e0:	mov	x2, #0x0
+1005690e4:	mov	w3, #0x0
+1005690e8:	bl	0x101785150 ; symbol stub for: _swift_allocError
+1005690ec:	mov	x20, x0
+1005690f0:	mov	w8, #0x2
+1005690f4:	str	x8, [x1]
+1005690f8:	mov	x21, x0
+1005690fc:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+100569100:	bl	0x101784ad8 ; symbol stub for: _objc_release_x26
+100569104:	bl	0x101784ae4 ; symbol stub for: _objc_release_x27
+100569108:	b	0x100569158
+10056910c:	and	x8, x20, #0xffffffffffffff8
+100569110:	cmn	x20, #0x1
+100569114:	csel	x0, x8, x20, gt
+100569118:	bl	0x101782528 ; symbol stub for: _$ss18_CocoaArrayWrapperV8endIndexSivg
+10056911c:	cbnz	x0, 0x100568dcc
+100569120:	mov	x0, x20
+100569124:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+100569128:	bl	0x10056c588
+10056912c:	mov	x1, x0
+100569130:	adrp	x0, 6245 ; 0x101dce000
+100569134:	add	x0, x0, #0xf90
+100569138:	mov	x2, #0x0
+10056913c:	mov	w3, #0x0
+100569140:	bl	0x101785150 ; symbol stub for: _swift_allocError
+100569144:	mov	x20, x0
+100569148:	mov	w8, #0x1
+10056914c:	str	x8, [x1]
+100569150:	mov	x21, x0
+100569154:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+100569158:	mov	x0, x20
+10056915c:	bl	0x10178536c ; symbol stub for: _swift_errorRetain
+100569160:	adrp	x0, 6475 ; 0x101eb4000
+100569164:	ldr	x0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+100569168:	bl	0x100007dc0
+10056916c:	mov	x26, x0
+100569170:	mov	x0, x20
+100569174:	mov	x1, x26
+100569178:	bl	0x10008e6f4
+10056917c:	mov	x21, x0
+100569180:	mov	x27, x1
+100569184:	mov	x0, x26
+100569188:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+10056918c:	adrp	x8, 5101 ; 0x101956000
+100569190:	add	x8, x8, #0x500 ; literal pool for: "vision.edge_detection_failed" ; STRING vision.edge_detection_failed
+100569194:	sub	x25, x8, #0x20
+100569198:	mov	x0, x21
+10056919c:	bl	0x1017851f8 ; symbol stub for: _swift_bridgeObjectRetain
+1005691a0:	tbz	w27, #0x0, 0x1005691e0
+1005691a4:	orr	x1, x25, #0x8000000000000000
+1005691a8:	mov	x0, #0x1c
+1005691ac:	movk	x0, #0xd000, lsl #48
+1005691b0:	bl	0x10008f57c
+1005691b4:	mov	x2, x0
+1005691b8:	mov	x26, x1
+1005691bc:	mov	w0, #0x8
+1005691c0:	mov	x1, x2
+1005691c4:	mov	x2, x26
+1005691c8:	mov	x3, x21
+1005691cc:	mov	w4, #0x4
+1005691d0:	bl	0x100076cb0
+1005691d4:	mov	x0, x26
+1005691d8:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+1005691dc:	b	0x1005691fc
+1005691e0:	orr	x2, x25, #0x8000000000000000
+1005691e4:	mov	w0, #0x8
+1005691e8:	mov	x1, #0x1c
+1005691ec:	movk	x1, #0xd000, lsl #48
+1005691f0:	mov	x3, x21
+1005691f4:	mov	w4, #0x1
+1005691f8:	bl	0x100076cb0
+1005691fc:	mov	x0, x21
+100569200:	mov	w1, #0x2
+100569204:	bl	0x1017851ec ; symbol stub for: _swift_bridgeObjectRelease_n
+100569208:	mov	x0, x20
+10056920c:	bl	0x101785360 ; symbol stub for: _swift_errorRelease
+100569210:	bl	0x10056c588
+100569214:	mov	x1, x0
+100569218:	adrp	x0, 6245 ; 0x101dce000
+10056921c:	add	x0, x0, #0xf90
+100569220:	mov	x2, #0x0
+100569224:	mov	w3, #0x0
+100569228:	bl	0x101785150 ; symbol stub for: _swift_allocError
+10056922c:	mov	x26, x0
+100569230:	str	x20, [x1]
+100569234:	mov	x21, x0
+100569238:	bl	0x101785a8c ; symbol stub for: _swift_willThrow
+10056923c:	bl	0x101784ac0 ; symbol stub for: _objc_release_x24
+100569240:	bl	0x101784af0 ; symbol stub for: _objc_release_x28
+100569244:	bl	0x101784ab4 ; symbol stub for: _objc_release_x23
+100569248:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056924c:	ldr	x0, [x22, #0x8]
+100569250:	ldr	x8, [sp, #0x10]
+100569254:	adrp	x9, 6468 ; 0x101ead000
+100569258:	ldr	x9, [x9, #0xf8] ; literal pool symbol address: ___stack_chk_guard
+10056925c:	ldr	x9, [x9]
+100569260:	cmp	x9, x8
+100569264:	b.ne	0x1005692b0
+100569268:	mov	x20, x26
+10056926c:	ldp	x29, x30, [sp, #0x90]
+100569270:	ldp	x21, x19, [sp, #0x78]
+100569274:	ldp	x24, x23, [sp, #0x68]
+100569278:	ldp	x26, x25, [sp, #0x58]
+10056927c:	ldp	x28, x27, [sp, #0x48]
+100569280:	ldp	d9, d8, [sp, #0x38]
+100569284:	ldp	d11, d10, [sp, #0x28]
+100569288:	ldp	d13, d12, [sp, #0x18]
+10056928c:	and	x29, x29, #0xefffffffffffffff
+100569290:	add	sp, sp, #0xa0
+100569294:	br	x0
+100569298:	mov	x0, #0x0
+10056929c:	mov	x1, x20
+1005692a0:	bl	0x101781fdc ; symbol stub for: _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+1005692a4:	b	0x100568de8
+1005692a8:	brk	#0x1
+1005692ac:	brk	#0x1
+1005692b0:	bl	0x101784064 ; symbol stub for: ___stack_chk_fail
+1005692b4:	sub	sp, sp, #0x70
+1005692b8:	stp	d9, d8, [sp, #0x20]
+1005692bc:	stp	x24, x23, [sp, #0x30]
+1005692c0:	stp	x22, x21, [sp, #0x40]
+1005692c4:	stp	x20, x19, [sp, #0x50]
+1005692c8:	stp	x29, x30, [sp, #0x60]
+1005692cc:	add	x29, sp, #0x60
+1005692d0:	mov	x22, x0
+1005692d4:	adrp	x8, 6598 ; 0x101f2f000
+1005692d8:	ldr	x0, [x8, #0xb8] ; Objc class ref: bad class ref
+1005692dc:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+1005692e0:	bl	0x1017947a0 ; SEL init
+1005692e4:	mov	x19, x0
+1005692e8:	ldr	x21, [x22, #0x10]
+1005692ec:	cbz	x21, 0x10056938c
+1005692f0:	adrp	x8, 6475 ; 0x101eb4000
+1005692f4:	ldr	x8, [x8, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+1005692f8:	str	x8, [sp, #0x18]
+1005692fc:	add	x20, sp, #0x18
+100569300:	mov	w0, #0x0
+100569304:	mov	x1, x21
+100569308:	mov	w2, #0x0
+10056930c:	bl	0x100435944
+100569310:	ldr	x20, [sp, #0x18]
+100569314:	add	x23, x22, #0x20
+100569318:	ldr	x24, [x20, #0x10]
+10056931c:	fmov	s8, #1.00000000
+100569320:	ldr	d1, [x23], #0x8
+100569324:	str	x20, [sp, #0x18]
+100569328:	ldr	x8, [x20, #0x18]
+10056932c:	add	x22, x24, #0x1
+100569330:	cmp	x24, x8, lsr #1
+100569334:	b.hs	0x100569364
+100569338:	mov	s0, v1[1]
+10056933c:	fsub	s0, s8, s0
+100569340:	str	x22, [x20, #0x10]
+100569344:	add	x8, x20, x24, lsl #4
+100569348:	mov.s	v1[1], v0[0]
+10056934c:	fcvtl	v0.2d, v1.2s
+100569350:	str	q0, [x8, #0x20]
+100569354:	mov	x24, x22
+100569358:	subs	x21, x21, #0x1
+10056935c:	b.ne	0x100569320
+100569360:	b	0x10056939c
+100569364:	cmp	x8, #0x1
+100569368:	cset	w0, hi
+10056936c:	add	x20, sp, #0x18
+100569370:	mov	x1, x22
+100569374:	mov	w2, #0x1
+100569378:	str	q1, [sp]
+10056937c:	bl	0x100435944
+100569380:	ldr	q1, [sp]
+100569384:	ldr	x20, [sp, #0x18]
+100569388:	b	0x100569338
+10056938c:	adrp	x20, 6475 ; 0x101eb4000
+100569390:	ldr	x20, [x20, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage
+100569394:	ldr	x8, [x20, #0x10]
+100569398:	cbz	x8, 0x100569404
+10056939c:	ldp	d0, d1, [x20, #0x20]
+1005693a0:	mov	x0, x19
+1005693a4:	bl	0x10179cbc0 ; SEL moveToPoint:
+1005693a8:	ldr	x8, [x20, #0x10]
+1005693ac:	cmp	x8, #0x2
+1005693b0:	b.lo	0x1005693d4
+1005693b4:	sub	x21, x8, #0x1
+1005693b8:	add	x22, x20, #0x38
+1005693bc:	ldp	d0, d1, [x22, #-0x8]
+1005693c0:	mov	x0, x19
+1005693c4:	bl	0x101787940 ; SEL addLineToPoint:
+1005693c8:	add	x22, x22, #0x10
+1005693cc:	subs	x21, x21, #0x1
+1005693d0:	b.ne	0x1005693bc
+1005693d4:	mov	x0, x20
+1005693d8:	bl	0x1017851e0 ; symbol stub for: _swift_bridgeObjectRelease
+1005693dc:	mov	x0, x19
+1005693e0:	bl	0x10178b720 ; SEL closePath
+1005693e4:	mov	x0, x19
+1005693e8:	ldp	x29, x30, [sp, #0x60]
+1005693ec:	ldp	x20, x19, [sp, #0x50]
+1005693f0:	ldp	x22, x21, [sp, #0x40]
+1005693f4:	ldp	x24, x23, [sp, #0x30]
+1005693f8:	ldp	d9, d8, [sp, #0x20]
+1005693fc:	add	sp, sp, #0x70
+100569400:	ret
+100569404:	brk	#0x1
+10056bce8:	sub	sp, sp, #0xd0
+10056bcec:	stp	d15, d14, [sp, #0x60]
+10056bcf0:	stp	d13, d12, [sp, #0x70]
+10056bcf4:	stp	d11, d10, [sp, #0x80]
+10056bcf8:	stp	d9, d8, [sp, #0x90]
+10056bcfc:	stp	x22, x21, [sp, #0xa0]
+10056bd00:	stp	x20, x19, [sp, #0xb0]
+10056bd04:	stp	x29, x30, [sp, #0xc0]
+10056bd08:	add	x29, sp, #0xc0
+10056bd0c:	mov	x19, x1
+10056bd10:	mov.16b	v13, v3
+10056bd14:	mov.16b	v14, v2
+10056bd18:	mov	x20, x0
+10056bd1c:	fmov	d4, #-14.00000000
+10056bd20:	fmov	d5, #-14.00000000
+10056bd24:	bl	0x101783a4c ; symbol stub for: _CGRectInset
+10056bd28:	stp	d1, d0, [sp, #0x20]
+10056bd2c:	stp	d3, d2, [sp, #0x10]
+10056bd30:	mov	x0, x19
+10056bd34:	bl	0x1017ac560 ; SEL size
+10056bd38:	fdiv	d0, d0, d1
+10056bd3c:	fdiv	d1, d14, d13
+10056bd40:	fcmp	d1, d0
+10056bd44:	b.pl	0x10056bd68
+10056bd48:	fdiv	d0, d14, d0
+10056bd4c:	fsub	d1, d13, d0
+10056bd50:	fmov	d2, #0.50000000
+10056bd54:	fmul	d1, d1, d2
+10056bd58:	fmov	d15, #14.00000000
+10056bd5c:	fadd	d12, d1, d15
+10056bd60:	mov.16b	v13, v0
+10056bd64:	b	0x10056bd84
+10056bd68:	fmul	d0, d13, d0
+10056bd6c:	fsub	d1, d14, d0
+10056bd70:	fmov	d2, #0.50000000
+10056bd74:	fmul	d1, d1, d2
+10056bd78:	fmov	d12, #14.00000000
+10056bd7c:	fadd	d15, d1, d12
+10056bd80:	mov.16b	v14, v0
+10056bd84:	mov	x0, x20
+10056bd88:	bl	0x10178a300 ; SEL bounds
+10056bd8c:	mov.16b	v9, v0
+10056bd90:	stp	d3, d0, [sp]
+10056bd94:	mov.16b	v10, v1
+10056bd98:	mov.16b	v11, v2
+10056bd9c:	mov.16b	v0, v15
+10056bda0:	mov.16b	v1, v12
+10056bda4:	mov.16b	v2, v14
+10056bda8:	mov.16b	v3, v13
+10056bdac:	bl	0x101783a40 ; symbol stub for: _CGRectGetWidth
+10056bdb0:	mov.16b	v8, v0
+10056bdb4:	mov.16b	v0, v9
+10056bdb8:	mov.16b	v1, v10
+10056bdbc:	mov.16b	v2, v11
+10056bdc0:	ldr	d9, [sp]
+10056bdc4:	mov.16b	v3, v9
+10056bdc8:	bl	0x101783a40 ; symbol stub for: _CGRectGetWidth
+10056bdcc:	fdiv	d8, d8, d0
+10056bdd0:	mov.16b	v0, v15
+10056bdd4:	mov.16b	v1, v12
+10056bdd8:	mov.16b	v2, v14
+10056bddc:	mov.16b	v3, v13
+10056bde0:	bl	0x1017839ec ; symbol stub for: _CGRectGetHeight
+10056bde4:	mov.16b	v13, v0
+10056bde8:	ldr	d0, [sp, #0x8]
+10056bdec:	mov.16b	v1, v10
+10056bdf0:	mov.16b	v2, v11
+10056bdf4:	mov.16b	v3, v9
+10056bdf8:	bl	0x1017839ec ; symbol stub for: _CGRectGetHeight
+10056bdfc:	fdiv	d1, d13, d0
+10056be00:	add	x8, sp, #0x30
+10056be04:	mov.16b	v0, v8
+10056be08:	bl	0x101783608 ; symbol stub for: _CGAffineTransformMakeScale
+10056be0c:	ldp	q0, q1, [sp, #0x30]
+10056be10:	ldr	q2, [sp, #0x50]
+10056be14:	stp	q0, q1, [sp, #0x30]
+10056be18:	str	q2, [sp, #0x50]
+10056be1c:	add	x2, sp, #0x30
+10056be20:	mov	x0, x20
+10056be24:	bl	0x101788fc0 ; SEL applyTransform:
+10056be28:	mov	x0, x20
+10056be2c:	bl	0x10178a300 ; SEL bounds
+10056be30:	fsub	d8, d15, d0
+10056be34:	mov	x0, x20
+10056be38:	bl	0x10178a300 ; SEL bounds
+10056be3c:	fsub	d1, d12, d1
+10056be40:	add	x8, sp, #0x30
+10056be44:	mov.16b	v0, v8
+10056be48:	bl	0x101783614 ; symbol stub for: _CGAffineTransformMakeTranslation
+10056be4c:	ldp	q0, q1, [sp, #0x30]
+10056be50:	ldr	q2, [sp, #0x50]
+10056be54:	stp	q0, q1, [sp, #0x30]
+10056be58:	str	q2, [sp, #0x50]
+10056be5c:	add	x2, sp, #0x30
+10056be60:	mov	x0, x20
+10056be64:	bl	0x101788fc0 ; SEL applyTransform:
+10056be68:	mov	x0, #0x0
+10056be6c:	bl	0x1004d1d90
+10056be70:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056be74:	mov	x21, x0
+10056be78:	bl	0x101784b8c ; symbol stub for: _objc_retain_x20
+10056be7c:	mov	x22, x0
+10056be80:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056be84:	mov	x19, x0
+10056be88:	fmov	d4, #14.00000000
+10056be8c:	mov	x1, x22
+10056be90:	ldp	d1, d0, [sp, #0x20]
+10056be94:	ldp	d3, d2, [sp, #0x10]
+10056be98:	mov	x20, x21
+10056be9c:	bl	0x1004d1f00
+10056bea0:	mov	x20, x0
+10056bea4:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056bea8:	bl	0x101784aa8 ; symbol stub for: _objc_release_x22
+10056beac:	mov	x0, x20
+10056beb0:	ldp	x29, x30, [sp, #0xc0]
+10056beb4:	ldp	x20, x19, [sp, #0xb0]
+10056beb8:	ldp	x22, x21, [sp, #0xa0]
+10056bebc:	ldp	d9, d8, [sp, #0x90]
+10056bec0:	ldp	d11, d10, [sp, #0x80]
+10056bec4:	ldp	d13, d12, [sp, #0x70]
+10056bec8:	ldp	d15, d14, [sp, #0x60]
+10056becc:	add	sp, sp, #0xd0
+10056bed0:	ret
+10056c28c:	sub	sp, sp, #0xc0
+10056c290:	stp	d15, d14, [sp, #0x50]
+10056c294:	stp	d13, d12, [sp, #0x60]
+10056c298:	stp	d11, d10, [sp, #0x70]
+10056c29c:	stp	d9, d8, [sp, #0x80]
+10056c2a0:	stp	x22, x21, [sp, #0x90]
+10056c2a4:	stp	x20, x19, [sp, #0xa0]
+10056c2a8:	stp	x29, x30, [sp, #0xb0]
+10056c2ac:	add	x29, sp, #0xb0
+10056c2b0:	mov	x19, x1
+10056c2b4:	mov.16b	v12, v3
+10056c2b8:	mov.16b	v13, v2
+10056c2bc:	mov.16b	v14, v1
+10056c2c0:	mov.16b	v15, v0
+10056c2c4:	mov	x20, x0
+10056c2c8:	fmov	d4, #-14.00000000
+10056c2cc:	fmov	d5, #-14.00000000
+10056c2d0:	bl	0x101783a4c ; symbol stub for: _CGRectInset
+10056c2d4:	str	d0, [sp, #0x8]
+10056c2d8:	mov.16b	v9, v1
+10056c2dc:	mov.16b	v10, v2
+10056c2e0:	mov.16b	v11, v3
+10056c2e4:	mov	x0, x20
+10056c2e8:	bl	0x10178cb00 ; SEL copy
+10056c2ec:	mov	x21, x0
+10056c2f0:	add	x8, sp, #0x10
+10056c2f4:	bl	0x101781c88 ; symbol stub for: _$ss018_bridgeAnyObjectToB0yypyXlSgF
+10056c2f8:	mov	x0, x21
+10056c2fc:	bl	0x10178596c ; symbol stub for: _swift_unknownObjectRelease
+10056c300:	adrp	x1, 6669 ; 0x101f79000
+10056c304:	add	x1, x1, #0x350
+10056c308:	adrp	x2, 6595 ; 0x101f2f000
+10056c30c:	add	x2, x2, #0xb8 ; Objc class ref: bad class ref
+10056c310:	mov	x0, #0x0
+10056c314:	bl	0x10001d668
+10056c318:	mov	x3, x0
+10056c31c:	adrp	x8, 6472 ; 0x101eb4000
+10056c320:	ldr	x8, [x8, #0x1f0] ; literal pool symbol address: _$sypN
+10056c324:	add	x0, sp, #0x48
+10056c328:	add	x1, sp, #0x10
+10056c32c:	add	x2, x8, #0x8
+10056c330:	mov	w4, #0x7
+10056c334:	bl	0x1017852dc ; symbol stub for: _swift_dynamicCast
+10056c338:	ldr	x21, [sp, #0x48]
+10056c33c:	mov	x0, x20
+10056c340:	bl	0x10178a300 ; SEL bounds
+10056c344:	bl	0x101783a28 ; symbol stub for: _CGRectGetMinX
+10056c348:	fneg	d8, d0
+10056c34c:	mov	x0, x20
+10056c350:	bl	0x10178a300 ; SEL bounds
+10056c354:	bl	0x101783a34 ; symbol stub for: _CGRectGetMinY
+10056c358:	fneg	d1, d0
+10056c35c:	add	x8, sp, #0x10
+10056c360:	mov.16b	v0, v8
+10056c364:	bl	0x101783614 ; symbol stub for: _CGAffineTransformMakeTranslation
+10056c368:	ldp	q0, q1, [sp, #0x10]
+10056c36c:	ldr	q2, [sp, #0x30]
+10056c370:	stp	q0, q1, [sp, #0x10]
+10056c374:	str	q2, [sp, #0x30]
+10056c378:	add	x2, sp, #0x10
+10056c37c:	mov	x0, x21
+10056c380:	bl	0x101788fc0 ; SEL applyTransform:
+10056c384:	mov.16b	v0, v15
+10056c388:	mov.16b	v1, v14
+10056c38c:	mov.16b	v2, v13
+10056c390:	mov.16b	v3, v12
+10056c394:	bl	0x101783a40 ; symbol stub for: _CGRectGetWidth
+10056c398:	mov.16b	v8, v0
+10056c39c:	mov	x0, x20
+10056c3a0:	bl	0x10178a300 ; SEL bounds
+10056c3a4:	bl	0x101783a40 ; symbol stub for: _CGRectGetWidth
+10056c3a8:	fdiv	d8, d8, d0
+10056c3ac:	mov.16b	v0, v15
+10056c3b0:	mov.16b	v1, v14
+10056c3b4:	mov.16b	v2, v13
+10056c3b8:	mov.16b	v3, v12
+10056c3bc:	bl	0x1017839ec ; symbol stub for: _CGRectGetHeight
+10056c3c0:	mov.16b	v12, v0
+10056c3c4:	mov	x0, x20
+10056c3c8:	bl	0x10178a300 ; SEL bounds
+10056c3cc:	bl	0x1017839ec ; symbol stub for: _CGRectGetHeight
+10056c3d0:	fdiv	d1, d12, d0
+10056c3d4:	add	x8, sp, #0x10
+10056c3d8:	mov.16b	v0, v8
+10056c3dc:	bl	0x101783608 ; symbol stub for: _CGAffineTransformMakeScale
+10056c3e0:	ldp	q0, q1, [sp, #0x10]
+10056c3e4:	ldr	q2, [sp, #0x30]
+10056c3e8:	stp	q0, q1, [sp, #0x10]
+10056c3ec:	str	q2, [sp, #0x30]
+10056c3f0:	add	x2, sp, #0x10
+10056c3f4:	mov	x0, x21
+10056c3f8:	bl	0x101788fc0 ; SEL applyTransform:
+10056c3fc:	add	x8, sp, #0x10
+10056c400:	fmov	d0, #14.00000000
+10056c404:	fmov	d1, #14.00000000
+10056c408:	bl	0x101783614 ; symbol stub for: _CGAffineTransformMakeTranslation
+10056c40c:	ldp	q0, q1, [sp, #0x10]
+10056c410:	ldr	q2, [sp, #0x30]
+10056c414:	stp	q0, q1, [sp, #0x10]
+10056c418:	str	q2, [sp, #0x30]
+10056c41c:	add	x2, sp, #0x10
+10056c420:	mov	x0, x21
+10056c424:	bl	0x101788fc0 ; SEL applyTransform:
+10056c428:	mov	x0, #0x0
+10056c42c:	bl	0x1004d1d90
+10056c430:	bl	0x1017848ec ; symbol stub for: _objc_allocWithZone
+10056c434:	mov	x20, x0
+10056c438:	bl	0x101784b74 ; symbol stub for: _objc_retain_x19
+10056c43c:	mov	x19, x0
+10056c440:	fmov	d4, #14.00000000
+10056c444:	mov	x1, x21
+10056c448:	ldr	d0, [sp, #0x8]
+10056c44c:	mov.16b	v1, v9
+10056c450:	mov.16b	v2, v10
+10056c454:	mov.16b	v3, v11
+10056c458:	bl	0x1004d1f00
+10056c45c:	mov	x20, x0
+10056c460:	bl	0x101784a84 ; symbol stub for: _objc_release_x19
+10056c464:	bl	0x101784a9c ; symbol stub for: _objc_release_x21
+10056c468:	mov	x0, x20
+10056c46c:	ldp	x29, x30, [sp, #0xb0]
+10056c470:	ldp	x20, x19, [sp, #0xa0]
+10056c474:	ldp	x22, x21, [sp, #0x90]
+10056c478:	ldp	d9, d8, [sp, #0x80]
+10056c47c:	ldp	d11, d10, [sp, #0x70]
+10056c480:	ldp	d13, d12, [sp, #0x60]
+10056c484:	ldp	d15, d14, [sp, #0x50]
+10056c488:	add	sp, sp, #0xc0
+10056c48c:	ret

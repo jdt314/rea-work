@@ -1,0 +1,14 @@
+{
+  "API_KEY": "AIzaSyDTDI0Hv2QaIPb0IF8XYIq0awpjkii6dDE",
+  "BUNDLE_ID": "com.HappyPlanTech.SnapWords",
+  "GCM_SENDER_ID": "473704719194",
+  "GOOGLE_APP_ID": "1:473704719194:ios:6ae28e009eb9c199d58963",
+  "IS_ADS_ENABLED": false,
+  "IS_ANALYTICS_ENABLED": false,
+  "IS_APPINVITE_ENABLED": true,
+  "IS_GCM_ENABLED": true,
+  "IS_SIGNIN_ENABLED": true,
+  "PLIST_VERSION": "1",
+  "PROJECT_ID": "capwords-14d13",
+  "STORAGE_BUCKET": "capwords-14d13.firebasestorage.app"
+}

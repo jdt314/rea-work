@@ -1,0 +1,307 @@
+[
+  {
+    "offset": "0x1923690",
+    "address": "0x101923690",
+    "text": "learning_state.mark_mastered_failed"
+  },
+  {
+    "offset": "0x1923760",
+    "address": "0x101923760",
+    "text": "isLearned == true AND nextReviewDate <= %@ AND (isMastered == false OR isMastered == nil)"
+  },
+  {
+    "offset": "0x1923d80",
+    "address": "0x101923d80",
+    "text": "com.capwords.testflashcard.item4"
+  },
+  {
+    "offset": "0x1923dd0",
+    "address": "0x101923dd0",
+    "text": "com.capwords.testflashcard.item3"
+  },
+  {
+    "offset": "0x1923e00",
+    "address": "0x101923e00",
+    "text": "com.capwords.testflashcard.item2"
+  },
+  {
+    "offset": "0x1923e30",
+    "address": "0x101923e30",
+    "text": "com.capwords.testflashcard.item1"
+  },
+  {
+    "offset": "0x1923e60",
+    "address": "0x101923e60",
+    "text": "FlashCardStickerJSON4"
+  },
+  {
+    "offset": "0x1923e80",
+    "address": "0x101923e80",
+    "text": "FlashCardStickerJSON3"
+  },
+  {
+    "offset": "0x1923ea0",
+    "address": "0x101923ea0",
+    "text": "FlashCardStickerJSON2"
+  },
+  {
+    "offset": "0x1923ec0",
+    "address": "0x101923ec0",
+    "text": "FlashCardStickerJSON1"
+  },
+  {
+    "offset": "0x1925360",
+    "address": "0x101925360",
+    "text": "isCloseFlashCardDailyReviewAlert"
+  },
+  {
+    "offset": "0x1925390",
+    "address": "0x101925390",
+    "text": "hasCreatedDailyRecorderToday"
+  },
+  {
+    "offset": "0x1925410",
+    "address": "0x101925410",
+    "text": "shownFlashCardTryDemo"
+  },
+  {
+    "offset": "0x1925430",
+    "address": "0x101925430",
+    "text": "showFlashCardGuide"
+  },
+  {
+    "offset": "0x1925450",
+    "address": "0x101925450",
+    "text": "showFlashCardInHomeHeader"
+  },
+  {
+    "offset": "0x1925470",
+    "address": "0x101925470",
+    "text": "flashcardPreviewDate"
+  },
+  {
+    "offset": "0x194e290",
+    "address": "0x10194e290",
+    "text": "flashcard"
+  },
+  {
+    "offset": "0x1950900",
+    "address": "0x101950900",
+    "text": "Visual Flashcards That Stick."
+  },
+  {
+    "offset": "0x19515f0",
+    "address": "0x1019515f0",
+    "text": "View.task @ SnapWords/PurchaseCFlashcardsHero.swift:"
+  },
+  {
+    "offset": "0x1951c30",
+    "address": "0x101951c30",
+    "text": "purchase_b_flashcard_image"
+  },
+  {
+    "offset": "0x1951c50",
+    "address": "0x101951c50",
+    "text": "purchase_b_flashcard_image_ipad"
+  },
+  {
+    "offset": "0x19567c0",
+    "address": "0x1019567c0",
+    "text": "flashcard.bottom.bg"
+  },
+  {
+    "offset": "0x1991510",
+    "address": "0x101991510",
+    "text": "flashcard.statistics.lock"
+  },
+  {
+    "offset": "0x199a010",
+    "address": "0x10199a010",
+    "text": "flashcard.preview.evening"
+  },
+  {
+    "offset": "0x199a030",
+    "address": "0x10199a030",
+    "text": "flashcard.preview.afternoon"
+  },
+  {
+    "offset": "0x199a050",
+    "address": "0x10199a050",
+    "text": "flashcard.preview.morning"
+  },
+  {
+    "offset": "0x199b190",
+    "address": "0x10199b190",
+    "text": "flashcard.card.back.icon"
+  },
+  {
+    "offset": "0x199b1b0",
+    "address": "0x10199b1b0",
+    "text": "flashcard.flip.bg"
+  },
+  {
+    "offset": "0x199b420",
+    "address": "0x10199b420",
+    "text": "flashcard.speaker.diver"
+  },
+  {
+    "offset": "0x199b460",
+    "address": "0x10199b460",
+    "text": "flashcard.light.bg"
+  },
+  {
+    "offset": "0x199b480",
+    "address": "0x10199b480",
+    "text": "flashcard.light.noise"
+  },
+  {
+    "offset": "0x199b4d0",
+    "address": "0x10199b4d0",
+    "text": "I have mastered quite a few words!"
+  },
+  {
+    "offset": "0x199b610",
+    "address": "0x10199b610",
+    "text": "flashcard.completion.zero"
+  },
+  {
+    "offset": "0x199b690",
+    "address": "0x10199b690",
+    "text": "flashcard.menu.icon1"
+  },
+  {
+    "offset": "0x199b6b0",
+    "address": "0x10199b6b0",
+    "text": "flashcard.menu.icon2"
+  },
+  {
+    "offset": "0x199b6d0",
+    "address": "0x10199b6d0",
+    "text": "flashcard.menu.icon3"
+  },
+  {
+    "offset": "0x199b790",
+    "address": "0x10199b790",
+    "text": "flashcard.correct.bg"
+  },
+  {
+    "offset": "0x199b7b0",
+    "address": "0x10199b7b0",
+    "text": "flashcard.guide.left"
+  },
+  {
+    "offset": "0x199b7d0",
+    "address": "0x10199b7d0",
+    "text": "flashcard.guide.right"
+  },
+  {
+    "offset": "0x199b7f0",
+    "address": "0x10199b7f0",
+    "text": "flashcard.guide.tap"
+  },
+  {
+    "offset": "0x199b980",
+    "address": "0x10199b980",
+    "text": "flashcard.recording_cleanup_failed"
+  },
+  {
+    "offset": "0x199bc30",
+    "address": "0x10199bc30",
+    "text": "SnapWords.FlashCardViewController"
+  },
+  {
+    "offset": "0x199bd10",
+    "address": "0x10199bd10",
+    "text": "SnapWords/FlashCardViewController.swift"
+  },
+  {
+    "offset": "0x199bd90",
+    "address": "0x10199bd90",
+    "text": "View.task @ SnapWords/FlashCardPreviewImageView.swift:"
+  },
+  {
+    "offset": "0x199bdd0",
+    "address": "0x10199bdd0",
+    "text": "flashcard.preview.card.noise"
+  },
+  {
+    "offset": "0x199be90",
+    "address": "0x10199be90",
+    "text": "flashcard.preview.cloud3"
+  },
+  {
+    "offset": "0x199beb0",
+    "address": "0x10199beb0",
+    "text": "flashcard.preview.cloud2"
+  },
+  {
+    "offset": "0x199bed0",
+    "address": "0x10199bed0",
+    "text": "flashcard.preview.cloud1"
+  },
+  {
+    "offset": "0x199bef0",
+    "address": "0x10199bef0",
+    "text": "flashcard.recording_format_invalid"
+  },
+  {
+    "offset": "0x199bf20",
+    "address": "0x10199bf20",
+    "text": "flashcard.audio_input_unavailable"
+  },
+  {
+    "offset": "0x199bf50",
+    "address": "0x10199bf50",
+    "text": "flashcard.model_setup_failed"
+  },
+  {
+    "offset": "0x199bf70",
+    "address": "0x10199bf70",
+    "text": "flashcard.recognition_failed"
+  },
+  {
+    "offset": "0x199bfb0",
+    "address": "0x10199bfb0",
+    "text": "flashcard.statistics.mark"
+  },
+  {
+    "offset": "0x199bfd0",
+    "address": "0x10199bfd0",
+    "text": "flashcard.statistics.mark.selected"
+  },
+  {
+    "offset": "0x199c000",
+    "address": "0x10199c000",
+    "text": "flashcard.statistics.empty.selected"
+  },
+  {
+    "offset": "0x199c050",
+    "address": "0x10199c050",
+    "text": "SnapWords/FlashCardStatisticsCalendarView.swift"
+  },
+  {
+    "offset": "0x199c080",
+    "address": "0x10199c080",
+    "text": "flashcard.statistics.nostreak"
+  },
+  {
+    "offset": "0x199c250",
+    "address": "0x10199c250",
+    "text": "flashcard.calendar.right"
+  },
+  {
+    "offset": "0x199c270",
+    "address": "0x10199c270",
+    "text": "flashcard.calendar.left"
+  },
+  {
+    "offset": "0x19a05e0",
+    "address": "0x1019a05e0",
+    "text": "She loved the blue and red backgrounds in debug mode and insisted, \"Dad, I want to play with the red flashcards!\""
+  },
+  {
+    "offset": "0x19a0680",
+    "address": "0x1019a0680",
+    "text": "She learned about flashcards in preschool and wanted SnapWords to have a flashcard mode."
+  }
+]

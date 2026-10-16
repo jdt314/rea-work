@@ -1,0 +1,615 @@
+{
+  "en": {
+    "male": [
+      {
+        "id": "English_magnetic_voiced_man",
+        "name": "Ethan",
+        "desc": ""
+      },
+      {
+        "id": "English_expressive_narrator",
+        "name": "Noah",
+        "desc": ""
+      },
+      {
+        "id": "English_Trustworthy_Man",
+        "name": "Caleb",
+        "desc": "一位值得信赖、富有磁性的青年男性声音"
+      },
+      {
+        "id": "English_Gentle-voiced_man",
+        "name": "Owen",
+        "desc": "一位声音温柔、富有磁性的青年男性"
+      }
+    ],
+    "female": [
+      {
+        "id": "English_radiant_girl",
+        "name": "Chloe",
+        "desc": ""
+      }
+    ]
+  },
+  "en-GB": {
+    "male": [
+      {
+        "id": "English_magnetic_voiced_man",
+        "name": "Arthur",
+        "desc": ""
+      },
+      {
+        "id": "English_expressive_narrator",
+        "name": "Hugo",
+        "desc": ""
+      },
+      {
+        "id": "English_Trustworthy_Man",
+        "name": "James",
+        "desc": "一位值得信赖、富有磁性的青年男性声音"
+      },
+      {
+        "id": "English_Gentle-voiced_man",
+        "name": "Theo",
+        "desc": "一位声音温柔、富有磁性的青年男性"
+      }
+    ],
+    "female": [
+      {
+        "id": "English_compelling_lady1",
+        "name": "Amelia",
+        "desc": ""
+      },
+      {
+        "id": "English_Graceful_Lady",
+        "name": "Grace",
+        "desc": "一位优雅的中年女士，带有经典的英式口音，散发着成熟的魅力。"
+      }
+    ]
+  },
+  "zh": {
+    "male": [
+      {
+        "id": "Chinese (Mandarin)_Gentleman",
+        "name": "Linfeng",
+        "desc": "一位温润磁性的青年男性声音，标准普通话。"
+      },
+      {
+        "id": "Chinese (Mandarin)_Male_Announcer",
+        "name": "Chenlang",
+        "desc": "一位富有磁性的中年男性播报员声音，标准普通话，清晰而权威"
+      },
+      {
+        "id": "Chinese (Mandarin)_Gentle_Youth",
+        "name": "Xiaosen",
+        "desc": "一位温柔的青年男性声音，标准普通话"
+      },
+      {
+        "id": "Chinese (Mandarin)_Radio_Host",
+        "name": "Ayuan",
+        "desc": "一位富有诗意的青年男性电台主播声音，标准普通话，声音流畅引人入胜"
+      },
+      {
+        "id": "Chinese (Mandarin)_Sincere_Adult",
+        "name": "Licheng",
+        "desc": "一位真诚、富有鼓励性的青年男性声音，标准普通话"
+      },
+      {
+        "id": "Chinese (Mandarin)_Pure-hearted_Boy",
+        "name": "XiaoZhe",
+        "desc": "一位认真清澈的邻家少年弟弟声音，标准普通话"
+      }
+    ],
+    "female": [
+      {
+        "id": "Chinese (Mandarin)_News_Anchor",
+        "name": "Suran",
+        "desc": "一位专业、播音腔的中年女性新闻主播，标准普通话"
+      },
+      {
+        "id": "Chinese (Mandarin)_Warm_Bestie",
+        "name": "Xiaowen",
+        "desc": "一位温暖清脆的青年女性闺蜜声音，标准普通话，友好而清晰"
+      },
+      {
+        "id": "Chinese (Mandarin)_Wise_Women",
+        "name": "Gulin",
+        "desc": "一位富有阅历、声音抒情的中年姐姐声音，标准普通话。"
+      },
+      {
+        "id": "Chinese (Mandarin)_Gentle_Senior",
+        "name": "Ajing",
+        "desc": "一位温暖温柔的青年学姐声音，标准普通话。"
+      },
+      {
+        "id": "Chinese (Mandarin)_Crisp_Girl",
+        "name": "Xiaoguo",
+        "desc": "一位温暖清脆的少女声音，标准普通话"
+      }
+    ]
+  },
+  "yue": {
+    "male": [
+      {
+        "id": "Cantonese_PlayfulMan",
+        "name": "A Lok",
+        "desc": "活潑自然嘅香港粵語男聲"
+      }
+    ],
+    "female": [
+      {
+        "id": "Cantonese_GentleLady",
+        "name": "Wing",
+        "desc": "溫柔自然嘅香港粵語女聲"
+      },
+      {
+        "id": "Cantonese_CuteGirl",
+        "name": "Yan",
+        "desc": "清脆活潑嘅香港粵語女聲"
+      }
+    ]
+  },
+  "ja": {
+    "male": [
+      {
+        "id": "Japanese_InnocentBoy",
+        "name": "Ren",
+        "desc": "一位亲切天真的青年男性声音，日语。"
+      },
+      {
+        "id": "Japanese_SportyStudent",
+        "name": "Taku",
+        "desc": "一位亲切运动的青年男性学生声音，日语。"
+      },
+      {
+        "id": "Japanese_OptimisticYouth",
+        "name": "Sora",
+        "desc": "一位开朗乐观的青年男性声音，日语。"
+      },
+      {
+        "id": "Japanese_GentleButler",
+        "name": "Hayato",
+        "desc": "一位迷人温柔的青年男性管家声音，日语。"
+      },
+      {
+        "id": "Japanese_SeriousCommander",
+        "name": "Ryo",
+        "desc": "一位严肃可靠的青年男性指挥官声音，日语。"
+      },
+      {
+        "id": "Japanese_LoyalKnight",
+        "name": "Kenji",
+        "desc": "一位年轻忠诚的青年男性骑士声音，日语。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Japanese_DecisivePrincess",
+        "name": "Miyu",
+        "desc": "一位坚定果断的青年公主声音，日语。"
+      },
+      {
+        "id": "Japanese_ColdQueen",
+        "name": "Reina",
+        "desc": "一位冷漠的青年女王声音，日语。"
+      },
+      {
+        "id": "Japanese_DependableWoman",
+        "name": "Asuka",
+        "desc": "一位稳重可靠的青年女性声音，日语。"
+      },
+      {
+        "id": "Japanese_KindLady",
+        "name": "Hana",
+        "desc": "一位迷人善良的青年女性声音，日语。"
+      },
+      {
+        "id": "Japanese_GracefulMaiden",
+        "name": "Emi",
+        "desc": "一位甜美优雅的青年少女声音，日语。"
+      }
+    ]
+  },
+  "ko": {
+    "male": [
+      {
+        "id": "Korean_CheerfulBoyfriend",
+        "name": "Jisoo",
+        "desc": "一位犀利开朗的中年男性男友声音，韩语。"
+      },
+      {
+        "id": "Korean_StrictBoss",
+        "name": "Minho",
+        "desc": "一位严厉的中年男性老板声音，韩语。"
+      },
+      {
+        "id": "Korean_PlayboyCharmer",
+        "name": "Taeyang",
+        "desc": "一位富有诱惑力的青年花花公子声音，韩语。"
+      },
+      {
+        "id": "Korean_BraveYouth",
+        "name": "Joon",
+        "desc": "一位强有力的青年男性声音，韩语。"
+      },
+      {
+        "id": "Korean_IntellectualSenior",
+        "name": "Hyun",
+        "desc": "一位具有磁性、知性的青年学长声音，韩语。"
+      },
+      {
+        "id": "Korean_CheerfulCoolJunior",
+        "name": "Dongha",
+        "desc": "一位充满活力的开朗酷学弟声音，韩语。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Korean_PowerfulGirl",
+        "name": "Yuna",
+        "desc": ""
+      },
+      {
+        "id": "Korean_SweetGirl",
+        "name": "Sujin",
+        "desc": "一位温柔甜美的中年女性声音，韩语。"
+      },
+      {
+        "id": "Korean_EnchantingSister",
+        "name": "Hera",
+        "desc": "一位迷人的青年姐姐声音，韩语。"
+      },
+      {
+        "id": "Korean_ShyGirl",
+        "name": "Nari",
+        "desc": "一位腼腆害羞的青年女性声音，韩语。"
+      },
+      {
+        "id": "Korean_ChildhoodFriendGirl",
+        "name": "Jiwon",
+        "desc": "一位温柔的青梅竹马女孩声音，韩语。"
+      },
+      {
+        "id": "Korean_ElegantPrincess",
+        "name": "Ara",
+        "desc": "一位优雅的青年公主声音，韩语。"
+      },
+      {
+        "id": "Korean_WiseElf",
+        "name": "Eunha",
+        "desc": "一位甜美空灵的智慧精灵声音，韩语。"
+      }
+    ]
+  },
+  "fr": {
+    "male": [
+      {
+        "id": "French_Male_Speech_New",
+        "name": "Louis",
+        "desc": "一位理智的青年男性法语声音。"
+      },
+      {
+        "id": "French_CasualMan",
+        "name": "Pierre",
+        "desc": "一位悠闲放松的中年男性法语声音。"
+      },
+      {
+        "id": "French_MaleNarrator",
+        "name": "Nicolas",
+        "desc": "一位适合叙述的青年男性法语声音。"
+      }
+    ],
+    "female": [
+      {
+        "id": "French_Female Journalist",
+        "name": "Camille",
+        "desc": ""
+      },
+      {
+        "id": "French_Female_News Anchor",
+        "name": "Juliette",
+        "desc": "一位耐心的青年女性法语主持人，沉静而清晰。"
+      },
+      {
+        "id": "French_Female_Speech_New",
+        "name": "Amélie",
+        "desc": ""
+      },
+      {
+        "id": "French_MovieLeadFemale",
+        "name": "Sophie",
+        "desc": "一位坚定、适合电影角色的少女法语声音。"
+      },
+      {
+        "id": "French_FemaleAnchor",
+        "name": "Léa",
+        "desc": "一位成熟的女性法语主播声音。"
+      }
+    ]
+  },
+  "es": {
+    "male": [
+      {
+        "id": "Spanish_CaptivatingStoryteller",
+        "name": "Diego",
+        "desc": "一位迷人的中年男性叙事者声音，非常适合讲故事，西班牙语。"
+      },
+      {
+        "id": "Spanish_WiseScholar",
+        "name": "Carlos",
+        "desc": "一位亲切健谈的青年男性智慧学者声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_ThoughtfulMan",
+        "name": "Andrés",
+        "desc": "一位冷静、体贴的青年男性声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_RomanticHusband",
+        "name": "Javier",
+        "desc": "一位深情的中年男性浪漫丈夫声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_PowerfulVeteran",
+        "name": "Pablo",
+        "desc": "一位强劲有力的中年男性退伍军人声音，西班牙语。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Spanish_ConfidentWoman",
+        "name": "Lucía",
+        "desc": "一位清晰坚定、自信的青年女性声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_SophisticatedLady",
+        "name": "Isabela",
+        "desc": "一位优雅、精致的青年女士声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_FrankLady",
+        "name": "María",
+        "desc": "一位激动、坦率的青年女士声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_CompellingGirl",
+        "name": "Ana",
+        "desc": "一位富有说服力、引人注目的青年女性声音，西班牙语。"
+      },
+      {
+        "id": "Spanish_ThoughtfulLady",
+        "name": "Rosa",
+        "desc": "一位忧虑、体贴的青年女士声音，西班牙语。"
+      }
+    ]
+  },
+  "de": {
+    "male": [
+      {
+        "id": "German_FriendlyMan",
+        "name": "Lukas",
+        "desc": "一位真诚友好的中年男性德语声音。"
+      },
+      {
+        "id": "German_PlayfulMan",
+        "name": "Felix",
+        "desc": "一位活泼的青年男性德语声音。"
+      }
+    ],
+    "female": [
+      {
+        "id": "German_SweetLady",
+        "name": "Emma",
+        "desc": "一位灵动甜美的青年女性德语声音。"
+      }
+    ]
+  },
+  "it": {
+    "male": [
+      {
+        "id": "Italian_ReliableMan",
+        "name": "Marco",
+        "desc": ""
+      },
+      {
+        "id": "Italian_AthleticStudent",
+        "name": "Luca",
+        "desc": ""
+      },
+      {
+        "id": "Italian_Narrator",
+        "name": "Alessio",
+        "desc": "一位适合叙述的中年男性意大利语声音。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Italian_ArrogantPrincess",
+        "name": "Giulia",
+        "desc": ""
+      },
+      {
+        "id": "Italian_BraveHeroine",
+        "name": "Sofia",
+        "desc": "一位沉稳勇敢的中年女英雄声音，意大利语。"
+      },
+      {
+        "id": "Italian_WanderingSorcerer",
+        "name": "Mara",
+        "desc": "一位冷酷无情的青年女性流浪巫师声音，意大利语。"
+      },
+      {
+        "id": "Italian_DiligentLeader",
+        "name": "Elena",
+        "desc": "一位冷静勤奋的青年女性领导者声音，意大利语。"
+      }
+    ]
+  },
+  "ru": {
+    "male": [
+      {
+        "id": "Russian_ReliableMan",
+        "name": "Ivan",
+        "desc": "一位稳重可靠的中年男性声音，俄语。"
+      },
+      {
+        "id": "Russian_AttractiveGuy",
+        "name": "Sergey",
+        "desc": "一位富有磁性、迷人的青年男性声音，俄语。"
+      },
+      {
+        "id": "Russian_Bad-temperedBoy",
+        "name": "Alexei",
+        "desc": "一位脾气暴躁的青年男性声音，俄语。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Russian_BrightHeroine",
+        "name": "Anya",
+        "desc": "一位傲慢明艳的青年女王声音，俄语。"
+      },
+      {
+        "id": "Russian_AmbitiousWoman",
+        "name": "Daria",
+        "desc": "一位强势、雄心勃勃的青年女性声音，俄语。"
+      },
+      {
+        "id": "Russian_CrazyQueen",
+        "name": "Kira",
+        "desc": "一位充满活力的青年“疯狂女孩”声音，狂野而不可预测，俄语。"
+      },
+      {
+        "id": "Russian_PessimisticGirl",
+        "name": "Nika",
+        "desc": "一位富有同情心的青年“悲观女孩”声音，俄语。"
+      },
+      {
+        "id": "Russian_HandsomeChildhoodFriend",
+        "name": "Tanya",
+        "desc": "一位为英俊青梅竹马角色设计的迷人少女声音，俄语。"
+      }
+    ]
+  },
+  "pt": {
+    "male": [
+      {
+        "id": "Portuguese_Optimisticyouth",
+        "name": "João",
+        "desc": ""
+      },
+      {
+        "id": "Portuguese_Deep-tonedMan",
+        "name": "Miguel",
+        "desc": ""
+      },
+      {
+        "id": "Portuguese_BossyLeader",
+        "name": "Rafael",
+        "desc": "一位冷静正式的青年男性专横领导者声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_Strong-WilledBoy",
+        "name": "Bruno",
+        "desc": "一位成熟坚定的青年男性声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_CaptivatingStoryteller",
+        "name": "Diogo",
+        "desc": "一位迷人的中年男性叙述者声音，非常适合讲故事，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_ThoughtfulMan",
+        "name": "André",
+        "desc": "一位温柔体贴的青年男性声音，葡萄牙语。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Portuguese_SentimentalLady",
+        "name": "Beatriz",
+        "desc": "一位优雅感性的青年女性声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_Wiselady",
+        "name": "Clara",
+        "desc": "一位柔和智慧的中年女士声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_AnimeCharacter",
+        "name": "Luna",
+        "desc": "一位灵动的中年女性声音，适合动漫角色，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_ConfidentWoman",
+        "name": "Sara",
+        "desc": "一位清晰坚定的自信青年女性声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_Kind-heartedGirl",
+        "name": "Inês",
+        "desc": "一位平和善良的青年女性声音，葡萄牙语。"
+      }
+    ]
+  },
+  "pt-BR": {
+    "male": [
+      {
+        "id": "Portuguese_Optimisticyouth",
+        "name": "João",
+        "desc": ""
+      },
+      {
+        "id": "Portuguese_Deep-tonedMan",
+        "name": "Miguel",
+        "desc": ""
+      },
+      {
+        "id": "Portuguese_BossyLeader",
+        "name": "Rafael",
+        "desc": "一位冷静正式的青年男性专横领导者声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_Strong-WilledBoy",
+        "name": "Bruno",
+        "desc": "一位成熟坚定的青年男性声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_CaptivatingStoryteller",
+        "name": "Diogo",
+        "desc": "一位迷人的中年男性叙述者声音，非常适合讲故事，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_ThoughtfulMan",
+        "name": "André",
+        "desc": "一位温柔体贴的青年男性声音，葡萄牙语。"
+      }
+    ],
+    "female": [
+      {
+        "id": "Portuguese_SentimentalLady",
+        "name": "Beatriz",
+        "desc": "一位优雅感性的青年女性声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_Wiselady",
+        "name": "Clara",
+        "desc": "一位柔和智慧的中年女士声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_AnimeCharacter",
+        "name": "Luna",
+        "desc": "一位灵动的中年女性声音，适合动漫角色，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_ConfidentWoman",
+        "name": "Sara",
+        "desc": "一位清晰坚定的自信青年女性声音，葡萄牙语。"
+      },
+      {
+        "id": "Portuguese_Kind-heartedGirl",
+        "name": "Inês",
+        "desc": "一位平和善良的青年女性声音，葡萄牙语。"
+      }
+    ]
+  }
+}

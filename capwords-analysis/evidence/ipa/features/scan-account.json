@@ -1,0 +1,572 @@
+[
+  {
+    "offset": "0x1923290",
+    "address": "0x101923290",
+    "text": "AppLaunchAnimationCoordinator.didFinishNotification"
+  },
+  {
+    "offset": "0x1923910",
+    "address": "0x101923910",
+    "text": "is_cloudkit_enabled"
+  },
+  {
+    "offset": "0x1923f10",
+    "address": "0x101923f10",
+    "text": "icloud.remote_changes_unclassified"
+  },
+  {
+    "offset": "0x1923f90",
+    "address": "0x101923f90",
+    "text": "icloud.remote_history_failed"
+  },
+  {
+    "offset": "0x1923ff0",
+    "address": "0x101923ff0",
+    "text": "icloud.remote_changes_applied"
+  },
+  {
+    "offset": "0x19240d0",
+    "address": "0x1019240d0",
+    "text": "icloud.export_checkpoint_updated"
+  },
+  {
+    "offset": "0x19242b0",
+    "address": "0x1019242b0",
+    "text": "icloud.entity_snapshot"
+  },
+  {
+    "offset": "0x19242d0",
+    "address": "0x1019242d0",
+    "text": "NSCloudKitMirroringDelegateWillResetSyncNotificationName"
+  },
+  {
+    "offset": "0x1924310",
+    "address": "0x101924310",
+    "text": "NSCloudKitMirroringDelegateDidResetSyncNotificationName"
+  },
+  {
+    "offset": "0x1924350",
+    "address": "0x101924350",
+    "text": "icloud.mirror_reset"
+  },
+  {
+    "offset": "0x1924370",
+    "address": "0x101924370",
+    "text": "icloud.account_status_unavailable"
+  },
+  {
+    "offset": "0x19243c0",
+    "address": "0x1019243c0",
+    "text": "icloud.account_status_failed"
+  },
+  {
+    "offset": "0x1924430",
+    "address": "0x101924430",
+    "text": "icloud.account_status"
+  },
+  {
+    "offset": "0x1924490",
+    "address": "0x101924490",
+    "text": "cloudkit_container"
+  },
+  {
+    "offset": "0x19244b0",
+    "address": "0x1019244b0",
+    "text": "icloud.account_monitor_configured"
+  },
+  {
+    "offset": "0x19244e0",
+    "address": "0x1019244e0",
+    "text": "icloud.account_changed_notification"
+  },
+  {
+    "offset": "0x1924510",
+    "address": "0x101924510",
+    "text": "icloud.event_succeeded"
+  },
+  {
+    "offset": "0x1924530",
+    "address": "0x101924530",
+    "text": "icloud.event_started"
+  },
+  {
+    "offset": "0x1924550",
+    "address": "0x101924550",
+    "text": "icloud.event_failed"
+  },
+  {
+    "offset": "0x19268b0",
+    "address": "0x1019268b0",
+    "text": "NSCloudKitMirroringDelegateResetSyncReasonKey"
+  },
+  {
+    "offset": "0x19268e0",
+    "address": "0x1019268e0",
+    "text": "NSPersistentCloudKitContainerResetSyncReasonKey"
+  },
+  {
+    "offset": "0x1926910",
+    "address": "0x101926910",
+    "text": "PFCloudKitOldUserIdentityKey"
+  },
+  {
+    "offset": "0x1926930",
+    "address": "0x101926930",
+    "text": "NSCloudKitMirroringDelegateOldUserIdentityKey"
+  },
+  {
+    "offset": "0x1926960",
+    "address": "0x101926960",
+    "text": "PFCloudKitNewUserIdentityKey"
+  },
+  {
+    "offset": "0x1926980",
+    "address": "0x101926980",
+    "text": "NSCloudKitMirroringDelegateNewUserIdentityKey"
+  },
+  {
+    "offset": "0x19276c0",
+    "address": "0x1019276c0",
+    "text": "event=icloud.entity_snapshot"
+  },
+  {
+    "offset": "0x194afc0",
+    "address": "0x10194afc0",
+    "text": "com.getface.updateui.notification"
+  },
+  {
+    "offset": "0x1952d80",
+    "address": "0x101952d80",
+    "text": "free_trial_end_notification"
+  },
+  {
+    "offset": "0x1953930",
+    "address": "0x101953930",
+    "text": "https://api.rc-backup.com/"
+  },
+  {
+    "offset": "0x1953950",
+    "address": "0x101953950",
+    "text": "com.capwords.NeedShowSaleButtonNotificationName"
+  },
+  {
+    "offset": "0x1953980",
+    "address": "0x101953980",
+    "text": "com.capwords.stopShowSaleButtonNotificationName"
+  },
+  {
+    "offset": "0x1993fb0",
+    "address": "0x101993fb0",
+    "text": "notification_engine_id"
+  },
+  {
+    "offset": "0x1999e70",
+    "address": "0x101999e70",
+    "text": "viewWillAppear.pendingNotification"
+  },
+  {
+    "offset": "0x1999ea0",
+    "address": "0x101999ea0",
+    "text": "notificationUpdateUI"
+  },
+  {
+    "offset": "0x199a910",
+    "address": "0x10199a910",
+    "text": "Downloading from iCloud..."
+  },
+  {
+    "offset": "0x199d5b0",
+    "address": "0x10199d5b0",
+    "text": "language_change.continuation_notification_skipped"
+  },
+  {
+    "offset": "0x199d6a0",
+    "address": "0x10199d6a0",
+    "text": "language_change.continuation_notification_scheduled"
+  },
+  {
+    "offset": "0x199d6e0",
+    "address": "0x10199d6e0",
+    "text": "language_change.continuation_notification_failed"
+  },
+  {
+    "offset": "0x19a10d0",
+    "address": "0x1019a10d0",
+    "text": "profile.setting.dailyReminder"
+  },
+  {
+    "offset": "0x19a1d00",
+    "address": "0x1019a1d00",
+    "text": "We’ll notify you one day before your free trial ends so you can decide whether to continue. Allow notifications to receive this reminder."
+  },
+  {
+    "offset": "0x19a1db0",
+    "address": "0x1019a1db0",
+    "text": "Please go to \"Settings\" to check if the notification permission is enabled for \"SnapWords\""
+  },
+  {
+    "offset": "0x19a1e90",
+    "address": "0x1019a1e90",
+    "text": "notification.trial_schedule_skipped"
+  },
+  {
+    "offset": "0x19a1f30",
+    "address": "0x1019a1f30",
+    "text": "notification.trial_date_calculation_failed"
+  },
+  {
+    "offset": "0x19a1f60",
+    "address": "0x1019a1f60",
+    "text": "notification.trial_scheduled"
+  },
+  {
+    "offset": "0x19a1f80",
+    "address": "0x1019a1f80",
+    "text": "notification.trial_schedule_failed"
+  },
+  {
+    "offset": "0x19a1fb0",
+    "address": "0x1019a1fb0",
+    "text": "daily_reminder_notification"
+  },
+  {
+    "offset": "0x19a2040",
+    "address": "0x1019a2040",
+    "text": "notification.daily_scheduled"
+  },
+  {
+    "offset": "0x19a2060",
+    "address": "0x1019a2060",
+    "text": "notification.daily_schedule_failed"
+  },
+  {
+    "offset": "0x19a9910",
+    "address": "0x1019a9910",
+    "text": "Signature error encountered in response returned from posting offer for signing."
+  },
+  {
+    "offset": "0x19a9970",
+    "address": "0x1019a9970",
+    "text": "Missing offers from response returned from posting offer for signing."
+  },
+  {
+    "offset": "0x19a99c0",
+    "address": "0x1019a99c0",
+    "text": "Unable to decode response returned from posting offer for signing."
+  },
+  {
+    "offset": "0x19b6970",
+    "address": "0x1019b6970",
+    "text": "RevenueCat/Signing+ResponseVerification.swift"
+  },
+  {
+    "offset": "0x19b69a0",
+    "address": "0x1019b69a0",
+    "text": "verificationResult(body:statusCode:requestHeaders:responseHeaders:requestDate:request:publicKey:signing:isFallbackUrlResponse:)"
+  },
+  {
+    "offset": "0x19b6a20",
+    "address": "0x1019b6a20",
+    "text": "RevenueCat/Signing.swift"
+  },
+  {
+    "offset": "0x19b70a0",
+    "address": "0x1019b70a0",
+    "text": "post_offer_for_signing"
+  },
+  {
+    "offset": "0x19b7900",
+    "address": "0x1019b7900",
+    "text": "RevenueCat/PostOfferForSigningOperation.swift"
+  },
+  {
+    "offset": "0x19ca720",
+    "address": "0x1019ca720",
+    "text": "UNNotificationInterruptionLevel.(@unknown default, rawValue: "
+  },
+  {
+    "offset": "0x19ca760",
+    "address": "0x1019ca760",
+    "text": "UNNotificationInterruptionLevel.timeSensitive"
+  },
+  {
+    "offset": "0x19ca790",
+    "address": "0x1019ca790",
+    "text": "UNNotificationInterruptionLevel.passive"
+  },
+  {
+    "offset": "0x19ca7c0",
+    "address": "0x1019ca7c0",
+    "text": "UNNotificationInterruptionLevel.critical"
+  },
+  {
+    "offset": "0x19ca7f0",
+    "address": "0x1019ca7f0",
+    "text": "UNNotificationInterruptionLevel.active"
+  },
+  {
+    "offset": "0x19ca820",
+    "address": "0x1019ca820",
+    "text": "UNNotificationSetting.(@unknown default, rawValue: "
+  },
+  {
+    "offset": "0x19ca860",
+    "address": "0x1019ca860",
+    "text": "UNNotificationSetting.notSupported"
+  },
+  {
+    "offset": "0x19ca890",
+    "address": "0x1019ca890",
+    "text": "UNNotificationSetting.enabled"
+  },
+  {
+    "offset": "0x19ca8b0",
+    "address": "0x1019ca8b0",
+    "text": "UNNotificationSetting.disabled"
+  },
+  {
+    "offset": "0x19ca980",
+    "address": "0x1019ca980",
+    "text": "UNNotificationPresentationOptions(rawValue: "
+  },
+  {
+    "offset": "0x19ca9b0",
+    "address": "0x1019ca9b0",
+    "text": "UNNotificationPresentationOptions.sound"
+  },
+  {
+    "offset": "0x19ca9e0",
+    "address": "0x1019ca9e0",
+    "text": "UNNotificationPresentationOptions.list"
+  },
+  {
+    "offset": "0x19caa10",
+    "address": "0x1019caa10",
+    "text": "UNNotificationPresentationOptions.banner"
+  },
+  {
+    "offset": "0x19caa40",
+    "address": "0x1019caa40",
+    "text": "UNNotificationPresentationOptions.badge"
+  },
+  {
+    "offset": "0x19caa70",
+    "address": "0x1019caa70",
+    "text": "UNNotificationPresentationOptions.alert"
+  },
+  {
+    "offset": "0x19cab20",
+    "address": "0x1019cab20",
+    "text": "UNAuthorizationOptions.providesAppNotificationSettings"
+  },
+  {
+    "offset": "0x19cac20",
+    "address": "0x1019cac20",
+    "text": "UNNotificationContentExtensionMediaPlayPauseButtonType.(@unknown default, rawValue: "
+  },
+  {
+    "offset": "0x19cac80",
+    "address": "0x1019cac80",
+    "text": "UNNotificationContentExtensionMediaPlayPauseButtonType.overlay"
+  },
+  {
+    "offset": "0x19cacc0",
+    "address": "0x1019cacc0",
+    "text": "UNNotificationContentExtensionMediaPlayPauseButtonType.none"
+  },
+  {
+    "offset": "0x19cad00",
+    "address": "0x1019cad00",
+    "text": "UNNotificationContentExtensionMediaPlayPauseButtonType.default"
+  },
+  {
+    "offset": "0x19cad40",
+    "address": "0x1019cad40",
+    "text": "UNNotificationContentExtensionResponseOption.(@unknown default, rawValue: "
+  },
+  {
+    "offset": "0x19cad90",
+    "address": "0x1019cad90",
+    "text": "UNNotificationContentExtensionResponseOption.doNotDismiss"
+  },
+  {
+    "offset": "0x19cadd0",
+    "address": "0x1019cadd0",
+    "text": "UNNotificationContentExtensionResponseOption.dismissAndForwardAction"
+  },
+  {
+    "offset": "0x19cae20",
+    "address": "0x1019cae20",
+    "text": "UNNotificationContentExtensionResponseOption.dismiss"
+  },
+  {
+    "offset": "0x19cbb70",
+    "address": "0x1019cbb70",
+    "text": "Dependencies/NotificationCenter.swift"
+  },
+  {
+    "offset": "0x19cbba0",
+    "address": "0x1019cbba0",
+    "text": "/Users/jinhonn/Library/Developer/Xcode/DerivedData/SnapWords-abeeujagvhiicycemexuilfbhtgb/SourcePackages/checkouts/swift-dependencies/Sources/Dependencies/DependencyValues/NotificationCenter.swift"
+  },
+  {
+    "offset": "0x19d69e6",
+    "address": "0x1019d69e6",
+    "text": "FIRAnalyticsConfigurationSetEnabledNotification"
+  },
+  {
+    "offset": "0x19d6a27",
+    "address": "0x1019d6a27",
+    "text": "FIRAppReadyToConfigureSDKNotification"
+  },
+  {
+    "offset": "0x19d6a4d",
+    "address": "0x1019d6a4d",
+    "text": "FIRAppDeleteNotification"
+  },
+  {
+    "offset": "0x19d9a18",
+    "address": "0x1019d9a18",
+    "text": "FIRInstallationIDDidChangeNotification"
+  },
+  {
+    "offset": "0x19dbb8e",
+    "address": "0x1019dbb8e",
+    "text": "GDTCORApplicationDidEnterBackgroundNotification"
+  },
+  {
+    "offset": "0x19dbbbe",
+    "address": "0x1019dbbbe",
+    "text": "GDTCORApplicationWillEnterForegroundNotification"
+  },
+  {
+    "offset": "0x19dbbef",
+    "address": "0x1019dbbef",
+    "text": "GDTCORApplicationWillTerminateNotification"
+  },
+  {
+    "offset": "0x19dcc90",
+    "address": "0x1019dcc90",
+    "text": "SessionIDChangedNotificationName"
+  },
+  {
+    "offset": "0x19dd7d1",
+    "address": "0x1019dd7d1",
+    "text": "application:didRegisterForRemoteNotificationsWithDeviceToken:"
+  },
+  {
+    "offset": "0x19dd80f",
+    "address": "0x1019dd80f",
+    "text": "application:didFailToRegisterForRemoteNotificationsWithError:"
+  },
+  {
+    "offset": "0x19dd84d",
+    "address": "0x1019dd84d",
+    "text": "application:didReceiveRemoteNotification:fetchCompletionHandler:"
+  },
+  {
+    "offset": "0x19de9be",
+    "address": "0x1019de9be",
+    "text": "Cannot exclude temporary folder from iTunes backup"
+  },
+  {
+    "offset": "0x19decd0",
+    "address": "0x1019decd0",
+    "text": "permission notification name"
+  },
+  {
+    "offset": "0x19e1ffe",
+    "address": "0x1019e1ffe",
+    "text": "AppsFlyerBackupInfo"
+  },
+  {
+    "offset": "0x19e2d75",
+    "address": "0x1019e2d75",
+    "text": "backupInfo"
+  },
+  {
+    "offset": "0x19e3c34",
+    "address": "0x1019e3c34",
+    "text": "Push notification info contains not valid JSON object"
+  },
+  {
+    "offset": "0x19e3c6a",
+    "address": "0x1019e3c6a",
+    "text": "-[AppsFlyerLib __handlePushNotification:dictionary:]"
+  },
+  {
+    "offset": "0x19e3c9f",
+    "address": "0x1019e3c9f",
+    "text": "AppsFlyerLib_handlePushNotification"
+  },
+  {
+    "offset": "0x19e3cc3",
+    "address": "0x1019e3cc3",
+    "text": "Push notification info: %@"
+  },
+  {
+    "offset": "0x19e66f7",
+    "address": "0x1019e66f7",
+    "text": "kFIRAnalyticsWillStartNotification"
+  },
+  {
+    "offset": "0x19e6caa",
+    "address": "0x1019e6caa",
+    "text": "Received setEnabled notification without NSNumber"
+  },
+  {
+    "offset": "0x19ee1d2",
+    "address": "0x1019ee1d2",
+    "text": "notification_dismiss"
+  },
+  {
+    "offset": "0x19ee1e7",
+    "address": "0x1019ee1e7",
+    "text": "notification_foreground"
+  },
+  {
+    "offset": "0x19ee1ff",
+    "address": "0x1019ee1ff",
+    "text": "notification_open"
+  },
+  {
+    "offset": "0x19ee211",
+    "address": "0x1019ee211",
+    "text": "notification_receive"
+  },
+  {
+    "offset": "0x19efc0d",
+    "address": "0x1019efc0d",
+    "text": "Failed to exclude directory from backup. Error"
+  },
+  {
+    "offset": "0x19efd3e",
+    "address": "0x1019efd3e",
+    "text": "v16@?0@\"NSNotification\"8"
+  },
+  {
+    "offset": "0x19f5c28",
+    "address": "0x1019f5c28",
+    "text": "measurement.psm_signin_delay"
+  },
+  {
+    "offset": "0x19f8121",
+    "address": "0x1019f8121",
+    "text": "Failed to exclude database file from backup"
+  },
+  {
+    "offset": "0x19f85bb",
+    "address": "0x1019f85bb",
+    "text": "Failed to exclude preferences file from backup. Error code %@"
+  },
+  {
+    "offset": "0x19f85f9",
+    "address": "0x1019f85f9",
+    "text": "firebase_last_notification"
+  },
+  {
+    "offset": "0x19f9f65",
+    "address": "0x1019f9f65",
+    "text": "Failed to exclude conversion store from backup."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "instruction": "0x100568540",
+    "target": "0x101f2f4d8",
+    "name": "_OBJC_CLASS_$_VNDetectContoursRequest",
+    "context": [
+      "100568520:\tldr\tx0, [x8, #0x3f8] ; Objc class ref: bad class ref",
+      "100568524:\tbl\t0x1017848ec ; symbol stub for: _objc_allocWithZone",
+      "100568528:\tmov\tx2, x20",
+      "10056852c:\tbl\t0x101794f00",
+      "100568530:\tstur\tx19, [x29, #-0xb0]",
+      "100568534:\tmov\tx19, x0",
+      "100568538:\tstur\tx0, [x29, #-0xc8]",
+      "10056853c:\tadrp\tx8, 6599 ; 0x101f2f000",
+      "100568540:\tldr\tx0, [x8, #0x4d8] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x10056858c",
+    "target": "0x101f2f4e0",
+    "name": "_OBJC_CLASS_$_VNImageRequestHandler",
+    "context": [
+      "10056856c:\tmov\tw2, #0x200",
+      "100568570:\tbl\t0x1017a8000",
+      "100568574:\tadrp\tx0, 6476 ; 0x101eb4000",
+      "100568578:\tldr\tx0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage",
+      "10056857c:\tbl\t0x10000b838",
+      "100568580:\tstur\tx20, [x29, #-0xa8]",
+      "100568584:\tmov\tx20, x0",
+      "100568588:\tadrp\tx8, 6599 ; 0x101f2f000",
+      "10056858c:\tldr\tx0, [x8, #0x4e0] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x100568c28",
+    "target": "0x101f2f4d8",
+    "name": "_OBJC_CLASS_$_VNDetectContoursRequest",
+    "context": [
+      "100568c08:\tmov\tx19, x0",
+      "100568c0c:\tadrp\tx8, 6599 ; 0x101f2f000",
+      "100568c10:\tldr\tx0, [x8, #0x3f8] ; Objc class ref: bad class ref",
+      "100568c14:\tbl\t0x1017848ec ; symbol stub for: _objc_allocWithZone",
+      "100568c18:\tmov\tx2, x19",
+      "100568c1c:\tbl\t0x101794f00",
+      "100568c20:\tmov\tx23, x0",
+      "100568c24:\tadrp\tx8, 6599 ; 0x101f2f000",
+      "100568c28:\tldr\tx0, [x8, #0x4d8] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x100568c6c",
+    "target": "0x101f2f4e0",
+    "name": "_OBJC_CLASS_$_VNImageRequestHandler",
+    "context": [
+      "100568c4c:\tmov\tx0, x20",
+      "100568c50:\tmov\tw2, #0x200",
+      "100568c54:\tbl\t0x1017a8000",
+      "100568c58:\tadrp\tx0, 6476 ; 0x101eb4000",
+      "100568c5c:\tldr\tx0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage",
+      "100568c60:\tbl\t0x10000b838",
+      "100568c64:\tmov\tx21, x0",
+      "100568c68:\tadrp\tx8, 6599 ; 0x101f2f000",
+      "100568c6c:\tldr\tx0, [x8, #0x4e0] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x10056a430",
+    "target": "0x101f2f4d8",
+    "name": "_OBJC_CLASS_$_VNDetectContoursRequest",
+    "context": [
+      "10056a410:\tbl\t0x1017848ec ; symbol stub for: _objc_allocWithZone",
+      "10056a414:\tmov\tx22, x0",
+      "10056a418:\tbl\t0x101784b74 ; symbol stub for: _objc_retain_x19",
+      "10056a41c:\tmov\tx0, x22",
+      "10056a420:\tmov\tx2, x20",
+      "10056a424:\tbl\t0x101794fa0",
+      "10056a428:\tmov\tx28, x0",
+      "10056a42c:\tadrp\tx8, 6597 ; 0x101f2f000",
+      "10056a430:\tldr\tx0, [x8, #0x4d8] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x10056a474",
+    "target": "0x101f2f4e0",
+    "name": "_OBJC_CLASS_$_VNImageRequestHandler",
+    "context": [
+      "10056a454:\tmov\tx0, x19",
+      "10056a458:\tmov\tw2, #0x200",
+      "10056a45c:\tbl\t0x1017a8000",
+      "10056a460:\tadrp\tx0, 6474 ; 0x101eb4000",
+      "10056a464:\tldr\tx0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage",
+      "10056a468:\tbl\t0x10000b838",
+      "10056a46c:\tmov\tx22, x0",
+      "10056a470:\tadrp\tx8, 6597 ; 0x101f2f000",
+      "10056a474:\tldr\tx0, [x8, #0x4e0] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x10056aafc",
+    "target": "0x101f2f4f8",
+    "name": "_OBJC_CLASS_$_VNGenerateForegroundInstanceMaskRequest",
+    "context": [
+      "10056aadc:\tstr\tx22, [sp, #0x78]",
+      "10056aae0:\tadd\tx29, sp, #0x80",
+      "10056aae4:\tadrp\tx8, 6467 ; 0x101ead000",
+      "10056aae8:\tldr\tx8, [x8, #0xf8] ; literal pool symbol address: ___stack_chk_guard",
+      "10056aaec:\tldr\tx8, [x8]",
+      "10056aaf0:\tstr\tx8, [sp, #0x30]",
+      "10056aaf4:\tldr\tx20, [x22, #0x38]",
+      "10056aaf8:\tadrp\tx8, 6597 ; 0x101f2f000",
+      "10056aafc:\tldr\tx0, [x8, #0x4f8] ; Objc class ref: bad class ref"
+    ]
+  },
+  {
+    "instruction": "0x10056ab38",
+    "target": "0x101f2f4e0",
+    "name": "_OBJC_CLASS_$_VNImageRequestHandler",
+    "context": [
+      "10056ab18:\tbl\t0x101784b38 ; symbol stub for: _objc_retainAutoreleasedReturnValue",
+      "10056ab1c:\tcbz\tx0, 0x10056acf8",
+      "10056ab20:\tmov\tx23, x0",
+      "10056ab24:\tadrp\tx0, 6474 ; 0x101eb4000",
+      "10056ab28:\tldr\tx0, [x0, #0x210] ; literal pool symbol address: __swiftEmptyArrayStorage",
+      "10056ab2c:\tbl\t0x10000b838",
+      "10056ab30:\tmov\tx20, x0",
+      "10056ab34:\tadrp\tx8, 6597 ; 0x101f2f000",
+      "10056ab38:\tldr\tx0, [x8, #0x4e0] ; Objc class ref: bad class ref"
+    ]
+  }
+]

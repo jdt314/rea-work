@@ -1,0 +1,136 @@
+{
+  "actions": {
+    "CameraLauncherControlIntent": {
+      "assistantDefinedSchemaTraits": [],
+      "assistantDefinedSchemas": [],
+      "authenticationPolicy": 0,
+      "availabilityAnnotations": {
+        "LNPlatformNameIOS": {
+          "introducedVersion": "18.0"
+        },
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "descriptionMetadata": {
+        "descriptionText": {
+          "alternatives": [],
+          "key": "Quickly open the CapWords camera page"
+        },
+        "searchKeywords": []
+      },
+      "effectiveBundleIdentifiers": [],
+      "fullyQualifiedTypeName": "SnapWordsCaptureExtension.CameraLauncherControlIntent",
+      "identifier": "CameraLauncherControlIntent",
+      "isAuthPolExplicit": false,
+      "isDiscoverable": true,
+      "mangledTypeName": "25SnapWordsCaptureExtension27CameraLauncherControlIntentV",
+      "mangledTypeNameByBundleIdentifier": {},
+      "mangledTypeNameByBundleIdentifierV2": {},
+      "mangledTypeNameV2": "25SnapWordsCaptureExtension27CameraLauncherControlIntentV",
+      "openAppWhenRun": true,
+      "outputFlags": 1,
+      "parameters": [],
+      "presentationStyle": 0,
+      "requiredCapabilities": [],
+      "supportedModes": 2,
+      "systemProtocolMetadata": [],
+      "systemProtocolMetadataV2": [],
+      "systemProtocols": [],
+      "title": {
+        "alternatives": [],
+        "key": "Open CapWords Camera"
+      },
+      "typeSpecificMetadata": [],
+      "visibilityMetadata": {
+        "assistantOnly": false,
+        "isDiscoverable": true
+      }
+    },
+    "CameraLauncherShortcutIntent": {
+      "assistantDefinedSchemaTraits": [],
+      "assistantDefinedSchemas": [],
+      "authenticationPolicy": 0,
+      "availabilityAnnotations": {
+        "LNPlatformNameIOS": {
+          "introducedVersion": "18.0"
+        },
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "descriptionMetadata": {
+        "descriptionText": {
+          "alternatives": [],
+          "key": "Quickly open the CapWords camera page"
+        },
+        "searchKeywords": []
+      },
+      "effectiveBundleIdentifiers": [],
+      "fullyQualifiedTypeName": "SnapWordsCaptureExtension.CameraLauncherShortcutIntent",
+      "identifier": "CameraLauncherShortcutIntent",
+      "isAuthPolExplicit": false,
+      "isDiscoverable": true,
+      "mangledTypeName": "25SnapWordsCaptureExtension28CameraLauncherShortcutIntentV",
+      "mangledTypeNameByBundleIdentifier": {},
+      "mangledTypeNameByBundleIdentifierV2": {},
+      "mangledTypeNameV2": "25SnapWordsCaptureExtension28CameraLauncherShortcutIntentV",
+      "openAppWhenRun": true,
+      "outputFlags": 1,
+      "parameters": [],
+      "presentationStyle": 0,
+      "requiredCapabilities": [],
+      "supportedModes": 2,
+      "systemProtocolMetadata": [],
+      "systemProtocolMetadataV2": [],
+      "systemProtocols": [],
+      "title": {
+        "alternatives": [],
+        "key": "Open CapWords Camera"
+      },
+      "typeSpecificMetadata": [],
+      "visibilityMetadata": {
+        "assistantOnly": false,
+        "isDiscoverable": true
+      }
+    }
+  },
+  "assistantEntities": [],
+  "assistantIntentNegativePhrases": [],
+  "assistantIntents": [],
+  "autoShortcutProviderMangledName": "25SnapWordsCaptureExtension31CameraLauncherShortcutsProviderV",
+  "autoShortcuts": [
+    {
+      "actionIdentifier": "CameraLauncherShortcutIntent",
+      "availabilityAnnotations": {
+        "LNPlatformNameIOS": {
+          "introducedVersion": "18.0"
+        },
+        "LNPlatformNameWildcard": {
+          "introducedVersion": "*"
+        }
+      },
+      "phraseTemplates": [
+        {
+          "alternatives": [],
+          "key": "Open ${applicationName} Camera"
+        }
+      ],
+      "shortTitle": {
+        "alternatives": [],
+        "key": "Open Camera"
+      },
+      "systemImageName": "camera"
+    }
+  ],
+  "entities": {},
+  "enums": [],
+  "generator": {
+    "name": "xcode-tools",
+    "version": "27A266a"
+  },
+  "negativePhrases": [],
+  "queries": {},
+  "shortcutTileColor": 14,
+  "version": 1
+}
