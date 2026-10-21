@@ -1,0 +1,77 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-19 00:27:29.436 Df SpringBoard[39582:1d755d] [com.apple.SplashBoard:FileManifest] Applications were replaced. Updating launch images for: (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:27:29.441 Df SpringBoard[39582:1d755d] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x124bea700> [dev.reawork.CapWordsSwift] Deleting snapshots: (
+    "<XBApplicationSnapshot: 0x124bbf100; identifier: 5D1B3255-CD7A-4172-B4E5-48B172DD0919; launchInterfaceIdentifier: __from_UILaunchStoryboardName__; contentType: GeneratedDefault; referenceSize: {402, 874}; interfaceOrientation: Portrait; userInterfaceStyle: Light>"
+) matching predicate: <XBApplicationSnapshotPredicate: 0x104af1f90> {
+    contentTypeMask = GeneratedDefault;
+}
+2026-10-19 00:27:29.441 Df SpringBoard[39582:1d755d] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x124bea700> [dev.reawork.CapWordsSwift] Deleting snapshot <XBApplicationSnapshot: 0x124bbf100; …48B172DD0919> [dev.reawork.CapWordsSwift] for reason: _contentType: GeneratedDefault(1)
+2026-10-19 00:27:29.441 Df SpringBoard[39582:1d755d] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x124bea700> [dev.reawork.CapWordsSwift] Deleting paths: (
+    "/Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/CF1669CA-F5E9-42FD-AFA1-BAE0ACDAE2C7/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/5D1B3255-CD7A-4172-B4E5-48B172DD0919@3x.ktx"
+)
+2026-10-19 00:27:29.443 Df SpringBoard[39582:1d755d] [com.apple.SplashBoard:Capture] Processing launch request <XBLaunchStateRequest: 0x12c817170> for app: dev.reawork.CapWordsSwift.
+2026-10-19 00:27:29.444 Df SpringBoard[39582:1d707d] [com.apple.SplashBoard:Capture] Asynchronously generating image data for request: <XBLaunchStateRequest: 0x12c817170; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:27:29.445 Df SpringBoard[39582:1d707d] [com.apple.SplashBoard:Capture] Validating resource LaunchBandsScreen.storyboardc in NSBundle </Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Bundle/Application/D054404B-F3DD-4E09-9EAC-3B11E62D4BA9/CapWordsSwift.app> (not yet loaded)
+2026-10-19 00:27:29.451 Df SpringBoard[39582:1d707d] [com.apple.SplashBoard:Capture] Validated resource in 0.004373s
+2026-10-19 00:27:29.451 Df SpringBoard[39582:1d707d] [com.apple.SplashBoard:Capture] Validated OK
+2026-10-19 00:27:29.452 Df splashboardd[49497:1d143a] [com.apple.SplashBoard:Capture] Running image request from SpringBoard.39582 for dev.reawork.CapWordsSwift
+2026-10-19 00:27:29.520 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updating window to <XBLaunchStateRequest: 0x10166a8b0; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:27:29.532 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updated window
+2026-10-19 00:27:29.542 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] [dev.reawork.CapWordsSwift] launch image generation completed after 0.088s
+2026-10-19 00:27:29.623 Df SpringBoard[39582:1d75f2] [com.apple.SplashBoard:Capture] Image generation complete for: <XBLaunchStateRequest: 0x12c817170; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:27:29.625 Df SpringBoard[39582:1d75c7] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x124bea700> [dev.reawork.CapWordsSwift] Snapshot data for <XBApplicationSnapshot: 0x124bbf100; …D770FFE8E27F> [dev.reawork.CapWordsSwift] written to file: /Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/CF1669CA-F5E9-42FD-AFA1-BAE0ACDAE2C7/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/06702D27-E83D-47F3-8332-D770FFE8E27F@3x.ktx
+2026-10-19 00:27:30.614 Df SpringBoard[39582:c0a08] [com.apple.SplashBoard:FileManifest] [dev.reawork.CapWordsSwift] Group sceneID:dev.reawork.CapWordsSwift-default deleting container with no valid snapshots: /Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/CF1669CA-F5E9-42FD-AFA1-BAE0ACDAE2C7/Library/SplashBoard/Snapshots/sceneID:dev.reawork.CapWordsSwift-default
+2026-10-19 00:27:30.614 Df SpringBoard[39582:c0a08] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5000> [dev.reawork.CapWordsSwift] group isn't valid. removing from snapshotGroupsByID and will be culled later: <XBApplicationSnapshotGroup: 0x1214e3840; identifier: sceneID:dev.reawork.CapWordsSwift-default>
+2026-10-19 00:30:02.287 Df SpringBoard[39582:1d96eb] [com.apple.SplashBoard:FileManifest] Applications were replaced. Updating launch images for: (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:30:02.307 Df SpringBoard[39582:1d96eb] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5000> [dev.reawork.CapWordsSwift] Deleting snapshots: (
+    "<XBApplicationSnapshot: 0x1249c5180; identifier: 06702D27-E83D-47F3-8332-D770FFE8E27F; launchInterfaceIdentifier: __from_UILaunchStoryboardName__; contentType: GeneratedDefault; referenceSize: {402, 874}; interfaceOrientation: Portrait; userInterfaceStyle: Light>"
+) matching predicate: <XBApplicationSnapshotPredicate: 0x124a55f80> {
+    contentTypeMask = GeneratedDefault;
+}
+2026-10-19 00:30:02.307 Df SpringBoard[39582:1d96eb] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5000> [dev.reawork.CapWordsSwift] Deleting snapshot <XBApplicationSnapshot: 0x1249c5180; …D770FFE8E27F> [dev.reawork.CapWordsSwift] for reason: _contentType: GeneratedDefault(1)
+2026-10-19 00:30:02.308 Df SpringBoard[39582:1d96eb] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5000> [dev.reawork.CapWordsSwift] Deleting paths: (
+    "/Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/A61B1AAC-015F-4263-BE1B-16938F836493/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/06702D27-E83D-47F3-8332-D770FFE8E27F@3x.ktx"
+)
+2026-10-19 00:30:02.315 Df SpringBoard[39582:1d96eb] [com.apple.SplashBoard:Capture] Processing launch request <XBLaunchStateRequest: 0x12c818f50> for app: dev.reawork.CapWordsSwift.
+2026-10-19 00:30:02.317 Df SpringBoard[39582:1d9721] [com.apple.SplashBoard:Capture] Asynchronously generating image data for request: <XBLaunchStateRequest: 0x12c818f50; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:30:02.320 Df SpringBoard[39582:1d9721] [com.apple.SplashBoard:Capture] Validating resource LaunchScreen.storyboardc in NSBundle </Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Bundle/Application/BA9C4F9F-E22E-4BDB-A530-9EDC47808282/CapWordsSwift.app> (not yet loaded)
+2026-10-19 00:30:02.342 Df SpringBoard[39582:1d9721] [com.apple.SplashBoard:Capture] Validated resource in 0.011985s
+2026-10-19 00:30:02.342 Df SpringBoard[39582:1d9721] [com.apple.SplashBoard:Capture] Validated OK
+2026-10-19 00:30:02.344 Df splashboardd[49497:1d143a] [com.apple.SplashBoard:Capture] Running image request from SpringBoard.39582 for dev.reawork.CapWordsSwift
+2026-10-19 00:30:02.394 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updating window to <XBLaunchStateRequest: 0x1016684d0; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:30:02.403 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updated window
+2026-10-19 00:30:02.427 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] [dev.reawork.CapWordsSwift] launch image generation completed after 0.082s
+2026-10-19 00:30:02.484 Df SpringBoard[39582:1d97bc] [com.apple.SplashBoard:Capture] Image generation complete for: <XBLaunchStateRequest: 0x12c818f50; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:30:02.486 Df SpringBoard[39582:1d9562] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5000> [dev.reawork.CapWordsSwift] Snapshot data for <XBApplicationSnapshot: 0x124b44c40; …5589735E6F9A> [dev.reawork.CapWordsSwift] written to file: /Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/A61B1AAC-015F-4263-BE1B-16938F836493/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/2FC61C33-3548-4A8A-A3E8-5589735E6F9A@3x.ktx
+2026-10-19 00:30:03.456 Df SpringBoard[39582:c0a08] [com.apple.SplashBoard:FileManifest] [dev.reawork.CapWordsSwift] Group sceneID:dev.reawork.CapWordsSwift-default deleting container with no valid snapshots: /Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/A61B1AAC-015F-4263-BE1B-16938F836493/Library/SplashBoard/Snapshots/sceneID:dev.reawork.CapWordsSwift-default
+2026-10-19 00:30:03.456 Df SpringBoard[39582:c0a08] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] group isn't valid. removing from snapshotGroupsByID and will be culled later: <XBApplicationSnapshotGroup: 0x121338780; identifier: sceneID:dev.reawork.CapWordsSwift-default>
+2026-10-19 00:31:09.315 Df SpringBoard[39582:1dadf4] [com.apple.SplashBoard:FileManifest] Applications were replaced. Updating launch images for: (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:31:09.321 Df SpringBoard[39582:1dadf4] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] Deleting snapshots: (
+    "<XBApplicationSnapshot: 0x128c11f80; identifier: 2FC61C33-3548-4A8A-A3E8-5589735E6F9A; launchInterfaceIdentifier: __from_UILaunchStoryboardName__; contentType: GeneratedDefault; referenceSize: {402, 874}; interfaceOrientation: Portrait; userInterfaceStyle: Light>"
+) matching predicate: <XBApplicationSnapshotPredicate: 0x104af3d60> {
+    contentTypeMask = GeneratedDefault;
+}
+2026-10-19 00:31:09.321 Df SpringBoard[39582:1dadf4] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] Deleting snapshot <XBApplicationSnapshot: 0x128c11f80; …5589735E6F9A> [dev.reawork.CapWordsSwift] for reason: _contentType: GeneratedDefault(1)
+2026-10-19 00:31:09.321 Df SpringBoard[39582:1dadf4] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] Deleting paths: (
+    "/Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/091A3338-F23D-4F1A-8136-8618A19684A7/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/2FC61C33-3548-4A8A-A3E8-5589735E6F9A@3x.ktx"
+)
+2026-10-19 00:31:09.342 Df SpringBoard[39582:1dadf4] [com.apple.SplashBoard:Capture] Processing launch request <XBLaunchStateRequest: 0x127008620> for app: dev.reawork.CapWordsSwift.
+2026-10-19 00:31:09.342 Df SpringBoard[39582:1dadf5] [com.apple.SplashBoard:Capture] Asynchronously generating image data for request: <XBLaunchStateRequest: 0x127008620; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:31:09.343 Df SpringBoard[39582:1dadf5] [com.apple.SplashBoard:Capture] Validating resource LaunchScreen.storyboardc in NSBundle </Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Bundle/Application/A612AC7F-981C-47F4-8710-9CBB9147C92E/CapWordsSwift.app> (not yet loaded)
+2026-10-19 00:31:09.384 Df SpringBoard[39582:1dadf5] [com.apple.SplashBoard:Capture] Validated resource in 0.039495s
+2026-10-19 00:31:09.384 Df SpringBoard[39582:1dadf5] [com.apple.SplashBoard:Capture] Validated OK
+2026-10-19 00:31:09.385 Df splashboardd[49497:1d143a] [com.apple.SplashBoard:Capture] Running image request from SpringBoard.39582 for dev.reawork.CapWordsSwift
+2026-10-19 00:31:09.483 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updating window to <XBLaunchStateRequest: 0x1016688c0; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:31:09.496 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updated window
+2026-10-19 00:31:09.504 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] [dev.reawork.CapWordsSwift] launch image generation completed after 0.111s
+2026-10-19 00:31:09.549 Df SpringBoard[39582:1dae8f] [com.apple.SplashBoard:Capture] Image generation complete for: <XBLaunchStateRequest: 0x127008620; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:31:09.572 Df SpringBoard[39582:1dae79] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] Snapshot data for <XBApplicationSnapshot: 0x1249c5500; …8268EFBC9E2E> [dev.reawork.CapWordsSwift] written to file: /Volumes/homex/Library/Developer/CoreSimulator/Devices/59D5891F-5C9D-4425-9F0E-0415C74963D4/data/Containers/Data/Application/091A3338-F23D-4F1A-8136-8618A19684A7/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/70340262-098F-4971-AEEC-8268EFBC9E2E@3x.ktx
+2026-10-19 00:31:21.166 Df SpringBoard[39582:1dae6d] [com.apple.SplashBoard:SnapshotReaper] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] Reaping invalid snapshot <XBApplicationSnapshot: 0x124b44e00; …6DF831D7F779> [dev.reawork.CapWordsSwift]
+ invalidReason: expired. expirationDate: 2026-10-18 16:31:14 +0000; how long ago (seconds): 6.639029
+2026-10-19 00:31:21.166 Df SpringBoard[39582:1dae6d] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x12c9c5400> [dev.reawork.CapWordsSwift] Deleting snapshot <XBApplicationSnapshot: 0x124b44e00; …6DF831D7F779> [dev.reawork.CapWordsSwift] for reason: _contentType: SceneContent(0)

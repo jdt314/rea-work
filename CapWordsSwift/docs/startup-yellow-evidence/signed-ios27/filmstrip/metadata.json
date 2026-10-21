@@ -1,0 +1,295 @@
+{
+  "durationSeconds" : 20.976666666666667,
+  "extraction" : "AVAssetImageGenerator with zero requested time tolerance; actual times recorded",
+  "frames" : [
+    {
+      "actualSeconds" : 0,
+      "file" : "t0000000.jpg",
+      "requestedSeconds" : 0
+    },
+    {
+      "actualSeconds" : 0,
+      "file" : "t0000250.jpg",
+      "requestedSeconds" : 0.25
+    },
+    {
+      "actualSeconds" : 0.48666666666666669,
+      "file" : "t0000500.jpg",
+      "requestedSeconds" : 0.5
+    },
+    {
+      "actualSeconds" : 0.73666666666666669,
+      "file" : "t0000750.jpg",
+      "requestedSeconds" : 0.75
+    },
+    {
+      "actualSeconds" : 0.88666666666666671,
+      "file" : "t0001000.jpg",
+      "requestedSeconds" : 1
+    },
+    {
+      "actualSeconds" : 1.2366666666666666,
+      "file" : "t0001250.jpg",
+      "requestedSeconds" : 1.25
+    },
+    {
+      "actualSeconds" : 1.5,
+      "file" : "t0001500.jpg",
+      "requestedSeconds" : 1.5
+    },
+    {
+      "actualSeconds" : 1.6816666666666666,
+      "file" : "t0001750.jpg",
+      "requestedSeconds" : 1.75
+    },
+    {
+      "actualSeconds" : 1.6816666666666666,
+      "file" : "t0002000.jpg",
+      "requestedSeconds" : 2
+    },
+    {
+      "actualSeconds" : 1.6816666666666666,
+      "file" : "t0002250.jpg",
+      "requestedSeconds" : 2.25
+    },
+    {
+      "actualSeconds" : 1.6816666666666666,
+      "file" : "t0002500.jpg",
+      "requestedSeconds" : 2.5
+    },
+    {
+      "actualSeconds" : 2.7349999999999999,
+      "file" : "t0002750.jpg",
+      "requestedSeconds" : 2.75
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0003000.jpg",
+      "requestedSeconds" : 3
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0003250.jpg",
+      "requestedSeconds" : 3.25
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0003500.jpg",
+      "requestedSeconds" : 3.5
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0003750.jpg",
+      "requestedSeconds" : 3.75
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0004000.jpg",
+      "requestedSeconds" : 4
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0004250.jpg",
+      "requestedSeconds" : 4.25
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0004500.jpg",
+      "requestedSeconds" : 4.5
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0004750.jpg",
+      "requestedSeconds" : 4.75
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0005000.jpg",
+      "requestedSeconds" : 5
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0005250.jpg",
+      "requestedSeconds" : 5.25
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0005500.jpg",
+      "requestedSeconds" : 5.5
+    },
+    {
+      "actualSeconds" : 2.8500000000000001,
+      "file" : "t0005750.jpg",
+      "requestedSeconds" : 5.75
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0006000.jpg",
+      "requestedSeconds" : 6
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0006250.jpg",
+      "requestedSeconds" : 6.25
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0006500.jpg",
+      "requestedSeconds" : 6.5
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0006750.jpg",
+      "requestedSeconds" : 6.75
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0007000.jpg",
+      "requestedSeconds" : 7
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0007250.jpg",
+      "requestedSeconds" : 7.25
+    },
+    {
+      "actualSeconds" : 5.8449999999999998,
+      "file" : "t0007500.jpg",
+      "requestedSeconds" : 7.5
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0007750.jpg",
+      "requestedSeconds" : 7.75
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0008000.jpg",
+      "requestedSeconds" : 8
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0008250.jpg",
+      "requestedSeconds" : 8.25
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0008500.jpg",
+      "requestedSeconds" : 8.5
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0008750.jpg",
+      "requestedSeconds" : 8.75
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0009000.jpg",
+      "requestedSeconds" : 9
+    },
+    {
+      "actualSeconds" : 7.7116666666666669,
+      "file" : "t0009250.jpg",
+      "requestedSeconds" : 9.25
+    },
+    {
+      "actualSeconds" : 9.4900000000000002,
+      "file" : "t0009500.jpg",
+      "requestedSeconds" : 9.5
+    },
+    {
+      "actualSeconds" : 9.7416666666666671,
+      "file" : "t0009750.jpg",
+      "requestedSeconds" : 9.75
+    },
+    {
+      "actualSeconds" : 9.9866666666666664,
+      "file" : "t0010000.jpg",
+      "requestedSeconds" : 10
+    },
+    {
+      "actualSeconds" : 10.241666666666667,
+      "file" : "t0010250.jpg",
+      "requestedSeconds" : 10.25
+    },
+    {
+      "actualSeconds" : 10.486666666666666,
+      "file" : "t0010500.jpg",
+      "requestedSeconds" : 10.5
+    },
+    {
+      "actualSeconds" : 10.736666666666666,
+      "file" : "t0010750.jpg",
+      "requestedSeconds" : 10.75
+    },
+    {
+      "actualSeconds" : 10.99,
+      "file" : "t0011000.jpg",
+      "requestedSeconds" : 11
+    },
+    {
+      "actualSeconds" : 11.156666666666666,
+      "file" : "t0011250.jpg",
+      "requestedSeconds" : 11.25
+    },
+    {
+      "actualSeconds" : 11.156666666666666,
+      "file" : "t0011500.jpg",
+      "requestedSeconds" : 11.5
+    },
+    {
+      "actualSeconds" : 11.738333333333333,
+      "file" : "t0011750.jpg",
+      "requestedSeconds" : 11.75
+    },
+    {
+      "actualSeconds" : 11.983333333333333,
+      "file" : "t0012000.jpg",
+      "requestedSeconds" : 12
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0012250.jpg",
+      "requestedSeconds" : 12.25
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0012500.jpg",
+      "requestedSeconds" : 12.5
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0012750.jpg",
+      "requestedSeconds" : 12.75
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0013000.jpg",
+      "requestedSeconds" : 13
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0013250.jpg",
+      "requestedSeconds" : 13.25
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0013500.jpg",
+      "requestedSeconds" : 13.5
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0013750.jpg",
+      "requestedSeconds" : 13.75
+    },
+    {
+      "actualSeconds" : 12.005000000000001,
+      "file" : "t0014000.jpg",
+      "requestedSeconds" : 14
+    }
+  ],
+  "naturalHeight" : 2622,
+  "naturalWidth" : 1206,
+  "nominalFrameRate" : 19.373613357543945,
+  "source" : "\/Volumes\/homex\/Desktop\/github\/rea-work\/CapWordsSwift\/docs\/startup-yellow-evidence\/signed-ios27\/launch.mov"
+}

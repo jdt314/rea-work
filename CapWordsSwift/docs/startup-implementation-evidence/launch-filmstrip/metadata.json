@@ -1,0 +1,215 @@
+{
+  "durationSeconds" : 136.68000000000001,
+  "extraction" : "AVAssetImageGenerator with zero requested time tolerance; actual times recorded",
+  "frames" : [
+    {
+      "actualSeconds" : 0,
+      "file" : "t0000000.jpg",
+      "requestedSeconds" : 0
+    },
+    {
+      "actualSeconds" : 0,
+      "file" : "t0000500.jpg",
+      "requestedSeconds" : 0.5
+    },
+    {
+      "actualSeconds" : 0,
+      "file" : "t0001000.jpg",
+      "requestedSeconds" : 1
+    },
+    {
+      "actualSeconds" : 1.49,
+      "file" : "t0001500.jpg",
+      "requestedSeconds" : 1.5
+    },
+    {
+      "actualSeconds" : 1.99,
+      "file" : "t0002000.jpg",
+      "requestedSeconds" : 2
+    },
+    {
+      "actualSeconds" : 2.3516666666666666,
+      "file" : "t0002500.jpg",
+      "requestedSeconds" : 2.5
+    },
+    {
+      "actualSeconds" : 2.3516666666666666,
+      "file" : "t0003000.jpg",
+      "requestedSeconds" : 3
+    },
+    {
+      "actualSeconds" : 3.4933333333333332,
+      "file" : "t0003500.jpg",
+      "requestedSeconds" : 3.5
+    },
+    {
+      "actualSeconds" : 3.6166666666666667,
+      "file" : "t0004000.jpg",
+      "requestedSeconds" : 4
+    },
+    {
+      "actualSeconds" : 3.6166666666666667,
+      "file" : "t0004500.jpg",
+      "requestedSeconds" : 4.5
+    },
+    {
+      "actualSeconds" : 3.6166666666666667,
+      "file" : "t0005000.jpg",
+      "requestedSeconds" : 5
+    },
+    {
+      "actualSeconds" : 3.6166666666666667,
+      "file" : "t0005500.jpg",
+      "requestedSeconds" : 5.5
+    },
+    {
+      "actualSeconds" : 5.5766666666666671,
+      "file" : "t0006000.jpg",
+      "requestedSeconds" : 6
+    },
+    {
+      "actualSeconds" : 5.5766666666666671,
+      "file" : "t0006500.jpg",
+      "requestedSeconds" : 6.5
+    },
+    {
+      "actualSeconds" : 5.5766666666666671,
+      "file" : "t0007000.jpg",
+      "requestedSeconds" : 7
+    },
+    {
+      "actualSeconds" : 7.5,
+      "file" : "t0007500.jpg",
+      "requestedSeconds" : 7.5
+    },
+    {
+      "actualSeconds" : 7.9916666666666663,
+      "file" : "t0008000.jpg",
+      "requestedSeconds" : 8
+    },
+    {
+      "actualSeconds" : 8.4866666666666664,
+      "file" : "t0008500.jpg",
+      "requestedSeconds" : 8.5
+    },
+    {
+      "actualSeconds" : 8.8533333333333335,
+      "file" : "t0009000.jpg",
+      "requestedSeconds" : 9
+    },
+    {
+      "actualSeconds" : 9.4849999999999994,
+      "file" : "t0009500.jpg",
+      "requestedSeconds" : 9.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0010000.jpg",
+      "requestedSeconds" : 10
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0010500.jpg",
+      "requestedSeconds" : 10.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0011000.jpg",
+      "requestedSeconds" : 11
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0011500.jpg",
+      "requestedSeconds" : 11.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0012000.jpg",
+      "requestedSeconds" : 12
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0012500.jpg",
+      "requestedSeconds" : 12.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0013000.jpg",
+      "requestedSeconds" : 13
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0013500.jpg",
+      "requestedSeconds" : 13.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0014000.jpg",
+      "requestedSeconds" : 14
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0014500.jpg",
+      "requestedSeconds" : 14.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0015000.jpg",
+      "requestedSeconds" : 15
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0015500.jpg",
+      "requestedSeconds" : 15.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0016000.jpg",
+      "requestedSeconds" : 16
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0016500.jpg",
+      "requestedSeconds" : 16.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0017000.jpg",
+      "requestedSeconds" : 17
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0017500.jpg",
+      "requestedSeconds" : 17.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0018000.jpg",
+      "requestedSeconds" : 18
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0018500.jpg",
+      "requestedSeconds" : 18.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0019000.jpg",
+      "requestedSeconds" : 19
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0019500.jpg",
+      "requestedSeconds" : 19.5
+    },
+    {
+      "actualSeconds" : 9.7483333333333331,
+      "file" : "t0020000.jpg",
+      "requestedSeconds" : 20
+    }
+  ],
+  "naturalHeight" : 2622,
+  "naturalWidth" : 1206,
+  "nominalFrameRate" : 7.9270119667053223,
+  "source" : "\/tmp\/capwords-startup-final27.mov"
+}

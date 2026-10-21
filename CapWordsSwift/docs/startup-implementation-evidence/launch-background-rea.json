@@ -1,0 +1,519 @@
+{
+  "plist": {
+    "evidence_id": "ev_04858ae80c728f59aba46d83cbd839d41e0cfe2d1eae8a2ba3a8c282d8bb6362",
+    "subject": {
+      "name": "SnapWords",
+      "digest": {
+        "sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265"
+      },
+      "local_path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/SnapWords",
+      "format": "mach-o",
+      "architecture": "arm64"
+    },
+    "provider": {
+      "id": "native-macos",
+      "name": "macOS native inspection utilities",
+      "version": null
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_plist",
+    "parameters": {
+      "path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/Info.plist"
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "format": "xml",
+      "value": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleTypeRole": "Editor",
+            "CFBundleURLName": "com.happyplantech.snapwords",
+            "CFBundleURLSchemes": [
+              "snapwords"
+            ]
+          }
+        ],
+        "UIRequiresFullScreen": false,
+        "CFBundleInfoDictionaryVersion": "6.0",
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationLandscapeLeft",
+          "UIInterfaceOrientationLandscapeRight",
+          "UIInterfaceOrientationPortrait",
+          "UIInterfaceOrientationPortraitUpsideDown"
+        ],
+        "DTPlatformVersion": "27.0",
+        "CFBundleName": "SnapWords",
+        "DTSDKName": "iphoneos27.0",
+        "DTAppStoreToolsBuild": "27A261",
+        "NSPhotoLibraryUsageDescription": "CapWords displays authorized photos for selection. Only photos in a selection you confirm are uploaded to AI for sticker recognition.",
+        "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
+        "CFBundleIcons": {
+          "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+              "AppIcon60x60"
+            ],
+            "CFBundleIconName": "AppIcon"
+          }
+        },
+        "UILaunchScreen": false,
+        "LSApplicationCategoryType": "public.app-category.education",
+        "CFBundleDisplayName": "CapWords",
+        "LSRequiresIPhoneOS": true,
+        "LSApplicationQueriesSchemes": [
+          "twitter",
+          "tg"
+        ],
+        "NSLocationWhenInUseUsageDescription": "CapWords uses your location to include your city and local weather in conversations.",
+        "UIBackgroundModes": [
+          "processing",
+          "remote-notification",
+          "audio"
+        ],
+        "DTSDKBuild": "24A430",
+        "NSCameraUsageDescription": "To allow you to take pictures and recognize object words, CapWords needs access to your camera",
+        "CFBundleShortVersionString": "2.0.9",
+        "CFBundleSupportedPlatforms": [
+          "iPhoneOS"
+        ],
+        "NSPrivacyTrackingDomains": [
+          "att-attr.appsflyer-cn.com",
+          "att-attr.appsflyersdk.com",
+          "att-attr.hevents.appsflyer-cn.com",
+          "att-attr.whappsflyer.com",
+          "att-conversions.appsflyer-cn.com",
+          "att-conversions.appsflyersdk.com",
+          "att-conversions.hevents.appsflyer-cn.com",
+          "att-conversions.whappsflyer.com",
+          "att-dlsdk.appsflyer-cn.com",
+          "att-dlsdk.appsflyersdk.com",
+          "att-dlsdk.hevents.appsflyer-cn.com",
+          "att-dlsdk.whappsflyer.com",
+          "att-launches.appsflyer-cn.com",
+          "att-launches.appsflyersdk.com",
+          "att-launches.hevents.appsflyer-cn.com",
+          "att-launches.whappsflyer.com"
+        ],
+        "UISupportedInterfaceOrientations": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "BuildMachineOSBuild": "25G83",
+        "DTPlatformBuild": "24A430",
+        "CFBundlePackageType": "APPL",
+        "BGTaskSchedulerPermittedIdentifiers": [
+          "com.HappyPlanTech.SnapWords.languageMigration.*"
+        ],
+        "CFBundleDevelopmentRegion": "en",
+        "DTXcodeBuild": "27A266a",
+        "CFBundleVersion": "445",
+        "MinimumOSVersion": "17.0",
+        "NSPhotoLibraryAddUsageDescription": "We need to save the image to your photo library",
+        "NSSpeechRecognitionUsageDescription": "We need access to speech recognition to convert your voice into text for a better user experience.",
+        "NSSupportsLiveActivities": true,
+        "UIAppFonts": [
+          "DINCondensed-Bold.ttf",
+          "InstrumentSerif-Regular.ttf"
+        ],
+        "UIDeviceFamily": [
+          1,
+          2
+        ],
+        "UILaunchStoryboardName": "NeutralLaunchScreen",
+        "NSMicrophoneUsageDescription": "We need access to your microphone so you can recognize and remember words through voice.",
+        "CFBundleIdentifier": "com.HappyPlanTech.SnapWords",
+        "UIApplicationSceneManifest": {
+          "UIApplicationSupportsMultipleScenes": false,
+          "UISceneConfigurations": {
+            "UIWindowSceneSessionRoleApplication": [
+              {
+                "UISceneDelegateClassName": "SnapWords.SceneDelegate",
+                "UISceneConfigurationName": "Default Configuration"
+              }
+            ]
+          }
+        },
+        "DTXcode": "2700",
+        "UIApplicationSupportsIndirectInputEvents": true,
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true
+        },
+        "CFBundleExecutable": "SnapWords",
+        "NSHealthUpdateUsageDescription": "CapWords does not write data to Apple Health. CapWords only reads selected health data with your permission to personalize conversations.",
+        "CFBundleIcons~ipad": {
+          "CFBundlePrimaryIcon": {
+            "CFBundleIconFiles": [
+              "AppIcon60x60",
+              "AppIcon76x76"
+            ],
+            "CFBundleIconName": "AppIcon"
+          }
+        },
+        "DTPlatformName": "iphoneos",
+        "DecryptedBy": "@FastDecryptBot - https://t.me/FastDecryptBot",
+        "NSHealthShareUsageDescription": "CapWords uses your steps, workouts, sleep, and recovery data to make conversations feel more relevant to your day.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "DTCompiler": "com.apple.compilers.llvm.clang.1_0"
+      },
+      "bundle": {
+        "identifier": "com.HappyPlanTech.SnapWords",
+        "executable": "SnapWords",
+        "name": "SnapWords",
+        "version": "445",
+        "short_version": "2.0.9"
+      },
+      "source_path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/Info.plist",
+      "provenance": [
+        {
+          "tool": "file",
+          "command": [
+            "/usr/bin/file",
+            "-b",
+            "$PLIST"
+          ],
+          "tool_version": null,
+          "version_reason": "Tool exposes no uniform stable version flag; executable SHA-256 is a prelaunch file sample and does not prove atomic OS image binding.",
+          "executable_sha256": "7c38677632d04912c401321b3a99371b0327da1937c3dbf28ae00450d22d1d78",
+          "exit": {
+            "code": 0,
+            "signal": null
+          },
+          "stdout_bytes": 34,
+          "stderr_bytes": 0
+        },
+        {
+          "tool": "plutil",
+          "command": [
+            "/usr/bin/plutil",
+            "-convert",
+            "json",
+            "-o",
+            "-",
+            "--",
+            "$PLIST"
+          ],
+          "tool_version": null,
+          "version_reason": "Tool exposes no uniform stable version flag; executable SHA-256 is a prelaunch file sample and does not prove atomic OS image binding.",
+          "executable_sha256": "787133c1e3277b12a400d6a53a617429b10dd7a0fdeea5ce11bee9ff2970a34e",
+          "exit": {
+            "code": 0,
+            "signal": null
+          },
+          "stdout_bytes": 3982,
+          "stderr_bytes": 0
+        }
+      ],
+      "limitations": []
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/Info.plist"
+      }
+    ],
+    "evidence_links": []
+  },
+  "interfaceBuilder": {
+    "evidence_id": "ev_785fa12e679d8dcd97a3c6444bb9ab9602cf9a7f7a1acd4ee4522e73f87d0281",
+    "subject": {
+      "name": "SnapWords",
+      "digest": {
+        "sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265"
+      },
+      "local_path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/SnapWords",
+      "format": "mach-o",
+      "architecture": "arm64"
+    },
+    "provider": {
+      "id": "rea-analysis-view",
+      "name": "REA analysis view projection",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis-view",
+    "operation": "inspect_analysis_view",
+    "parameters": {
+      "parent_evidence_id": "ev_39c64991937257d9b404c50507a3b58a89d971c64b2865680c1c2389df2f34dd",
+      "view": {
+        "kind": "interface-builder",
+        "offset": 4,
+        "limit": 6,
+        "collection": "nodes"
+      }
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "kind": "interface-builder",
+      "view": {
+        "kind": "interface-builder",
+        "offset": 4,
+        "limit": 6,
+        "collection": "nodes"
+      },
+      "items": [
+        {
+          "id": "ib:\"NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib\":object:[\"8\"]",
+          "kind": "resource",
+          "name": "UIImageView",
+          "location": null,
+          "attributes": {
+            "class_name": "UIImageView",
+            "interface_builder_object_id": "8",
+            "nibValues": {
+              "UIAutoresizeSubviews": false,
+              "UIAutoresizingMask": 36,
+              "UIBounds": {
+                "$nib_data_base64": "BwAAAAAAAAAAAAAAAAAAAAAAAAAAAJB4QAAAAAAAoIpA"
+              },
+              "UICenter": {
+                "$nib_data_base64": "BwAAAAAAkGhAAAAAAACgekA="
+              },
+              "UIClipsToBounds": false,
+              "UIDeepDrawRect": false,
+              "UIImage": {
+                "objectID": "10"
+              },
+              "UIOpaque": false,
+              "UIUserInteractionDisabled": false,
+              "UIViewContentHuggingPriority": "{251, 251}",
+              "UIViewDoesNotTranslateAutoresizingMaskIntoConstraints": false,
+              "UIViewLargeContentStoredProperties": null,
+              "UIViewSemanticContentAttribute": 0
+            }
+          },
+          "evidence": [
+            {
+              "kind": "interface_builder_resource",
+              "description": "object 8",
+              "location": {
+                "address": null,
+                "file_offset": null
+              },
+              "artifact_path": "NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+              "artifact_sha256": "fe9b1fc23eea8eac879be7b16bd58a47cdd2aed0fb2352824a965e3356ba726c"
+            }
+          ]
+        },
+        {
+          "id": "ib:\"NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib\":object:[\"10\"]",
+          "kind": "placeholder",
+          "name": "launch_band_background",
+          "location": null,
+          "attributes": {
+            "class_name": "UIImageNibPlaceholder",
+            "interface_builder_object_id": "10",
+            "nibValues": {
+              "UIImageHeight": 1,
+              "UIImageWidth": 1,
+              "UIResourceCatalogName": null,
+              "UIResourceName": "launch_band_background",
+              "UISymbolImageConfiguration": null,
+              "UISystemSymbolResourceName": null
+            }
+          },
+          "evidence": [
+            {
+              "kind": "interface_builder_resource",
+              "description": "object 10",
+              "location": {
+                "address": null,
+                "file_offset": null
+              },
+              "artifact_path": "NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+              "artifact_sha256": "fe9b1fc23eea8eac879be7b16bd58a47cdd2aed0fb2352824a965e3356ba726c"
+            }
+          ]
+        },
+        {
+          "id": "ib:\"NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib\":object:[\"12\"]",
+          "kind": "resource",
+          "name": "UIImageView",
+          "location": null,
+          "attributes": {
+            "class_name": "UIImageView",
+            "interface_builder_object_id": "12",
+            "nibValues": {
+              "UIAutoresizeSubviews": false,
+              "UIAutoresizingMask": 36,
+              "UIBounds": {
+                "$nib_data_base64": "BwAAAAAAAAAAAAAAAAAAAAAAAAAAAIBVQAAAAAAAgFVA"
+              },
+              "UICenter": {
+                "$nib_data_base64": "B1VVVVVVlWhAAAAAAACgekA="
+              },
+              "UIClipsToBounds": false,
+              "UIContentMode": 1,
+              "UIDeepDrawRect": false,
+              "UIImage": {
+                "objectID": "16"
+              },
+              "UIOpaque": false,
+              "UIUserInteractionDisabled": false,
+              "UIViewAutolayoutConstraints": {
+                "objectID": "13"
+              },
+              "UIViewContentHuggingPriority": "{251, 251}",
+              "UIViewDoesNotTranslateAutoresizingMaskIntoConstraints": false,
+              "UIViewLargeContentStoredProperties": null,
+              "UIViewSemanticContentAttribute": 0
+            }
+          },
+          "evidence": [
+            {
+              "kind": "interface_builder_resource",
+              "description": "object 12",
+              "location": {
+                "address": null,
+                "file_offset": null
+              },
+              "artifact_path": "NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+              "artifact_sha256": "fe9b1fc23eea8eac879be7b16bd58a47cdd2aed0fb2352824a965e3356ba726c"
+            }
+          ]
+        },
+        {
+          "id": "ib:\"NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib\":object:[\"14\"]",
+          "kind": "constraint",
+          "name": "NSLayoutConstraint",
+          "location": null,
+          "attributes": {
+            "class_name": "NSLayoutConstraint",
+            "interface_builder_object_id": "14",
+            "nibValues": {
+              "NSConstant": 86,
+              "NSConstantV2": 86,
+              "NSFirstAttribute": 7,
+              "NSFirstAttributeV2": 7,
+              "NSFirstItem": {
+                "objectID": "12"
+              },
+              "NSShouldBeArchived": false
+            }
+          },
+          "evidence": [
+            {
+              "kind": "interface_builder_resource",
+              "description": "object 14",
+              "location": {
+                "address": null,
+                "file_offset": null
+              },
+              "artifact_path": "NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+              "artifact_sha256": "fe9b1fc23eea8eac879be7b16bd58a47cdd2aed0fb2352824a965e3356ba726c"
+            }
+          ]
+        },
+        {
+          "id": "ib:\"NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib\":object:[\"15\"]",
+          "kind": "constraint",
+          "name": "NSLayoutConstraint",
+          "location": null,
+          "attributes": {
+            "class_name": "NSLayoutConstraint",
+            "interface_builder_object_id": "15",
+            "nibValues": {
+              "NSConstant": 86,
+              "NSConstantV2": 86,
+              "NSFirstAttribute": 8,
+              "NSFirstAttributeV2": 8,
+              "NSFirstItem": {
+                "objectID": "12"
+              },
+              "NSShouldBeArchived": false
+            }
+          },
+          "evidence": [
+            {
+              "kind": "interface_builder_resource",
+              "description": "object 15",
+              "location": {
+                "address": null,
+                "file_offset": null
+              },
+              "artifact_path": "NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+              "artifact_sha256": "fe9b1fc23eea8eac879be7b16bd58a47cdd2aed0fb2352824a965e3356ba726c"
+            }
+          ]
+        },
+        {
+          "id": "ib:\"NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib\":object:[\"16\"]",
+          "kind": "placeholder",
+          "name": "onboarding_launch_logo",
+          "location": null,
+          "attributes": {
+            "class_name": "UIImageNibPlaceholder",
+            "interface_builder_object_id": "16",
+            "nibValues": {
+              "UIImageHeight": 1,
+              "UIImageWidth": 1,
+              "UIResourceCatalogName": null,
+              "UIResourceName": "onboarding_launch_logo",
+              "UISymbolImageConfiguration": null,
+              "UISystemSymbolResourceName": null
+            }
+          },
+          "evidence": [
+            {
+              "kind": "interface_builder_resource",
+              "description": "object 16",
+              "location": {
+                "address": null,
+                "file_offset": null
+              },
+              "artifact_path": "NeutralLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib",
+              "artifact_sha256": "fe9b1fc23eea8eac879be7b16bd58a47cdd2aed0fb2352824a965e3356ba726c"
+            }
+          ]
+        }
+      ],
+      "parent_evidence_id": "ev_39c64991937257d9b404c50507a3b58a89d971c64b2865680c1c2389df2f34dd",
+      "parent_operation": "decode_interface_builder",
+      "parent_digest": "39c64991937257d9b404c50507a3b58a89d971c64b2865680c1c2389df2f34dd",
+      "view_digest": "abe3d1f533830dd265c2b62bef403034f1b39fafe9646dd4551d72d8334aa65b",
+      "artifact": {
+        "path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/SnapWords",
+        "sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265"
+      },
+      "coverage": {
+        "status": "page",
+        "examined": 6,
+        "total": 26,
+        "next_offset": 10,
+        "exhausted": false
+      },
+      "limitations": [
+        "A target-action selector is an Interface Builder observation and does not prove that the binary contains a matching implementation.",
+        "Compiled Interface Builder archives are private serialized object graphs. The decoder reports only recognized keyed-archive objects and connections; unrecognized object classes and fields remain unknown.",
+        "Decoded constraints, runtime visibility, dynamic UI creation, and pixel geometry are not inferred from these archives.",
+        "The graph reflects recognized Interface Builder archive fields and connections; omitted private or unrecognized archive fields remain unknown."
+      ],
+      "unknowns": [
+        "Rows describe recognized archive objects and connections only; unrecognized classes, fields and runtime-created UI remain unknown."
+      ],
+      "source_truncated": false
+    },
+    "confidence": "derived",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "A target-action selector is an Interface Builder observation and does not prove that the binary contains a matching implementation.",
+      "Compiled Interface Builder archives are private serialized object graphs. The decoder reports only recognized keyed-archive objects and connections; unrecognized object classes and fields remain unknown.",
+      "Decoded constraints, runtime visibility, dynamic UI creation, and pixel geometry are not inferred from these archives.",
+      "The graph reflects recognized Interface Builder archive fields and connections; omitted private or unrecognized archive fields remain unknown."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/private/var/folders/x_/q193j8y15wlgwc9xxd_3w1jh0000gp/T/rea-extracted-66330571-e71f-44af-9020-eb72fbd876a9/Payload/SnapWords.app/SnapWords"
+      }
+    ],
+    "evidence_links": [
+      "ev_39c64991937257d9b404c50507a3b58a89d971c64b2865680c1c2389df2f34dd"
+    ]
+  }
+}

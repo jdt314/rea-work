@@ -1,0 +1,17 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-19 00:34:56.838 Df splashboardd[49497:1d143a] [com.apple.xpc:connection] [0x101648000] activating connection: mach=false listener=false peer=true name=com.apple.splashboard.launchimage.peer[39582].0x101648000
+2026-10-19 00:34:56.839 Df splashboardd[49497:1d143a] [com.apple.SplashBoard:Capture] Running image request from SpringBoard.39582 for dev.reawork.CapWordsSwift
+2026-10-19 00:34:56.847 Df splashboardd[49497:1bf3f2] (UIKitCore) Could not load the "launch-bands" image referenced from a nib in the bundle with identifier "dev.reawork.CapWordsSwift"
+2026-10-19 00:34:56.855 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <_UIScreenBasedWindowScene: 0x10173c000> (D2099BB5-80EF-4650-BAF2-5AADAE45CE7A)
+2026-10-19 00:34:56.856 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <_UIScreenBasedWindowScene: 0x10173c000> (D2099BB5-80EF-4650-BAF2-5AADAE45CE7A)
+2026-10-19 00:34:56.860 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x101668460>; with scene: <_UIScreenBasedWindowScene: 0x10173c000>
+2026-10-19 00:34:56.863 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:EventDeferring] [0x1016689a0] Initialized with scene: <_UIScreenBasedWindowScene: 0x10173c000>; behavior: <_UIEventDeferringBehavior_iOS: 0x1016a3400>; availableForProcess: 1, systemShellManagesKeyboardFocus: 0
+2026-10-19 00:34:56.874 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updating window to <XBLaunchStateRequest: 0x101668700; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:34:56.883 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] Updated window
+2026-10-19 00:34:56.884 Df splashboardd[49497:1bf3f2] [com.apple.SplashBoard:Capture] [dev.reawork.CapWordsSwift] launch image generation completed after 0.044s
+2026-10-19 00:34:56.943 Df splashboardd[49497:1d143a] [com.apple.xpc:connection] [0x101648000] invalidated because the client process (pid 39582) either cancelled the connection or exited
+2026-10-19 00:34:56.947 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:SceneAutoInvalidation] Marking scene as needing invalidation: <_UIScreenBasedWindowScene: 0x10173c000>
+2026-10-19 00:34:56.948 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:SceneAutoInvalidation] Performing invalidation for scene: <_UIScreenBasedWindowScene: 0x10173c000; role: _UIScreenBasedSceneSession; persistentIdentifier: D2099BB5-80EF-4650-BAF2-5AADAE45CE7A; activationState: UISceneActivationStateForegroundActive>
+2026-10-19 00:34:56.948 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:EventDeferring] [0x1016689a0] Removing all event deferring rules for reason: _UIEventDeferringManager: 0x1016689a0: removing all deferring rules due to scene invalidation: 0x10173c000
+2026-10-19 00:34:56.950 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:KeyWindow] Scene will invalidate: _UIScreenBasedWindowScene: 0x10173c000; scene identity: (nil)
+2026-10-19 00:34:56.951 Df splashboardd[49497:1bf3f2] [com.apple.UIKit:HomeAffordanceObservation] Resetting home affordance notifier: <_UIHomeAffordanceSceneNotifier: 0x101668460; observers.count: 0>; for invalidating scene: <_UIScreenBasedWindowScene: 0x10173c000>

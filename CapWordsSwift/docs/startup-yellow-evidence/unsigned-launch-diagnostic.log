@@ -1,0 +1,603 @@
+Timestamp               Ty Process[PID:TID]
+2026-10-19 00:09:27.184 Df CoreSimulatorBridge[38830:1cc1fa] [com.apple.installcoordination:framework] +[IXPlaceholder _setEntitlementsFromBundleExecutableURL:withBundleID:client:onPlaceholder:location:error:]: Executable for dev.reawork.CapWordsSwift at CapWordsSwift -- file:///Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/ had no entitlements
+2026-10-19 00:09:27.185 Df CoreSimulatorBridge[38830:1cc1fa] [com.apple.installcoordination:framework] +[IXPlaceholder _placeholderForBundle:client:withParent:installType:metadata:placeholderType:mayBeDeltaPackage:isFromSerializedPlaceholder:location:error:]: Using full fidelity icons for dev.reawork.CapWordsSwift at /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app
+2026-10-19 00:09:27.200 E  installcoordinationd[43770:1cc1fb] [com.apple.installcoordination:daemon] _CheckTransferPathForSeed: Expected volume UUID for transfer path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app to match the volume UUID corresponding to location [system-defined] when creating promised transfer to path data promise with name: App Asset: dev.reawork.CapWordsSwift client: InstallCoordination Simple SPI - Error Domain=MIInstallerErrorDomain Code=232 "Path file:///Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/ on a volume with UUID [3D90460E-7560-4AEB-B43B-8B3FFD329156] does not match the expected location type [system-defined] that expects paths on a volume with UUID [29062363-1A50-4978-AAD3-E8D2381F9ED7]" UserInfo={NSLocalizedDescription=Path file:///Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/ on a volume with UUID [3D90460E-7560-4AEB-B43B-8B3FFD329156] does not match the expected location type [system-defined] that expects paths on a volume with UUID [29062363-1A50-4978-AAD3-E8D2381F9ED7]}
+2026-10-19 00:09:27.203 Df installcoordinationd[43770:1cc1fb] [com.apple.installcoordination:daemon] -[IXSCoordinatorManager coordinatorForIdentity:connection:error:creatingIfNotExisting:]_block_invoke: Registered coordinator: <IXSCoordinatedAppInstall<0x15e214000> [P=CoreSimulatorBridge (pid 38830)] identifier:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 intent:IXCoordinatorIntentUpdating creator/appDRI:InstallCoordination Simple SPI importance:Background state:IXAppCoordinationStatePlaceholderPromiseNotSet promise-state:01234>
+2026-10-19 00:09:27.233 Df runningboardd[38803:1cc20d] [com.apple.runningboard:connection] Received termination request from [osservice<com.apple.installcoordinationd>:43770] on <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> with context <RBSTerminateContext| explanation:installcoordinationd app:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 isPlaceholder:Y reportType:None maxTerminationResistance:Absolute attrs:[
+	<RBSPreventLaunchLimitation| <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> allow:(null)>
+	]>
+2026-10-19 00:09:27.237 Df runningboardd[38803:1cc20d] [com.apple.runningboard:ttl] Acquiring assertion targeting system from originator [osservice<com.apple.installcoordinationd>:43770] with description <RBSAssertionDescriptor| "installcoordinationd app:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 isPlaceholder:Y" ID:38803-43770-6189 target:system attributes:[
+	<RBSPreventLaunchLimitation| <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> allow:(null)>
+	]>
+2026-10-19 00:09:27.237 Df runningboardd[38803:1cc20d] [com.apple.runningboard:process] [app<dev.reawork.CapWordsSwift((null))>:49347] Terminating with context: <RBSTerminateContext| explanation:installcoordinationd app:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 isPlaceholder:Y reportType:None maxTerminationResistance:Absolute attrs:[
+	<RBSPreventLaunchLimitation| <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> allow:(null)>
+	]>
+2026-10-19 00:09:27.274 Df launchd_sim[38796:1cc15d] [user/502/UIKitApplication:dev.reawork.CapWordsSwift[cc85][rb-legacy] [49347]:] exited with exit reason (namespace: 15 code: 0x0) - OS_REASON_RUNNINGBOARD | <RBSTerminateContext| explanation:installcoordinationd app:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 isPlaceholder:Y reportType:None maxTerminationResistance:Absolute attrs:[
+	<RBSPreventLaunchLimitation| <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> allow:(null)>
+	]>, ran for 1823355ms
+2026-10-19 00:09:27.276 Df runningboardd[38803:1cc20f] [com.apple.runningboard:ttl] [app<dev.reawork.CapWordsSwift((null))>:49347] termination reported by launchd (15, 0, 9)
+2026-10-19 00:09:27.276 Df runningboardd[38803:1cc20f] [com.apple.runningboard:job] Removing launch job for: [app<dev.reawork.CapWordsSwift((null))>:49347]
+2026-10-19 00:09:27.341 Df installd[43774:1cc249] (MobileSystemServices) 0x16f9f3000 -[MIInstaller _installInstallable:containingSymlink:error:]: Installing <MIInstallableParallelPlaceholder ID=dev.reawork.CapWordsSwift; Persona=com.apple.containermanager.primary-persona, Version=1, ShortVersion=0.1.0>
+2026-10-19 00:09:27.346 Df installd[43774:1cc249] (MobileSystemServices) 0x16f9f3000 -[MIInstallableParallelPlaceholder performInstallationWithError:]: Installing parallel placeholder for [dev.reawork.CapWordsSwift/com.apple.containermanager.primary-persona/[system-defined]]
+2026-10-19 00:09:27.391 Df installd[43774:1cc249] (MobileSystemServices) 0x16f9f3000 -[MILaunchServicesOperationManager _onQueue_addPendingLaunchServicesOperation:error:]: Added pending LS operation <MILaunchServicesRegisterOperation: 5A24FB57-4C84-4EC2-907E-0810E2BDB766:13 dev.reawork.CapWordsSwift/MIInstallationDomainSystemShared personas:[com.apple.containermanager.primary-persona]>
+2026-10-19 00:09:27.418 Df installd[43774:1cc249] (MobileSystemServices) 0x16f9f3000 -[MIJournal purgeJournalEntry:withError:]: Removing journal entry <MIInstallationJournalEntry<0x1408d1220> [dev.reawork.CapWordsSwift/com.apple.containermanager.primary-persona/[system-defined]]/MIInstallationDomainSystemShared op:3 phase:JournalPhaseDidRegisterWithLS version:1>
+2026-10-19 00:09:27.439 Df sleepd[43799:1c7668] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x15b258240> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.440 Df appstored[39034:1c8e4e] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7041f6c6c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.441 Df activitysharingd[42371:1b987b] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x163218e40> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.441 Df healthd[37650:1cc26f] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1452d12c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.442 Df callservicesd[38902:1cc221] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70046ca040> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.444 Df profiled[43833:1cbe80] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x700c430000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.444 Df locationd[38824:1cb4e2] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x152f08f00> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.444 Df routined[37765:1cc27a] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7012120fc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.445 Df runningboardd[38803:1cc20d] [com.apple.runningboard:connection] Received termination request from [osservice<com.apple.installcoordinationd>:43770] on <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> with context <RBSTerminateContext| explanation:installcoordinationd app:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 isPlaceholder:N reportType:None maxTerminationResistance:Absolute attrs:[
+	<RBSPreventLaunchLimitation| <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> allow:(null)>
+	]>
+2026-10-19 00:09:27.446 Df lsd[38849:1c8feb] [com.apple.launchservices:progress] Sent distributed notification com.apple.LaunchServices.applicationRegistered with payload {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 1;
+}
+2026-10-19 00:09:27.447 Df nsurlsessiond[38852:1cc14a] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x143e5d140> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.449 Df SpringBoard[38800:1cc26c] [com.apple.FrontBoard:ProcessWorkspace] [app<dev.reawork.CapWordsSwift>:49347] Workspace assertion invalidated: <NSError: 0x707e71ba20; domain: RBSAssertionErrorDomain; code: 1; "Assertions were invalidated, count = 3.
+38803-38800-6095: invalidation reason: 1
+38803-38800-6096: invalidation reason: 1
+38803-38800-6107: invalidation reason: 1">
+2026-10-19 00:09:27.449 Df deviceaccessd[43809:1be1d7] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1531d0600> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.453 Df ctkd[48408:1cc220] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x15c994000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.456 Df activityawardsd[42352:1c869c] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1481e0cc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.459 Df runningboardd[38803:1cc22a] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x14c9c8000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.462 Df homed[38982:1c8d24] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70102752c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.473 Df dasd[38826:1cbfa0] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x149b9c900> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.474 Df liveactivitiesd[43798:1b98b5] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70432aec40> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.474 Df clipserviced[43796:1be1d5] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x15f998000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.475 Df clipserviced[43796:1b01bd] [com.apple.ClipServices:ClipServices] CPSClipCleanupManager: Post notification with name: com.apple.LaunchServices.applicationRegistered, userInfo: {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 1;
+}
+2026-10-19 00:09:27.480 Df mobiletimerd[43905:1cc032] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1481c4d80> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.481 Df passd[38829:1c877a] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x170b34480> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.484 Df nanotimekitcompaniond[39262:1cc289] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7043ae4000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.488 Df installd[43774:1cc249] (MobileSystemServices) 0x16f9f3000 -[MIClientConnection updatePlaceholderMetadataForApp:installType:failureReason:underlyingError:failureSource:completion:]: Update placeholder metadata requested by client installcoordinationd (pid 43770 (502/20)) for app dev.reawork.CapWordsSwift installType = 1 failureReason = 0 underlyingError = (null) failureSource = 0
+2026-10-19 00:09:27.488 Df webbookmarksd[38903:1b5d25] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7041608000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.497 Df runningboardd[38803:1cc20d] [com.apple.runningboard:ttl] Acquiring assertion targeting system from originator [osservice<com.apple.installcoordinationd>:43770] with description <RBSAssertionDescriptor| "installcoordinationd app:[dev.reawork.CapWordsSwift/Invalid/[system-defined]] uuid:2CC2938A-CDD3-4FB8-BC19-EA0E4885CBD2 isPlaceholder:N" ID:38803-43770-6191 target:system attributes:[
+	<RBSPreventLaunchLimitation| <RBSProcessPredicate <RBSProcessBundleIdentifierPredicate "dev.reawork.CapWordsSwift">> allow:(null)>
+	]>
+2026-10-19 00:09:27.502 Df SpringBoard[38800:1c83ca] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7084086c40> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.509 Df donotdisturbd[43814:1cc295] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x703fe09800> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.511 Df callservicesd[38902:1cc298] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.511 Df ctkd[48408:1cc220] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.511 Df healthd[37650:1cc26f] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.511 Df clipserviced[43796:1b01bd] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.511 Df locationd[38824:1ca888] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.512 Df appstored[39034:1c8e4e] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.513 Df sleepd[43799:1c7668] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.513 Df liveactivitiesd[43798:1cc273] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.514 Df activitysharingd[42371:1b987b] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.514 Df nanotimekitcompaniond[39262:1cc289] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.514 Df deviceaccessd[43809:1be1d7] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.514 Df routined[37765:1cc27a] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.514 Df profiled[43833:1cc27b] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df runningboardd[38803:1cb032] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df passd[38829:1cc28a] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df webbookmarksd[38903:1b5d25] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df nsurlsessiond[38852:1cc149] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df dasd[38826:1cbfa0] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df homed[38982:1c8d24] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df mobiletimerd[43905:1cc032] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.515 Df donotdisturbd[43814:1cc295] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.516 Df activityawardsd[42352:1cc285] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.516 Df installcoordinationd[43770:1cc1fb] [com.apple.appinstallation:TransactionLog] dev.reawork.CapWordsSwift/Unknown Persona:5:11:2:1:Updated Placeholder install type with error (null)
+2026-10-19 00:09:27.516 Df installcoordinationd[43770:1cc1fb] [com.apple.appinstallation:TransactionLog] dev.reawork.CapWordsSwift/Unknown Persona:5:11:2:1:Updated PlaceholderMetadata for app with error (null)
+2026-10-19 00:09:27.517 Df lsd[38849:1cc222] [com.apple.launchservices:progress] Setting progress proportions for dev.reawork.CapWordsSwift to {
+    0 = "0.6";
+    1 = "0.4";
+    4 = 0;
+}, error is (null)
+2026-10-19 00:09:27.524 Df lsd[38849:1cc2a1] [com.apple.launchservices:progress] Sent distributed notification com.apple.LaunchServices.applicationRegistered with payload {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 1;
+}
+2026-10-19 00:09:27.532 Df appprotectiond[43780:1be199] [com.apple.appprotection:server] received note: name = com.apple.LaunchServices.applicationRegistered, object = Optional(AppProtection.DistnotedXPCEventStreamTranslator), userInfo = Optional([AnyHashable("isPlaceholder"): 1, AnyHashable("bundleIDs"): <__NSCFArray 0x156a1cf00>(
+dev.reawork.CapWordsSwift
+)
+])
+2026-10-19 00:09:27.540 Df deviceaccessd[43809:1cc280] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1531d0600> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.546 Df webbookmarksd[38903:1b5d25] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7041608000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.547 Df nsurlsessiond[38852:1cc149] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x143e5d140> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.550 Df homed[38982:1cc287] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70102752c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.552 Df donotdisturbd[43814:1cbe1e] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x703fe098c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.555 Df clipserviced[43796:1b01bd] [com.apple.ClipServices:ClipServices] CPSClipCleanupManager: Post notification with name: com.apple.LaunchServices.applicationRegistered, userInfo: {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 1;
+}
+2026-10-19 00:09:27.555 Df sleepd[43799:1c7668] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x15b258240> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.555 Df locationd[38824:1ca888] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x152f08f00> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.557 Df healthd[37650:1cc26f] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1452d12c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.557 Df activityawardsd[42352:1cc285] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1481e0cc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.557 Df ctkd[48408:1be182] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x15c994000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.557 Df liveactivitiesd[43798:1b98b5] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70432aeac0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.557 Df mobiletimerd[43905:1cc14c] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x1481c40c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.557 Df callservicesd[38902:1cc298] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70046c9c80> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.558 Df nanotimekitcompaniond[39262:1cc289] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7043ae4000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.559 Df clipserviced[43796:1be1d5] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x15f998000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.559 Df passd[38829:1cc28a] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x170b34480> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.560 Df activitysharingd[42371:1b987b] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x163218e40> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.561 Df SpringBoard[38800:1c83ca] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.561 Df profiled[43833:1cc27b] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x700c430000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.561 Df runningboardd[38803:1cb032] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x14c9c8000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.563 Df routined[37765:1cc27a] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7012120fc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.567 Df dasd[38826:1cc14b] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x149b9c900> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.568 Df PosterBoard[38948:1cc293] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7050e47840> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.568 Df PosterBoard[38948:1cc293] [com.apple.launchservices:appinstallation] LaunchServices observer: MetadataUpdate (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:27.582 Df SpringBoard[38800:1c83ca] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x70840867c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.593 Df appprotectiond[43780:1cc2ad] [com.apple.appprotection:server] received note: name = com.apple.LaunchServices.applicationRegistered, object = Optional(AppProtection.DistnotedXPCEventStreamTranslator), userInfo = Optional([AnyHashable("isPlaceholder"): 1, AnyHashable("bundleIDs"): <__NSCFArray 0x156a1cf00>(
+dev.reawork.CapWordsSwift
+)
+])
+2026-10-19 00:09:27.595 Df appstored[39034:1c8e4e] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7041f6c6c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.602 Df PosterBoard[38948:1cc293] [com.apple.launchservices:appinstallation] LaunchServices observer: InstallsStarted (
+    "<LSApplicationProxy: 0x7050e46dc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/com.apple.mobileinstallation.placeholder/ <dev.reawork.CapWordsSwift <placeholder >:1>"
+)
+2026-10-19 00:09:27.614 Df callservicesd[38902:1cc264] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x70046c9c80> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.615 Df liveactivitiesd[43798:1cc2ac] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x70432aedc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.615 Df sleepd[43799:1cc275] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x15b258240> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.616 Df appstored[39034:1c8e4e] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x7041f6c6c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.616 Df ctkd[48408:1cc220] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x15c994000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.616 Df healthd[37650:1cc07a] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x1452d12c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.620 Df activitysharingd[42371:1cc279] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x163218e40> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.629 Df nanotimekitcompaniond[39262:1cc289] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x7043ae4000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.629 Df routined[37765:1cc27a] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x7012120fc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.629 Df SpringBoard[38800:1c83ca] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x7084084f00> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.631 Df donotdisturbd[43814:1cc295] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x703fe098c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.631 Df deviceaccessd[43809:1be1d7] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x1531d0600> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.634 Df profiled[43833:1cbe80] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x700c430000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.637 Df runningboardd[38803:1cb032] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x14c9c8000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.637 Df webbookmarksd[38903:1b5d25] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x7041608000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.641 Df activityawardsd[42352:1c869c] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x1481e0cc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.641 Df clipserviced[43796:1be1d5] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x15f998000> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.641 Df nsurlsessiond[38852:1cc149] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x143e5d140> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.642 Df mobiletimerd[43905:1cc032] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x1481c40c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.642 Df passd[38829:1cc28a] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x170b34480> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.642 Df dasd[38826:1cbfa0] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x149b9c900> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.643 Df locationd[38824:1ca888] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x152f08f00> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.643 Df homed[38982:1c8d24] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x70102752c0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.675 Df PosterBoard[38948:1cc293] [com.apple.launchservices:appinstallation] LaunchServices observer: Will install (
+    "<LSApplicationProxy: 0x7050e46dc0> dev.reawork.CapWordsSwift file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/0BEEF50D-C125-4DFF-BEE2-FCE353519D14/CapWordsSwift.app/ <dev.reawork.CapWordsSwift <installed >:0>"
+)
+2026-10-19 00:09:27.710 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MIInstaller _installInstallable:containingSymlink:error:]: Installing <MIInstallableBundle ID=dev.reawork.CapWordsSwift; Persona=com.apple.containermanager.primary-persona, Version=1, ShortVersion=0.1.0>
+2026-10-19 00:09:27.711 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MIInstallable applyPatchWithError:]: Attempting Delta patch update of dev.reawork.CapWordsSwift from 1 (0.1.0) to 1 (0.1.0)
+2026-10-19 00:09:27.768 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MIInstallationJournalEntry _refreshUUIDForContainer:withError:]: Data container for dev.reawork.CapWordsSwift is now at /Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C
+2026-10-19 00:09:27.797 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MIContainer makeContainerLiveReplacingContainer:reason:waitForDeletion:withError:]: Made container live for dev.reawork.CapWordsSwift at /Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/AC8EFFB5-B31E-41AB-8988-B94E96E46E23
+2026-10-19 00:09:27.821 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MILaunchServicesOperationManager _onQueue_addPendingLaunchServicesOperation:error:]: Added pending LS operation <MILaunchServicesRegisterOperation: BA1263AC-9CF2-4957-889E-0321A16AE005:14 dev.reawork.CapWordsSwift/MIInstallationDomainSystemShared personas:[com.apple.containermanager.primary-persona]>
+2026-10-19 00:09:27.852 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MIJournal purgeJournalEntry:withError:]: Removing journal entry <MIInstallationJournalEntry<0x1408d06e0> [dev.reawork.CapWordsSwift/com.apple.containermanager.primary-persona/[system-defined]]/MIInstallationDomainSystemShared op:1 phase:JournalPhaseDidRegisterWithLS version:1>
+2026-10-19 00:09:27.880 Df lsd[38849:1cc29f] [com.apple.launchservices:progress] Sent distributed notification com.apple.LaunchServices.applicationRegistered with payload {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 0;
+}
+2026-10-19 00:09:27.892 Df clipserviced[43796:1be1d5] [com.apple.ClipServices:ClipServices] CPSClipCleanupManager: Post notification with name: com.apple.LaunchServices.applicationRegistered, userInfo: {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 0;
+}
+2026-10-19 00:09:27.894 Df appprotectiond[43780:1cc2ad] [com.apple.appprotection:server] received note: name = com.apple.LaunchServices.applicationRegistered, object = Optional(AppProtection.DistnotedXPCEventStreamTranslator), userInfo = Optional([AnyHashable("isPlaceholder"): 0, AnyHashable("bundleIDs"): <__NSCFArray 0x156a1f5c0>(
+dev.reawork.CapWordsSwift
+)
+])
+2026-10-19 00:09:28.019 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:FileManifest] Applications were replaced. Updating launch images for: (
+    "dev.reawork.CapWordsSwift"
+)
+2026-10-19 00:09:28.060 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:FileManifest] [dev.reawork.CapWordsSwift] Group sceneID:dev.reawork.CapWordsSwift-default deleting container with no valid snapshots: /Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C/Library/SplashBoard/Snapshots/sceneID:dev.reawork.CapWordsSwift-default
+2026-10-19 00:09:28.063 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x7085be5a80> [dev.reawork.CapWordsSwift] group isn't valid. removing from snapshotGroupsByID and will be culled later: <XBApplicationSnapshotGroup: 0x70631248e0; identifier: sceneID:dev.reawork.CapWordsSwift-default>
+2026-10-19 00:09:28.064 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x7085be5a80> [dev.reawork.CapWordsSwift] Deleting snapshots: (
+    "<XBApplicationSnapshot: 0x7064076f40; identifier: 8C8F97AC-6955-4CE6-8C1B-447DA265991C; launchInterfaceIdentifier: __from_UILaunchStoryboardName__; contentType: GeneratedDefault; referenceSize: {402, 874}; interfaceOrientation: Portrait; userInterfaceStyle: Light>"
+) matching predicate: <XBApplicationSnapshotPredicate: 0x7085861a10> {
+    contentTypeMask = GeneratedDefault;
+}
+2026-10-19 00:09:28.064 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x7085be5a80> [dev.reawork.CapWordsSwift] Deleting snapshot <XBApplicationSnapshot: 0x7064076f40; …447DA265991C> [dev.reawork.CapWordsSwift] for reason: _contentType: GeneratedDefault(1)
+2026-10-19 00:09:28.065 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x7085be5a80> [dev.reawork.CapWordsSwift] Deleting paths: (
+    "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}/8C8F97AC-6955-4CE6-8C1B-447DA265991C@3x.ktx"
+)
+2026-10-19 00:09:28.074 Df SpringBoard[38800:1cc26c] [com.apple.SplashBoard:Capture] Processing launch request <XBLaunchStateRequest: 0x7085b87800> for app: dev.reawork.CapWordsSwift.
+2026-10-19 00:09:28.074 Df SpringBoard[38800:1cc284] [com.apple.SplashBoard:Capture] Asynchronously generating image data for request: <XBLaunchStateRequest: 0x7085b87800; groupID: dev.reawork.CapWordsSwift - {DEFAULT GROUP}; statusBar: normal; refSize: {402, 874}; orientation: Portrait; userInterfaceStyle: Light>
+2026-10-19 00:09:28.076 Df SpringBoard[38800:beb3a] [com.apple.SpringBoard:SceneSnapshots] <SBSceneSnapshotRequestor: 0x708583f7a0> [sceneID:dev.reawork.CapWordsSwift-default] Requesting 2 snapshot(s) because the scene actually moved to the background
+2026-10-19 00:09:28.076 Df SpringBoard[38800:beb3a] [com.apple.FrontBoard:Common] Created: <FBSceneSnapshotAction: 0x706b5d2f80; sceneID:dev.reawork.CapWordsSwift-default>
+2026-10-19 00:09:28.076 Df runningboardd[38803:1cc20d] [com.apple.runningboard:ttl] Acquiring assertion targeting 49347 from originator [osservice<com.apple.SpringBoard>:38800] with description <RBSAssertionDescriptor| "FBSceneSnapshotAction:sceneID:dev.reawork.CapWordsSwift-default" ID:38803-38800-6193 target:49347 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.frontboard" name:"SceneSnapshotAction" sourceEnvironment:"(null)">,
+	<RBSDurationAttribute| invalidationDuration:5.00 warningDuration:0.00 startPolicy:Fixed endPolicy:Invalidate>
+	]>
+2026-10-19 00:09:28.076 Df SpringBoard[38800:1cc284] [com.apple.SplashBoard:Capture] Validating resource LaunchBandsScreen.storyboardc in NSBundle </Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/AC8EFFB5-B31E-41AB-8988-B94E96E46E23/CapWordsSwift.app> (not yet loaded)
+2026-10-19 00:09:28.077 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:Daemon] Dispatching XPC event: <distributed notification: com.apple.LaunchServices.applicationRegistered, userInfo: [AnyHashable("isPlaceholder"): 1, AnyHashable("bundleIDs"): <__NSSingleObjectArrayI 0x7043a26810>(
+dev.reawork.CapWordsSwift
+)
+]>
+2026-10-19 00:09:28.077 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:Daemon] Firing event: <distributed notification: com.apple.LaunchServices.applicationRegistered, userInfo: [AnyHashable("isPlaceholder"): 1, AnyHashable("bundleIDs"): <__NSSingleObjectArrayI 0x7043a26810>(
+dev.reawork.CapWordsSwift
+)
+]>
+2026-10-19 00:09:28.080 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:Daemon] Dispatching XPC event: <distributed notification: com.apple.LaunchServices.applicationRegistered, userInfo: [AnyHashable("isPlaceholder"): 1, AnyHashable("bundleIDs"): <__NSSingleObjectArrayI 0x7043a26810>(
+dev.reawork.CapWordsSwift
+)
+]>
+2026-10-19 00:09:28.081 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:Daemon] Firing event: <distributed notification: com.apple.LaunchServices.applicationRegistered, userInfo: [AnyHashable("isPlaceholder"): 1, AnyHashable("bundleIDs"): <__NSSingleObjectArrayI 0x7043a26810>(
+dev.reawork.CapWordsSwift
+)
+]>
+2026-10-19 00:09:28.081 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:Daemon] Dispatching XPC event: <distributed notification: com.apple.LaunchServices.applicationRegistered, userInfo: [AnyHashable("isPlaceholder"): 0, AnyHashable("bundleIDs"): <__NSSingleObjectArrayI 0x7043a26810>(
+dev.reawork.CapWordsSwift
+)
+]>
+2026-10-19 00:09:28.081 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:Daemon] Firing event: <distributed notification: com.apple.LaunchServices.applicationRegistered, userInfo: [AnyHashable("isPlaceholder"): 0, AnyHashable("bundleIDs"): <__NSSingleObjectArrayI 0x7043a26810>(
+dev.reawork.CapWordsSwift
+)
+]>
+2026-10-19 00:09:28.082 E  SpringBoard[38800:1cc284] [com.apple.SplashBoard:Capture] Resource validation error: Security error -67056 reading resource from bundle: file:///Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/AC8EFFB5-B31E-41AB-8988-B94E96E46E23/CapWordsSwift.app/LaunchBandsScreen.storyboardc/launch-controller-view-launch-view.nib, dev.reawork.CapWordsSwift v1
+2026-10-19 00:09:28.082 E  SpringBoard[38800:1cc284] [com.apple.SplashBoard:Capture] Snapshot generation resulted in an error with code: 11 for app bundleID: dev.reawork.CapWordsSwift
+2026-10-19 00:09:28.084 E  SpringBoard[38800:1cc284] [com.apple.SplashBoard:Capture] Noting that the application dev.reawork.CapWordsSwift has a bad launch image until it is updated.
+2026-10-19 00:09:28.348 Df SpringBoard[38800:beb3a] [com.apple.FrontBoard:Common] Invalidating: <FBSceneSnapshotAction: 0x706b5d2f80; sceneID:dev.reawork.CapWordsSwift-default>
+2026-10-19 00:09:28.348 Df SpringBoard[38800:1c769a] [com.apple.FrontBoard:Common] Got response for <FBSceneSnapshotAction: 0x706b5d2f80; sceneID:dev.reawork.CapWordsSwift-default>: <NSError: 0x707e7b3e10; domain: BSActionErrorDomain; code: 6 ("anulled")>
+2026-10-19 00:09:28.446 E  SpringBoard[38800:beb3a] [com.apple.FrontBoard:Scene] [(FBSceneManager):sceneID:dev.reawork.CapWordsSwift-default] Update failed: <NSError: 0x7063069050; domain: FBSceneErrorDomain; code: 1 ("operation-failed"); "Scene update failed."> {
+    NSUnderlyingError = <NSError: 0x7085a4f510; domain: FBWorkspace; code: 1; "Scene client is invalid.">;
+}
+2026-10-19 00:09:28.446 E  SpringBoard[38800:beb3a] [com.apple.FrontBoard:Scene] [(FBSceneManager):sceneID:dev.reawork.CapWordsSwift-default] Update failed: <NSError: 0x7063069050; domain: FBSceneErrorDomain; code: 1 ("operation-failed"); "Scene update failed."> {
+    NSUnderlyingError = <NSError: 0x7085a4e6d0; domain: FBWorkspace; code: 1; "Scene client is invalid.">;
+}
+2026-10-19 00:09:28.989 Df dmd[38943:bee5c] Received xpc stream event (distributed notification matching) with name: com.apple.LaunchServices.applicationRegistered user info: {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 1;
+}
+2026-10-19 00:09:29.193 Df CoreSimulatorBridge[38830:1beea3] Requesting launch of dev.reawork.CapWordsSwift with options: {
+    arguments =     (
+        "--uitesting",
+        "--exercise-startup",
+        "--seed-library",
+        "--onboarding-complete",
+        "--disable-daily-review"
+    );
+    environment =     {
+        TERM = "xterm-ghostty";
+    };
+    "terminate_running_process" = 1;
+}
+2026-10-19 00:09:29.193 Df CoreSimulatorBridge[38830:1beea3] Beginning launch sequence for bundle 'dev.reawork.CapWordsSwift'
+	retryTimeout: 120.000000 (default write com.apple.CoreSimulatorBridge LaunchRetryTimeout <value>)
+	bootTimeout: 300.000000 (default write com.apple.CoreSimulatorBridge BootRetryTimeout <value>)
+	bootLeeway: 120.000000 (default write com.apple.CoreSimulatorBridge BootLeeway <value>)
+	Note: Use 'xcrun simctl spawn booted defaults write <domain> <key> <value>' to modify defaults in the booted Simulator device.
+Simulator booted at: Sun Oct 18 13:01:05 2026
+Current time: Mon Oct 19 00:09:29 2026
+Within boot leeway: NO
+2026-10-19 00:09:29.193 Df CoreSimulatorBridge[38830:1beea3] Launch attempt #0 for bundle 'dev.reawork.CapWordsSwift', have been trying to launch for 0 seconds.
+2026-10-19 00:09:29.196 E  CoreSimulatorBridge[38830:1cc1fa] [com.apple.FrontBoard:Common] FBSSystemAppProxy: Error reported for termination request: <NSError: 0x1534a72d0; domain: NSPOSIXErrorDomain; code: 3 ("No such process"); "The request to terminate "dev.reawork.CapWordsSwift" failed. found nothing to terminate">
+2026-10-19 00:09:29.207 Df SpringBoard[38800:beb3a] [com.apple.SplashBoard:FileManifest] [dev.reawork.CapWordsSwift] Group dev.reawork.CapWordsSwift - {DEFAULT GROUP} deleting container with no valid snapshots: /Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C/Library/SplashBoard/Snapshots/dev.reawork.CapWordsSwift - {DEFAULT GROUP}
+2026-10-19 00:09:29.208 Df SpringBoard[38800:beb3a] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x707e795a80> [dev.reawork.CapWordsSwift] group isn't valid. removing from snapshotGroupsByID and will be culled later: <XBApplicationSnapshotGroup: 0x70841cf140; identifier: dev.reawork.CapWordsSwift - {DEFAULT GROUP}>
+2026-10-19 00:09:29.208 Df SpringBoard[38800:beb3a] [com.apple.SplashBoard:FileManifest] [dev.reawork.CapWordsSwift] Group sceneID:dev.reawork.CapWordsSwift-default deleting container with no valid snapshots: /Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C/Library/SplashBoard/Snapshots/sceneID:dev.reawork.CapWordsSwift-default
+2026-10-19 00:09:29.208 Df SpringBoard[38800:beb3a] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x707e795a80> [dev.reawork.CapWordsSwift] group isn't valid. removing from snapshotGroupsByID and will be culled later: <XBApplicationSnapshotGroup: 0x70841cf8e0; identifier: sceneID:dev.reawork.CapWordsSwift-default>
+2026-10-19 00:09:29.208 Df SpringBoard[38800:beb3a] [com.apple.SplashBoard:FileManifest] dev.reawork.CapWordsSwift Manifest is empty; purging everything at /Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C/Library/SplashBoard/Snapshots
+2026-10-19 00:09:29.237 Df runningboardd[38803:1cb032] [com.apple.runningboard:ttl] Acquiring assertion targeting app<dev.reawork.CapWordsSwift((null))> from originator [osservice<com.apple.SpringBoard>:38800] with description <RBSAssertionDescriptor| "FBApplicationProcess" ID:38803-38800-6203 target:app<dev.reawork.CapWordsSwift((null))> attributes:[
+	<RBSDomainAttribute| domain:"com.apple.frontboard" name:"SuspendableLPRunReason-Resume" sourceEnvironment:"(null)">,
+	<RBSDomainAttribute| domain:"com.apple.frontboard" name:"Visibility" sourceEnvironment:"(null)">,
+	<RBSDomainAttribute| domain:"com.apple.frontboard" name:"SuspendableRole-UIFocal" sourceEnvironment:"(null)">,
+	<RBSDomainAttribute| domain:"com.apple.frontboard" name:"SuspendableJetsamPriority-Foreground" sourceEnvironment:"(null)">,
+	<RBSDomainAttribute| domain:"com.apple.frontboard" name:"SuspendableBootstrapping" sourceEnvironment:"(null)">,
+	<RBSDomainAttribute| domain:"com.apple.pagein-prefetching" name:"LaunchPrefetch" sourceEnvironment:"(null)">
+	]>
+2026-10-19 00:09:29.237 Df runningboardd[38803:1cc290] [com.apple.DynamicPrefetching:default] start_scenario: recording pageins for bundleid "dev.reawork.CapWordsSwift" scenario "Launch"
+2026-10-19 00:09:29.237 Df runningboardd[38803:1cc290] [com.apple.DynamicPrefetching:default] start_scenario: Prefetching clean profile for bundleid "dev.reawork.CapWordsSwift" scenario "Launch"
+2026-10-19 00:09:29.237 Df runningboardd[38803:1cc22a] [com.apple.runningboard:job] Creating and launching job for: app<dev.reawork.CapWordsSwift((null))>
+2026-10-19 00:09:29.238 Df runningboardd[38803:1cc20d] [com.apple.runningboard:job_oversize] 'app<dev.reawork.CapWordsSwift((null))>' Constructed job description:
+<dictionary: 0x14cf04840> { count = 21, transaction: 0, voucher = 0x0, contents =
+	"ProcessType" => <string: 0x14cf460d0> { string cache = 0x0, length = 3, contents = "App" }
+	"EnableTransactions" => <bool: 0x107e25420>: false
+	"_ManagedBy" => <string: 0x14cf45380> { string cache = 0x0, length = 22, contents = "com.apple.runningboard" }
+	"RootedSimulatorPath" => <bool: 0x107e25400>: true
+	"CFBundleIdentifier" => <string: 0x14cf46d90> { string cache = 0x0, length = 25, contents = "dev.reawork.CapWordsSwift" }
+	"_ResourceCoalition" => <string: 0x14cf47060> { string cache = 0x0, length = 38, contents = "app<dev.reawork.CapWordsSwift((null))>" }
+	"_POSIXSpawnTelemetryPageIn" => <bool: 0x107e25400>: true
+	"ThrottleInterval" => <int64: 0xba992df1cacdb66f>: 2147483647
+	"MachServices" => <dictionary: 0x14cf04240> { count = 0, transaction: 0, voucher = 0x0, contents =
+	}
+	"EnablePressuredExit" => <bool: 0x107e25420>: false
+	"InitialTaskRole" => <int64: 0xba992df23532499f>: 1
+	"UserName" => <string: 0x14cf45650> { string cache = 0x0, length = 6, contents = "mobile" }
+	"EnvironmentVariables" => <dictionary: 0x14cf052c0> { count = 5, transaction: 0, voucher = 0x0, contents =
+		"TMPDIR" => <string: 0x14cf449f0> { string cache = 0x0, length = 165, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C/tmp" }
+		"HOME" => <string: 0x14cf46d00> { string cache = 0x0, length = 161, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C" }
+		"CFFIXED_USER_HOME" => <string: 0x14cf47900> { string cache = 0x0, length = 161, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C" }
+		"TERM" => <string: 0x14cf44120> { string cache = 0x0, length = 13, contents = "xterm-ghostty" }
+		"_DYLD_CLOSURE_HOME" => <string: 0x14cf477b0> { string cache = 0x0, length = 161, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C" }
+	}
+	"_AdditionalProperties" => <dictionary: 0x14cf055c0> { count = 1, transaction: 0, voucher = 0x0, contents =
+		"RunningBoard" => <dictionary: 0x14cf04d80> { count = 3, transaction: 0, voucher = 0x0, contents =
+			"Managed" => <bool: 0x107e25400>: true
+			"RunningBoardLaunchedIdentity" => <dictionary: 0x14cf05020> { count = 2, transaction: 0, voucher = 0x0, contents =
+				"TYPE" => <int64: 0xba992df235324987>: 2
+				"EAI" => <string: 0x14cf44570> { string cache = 0x0, length = 25, contents = "dev.reawork.CapWordsSwift" }
+			}
+			"RunningBoardLaunched" => <bool: 0x107e25400>: true
+		}
+	}
+	"ExitTimeOut" => <int64: 0xba992df23532499f>: 1
+	"Label" => <string: 0x14cf44090> { string cache = 0x0, length = 59, contents = "UIKitApplication:dev.reawork.CapWordsSwift[550b][rb-legacy]" }
+	"MaterializeDatalessFiles" => <bool: 0x107e25400>: true
+	"SandboxContainer" => <string: 0x14cf44d20> { string cache = 0x0, length = 161, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Data/Application/D7C1871C-6A8E-4AFA-A0FB-89B2E5E2411C" }
+	"_LaunchType" => <int64: 0xba992df23532498f>: 3
+	"ProgramArguments" => <array: 0x14cf458f0> { count = 6, capacity = 10, contents =
+		0: <string: 0x14cf44360> { string cache = 0x0, length = 195, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/AC8EFFB5-B31E-41AB-8988-B94E96E46E23/CapWordsSwift.app/CapWordsSwift" }
+		1: <string: 0x14cf47690> { string cache = 0x0, length = 11, contents = "--uitesting" }
+		2: <string: 0x14cf47f30> { string cache = 0x0, length = 18, contents = "--exercise-startup" }
+		3: <string: 0x14cf47c30> { string cache = 0x0, length = 14, contents = "--seed-library" }
+		4: <string: 0x14cf45050> { string cache = 0x0, length = 21, contents = "--onboarding-complete" }
+		5: <string: 0x14cf44300> { string cache = 0x0, length = 22, contents = "--disable-daily-review" }
+	}
+	"Program" => <string: 0x14cf45bc0> { string cache = 0x0, length = 195, contents = "/Volumes/homex/Library/Developer/CoreSimulator/Devices/CE0B9DF8-87CD-4D20-9AEB-0AE7163F777C/data/Containers/Bundle/Application/AC8EFFB5-B31E-41AB-8988-B94E96E46E23/CapWordsSwift.app/CapWordsSwift" }
+}
+2026-10-19 00:09:29.247 E  SpringBoard[38800:beb3a] [com.apple.SplashBoard:Capture] Snapshot generation request for bundleID: dev.reawork.CapWordsSwift rejected due to the app being denylisted.
+2026-10-19 00:09:29.252 Df dmd[38943:bee5c] Received xpc stream event (distributed notification matching) with name: com.apple.LaunchServices.applicationRegistered user info: {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 1;
+}
+2026-10-19 00:09:29.259 E  runningboardd[38803:1cc22a] [com.apple.runningboard:process] [app<dev.reawork.CapWordsSwift((null))>:54216] Memorystatus failed with unexpected error: Operation not permitted (1)
+2026-10-19 00:09:29.259 E  runningboardd[38803:1cc22a] [com.apple.runningboard:process] [app<dev.reawork.CapWordsSwift((null))>:54216] Memorystatus failed with unexpected error: Invalid argument (22)
+2026-10-19 00:09:29.259 E  runningboardd[38803:1cc22a] [com.apple.runningboard:process] [app<dev.reawork.CapWordsSwift((null))>:54216] Memorystatus failed with unexpected error: Operation not permitted (1)
+2026-10-19 00:09:29.261 E  runningboardd[38803:1cc290] [com.apple.runningboard:process] [app<dev.reawork.CapWordsSwift((null))>:54216] Error 1 setting Carplay mode to 0: Operation not permitted
+2026-10-19 00:09:29.265 Df dmd[38943:bee5c] Received xpc stream event (distributed notification matching) with name: com.apple.LaunchServices.applicationRegistered user info: {
+    bundleIDs =     (
+        "dev.reawork.CapWordsSwift"
+    );
+    isPlaceholder = 0;
+}
+2026-10-19 00:09:29.294 Df linkd[43806:1cc2a6] [com.apple.appintents:IndexCoordinator] Auditing metadata, received XPC event com.apple.LaunchServices.applicationRegistered ["bundleIDs": <__NSSingleObjectArrayI 0x14723d040>(
+dev.reawork.CapWordsSwift
+)
+, "isPlaceholder": 0]
+2026-10-19 00:09:29.297 Df SpringBoard[38800:1cc281] [com.apple.FrontBoard:ProcessWorkspace] [app<dev.reawork.CapWordsSwift>:54216] Initial launch state: FV-Focal[100].
+2026-10-19 00:09:29.360 Df CoreSimulatorBridge[38830:1beea3] Launch successful for 'dev.reawork.CapWordsSwift', pid: 54216
+2026-10-19 00:09:29.397 Df lsd[38849:1cc271] [com.apple.launchservices:appinstallation] Save after update app record for bundle dev.reawork.CapWordsSwift attempted: 1 save error: (null)
+2026-10-19 00:09:29.399 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MILaunchServicesOperationManager _onQueue_removePendingLaunchServicesOperationForUUID:dueToLSSave:]: Removing operation after LS save: <MILaunchServicesRegisterOperation: 5A24FB57-4C84-4EC2-907E-0810E2BDB766:13 dev.reawork.CapWordsSwift/MIInstallationDomainSystemShared personas:[com.apple.containermanager.primary-persona]>
+2026-10-19 00:09:29.405 Df installd[43774:1be2b3] (MobileSystemServices) 0x16fa7f000 -[MILaunchServicesOperationManager _onQueue_removePendingLaunchServicesOperationForUUID:dueToLSSave:]: Removing operation after LS save: <MILaunchServicesRegisterOperation: BA1263AC-9CF2-4957-889E-0321A16AE005:14 dev.reawork.CapWordsSwift/MIInstallationDomainSystemShared personas:[com.apple.containermanager.primary-persona]>
+2026-10-19 00:09:29.425 Df SpringBoard[38800:beb3a] [com.apple.SpringBoard:Common] No capture application found for the dev.reawork.CapWordsSwift, launchCameraCapture: NO, isCaptureApplication: NO
+2026-10-19 00:09:29.430 Df SpringBoard[38800:beb3a] [com.apple.SpringBoard:AppSwitcher] [Main (EmbeddedDisplay)] handle response:
+<SBSwitcherModifierEventResponse: 0x707e78e430> {
+    <SBSwitcherModifierEventResponse: 0x707e78d0e0> {
+	    <SBSwitcherModifierEventResponse: 0x707e78c720> {
+		    <SBTimerEventSwitcherEventResponse: 0x707e78e5b0; delay: 0.240000; reason: kSBTransitionModifierInvalidateAsyncRenderingReason>;
+		    <SBInvalidateAdjustedAppLayoutsSwitcherEventResponse: 0x707e78ff30>;
+		};
+	    <SBTimerEventSwitcherEventResponse: 0x707e78f450; delay: 0.060000; reason: kSBFullScreenToHomeCornerRadiusDelayReason>;
+	};
+    <SBSwitcherModifierEventResponse: 0x707e78fd80> {
+	    <SBUpdateLayoutSwitcherEventResponse: 0x7064240b40; updateVisibleItems; layout; style; mode: None>;
+	    <SBRequestFolderSnapshotsSwitcherEventResponse: 0x707e78e580; snapshotRequested: YES>;
+	    <SBIconOverlayVisibilitySwitcherEventResponse: 0x7064241640; visible: YES; appLayout: <SBAppLayout: 0x707e4d3db0; primary: dev.reawork.CapWordsSwift:default; environment: main>>;
+	    <SBIconViewVisibilitySwitcherEventResponse:
+2026-10-19 00:09:29.492 Df storekitd[39238:1be2eb] [com.apple.storekit:Default] [storekitd.LaunchServicesObserver] Handling installed event for ["dev.reawork.CapWordsSwift"]
+2026-10-19 00:09:29.909 Df SpringBoard[38800:beb3a] [com.apple.SpringBoard:AppSwitcher] [Main (EmbeddedDisplay)] handle response:
+<SBSwitcherModifierEventResponse: 0x707e799620> {
+    <SBPreemptAnimationSwitcherEventResponse: 0x707e798930>;
+    <SBSwitcherModifierEventResponse: 0x707e79a610> {
+	    <SBInvalidateAdjustedAppLayoutsSwitcherEventResponse: 0x707e799f20>;
+	    <SBSwitcherModifierEventResponse: 0x707e79a1c0> {
+		    <SBRequestFolderSnapshotsSwitcherEventResponse: 0x707e799860; snapshotRequested: NO>;
+		    <SBIconOverlayVisibilitySwitcherEventResponse: 0x707131f240; visible: NO; appLayout: <SBAppLayout: 0x707e4d3db0; primary: dev.reawork.CapWordsSwift:default; environment: main>>;
+		    <SBIconViewVisibilitySwitcherEventResponse: 0x7085b9c5a0; visible: YES; animationSettings: 0x0; appLayout: <SBAppLayout: 0x707e4d3db0; primary: dev.reawork.CapWordsSwift:default; environment: main>>;
+		    <SBMatchMoveToIconViewSwitcherEventResponse: 0x707e75aa00; active: NO; appLayout: <SBAppLayout: 0x707e4d3db0; primary: dev.reawork.CapWordsSwift:default; environment: main>>;
+		};
+	};
+}
+2026-10-19 00:09:30.222 Df SpringBoard[38800:1cc281] [com.apple.SplashBoard:SnapshotReaper] <XBApplicationSnapshotManifestImpl: 0x707e795a80> [dev.reawork.CapWordsSwift] Reaping invalid snapshot <XBApplicationSnapshot: 0x7064067800; …C20F658B7E48> [dev.reawork.CapWordsSwift]
+ invalidReason: expired. expirationDate: 0001-01-01 00:00:00 +0000; how long ago (seconds): 63928109370.220741
+2026-10-19 00:09:30.222 Df SpringBoard[38800:1cc281] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x707e795a80> [dev.reawork.CapWordsSwift] Deleting snapshot <XBApplicationSnapshot: 0x7064067800; …C20F658B7E48> [dev.reawork.CapWordsSwift] for reason: _contentType: GeneratedDefault(1)
+2026-10-19 00:09:30.222 Df SpringBoard[38800:1cc281] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x707e795a80> [dev.reawork.CapWordsSwift] We don't have any snapshots, so we're clearing our manifest data.
+2026-10-19 00:09:31.287 Df SpringBoard[38800:1cc281] [com.apple.SplashBoard:FileManifest] <XBApplicationSnapshotManifestImpl: 0x707e795a80> [dev.reawork.CapWordsSwift] We don't have any snapshots, so we're clearing our manifest data.
+2026-10-19 00:09:35.928 Df runningboardd[38803:1cc22a] [com.apple.runningboard:ttl] Acquiring assertion targeting [app<dev.reawork.CapWordsSwift((null))>:54216] from originator [app<dev.reawork.CapWordsSwift((null))>:54216] with description <RBSAssertionDescriptor| "app_launch_measurement: pageins recording enabled" ID:38803-54216-6219 target:54216 attributes:[
+	<RBSDomainAttribute| domain:"com.apple.pagein-prefetching" name:"LaunchPrefetch" sourceEnvironment:"(null)">
+	]>
+2026-10-19 00:09:35.971 Df InputUI[38941:1cc25c] [com.apple.FrontBoard:ProcessWorkspace] [app<dev.reawork.CapWordsSwift>:54216] Initial launch state: BG-Active[40].
+2026-10-19 00:09:36.794 Df SpringBoard[38800:1cc26c] [com.apple.FrontBoard:ProcessWorkspace] [app<dev.reawork.CapWordsSwift>:54216] Dropping launch assertion.
+2026-10-19 00:09:37.022 Df InputUI[38941:1cc4d3] [com.apple.FrontBoard:ProcessWorkspace] [app<dev.reawork.CapWordsSwift>:54216] Dropping launch assertion.
+2026-10-19 00:09:37.618 Df BackgroundShortcutRunner[54230:1cc4fb] [com.apple.shortcuts:ToolKitIndexing] Indexing for request: <WFToolKitIndexingRequest: 0x7043c8d020>, changeset: .partial(updatedCount: 1 removedCount: 0 updated: ["dev.reawork.CapWordsSwift"], removed: [], provenance: [VoiceShortcutClient.ToolKitIndexingReason.Changeset.Provenance.launchServicesSnapshot(<LaunchServicesSnapshot uuid=2BACB84B-2854-46D2-A867-2BC209F0E858, v=852)> ["com.apple.AppProtectionUIHost", "com.apple.mobilecal", "com.apple.livetranscriptionui", "com.apple.chrono.WidgetRenderer-Snapshots", "com.apple.ServicesPaymentAngel", "com.apple.EventViewService", "com.apple.LocalAuthenticationUIService", "com.apple.AskToUIHost", "com.apple.donotdisturb.DoNotDisturbAppIntents", "com.apple.siri.SiriCrisisAppIntentsExtension", "com.apple.GradientPoster", "com.apple.icq", "com.apple.telephony.SettingsCellularAppIntentsExtension", "com.apple.RemotePassUIService", "com.apple.GuestUserHandoverSetup", "com.apple.Posters.UnityPosterApp", "com.apple.contacts.ContactsAppIntentsExtension", "com.apple.Fitness.FitnessSettingsIntents", "com.apple.calls.PhoneAppIntentsEx<…>, priority: <decode: missing data>
+2026-10-19 00:09:38.887 Df runningboardd[38803:1cc20f] [com.apple.DynamicPrefetching:default] end_scenario: Called with bundleid "dev.reawork.CapWordsSwift" scenario "Launch"
+2026-10-19 00:09:39.744 Df siriactionsd[43803:1cc27f] [com.apple.shortcuts:ToolKitScheduler] retriable indexing: decoded result from BGSR: changeset=.partial(updatedCount: 1 removedCount: 0 updated: ["dev.reawork.CapWordsSwift"], removed: [], provenance: [VoiceShortcutClient.ToolKitIndexingReason.Changeset.Provenance.launchServicesSnapshot(<LaunchServicesSnapshot uuid=2BACB84B-2854-46D2-A867-2BC209F0E858, v=852)> ["com.apple.Preferences.PassbookSettingsIntentExtension", "com.apple.PASViewService", "com.apple.findmy.FindMyIntents", "com.apple.MTLReplayer", "com.apple.UIKit.OverlayUI", "com.apple.mobiletimer.WorldClockIntentsExtension", "com.apple.chrono.WidgetRenderer-Default", "com.apple.Health", "com.apple.PassbookUIService", "com.apple.HearingApp", "com.apple.SharingUIService", "com.apple.CameraOverlayAngel", "com.apple.SubcredentialUIService", "com.apple.Preferences", "com.apple.health.HealthIntentsExtension", "com.apple.GradientPoster", "com.apple.AppleCashStickerPackHost", "com.apple.SystemIntents", "com.apple.SafariViewService", "com.apple.AccessoryNotifications.SourceSelection", "com.apple.VoiceOverTouch", "com.apple.NotificationsSettingsE<…> removedTools=<decode: missing data>
+2026-10-19 00:12:51.391 Df log[54980:0] [com.apple.log:] log run noninteractively, parent: 38796 (launchd_sim), args: 'log' 'show' '--last' '6m' '--style' 'compact' '--predicate' 'eventMessage CONTAINS "LaunchBandsScreen" OR (eventMessage CONTAINS "dev.reawork.CapWordsSwift" AND (eventMessage CONTAINS[c] "launc
