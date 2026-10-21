@@ -1,0 +1,918 @@
+Command line invocation:
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/usr/bin/xcodebuild -project CapWordsSwift.xcodeproj -scheme CapWordsSwift -sdk iphonesimulator -destination "generic/platform=iOS Simulator" -derivedDataPath .build CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SDKROOT = iphonesimulator27.0
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'CapWordsSwift' in project 'CapWordsSwift' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Resources/Assets.xcassets
+
+ExecuteExternalTool /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 89f6f4ce976b609bdb956712500b9abe
+Build description path: /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/XCBuildData/89f6f4ce976b609bdb956712500b9abe.xcbuilddata
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/CompilationCache.noindex
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/CompilationCache.noindex
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex
+
+ClangStatCache /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift-01f957c1a00556c5c1b65a17f4ea9646-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift-01f957c1a00556c5c1b65a17f4ea9646-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/CapWordsSwift.xcodeproj
+    builtin-create-build-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.LinkFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.LinkFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_const_extract_protocols.json (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_const_extract_protocols.json
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_const_extract_protocols.json (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_const_extract_protocols.json
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-OutputFileMap.json (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-OutputFileMap.json
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.hmap (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.hmap
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-OutputFileMap.json (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-OutputFileMap.json
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.LinkFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.LinkFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftConstValuesFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftConstValuesFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyStaticMetadataFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyMetadataFileList (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-non-framework-target-headers.hmap (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibPath-normal-x86_64.txt (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibPath-normal-arm64.txt (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibInstallName-normal-x86_64.txt (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibInstallName-normal-arm64.txt (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    write-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /bin/mkdir -p /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app
+
+Ld /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios18.0-simulator -dynamiclib -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -install_name @rpath/CapWordsSwift.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_dependency_info.dat -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/__preview.dylib
+
+Ld /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios18.0-simulator -dynamiclib -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -install_name @rpath/CapWordsSwift.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_dependency_info.dat -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+MkDir /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /bin/mkdir -p /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned
+
+MkDir /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/unthinned (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /bin/mkdir -p /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/unthinned
+
+GenerateAssetSymbols /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Resources/Assets.xcassets (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Resources/Assets.xcassets --compile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app --output-format human-readable-text --notices --warnings --export-dependency-info /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_dependencies --output-partial-info-plist /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 18.0 --platform iphonesimulator --bundle-identifier dev.reawork.CapWordsSwift --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.h
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CompileAssetCatalogVariant thinned /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Resources/Assets.xcassets (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/usr/bin/actool /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Resources/Assets.xcassets --compile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 18.0 --platform iphonesimulator
+/* com.apple.actool.compilation-results */
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist_thinned
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned/Assets.car
+
+
+CreateUniversalBinary /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/__preview.dylib normal arm64\ x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/__preview.dylib /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/__preview.dylib
+
+SwiftDriver CapWordsSwift normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftDriver -- /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name CapWordsSwift -Onone @/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target x86_64-apple-ios18.0-simulator -g -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache -output-file-map /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -sdk-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -emit-dependencies -emit-module -emit-module-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources-normal/x86_64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/x86_64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-Swift.h -working-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver CapWordsSwift normal arm64 com.apple.xcode.tools.swift.compiler (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftDriver -- /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name CapWordsSwift -Onone @/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios18.0-simulator -g -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache -output-file-map /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -sdk-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -emit-dependencies -emit-module -emit-module-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources-normal/arm64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/arm64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-Swift.h -working-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_AvailabilityInternal-30LR4R8DCYQ69VMWCBLXCIOSA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ptrcheck-8BIB87RPVNV812F5COXF0ZJ3A.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdbool-9V7RD1TZES4EIRNUOFFG10BI8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_float-7UQZDDTIIJW6JJAKRB38OVDQL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdarg-75IREZ9P9BXNJIE7DFFZKDN6O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ptrauth-EXGFAUIGL6UKT3ITIRVUIO053.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/DeveloperToolsSupport-MY0O9JYD8QAPIC2OHS5PYQM8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/SwiftShims-ALV42EKDLMG9P1BTO13YMGU2Z.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_SwiftConcurrencyShims-F2ERZYHSWPJ79J30TY5AYA83P.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_SwiftConcurrencyShims-S0NTXJRO40YCLMAT6S529AFY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stddef-KYAGDIADBRPKYIRLJL8MZ649.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ptrauth-1LOJ0YGIR1IMA23JX91OKPVXI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/DeveloperToolsSupport-TXHF5LY3Z3D958KIUS04FJMJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/SwiftShims-6W3721QFWBFEEBO51EMJFVELH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_AvailabilityInternal-7OUGXJ0GEE5D7JWV88HAZ1U80.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdarg-3C6MTLHOP72YV6X7ZKPBR96WF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_float-BSR76CCKPJPO57B7WTALM7LKA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_DarwinFoundation1-985H8MLJF0SEBORKN2S2SADWN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ptrcheck-1GGPEOGYLG6LE6TJYJDWJ9743.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stddef-D084QQQQ8GOOB52ZLV4IGSKH7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdbool-DYFQ3H1J63SQFQ8TJ3A60HKEN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_DarwinFoundation1-5EPG9974NXOG5CSNVFMUFKI16.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ExtensionFoundation-91J7AH19PV6F1VCM37KVO0SZM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_limits-EQYRFXK07ED0I9Z7NUEMYVSBH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_DarwinFoundation2-4HGZQU0BY7YSHBODIFQRAKCEJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ExtensionFoundation-6IJO25J1CPO98EXOUMYAE4ODS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_DarwinFoundation2-CHJEXM72GOAP8YZDM10Z2NAMS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_limits-378OSM1Z0TGVL4FBVMM0KFS06.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/sys_types-7SUMC6Y54RHXKT8HLOTXXVX15.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/string_h-8M70TXW66K2LE3CB3XITOSN5L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdint-1I935QJNMFV72B4SJUP44HLM1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_tgmath-98LK97HEDC3G2EMH2YGTAOJTW.pcm
+
+LinkAssetCatalog /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Resources/Assets.xcassets (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-linkAssetCatalog --thinned /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/thinned --thinned-dependencies /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist_thinned --unthinned /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_output/unthinned --unthinned-dependencies /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist_unthinned --output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app --plist-output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist
+note: Emplaced /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Assets.car (in target 'CapWordsSwift' from project 'CapWordsSwift')
+note: Emplaced /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/AppIcon76x76@2x~ipad.png (in target 'CapWordsSwift' from project 'CapWordsSwift')
+note: Emplaced /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/AppIcon60x60@2x.png (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/sys_types-1TLK9RKDWWFGXKQFIKIDL4PQ0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_tgmath-6ZSA2O0PDG4TCCYBBL4NGL75E.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdint-680IQDZMP3S8X1NC7XO3J28G4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/string_h-9T4G3AFPT2FV2H1LRIGMYF32.pcm
+
+ProcessInfoPlistFile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Info.plist /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Info.plist (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-infoPlistUtility /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Info.plist -producttype com.apple.product-type.application -genpkginfo /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/assetcatalog_generated_info.plist -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Info.plist
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_intrinsics-1D53S1LQHHHL3BZ9CPVHRN430.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_DarwinFoundation3-1NVV9XBGN6URCG3YXUQ17E4RN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdatomic-AZNMNZHW00GLM86KE0EX1XIY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_stdatomic-2RYINSGQ8AFUOM073UG3B2Z12.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_DarwinFoundation3-EUFAJ3YCPN05M7BLWBMO74QLA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_inttypes-6MZR7CBRPWPOFGDD1RNPTJD4L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_intrinsics-AG0JPZ8M0JZ8SY36LK4TSBZNG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_Builtin_inttypes-8P4ECLRYALTGEFPFPT6TS3EVF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Darwin-47I0IYU2F9VJSNTNX4X6GCMET.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Darwin-84ROXHM7U2QGPO6FW48VL55IJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/simd-8VFFOHKESHNKXRX8CMX53HPNV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Compression-6RUBTYA71D9NHBRER6HZPFLCR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/MachO-6LMENL9JP6HUYV8BU5CME4RZ8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ObjectiveC-79PYQHAXT6W3JEXM5M6KBCRAE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ObjectiveC-4XKSWMTQJXYM3WSU7WUP3T3CO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/MachO-BSAJPYP0PFE3W2SSI4F3A9E55.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Compression-8SSG4QWHPCQ68V91OYEHHFOA5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/simd-WE6KJBEDRCHY0WHK53OEIM79.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/os_object-F024IO60RJRZL9LU785HK7KF1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/os_object-1L0G1ME6USBSUELFHMQR56X8B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/os_workgroup-9XHAE1PLGIE60RR020D1SO5YZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Spatial-3NOJIV4I9VE2D5PD4XLWT0XK7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/os_workgroup-C0VCQEPYRO42ICE5CCVX8CD7Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Dispatch-DMPNPJJ1J9Z5UQ7R21JW9G3DZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Dispatch-C52HJ1N3FL7Z2M4EIEUB9ZZAO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/dnssd-7UWJ8ICHGID8NXAN8OISN1NJA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreFoundation-36A528N83I8OP49PV5VRBO8C7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/XPC-EZ93B38KRHPYISKARQYQBAGF8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/dnssd-2YBIZK6ZFB37LJQZW2QK2CV0L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/XPC-2B1FCB5QP0UG95ZP2LGV8EQUW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreFoundation-6MYBNQ4MZVA5SH4QN5VF8V5FK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/os-GEJ407KVL76HEDVYXZXDL3TR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/os-E9L3EKB286FE47INY9OVQR2HW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreGraphics-5F3J2T1OVFDUHDVYGDEEX25LC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreAudioTypes-C4M6V65BSHP8ZRHU41QL0X3YC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CFNetwork-63G1DNV1S9OEV92FYBUZUYB2O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Security-A34IC2IWQB274GK6MERV3KRIX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreAudioTypes-2KPAIX69ZZZPQNAFEYX1O8PZN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreGraphics-YNIW02EEN25YVJWIGZ4S3HI4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Security-4KDGGNIVWE6RWKCEDNX0J5NGV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CFNetwork-A8QZJ9QADONZE85XDMKWSZRKY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Spatial-2FC0NPOMGUHDO5YSFJOQK1SNU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreAudio-1R8TI6CVBZTXA5GT9D9V09W91.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreAudio-18OZ6J7RTYX1YZID590S6UKK3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Foundation-EKZZOLDU3S30Q8URMW8P6RTEW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Foundation-4ZCFB1RNYNSODARYEKE09RQVP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreText-DWJT5HJQ7DC8EULF0F2KDIEQC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ImageIO-17TYU27HPLZH7ZMSZTL7ONKZZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ImageIO-60ZUH1FYA5N611DZQBV50UQ8Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreText-88J663TOB6ZG1CZAY2QALE22E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/OpenGLES-7KSQUEWE3SKD0F2M9GK0QPS0B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/OSLog-46WIP7YO0RZWZJENKFY181526.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UserNotifications-AL3AEDV1ZTO2H1KSDU1AEHPB1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Accessibility-EPO4A2Q2HRHAA91Q8TLZH6CJB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UIUtilities-1JODPT7KHPLWUBJM45LQVPL62.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreData-3TJWT51S50EBYE2DFAPXZ27L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Symbols-CO1M8A7SSTQEOGNIV0MNTDR8W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreTransferable-747JT56A604G5Y14H9UIK4IW6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/FileProvider-960JMOPL0QSJUDOIJVMUXW8S1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_LocationEssentials-7WCIYEF4R0NTHMX8QO7RYLOF1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/OpenGLES-D9LUUXPCWADZ89YPQS1D35JIC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/FileProvider-972IIL705E0D79TY9G6RYIGXE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UIUtilities-ADLRE8P6TA87VX6PKSRVDOMV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Accessibility-6X9GYEGXBF7N89MPJ148P8E3T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreLocation-4LM4OJ5XHWMF3H4VVUJW2F06X.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Network-8EI4Z9EVBY9O4C22B792CNKCH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UniformTypeIdentifiers-9B4GGCEL3K0W032XZJYUBP7HW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/OSLog-97W1LFL83ICX9BMWO98076722.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreTransferable-3BLVY1Y4QBSPV47VKXV9CEUUQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreMIDI-41BSX1OD80ZJQFACEI0BQF41Q.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UserNotifications-7OIQYR5IOJ1TH8X5MVIWA5XZ8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreMotion-77BC17HCIHCZDYCB5DIS59MSI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/_LocationEssentials-BW535O980DQ1IGF7T8J2EYB1O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Network-5IB6R799RNM2LY145AAZIYDC6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/DataDetection-EQ18F90WAOXUIONP2M5KPQ7VK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Symbols-54MJB83HBE6GPP0M9JBTR9M2K.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AVRouting-JV8ECIG5V5RMS0VSCEYVO5SN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/DataDetection-EOJSJR965MLYT1KI3YBVEUDSI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/IOSurface-573QGMJLTGRZMXLPXJJXS1OCV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreMIDI-BVP4GPZ9G640PDHQ9M04R4LNG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UniformTypeIdentifiers-42WIWFHVB6F5X3TG0WJRUGZTH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreLocation-11QVZ0JZVM1C6C020ANDVDFSM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CloudKit-7GW1ZK1M9BP31P50GTFY65HTT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreData-A68ELWA3PP96PLF6QSKI8F7QH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/IOSurface-3GKT03GZFC0Q92AMCNKQRPJ3C.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AudioToolbox-CS83UXX9CX082ZKY4BHAV8TX9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AVRouting-7KAXH9UVBRAU66JSJHI7QCWYJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Metal-2CYXK1A5YUYFSCKGCPPIO489H.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreMotion-9RXBMBHKZXI58H285TUUK152V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CloudKit-808C4AHSSW41P18U5HN6EVLFG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AudioToolbox-2QCBXQMBOGJ9N5AZ7X22MOM0F.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Metal-EEXLRDNUB77J6LYGWPU4Z1RTW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreVideo-4UR8RDY2UTWFK00EX0BEDEB6Q.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreVideo-EB57WOL61SA7EUHIC4E26IMP6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Accelerate-3XE7APQ52JEWC7SL975VIJYNK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreImage-BV3BUCASXV1DN2N31QF4DJIUQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/QuartzCore-9IVWMRYSTQY62Q650YWL5IUJG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreML-IKNOMDH18R7K0I6L45PWUUKV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreMedia-3KRNZBQ869H5FTSPDBMRQPFL4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreImage-5828YVHOM09CQPH0PF1F522CS.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreML-1VH2SL1R985XUR528A3UU3IQR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/QuartzCore-8RUX7VAGL2118IT581BLLUAVY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Accelerate-53E6VP1EWKUG548NHU9V7NRTJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/CoreMedia-6HQSNVKJIR8J87RYRZLMSRZTM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/SwiftUICore-4UUZ4GVH9TIRHKHO9RNCXSHEA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UIKit-313HJJUHKYGZJ54JDZJQEST8V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/SwiftUICore-8AU82988926UNDEJZB2Z5L3EU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/MediaToolbox-9J0F4B1W6CQZ00QW876FLHHCG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AVFAudio-4ED9CJ1O0J6AKK33HH5JXY06W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Vision-6J16ICOVEC5H99A7RRMESHCCM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/VideoToolbox-CSEQ2VXA0KZW89PN2S13STRY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Vision-6GMZ23651R2DIPOAZWSZUK73F.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/MediaToolbox-4O8VRUP00PPW2F3Q98MANH5QD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AVFAudio-B2568I2GOBKDDQLTTODBKG0S6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/VideoToolbox-2QO4C96FYE3CSQL9MYOH7I23.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/UIKit-9CWSOCSWM4YWJ0I7F9PJIS7D8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AVFoundation-4Y6OYAIBRAWDKKAQUY3B1WH9S.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/AVFoundation-BJ2YI00NUBNNTYKQL308CM8Q4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Photos-8BUSKZ04V6B95KSH1FULHD8R0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Photos-82586FUW25GBBNHFP91GH3J23.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/PhotosUI-F2MKV0YFXIB244UEQ2141ZK10.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/SwiftUI-51XJYN11PLOISHOJHWSYR70N8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ExtensionKit-85AB6FO5JX8YMN8C02JYJF9JV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/ExtensionKit-4O16ON43UYLX962IMGWUK1ZNZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/PhotosUI-9VX6JNUA3DSA2U72J9GC2R33E.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/SwiftUI-7OAXGR2N4IZM8U8KPPC3D36YE.pcm
+
+SwiftCompile normal arm64 Compiling\ Word.swift,\ WordDetailView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/Word.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordDetailView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/Word.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile Word.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordDetailView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile WordDetailView.swift
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ CapWordsSwift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    
+
+SwiftCompile normal arm64 Compiling\ WordEditor.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordEditor.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordEditor.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile WordEditor.swift
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile GeneratedAssetSymbols.swift
+
+SwiftCompile normal arm64 Compiling\ LibraryView.swift,\ PhotoDustView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/LibraryView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/PhotoDustView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/LibraryView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile LibraryView.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/PhotoDustView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile PhotoDustView.swift
+
+SwiftCompile normal arm64 Compiling\ CameraService.swift,\ CapWordsApp.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/CameraService.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/CapWordsApp.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/CameraService.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile CameraService.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/CapWordsApp.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile CapWordsApp.swift
+
+SwiftCompile normal arm64 Compiling\ ImageCropView.swift,\ ImageGeometry.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ImageCropView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/ImageGeometry.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ImageCropView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile ImageCropView.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/ImageGeometry.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile ImageGeometry.swift
+
+SwiftCompile normal arm64 Compiling\ CaptureView.swift,\ DesignSystem.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/CaptureView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/DesignSystem.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/CaptureView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile CaptureView.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/DesignSystem.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile DesignSystem.swift
+
+SwiftCompile normal arm64 Compiling\ SeedLibrary.swift,\ SettingsView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SeedLibrary.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/SettingsView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SeedLibrary.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile SeedLibrary.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/SettingsView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile SettingsView.swift
+
+SwiftCompile normal arm64 Compiling\ RecognitionService.swift,\ ReviewView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/RecognitionService.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ReviewView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/RecognitionService.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile RecognitionService.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ReviewView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile ReviewView.swift
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ CapWordsSwift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for CapWordsSwift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriver\ Compilation\ Requirements CapWordsSwift normal arm64 com.apple.xcode.tools.swift.compiler (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-Swift-Compilation-Requirements -- /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name CapWordsSwift -Onone @/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios18.0-simulator -g -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache -output-file-map /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -sdk-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -emit-dependencies -emit-module -emit-module-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources-normal/arm64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/arm64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-Swift.h -working-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ RecognitionService.swift,\ ReviewView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/RecognitionService.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ReviewView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/RecognitionService.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile RecognitionService.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ReviewView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile ReviewView.swift
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftmodule (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftmodule /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for CapWordsSwift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriver\ Compilation\ Requirements CapWordsSwift normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-Swift-Compilation-Requirements -- /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name CapWordsSwift -Onone @/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target x86_64-apple-ios18.0-simulator -g -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache -output-file-map /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -sdk-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -emit-dependencies -emit-module -emit-module-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources-normal/x86_64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/x86_64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-Swift.h -working-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift -experimental-emit-module-separately -disable-cmo
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftdoc (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftdoc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/arm64-apple-ios-simulator.abi.json /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.abi.json (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.abi.json /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+SwiftMergeGeneratedHeaders /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/CapWordsSwift-Swift.h /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-Swift.h /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-Swift.h (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-swiftHeaderTool -arch arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-Swift.h -arch x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-Swift.h -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/CapWordsSwift-Swift.h
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftmodule (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftmodule /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftdoc (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftdoc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.abi.json (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.abi.json /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftsourceinfo (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftsourceinfo /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+Copy /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftsourceinfo (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftsourceinfo /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal x86_64 Compiling\ Word.swift,\ WordDetailView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/Word.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordDetailView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/Word.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile Word.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordDetailView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile WordDetailView.swift
+
+SwiftCompile normal x86_64 Compiling\ LibraryView.swift,\ PhotoDustView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/LibraryView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/PhotoDustView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/LibraryView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile LibraryView.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/PhotoDustView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile PhotoDustView.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling CameraService.swift, CapWordsApp.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ SpeechService.swift,\ StickerExport.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SpeechService.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/StickerExport.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SpeechService.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile SpeechService.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/StickerExport.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile StickerExport.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling ImageCropView.swift, ImageGeometry.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SeedLibrary.swift, SettingsView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ ImageCropView.swift,\ ImageGeometry.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ImageCropView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/ImageGeometry.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/ImageCropView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile ImageCropView.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Models/ImageGeometry.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile ImageGeometry.swift
+
+SwiftCompile normal x86_64 Compiling\ CameraService.swift,\ CapWordsApp.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/CameraService.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/CapWordsApp.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/CameraService.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile CameraService.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/CapWordsApp.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile CapWordsApp.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling Word.swift, WordDetailView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ CaptureView.swift,\ DesignSystem.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/CaptureView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/DesignSystem.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/CaptureView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile CaptureView.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/DesignSystem.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile DesignSystem.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling WordEditor.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ GeneratedAssetSymbols.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile GeneratedAssetSymbols.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling LibraryView.swift, PhotoDustView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ SeedLibrary.swift,\ SettingsView.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SeedLibrary.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/SettingsView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SeedLibrary.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile SeedLibrary.swift
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/SettingsView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile SettingsView.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling RecognitionService.swift, ReviewView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 Compiling\ WordEditor.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordEditor.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal x86_64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Views/WordEditor.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile WordEditor.swift
+
+SwiftDriverJobDiscovery normal arm64 Compiling CaptureView.swift, DesignSystem.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 Compiling\ SpeechService.swift,\ StickerExport.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SpeechService.swift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/StickerExport.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/SpeechService.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile SpeechService.swift
+
+SwiftCompile normal arm64 /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/App/Services/StickerExport.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-SwiftPerFileCompile StickerExport.swift
+
+SwiftDriverJobDiscovery normal x86_64 Compiling GeneratedAssetSymbols.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SpeechService.swift, StickerExport.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriver\ Compilation CapWordsSwift normal arm64 com.apple.xcode.tools.swift.compiler (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-Swift-Compilation -- /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name CapWordsSwift -Onone @/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target arm64-apple-ios18.0-simulator -g -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache -output-file-map /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -sdk-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -emit-dependencies -emit-module -emit-module-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources-normal/arm64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/arm64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift-Swift.h -working-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift -experimental-emit-module-separately -disable-cmo
+
+Ld /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift.debug.dylib normal arm64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios18.0-simulator -dynamiclib -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -filelist /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.LinkFileList -install_name @rpath/CapWordsSwift.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_dependency_info.dat -fobjc-link-runtime -L/Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift.debug.dylib
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SeedLibrary.swift, SettingsView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling CameraService.swift, CapWordsApp.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SpeechService.swift, StickerExport.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling ImageCropView.swift, ImageGeometry.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling Word.swift, WordDetailView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling WordEditor.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+ConstructStubExecutorLinkFileList /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-ExecutorLinkFileList-normal-arm64.txt (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    construct-stub-executor-link-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift.debug.dylib /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling RecognitionService.swift, ReviewView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling LibraryView.swift, PhotoDustView.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling CaptureView.swift, DesignSystem.swift (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+SwiftDriver\ Compilation CapWordsSwift normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-Swift-Compilation -- /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name CapWordsSwift -Onone @/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -target x86_64-apple-ios18.0-simulator -g -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/SDKStatCaches.noindex/iphonesimulator27.0-24A5370g-b41f5546c0858c25071ce28fdedc3990.sdkstatcache -output-file-map /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -sdk-module-cache-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex -emit-dependencies -emit-module -emit-module-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-generated-files.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-own-target-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-project-headers.hmap -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources-normal/x86_64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources/x86_64 -Xcc -I/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift-Swift.h -working-directory /Volumes/homex/Desktop/github/rea-work/CapWordsSwift -experimental-emit-module-separately -disable-cmo
+
+Ld /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift.debug.dylib normal x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios18.0-simulator -dynamiclib -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -filelist /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.LinkFileList -install_name @rpath/CapWordsSwift.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_dependency_info.dat -fobjc-link-runtime -L/Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift.debug.dylib
+
+CreateUniversalBinary /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/CapWordsSwift.debug.dylib normal arm64\ x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift.debug.dylib /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift.debug.dylib -output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/CapWordsSwift.debug.dylib
+
+ConstructStubExecutorLinkFileList /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-ExecutorLinkFileList-normal-x86_64.txt (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    construct-stub-executor-link-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift.debug.dylib /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'CapWordsSwift' from project 'CapWordsSwift')
+
+Ld /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift normal arm64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios18.0-simulator -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-ExecutorLinkFileList-normal-arm64.txt /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift.debug.dylib -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift
+
+Ld /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift normal x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios18.0-simulator -isysroot /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -F/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift-ExecutorLinkFileList-normal-x86_64.txt /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift.debug.dylib -o /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift
+
+CreateUniversalBinary /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/CapWordsSwift normal arm64\ x86_64 (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/Binary/CapWordsSwift /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/Binary/CapWordsSwift -output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/CapWordsSwift
+
+CopySwiftLibs /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/CapWordsSwift.debug.dylib --scan-folder /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Frameworks --scan-folder /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/PlugIns --scan-folder /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/SystemExtensions --scan-folder /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Extensions --platform iphonesimulator --toolchain /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Frameworks --strip-bitcode --strip-bitcode-tool /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name CapWordsSwift --sdk-root /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator27.0.sdk --xcode-version 27A5209h --platform-family iOS --deployment-target 18.0 --bundle-identifier dev.reawork.CapWordsSwift --output /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app --target-triple arm64-apple-ios18.0-simulator --target-triple x86_64-apple-ios18.0-simulator --binary-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/CapWordsSwift --dependency-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift_dependency_info.dat --dependency-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift_dependency_info.dat --stringsdata-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftFileList --source-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftFileList --metadata-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyMetadataFileList --static-metadata-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyStaticMetadataFileList --swift-const-vals-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/arm64/CapWordsSwift.SwiftConstValuesFileList --swift-const-vals-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/Objects-normal/x86_64/CapWordsSwift.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-18 14:20:11.385 appintentsmetadataprocessor[56993:940090] Starting appintentsmetadataprocessor export
+2026-10-18 14:20:11.390 appintentsmetadataprocessor[56993:940090] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+AppIntentsSSUTraining (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /Volumes/homex/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Info.plist --temp-dir-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/ssu --bundle-id dev.reawork.CapWordsSwift --product-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app --extracted-metadata-path /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Metadata.appintents --metadata-file-list /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/CapWordsSwift.build/Debug-iphonesimulator/CapWordsSwift.build/CapWordsSwift.DependencyMetadataFileList --source-file /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app/Info.plist --archive-ssu-assets
+2026-10-18 14:20:11.420 appintentsnltrainingprocessor[56998:940110] Parsing options for appintentsnltrainingprocessor
+2026-10-18 14:20:11.420 appintentsnltrainingprocessor[56998:940110] Starting AppIntents SSU YAML Generation
+2026-10-18 14:20:11.422 appintentsnltrainingprocessor[56998:940110] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-RegisterExecutionPolicyException /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app
+
+Validate /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    builtin-validationUtility /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    cd /Volumes/homex/Desktop/github/rea-work/CapWordsSwift
+    /usr/bin/touch -c /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Products/Debug-iphonesimulator/CapWordsSwift.app
+
+PruneExplicitPrecompiledModules /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+** BUILD SUCCEEDED **
+
