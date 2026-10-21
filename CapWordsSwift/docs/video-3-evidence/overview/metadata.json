@@ -1,0 +1,51 @@
+{
+  "durationSeconds" : 7.2999999999999998,
+  "extraction" : "AVAssetImageGenerator with zero requested time tolerance; actual times recorded",
+  "frames" : [
+    {
+      "actualSeconds" : 0,
+      "file" : "t0000000.jpg",
+      "requestedSeconds" : 0
+    },
+    {
+      "actualSeconds" : 1,
+      "file" : "t0001000.jpg",
+      "requestedSeconds" : 1
+    },
+    {
+      "actualSeconds" : 2,
+      "file" : "t0002000.jpg",
+      "requestedSeconds" : 2
+    },
+    {
+      "actualSeconds" : 3,
+      "file" : "t0003000.jpg",
+      "requestedSeconds" : 3
+    },
+    {
+      "actualSeconds" : 4,
+      "file" : "t0004000.jpg",
+      "requestedSeconds" : 4
+    },
+    {
+      "actualSeconds" : 5,
+      "file" : "t0005000.jpg",
+      "requestedSeconds" : 5
+    },
+    {
+      "actualSeconds" : 6,
+      "file" : "t0006000.jpg",
+      "requestedSeconds" : 6
+    },
+    {
+      "actualSeconds" : 7,
+      "file" : "t0007000.jpg",
+      "requestedSeconds" : 7
+    }
+  ],
+  "naturalHeight" : 960,
+  "naturalWidth" : 448,
+  "nominalFrameRate" : 30,
+  "sampling" : "fixed interval 1.0 seconds",
+  "source" : "\/Volumes\/homex\/Desktop\/github\/rea-work\/3.mp4"
+}

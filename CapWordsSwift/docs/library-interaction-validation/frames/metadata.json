@@ -1,0 +1,71 @@
+{
+  "durationSeconds" : 11.025,
+  "extraction" : "AVAssetImageGenerator with zero requested time tolerance; actual times recorded",
+  "frames" : [
+    {
+      "actualSeconds" : 0,
+      "file" : "t0000000.jpg",
+      "requestedSeconds" : 0
+    },
+    {
+      "actualSeconds" : 0.22,
+      "file" : "t0001000.jpg",
+      "requestedSeconds" : 1
+    },
+    {
+      "actualSeconds" : 1.9450000000000001,
+      "file" : "t0002000.jpg",
+      "requestedSeconds" : 2
+    },
+    {
+      "actualSeconds" : 2.9133333333333336,
+      "file" : "t0003000.jpg",
+      "requestedSeconds" : 3
+    },
+    {
+      "actualSeconds" : 3.9950000000000001,
+      "file" : "t0004000.jpg",
+      "requestedSeconds" : 4
+    },
+    {
+      "actualSeconds" : 4.996666666666667,
+      "file" : "t0005000.jpg",
+      "requestedSeconds" : 5
+    },
+    {
+      "actualSeconds" : 5.9950000000000001,
+      "file" : "t0006000.jpg",
+      "requestedSeconds" : 6
+    },
+    {
+      "actualSeconds" : 6.9283333333333337,
+      "file" : "t0007000.jpg",
+      "requestedSeconds" : 7
+    },
+    {
+      "actualSeconds" : 7.9950000000000001,
+      "file" : "t0008000.jpg",
+      "requestedSeconds" : 8
+    },
+    {
+      "actualSeconds" : 8.9299999999999997,
+      "file" : "t0009000.jpg",
+      "requestedSeconds" : 9
+    },
+    {
+      "actualSeconds" : 9.9983333333333331,
+      "file" : "t0010000.jpg",
+      "requestedSeconds" : 10
+    },
+    {
+      "actualSeconds" : 10.996666666666666,
+      "file" : "t0011000.jpg",
+      "requestedSeconds" : 11
+    }
+  ],
+  "naturalHeight" : 2622,
+  "naturalWidth" : 1206,
+  "nominalFrameRate" : 29.927318572998047,
+  "sampling" : "fixed interval 1.0 seconds",
+  "source" : "\/Volumes\/homex\/Desktop\/github\/rea-work\/CapWordsSwift\/docs\/library-interaction-validation\/programmatic-scroll.mov"
+}

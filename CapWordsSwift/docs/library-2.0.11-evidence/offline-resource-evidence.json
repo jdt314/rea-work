@@ -1,0 +1,49 @@
+{
+  "authority": "shipped-artifact; offline parser; no target execution",
+  "ipa": {
+    "name": "CapWords_2.0.11.ipa",
+    "sha256": "61bb75c9a1f6329c9500d00f57bde2e3e09e0e6e6d604fccbad844a8b6ca52fc"
+  },
+  "bundle": {
+    "CFBundleShortVersionString": "2.0.11",
+    "CFBundleVersion": "23",
+    "CFBundleIdentifier": "com.HappyPlanTech.SnapWords",
+    "MinimumOSVersion": "17.0"
+  },
+  "binary": {
+    "member": "Payload/SnapWords.app/SnapWords",
+    "sha256": "01983ce0aa4eadea9aa20db9d726a404efb5e31c8f813abf006a26a525e6ffff",
+    "encryption_commands": [
+      {
+        "command": "LC_ENCRYPTION_INFO_64",
+        "command_offset": 5536,
+        "cryptoff": 16384,
+        "cryptsize": 33832960,
+        "cryptid": 1
+      }
+    ],
+    "first_text_bytes_hex": "0a4df6ff80ea7da56d4a80ce0edaa7a1015b09daeea125500f0ed743e917a981f78db059a71ead1a73977e93bdaf23ff1c1d8ee19fc31ef7a10ef952f38d4b81"
+  },
+  "localization": {
+    "member": "Payload/SnapWords.app/zh-Hans.lproj/Localizable.strings",
+    "sha256": "4b710d5b586f30be873da50f6ca568977ec72532d95c82b8afd17f941217e790",
+    "key": "Nothing snapped yet! What's around you?",
+    "value": "还没有拍摄任何单词呢～\n快看看身边有什么好玩的东西？"
+  },
+  "eye_animation_candidate": {
+    "member": "Payload/SnapWords.app/sticker_empty.pag",
+    "bytes": 1027,
+    "sha256": "78ed26a27bf24b431631b35de6975af2a1cc435692ba65de03694b9fcac6e00d",
+    "header_hex": "50414701fa030000",
+    "binding": "unverified; filename is a lead, not a callsite"
+  },
+  "asset_catalog": {
+    "member": "Payload/SnapWords.app/Assets.car",
+    "bytes": 120698504
+  },
+  "limitations": [
+    "Encrypted executable cannot establish UI call sites, animation timing or haptic parameters.",
+    "PAG resource was not rendered; identity does not establish on-screen binding.",
+    "This script does not decrypt or execute code."
+  ]
+}

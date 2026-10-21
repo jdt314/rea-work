@@ -1,0 +1,61 @@
+{
+  "ipa_sha256": "61bb75c9a1f6329c9500d00f57bde2e3e09e0e6e6d604fccbad844a8b6ca52fc",
+  "scope": "Offline selected archive resources; no code execution or decryption",
+  "resources": {
+    "Inflate.ahap": {
+      "member": "Payload/SnapWords.app/Inflate.ahap",
+      "size": 1743,
+      "sha256": "32d505eed04c6332689b8a39a4680bac6fc3e45c658717791e18d61ee7733c4d"
+    },
+    "snaplogo.pag": {
+      "member": "Payload/SnapWords.app/snaplogo.pag",
+      "size": 1915,
+      "sha256": "babc19797bade00da870393c7653471c0d1e0c57be4333f51fd25e440bc5e139"
+    },
+    "zh-Hans.lproj/Localizable.strings": {
+      "member": "Payload/SnapWords.app/zh-Hans.lproj/Localizable.strings",
+      "size": 86865,
+      "sha256": "4b710d5b586f30be873da50f6ca568977ec72532d95c82b8afd17f941217e790"
+    }
+  },
+  "localization_matches": {
+    "After switching languages, your previous learning data will remain": "切换后，已拍摄和掌握的单词会继续保留",
+    "Camera permission required": "需要相机权限",
+    "CapWords can automatically organize the stickers you’ve captured into clear categories": "CapWords可以自动将你拍摄的贴纸整理到清晰的分类中",
+    "Capture": "拍摄",
+    "Nothing snapped yet! What's around you?": "还没有拍摄任何单词呢～\n快看看身边有什么好玩的东西？",
+    "Open Camera": "打开相机",
+    "Open CapWords Camera": "打开 CapWords 相机",
+    "Please allow access to the camera in settings to use the photo feature": "请在设置中允许访问相机，以便使用拍照功能",
+    "Quickly open the CapWords camera page": "快速打开 CapWords 相机页面",
+    "Snap photo": "拍摄",
+    "Swipe down to try": "下滑试试看",
+    "Swipe to master": "右滑已掌握",
+    "Swipe to review": "左滑未掌握",
+    "Take Photo": "拍摄"
+  },
+  "animation_resource_inventory": [
+    "Inflate.ahap",
+    "snaplogo.pag",
+    "purchase_leaf_right.pag",
+    "ChatHomeCharacter.riv",
+    "detail.speaker.pag",
+    "ChatOnboardingDark.riv",
+    "purchase_leaf_left.pag",
+    "sticker_empty.pag",
+    "purchase_avatar_item_pag4.pag",
+    "purchase_avatar_item_pag5.pag",
+    "ChatOnboarding.riv",
+    "purchase_avatar_item_pag2.pag",
+    "purchase_avatar_item_pag3.pag",
+    "purchase_avatar_item_pag1.pag",
+    "purchase.pag",
+    "sticker_speaker.pag"
+  ],
+  "unproven": [
+    "Swipe down to try page binding",
+    "Inflate.ahap camera transition binding",
+    "snaplogo.pag visual identity or playback duration",
+    "animation timing / spring / drag threshold in encrypted app code"
+  ]
+}
