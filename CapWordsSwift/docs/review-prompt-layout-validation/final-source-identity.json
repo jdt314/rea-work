@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "core_command": "env DEVELOPER_DIR=/Volumes/homex/Applications/Xcode-beta.app/Contents/Developer swift test --package-path CapWordsSwift --filter CoreTests.reviewScheduleAndReset|CoreTests.queueIncludesAllDueWordsAndLimitsOnlyNewWords",
+  "core_result": "2 tests passed",
+  "files": {
+    "App/Views/DailyReviewPromptView.swift": "3819f3ab4b47c85dbe6dbfc5ce97e06bd953abb5aedc23b2875325927c5bc151",
+    "App/Views/ReviewView.swift": "c6da47f9d2ce359a183c011def5ebf99ec42b543605f0f5932de623329bc717b",
+    "App/Views/HomeView.swift": "79999e9bf7bd7d84a28bb3a86c1c7b589c28db419a07947606b31bc48a7b8952",
+    "App/Models/Word.swift": "1070fe396b4fa8dcf5ef5e5393c0e0543b0784a4d702930f4c640b6b37e729e3",
+    "CoreTests/CoreTests.swift": "a662e70a5f77e9373f21daf68b433759215d0aa95bfe51a40c90589bf6ebc716",
+    "UITests/CapWordsUITests.swift": "d55604f56369833c0880913ec5ce74df6370bdb6ece947e3b52dea2f7c233d6d"
+  }
+}

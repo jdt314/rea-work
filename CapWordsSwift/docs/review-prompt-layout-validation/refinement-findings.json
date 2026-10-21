@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-20",
+  "scope": "启动复习提示排版微调与既有 IPA 复习证据复核",
+  "build": "BUILD SUCCEEDED",
+  "screenshot": "refined-prompt.png",
+  "visual_changes": [
+    "缩小预览贴纸，保留上三下二错层卡片",
+    "加强关闭按钮线条",
+    "相机入口改为交错叶片光圈"
+  ],
+  "reference_background_rgb": [
+    251,
+    243,
+    220
+  ],
+  "ipa_sha256": "c6cc5aba8194c044fea2f7df1c92c290fb58502a90fdb5afd3df9522c9f61fe8",
+  "rea_macho_evidence": "ev_1e6a4997847a645d01532efee6f5d4106d48518065b5ab54e2821be7cee64f6f",
+  "verified_findings": [
+    "启动提示为独立预览，并非复习日历首页",
+    "五张预览不等于队列长度",
+    "主要队列为全部到期词加限量新词；新词默认5",
+    "每日新词设置5至40，步长5",
+    "正确后按1、2、4个日历日调度，再进入长期掌握；错误次日再练",
+    "文字显示三种模式，视图内使用State保存"
+  ],
+  "implementation_gaps": [
+    "当前工程仍使用简化的复习调度",
+    "复习tab缺统计月历首页",
+    "缺原版滑卡、文字菜单、语音练习和完整日报统计"
+  ],
+  "unresolved_original_behavior": [
+    "再次复习的精确选词范围",
+    "中途退出是否保存日报及恢复位置",
+    "语音评分规则",
+    "文字模式跨会话持久化"
+  ],
+  "limitations": [
+    "未执行原IPA；静态证据不等于运行观察",
+    "未声称完整复习功能已经还原"
+  ],
+  "source_reports": [
+    "../../../capwords-analysis/review-page-20261020/REPORT.md",
+    "../../../capwords-analysis/review-page-20261020/completion-followup.md"
+  ]
+}

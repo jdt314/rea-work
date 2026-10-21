@@ -1,0 +1,10 @@
+{
+  "ipa_sha256": "c6cc5aba8194c044fea2f7df1c92c290fb58502a90fdb5afd3df9522c9f61fe8",
+  "binary_sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265",
+  "bundle_id": "com.HappyPlanTech.SnapWords",
+  "version": "2.0.9",
+  "build": "445",
+  "artifact_evidence_id": "ev_380f6ae7a6727b0d0663d04d0cb3d4b63cd2ab431f187ecfca1fd44b1f27afb1",
+  "macho_evidence_id": "ev_4b3d1c50ae50a2d7443810d51ba3a29c272a46e288dd64eb3b709c990db1d7df",
+  "binary_matches_ipa_member": true
+}

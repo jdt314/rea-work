@@ -1,0 +1,15 @@
+{
+  "source": "/Volumes/homex/照片图库.photoslibrary/resources/derivatives/C/CD90C9E2-7A9A-4863-B243-AE093A911882_1_105_c.jpeg",
+  "sha256": "ba89ff1961f6f0c48f49aa984915418ac213707d438fb6f79b83945ed57cf1e8",
+  "size": [
+    602,
+    1308
+  ],
+  "anchor_pixel_y": {
+    "collage_center": 537,
+    "heading_center": 835,
+    "start_button_center": 987,
+    "camera_center": 1184
+  },
+  "note": "视觉量取锚点；字号和卡片素材使用应用真实内容，不硬编码11个词。"
+}

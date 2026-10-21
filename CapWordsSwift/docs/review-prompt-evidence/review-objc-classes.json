@@ -1,0 +1,182 @@
+[
+  {
+    "name": "_TtC9SnapWords23FlashCardViewController",
+    "class": "0x101f41f60",
+    "ro": "0x101f41ef8",
+    "methods": [
+      {
+        "kind": "instance",
+        "selector": "initWithCoder:",
+        "imp": "0x100b35a64"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewDidLoad",
+        "imp": "0x100b36024"
+      },
+      {
+        "kind": "instance",
+        "selector": "viewDidAppear:",
+        "imp": "0x100b36058"
+      },
+      {
+        "kind": "instance",
+        "selector": "initWithNibName:bundle:",
+        "imp": "0x100b36284"
+      },
+      {
+        "kind": "instance",
+        "selector": ".cxx_destruct",
+        "imp": "0x100b3638c"
+      }
+    ],
+    "ivars": [
+      {
+        "name": "$__lazy_storage_$_contentController",
+        "offset_symbol": "0x101fa4278",
+        "initial_offset": 48,
+        "size": 8
+      },
+      {
+        "name": "isDemoMode",
+        "offset_symbol": "0x101fa4280",
+        "initial_offset": 56,
+        "size": 1
+      },
+      {
+        "name": "date",
+        "offset_symbol": "0x1020da900",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "isCatchUp",
+        "offset_symbol": "0x1020da908",
+        "initial_offset": 0,
+        "size": 1
+      },
+      {
+        "name": "showPreview",
+        "offset_symbol": "0x1020da910",
+        "initial_offset": 0,
+        "size": 1
+      },
+      {
+        "name": "todayStickers",
+        "offset_symbol": "0x1020da918",
+        "initial_offset": 0,
+        "size": 8
+      },
+      {
+        "name": "completionHandler",
+        "offset_symbol": "0x1020da920",
+        "initial_offset": 0,
+        "size": 16
+      },
+      {
+        "name": "dismissHandler",
+        "offset_symbol": "0x1020da928",
+        "initial_offset": 0,
+        "size": 16
+      },
+      {
+        "name": "startDate",
+        "offset_symbol": "0x1020da930",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "hasReportedDailyReminderShown",
+        "offset_symbol": "0x101fa4288",
+        "initial_offset": 0,
+        "size": 1
+      }
+    ]
+  },
+  {
+    "name": "_TtC9SnapWords20FlashCardReviewModel",
+    "class": "0x101fa48a0",
+    "ro": "0x101f42310",
+    "methods": [],
+    "ivars": [
+      {
+        "name": "isDemoMode",
+        "offset_symbol": "0x10188a190",
+        "initial_offset": 16,
+        "size": 1
+      },
+      {
+        "name": "dayState",
+        "offset_symbol": "0x10188a198",
+        "initial_offset": 17,
+        "size": 1
+      },
+      {
+        "name": "stickerItems",
+        "offset_symbol": "0x10188a1a0",
+        "initial_offset": 24,
+        "size": 8
+      },
+      {
+        "name": "todayStickerCount",
+        "offset_symbol": "0x10188a1a8",
+        "initial_offset": 32,
+        "size": 8
+      },
+      {
+        "name": "annotatedTargetTexts",
+        "offset_symbol": "0x10188a1b0",
+        "initial_offset": 40,
+        "size": 8
+      },
+      {
+        "name": "_startCloudAnimation",
+        "offset_symbol": "0x101fa4810",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "_contentAppearAnimation",
+        "offset_symbol": "0x101fa4818",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "_showPreviewButton",
+        "offset_symbol": "0x101fa4820",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "_cardAppearAnimation",
+        "offset_symbol": "0x101fa4828",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "_previewButtonFeedback",
+        "offset_symbol": "0x101fa4830",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "_closeButtonFeedback",
+        "offset_symbol": "0x101fa4838",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "_cameraButtonFeedback",
+        "offset_symbol": "0x101fa4840",
+        "initial_offset": 0,
+        "size": 0
+      },
+      {
+        "name": "hasStartedAppearAnimation",
+        "offset_symbol": "0x101fa4848",
+        "initial_offset": 0,
+        "size": 1
+      }
+    ]
+  }
+]

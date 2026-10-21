@@ -1,0 +1,40 @@
+{
+  "evidence_id": "ev_4b3d1c50ae50a2d7443810d51ba3a29c272a46e288dd64eb3b709c990db1d7df",
+  "architecture": {
+    "name": "arm64",
+    "container_file_offset": 0
+  },
+  "import_count": null,
+  "imports_exhaustive": false,
+  "framework_dependencies": [
+    "/System/Library/Frameworks/UIKit.framework/UIKit",
+    "/System/Library/Frameworks/Foundation.framework/Foundation",
+    "/System/Library/Frameworks/AVFoundation.framework/AVFoundation",
+    "/System/Library/Frameworks/CoreData.framework/CoreData",
+    "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+    "/System/Library/Frameworks/SwiftUI.framework/SwiftUI",
+    "/System/Library/Frameworks/_AVKit_SwiftUI.framework/_AVKit_SwiftUI",
+    "/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/_PhotosUI_SwiftUI",
+    "/System/Library/Frameworks/_StoreKit_SwiftUI.framework/_StoreKit_SwiftUI",
+    "/usr/lib/swift/libswiftAVFoundation.dylib",
+    "/usr/lib/swift/libswiftCoreFoundation.dylib"
+  ],
+  "encryption_commands": [
+    {
+      "index": 14,
+      "kind": "LC_ENCRYPTION_INFO_64",
+      "fields": {
+        "cmd": "LC_ENCRYPTION_INFO_64",
+        "cmdsize": 24,
+        "cryptoff": 102400,
+        "cryptsize": 4096,
+        "cryptid": 0,
+        "pad": 0
+      }
+    }
+  ],
+  "limitations": [
+    "Imports and exports combine dyld_info and nm; stripped or toolchain-hidden symbols may be absent.",
+    "vtool output is retained as provenance but only otool build metadata is normalized."
+  ]
+}

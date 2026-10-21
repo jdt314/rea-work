@@ -1,0 +1,360 @@
+[
+  {
+    "name": "SnapWords.FlashCardReviewCameraButton",
+    "descriptor": "0x101be4024",
+    "kind": 17,
+    "accessor": "0x1004fb53c",
+    "fields": [
+      {
+        "name": "_colorScheme",
+        "record": "0x101c6d470",
+        "type_ref": "0x101a0a0a4",
+        "flags": 2
+      },
+      {
+        "name": "_savedMaterial",
+        "record": "0x101c6d47c",
+        "type_ref": "0x101a8141a",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.FlashCardViewController",
+    "descriptor": "0x101bf2b2c",
+    "kind": 16,
+    "accessor": "0x100b3643c",
+    "fields": [
+      {
+        "name": "$__lazy_storage_$_contentController",
+        "record": "0x101c7e44c",
+        "type_ref": "0x101b76aa6",
+        "flags": 2
+      },
+      {
+        "name": "isDemoMode",
+        "record": "0x101c7e458",
+        "type_ref": "0x101a03e26",
+        "flags": 0
+      },
+      {
+        "name": "date",
+        "record": "0x101c7e464",
+        "type_ref": "0x101a05cd6",
+        "flags": 0
+      },
+      {
+        "name": "isCatchUp",
+        "record": "0x101c7e470",
+        "type_ref": "0x101a03e26",
+        "flags": 0
+      },
+      {
+        "name": "showPreview",
+        "record": "0x101c7e47c",
+        "type_ref": "0x101a03e26",
+        "flags": 2
+      },
+      {
+        "name": "todayStickers",
+        "record": "0x101c7e488",
+        "type_ref": "0x101a05c56",
+        "flags": 2
+      },
+      {
+        "name": "completionHandler",
+        "record": "0x101c7e494",
+        "type_ref": "0x101a04d24",
+        "flags": 2
+      },
+      {
+        "name": "dismissHandler",
+        "record": "0x101c7e4a0",
+        "type_ref": "0x101a04d24",
+        "flags": 2
+      },
+      {
+        "name": "startDate",
+        "record": "0x101c7e4ac",
+        "type_ref": "0x101a04484",
+        "flags": 2
+      },
+      {
+        "name": "hasReportedDailyReminderShown",
+        "record": "0x101c7e4b8",
+        "type_ref": "0x101a03e26",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.FlashCardPreviewImageView",
+    "descriptor": "0x101bf2d68",
+    "kind": 17,
+    "accessor": "0x100b3f3fc",
+    "fields": [
+      {
+        "name": "_cardStyle",
+        "record": "0x101c7e5dc",
+        "type_ref": "0x101b54822",
+        "flags": 2
+      },
+      {
+        "name": "_adaptiveLayout",
+        "record": "0x101c7e5e8",
+        "type_ref": "0x101a097a6",
+        "flags": 2
+      },
+      {
+        "name": "fiveRotationValues",
+        "record": "0x101c7e5f4",
+        "type_ref": "0x101b776e6",
+        "flags": 0
+      },
+      {
+        "name": "fourRotationValues",
+        "record": "0x101c7e600",
+        "type_ref": "0x101b776e6",
+        "flags": 0
+      },
+      {
+        "name": "threeRotationValues",
+        "record": "0x101c7e60c",
+        "type_ref": "0x101b776e6",
+        "flags": 0
+      },
+      {
+        "name": "twoRotationValues",
+        "record": "0x101c7e618",
+        "type_ref": "0x101b776e6",
+        "flags": 0
+      },
+      {
+        "name": "oneRotationValues",
+        "record": "0x101c7e624",
+        "type_ref": "0x101b776e6",
+        "flags": 0
+      },
+      {
+        "name": "stickerItems",
+        "record": "0x101c7e630",
+        "type_ref": "0x101a05c56",
+        "flags": 0
+      },
+      {
+        "name": "isFromPreviewPage",
+        "record": "0x101c7e63c",
+        "type_ref": "0x101a03e26",
+        "flags": 0
+      },
+      {
+        "name": "isSmallMode",
+        "record": "0x101c7e648",
+        "type_ref": "0x101a03e26",
+        "flags": 0
+      },
+      {
+        "name": "availableSize",
+        "record": "0x101c7e654",
+        "type_ref": "0x101a06424",
+        "flags": 2
+      },
+      {
+        "name": "bigCardVerticalOffset",
+        "record": "0x101c7e660",
+        "type_ref": "0x101a06434",
+        "flags": 2
+      },
+      {
+        "name": "previewPageBottomPaddingOverride",
+        "record": "0x101c7e66c",
+        "type_ref": "0x101a06434",
+        "flags": 2
+      },
+      {
+        "name": "_appearAnimation",
+        "record": "0x101c7e678",
+        "type_ref": "0x101a0a016",
+        "flags": 2
+      },
+      {
+        "name": "_toBigCardAnimation",
+        "record": "0x101c7e684",
+        "type_ref": "0x101a0a016",
+        "flags": 2
+      },
+      {
+        "name": "_animation",
+        "record": "0x101c7e690",
+        "type_ref": "0x101a0a016",
+        "flags": 2
+      },
+      {
+        "name": "annotatedTargetTexts",
+        "record": "0x101c7e69c",
+        "type_ref": "0x101b76a8c",
+        "flags": 2
+      },
+      {
+        "name": "__isCardsCombined",
+        "record": "0x101c7e6a8",
+        "type_ref": "0x101a04d68",
+        "flags": 2
+      },
+      {
+        "name": "__toBigCard",
+        "record": "0x101c7e6b4",
+        "type_ref": "0x101a04d68",
+        "flags": 2
+      },
+      {
+        "name": "__resolvedBackgroundColorIDs",
+        "record": "0x101c7e6c0",
+        "type_ref": "0x101b2cf80",
+        "flags": 2
+      },
+      {
+        "name": "__loadedImageIDs",
+        "record": "0x101c7e6cc",
+        "type_ref": "0x101b2cf80",
+        "flags": 2
+      },
+      {
+        "name": "__didReachImageReadinessFallback",
+        "record": "0x101c7e6d8",
+        "type_ref": "0x101a04d68",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.FlashCardReviewModel",
+    "descriptor": "0x101bf2e00",
+    "kind": 16,
+    "accessor": "0x100b452bc",
+    "fields": [
+      {
+        "name": "isDemoMode",
+        "record": "0x101c7e714",
+        "type_ref": "0x101a03e26",
+        "flags": 0
+      },
+      {
+        "name": "dayState",
+        "record": "0x101c7e720",
+        "type_ref": "0x101a065d0",
+        "flags": 0
+      },
+      {
+        "name": "stickerItems",
+        "record": "0x101c7e72c",
+        "type_ref": "0x101a05c56",
+        "flags": 0
+      },
+      {
+        "name": "todayStickerCount",
+        "record": "0x101c7e738",
+        "type_ref": "0x101a03e6e",
+        "flags": 0
+      },
+      {
+        "name": "annotatedTargetTexts",
+        "record": "0x101c7e744",
+        "type_ref": "0x101b76a8c",
+        "flags": 0
+      },
+      {
+        "name": "_startCloudAnimation",
+        "record": "0x101c7e750",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "_contentAppearAnimation",
+        "record": "0x101c7e75c",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "_showPreviewButton",
+        "record": "0x101c7e768",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "_cardAppearAnimation",
+        "record": "0x101c7e774",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "_previewButtonFeedback",
+        "record": "0x101c7e780",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "_closeButtonFeedback",
+        "record": "0x101c7e78c",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "_cameraButtonFeedback",
+        "record": "0x101c7e798",
+        "type_ref": "0x101a14ade",
+        "flags": 2
+      },
+      {
+        "name": "hasStartedAppearAnimation",
+        "record": "0x101c7e7a4",
+        "type_ref": "0x101a03e26",
+        "flags": 2
+      }
+    ]
+  },
+  {
+    "name": "SnapWords.FlashCardReviewView",
+    "descriptor": "0x101bf2fb8",
+    "kind": 17,
+    "accessor": "0x100b46658",
+    "fields": [
+      {
+        "name": "_adaptiveLayout",
+        "record": "0x101c7e7c0",
+        "type_ref": "0x101a097a6",
+        "flags": 2
+      },
+      {
+        "name": "_viewModel",
+        "record": "0x101c7e7cc",
+        "type_ref": "0x101b7911c",
+        "flags": 2
+      },
+      {
+        "name": "_showBigCardAnimation",
+        "record": "0x101c7e7d8",
+        "type_ref": "0x101a0a016",
+        "flags": 2
+      },
+      {
+        "name": "didTappedPreviewbutton",
+        "record": "0x101c7e7e4",
+        "type_ref": "0x101a04d24",
+        "flags": 2
+      },
+      {
+        "name": "didTappedLaterButton",
+        "record": "0x101c7e7f0",
+        "type_ref": "0x101a04d24",
+        "flags": 2
+      },
+      {
+        "name": "didTappedCameraButton",
+        "record": "0x101c7e7fc",
+        "type_ref": "0x101a04d24",
+        "flags": 2
+      }
+    ]
+  }
+]
