@@ -1,0 +1,144 @@
+Building for debugging...
+[Planning deferred tasks]
+[27 / 51]
+[28 / 52] CapWordsCore
+[38 / 96]
+[45 / 96]
+[47 / 96]
+[51 / 96]
+[54 / 96]
+[59 / 96]
+[61 / 96]
+[62 / 96]
+[63 / 96]
+[72 / 96] CapWordsCore
+[80 / 96] CapWordsCore
+[86 / 97] CapWordsCore-product
+[86 / 97] CapWordsCoreTests-product
+[102 / 139]
+[106 / 139]
+[111 / 139]
+[115 / 139]
+[116 / 139]
+[119 / 139]
+[120 / 139]
+[128 / 139] CapWordsCoreTests-product
+[133 / 139] CapWordsCoreTests-product
+[135 / 139] CapWordsCoreTests-product
+Build complete! (7.78秒)
+Test Suite 'All tests' started at 2026-10-19 19:21:04.487.
+Test Suite 'CapWordsCoreTests.xctest' started at 2026-10-19 19:21:04.489.
+Test Suite 'AIRecognitionTests' started at 2026-10-19 19:21:04.489.
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testConfigurationRejectsUnsafeOrMissingValues]' started.
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testConfigurationRejectsUnsafeOrMissingValues]' passed (0.001 seconds).
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testImageRequestUsesOfficialProtocol]' started.
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testImageRequestUsesOfficialProtocol]' passed (0.003 seconds).
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testRejectsWrongLanguageEmptyNameTruncationAndMalformedResponse]' started.
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testRejectsWrongLanguageEmptyNameTruncationAndMalformedResponse]' passed (0.000 seconds).
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testTransportErrorsAndCancellation]' started.
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testTransportErrorsAndCancellation]' passed (0.003 seconds).
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testValidWordAndUncertainWord]' started.
+Test Case '-[CapWordsCoreTests.AIRecognitionTests testValidWordAndUncertainWord]' passed (0.000 seconds).
+Test Suite 'AIRecognitionTests' passed at 2026-10-19 19:21:04.497.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'CaptureResultGateTests' started at 2026-10-19 19:21:04.497.
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_allArrivalOrdersRequireAllThreeSignals]' started.
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_allArrivalOrdersRequireAllThreeSignals]' passed (0.000 seconds).
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_fastRecognitionWaitsForUserAndSheet]' started.
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_fastRecognitionWaitsForUserAndSheet]' passed (0.000 seconds).
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_retakeDiscardsPreviousReadiness]' started.
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_retakeDiscardsPreviousReadiness]' passed (0.000 seconds).
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_slowRecognitionRevealsWhenItArrives]' started.
+Test Case '-[CapWordsCoreTests.CaptureResultGateTests test_slowRecognitionRevealsWhenItArrives]' passed (0.000 seconds).
+Test Suite 'CaptureResultGateTests' passed at 2026-10-19 19:21:04.497.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'CapWordsCoreTests.xctest' passed at 2026-10-19 19:21:04.497.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.008 (0.008) seconds
+Test Suite 'All tests' passed at 2026-10-19 19:21:04.497.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.008 (0.010) seconds
+◇ Test run started.
+↳ Testing Library Version: 2070
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite LibraryScrollPolicyTests started.
+◇ Suite CoreTests started.
+◇ Suite CameraPullPolicyTests started.
+◇ Suite StartupPolicyTests started.
+◇ Test transparentImageBoundsPreserveTopOrigin() started.
+◇ Test aspectFillProjectionAccountsForCropping() started.
+◇ Test reviewScheduleAndReset() started.
+◇ Test persistenceSeedAndDelete() started.
+◇ Test aliasesUnknownObjectsAndTranslations() started.
+◇ Test shortPullReturnsToLibraryWhileDeliberatePullOrFlingOpensCamera() started.
+◇ Test cameraOnlyStartsWithAGestureAtTodaysTop() started.
+◇ Test returningFromHistoryUsesOnlyDownwardPageGesture() started.
+◇ Test emptyTodayAdvancesExactlyOnePageEvenWithFastFling() started.
+◇ Test emptyCoverCommitsOneVerticalPullButIgnoresSmallOrSidewaysDrags() started.
+◇ Test smallDragAndTopBounceStayOnToday() started.
+◇ Test historyScrollsFreelyUntilItEntersEmptyPage() started.
+◇ Test dateGroupsUseLocalDayNotUTCDate() started.
+◇ Test roundingAtShortFinalDayStillAllowsSnapping() started.
+◇ Test greetingHourBoundaries(hour:expected:) started.
+◇ Test legacyMigrationOnlyAppliesWhenValueIsMissing() started.
+◇ Test dateGroupsDeduplicateAndSortAcrossYearBoundary() started.
+◇ Test libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+◇ Test dateGroupsRespectDaylightSavingAndKeepSourceDates() started.
+◇ Test greetingUsesInjectedTimeZone() started.
+◇ Test headerKeepsEmptyFirstDayMessageDespiteHistoricalWords() started.
+◇ Test emptyLibraryStillHasToday() started.
+◇ Test pinnedDateTracksCrossedHeadersInBothDirectionsAndFastScrolls() started.
+◇ Test populatedTodayAndAbsentHistoryDoNotInventPages() started.
+◇ Test reviewComparisonUsesLocalCalendarBoundary() started.
+◇ Test dailyReviewWhenNotPreviewedToday() started.
+◇ Test explicitOnboardingValueAlwaysOverridesLegacyState() started.
+◇ Test pullFollowsVerticalDistanceWithoutOpeningForOtherDirections() started.
+◇ Test sameDayReviewIsSuppressedEvenAtDifferentHours() started.
+◇ Test newUserTakesOnboardingBeforeOtherRoutes() started.
+✔ Test aspectFillProjectionAccountsForCropping() passed after 0.001 seconds.
+◇ Test case passing 2 arguments hour → 0, expected → "晚上好 (^▽^)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 2 arguments hour → 4, expected → "早上好 :)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 2 arguments hour → 3, expected → "晚上好 (^▽^)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 3 arguments words → 0, due → 0, disabled → false to libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+◇ Test case passing 2 arguments hour → 11, expected → "早上好 :)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 3 arguments words → 0, due → 2, disabled → false to libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+◇ Test case passing 2 arguments hour → 12, expected → "下午好 :-)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 2 arguments hour → 17, expected → "下午好 :-)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 2 arguments hour → 18, expected → "晚上好 (^▽^)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 2 arguments hour → 23, expected → "晚上好 (^▽^)" to greetingHourBoundaries(hour:expected:) started.
+◇ Test case passing 3 arguments words → 3, due → 0, disabled → false to libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+◇ Test case passing 3 arguments words → 3, due → 2, disabled → true to libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+◇ Test case passing 3 arguments words → -1, due → 2, disabled → false to libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+◇ Test case passing 3 arguments words → 3, due → -1, disabled → false to libraryWhenReviewIsUnavailable(words:due:disabled:) started.
+✔ Test smallDragAndTopBounceStayOnToday() passed after 0.001 seconds.
+✔ Test historyScrollsFreelyUntilItEntersEmptyPage() passed after 0.001 seconds.
+✔ Test emptyTodayAdvancesExactlyOnePageEvenWithFastFling() passed after 0.001 seconds.
+✔ Test shortPullReturnsToLibraryWhileDeliberatePullOrFlingOpensCamera() passed after 0.001 seconds.
+✔ Test emptyCoverCommitsOneVerticalPullButIgnoresSmallOrSidewaysDrags() passed after 0.001 seconds.
+✔ Test roundingAtShortFinalDayStillAllowsSnapping() passed after 0.001 seconds.
+✔ Test aliasesUnknownObjectsAndTranslations() passed after 0.001 seconds.
+✔ Test legacyMigrationOnlyAppliesWhenValueIsMissing() passed after 0.001 seconds.
+✔ Test dateGroupsDeduplicateAndSortAcrossYearBoundary() passed after 0.001 seconds.
+✔ Test cameraOnlyStartsWithAGestureAtTodaysTop() passed after 0.001 seconds.
+✔ Test emptyLibraryStillHasToday() passed after 0.001 seconds.
+✔ Test libraryWhenReviewIsUnavailable(words:due:disabled:) with 6 test cases passed after 0.001 seconds.
+✔ Test returningFromHistoryUsesOnlyDownwardPageGesture() passed after 0.001 seconds.
+✔ Test headerKeepsEmptyFirstDayMessageDespiteHistoricalWords() passed after 0.001 seconds.
+✔ Test pinnedDateTracksCrossedHeadersInBothDirectionsAndFastScrolls() passed after 0.001 seconds.
+✔ Test dateGroupsUseLocalDayNotUTCDate() passed after 0.001 seconds.
+✔ Test reviewComparisonUsesLocalCalendarBoundary() passed after 0.001 seconds.
+✔ Test populatedTodayAndAbsentHistoryDoNotInventPages() passed after 0.001 seconds.
+✔ Test dailyReviewWhenNotPreviewedToday() passed after 0.001 seconds.
+✔ Test explicitOnboardingValueAlwaysOverridesLegacyState() passed after 0.001 seconds.
+✔ Test greetingHourBoundaries(hour:expected:) with 8 test cases passed after 0.001 seconds.
+✔ Test dateGroupsRespectDaylightSavingAndKeepSourceDates() passed after 0.001 seconds.
+✔ Test greetingUsesInjectedTimeZone() passed after 0.001 seconds.
+✔ Test sameDayReviewIsSuppressedEvenAtDifferentHours() passed after 0.001 seconds.
+✔ Test newUserTakesOnboardingBeforeOtherRoutes() passed after 0.001 seconds.
+✔ Test pullFollowsVerticalDistanceWithoutOpeningForOtherDirections() passed after 0.001 seconds.
+✔ Suite CameraPullPolicyTests passed after 0.001 seconds.
+✔ Suite LibraryScrollPolicyTests passed after 0.001 seconds.
+✔ Suite StartupPolicyTests passed after 0.001 seconds.
+✔ Test reviewScheduleAndReset() passed after 0.002 seconds.
+✔ Test transparentImageBoundsPreserveTopOrigin() passed after 0.004 seconds.
+✔ Test persistenceSeedAndDelete() passed after 0.012 seconds.
+✔ Suite CoreTests passed after 0.012 seconds.
+✔ Test run with 30 tests in 4 suites passed after 0.012 seconds.

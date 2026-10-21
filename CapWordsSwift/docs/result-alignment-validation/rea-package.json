@@ -1,0 +1,116 @@
+{
+  "evidence_id": "ev_b9a993d7b834367ffd314a39b92df1060c8fee0adc9ccf60167224c14ba1878c",
+  "subject": {
+    "name": "cap.ipa",
+    "digest": {
+      "sha256": "c6cc5aba8194c044fea2f7df1c92c290fb58502a90fdb5afd3df9522c9f61fe8"
+    },
+    "local_path": "/Volumes/homex/Desktop/github/rea-work/cap.ipa",
+    "format": "ipa",
+    "architecture": null
+  },
+  "provider": {
+    "id": "rea-analysis-view",
+    "name": "REA analysis view projection",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis-view",
+  "operation": "inspect_analysis_view",
+  "parameters": {
+    "parent_evidence_id": "ev_6c658e68d2ac4a7de478ae226e963069f7d98602912d38ef58d08feedbe8e2ec",
+    "view": {
+      "kind": "summary"
+    }
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "kind": "summary",
+    "view": {
+      "kind": "summary"
+    },
+    "parent_evidence_id": "ev_6c658e68d2ac4a7de478ae226e963069f7d98602912d38ef58d08feedbe8e2ec",
+    "parent_operation": "inspect_artifact",
+    "parent_digest": "6c658e68d2ac4a7de478ae226e963069f7d98602912d38ef58d08feedbe8e2ec",
+    "view_digest": "4aec8b592f277d61cf2a62a1701f449d6fc876f03e750d792e59e6104c2158f3",
+    "artifact": {
+      "path": "/Volumes/homex/Desktop/github/rea-work/cap.ipa",
+      "sha256": "c6cc5aba8194c044fea2f7df1c92c290fb58502a90fdb5afd3df9522c9f61fe8"
+    },
+    "coverage": {
+      "status": "complete-within-view",
+      "examined": 1550,
+      "total": 1550,
+      "next_offset": null,
+      "exhausted": true
+    },
+    "limitations": [
+      "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+      "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+    ],
+    "unknowns": [
+      "Inventory does not establish application runtime behavior or complete format-specific analysis."
+    ],
+    "summary": {
+      "manifest": {
+        "manifest_id": "agm_6ac1b7f80c4aff7a8c5ce2293b2928b140475db3d96813008fa3fe6e04c15ac6",
+        "root_artifact_id": "art_11b2f8a63486b2765a98e2f000a1303df53151b7ee5541c94afb224664ce3cd9",
+        "root_sha256": "c6cc5aba8194c044fea2f7df1c92c290fb58502a90fdb5afd3df9522c9f61fe8",
+        "root_format": "ipa",
+        "graph_sha256": "6a03f0b0906194af2dc4ff04e06dc638722c9cb0925199c0035f978e16b0cd02",
+        "node_count": 495,
+        "occurrence_count": 528,
+        "edge_count": 527
+      },
+      "available_counts": {
+        "nodes": 495,
+        "occurrences": 528,
+        "edges": 527,
+        "integrity_contradictions": 0
+      },
+      "observed_entry_kind_counts": {
+        "file": 388,
+        "directory": 140,
+        "symlink": 0,
+        "slice": 0
+      },
+      "source_complete": true,
+      "inventory_evidence_ids": [
+        "ev_3c72b145d1531797eaf063971824a6cf8a350af28ba237bcf11b1aa4e5412617"
+      ],
+      "inspection": {
+        "coverage": {
+          "status": "complete-within-substeps",
+          "substeps_completed": 1,
+          "observations_retained": 1,
+          "observations_omitted": 0,
+          "hypotheses_retained": 0,
+          "hypotheses_omitted": 0,
+          "unexplored_branches_retained": 0,
+          "unexplored_branches_omitted": 0,
+          "next_probes_retained": 0,
+          "next_probes_omitted": 0
+        },
+        "unexplored_branches": []
+      },
+      "limitation_count": 2
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Inspection derives bounded static hypotheses and next probes; it does not execute the artifact or claim format-specific semantics.",
+    "ZIP inventory lists central-directory entries only. Non-entry bytes, including an APK Signing Block before the central directory or a ZIP comment after it, are not occurrences."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "/Volumes/homex/Desktop/github/rea-work/cap.ipa"
+    }
+  ],
+  "evidence_links": [
+    "ev_6c658e68d2ac4a7de478ae226e963069f7d98602912d38ef58d08feedbe8e2ec"
+  ]
+}

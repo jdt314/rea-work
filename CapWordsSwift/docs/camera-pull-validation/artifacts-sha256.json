@@ -1,0 +1,12 @@
+{
+  "empty/camera.png": "9013f50086754a725b480bf0d497d2d800e57504b692c79d9e0cd6f1fa56a830",
+  "empty/library.png": "4b0b0ef6a8f19802f1033400f23a24b81718a06a81cdef69e7cb28cdc3ab6d9c",
+  "empty/motion.mp4": "d01307e23714310fd294e75be3303dbf3f35c156ded665ced6651a8ba20aab7f",
+  "empty/partial.png": "96c9e3ffce1c6ee1f508683394b9fb4a90ef75c7b85051a65eaa20794eb2f22b",
+  "empty/returned.png": "a4b5cd20b4ea3524eadccbdc43a9fd9d544b90017ded122cbcb0e6a2acad0bd2",
+  "populated/camera.png": "9249933f28f80414c4719950cbd2865ac8271886d3845f39249fcba1fdb53719",
+  "populated/library.png": "a7312e9fe5171c6cb85f9e2877ae96c348df443067063b284e8b650ce759d0b5",
+  "populated/motion.mp4": "493e9f2f2a891348da53a2d48de6c9fda8aabf4dead4ee872d0729f876a79dfe",
+  "populated/partial.png": "b9853201e42931dcd767384e29f67e198025b54ba9bce5617feda4b0e639c516",
+  "populated/returned.png": "c72c642a204247f34ecd1d05b1b71a0a3189ab9eba70d1b8ec3b847d99ac9107"
+}

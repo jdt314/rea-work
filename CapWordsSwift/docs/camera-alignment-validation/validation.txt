@@ -1,0 +1,13 @@
+2026-10-19 camera alignment validation
+Build: TEST BUILD SUCCEEDED (build-for-testing; final source).
+Static check: python3 capwords-analysis/verify_camera_alignment.py exited 0; independent Mach-O parsing and otool agree.
+Rendering: capture_camera_alignment.py exited 0 on iPhone 17 Pro / iOS 26.1.
+UI tests: BLOCKED BEFORE EXECUTION on iOS 26.1 and iOS 26.4.
+Reason: DTServiceHubClient failed to bless service hub; com.apple.instruments.deviceservice.lockdown unavailable.
+Affected existing tests:
+- CapWordsUITests/testCaptureEditSaveReviewAndDelete
+- LibraryTimelineUITests/testDownwardPullOnEmptyTodayOpensCameraAndReturnsToSameDay
+- LibraryTimelineUITests/testDownwardPullOnPopulatedTodayOpensCameraAndReturnsToSameDay
+The stalled attempts were interrupted; no UI test pass is claimed.
+Actual rendering files: camera-reference.png, camera-demo.png, comparison.png.
+Physical camera capture, permission flows and green camera indicator remain unverified.

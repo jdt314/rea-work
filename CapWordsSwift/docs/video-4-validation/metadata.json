@@ -1,0 +1,81 @@
+{
+  "device": "4607AA88-3821-4245-91AA-A1E6B8E407E4",
+  "recognition": "deterministic demo; no real API call",
+  "frames": [
+    {
+      "scenario": "slow",
+      "file": "slow-0.6.png",
+      "secondsAfterLaunchRequest": 1.154566584
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-1.2.png",
+      "secondsAfterLaunchRequest": 1.7036434169999999
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-2.1.png",
+      "secondsAfterLaunchRequest": 2.548217834
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-2.5.png",
+      "secondsAfterLaunchRequest": 3.001273834
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-3.2.png",
+      "secondsAfterLaunchRequest": 3.6601941250000003
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-5.0.png",
+      "secondsAfterLaunchRequest": 5.458649875
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-8.8.png",
+      "secondsAfterLaunchRequest": 9.230844209
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-10.0.png",
+      "secondsAfterLaunchRequest": 10.456336541999999
+    },
+    {
+      "scenario": "slow",
+      "file": "slow-13.0.png",
+      "secondsAfterLaunchRequest": 13.466868917
+    },
+    {
+      "scenario": "fast",
+      "file": "fast-1.0.png",
+      "secondsAfterLaunchRequest": 1.4862035000000002
+    },
+    {
+      "scenario": "fast",
+      "file": "fast-3.8.png",
+      "secondsAfterLaunchRequest": 4.265362709
+    },
+    {
+      "scenario": "fast",
+      "file": "fast-6.0.png",
+      "secondsAfterLaunchRequest": 6.4223406669999985
+    },
+    {
+      "scenario": "failure",
+      "file": "failure-6.0.png",
+      "secondsAfterLaunchRequest": 6.454416417000001
+    },
+    {
+      "scenario": "cancel",
+      "file": "cancel-5.5.png",
+      "secondsAfterLaunchRequest": 7.157899792000002
+    },
+    {
+      "scenario": "cancel",
+      "file": "cancel-14.0.png",
+      "secondsAfterLaunchRequest": 14.528258833999999
+    }
+  ]
+}

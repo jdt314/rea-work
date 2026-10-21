@@ -1,0 +1,191 @@
+{
+  "durationSeconds" : 13.838333333333333,
+  "extraction" : "AVAssetImageGenerator with zero requested time tolerance; actual times recorded",
+  "frames" : [
+    {
+      "actualSeconds" : 2.9966666666666666,
+      "file" : "t0003000.jpg",
+      "requestedSeconds" : 3
+    },
+    {
+      "actualSeconds" : 3.0966666666666667,
+      "file" : "t0003100.jpg",
+      "requestedSeconds" : 3.1000000000000001
+    },
+    {
+      "actualSeconds" : 3.1616666666666666,
+      "file" : "t0003200.jpg",
+      "requestedSeconds" : 3.2000000000000002
+    },
+    {
+      "actualSeconds" : 3.2166666666666668,
+      "file" : "t0003300.jpg",
+      "requestedSeconds" : 3.2999999999999998
+    },
+    {
+      "actualSeconds" : 3.3466666666666667,
+      "file" : "t0003400.jpg",
+      "requestedSeconds" : 3.3999999999999999
+    },
+    {
+      "actualSeconds" : 3.5,
+      "file" : "t0003500.jpg",
+      "requestedSeconds" : 3.5
+    },
+    {
+      "actualSeconds" : 3.5983333333333332,
+      "file" : "t0003600.jpg",
+      "requestedSeconds" : 3.6000000000000001
+    },
+    {
+      "actualSeconds" : 3.7000000000000002,
+      "file" : "t0003700.jpg",
+      "requestedSeconds" : 3.7000000000000002
+    },
+    {
+      "actualSeconds" : 3.7999999999999998,
+      "file" : "t0003800.jpg",
+      "requestedSeconds" : 3.7999999999999998
+    },
+    {
+      "actualSeconds" : 3.8999999999999999,
+      "file" : "t0003900.jpg",
+      "requestedSeconds" : 3.8999999999999999
+    },
+    {
+      "actualSeconds" : 4,
+      "file" : "t0004000.jpg",
+      "requestedSeconds" : 4
+    },
+    {
+      "actualSeconds" : 4.0983333333333336,
+      "file" : "t0004100.jpg",
+      "requestedSeconds" : 4.0999833333333333
+    },
+    {
+      "actualSeconds" : 4.2000000000000002,
+      "file" : "t0004200.jpg",
+      "requestedSeconds" : 4.2000000000000002
+    },
+    {
+      "actualSeconds" : 4.2850000000000001,
+      "file" : "t0004300.jpg",
+      "requestedSeconds" : 4.2999999999999998
+    },
+    {
+      "actualSeconds" : 4.3966666666666665,
+      "file" : "t0004400.jpg",
+      "requestedSeconds" : 4.4000000000000004
+    },
+    {
+      "actualSeconds" : 4.5,
+      "file" : "t0004500.jpg",
+      "requestedSeconds" : 4.5
+    },
+    {
+      "actualSeconds" : 4.5983333333333336,
+      "file" : "t0004600.jpg",
+      "requestedSeconds" : 4.5999999999999996
+    },
+    {
+      "actualSeconds" : 4.6983333333333333,
+      "file" : "t0004700.jpg",
+      "requestedSeconds" : 4.7000000000000002
+    },
+    {
+      "actualSeconds" : 4.7999999999999998,
+      "file" : "t0004800.jpg",
+      "requestedSeconds" : 4.7999999999999998
+    },
+    {
+      "actualSeconds" : 4.8966666666666665,
+      "file" : "t0004900.jpg",
+      "requestedSeconds" : 4.9000000000000004
+    },
+    {
+      "actualSeconds" : 4.9983333333333331,
+      "file" : "t0005000.jpg",
+      "requestedSeconds" : 5
+    },
+    {
+      "actualSeconds" : 5.0983333333333336,
+      "file" : "t0005100.jpg",
+      "requestedSeconds" : 5.0999999999999996
+    },
+    {
+      "actualSeconds" : 5.1983333333333333,
+      "file" : "t0005200.jpg",
+      "requestedSeconds" : 5.2000000000000002
+    },
+    {
+      "actualSeconds" : 5.2833333333333332,
+      "file" : "t0005300.jpg",
+      "requestedSeconds" : 5.2999999999999998
+    },
+    {
+      "actualSeconds" : 5.3983333333333334,
+      "file" : "t0005400.jpg",
+      "requestedSeconds" : 5.4000000000000004
+    },
+    {
+      "actualSeconds" : 5.4983333333333331,
+      "file" : "t0005500.jpg",
+      "requestedSeconds" : 5.5
+    },
+    {
+      "actualSeconds" : 5.5983333333333336,
+      "file" : "t0005600.jpg",
+      "requestedSeconds" : 5.5999999999999996
+    },
+    {
+      "actualSeconds" : 5.6966666666666663,
+      "file" : "t0005700.jpg",
+      "requestedSeconds" : 5.7000000000000002
+    },
+    {
+      "actualSeconds" : 5.7983333333333329,
+      "file" : "t0005800.jpg",
+      "requestedSeconds" : 5.7999999999999998
+    },
+    {
+      "actualSeconds" : 5.8983333333333334,
+      "file" : "t0005900.jpg",
+      "requestedSeconds" : 5.9000000000000004
+    },
+    {
+      "actualSeconds" : 6,
+      "file" : "t0006000.jpg",
+      "requestedSeconds" : 6
+    },
+    {
+      "actualSeconds" : 6.0966666666666667,
+      "file" : "t0006100.jpg",
+      "requestedSeconds" : 6.0999999999999996
+    },
+    {
+      "actualSeconds" : 6.1966666666666663,
+      "file" : "t0006200.jpg",
+      "requestedSeconds" : 6.2000000000000002
+    },
+    {
+      "actualSeconds" : 6.2983333333333329,
+      "file" : "t0006300.jpg",
+      "requestedSeconds" : 6.2999999999999998
+    },
+    {
+      "actualSeconds" : 6.3983333333333334,
+      "file" : "t0006400.jpg",
+      "requestedSeconds" : 6.4000000000000004
+    },
+    {
+      "actualSeconds" : 6.5,
+      "file" : "t0006500.jpg",
+      "requestedSeconds" : 6.5
+    }
+  ],
+  "naturalHeight" : 2622,
+  "naturalWidth" : 1206,
+  "nominalFrameRate" : 66.289566040039062,
+  "sampling" : "fixed interval 0.1 seconds",
+  "source" : "\/Volumes\/homex\/Desktop\/github\/rea-work\/CapWordsSwift\/docs\/video-4-validation\/slow.mp4"
+}

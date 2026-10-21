@@ -1,0 +1,134 @@
+{
+  "evidence_id": "ev_eb3376809c54381adafe56853297abc89d41fbddfc090c2a8c10f6c6f87fe234",
+  "subject": {
+    "name": "cap-main",
+    "digest": {
+      "sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265"
+    },
+    "local_path": "/Volumes/homex/Desktop/github/rea-work/capwords-analysis/evidence/ipa/camera-alignment/cap-main",
+    "format": "mach-o",
+    "architecture": "arm64"
+  },
+  "provider": {
+    "id": "rea-analysis-view",
+    "name": "REA analysis view projection",
+    "version": "1"
+  },
+  "analysis_profile": null,
+  "predicate_type": "rea.analysis-view",
+  "operation": "inspect_analysis_view",
+  "parameters": {
+    "parent_evidence_id": "ev_506f60309e9046f89d758128603596418ebb67b2c3787a8462f68348a6c8a552",
+    "view": {
+      "kind": "summary"
+    }
+  },
+  "raw_result": null,
+  "normalized_result": {
+    "kind": "summary",
+    "view": {
+      "kind": "summary"
+    },
+    "parent_evidence_id": "ev_506f60309e9046f89d758128603596418ebb67b2c3787a8462f68348a6c8a552",
+    "parent_operation": "inspect_macho",
+    "parent_digest": "506f60309e9046f89d758128603596418ebb67b2c3787a8462f68348a6c8a552",
+    "view_digest": "ab09ba0a99ea76aaa6c850d6ae27e54ff8b0063a45e61ef3ed5b69c0719c15c6",
+    "artifact": {
+      "path": "/Volumes/homex/Desktop/github/rea-work/capwords-analysis/evidence/ipa/camera-alignment/cap-main",
+      "sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265"
+    },
+    "coverage": {
+      "status": "complete-within-view",
+      "examined": 7127,
+      "total": 7127,
+      "next_offset": null,
+      "exhausted": true
+    },
+    "limitations": [
+      "Imports and exports combine dyld_info and nm; stripped or toolchain-hidden symbols may be absent.",
+      "Merged nm/dyld_info results may be incomplete for stripped binaries.",
+      "dyld_info textual imports may omit chained or toolchain-unsupported metadata.",
+      "vtool output is retained as provenance but only otool build metadata is normalized."
+    ],
+    "unknowns": [
+      "Native tools did not report exhaustive imports, exports; page exhaustion does not establish absence of unreturned rows."
+    ],
+    "summary": {
+      "format": "mach-o",
+      "selected_architecture": {
+        "name": "arm64",
+        "container_file_offset": 0
+      },
+      "endian": "little",
+      "word_size": 64,
+      "file_type": "2",
+      "flags": [
+        "0x00a10085"
+      ],
+      "uuid": "79A6AC51-5150-3F5C-A09B-AEBFDBFBAE4C",
+      "collections": {
+        "entrypoints": {
+          "returned": 1,
+          "total": 1,
+          "exhaustive": true
+        },
+        "architectures": {
+          "returned": 1,
+          "total": 1,
+          "exhaustive": true
+        },
+        "build_metadata": {
+          "returned": 1,
+          "total": 1,
+          "exhaustive": true
+        },
+        "load_commands": {
+          "returned": 126,
+          "total": 126,
+          "exhaustive": true
+        },
+        "dependencies": {
+          "returned": 105,
+          "total": 105,
+          "exhaustive": true
+        },
+        "imports": {
+          "returned": 6887,
+          "total": null,
+          "exhaustive": false
+        },
+        "exports": {
+          "returned": 1,
+          "total": null,
+          "exhaustive": false
+        },
+        "segments": {
+          "returned": 5,
+          "total": 5,
+          "exhaustive": true
+        }
+      },
+      "provenance_count": 7,
+      "limitation_count": 4
+    }
+  },
+  "confidence": "derived",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "Imports and exports combine dyld_info and nm; stripped or toolchain-hidden symbols may be absent.",
+    "Merged nm/dyld_info results may be incomplete for stripped binaries.",
+    "dyld_info textual imports may omit chained or toolchain-unsupported metadata.",
+    "vtool output is retained as provenance but only otool build metadata is normalized."
+  ],
+  "relationship_coverage": null,
+  "locations": [
+    {
+      "kind": "artifact-path",
+      "path": "/Volumes/homex/Desktop/github/rea-work/capwords-analysis/evidence/ipa/camera-alignment/cap-main"
+    }
+  ],
+  "evidence_links": [
+    "ev_506f60309e9046f89d758128603596418ebb67b2c3787a8462f68348a6c8a552"
+  ]
+}

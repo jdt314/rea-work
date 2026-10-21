@@ -1,0 +1,51 @@
+{
+  "main_sha256": "6954430ff4342d6f2b9a096245caf1921f3e3503212f438904378548e87b0265",
+  "source": "capwords-analysis/evidence/ipa/capture-flow/swift-types.json",
+  "source_sha256": "bbd193143c1315b761f246df4cdc01ed1b7f0bb8c4b96dd7c742b4a7d2b0d1da",
+  "observations": [
+    {
+      "name": "SnapWords.StickerOutlinedTargetWordView",
+      "descriptor": "0x101bf1128",
+      "kind": 17,
+      "accessor": "0x100a9db2c",
+      "fields": [
+        {
+          "name": "text",
+          "record": "0x101c7ce6c",
+          "flags": 0
+        },
+        {
+          "name": "annotatedText",
+          "record": "0x101c7ce78",
+          "flags": 0
+        },
+        {
+          "name": "singleLayerTextColor",
+          "record": "0x101c7ce84",
+          "flags": 0
+        },
+        {
+          "name": "baseFontSize",
+          "record": "0x101c7ce90",
+          "flags": 2
+        },
+        {
+          "name": "color",
+          "record": "0x101c7ce9c",
+          "flags": 2
+        },
+        {
+          "name": "lineLimit",
+          "record": "0x101c7cea8",
+          "flags": 2
+        },
+        {
+          "name": "strokeSize",
+          "record": "0x101c7ceb4",
+          "flags": 2
+        }
+      ]
+    }
+  ],
+  "limitation": "Existing local metadata extraction; not newly decompiled function code"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "fixture": "donut",
+    "exitCode": 0,
+    "output": "{\n  \"image\": \"CapWordsSwift/docs/result-alignment-validation/after/donut.png\",\n  \"circles\": [\n    {\n      \"x\": 0.2259535655058043,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    },\n    {\n      \"x\": 0.4995854063018242,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.19900497512437812\n    },\n    {\n      \"x\": 0.7732172470978441,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    }\n  ]\n}\nPASS: video 4 action geometry\n",
+    "stderr": ""
+  },
+  {
+    "fixture": "key",
+    "exitCode": 0,
+    "output": "{\n  \"image\": \"CapWordsSwift/docs/result-alignment-validation/after/key.png\",\n  \"circles\": [\n    {\n      \"x\": 0.2259535655058043,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    },\n    {\n      \"x\": 0.4995854063018242,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.19900497512437812\n    },\n    {\n      \"x\": 0.7732172470978441,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    }\n  ]\n}\nPASS: video 4 action geometry\n",
+    "stderr": ""
+  },
+  {
+    "fixture": "long",
+    "exitCode": 0,
+    "output": "{\n  \"image\": \"CapWordsSwift/docs/result-alignment-validation/after/long.png\",\n  \"circles\": [\n    {\n      \"x\": 0.2259535655058043,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    },\n    {\n      \"x\": 0.4995854063018242,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.19900497512437812\n    },\n    {\n      \"x\": 0.7732172470978441,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    }\n  ]\n}\nPASS: video 4 action geometry\n",
+    "stderr": ""
+  },
+  {
+    "fixture": "missing",
+    "exitCode": 0,
+    "output": "{\n  \"image\": \"CapWordsSwift/docs/result-alignment-validation/after/missing.png\",\n  \"circles\": [\n    {\n      \"x\": 0.2259535655058043,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    },\n    {\n      \"x\": 0.4995854063018242,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.19900497512437812\n    },\n    {\n      \"x\": 0.7732172470978441,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    }\n  ]\n}\nPASS: video 4 action geometry\n",
+    "stderr": ""
+  },
+  {
+    "fixture": "slow",
+    "exitCode": 0,
+    "output": "{\n  \"image\": \"CapWordsSwift/docs/result-alignment-validation/after/slow.png\",\n  \"circles\": [\n    {\n      \"x\": 0.2259535655058043,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    },\n    {\n      \"x\": 0.4995854063018242,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.19900497512437812\n    },\n    {\n      \"x\": 0.7732172470978441,\n      \"y\": 0.5368039664378337,\n      \"diameter\": 0.14925373134328357\n    }\n  ]\n}\nPASS: video 4 action geometry\n",
+    "stderr": ""
+  }
+]

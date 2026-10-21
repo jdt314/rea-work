@@ -1,0 +1,54 @@
+{
+  "device": "4607AA88-3821-4245-91AA-A1E6B8E407E4",
+  "recognition": "Debug fixtures, no real API",
+  "scenarios": [
+    [
+      "donut",
+      [
+        "--preview-result"
+      ]
+    ],
+    [
+      "camera",
+      [
+        "--preview-camera",
+        "--camera-layout-reference"
+      ]
+    ],
+    [
+      "key",
+      [
+        "--preview-result",
+        "--result-fixture-key"
+      ]
+    ],
+    [
+      "long",
+      [
+        "--preview-result",
+        "--result-fixture-long"
+      ]
+    ],
+    [
+      "missing",
+      [
+        "--preview-result",
+        "--result-fixture-missing"
+      ]
+    ],
+    [
+      "cutout",
+      [
+        "--preview-cutout",
+        "--preview-camera"
+      ]
+    ],
+    [
+      "slow",
+      [
+        "--preview-result",
+        "--recognition-slow"
+      ]
+    ]
+  ]
+}

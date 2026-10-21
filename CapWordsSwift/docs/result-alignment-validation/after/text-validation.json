@@ -1,0 +1,37 @@
+[
+  {
+    "bottom" : 0.42653742253827409,
+    "expected" : "甜甜圈",
+    "fixture" : "donut",
+    "passed" : true,
+    "recognized" : "甜甜圈"
+  },
+  {
+    "bottom" : 0.42601067859130581,
+    "expected" : "钥匙",
+    "fixture" : "key",
+    "passed" : true,
+    "recognized" : "钥匙"
+  },
+  {
+    "bottom" : 0.46075581415194022,
+    "expected" : "无线游戏手柄",
+    "fixture" : "long",
+    "passed" : true,
+    "recognized" : "无线游戏手柄"
+  },
+  {
+    "bottom" : 0.42601067862112796,
+    "expected" : "补充中文名称",
+    "fixture" : "missing",
+    "passed" : true,
+    "recognized" : "补充中文名称"
+  },
+  {
+    "bottom" : 0.42653742253827409,
+    "expected" : "甜甜圈",
+    "fixture" : "slow",
+    "passed" : true,
+    "recognized" : "甜甜圈"
+  }
+]

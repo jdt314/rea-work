@@ -1,0 +1,76 @@
+{
+  "durationSeconds" : 10.503333333333334,
+  "extraction" : "AVAssetImageGenerator with zero requested time tolerance; actual times recorded",
+  "frames" : [
+    {
+      "actualSeconds" : 3.29,
+      "file" : "t0003300.jpg",
+      "requestedSeconds" : 3.2999999999999998
+    },
+    {
+      "actualSeconds" : 3.3916666666666666,
+      "file" : "t0003400.jpg",
+      "requestedSeconds" : 3.3999999999999999
+    },
+    {
+      "actualSeconds" : 3.4900000000000002,
+      "file" : "t0003500.jpg",
+      "requestedSeconds" : 3.5
+    },
+    {
+      "actualSeconds" : 3.5950000000000002,
+      "file" : "t0003600.jpg",
+      "requestedSeconds" : 3.5999833333333333
+    },
+    {
+      "actualSeconds" : 3.6916666666666669,
+      "file" : "t0003700.jpg",
+      "requestedSeconds" : 3.6999833333333334
+    },
+    {
+      "actualSeconds" : 3.7933333333333334,
+      "file" : "t0003800.jpg",
+      "requestedSeconds" : 3.7999999999999998
+    },
+    {
+      "actualSeconds" : 3.8900000000000001,
+      "file" : "t0003900.jpg",
+      "requestedSeconds" : 3.8999999999999999
+    },
+    {
+      "actualSeconds" : 3.9900000000000002,
+      "file" : "t0004000.jpg",
+      "requestedSeconds" : 4
+    },
+    {
+      "actualSeconds" : 4.0916666666666668,
+      "file" : "t0004100.jpg",
+      "requestedSeconds" : 4.0999833333333333
+    },
+    {
+      "actualSeconds" : 4.1916666666666664,
+      "file" : "t0004200.jpg",
+      "requestedSeconds" : 4.2000000000000002
+    },
+    {
+      "actualSeconds" : 4.29,
+      "file" : "t0004300.jpg",
+      "requestedSeconds" : 4.2999999999999998
+    },
+    {
+      "actualSeconds" : 4.3899999999999997,
+      "file" : "t0004400.jpg",
+      "requestedSeconds" : 4.3999833333333331
+    },
+    {
+      "actualSeconds" : 4.4900000000000002,
+      "file" : "t0004500.jpg",
+      "requestedSeconds" : 4.5
+    }
+  ],
+  "naturalHeight" : 2622,
+  "naturalWidth" : 1206,
+  "nominalFrameRate" : 59.64801025390625,
+  "sampling" : "fixed interval 0.1 seconds",
+  "source" : "\/Volumes\/homex\/Desktop\/github\/rea-work\/CapWordsSwift\/docs\/video-4-validation\/slow.mp4"
+}
