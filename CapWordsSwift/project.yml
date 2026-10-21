@@ -1,0 +1,68 @@
+name: CapWordsSwift
+options:
+  bundleIdPrefix: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12
+  deploymentTarget:
+    iOS: '18.0'
+  xcodeVersion: '27.0'
+settings:
+  base:
+    SWIFT_VERSION: '6.0'
+    SWIFT_STRICT_CONCURRENCY: complete
+    TARGETED_DEVICE_FAMILY: '1,2'
+    DEVELOPMENT_TEAM: F89LUFLT5B
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  CapWordsSwift:
+    type: application
+    platform: iOS
+    sources: [App]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12
+        CODE_SIGN_IDENTITY: iPhone Developer
+        CODE_SIGN_ENTITLEMENTS: App/CapWordsSwift.entitlements
+        INFOPLIST_FILE: App/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - target: WordroveWidget
+        embed: true
+        codeSign: true
+    scheme:
+      testTargets: [CapWordsSwiftTests, CapWordsSwiftUITests]
+  WordroveWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Widget
+      - path: App/Models/WidgetWordSnapshot.swift
+      - path: App/Resources/Localizable.xcstrings
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12.widgets
+        INFOPLIST_FILE: Widget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: Widget/WordroveWidget.entitlements
+        APPLICATION_EXTENSION_API_ONLY: YES
+        SKIP_INSTALL: YES
+  CapWordsSwiftTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [Tests]
+    dependencies:
+      - target: CapWordsSwift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12.CapWordsSwiftTests
+        GENERATE_INFOPLIST_FILE: YES
+  CapWordsSwiftUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: CapWordsSwift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12.CapWordsSwiftUITests
+        GENERATE_INFOPLIST_FILE: YES
