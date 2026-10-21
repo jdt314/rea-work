@@ -1,0 +1,40 @@
+Building for debugging...
+[Planning deferred tasks]
+[27 / 51]
+[28 / 52] CapWordsCore
+[38 / 97]
+[45 / 97]
+[47 / 97]
+[52 / 97]
+[56 / 97]
+[59 / 97]
+[62 / 97]
+[63 / 97]
+[73 / 97] CapWordsCore
+[81 / 97] CapWordsCore
+[83 / 97] CapWordsCore
+[87 / 98] CapWordsCoreTests-product
+[104 / 141]
+[108 / 141]
+[112 / 141]
+[115 / 141]
+[117 / 141]
+[120 / 141]
+[121 / 141]
+[130 / 141] CapWordsCoreTests-product
+[135 / 141] CapWordsCoreTests-product
+[137 / 141] CapWordsCoreTests-product
+Build complete! (7.28秒)
+◇ Test run started.
+↳ Testing Library Version: 2070
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite AppAppearanceTests started.
+◇ Test missingAndUnknownPreferencesFollowSystem() started.
+◇ Test storedSelectionRoundTrips(mode:) started.
+✔ Test missingAndUnknownPreferencesFollowSystem() passed after 0.001 seconds.
+◇ Test case passing 1 argument mode → .light to storedSelectionRoundTrips(mode:) started.
+◇ Test case passing 1 argument mode → .dark to storedSelectionRoundTrips(mode:) started.
+◇ Test case passing 1 argument mode → .system to storedSelectionRoundTrips(mode:) started.
+✔ Test storedSelectionRoundTrips(mode:) with 3 test cases passed after 0.001 seconds.
+✔ Suite AppAppearanceTests passed after 0.001 seconds.
+✔ Test run with 2 tests in 1 suite passed after 0.001 seconds.

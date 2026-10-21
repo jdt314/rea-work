@@ -1,0 +1,115 @@
+{
+  "checks": [
+    {
+      "capture": "light-settings",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.57,
+      "pass": true
+    },
+    {
+      "capture": "dark-settings",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.5883,
+      "pass": true
+    },
+    {
+      "capture": "live-dark",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.2265,
+      "pass": true
+    },
+    {
+      "capture": "system-dark",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.2265,
+      "pass": true
+    },
+    {
+      "capture": "explicit-dark-on-light",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.5883,
+      "pass": true
+    },
+    {
+      "capture": "persisted-dark",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.5883,
+      "pass": true
+    },
+    {
+      "capture": "live-light",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.2318,
+      "pass": true
+    },
+    {
+      "capture": "live-light-again",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.2318,
+      "pass": true
+    },
+    {
+      "capture": "live-system",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.2318,
+      "pass": true
+    },
+    {
+      "capture": "system-light",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.2318,
+      "pass": true
+    },
+    {
+      "capture": "explicit-light-on-dark",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.57,
+      "pass": true
+    }
+  ],
+  "limitations": "Background rendering only; button selection and text reviewed separately, no tap simulation."
+}

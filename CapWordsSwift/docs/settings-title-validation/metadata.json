@@ -1,0 +1,13 @@
+{
+  "device": "4607AA88-3821-4245-91AA-A1E6B8E407E4",
+  "captures": [
+    "light-expanded.png",
+    "light-collapsed.png",
+    "light-restored.png",
+    "dark-expanded.png",
+    "dark-collapsed.png",
+    "dark-restored.png"
+  ],
+  "method": "One process per appearance. Debug ScrollViewReader replay, not synthesized touches.",
+  "sequence": "Expanded, scroll to App section, scroll back to top."
+}

@@ -1,0 +1,32 @@
+{
+  "device": "4607AA88-3821-4245-91AA-A1E6B8E407E4",
+  "captures": [
+    "light-header",
+    "light-general",
+    "light-language",
+    "light-reminder",
+    "light-voice",
+    "light-profile",
+    "light-health",
+    "light-native-language",
+    "light-footer",
+    "light-widgets",
+    "light-faq",
+    "light-about",
+    "dark-header",
+    "dark-general",
+    "dark-footer",
+    "dark-profile",
+    "dark-language",
+    "dark-reminder",
+    "dark-voice",
+    "dark-widgets",
+    "dark-health",
+    "dark-faq",
+    "dark-about",
+    "dark-native-language",
+    "en-light-header",
+    "en-light-general"
+  ],
+  "method": "Debug routes render real SwiftUI views; no touch or system permission requests."
+}

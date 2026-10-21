@@ -1,0 +1,33 @@
+{
+  "device": "4607AA88-3821-4245-91AA-A1E6B8E407E4",
+  "originalSystemAppearance": "light",
+  "captures": [
+    "light-home",
+    "light-settings",
+    "light-library",
+    "light-review",
+    "light-conversation",
+    "light-detail",
+    "light-result",
+    "dark-home",
+    "dark-settings",
+    "dark-library",
+    "dark-review",
+    "dark-conversation",
+    "dark-detail",
+    "dark-result",
+    "live-light",
+    "live-dark",
+    "live-light-again",
+    "live-system",
+    "system-dark",
+    "system-light",
+    "explicit-dark-on-light",
+    "persisted-dark",
+    "explicit-light-on-dark",
+    "camera-in-light",
+    "dark-home-bottom",
+    "light-home-bottom"
+  ],
+  "input": "debug programmatic routes and AppStorage replay; not simulated taps"
+}

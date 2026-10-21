@@ -1,0 +1,235 @@
+{
+  "checks": [
+    {
+      "capture": "light-home",
+      "expectedBackgroundRGB": [
+        244,
+        245,
+        246
+      ],
+      "coverage": 0.1762,
+      "pass": true
+    },
+    {
+      "capture": "light-settings",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3738,
+      "pass": true
+    },
+    {
+      "capture": "light-library",
+      "expectedBackgroundRGB": [
+        246,
+        246,
+        246
+      ],
+      "coverage": 0.5834,
+      "pass": true
+    },
+    {
+      "capture": "light-review",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3869,
+      "pass": true
+    },
+    {
+      "capture": "light-conversation",
+      "expectedBackgroundRGB": [
+        244,
+        245,
+        246
+      ],
+      "coverage": 0.3551,
+      "pass": true
+    },
+    {
+      "capture": "light-detail",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.4176,
+      "pass": true
+    },
+    {
+      "capture": "light-result",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.6725,
+      "pass": true
+    },
+    {
+      "capture": "dark-home",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.1789,
+      "pass": true
+    },
+    {
+      "capture": "dark-settings",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.4047,
+      "pass": true
+    },
+    {
+      "capture": "dark-library",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.6674,
+      "pass": true
+    },
+    {
+      "capture": "dark-review",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.5573,
+      "pass": true
+    },
+    {
+      "capture": "dark-conversation",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.376,
+      "pass": true
+    },
+    {
+      "capture": "dark-detail",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.4856,
+      "pass": true
+    },
+    {
+      "capture": "dark-result",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.7207,
+      "pass": true
+    },
+    {
+      "capture": "live-dark",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.3975,
+      "pass": true
+    },
+    {
+      "capture": "system-dark",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.3976,
+      "pass": true
+    },
+    {
+      "capture": "explicit-dark-on-light",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.3976,
+      "pass": true
+    },
+    {
+      "capture": "persisted-dark",
+      "expectedBackgroundRGB": [
+        27,
+        27,
+        27
+      ],
+      "coverage": 0.3976,
+      "pass": true
+    },
+    {
+      "capture": "live-light",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3738,
+      "pass": true
+    },
+    {
+      "capture": "live-light-again",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3739,
+      "pass": true
+    },
+    {
+      "capture": "live-system",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3739,
+      "pass": true
+    },
+    {
+      "capture": "system-light",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3739,
+      "pass": true
+    },
+    {
+      "capture": "explicit-light-on-dark",
+      "expectedBackgroundRGB": [
+        249,
+        247,
+        250
+      ],
+      "coverage": 0.3739,
+      "pass": true
+    }
+  ],
+  "limitations": "Background rendering only; button selection and text reviewed separately, no tap simulation."
+}

@@ -1,0 +1,64 @@
+*** If you believe this error represents a bug, please attach the result bundle at /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Logs/Test/Test-CapWordsSwift-2026.10.18_19-41-02-+0800.xcresult
+
+2026-10-18 19:53:08.085 xcodebuild[14001:1458412]  IDETestOperationsObserverDebug: Failure collecting diagnostics from simulator: Process exited with error 72:
+ xcrun: error: unable to find utility "simctl", not a developer tool or in PATH
+
+2026-10-18 19:53:08.101 xcodebuild[14001:1435430] [MT] IDETestOperationsObserverDebug: 719.776 elapsed -- Testing started completed.
+2026-10-18 19:53:08.101 xcodebuild[14001:1435430] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-18 19:53:08.101 xcodebuild[14001:1435430] [MT] IDETestOperationsObserverDebug: 719.776 sec, +719.776 sec -- end
+
+Test session results, code coverage, and logs:
+	/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Logs/Test/Test-CapWordsSwift-2026.10.18_19-41-02-+0800.xcresult
+
+Testing failed:
+	CapWordsSwift (14210) encountered an error (The test runner hung before establishing connection.)
+	CapWordsSwiftUITests-Runner (15392) encountered an error (The test runner hung before establishing connection.)
+
+** TEST FAILED **
+
+Testing started
+*** If you believe this error represents a bug, please attach the result bundle at /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Logs/Test/Test-CapWordsSwift-2026.10.18_20-20-21-+0800.xcresult
+
+2026-10-18 20:31:45.066 xcodebuild[19301:1518297]  IDETestOperationsObserverDebug: Failure collecting diagnostics from simulator: Process exited with error 72:
+ xcrun: error: unable to find utility "simctl", not a developer tool or in PATH
+
+2026-10-18 20:31:45.075 xcodebuild[19301:1496874] [MT] IDETestOperationsObserverDebug: 676.546 elapsed -- Testing started completed.
+2026-10-18 20:31:45.075 xcodebuild[19301:1496874] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-18 20:31:45.075 xcodebuild[19301:1496874] [MT] IDETestOperationsObserverDebug: 676.546 sec, +676.546 sec -- end
+
+Test session results, code coverage, and logs:
+	/Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Logs/Test/Test-CapWordsSwift-2026.10.18_20-20-21-+0800.xcresult
+
+Testing failed:
+	CapWordsSwift (19507) encountered an error (The test runner hung before establishing connection.)
+	CapWordsSwiftUITests-Runner (20500) encountered an error (The test runner hung before establishing connection.)
+
+** TEST FAILED **
+
+Testing started
+    876 Thread_1500342   DispatchQueue_1: com.apple.main-thread  (serial)
+    + 876 start  (in dyld) + 6652  [0x101191d7c]
+    +   876 start_sim  (in dyld_sim) + 20  [0x100e43e38]
+    +     876 __debug_main_executable_dylib_entry_point  (in CapWordsSwift.debug.dylib) + 12  [0x1017ac0c4]  CapWordsApp.swift:0
+    +       876 static CapWordsApp.$main()  (in CapWordsSwift.debug.dylib) + 40  [0x1017ac004]  /<compiler-generated>:0
+    +         876 static App.main()  (in SwiftUI) + 148  [0x10ad5a9d0]
+    +           876 runApp<A>(_:)  (in SwiftUI) + 204  [0x10afd9ef4]
+    +             876 closure #1 in KitRendererCommon(_:)  (in SwiftUI) + 164  [0x10afda098]
+    +               876 UIApplicationMain  (in UIKitCore) + 124  [0x1497dde28]
+    +                 876 GSEventRunModal  (in GraphicsServices) + 116  [0x1110029ac]
+    +                   876 _CFRunLoopRunSpecificWithOptions  (in CoreFoundation) + 496  [0x10e6c384c]
+    +                     876 __CFRunLoopRun  (in CoreFoundation) + 1128  [0x10e6c8a08]
+    +                       876 __CFRunLoopServiceMachPort  (in CoreFoundation) + 156  [0x10e6c9810]
+    +                         876 mach_msg  (in libsystem_kernel.dylib) + 20  [0x10a4d8edc]
+    +                           876 mach_msg_overwrite  (in libsystem_kernel.dylib) + 484  [0x10a4e0c58]
+    +                             876 mach_msg2_internal  (in libsystem_kernel.dylib) + 72  [0x10a4ea0e4]
+    +                               876 mach_msg2_trap  (in libsystem_kernel.dylib) + 8  [0x10a4d8b5c]
+    876 Thread_1501548
+      876 start_wqthread  (in libsystem_pthread.dylib) + 8  [0x10a695a60]
+        876 _pthread_wqthread  (in libsystem_pthread.dylib) + 364  [0x10a696cac]
+          876 __workq_kernreturn  (in libsystem_kernel.dylib) + 8  [0x10a4da68c]
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+        __workq_kernreturn  (in libsystem_kernel.dylib)        876

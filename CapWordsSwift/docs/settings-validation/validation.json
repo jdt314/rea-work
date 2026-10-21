@@ -1,0 +1,64 @@
+{
+  "appAndWidgetBuild": "TEST BUILD SUCCEEDED",
+  "coreTests": {
+    "executed": 8,
+    "failures": 0
+  },
+  "settingsThemeChecks": {
+    "executed": 11,
+    "allPassed": true
+  },
+  "widgetBundleIdentifier": "com.wordrove.a2px.cn.widgets",
+  "localizationDirectories": [
+    "en.lproj",
+    "zh-Hans.lproj"
+  ],
+  "simulatedEntitlements": {
+    "CapWordsSwift": {
+      "application-identifier": "BR45G268QP.com.wordrove.a2px.cn",
+      "com.apple.developer.healthkit": true,
+      "com.apple.security.application-groups": [
+        "group.com.wordrove.a2px.cn"
+      ]
+    },
+    "WordroveWidget": {
+      "application-identifier": "BR45G268QP.com.wordrove.a2px.cn.widgets",
+      "com.apple.security.application-groups": [
+        "group.com.wordrove.a2px.cn"
+      ]
+    }
+  },
+  "screenshots": [
+    "dark-about.png",
+    "dark-faq.png",
+    "dark-footer.png",
+    "dark-general.png",
+    "dark-header.png",
+    "dark-health.png",
+    "dark-language.png",
+    "dark-native-language.png",
+    "dark-profile.png",
+    "dark-reminder.png",
+    "dark-voice.png",
+    "dark-widgets.png",
+    "en-light-general.png",
+    "en-light-header.png",
+    "light-about.png",
+    "light-faq.png",
+    "light-footer.png",
+    "light-general.png",
+    "light-header.png",
+    "light-health.png",
+    "light-language.png",
+    "light-native-language.png",
+    "light-profile.png",
+    "light-reminder.png",
+    "light-voice.png",
+    "light-widgets.png"
+  ],
+  "limitations": [
+    "Screenshots use Debug routes, not touch automation.",
+    "System notification and Health permissions, Home Screen widget placement and device provisioning require device validation.",
+    "No IPA analysis was needed; layout evidence comes from 6.mp4."
+  ]
+}

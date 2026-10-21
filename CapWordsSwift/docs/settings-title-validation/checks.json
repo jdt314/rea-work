@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "appearance": "light",
+      "titleBoundsInPoints": {
+        "expanded": [
+          31.0,
+          83.67,
+          89.33,
+          111.33
+        ],
+        "collapsed": [
+          185.33,
+          76.67,
+          216.0,
+          91.33
+        ],
+        "restored": [
+          31.0,
+          83.67,
+          89.33,
+          111.33
+        ]
+      },
+      "collapsedCenterX": 200.66500000000002,
+      "expectedCenterX": 201,
+      "pass": true
+    },
+    {
+      "appearance": "dark",
+      "titleBoundsInPoints": {
+        "expanded": [
+          31.33,
+          83.67,
+          89.33,
+          111.33
+        ],
+        "collapsed": [
+          185.33,
+          76.67,
+          216.0,
+          91.33
+        ],
+        "restored": [
+          31.33,
+          83.67,
+          89.33,
+          111.33
+        ]
+      },
+      "collapsedCenterX": 200.66500000000002,
+      "expectedCenterX": 201,
+      "pass": true
+    }
+  ],
+  "background": "Same ScrollTopEdge implementation as Home; no separate navigation-bar backdrop.",
+  "method": "Actual screenshot text pixels in the title band; one process per appearance.",
+  "limitation": "Programmatic scrolling, not synthesized touches."
+}

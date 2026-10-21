@@ -1,0 +1,7 @@
+Ignoring --strip-bitcode because --sign was not passed
+
+PruneExplicitPrecompiledModules /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Volumes/homex/Desktop/github/rea-work/CapWordsSwift/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+** BUILD SUCCEEDED **

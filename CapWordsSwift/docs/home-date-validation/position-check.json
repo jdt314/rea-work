@@ -1,0 +1,89 @@
+{
+  "imageSize": [
+    1206,
+    2622
+  ],
+  "comparison": "dominant card background row extents, excluding status and tab bars",
+  "cards": [
+    {
+      "rgb": [
+        158,
+        150,
+        179
+      ],
+      "collapsedRows": [
+        1422,
+        2003
+      ],
+      "returnedRows": [
+        1422,
+        2003
+      ],
+      "samePosition": true
+    },
+    {
+      "rgb": [
+        125,
+        150,
+        173
+      ],
+      "collapsedRows": [
+        804,
+        1385
+      ],
+      "returnedRows": [
+        804,
+        1385
+      ],
+      "samePosition": true
+    },
+    {
+      "rgb": [
+        153,
+        128,
+        143
+      ],
+      "collapsedRows": [
+        187,
+        766
+      ],
+      "returnedRows": [
+        187,
+        766
+      ],
+      "samePosition": true
+    },
+    {
+      "rgb": [
+        184,
+        163,
+        117
+      ],
+      "collapsedRows": [
+        2040,
+        2228
+      ],
+      "returnedRows": [
+        2040,
+        2228
+      ],
+      "samePosition": true
+    },
+    {
+      "rgb": [
+        152,
+        127,
+        142
+      ],
+      "collapsedRows": [
+        461,
+        748
+      ],
+      "returnedRows": [
+        461,
+        748
+      ],
+      "samePosition": true
+    }
+  ]
+}
