@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-20",
+  "sdk": "iphoneos",
+  "configuration": "Debug",
+  "team": "F89LUFLT5B",
+  "build": "SUCCEEDED",
+  "original_error": {
+    "target": "WordroveWidget",
+    "file": "WordroveWidget.debug.dylib",
+    "error": "errSecInternalComponent",
+    "trust_error": "MissingIntermediate"
+  },
+  "resolution": "Restored the official WWDR G3 public intermediate and restarted the current user trustd agent. Signing failed after reimport alone and passed immediately after the agent restart.",
+  "checks": {
+    "local_certificate_chain": {
+      "exit_code": 0,
+      "output": "...certificate verification successful.\n"
+    },
+    "widget_signature": {
+      "exit_code": 0,
+      "output": "/Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app/PlugIns/WordroveWidget.appex: valid on disk\n/Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app/PlugIns/WordroveWidget.appex: satisfies its Designated Requirement\n"
+    },
+    "app_signature": {
+      "exit_code": 0,
+      "output": "/Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app: valid on disk\n/Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app: satisfies its Designated Requirement\n"
+    }
+  }
+}

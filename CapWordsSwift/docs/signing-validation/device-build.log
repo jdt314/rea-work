@@ -1,0 +1,20 @@
+CodeSign /Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/WordroveWidget.appex/WordroveWidget.debug.dylib (in target 'WordroveWidget' from project 'CapWordsSwift')
+    Signing Identity:     "Apple Development: <REDACTED> (R43BL2F5S8)"
+    Provisioning Profile: "iOS Team Provisioning Profile: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12.widgets"
+CodeSign /Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/WordroveWidget.appex/__preview.dylib (in target 'WordroveWidget' from project 'CapWordsSwift')
+    Signing Identity:     "Apple Development: <REDACTED> (R43BL2F5S8)"
+    Provisioning Profile: "iOS Team Provisioning Profile: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12.widgets"
+CodeSign /Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/WordroveWidget.appex (in target 'WordroveWidget' from project 'CapWordsSwift')
+    Signing Identity:     "Apple Development: <REDACTED> (R43BL2F5S8)"
+    Provisioning Profile: "iOS Team Provisioning Profile: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12.widgets"
+CodeSign /Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app/CapWordsSwift.debug.dylib (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    Signing Identity:     "Apple Development: <REDACTED> (R43BL2F5S8)"
+    Provisioning Profile: "iOS Team Provisioning Profile: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12"
+CodeSign /Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app/__preview.dylib (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    Signing Identity:     "Apple Development: <REDACTED> (R43BL2F5S8)"
+    Provisioning Profile: "iOS Team Provisioning Profile: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12"
+CodeSign /Volumes/homex/Library/Developer/Xcode/DerivedData/CapWordsSwift-cnaohshlkjuyffevpvbgbopikmjm/Build/Products/Debug-iphoneos/CapWordsSwift.app (in target 'CapWordsSwift' from project 'CapWordsSwift')
+    Signing Identity:     "Apple Development: <REDACTED> (R43BL2F5S8)"
+    Provisioning Profile: "iOS Team Provisioning Profile: cn.a2px.wordrove.dev.f89luflt5b.c9e48b12"
+warning: All interface orientations must be supported unless the app requires full screen. (in target 'CapWordsSwift' from project 'CapWordsSwift')
+** BUILD SUCCEEDED **
